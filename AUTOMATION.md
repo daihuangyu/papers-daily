@@ -4,7 +4,9 @@
 
 - 私有仓库：https://github.com/daihuangyu/papers-daily，分支main。用户已明确授权每日自动写入本仓库，无需每次等待人工确认。
 - 云端计划：Asia/Shanghai每天09:00，首个日程2026-11-17 09:00，长期运行，无结束日期。由ChatGPT云端定时任务执行研究、写作、PDF生成和发布，不是创建普通聊天，也不依赖用户电脑开机。
-- 迁移状态：仓库准备与云端写入验证中；任务ID、启用状态、next_run_time及环境核验将在定时服务实际返回后补记。此行不是启用成功的声明。
+- 迁移状态（2026-11-16）：**尚未完成，等待云端执行环境绑定核验**。定时服务确实创建了持久任务并返回正确日程和next_run_time=2026-11-17T09:00:00+08:00，但环境元数据仅为environment_selection=inherited、environments=null；接口说明null表示继承详情不可用，不能据此证明脱离本机。公开的create/update工具没有环境选择参数。网页核验停在ChatGPT登录页。
+- 新任务已暂停（is_enabled=false），避免把未验证的环境当作迁移完成；保留完整任务指令与日程，确认显式云端环境后再启用。此处不将它标记为已完成迁移，也不影响旧本地vllm或原有已暂停跟踪任务。
+- GitHub云端写入已通过实际提交验证：提交cb89908948dc73c98c2c2dfc3467b632adaf9ba9已在main读回；UTF-8运行约定与263425字节PDF二进制上传/读回一致，PDF blob SHA为d760fa9c5218f045760cd9d6e259230b7c5e8b67。采用单父提交与force=false的fast-forward更新。首日2026-11-16目录的15个tree/blob条目SHA全部保留。
 - 创建前已检查云端任务：没有相同的papers-daily每日入库任务；另有已暂停的Vision-OPD论文跟踪任务，保持不变。
 - 原本地任务ID为`vllm`，由原聊天在云端迁移验证后停用。本流程不创建或更改本地任务。
 - 持久状态以远端仓库为准。每次运行重新读取AUTOMATION.md、scripts/、sources.json和全部方向的manifest.json；不得假设上一次临时工作区仍存在。
