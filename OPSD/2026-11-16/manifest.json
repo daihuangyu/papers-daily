@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-16",
+  "direction": "OPSD",
+  "topic": "特权信息、token级 credit 与应用扩展",
+  "window_start": "2026-10-17",
+  "window_end": "2026-11-16",
+  "sources": [
+    {"id":"arxiv:2611.16206","title":"Turning Multi-Agent Communication into Token-Level Credit with On Policy Self Distillation","published":"2026-11-11","url":"https://arxiv.org/abs/2611.16206"},
+    {"id":"arxiv:2611.16064","title":"Privileged Information Does Not Guarantee Privileged Guidance: Auditing On-Policy Self-Distillation for Reasoning Models","published":"2026-11-11","url":"https://arxiv.org/abs/2611.16064"},
+    {"id":"arxiv:2611.15766","title":"Prior-as-Skill: Remember Outside and Read Inside with On-Policy Self-Distillation for Self-Evolving VLM Agents","published":"2026-11-11","url":"https://arxiv.org/abs/2611.15766"},
+    {"id":"arxiv:2611.13680","title":"Bootstrapped On-Policy Distillation","published":"2026-11-10","url":"https://arxiv.org/abs/2611.13680"},
+    {"id":"arxiv:2611.12411","title":"PhysOPSD: Code as Privilege for Physically Plausible Video Generation","published":"2026-11-09","url":"https://arxiv.org/abs/2611.12411"}
+  ]
+}

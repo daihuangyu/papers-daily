@@ -60,6 +60,71 @@
         "title:vllmv0330release",
         "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"
       ]
+    },
+    {
+      "id": "arxiv:2611.16206",
+      "title": "Turning Multi-Agent Communication into Token-Level Credit with On Policy Self Distillation",
+      "published": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.16206",
+      "folder": "OPSD/2026-11-16",
+      "aliases": [
+        "arxiv:2611.16206",
+        "id:arxiv:2611.16206",
+        "title:turningmultiagentcommunicationintotokenlevelcreditwithonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2611.16206"
+      ]
+    },
+    {
+      "id": "arxiv:2611.16064",
+      "title": "Privileged Information Does Not Guarantee Privileged Guidance: Auditing On-Policy Self-Distillation for Reasoning Models",
+      "published": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.16064",
+      "folder": "OPSD/2026-11-16",
+      "aliases": [
+        "arxiv:2611.16064",
+        "id:arxiv:2611.16064",
+        "title:privilegedinformationdoesnotguaranteeprivilegedguidanceauditingonpolicyselfdistillationforreasoningmodels",
+        "url:https://arxiv.org/abs/2611.16064"
+      ]
+    },
+    {
+      "id": "arxiv:2611.15766",
+      "title": "Prior-as-Skill: Remember Outside and Read Inside with On-Policy Self-Distillation for Self-Evolving VLM Agents",
+      "published": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.15766",
+      "folder": "OPSD/2026-11-16",
+      "aliases": [
+        "arxiv:2611.15766",
+        "id:arxiv:2611.15766",
+        "title:priorasskillrememberoutsideandreadinsidewithonpolicyselfdistillationforselfevolvingvlmagents",
+        "url:https://arxiv.org/abs/2611.15766"
+      ]
+    },
+    {
+      "id": "arxiv:2611.13680",
+      "title": "Bootstrapped On-Policy Distillation",
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.13680",
+      "folder": "OPSD/2026-11-16",
+      "aliases": [
+        "arxiv:2611.13680",
+        "id:arxiv:2611.13680",
+        "title:bootstrappedonpolicydistillation",
+        "url:https://arxiv.org/abs/2611.13680"
+      ]
+    },
+    {
+      "id": "arxiv:2611.12411",
+      "title": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12411",
+      "folder": "OPSD/2026-11-16",
+      "aliases": [
+        "arxiv:2611.12411",
+        "id:arxiv:2611.12411",
+        "title:physopsdcodeasprivilegeforphysicallyplausiblevideogeneration",
+        "url:https://arxiv.org/abs/2611.12411"
+      ]
     }
   ],
   "aliases": {
@@ -77,6 +142,26 @@
     "url:https://vllm.ai/blog/2026-11-04-introducing-kinference": "VLM/2026-11-16",
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
-    "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16"
+    "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2611.16206": "OPSD/2026-11-16",
+    "id:arxiv:2611.16206": "OPSD/2026-11-16",
+    "title:turningmultiagentcommunicationintotokenlevelcreditwithonpolicyselfdistillation": "OPSD/2026-11-16",
+    "url:https://arxiv.org/abs/2611.16206": "OPSD/2026-11-16",
+    "arxiv:2611.16064": "OPSD/2026-11-16",
+    "id:arxiv:2611.16064": "OPSD/2026-11-16",
+    "title:privilegedinformationdoesnotguaranteeprivilegedguidanceauditingonpolicyselfdistillationforreasoningmodels": "OPSD/2026-11-16",
+    "url:https://arxiv.org/abs/2611.16064": "OPSD/2026-11-16",
+    "arxiv:2611.15766": "OPSD/2026-11-16",
+    "id:arxiv:2611.15766": "OPSD/2026-11-16",
+    "title:priorasskillrememberoutsideandreadinsidewithonpolicyselfdistillationforselfevolvingvlmagents": "OPSD/2026-11-16",
+    "url:https://arxiv.org/abs/2611.15766": "OPSD/2026-11-16",
+    "arxiv:2611.13680": "OPSD/2026-11-16",
+    "id:arxiv:2611.13680": "OPSD/2026-11-16",
+    "title:bootstrappedonpolicydistillation": "OPSD/2026-11-16",
+    "url:https://arxiv.org/abs/2611.13680": "OPSD/2026-11-16",
+    "arxiv:2611.12411": "OPSD/2026-11-16",
+    "id:arxiv:2611.12411": "OPSD/2026-11-16",
+    "title:physopsdcodeasprivilegeforphysicallyplausiblevideogeneration": "OPSD/2026-11-16",
+    "url:https://arxiv.org/abs/2611.12411": "OPSD/2026-11-16"
   }
 }
