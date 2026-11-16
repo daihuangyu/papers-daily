@@ -3,6 +3,7 @@ import argparse
 import html
 import re
 from pathlib import Path
+from cjk_font import embedded_font
 from PIL import Image as PILImage, ImageDraw, ImageFont
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -12,9 +13,9 @@ from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle, PageBreak
 
 ROOT = Path(__file__).resolve().parents[1]
-FONT = Path('/System/Library/Fonts/Supplemental/Songti.ttc')
 
 def illustrations(folder):
+    FONT = embedded_font((folder / 'report.md').read_text(encoding='utf-8') + '教学示意：机架共享状态与独立执行池共享缓存输入输出复用标准验证接受前缀拒绝后残差采样更新上下文进入下一轮目标保持分布非原文测量图')
     assets = folder / 'assets'
     assets.mkdir(exist_ok=True)
     def chart(name, title, boxes, note):
@@ -38,10 +39,12 @@ def illustrations(folder):
         'Draft 采样\nx ~ q(x)', 'Target 验证\nmin(1, p/q)', '连续接受前缀\n拒绝后残差采样', '更新上下文\n进入下一轮'], '目标：保持 target 分布；可选有损验证不具备同样的等价保证。')
 
 def build(md):
-    pdfmetrics.registerFont(TTFont('CJK',str(FONT),subfontIndex=2))
+    FONT = embedded_font(md.read_text(encoding='utf-8'))
+    pdfmetrics.registerFont(TTFont('CJK',str(FONT)))
+    pdfmetrics.registerFontFamily('CJK',normal='CJK',bold='CJK',italic='CJK',boldItalic='CJK')
     normal = ParagraphStyle('body',fontName='CJK',fontSize=10,leading=17,spaceAfter=8,wordWrap='CJK')
     headings = {n: ParagraphStyle(f'h{n}',parent=normal,fontSize={1:24,2:17,3:13}[n],leading={1:32,2:25,3:20}[n],textColor=colors.HexColor('#164e63'),spaceBefore=12,spaceAfter=9,keepWithNext=True) for n in (1,2,3)}
-    code = ParagraphStyle('code',parent=normal,fontName='Courier',fontSize=8,leading=12,backColor=colors.HexColor('#eef3f7'),borderPadding=7)
+    code = ParagraphStyle('code',parent=normal,fontName='CJK',fontSize=8,leading=12,backColor=colors.HexColor('#eef3f7'),borderPadding=7)
     caption = ParagraphStyle('caption',parent=normal,fontSize=8,leading=12,textColor=colors.HexColor('#536575'))
     def inline(text):
         text=html.escape(text)
@@ -49,7 +52,7 @@ def build(md):
         text=re.sub(r'\*\*(.*?)\*\*',r'<b>\1</b>',text)
         text=re.sub(r'`([^`]+)`',r'\1',text)
         return text
-    lines=md.read_text().splitlines(); story=[]; i=0
+    lines=md.read_text(encoding='utf-8').splitlines(); story=[]; i=0
     while i<len(lines):
         line=lines[i].strip(); i+=1
         if not line: continue
@@ -84,7 +87,7 @@ def build(md):
         story.append(Paragraph(inline(line),caption if line.startswith('图 ') else normal))
     def footer(c,d):
         c.setFont('CJK',8); c.setFillColor(colors.HexColor('#536575'))
-        c.drawString(54,26,'Papers Daily / VLM / vLLM / '+md.parent.name)
+        c.drawString(54,26,'Papers Daily / VLM / '+md.parent.name)
         c.drawRightString(541,26,str(d.page))
     output=md.with_suffix('.pdf')
     SimpleDocTemplate(str(output),pagesize=A4,leftMargin=54,rightMargin=54,topMargin=48,bottomMargin=48,title=lines[0].lstrip('# '),author='Papers Daily').build(story,onFirstPage=footer,onLaterPages=footer)
@@ -94,3 +97,4 @@ if __name__=='__main__':
     p=argparse.ArgumentParser(); p.add_argument('markdown',type=Path); p.add_argument('--illustrations',action='store_true'); a=p.parse_args()
     if a.illustrations: illustrations(a.markdown.parent)
     build(a.markdown)
+

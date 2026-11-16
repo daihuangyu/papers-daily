@@ -1,15 +1,16 @@
 # Papers Daily
 
-多方向论文与硬核技术资料精读。每日报告包含机制、公式、实现细节、原图、实验条件与分级延伸阅读。
+多方向论文精读：机制、公式逐符号解释与推导、手算直觉、实现、原图、实验条件、局限与复现。
 
 ## 更新安排
 
-每天北京时间 09:00，由 Codex 当前聊天的定时任务检索、写作、生成 PDF 并提交。
-README 由清单自动生成；同一来源 ID 或 URL 不允许重复。近期窗口内资料不足时报告实际数量，不用旧资料凑数。
+计划北京时间（Asia/Shanghai）每天09:00，由ChatGPT云端定时任务检索、写作、生成PDF并通过GitHub连接普通提交到main。任务启用与环境验证状态见 [AUTOMATION.md](AUTOMATION.md)。
+每次执行都从仓库读取状态，不依赖个人电脑、SSH或本机路径。首个计划运行时间为2026-11-17 09:00。
+近一个日历月内目标5篇新论文；按arXiv去版本ID、DOI、规范URL及规范标题跨日去重，不足如实报告，不用旧论文或博客凑数。
 
 ## 方向
 
-- [VLM](VLM/README.md)：小型视觉语言模型的训练与后训练，重点为OPD/蒸馏、RL、视觉推理和搜索agent；论文优先。首日vLLM工程资料作为历史内容保留。
+- [VLM](VLM/README.md)
 
 ## 每日索引
 
@@ -29,6 +30,7 @@ README 由清单自动生成；同一来源 ID 或 URL 不允许重复。近期�
 
 ## 仓库约定
 
-`方向/YYYY-MM-DD/` 内含 report.md、report.pdf、manifest.json 与 assets/；scripts/ 管理 PDF、索引和发布。
-基础教程可早于近期窗口，但不算入每日5篇。图片逐图注明出处，原图版权归原作者；教学图和推导明确标注。
-每日发布流程见 [AUTOMATION.md](AUTOMATION.md)。
+`方向/YYYY-MM-DD/` 内含report.md、同内容report.pdf、manifest.json与assets/；其他方向使用独立一级目录。
+PDF嵌入Linux Noto中文字形；基础教程可早于近期窗口，但不计入每日5篇。原图注明论文图号、来源并逐图解释。
+README与各方向索引及sources.json由scripts/update_index.py根据全部manifest重建。sources.json v2保存每个来源的全部去重别名。
+每日发布和失败处理见 [AUTOMATION.md](AUTOMATION.md)。

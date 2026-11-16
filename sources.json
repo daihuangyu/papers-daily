@@ -1,7 +1,82 @@
 {
-  "vllm-blog:2026-11-12-deepseek-v41-flash-vera-rubin": "VLM/2026-11-16",
-  "vllm-blog:2026-11-11-encoder-disaggregation-epd": "VLM/2026-11-16",
-  "vllm-blog:2026-11-06-stable-abi-cuda": "VLM/2026-11-16",
-  "vllm-blog:2026-11-04-introducing-kinference": "VLM/2026-11-16",
-  "vllm-release:0.33.0": "VLM/2026-11-16"
+  "schema_version": 2,
+  "sources": [
+    {
+      "id": "vllm-blog:2026-11-12-deepseek-v41-flash-vera-rubin",
+      "title": "DeepSeek-V4.1-Flash on Vera Rubin NVL72",
+      "published": "2026-11-12",
+      "url": "https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin",
+      "folder": "VLM/2026-11-16",
+      "aliases": [
+        "id:vllm-blog:2026-11-12-deepseek-v41-flash-vera-rubin",
+        "title:deepseekv41flashonverarubinnvl72",
+        "url:https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin"
+      ]
+    },
+    {
+      "id": "vllm-blog:2026-11-11-encoder-disaggregation-epd",
+      "title": "Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD",
+      "published": "2026-11-11",
+      "url": "https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd",
+      "folder": "VLM/2026-11-16",
+      "aliases": [
+        "id:vllm-blog:2026-11-11-encoder-disaggregation-epd",
+        "title:encoderdisaggregationinvllmscalingmultimodalservingwithepd",
+        "url:https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd"
+      ]
+    },
+    {
+      "id": "vllm-blog:2026-11-06-stable-abi-cuda",
+      "title": "Migrating vLLM to the LibTorch Stable ABI",
+      "published": "2026-11-06",
+      "url": "https://vllm.ai/blog/2026-11-06-stable-abi-cuda",
+      "folder": "VLM/2026-11-16",
+      "aliases": [
+        "id:vllm-blog:2026-11-06-stable-abi-cuda",
+        "title:migratingvllmtothelibtorchstableabi",
+        "url:https://vllm.ai/blog/2026-11-06-stable-abi-cuda"
+      ]
+    },
+    {
+      "id": "vllm-blog:2026-11-04-introducing-kinference",
+      "title": "Introducing Kinference",
+      "published": "2026-11-04",
+      "url": "https://vllm.ai/blog/2026-11-04-introducing-kinference",
+      "folder": "VLM/2026-11-16",
+      "aliases": [
+        "id:vllm-blog:2026-11-04-introducing-kinference",
+        "title:introducingkinference",
+        "url:https://vllm.ai/blog/2026-11-04-introducing-kinference"
+      ]
+    },
+    {
+      "id": "vllm-release:0.33.0",
+      "title": "vLLM v0.33.0 Release",
+      "published": "2026-11-02",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "folder": "VLM/2026-11-16",
+      "aliases": [
+        "id:vllm-release:0.33.0",
+        "title:vllmv0330release",
+        "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"
+      ]
+    }
+  ],
+  "aliases": {
+    "id:vllm-blog:2026-11-12-deepseek-v41-flash-vera-rubin": "VLM/2026-11-16",
+    "title:deepseekv41flashonverarubinnvl72": "VLM/2026-11-16",
+    "url:https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin": "VLM/2026-11-16",
+    "id:vllm-blog:2026-11-11-encoder-disaggregation-epd": "VLM/2026-11-16",
+    "title:encoderdisaggregationinvllmscalingmultimodalservingwithepd": "VLM/2026-11-16",
+    "url:https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd": "VLM/2026-11-16",
+    "id:vllm-blog:2026-11-06-stable-abi-cuda": "VLM/2026-11-16",
+    "title:migratingvllmtothelibtorchstableabi": "VLM/2026-11-16",
+    "url:https://vllm.ai/blog/2026-11-06-stable-abi-cuda": "VLM/2026-11-16",
+    "id:vllm-blog:2026-11-04-introducing-kinference": "VLM/2026-11-16",
+    "title:introducingkinference": "VLM/2026-11-16",
+    "url:https://vllm.ai/blog/2026-11-04-introducing-kinference": "VLM/2026-11-16",
+    "id:vllm-release:0.33.0": "VLM/2026-11-16",
+    "title:vllmv0330release": "VLM/2026-11-16",
+    "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16"
+  }
 }
