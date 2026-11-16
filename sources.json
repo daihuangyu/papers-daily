@@ -1,0 +1,7 @@
+{
+  "vllm-blog:2026-11-12-deepseek-v41-flash-vera-rubin": "VLM/2026-11-16",
+  "vllm-blog:2026-11-11-encoder-disaggregation-epd": "VLM/2026-11-16",
+  "vllm-blog:2026-11-06-stable-abi-cuda": "VLM/2026-11-16",
+  "vllm-blog:2026-11-04-introducing-kinference": "VLM/2026-11-16",
+  "vllm-release:0.33.0": "VLM/2026-11-16"
+}

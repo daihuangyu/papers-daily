@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-16",
+  "direction": "VLM",
+  "topic": "vLLM推理系统",
+  "window_start": "2026-10-17",
+  "window_end": "2026-11-16",
+  "sources": [
+    {"id":"vllm-blog:2026-11-12-deepseek-v41-flash-vera-rubin","title":"DeepSeek-V4.1-Flash on Vera Rubin NVL72","published":"2026-11-12","url":"https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin"},
+    {"id":"vllm-blog:2026-11-11-encoder-disaggregation-epd","title":"Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD","published":"2026-11-11","url":"https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd"},
+    {"id":"vllm-blog:2026-11-06-stable-abi-cuda","title":"Migrating vLLM to the LibTorch Stable ABI","published":"2026-11-06","url":"https://vllm.ai/blog/2026-11-06-stable-abi-cuda"},
+    {"id":"vllm-blog:2026-11-04-introducing-kinference","title":"Introducing Kinference","published":"2026-11-04","url":"https://vllm.ai/blog/2026-11-04-introducing-kinference"},
+    {"id":"vllm-release:0.33.0","title":"vLLM v0.33.0 Release","published":"2026-11-02","url":"https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"}
+  ]
+}
