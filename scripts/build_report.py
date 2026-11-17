@@ -66,7 +66,7 @@ def build(md):
         if image:
             path=md.parent/image[2]
             w,h=PILImage.open(path).size
-            scale=min(487/w,345/h)
+            scale=min(487/w,540/h)
             story.append(Image(str(path),width=w*scale,height=h*scale)); story.append(Spacer(1,7)); continue
         heading=re.match(r'^(#{1,3}) (.+)',line)
         if heading:

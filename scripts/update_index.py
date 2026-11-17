@@ -118,7 +118,7 @@ def update(root=ROOT, remote_files=None):
     directions = sorted({item['direction'] for item, _ in manifests})
     lines = ['# Papers Daily', '', '多方向论文精读：机制、公式逐符号解释与推导、手算直觉、实现、原图、实验条件、局限与复现。', '',
         '## 更新安排', '', '计划北京时间（Asia/Shanghai）每天09:00，由ChatGPT云端定时任务检索、写作、生成PDF并通过GitHub连接普通提交到main。任务启用与环境验证状态见 [AUTOMATION.md](AUTOMATION.md)。',
-        '每次执行都从仓库读取状态，不依赖个人电脑、SSH或本机路径。首个计划运行时间为2026-11-17 09:00。',
+        '目标为每次从仓库读取状态、不依赖个人电脑。云端环境绑定尚待核验，托管日程暂停；迁移期间旧本地日程补位，仍依赖电脑开机。当前状态以AUTOMATION.md为准。',
         '近一个日历月内目标5篇新论文；按arXiv去版本ID、DOI、规范URL及规范标题跨日去重，不足如实报告，不用旧论文或博客凑数。', '', '## 方向', '']
     lines += [f'- [{d}]({d}/README.md)' for d in directions]
     lines += ['', '## 每日索引', '', '| 日期 | 方向 / 子主题 | 数量 | 阅读 |', '| --- | --- | --- | --- |']

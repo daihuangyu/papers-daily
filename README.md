@@ -5,7 +5,7 @@
 ## 更新安排
 
 计划北京时间（Asia/Shanghai）每天09:00，由ChatGPT云端定时任务检索、写作、生成PDF并通过GitHub连接普通提交到main。任务启用与环境验证状态见 [AUTOMATION.md](AUTOMATION.md)。
-每次执行都从仓库读取状态，不依赖个人电脑、SSH或本机路径。首个计划运行时间为2026-11-17 09:00。
+目标为每次从仓库读取状态、不依赖个人电脑。云端环境绑定尚待核验，托管日程暂停；迁移期间旧本地日程补位，仍依赖电脑开机。当前状态以AUTOMATION.md为准。
 近一个日历月内目标5篇新论文；按arXiv去版本ID、DOI、规范URL及规范标题跨日去重，不足如实报告，不用旧论文或博客凑数。
 
 ## 方向
@@ -17,11 +17,19 @@
 
 | 日期 | 方向 / 子主题 | 数量 | 阅读 |
 | --- | --- | --- | --- |
+| 2026-11-17 | VLM / 小型VLM蒸馏、约束GRPO与能力保留 | 5 | [Markdown](VLM/2026-11-17/report.md) · [PDF](VLM/2026-11-17/report.pdf) |
 | 2026-11-16 | VLM / vLLM推理系统 | 5 | [Markdown](VLM/2026-11-16/report.md) · [PDF](VLM/2026-11-16/report.pdf) |
 | 2026-11-16 | OPSD / 特权信息、token级 credit 与应用扩展 | 5 | [Markdown](OPSD/2026-11-16/report.md) · [PDF](OPSD/2026-11-16/report.pdf) |
 
 ## 条目索引
 
+### 2026-11-17 · 小型VLM蒸馏、约束GRPO与能力保留
+
+1. [Teach with Blinks: Breaking Linguistic Momentum in On-Policy Distillation for Fine-Grained Multimodal Perception](https://arxiv.org/abs/2611.16402) · 2026-11-12 · [精读](VLM/2026-11-17/report.md)
+2. [Safety as a Budget: Calibrating the Control Channel of Constrained GRPO for Vision-Language Models](https://arxiv.org/abs/2611.16628) · 2026-11-12 · [精读](VLM/2026-11-17/report.md)
+3. [Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation](https://arxiv.org/abs/2610.41307) · 2026-10-30 · [精读](VLM/2026-11-17/report.md)
+4. [From Foundation VLM to Versatile Driving VLM: A Triplet Incremental Training Approach](https://arxiv.org/abs/2611.16727) · 2026-11-12 · [精读](VLM/2026-11-17/report.md)
+5. [From Tokens to Trajectories: Parameter-Efficient Continuous Adaptation of Unified Multimodal Models](https://arxiv.org/abs/2611.05451) · 2026-11-03 · [精读](VLM/2026-11-17/report.md)
 ### 2026-11-16 · vLLM推理系统
 
 1. [DeepSeek-V4.1-Flash on Vera Rubin NVL72](https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin) · 2026-11-12 · [精读](VLM/2026-11-16/report.md)

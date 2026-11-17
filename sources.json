@@ -2,6 +2,168 @@
   "schema_version": 2,
   "sources": [
     {
+      "id": "arxiv:2611.16402",
+      "type": "paper",
+      "arxiv_id": "2611.16402",
+      "doi": "10.48550/arXiv.2611.16402",
+      "title": "Teach with Blinks: Breaking Linguistic Momentum in On-Policy Distillation for Fine-Grained Multimodal Perception",
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16402",
+      "publication_evidence_url": "https://arxiv.org/abs/2611.16402v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16402v1",
+      "code_url": "https://github.com/Supltz/BlinkOPD",
+      "figures": [
+        {
+          "file": "assets/blink-fig5.png",
+          "paper_figure": "Figure 5",
+          "page": 5
+        },
+        {
+          "file": "assets/blink-table1.png",
+          "paper_figure": "Table 1",
+          "page": 6
+        }
+      ],
+      "folder": "VLM/2026-11-17",
+      "aliases": [
+        "arxiv:2611.16402",
+        "doi:10.48550/arxiv.2611.16402",
+        "id:arxiv:2611.16402",
+        "title:teachwithblinksbreakinglinguisticmomentuminonpolicydistillationforfinegrainedmultimodalperception",
+        "url:https://arxiv.org/abs/2611.16402"
+      ]
+    },
+    {
+      "id": "arxiv:2611.16628",
+      "type": "paper",
+      "arxiv_id": "2611.16628",
+      "doi": "10.48550/arXiv.2611.16628",
+      "title": "Safety as a Budget: Calibrating the Control Channel of Constrained GRPO for Vision-Language Models",
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16628",
+      "publication_evidence_url": "https://arxiv.org/abs/2611.16628v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16628v1",
+      "code_url": null,
+      "evidence_caveat": "v1 abstract claims over-refusal at most 2%, but calibrated rows of Table 1 show 4.0%; conflict explicitly retained in report",
+      "figures": [
+        {
+          "file": "assets/budget-fig2.png",
+          "paper_figure": "Figure 2",
+          "page": 4
+        },
+        {
+          "file": "assets/budget-table1-fig3.png",
+          "paper_figure": "Table 1 and Figure 3",
+          "page": 5
+        }
+      ],
+      "folder": "VLM/2026-11-17",
+      "aliases": [
+        "arxiv:2611.16628",
+        "doi:10.48550/arxiv.2611.16628",
+        "id:arxiv:2611.16628",
+        "title:safetyasabudgetcalibratingthecontrolchannelofconstrainedgrpoforvisionlanguagemodels",
+        "url:https://arxiv.org/abs/2611.16628"
+      ]
+    },
+    {
+      "id": "arxiv:2610.41307",
+      "type": "paper",
+      "arxiv_id": "2610.41307",
+      "doi": "10.48550/arXiv.2610.41307",
+      "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.41307",
+      "publication_evidence_url": "https://arxiv.org/abs/2610.41307v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41307v1",
+      "code_url": null,
+      "figures": [
+        {
+          "file": "assets/erase-fig2.png",
+          "paper_figure": "Figure 2",
+          "page": 4
+        },
+        {
+          "file": "assets/erase-table1.png",
+          "paper_figure": "Table 1",
+          "page": 6
+        }
+      ],
+      "folder": "VLM/2026-11-17",
+      "aliases": [
+        "arxiv:2610.41307",
+        "doi:10.48550/arxiv.2610.41307",
+        "id:arxiv:2610.41307",
+        "title:erasetheinjectedregionmultimodalpromptinjectiondefensewithonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2610.41307"
+      ]
+    },
+    {
+      "id": "arxiv:2611.16727",
+      "type": "paper",
+      "arxiv_id": "2611.16727",
+      "doi": "10.48550/arXiv.2611.16727",
+      "title": "From Foundation VLM to Versatile Driving VLM: A Triplet Incremental Training Approach",
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16727",
+      "publication_evidence_url": "https://arxiv.org/abs/2611.16727v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16727v1",
+      "code_url": null,
+      "figures": [
+        {
+          "file": "assets/driving-fig2.png",
+          "paper_figure": "Figure 2",
+          "page": 4
+        },
+        {
+          "file": "assets/driving-tables5-6.png",
+          "paper_figure": "Tables 5 and 6",
+          "page": 8
+        }
+      ],
+      "folder": "VLM/2026-11-17",
+      "aliases": [
+        "arxiv:2611.16727",
+        "doi:10.48550/arxiv.2611.16727",
+        "id:arxiv:2611.16727",
+        "title:fromfoundationvlmtoversatiledrivingvlmatripletincrementaltrainingapproach",
+        "url:https://arxiv.org/abs/2611.16727"
+      ]
+    },
+    {
+      "id": "arxiv:2611.05451",
+      "type": "paper",
+      "arxiv_id": "2611.05451",
+      "doi": "10.48550/arXiv.2611.05451",
+      "title": "From Tokens to Trajectories: Parameter-Efficient Continuous Adaptation of Unified Multimodal Models",
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05451",
+      "publication_evidence_url": "https://arxiv.org/abs/2611.05451v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05451v1",
+      "code_url": null,
+      "project_url": "https://plan-lab.github.io/FlowShift/",
+      "figures": [
+        {
+          "file": "assets/flowshift-fig3.png",
+          "paper_figure": "Figure 3",
+          "page": 3
+        },
+        {
+          "file": "assets/flowshift-tables1-2.png",
+          "paper_figure": "Tables 1 and 2",
+          "page": 5
+        }
+      ],
+      "folder": "VLM/2026-11-17",
+      "aliases": [
+        "arxiv:2611.05451",
+        "doi:10.48550/arxiv.2611.05451",
+        "id:arxiv:2611.05451",
+        "title:fromtokenstotrajectoriesparameterefficientcontinuousadaptationofunifiedmultimodalmodels",
+        "url:https://arxiv.org/abs/2611.05451"
+      ]
+    },
+    {
       "id": "vllm-blog:2026-11-12-deepseek-v41-flash-vera-rubin",
       "title": "DeepSeek-V4.1-Flash on Vera Rubin NVL72",
       "published": "2026-11-12",
@@ -128,6 +290,31 @@
     }
   ],
   "aliases": {
+    "arxiv:2611.16402": "VLM/2026-11-17",
+    "doi:10.48550/arxiv.2611.16402": "VLM/2026-11-17",
+    "id:arxiv:2611.16402": "VLM/2026-11-17",
+    "title:teachwithblinksbreakinglinguisticmomentuminonpolicydistillationforfinegrainedmultimodalperception": "VLM/2026-11-17",
+    "url:https://arxiv.org/abs/2611.16402": "VLM/2026-11-17",
+    "arxiv:2611.16628": "VLM/2026-11-17",
+    "doi:10.48550/arxiv.2611.16628": "VLM/2026-11-17",
+    "id:arxiv:2611.16628": "VLM/2026-11-17",
+    "title:safetyasabudgetcalibratingthecontrolchannelofconstrainedgrpoforvisionlanguagemodels": "VLM/2026-11-17",
+    "url:https://arxiv.org/abs/2611.16628": "VLM/2026-11-17",
+    "arxiv:2610.41307": "VLM/2026-11-17",
+    "doi:10.48550/arxiv.2610.41307": "VLM/2026-11-17",
+    "id:arxiv:2610.41307": "VLM/2026-11-17",
+    "title:erasetheinjectedregionmultimodalpromptinjectiondefensewithonpolicyselfdistillation": "VLM/2026-11-17",
+    "url:https://arxiv.org/abs/2610.41307": "VLM/2026-11-17",
+    "arxiv:2611.16727": "VLM/2026-11-17",
+    "doi:10.48550/arxiv.2611.16727": "VLM/2026-11-17",
+    "id:arxiv:2611.16727": "VLM/2026-11-17",
+    "title:fromfoundationvlmtoversatiledrivingvlmatripletincrementaltrainingapproach": "VLM/2026-11-17",
+    "url:https://arxiv.org/abs/2611.16727": "VLM/2026-11-17",
+    "arxiv:2611.05451": "VLM/2026-11-17",
+    "doi:10.48550/arxiv.2611.05451": "VLM/2026-11-17",
+    "id:arxiv:2611.05451": "VLM/2026-11-17",
+    "title:fromtokenstotrajectoriesparameterefficientcontinuousadaptationofunifiedmultimodalmodels": "VLM/2026-11-17",
+    "url:https://arxiv.org/abs/2611.05451": "VLM/2026-11-17",
     "id:vllm-blog:2026-11-12-deepseek-v41-flash-vera-rubin": "VLM/2026-11-16",
     "title:deepseekv41flashonverarubinnvl72": "VLM/2026-11-16",
     "url:https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin": "VLM/2026-11-16",

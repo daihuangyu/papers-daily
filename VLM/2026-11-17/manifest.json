@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-17",
+  "direction": "VLM",
+  "topic": "小型VLM蒸馏、约束GRPO与能力保留",
+  "window_start": "2026-10-17",
+  "window_end": "2026-11-17",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "sources": [
+    {"id":"arxiv:2611.16402","type":"paper","arxiv_id":"2611.16402","doi":"10.48550/arXiv.2611.16402","title":"Teach with Blinks: Breaking Linguistic Momentum in On-Policy Distillation for Fine-Grained Multimodal Perception","published":"2026-11-12","url":"https://arxiv.org/abs/2611.16402","publication_evidence_url":"https://arxiv.org/abs/2611.16402v1","pdf_url":"https://arxiv.org/pdf/2611.16402v1","code_url":"https://github.com/Supltz/BlinkOPD","figures":[{"file":"assets/blink-fig5.png","paper_figure":"Figure 5","page":5},{"file":"assets/blink-table1.png","paper_figure":"Table 1","page":6}]},
+    {"id":"arxiv:2611.16628","type":"paper","arxiv_id":"2611.16628","doi":"10.48550/arXiv.2611.16628","title":"Safety as a Budget: Calibrating the Control Channel of Constrained GRPO for Vision-Language Models","published":"2026-11-12","url":"https://arxiv.org/abs/2611.16628","publication_evidence_url":"https://arxiv.org/abs/2611.16628v1","pdf_url":"https://arxiv.org/pdf/2611.16628v1","code_url":null,"evidence_caveat":"v1 abstract claims over-refusal at most 2%, but calibrated rows of Table 1 show 4.0%; conflict explicitly retained in report","figures":[{"file":"assets/budget-fig2.png","paper_figure":"Figure 2","page":4},{"file":"assets/budget-table1-fig3.png","paper_figure":"Table 1 and Figure 3","page":5}]},
+    {"id":"arxiv:2610.41307","type":"paper","arxiv_id":"2610.41307","doi":"10.48550/arXiv.2610.41307","title":"Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation","published":"2026-10-30","url":"https://arxiv.org/abs/2610.41307","publication_evidence_url":"https://arxiv.org/abs/2610.41307v1","pdf_url":"https://arxiv.org/pdf/2610.41307v1","code_url":null,"figures":[{"file":"assets/erase-fig2.png","paper_figure":"Figure 2","page":4},{"file":"assets/erase-table1.png","paper_figure":"Table 1","page":6}]},
+    {"id":"arxiv:2611.16727","type":"paper","arxiv_id":"2611.16727","doi":"10.48550/arXiv.2611.16727","title":"From Foundation VLM to Versatile Driving VLM: A Triplet Incremental Training Approach","published":"2026-11-12","url":"https://arxiv.org/abs/2611.16727","publication_evidence_url":"https://arxiv.org/abs/2611.16727v1","pdf_url":"https://arxiv.org/pdf/2611.16727v1","code_url":null,"figures":[{"file":"assets/driving-fig2.png","paper_figure":"Figure 2","page":4},{"file":"assets/driving-tables5-6.png","paper_figure":"Tables 5 and 6","page":8}]},
+    {"id":"arxiv:2611.05451","type":"paper","arxiv_id":"2611.05451","doi":"10.48550/arXiv.2611.05451","title":"From Tokens to Trajectories: Parameter-Efficient Continuous Adaptation of Unified Multimodal Models","published":"2026-11-03","url":"https://arxiv.org/abs/2611.05451","publication_evidence_url":"https://arxiv.org/abs/2611.05451v1","pdf_url":"https://arxiv.org/pdf/2611.05451v1","code_url":null,"project_url":"https://plan-lab.github.io/FlowShift/","figures":[{"file":"assets/flowshift-fig3.png","paper_figure":"Figure 3","page":3},{"file":"assets/flowshift-tables1-2.png","paper_figure":"Tables 1 and 2","page":5}]}
+  ],
+  "search_log": [
+    {"date":"2026-11-17","query":"VLM multimodal on-policy distillation November October 2026; visual GRPO; multimodal search training","verification":"arXiv abstract pages, v1 submission histories, HTML methods, downloaded PDF tables and appendices"},
+    {"candidate":"Vision-OPD 2605.18740 and MMSearch-R1 2506.20670","decision":"excluded as primary: first publications outside one-month window; retained as auxiliary direction anchors"},
+    {"candidate":"VICO 2610.10782 and MMSearch-OPD 2610.22240","decision":"excluded: first publication October 7 / October 15 is before October 17"},
+    {"candidate":"Prior-as-Skill 2611.15766 and Bootstrapped On-Policy Distillation 2611.13680","decision":"excluded as primary: already included under OPSD/2026-11-16"},
+    {"candidate":"FlowShift 2611.05451","decision":"included as training extension: small unified understanding/generation models; explicitly not classified as search-agent RL"}
+  ],
+  "auxiliary_sources": [
+    "https://jalammar.github.io/illustrated-transformer/",
+    "https://huggingface.co/docs/transformers/tasks/knowledge_distillation_for_image_classification",
+    "https://huggingface.co/docs/trl/grpo_trainer",
+    "https://huggingface.co/docs/peft/developer_guides/lora",
+    "https://arxiv.org/abs/2605.18740",
+    "https://visionopd.github.io/",
+    "https://arxiv.org/abs/2506.20670",
+    "https://blog.lmms-lab.com/blog/mmsearch-r1/",
+    "https://github.com/facebookresearch/flow_matching"
+  ],
+  "checks": {"original_figure_crops":10,"trained_models":false,"cross_direction_dedup":"all manifest aliases checked by scripts/update_index.py","pdf":"full Markdown rendered with all ten local original figure/table crops; visual and text verification recorded in assets/QA.md"}
+}
