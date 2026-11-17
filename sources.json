@@ -224,6 +224,341 @@
       ]
     },
     {
+      "id": "arxiv:2611.12232",
+      "type": "paper",
+      "arxiv_id": "2611.12232",
+      "doi": "10.48550/arXiv.2611.12232",
+      "title": "ECOS: Environment-Calibrated On-Policy Self-Distillation for Language Agents",
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12232",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.12232",
+        "https://doi.org/10.48550/arXiv.2611.12232"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.12232v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12232v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "ea58a9d354d04c06cb6f4d94fc005eda6cbffe6f74eddfaea66fb269e8ec3afd",
+      "code_url": null,
+      "code_status": "not found in author PDF or targeted exact-title/code search on 2026-11-17",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/ecos-fig2.png",
+          "arxiv_id": "2611.12232",
+          "page": 4,
+          "figure": "fig2",
+          "crop_box_normalized": [
+            0.115,
+            0.085,
+            0.885,
+            0.625
+          ],
+          "sha256": "06d6689d9ef0ee62a15e207393178bc47efe727c140ade6f76f648cd47d995bf",
+          "paper_figure": "Figure 2",
+          "source_url": "https://arxiv.org/pdf/2611.12232v1"
+        },
+        {
+          "file": "assets/ecos-table1.png",
+          "arxiv_id": "2611.12232",
+          "page": 8,
+          "figure": "table1",
+          "crop_box_normalized": [
+            0.115,
+            0.07,
+            0.895,
+            0.59
+          ],
+          "sha256": "897f559fee71f7dba5faa51ba1b89adda070bc1830a2b2a44a4cd1254f49aaef",
+          "paper_figure": "Table 1",
+          "source_url": "https://arxiv.org/pdf/2611.12232v1"
+        },
+        {
+          "file": "assets/ecos-fig4.png",
+          "arxiv_id": "2611.12232",
+          "page": 9,
+          "figure": "fig4",
+          "crop_box_normalized": [
+            0.115,
+            0.23,
+            0.89,
+            0.75
+          ],
+          "sha256": "de451a6488feb484df22cd56308cf309ea40833802664b8a878439c036e51eda",
+          "paper_figure": "Figure 4",
+          "source_url": "https://arxiv.org/pdf/2611.12232v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-17",
+      "aliases": [
+        "arxiv:2611.12232",
+        "doi:10.48550/arxiv.2611.12232",
+        "id:arxiv:2611.12232",
+        "title:ecosenvironmentcalibratedonpolicyselfdistillationforlanguageagents",
+        "url:https://arxiv.org/abs/2611.12232",
+        "url:https://doi.org/10.48550/arxiv.2611.12232"
+      ]
+    },
+    {
+      "id": "arxiv:2611.08179",
+      "type": "paper",
+      "arxiv_id": "2611.08179",
+      "doi": "10.48550/arXiv.2611.08179",
+      "title": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08179",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.08179",
+        "https://doi.org/10.48550/arXiv.2611.08179"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.08179v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08179v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "389a979f3bc7fba58c7b961c9ff852c3e2e53ac08075397defd8b4f02e382d4e",
+      "code_url": null,
+      "code_status": "not found in author PDF or targeted exact-title/code search on 2026-11-17",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/topsd-fig3.png",
+          "arxiv_id": "2611.08179",
+          "page": 5,
+          "figure": "fig3",
+          "crop_box_normalized": [
+            0.115,
+            0.08,
+            0.9,
+            0.43
+          ],
+          "sha256": "312f0fa4246791ebc5390057840c9fe89dd2aca91beb0eea5020d3a93d2ce790",
+          "paper_figure": "Figure 3",
+          "source_url": "https://arxiv.org/pdf/2611.08179v1"
+        },
+        {
+          "file": "assets/topsd-tables1-2.png",
+          "arxiv_id": "2611.08179",
+          "page": 7,
+          "figure": "tables1-2",
+          "crop_box_normalized": [
+            0.1,
+            0.08,
+            0.91,
+            0.66
+          ],
+          "sha256": "f6be1f128f7ca508a1a560be150e70943d81ae3e33cede4100cd1a43573ac267",
+          "paper_figure": "Tables 1 and 2",
+          "source_url": "https://arxiv.org/pdf/2611.08179v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-17",
+      "aliases": [
+        "arxiv:2611.08179",
+        "doi:10.48550/arxiv.2611.08179",
+        "id:arxiv:2611.08179",
+        "title:knowingwhentoteachlearningfromteachableprefixesinmultilingualreasoningdistillation",
+        "url:https://arxiv.org/abs/2611.08179",
+        "url:https://doi.org/10.48550/arxiv.2611.08179"
+      ]
+    },
+    {
+      "id": "arxiv:2611.04958",
+      "type": "paper",
+      "arxiv_id": "2611.04958",
+      "doi": "10.48550/arXiv.2611.04958",
+      "title": "Shuffled OPSD: When Semantic Consistency Hurts On-Policy Self-Distillation?",
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.04958",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.04958",
+        "https://doi.org/10.48550/arXiv.2611.04958"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.04958v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04958v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "34a25318a999c616ef4ed3b02e711dcfe6344294c30e2a4d4dc75accb3aadb2f",
+      "code_url": "https://github.com/Pear3on/S_OPSD",
+      "code_status": "author PDF link returned HTTP 404; reproducibility statement says release upon acceptance",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/shuffled-fig2.png",
+          "arxiv_id": "2611.04958",
+          "page": 3,
+          "figure": "fig2",
+          "crop_box_normalized": [
+            0.14,
+            0.1,
+            0.88,
+            0.37
+          ],
+          "sha256": "71a6b2105b22e1492cd1a0be2a713294a25719b4ffe2ba04ef5cf5348ad959ff",
+          "paper_figure": "Figure 2",
+          "source_url": "https://arxiv.org/pdf/2611.04958v1"
+        },
+        {
+          "file": "assets/shuffled-table1.png",
+          "arxiv_id": "2611.04958",
+          "page": 7,
+          "figure": "table1",
+          "crop_box_normalized": [
+            0.12,
+            0.1,
+            0.91,
+            0.6
+          ],
+          "sha256": "e242be8d533261fd4f7c65aa611803b672bf64fbf741e35f2af05c86c555826f",
+          "paper_figure": "Table 1",
+          "source_url": "https://arxiv.org/pdf/2611.04958v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-17",
+      "aliases": [
+        "arxiv:2611.04958",
+        "doi:10.48550/arxiv.2611.04958",
+        "id:arxiv:2611.04958",
+        "title:shuffledopsdwhensemanticconsistencyhurtsonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2611.04958",
+        "url:https://doi.org/10.48550/arxiv.2611.04958"
+      ]
+    },
+    {
+      "id": "arxiv:2610.25880",
+      "type": "paper",
+      "arxiv_id": "2610.25880",
+      "doi": "10.48550/arXiv.2610.25880",
+      "title": "Asynchronous On-Policy Self-Distillation",
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.25880",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.25880",
+        "https://doi.org/10.48550/arXiv.2610.25880"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.25880v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.25880v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "fe4fc237fe3fa01cb77d7f60a3cd8bfda82cde1ec5bf0da097b2c7f2c8c95488",
+      "code_url": null,
+      "code_status": "not found in author PDF or targeted exact-title/code search on 2026-11-17",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/async-fig1.png",
+          "arxiv_id": "2610.25880",
+          "page": 2,
+          "figure": "fig1",
+          "crop_box_normalized": [
+            0.12,
+            0.085,
+            0.89,
+            0.43
+          ],
+          "sha256": "b2ea16cadf628fff12840b858c8a9f41555dea8eedb5ede0a900c188783c878f",
+          "paper_figure": "Figure 1",
+          "source_url": "https://arxiv.org/pdf/2610.25880v1"
+        },
+        {
+          "file": "assets/async-tables2-3.png",
+          "arxiv_id": "2610.25880",
+          "page": 7,
+          "figure": "tables2-3",
+          "crop_box_normalized": [
+            0.12,
+            0.075,
+            0.9,
+            0.59
+          ],
+          "sha256": "a7604d784c1514f474156e35ed62131a0dfe5ad2d1bda102ed7623a71a15e8ea",
+          "paper_figure": "Tables 2 and 3",
+          "source_url": "https://arxiv.org/pdf/2610.25880v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-17",
+      "aliases": [
+        "arxiv:2610.25880",
+        "doi:10.48550/arxiv.2610.25880",
+        "id:arxiv:2610.25880",
+        "title:asynchronousonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2610.25880",
+        "url:https://doi.org/10.48550/arxiv.2610.25880"
+      ]
+    },
+    {
+      "id": "arxiv:2610.25842",
+      "type": "paper",
+      "arxiv_id": "2610.25842",
+      "doi": "10.48550/arXiv.2610.25842",
+      "title": "Not Every Rollout Needs Distillation: Correctness-Filtered On-Policy Self-Distillation",
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.25842",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.25842",
+        "https://doi.org/10.48550/arXiv.2610.25842"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.25842v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.25842v2",
+      "read_version": "v2",
+      "source_pdf_sha256": "40c59c8a842508630fe72ba1e89def06e43cd14afb8e8d50caef04a9c9e8b54c",
+      "code_url": null,
+      "code_status": "not found in author PDF or targeted exact-title/code search on 2026-11-17",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/copsd-fig3.png",
+          "arxiv_id": "2610.25842",
+          "page": 10,
+          "figure": "fig3",
+          "crop_box_normalized": [
+            0.115,
+            0.16,
+            0.9,
+            0.61
+          ],
+          "sha256": "1a65a414978e7fc62df1ca086237b201182f1271816b55b2c4534a4ecb30be59",
+          "paper_figure": "Figure 3",
+          "source_url": "https://arxiv.org/pdf/2610.25842v2"
+        },
+        {
+          "file": "assets/copsd-table8.png",
+          "arxiv_id": "2610.25842",
+          "page": 13,
+          "figure": "table8",
+          "crop_box_normalized": [
+            0.1,
+            0.5,
+            0.91,
+            0.93
+          ],
+          "sha256": "3a81b7196ba7c67be7149c9a8de05dca78bb63761ea9477ba6cd092e43b5a6f3",
+          "paper_figure": "Table 8",
+          "source_url": "https://arxiv.org/pdf/2610.25842v2"
+        },
+        {
+          "file": "assets/copsd-tables12-13.png",
+          "arxiv_id": "2610.25842",
+          "page": 16,
+          "figure": "tables12-13",
+          "crop_box_normalized": [
+            0.1,
+            0.08,
+            0.91,
+            0.47
+          ],
+          "sha256": "54d3bff13a8010b411d1f3839fae8026713cabd137f34af683396913a85aa382",
+          "paper_figure": "Tables 12 and 13",
+          "source_url": "https://arxiv.org/pdf/2610.25842v2"
+        }
+      ],
+      "folder": "OPSD/2026-11-17",
+      "aliases": [
+        "arxiv:2610.25842",
+        "doi:10.48550/arxiv.2610.25842",
+        "id:arxiv:2610.25842",
+        "title:noteveryrolloutneedsdistillationcorrectnessfilteredonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2610.25842",
+        "url:https://doi.org/10.48550/arxiv.2610.25842"
+      ]
+    },
+    {
       "id": "arxiv:2611.16206",
       "title": "Turning Multi-Agent Communication into Token-Level Credit with On Policy Self Distillation",
       "published": "2026-11-11",
@@ -330,6 +665,36 @@
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
     "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2611.12232": "OPSD/2026-11-17",
+    "doi:10.48550/arxiv.2611.12232": "OPSD/2026-11-17",
+    "id:arxiv:2611.12232": "OPSD/2026-11-17",
+    "title:ecosenvironmentcalibratedonpolicyselfdistillationforlanguageagents": "OPSD/2026-11-17",
+    "url:https://arxiv.org/abs/2611.12232": "OPSD/2026-11-17",
+    "url:https://doi.org/10.48550/arxiv.2611.12232": "OPSD/2026-11-17",
+    "arxiv:2611.08179": "OPSD/2026-11-17",
+    "doi:10.48550/arxiv.2611.08179": "OPSD/2026-11-17",
+    "id:arxiv:2611.08179": "OPSD/2026-11-17",
+    "title:knowingwhentoteachlearningfromteachableprefixesinmultilingualreasoningdistillation": "OPSD/2026-11-17",
+    "url:https://arxiv.org/abs/2611.08179": "OPSD/2026-11-17",
+    "url:https://doi.org/10.48550/arxiv.2611.08179": "OPSD/2026-11-17",
+    "arxiv:2611.04958": "OPSD/2026-11-17",
+    "doi:10.48550/arxiv.2611.04958": "OPSD/2026-11-17",
+    "id:arxiv:2611.04958": "OPSD/2026-11-17",
+    "title:shuffledopsdwhensemanticconsistencyhurtsonpolicyselfdistillation": "OPSD/2026-11-17",
+    "url:https://arxiv.org/abs/2611.04958": "OPSD/2026-11-17",
+    "url:https://doi.org/10.48550/arxiv.2611.04958": "OPSD/2026-11-17",
+    "arxiv:2610.25880": "OPSD/2026-11-17",
+    "doi:10.48550/arxiv.2610.25880": "OPSD/2026-11-17",
+    "id:arxiv:2610.25880": "OPSD/2026-11-17",
+    "title:asynchronousonpolicyselfdistillation": "OPSD/2026-11-17",
+    "url:https://arxiv.org/abs/2610.25880": "OPSD/2026-11-17",
+    "url:https://doi.org/10.48550/arxiv.2610.25880": "OPSD/2026-11-17",
+    "arxiv:2610.25842": "OPSD/2026-11-17",
+    "doi:10.48550/arxiv.2610.25842": "OPSD/2026-11-17",
+    "id:arxiv:2610.25842": "OPSD/2026-11-17",
+    "title:noteveryrolloutneedsdistillationcorrectnessfilteredonpolicyselfdistillation": "OPSD/2026-11-17",
+    "url:https://arxiv.org/abs/2610.25842": "OPSD/2026-11-17",
+    "url:https://doi.org/10.48550/arxiv.2610.25842": "OPSD/2026-11-17",
     "arxiv:2611.16206": "OPSD/2026-11-16",
     "id:arxiv:2611.16206": "OPSD/2026-11-16",
     "title:turningmultiagentcommunicationintotokenlevelcreditwithonpolicyselfdistillation": "OPSD/2026-11-16",

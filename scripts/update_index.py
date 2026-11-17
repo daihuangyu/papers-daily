@@ -87,6 +87,11 @@ def validate_manifest(item, path):
 
 
 def direction_intro(direction):
+    if direction == 'OPSD':
+        return ['# OPD & OPSD 方向', '',
+            '聚焦 On-Policy Distillation 与 On-Policy Self-Distillation：特权信息、监督选择、token级credit、训练稳定性及系统效率。',
+            '北京时间每天09:15运行；最近一个日历月目标5篇新论文，跨方向查重，不足如实报告。',
+            '原文事实、本文推导和缺失信息分别标注；每日报告含全文PDF、原始图表及可复现性检查。', '']
     if direction == 'VLM':
         return ['# VLM 方向', '',
             '重点收录小型视觉语言模型（VLM/MLLM）的训练与后训练论文：SFT、RL/GRPO、偏好优化、on-policy蒸馏、细粒度视觉感知、视觉推理和多模态搜索/工具agent。',
@@ -119,6 +124,7 @@ def update(root=ROOT, remote_files=None):
     lines = ['# Papers Daily', '', '多方向论文精读：机制、公式逐符号解释与推导、手算直觉、实现、原图、实验条件、局限与复现。', '',
         '## 更新安排', '', '计划北京时间（Asia/Shanghai）每天09:00，由ChatGPT云端定时任务检索、写作、生成PDF并通过GitHub连接普通提交到main。任务启用与环境验证状态见 [AUTOMATION.md](AUTOMATION.md)。',
         '目标为每次从仓库读取状态、不依赖个人电脑。云端环境绑定尚待核验，托管日程暂停；迁移期间旧本地日程补位，仍依赖电脑开机。当前状态以AUTOMATION.md为准。',
+        'OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档到OPSD/；上述09:00为VLM计划。',
         '近一个日历月内目标5篇新论文；按arXiv去版本ID、DOI、规范URL及规范标题跨日去重，不足如实报告，不用旧论文或博客凑数。', '', '## 方向', '']
     lines += [f'- [{d}]({d}/README.md)' for d in directions]
     lines += ['', '## 每日索引', '', '| 日期 | 方向 / 子主题 | 数量 | 阅读 |', '| --- | --- | --- | --- |']

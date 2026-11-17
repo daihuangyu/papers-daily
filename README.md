@@ -6,6 +6,7 @@
 
 计划北京时间（Asia/Shanghai）每天09:00，由ChatGPT云端定时任务检索、写作、生成PDF并通过GitHub连接普通提交到main。任务启用与环境验证状态见 [AUTOMATION.md](AUTOMATION.md)。
 目标为每次从仓库读取状态、不依赖个人电脑。云端环境绑定尚待核验，托管日程暂停；迁移期间旧本地日程补位，仍依赖电脑开机。当前状态以AUTOMATION.md为准。
+OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档到OPSD/；上述09:00为VLM计划。
 近一个日历月内目标5篇新论文；按arXiv去版本ID、DOI、规范URL及规范标题跨日去重，不足如实报告，不用旧论文或博客凑数。
 
 ## 方向
@@ -19,6 +20,7 @@
 | --- | --- | --- | --- |
 | 2026-11-17 | VLM / 小型VLM蒸馏、约束GRPO与能力保留 | 5 | [Markdown](VLM/2026-11-17/report.md) · [PDF](VLM/2026-11-17/report.pdf) |
 | 2026-11-16 | VLM / vLLM推理系统 | 5 | [Markdown](VLM/2026-11-16/report.md) · [PDF](VLM/2026-11-16/report.pdf) |
+| 2026-11-17 | OPSD / 监督选择、环境校准与异步加速 | 5 | [Markdown](OPSD/2026-11-17/report.md) · [PDF](OPSD/2026-11-17/report.pdf) |
 | 2026-11-16 | OPSD / 特权信息、token级 credit 与应用扩展 | 5 | [Markdown](OPSD/2026-11-16/report.md) · [PDF](OPSD/2026-11-16/report.pdf) |
 
 ## 条目索引
@@ -37,6 +39,13 @@
 3. [Migrating vLLM to the LibTorch Stable ABI](https://vllm.ai/blog/2026-11-06-stable-abi-cuda) · 2026-11-06 · [精读](VLM/2026-11-16/report.md)
 4. [Introducing Kinference](https://vllm.ai/blog/2026-11-04-introducing-kinference) · 2026-11-04 · [精读](VLM/2026-11-16/report.md)
 5. [vLLM v0.33.0 Release](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) · 2026-11-02 · [精读](VLM/2026-11-16/report.md)
+### 2026-11-17 · 监督选择、环境校准与异步加速
+
+1. [ECOS: Environment-Calibrated On-Policy Self-Distillation for Language Agents](https://arxiv.org/abs/2611.12232) · 2026-11-09 · [精读](OPSD/2026-11-17/report.md)
+2. [Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation](https://arxiv.org/abs/2611.08179) · 2026-11-05 · [精读](OPSD/2026-11-17/report.md)
+3. [Shuffled OPSD: When Semantic Consistency Hurts On-Policy Self-Distillation?](https://arxiv.org/abs/2611.04958) · 2026-11-03 · [精读](OPSD/2026-11-17/report.md)
+4. [Asynchronous On-Policy Self-Distillation](https://arxiv.org/abs/2610.25880) · 2026-10-19 · [精读](OPSD/2026-11-17/report.md)
+5. [Not Every Rollout Needs Distillation: Correctness-Filtered On-Policy Self-Distillation](https://arxiv.org/abs/2610.25842) · 2026-10-19 · [精读](OPSD/2026-11-17/report.md)
 ### 2026-11-16 · 特权信息、token级 credit 与应用扩展
 
 1. [Turning Multi-Agent Communication into Token-Level Credit with On Policy Self Distillation](https://arxiv.org/abs/2611.16206) · 2026-11-11 · [精读](OPSD/2026-11-16/report.md)
