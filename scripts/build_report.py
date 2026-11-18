@@ -10,7 +10,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.pagesizes import A4
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle, PageBreak
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle, PageBreak, KeepTogether
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -61,7 +61,7 @@ def build(md):
             while i<len(lines) and not lines[i].startswith('```'):
                 block.append(html.escape(lines[i]).replace(' ','&#160;')); i+=1
             i+=1
-            story.append(Paragraph('<br/>'.join(block),code)); story.append(Spacer(1,8)); continue
+            story.append(KeepTogether([Paragraph('<br/>'.join(block),code),Spacer(1,8)])); continue
         image=re.fullmatch(r'!\[([^]]*)\]\(([^)]+)\)',line)
         if image:
             path=md.parent/image[2]

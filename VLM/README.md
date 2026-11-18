@@ -8,5 +8,6 @@
 
 运行方式与迁移验证见 [AUTOMATION.md](../AUTOMATION.md)。
 
+- [2026-11-18：视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘](2026-11-18/report.md) · [PDF](2026-11-18/report.pdf) · 5篇
 - [2026-11-17：小型VLM蒸馏、约束GRPO与能力保留](2026-11-17/report.md) · [PDF](2026-11-17/report.pdf) · 5篇
 - [2026-11-16：vLLM推理系统](2026-11-16/report.md) · [PDF](2026-11-16/report.pdf) · 5篇

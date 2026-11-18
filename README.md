@@ -18,6 +18,7 @@ OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档�
 
 | 日期 | 方向 / 子主题 | 数量 | 阅读 |
 | --- | --- | --- | --- |
+| 2026-11-18 | VLM / 视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘 | 5 | [Markdown](VLM/2026-11-18/report.md) · [PDF](VLM/2026-11-18/report.pdf) |
 | 2026-11-17 | VLM / 小型VLM蒸馏、约束GRPO与能力保留 | 5 | [Markdown](VLM/2026-11-17/report.md) · [PDF](VLM/2026-11-17/report.pdf) |
 | 2026-11-16 | VLM / vLLM推理系统 | 5 | [Markdown](VLM/2026-11-16/report.md) · [PDF](VLM/2026-11-16/report.pdf) |
 | 2026-11-17 | OPSD / 监督选择、环境校准与异步加速 | 5 | [Markdown](OPSD/2026-11-17/report.md) · [PDF](OPSD/2026-11-17/report.pdf) |
@@ -25,6 +26,13 @@ OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档�
 
 ## 条目索引
 
+### 2026-11-18 · 视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘
+
+1. [Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning](https://arxiv.org/abs/2611.12886) · 2026-11-09 · [精读](VLM/2026-11-18/report.md)
+2. [Uncovering Shortcut Amplification in Video RLVR through the Lens of Perceptual Uncertainty Collapse](https://arxiv.org/abs/2610.37211) · 2026-10-27 · [精读](VLM/2026-11-18/report.md)
+3. [RECAP: Looking Once Is Not Enough for Vision-Language Reasoning](https://arxiv.org/abs/2610.30834) · 2026-10-22 · [精读](VLM/2026-11-18/report.md)
+4. [DISCOVER: Online Variance-Guided Data Discovery for Budgeted Multimodal GRPO](https://arxiv.org/abs/2611.11145) · 2026-11-08 · [精读](VLM/2026-11-18/report.md)
+5. [Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models](https://arxiv.org/abs/2610.38436) · 2026-10-28 · [精读](VLM/2026-11-18/report.md)
 ### 2026-11-17 · 小型VLM蒸馏、约束GRPO与能力保留
 
 1. [Teach with Blinks: Breaking Linguistic Momentum in On-Policy Distillation for Fine-Grained Multimodal Perception](https://arxiv.org/abs/2611.16402) · 2026-11-12 · [精读](VLM/2026-11-17/report.md)
@@ -57,6 +65,6 @@ OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档�
 ## 仓库约定
 
 `方向/YYYY-MM-DD/` 内含report.md、同内容report.pdf、manifest.json与assets/；其他方向使用独立一级目录。
-PDF嵌入Linux Noto中文字形；基础教程可早于近期窗口，但不计入每日5篇。原图注明论文图号、来源并逐图解释。
+PDF嵌入中文字体，实际执行环境与字体记录在当日assets/QA.md；Linux云端默认使用Noto。基础教程可早于近期窗口，但不计入每日5篇。原图注明论文图号、来源并逐图解释。
 README与各方向索引及sources.json由scripts/update_index.py根据全部manifest重建。sources.json v2保存每个来源的全部去重别名。
 每日发布和失败处理见 [AUTOMATION.md](AUTOMATION.md)。

@@ -1,0 +1,410 @@
+{
+  "date": "2026-11-18",
+  "direction": "VLM",
+  "topic": "视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘",
+  "window_start": "2026-10-18",
+  "window_end": "2026-11-18",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "sources": [
+    {
+      "id": "arxiv:2611.12886",
+      "type": "paper",
+      "arxiv_id": "2611.12886",
+      "doi": "10.48550/arXiv.2611.12886",
+      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12886",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.12886"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.12886v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12886v1",
+      "code_url": "https://github.com/EliYuan30/Reframe",
+      "project_url": null,
+      "code_verification": "Official repository inspected: training, evaluation, inference and data entries present; no training executed.",
+      "pdf_sha256": "36bec393846fba2ce1dc7d12a92b6609252306a5aadfb2365d402cdb862cee54",
+      "figures": [
+        {
+          "page": 4,
+          "file": "assets/reframe-fig3.png",
+          "paper_figure": "Figure 3",
+          "box": [
+            0.08,
+            0.08,
+            0.92,
+            0.45
+          ],
+          "size": [
+            1428,
+            814
+          ]
+        },
+        {
+          "page": 5,
+          "file": "assets/reframe-fig4.png",
+          "paper_figure": "Figure 4",
+          "box": [
+            0.08,
+            0.08,
+            0.49,
+            0.282
+          ],
+          "size": [
+            697,
+            444
+          ]
+        },
+        {
+          "page": 7,
+          "file": "assets/reframe-table2.png",
+          "paper_figure": "Table 2",
+          "box": [
+            0.08,
+            0.08,
+            0.92,
+            0.475
+          ],
+          "size": [
+            1428,
+            869
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2610.37211",
+      "type": "paper",
+      "arxiv_id": "2610.37211",
+      "doi": "10.48550/arXiv.2610.37211",
+      "title": "Uncovering Shortcut Amplification in Video RLVR through the Lens of Perceptual Uncertainty Collapse",
+      "published": "2026-10-27",
+      "url": "https://arxiv.org/abs/2610.37211",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.37211"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.37211v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37211v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No usable author implementation URL verified in v1 PDF or targeted title/method search.",
+      "pdf_sha256": "078715d3848348b40b06a5e2a9cc7b9ca9a03e8835fa0241cf2b5adef5d219ec",
+      "figures": [
+        {
+          "page": 3,
+          "file": "assets/bspo-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.08,
+            0.06,
+            0.92,
+            0.335
+          ],
+          "size": [
+            1428,
+            605
+          ]
+        },
+        {
+          "page": 5,
+          "file": "assets/bspo-table1.png",
+          "paper_figure": "Table 1",
+          "box": [
+            0.08,
+            0.06,
+            0.92,
+            0.368
+          ],
+          "size": [
+            1428,
+            678
+          ]
+        },
+        {
+          "page": 7,
+          "file": "assets/bspo-fig3.png",
+          "paper_figure": "Figure 3",
+          "box": [
+            0.08,
+            0.065,
+            0.92,
+            0.285
+          ],
+          "size": [
+            1428,
+            484
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2610.30834",
+      "type": "paper",
+      "arxiv_id": "2610.30834",
+      "doi": "10.48550/arXiv.2610.30834",
+      "title": "RECAP: Looking Once Is Not Enough for Vision-Language Reasoning",
+      "published": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.30834",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.30834"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.30834v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30834v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "v1 promises anonymous release; third-party suggested https://github.com/minto-ai/RECAP returned 404 on 2026-11-18; not treated as verified official code.",
+      "pdf_sha256": "17c8593ab7afc780f667fc88f858bc0858dff6aa955c310667d5043554d01263",
+      "figures": [
+        {
+          "page": 4,
+          "file": "assets/recap-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.17,
+            0.085,
+            0.83,
+            0.345
+          ],
+          "size": [
+            1122,
+            572
+          ]
+        },
+        {
+          "page": 7,
+          "file": "assets/recap-table1.png",
+          "paper_figure": "Table 1",
+          "box": [
+            0.17,
+            0.085,
+            0.83,
+            0.455
+          ],
+          "size": [
+            1122,
+            814
+          ]
+        },
+        {
+          "page": 8,
+          "file": "assets/recap-tables2-3.png",
+          "paper_figure": "Tables 2 and 3",
+          "box": [
+            0.17,
+            0.085,
+            0.83,
+            0.607
+          ],
+          "size": [
+            1122,
+            1148
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.11145",
+      "type": "paper",
+      "arxiv_id": "2611.11145",
+      "doi": "10.48550/arXiv.2611.11145",
+      "title": "DISCOVER: Online Variance-Guided Data Discovery for Budgeted Multimodal GRPO",
+      "published": "2026-11-08",
+      "url": "https://arxiv.org/abs/2611.11145",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.11145"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.11145v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.11145v1",
+      "code_url": null,
+      "project_url": "https://peymoon.github.io/discover/",
+      "code_verification": "Paper-linked project URL identified; automatic page retrieval did not yield a stable inspectable code listing. No guessed code URL.",
+      "pdf_sha256": "4b56aea583c7247917cb33dd2c26d51b8c678a1be1669cdafd21abd95cb05c80",
+      "figures": [
+        {
+          "page": 4,
+          "file": "assets/discover-fig1.png",
+          "paper_figure": "Figure 1",
+          "box": [
+            0.17,
+            0.08,
+            0.83,
+            0.32
+          ],
+          "size": [
+            1122,
+            528
+          ]
+        },
+        {
+          "page": 8,
+          "file": "assets/discover-table1.png",
+          "paper_figure": "Table 1",
+          "box": [
+            0.17,
+            0.08,
+            0.83,
+            0.516
+          ],
+          "size": [
+            1122,
+            959
+          ]
+        },
+        {
+          "page": 8,
+          "file": "assets/discover-table2.png",
+          "paper_figure": "Table 2",
+          "box": [
+            0.17,
+            0.526,
+            0.83,
+            0.782
+          ],
+          "size": [
+            1122,
+            563
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2610.38436",
+      "type": "paper",
+      "arxiv_id": "2610.38436",
+      "doi": "10.48550/arXiv.2610.38436",
+      "title": "Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models",
+      "published": "2026-10-28",
+      "url": "https://arxiv.org/abs/2610.38436",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.38436"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.38436v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.38436v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No official implementation URL verified in v1 PDF or targeted title search.",
+      "pdf_sha256": "b8cd37d1bdcd0a917d70b155941def337ec5d8806dfd5c033dacd9c3800c51d5",
+      "figures": [
+        {
+          "page": 2,
+          "file": "assets/continual-fig1.png",
+          "paper_figure": "Figure 1",
+          "box": [
+            0.16,
+            0.08,
+            0.84,
+            0.285
+          ],
+          "size": [
+            1156,
+            451
+          ]
+        },
+        {
+          "page": 3,
+          "file": "assets/continual-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.16,
+            0.08,
+            0.84,
+            0.33
+          ],
+          "size": [
+            1156,
+            550
+          ]
+        },
+        {
+          "page": 4,
+          "file": "assets/continual-fig3.png",
+          "paper_figure": "Figure 3",
+          "box": [
+            0.16,
+            0.08,
+            0.84,
+            0.36
+          ],
+          "size": [
+            1156,
+            616
+          ]
+        },
+        {
+          "page": 4,
+          "file": "assets/continual-fig4.png",
+          "paper_figure": "Figure 4",
+          "box": [
+            0.16,
+            0.372,
+            0.84,
+            0.505
+          ],
+          "size": [
+            1156,
+            293
+          ]
+        }
+      ]
+    }
+  ],
+  "auxiliary_sources": [
+    "https://jalammar.github.io/illustrated-transformer/",
+    "https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html",
+    "https://huggingface.co/docs/trl/sft_trainer",
+    "https://huggingface.co/docs/trl/grpo_trainer",
+    "https://huggingface.co/docs/peft/developer_guides/lora",
+    "https://arxiv.org/abs/2605.18740",
+    "https://visionopd.github.io/",
+    "https://arxiv.org/abs/2506.20670",
+    "https://blog.lmms-lab.com/blog/mmsearch-r1/"
+  ],
+  "execution_environment": {
+    "actual": "local macOS fallback with existing authorized SSH",
+    "cloud_schedule": "paused pending cloud environment binding and web login verification",
+    "cloud_migration_thread": "6afaf058-844c-8191-bf4c-26e2e5550080",
+    "cloud_same_day_report_verified": false,
+    "credentials_copied": false
+  },
+  "search_log": [
+    {
+      "date": "2026-11-18",
+      "query": "VLM multimodal on-policy distillation November October 2026; visual GRPO; small VLM training",
+      "verification": "Primary arXiv abstracts and v1 submission histories; complete downloaded PDFs including methods, tables and appendices; author repository/project checks."
+    },
+    {
+      "candidate": "ViCuR 2606.05718; V-Zero 2606.25319",
+      "decision": "Excluded: first posted June 4 / June 24. Recent code dates are not new paper dates."
+    },
+    {
+      "candidate": "VICO 2610.10782; Same Reward, Different Skills 2610.01908; Selective Transfer of RL Updates 2610.08659",
+      "decision": "Excluded: first posted October 7 / October 1 / October 6, before window start."
+    },
+    {
+      "candidate": "Acting by Intent, Reacting by Sight 2611.18723",
+      "decision": "Excluded from this training-focused issue: predominantly inference-agent orchestration rather than small-VLM parameter post-training."
+    },
+    {
+      "candidate": "Vision-OPD 2605.18740; MMSearch-R1 2506.20670",
+      "decision": "Auxiliary direction anchors only; outside window; no duplicate primary entry."
+    },
+    {
+      "candidate": "All repository sources and manifests including OPSD",
+      "decision": "Cross-direction canonical ID, DOI, URL and normalized-title check performed by update_index.py before publishing."
+    }
+  ],
+  "checks": {
+    "original_figure_crops": 16,
+    "trained_models": false,
+    "primary_pdfs_read": 5,
+    "pdf": "Full report.md rendered; paragraph/code/table text and all image counts checked; visual inspection and hashes in assets/QA.md",
+    "primary_dates": "arXiv v1 verified for all five; no version-based re-entry",
+    "evidence_caveats": [
+      "DISCOVER table 1 single run is distinguished from Appendix F three-seed averages.",
+      "Reframe paper GPU configuration differs from public script defaults.",
+      "No unaudited official code URL invented for remaining four papers.",
+      "MMSearch-R1 author blog URL returned 502 during this run; retained as known auxiliary URL with access caveat."
+    ]
+  }
+}
