@@ -26,6 +26,47 @@ class AliasTests(unittest.TestCase):
         right = {'id': 'arxiv:2611.00002v2', 'title': 'Different title', 'url': 'https://arxiv.org/pdf/2611.00002v2', 'doi': 'https://doi.org/10.1000/abc'}
         self.assertIn('doi:10.1000/abc', set(index.aliases(left)) & set(index.aliases(right)))
 
+    def test_renamed_conference_title_matches_preprint(self):
+        left = {'id': 'arxiv:2610.02140', 'title': 'SFT Learns Better Than You Think',
+                'title_aliases': ['Make SFT Generalize, Not Forget'], 'url': 'https://arxiv.org/abs/2610.02140'}
+        right = {'id': 'conference:123', 'title': 'Make SFT Generalize, Not Forget', 'url': 'https://example.org/paper/123'}
+        self.assertTrue(set(index.aliases(left)) & set(index.aliases(right)))
+
+    def ccf_manifest(self):
+        evidence = {'verified': True, 'url': 'https://example.org/official'}
+        paper = {'id': 'arxiv:2501.00001', 'title': 'Older Preprint Accepted This Year',
+                 'url': 'https://arxiv.org/abs/2501.00001', 'published': '2025-01-01', 'type': 'paper',
+                 'paper_type': 'main_conference_full_regular', 'acceptance_year': 2026,
+                 'ccf_rank': 'A', 'presentation_type': 'spotlight',
+                 'official_evidence': {k: dict(evidence) for k in ('ccf_classification', 'acceptance', 'presentation')},
+                 'citation_count': {'value': None, 'unavailable_reason': 'Index unavailable'}}
+        return {'date': '2026-11-18', 'direction': 'CCF_Papers', 'selection_year': 2026,
+                'selection_basis': 'acceptance_year', 'shortfall_reason': 'Only one eligible paper', 'sources': [paper]}
+
+    def test_ccf_uses_acceptance_year_and_keeps_spotlight_distinct(self):
+        item = self.ccf_manifest()
+        index.validate_manifest(item, Path('/tmp/CCF_Papers/2026-11-18/manifest.json'))
+        self.assertEqual(item['sources'][0]['presentation_type'], 'spotlight')
+        item['sources'][0]['acceptance_year'] = 2025
+        with self.assertRaisesRegex(ValueError, 'acceptance year'):
+            index.validate_manifest(item, Path('/tmp/CCF_Papers/2026-11-18/manifest.json'))
+
+    def test_ccf_requires_full_paper_and_verified_official_evidence(self):
+        for change, error in [('type', 'full/regular'), ('evidence', 'official acceptance')]:
+            item = self.ccf_manifest()
+            if change == 'type':
+                item['sources'][0]['paper_type'] = 'workshop'
+            else:
+                item['sources'][0]['official_evidence']['acceptance']['verified'] = False
+            with self.assertRaisesRegex(ValueError, error):
+                index.validate_manifest(item, Path('/tmp/CCF_Papers/2026-11-18/manifest.json'))
+
+    def test_ccf_rejects_unattributed_citation_counts(self):
+        item = self.ccf_manifest()
+        item['sources'][0]['citation_count'] = {'value': 12}
+        with self.assertRaisesRegex(ValueError, 'Citation count'):
+            index.validate_manifest(item, Path('/tmp/CCF_Papers/2026-11-18/manifest.json'))
+
     def test_shortfall_and_window_policy(self):
         item = {'date': '2026-11-17', 'direction': 'VLM', 'window_start': '2026-10-17', 'window_end': '2026-11-17', 'sources': []}
         path = Path('/tmp/VLM/2026-11-17/manifest.json')

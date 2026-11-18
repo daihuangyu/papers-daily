@@ -1,0 +1,133 @@
+[
+  {
+    "paper": "fws",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/poster/150118",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+      "snapshot_sha256": "5ac2be8d727401ae7093d99520bdb4fc53840444d11e55acb0c956d48b2b1ea7"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/poster/150118",
+      "label": "poster",
+      "checked_on": "2026-11-18"
+    }
+  },
+  {
+    "paper": "drifting",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/oral/154241",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+      "snapshot_sha256": "08660022e3732415c0110bed439db70312c8439ef895cd2574366b91a94610b2"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/oral/154241",
+      "label": "oral",
+      "checked_on": "2026-11-18"
+    }
+  },
+  {
+    "paper": "little",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/oral/148221",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+      "snapshot_sha256": "c2244285ab2f7d8f300e99ada4b56e78468cda4d763d6f3f94dae66702610491"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/oral/148221",
+      "label": "oral",
+      "checked_on": "2026-11-18"
+    }
+  },
+  {
+    "paper": "quant",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/oral/151669",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+      "snapshot_sha256": "84a11d41c50f31e73ebff3fdc898f3a291bb220fdf62c9130904ebe1d93a0e32"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/oral/151669",
+      "label": "oral",
+      "checked_on": "2026-11-18"
+    }
+  },
+  {
+    "paper": "budget",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 58,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://aclanthology.org/2026.emnlp-main.2450/",
+      "venue": "EMNLP",
+      "year": 2026,
+      "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+      "snapshot_sha256": "387be4ed42f88d017df8e1b21dc683013836391909ce228d8f96f998cfebf739"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+      "label": "poster",
+      "checked_on": "2026-11-18",
+      "program_url": "https://2026.emnlp.org/program/",
+      "paper_id": "8117-MAIN",
+      "session": "Poster Session F",
+      "date": "2026-10-27",
+      "room": "Hall H",
+      "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+    }
+  }
+]

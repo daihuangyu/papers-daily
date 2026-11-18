@@ -7,10 +7,12 @@
 计划北京时间（Asia/Shanghai）每天09:00，由ChatGPT云端定时任务检索、写作、生成PDF并通过GitHub连接普通提交到main。任务启用与环境验证状态见 [AUTOMATION.md](AUTOMATION.md)。
 目标为每次从仓库读取状态、不依赖个人电脑。云端环境绑定尚待核验，托管日程暂停；迁移期间旧本地日程补位，仍依赖电脑开机。当前状态以AUTOMATION.md为准。
 OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档到OPSD/；上述09:00为VLM计划。
-近一个日历月内目标5篇新论文；按arXiv去版本ID、DOI、规范URL及规范标题跨日去重，不足如实报告，不用旧论文或博客凑数。
+VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选，计划北京时间每天10:00，不限制预印本首次公开月份。
+每方向目标5篇；按arXiv去版本ID、DOI、规范URL、规范标题及改题别名跨日期与方向去重，不足如实报告，不用博客凑数。
 
 ## 方向
 
+- [CCF_Papers](CCF_Papers/README.md)
 - [OPSD](OPSD/README.md)
 - [VLM](VLM/README.md)
 
@@ -24,6 +26,7 @@ OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档�
 | 2026-11-18 | OPSD / 教师进化、逐token选择与参考视图边缘化 | 5 | [Markdown](OPSD/2026-11-18/report.md) · [PDF](OPSD/2026-11-18/report.pdf) |
 | 2026-11-17 | OPSD / 监督选择、环境校准与异步加速 | 5 | [Markdown](OPSD/2026-11-17/report.md) · [PDF](OPSD/2026-11-17/report.pdf) |
 | 2026-11-16 | OPSD / 特权信息、token级 credit 与应用扩展 | 5 | [Markdown](OPSD/2026-11-16/report.md) · [PDF](OPSD/2026-11-16/report.pdf) |
+| 2026-11-18 | CCF_Papers / 采样式SFT、一步生成、知识暴露、量化推理与后训练预算 | 5 | [Markdown](CCF_Papers/2026-11-18/report.md) · [PDF](CCF_Papers/2026-11-18/report.pdf) |
 
 ## 条目索引
 
@@ -69,6 +72,13 @@ OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档�
 3. [Prior-as-Skill: Remember Outside and Read Inside with On-Policy Self-Distillation for Self-Evolving VLM Agents](https://arxiv.org/abs/2611.15766) · 2026-11-11 · [精读](OPSD/2026-11-16/report.md)
 4. [Bootstrapped On-Policy Distillation](https://arxiv.org/abs/2611.13680) · 2026-11-10 · [精读](OPSD/2026-11-16/report.md)
 5. [PhysOPSD: Code as Privilege for Physically Plausible Video Generation](https://arxiv.org/abs/2611.12411) · 2026-11-09 · [精读](OPSD/2026-11-16/report.md)
+### 2026-11-18 · 采样式SFT、一步生成、知识暴露、量化推理与后训练预算
+
+1. [Finetuning with Sampling: SFT Learns Better Than You Think](https://arxiv.org/abs/2610.02140) · 2026-10-01 · [精读](CCF_Papers/2026-11-18/report.md)
+2. [Generative Modeling via Drifting](https://arxiv.org/abs/2602.04770) · 2026-02-04 · [精读](CCF_Papers/2026-11-18/report.md)
+3. [LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure](https://arxiv.org/abs/2608.13545) · 2026-08-13 · [精读](CCF_Papers/2026-11-18/report.md)
+4. [Quantized Reasoning Models Think They Need to Think Longer, but They Do Not](https://arxiv.org/abs/2606.00206) · 2026-05-29 · [精读](CCF_Papers/2026-11-18/report.md)
+5. [Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs](https://arxiv.org/abs/2609.01573) · 2026-09-01 · [精读](CCF_Papers/2026-11-18/report.md)
 
 ## 仓库约定
 

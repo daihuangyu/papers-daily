@@ -1,0 +1,382 @@
+[
+  {
+    "file": "fws-fig2.png",
+    "paper": "fws",
+    "figure": "fig2",
+    "physical_pdf_page": 4,
+    "crop_points_from_top_left": [
+      145,
+      110,
+      470,
+      232
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+    "pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+    "sha256": "b68795e98993262a29e3c3b7226110d35892ce9efbfd2c88a60c74177cbbb79a",
+    "pixels": [
+      975,
+      366
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "fws-algorithm1.png",
+    "paper": "fws",
+    "figure": "algorithm1",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      94,
+      70,
+      509,
+      452
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+    "pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+    "sha256": "305239289c01408f1fc81d562b1aeb5f9470877bf4f561d0334b9cc6efb07dfb",
+    "pixels": [
+      1245,
+      1146
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "fws-table1.png",
+    "paper": "fws",
+    "figure": "table1",
+    "physical_pdf_page": 9,
+    "crop_points_from_top_left": [
+      105,
+      73,
+      509,
+      309
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+    "pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+    "sha256": "ec626df679001d46a312cd747bd739950192960be8692153b6fcef2ba2a3243d",
+    "pixels": [
+      1212,
+      708
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "fws-fig4.png",
+    "paper": "fws",
+    "figure": "fig4",
+    "physical_pdf_page": 11,
+    "crop_points_from_top_left": [
+      162,
+      73,
+      509,
+      233
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+    "pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+    "sha256": "e850cf0d226664e127dd7f5161b24fa45ca26d1ef63fc124df6ba6ba963682c1",
+    "pixels": [
+      1041,
+      480
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "drifting-fig1.png",
+    "paper": "drifting",
+    "figure": "fig1",
+    "physical_pdf_page": 1,
+    "crop_points_from_top_left": [
+      80,
+      158,
+      515,
+      272
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+    "pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+    "sha256": "59057db1a32ac0a217a1dae77cc6cac20b586436010c9e4ddb4475e0e428d9ef",
+    "pixels": [
+      1305,
+      342
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "drifting-fig2.png",
+    "paper": "drifting",
+    "figure": "fig2",
+    "physical_pdf_page": 4,
+    "crop_points_from_top_left": [
+      60,
+      68,
+      294,
+      275
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+    "pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+    "sha256": "e0464f0560a520f30bfd5a86f43fde3db848d93c1c504cd6744f31549a40c1fd",
+    "pixels": [
+      702,
+      621
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "drifting-table5.png",
+    "paper": "drifting",
+    "figure": "table5",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      305,
+      220,
+      558,
+      390
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+    "pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+    "sha256": "9f839666b3f30e6ddcc6782f9786112bf198e7638f2dd2cd9f775a2d05747cf8",
+    "pixels": [
+      759,
+      510
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "drifting-table8.png",
+    "paper": "drifting",
+    "figure": "table8",
+    "physical_pdf_page": 13,
+    "crop_points_from_top_left": [
+      54,
+      89,
+      548,
+      449
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+    "pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+    "sha256": "baa04e79ad97b23a13c8e93a21ca49efcb4036024b3385277187c063d7650327",
+    "pixels": [
+      1482,
+      1080
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "little-fig1.png",
+    "paper": "little",
+    "figure": "fig1",
+    "physical_pdf_page": 1,
+    "crop_points_from_top_left": [
+      110,
+      489,
+      507,
+      629
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+    "pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+    "sha256": "95860598ade0f39e218af0409153432155873ee500664855118fe10f7a013778",
+    "pixels": [
+      1191,
+      420
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "little-fig6.png",
+    "paper": "little",
+    "figure": "fig6",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      312,
+      73,
+      508,
+      190
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+    "pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+    "sha256": "6ab37f24edaa0e51c4ca8c2daf17bd4619d60a09f2d91bc05528ec5df7feecb6",
+    "pixels": [
+      588,
+      351
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "little-fig8.png",
+    "paper": "little",
+    "figure": "fig8",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      110,
+      73,
+      510,
+      185
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+    "pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+    "sha256": "48de83ab92d8207dd795f6007013bcdf2706c3723de2ca12d1a36c25cf904484",
+    "pixels": [
+      1200,
+      336
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "little-fig9.png",
+    "paper": "little",
+    "figure": "fig9",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      110,
+      238,
+      510,
+      350
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+    "pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+    "sha256": "0179e875f1ada9bfacb15b3895f96e4a6d4d4adcbc1a160f4b2e0d04a5e8011a",
+    "pixels": [
+      1200,
+      336
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "quant-fig3.png",
+    "paper": "quant",
+    "figure": "fig3",
+    "physical_pdf_page": 5,
+    "crop_points_from_top_left": [
+      68,
+      62,
+      545,
+      312
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+    "pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+    "sha256": "3d45a40a635d61ecc701208060c2c4427035eced30ef88414032671229651595",
+    "pixels": [
+      1431,
+      750
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "quant-fig4.png",
+    "paper": "quant",
+    "figure": "fig4",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      68,
+      62,
+      545,
+      227
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+    "pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+    "sha256": "dd14a984bd3d513c05516c146ab5ded095827202cc59bd2e990e8f1e1ec7b9ce",
+    "pixels": [
+      1431,
+      495
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "quant-fig5.png",
+    "paper": "quant",
+    "figure": "fig5",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      68,
+      62,
+      545,
+      199
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+    "pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+    "sha256": "f3346de27c983c13a630591c4a13addb65d077ad8c0398f83a180cc117ccb73c",
+    "pixels": [
+      1431,
+      411
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "quant-table1-part.png",
+    "paper": "quant",
+    "figure": "table1-part",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      71,
+      148,
+      543,
+      269
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+    "pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+    "sha256": "8c3a771fe2626cd2b1788b179d731ed87bb58f119d423dff63d813ab59e6e1c1",
+    "pixels": [
+      1416,
+      363
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "budget-fig2.png",
+    "paper": "budget",
+    "figure": "fig2",
+    "physical_pdf_page": 5,
+    "crop_points_from_top_left": [
+      71,
+      68,
+      525,
+      468
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.2450.pdf",
+    "pdf_sha256": "0b7e31215e186aa67aa78bfccc137bd82a13d7a88467f220871ade3c93af6e27",
+    "sha256": "12e21dc3a5be10c91ceb5612b47bcdb7d6244755407c975742b29b7cf68f0d2b",
+    "pixels": [
+      1362,
+      1200
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "budget-fig22.png",
+    "paper": "budget",
+    "figure": "fig22",
+    "physical_pdf_page": 24,
+    "crop_points_from_top_left": [
+      71,
+      69,
+      525,
+      274
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.2450.pdf",
+    "pdf_sha256": "0b7e31215e186aa67aa78bfccc137bd82a13d7a88467f220871ade3c93af6e27",
+    "sha256": "5d3fa8e1813b9bbbbb7b042671bd893c29e7df42e87bd2c8f400731a6dd20d17",
+    "pixels": [
+      1362,
+      615
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  },
+  {
+    "file": "budget-table6.png",
+    "paper": "budget",
+    "figure": "table6",
+    "physical_pdf_page": 28,
+    "crop_points_from_top_left": [
+      93,
+      613,
+      270,
+      702
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.2450.pdf",
+    "pdf_sha256": "0b7e31215e186aa67aa78bfccc137bd82a13d7a88467f220871ade3c93af6e27",
+    "sha256": "0adff0b70e971d47b9a1c5dea660d3da3219e5f548c35c0ca0fbac834d68d8b2",
+    "pixels": [
+      531,
+      267
+    ],
+    "modification": "Original PDF crop at 216 dpi; no data redrawing."
+  }
+]

@@ -1,0 +1,956 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "direction": "CCF_Papers",
+  "topic": "采样式SFT、一步生成、知识暴露、量化推理与后训练预算",
+  "selection_year": 2026,
+  "selection_basis": "acceptance_year",
+  "window_start": "2026-01-01",
+  "window_end": "2026-12-31",
+  "window_semantics": "Acceptance/venue year, not preprint publication window. Only evidence available by run date is used.",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "composition": {
+    "CCF_A": 4,
+    "CCF_B": 1,
+    "oral": 3,
+    "poster": 2,
+    "spotlight": 0
+  },
+  "sources": [
+    {
+      "id": "arxiv:2610.02140",
+      "type": "paper",
+      "key": "fws",
+      "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
+      "title_aliases": [
+        "Finetuning with Sampling: Make SFT Generalize, Not Forget"
+      ],
+      "authors": [
+        "Aayush Karan",
+        "Sitan Chen",
+        "Yilun Du"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02140",
+      "arxiv_id": "2610.02140",
+      "doi": "10.48550/arXiv.2610.02140",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.02140",
+        "https://doi.org/10.48550/arXiv.2610.02140",
+        "https://neurips.cc/virtual/2026/poster/150118"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.02140",
+      "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+      "pdf_version": "v1",
+      "source_pdf_pages": 19,
+      "source_pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+      "code_url": "https://github.com/aakaran/finetuning-with-sampling",
+      "project_or_author_blog_url": "https://aakaran.github.io/finetuning_with_sampling/",
+      "venue": "NeurIPS",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/poster/150118",
+          "venue": "NeurIPS",
+          "year": 2026,
+          "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+          "snapshot_sha256": "5ac2be8d727401ae7093d99520bdb4fc53840444d11e55acb0c956d48b2b1ea7"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/poster/150118",
+          "label": "poster",
+          "checked_on": "2026-11-18"
+        }
+      },
+      "citation_count": {
+        "value": 3,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7216244021",
+        "queried_at": "2026-11-18",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/fws-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "fws-fig2.png",
+          "paper": "fws",
+          "figure": "fig2",
+          "physical_pdf_page": 4,
+          "crop_points_from_top_left": [
+            145,
+            110,
+            470,
+            232
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+          "pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+          "sha256": "b68795e98993262a29e3c3b7226110d35892ce9efbfd2c88a60c74177cbbb79a",
+          "pixels": [
+            975,
+            366
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "fws-algorithm1.png",
+          "paper": "fws",
+          "figure": "algorithm1",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            94,
+            70,
+            509,
+            452
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+          "pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+          "sha256": "305239289c01408f1fc81d562b1aeb5f9470877bf4f561d0334b9cc6efb07dfb",
+          "pixels": [
+            1245,
+            1146
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "fws-table1.png",
+          "paper": "fws",
+          "figure": "table1",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            105,
+            73,
+            509,
+            309
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+          "pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+          "sha256": "ec626df679001d46a312cd747bd739950192960be8692153b6fcef2ba2a3243d",
+          "pixels": [
+            1212,
+            708
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "fws-fig4.png",
+          "paper": "fws",
+          "figure": "fig4",
+          "physical_pdf_page": 11,
+          "crop_points_from_top_left": [
+            162,
+            73,
+            509,
+            233
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2610.02140v1",
+          "pdf_sha256": "4cf6b1e1a402df339d7b56842618140f165290001ba4c92bd5a2d1065b9a6cc4",
+          "sha256": "e850cf0d226664e127dd7f5161b24fa45ca26d1ef63fc124df6ba6ba963682c1",
+          "pixels": [
+            1041,
+            480
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        }
+      ],
+      "read_scope": "Entire 19-page PDF including appendices",
+      "reproduction_executed": false,
+      "identity_note": "Official renamed-title page links author project, which links arXiv 2610.02140; same three authors."
+    },
+    {
+      "id": "arxiv:2602.04770",
+      "type": "paper",
+      "key": "drifting",
+      "title": "Generative Modeling via Drifting",
+      "title_aliases": [],
+      "authors": [
+        "Mingyang Deng",
+        "He Li",
+        "Tianhong Li",
+        "Yilun Du",
+        "Kaiming He"
+      ],
+      "published": "2026-02-04",
+      "url": "https://arxiv.org/abs/2602.04770",
+      "arxiv_id": "2602.04770",
+      "doi": "10.48550/arXiv.2602.04770",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2602.04770",
+        "https://doi.org/10.48550/arXiv.2602.04770",
+        "https://neurips.cc/virtual/2026/oral/154241"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2602.04770",
+      "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+      "pdf_version": "v2",
+      "source_pdf_pages": 28,
+      "source_pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+      "code_url": "https://github.com/lambertae/drifting",
+      "project_or_author_blog_url": "https://lambertae.github.io/projects/drifting/",
+      "venue": "NeurIPS",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/oral/154241",
+          "venue": "NeurIPS",
+          "year": 2026,
+          "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+          "snapshot_sha256": "08660022e3732415c0110bed439db70312c8439ef895cd2574366b91a94610b2"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/oral/154241",
+          "label": "oral",
+          "checked_on": "2026-11-18"
+        }
+      },
+      "citation_count": {
+        "value": 165,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7127967205",
+        "queried_at": "2026-11-18",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/drifting-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "drifting-fig1.png",
+          "paper": "drifting",
+          "figure": "fig1",
+          "physical_pdf_page": 1,
+          "crop_points_from_top_left": [
+            80,
+            158,
+            515,
+            272
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+          "pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+          "sha256": "59057db1a32ac0a217a1dae77cc6cac20b586436010c9e4ddb4475e0e428d9ef",
+          "pixels": [
+            1305,
+            342
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "drifting-fig2.png",
+          "paper": "drifting",
+          "figure": "fig2",
+          "physical_pdf_page": 4,
+          "crop_points_from_top_left": [
+            60,
+            68,
+            294,
+            275
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+          "pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+          "sha256": "e0464f0560a520f30bfd5a86f43fde3db848d93c1c504cd6744f31549a40c1fd",
+          "pixels": [
+            702,
+            621
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "drifting-table5.png",
+          "paper": "drifting",
+          "figure": "table5",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            305,
+            220,
+            558,
+            390
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+          "pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+          "sha256": "9f839666b3f30e6ddcc6782f9786112bf198e7638f2dd2cd9f775a2d05747cf8",
+          "pixels": [
+            759,
+            510
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "drifting-table8.png",
+          "paper": "drifting",
+          "figure": "table8",
+          "physical_pdf_page": 13,
+          "crop_points_from_top_left": [
+            54,
+            89,
+            548,
+            449
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2602.04770v2",
+          "pdf_sha256": "4c6de150102edf01fdde787a2bc6d20962cd2021769db09e41c4ac7fb4ab852f",
+          "sha256": "baa04e79ad97b23a13c8e93a21ca49efcb4036024b3385277187c063d7650327",
+          "pixels": [
+            1482,
+            1080
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        }
+      ],
+      "read_scope": "Entire 28-page PDF including appendices",
+      "reproduction_executed": false
+    },
+    {
+      "id": "arxiv:2608.13545",
+      "type": "paper",
+      "key": "little",
+      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "title_aliases": [
+        "LittleLearner: Language Models Under Pedagogically-Controlled Knowledge Exposure"
+      ],
+      "authors": [
+        "Fanfei Li",
+        "Jana Zeller",
+        "Manuel Prada-Corral",
+        "Thaddäus Wiedemer",
+        "P. Mayilvahanan",
+        "Ryan Cotterell",
+        "Wieland Brendel"
+      ],
+      "published": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.13545",
+      "arxiv_id": "2608.13545",
+      "doi": "10.48550/arXiv.2608.13545",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2608.13545",
+        "https://doi.org/10.48550/arXiv.2608.13545",
+        "https://neurips.cc/virtual/2026/oral/148221"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2608.13545",
+      "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+      "pdf_version": "v3",
+      "source_pdf_pages": 39,
+      "source_pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+      "code_url": null,
+      "project_or_author_blog_url": "https://littlelearner-ll.github.io/",
+      "venue": "NeurIPS",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/oral/148221",
+          "venue": "NeurIPS",
+          "year": 2026,
+          "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+          "snapshot_sha256": "c2244285ab2f7d8f300e99ada4b56e78468cda4d763d6f3f94dae66702610491"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/oral/148221",
+          "label": "oral",
+          "checked_on": "2026-11-18"
+        }
+      },
+      "citation_count": {
+        "value": 1,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7203459302",
+        "queried_at": "2026-11-18",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/little-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "little-fig1.png",
+          "paper": "little",
+          "figure": "fig1",
+          "physical_pdf_page": 1,
+          "crop_points_from_top_left": [
+            110,
+            489,
+            507,
+            629
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+          "pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+          "sha256": "95860598ade0f39e218af0409153432155873ee500664855118fe10f7a013778",
+          "pixels": [
+            1191,
+            420
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "little-fig6.png",
+          "paper": "little",
+          "figure": "fig6",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            312,
+            73,
+            508,
+            190
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+          "pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+          "sha256": "6ab37f24edaa0e51c4ca8c2daf17bd4619d60a09f2d91bc05528ec5df7feecb6",
+          "pixels": [
+            588,
+            351
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "little-fig8.png",
+          "paper": "little",
+          "figure": "fig8",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            110,
+            73,
+            510,
+            185
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+          "pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+          "sha256": "48de83ab92d8207dd795f6007013bcdf2706c3723de2ca12d1a36c25cf904484",
+          "pixels": [
+            1200,
+            336
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "little-fig9.png",
+          "paper": "little",
+          "figure": "fig9",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            110,
+            238,
+            510,
+            350
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2608.13545v3",
+          "pdf_sha256": "93c8bc9ea9219b965011d8f74aed456278dcfb7f47a9d0fda176583e7ecf9585",
+          "sha256": "0179e875f1ada9bfacb15b3895f96e4a6d4d4adcbc1a160f4b2e0d04a5e8011a",
+          "pixels": [
+            1200,
+            336
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        }
+      ],
+      "read_scope": "Entire 39-page PDF including appendices",
+      "reproduction_executed": false,
+      "version_note": "Official program abstract describes 2B; this report reads v3 with models up to 5B."
+    },
+    {
+      "id": "arxiv:2606.00206",
+      "type": "paper",
+      "key": "quant",
+      "title": "Quantized Reasoning Models Think They Need to Think Longer, but They Do Not",
+      "title_aliases": [],
+      "authors": [
+        "Sanae Lotfi",
+        "Polina Kirichenko",
+        "Steven Li",
+        "Zechun Liu"
+      ],
+      "published": "2026-05-29",
+      "url": "https://arxiv.org/abs/2606.00206",
+      "arxiv_id": "2606.00206",
+      "doi": "10.48550/arXiv.2606.00206",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2606.00206",
+        "https://doi.org/10.48550/arXiv.2606.00206",
+        "https://neurips.cc/virtual/2026/oral/151669"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2606.00206",
+      "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+      "pdf_version": "v1",
+      "source_pdf_pages": 22,
+      "source_pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+      "code_url": null,
+      "project_or_author_blog_url": "https://sanaelotfi.github.io/blog/quantized-reasoning-models/",
+      "venue": "NeurIPS",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/oral/151669",
+          "venue": "NeurIPS",
+          "year": 2026,
+          "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+          "snapshot_sha256": "84a11d41c50f31e73ebff3fdc898f3a291bb220fdf62c9130904ebe1d93a0e32"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/oral/151669",
+          "label": "oral",
+          "checked_on": "2026-11-18"
+        }
+      },
+      "citation_count": {
+        "value": 20,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7163178833",
+        "queried_at": "2026-11-18",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/quant-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "quant-fig3.png",
+          "paper": "quant",
+          "figure": "fig3",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            68,
+            62,
+            545,
+            312
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+          "pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+          "sha256": "3d45a40a635d61ecc701208060c2c4427035eced30ef88414032671229651595",
+          "pixels": [
+            1431,
+            750
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "quant-fig4.png",
+          "paper": "quant",
+          "figure": "fig4",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            68,
+            62,
+            545,
+            227
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+          "pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+          "sha256": "dd14a984bd3d513c05516c146ab5ded095827202cc59bd2e990e8f1e1ec7b9ce",
+          "pixels": [
+            1431,
+            495
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "quant-fig5.png",
+          "paper": "quant",
+          "figure": "fig5",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            68,
+            62,
+            545,
+            199
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+          "pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+          "sha256": "f3346de27c983c13a630591c4a13addb65d077ad8c0398f83a180cc117ccb73c",
+          "pixels": [
+            1431,
+            411
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "quant-table1-part.png",
+          "paper": "quant",
+          "figure": "table1-part",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            71,
+            148,
+            543,
+            269
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2606.00206v1",
+          "pdf_sha256": "41d155f5573603f022389d5ed2bc3cea3457ae1be5a57ad7d8259bb663117e2e",
+          "sha256": "8c3a771fe2626cd2b1788b179d731ed87bb58f119d423dff63d813ab59e6e1c1",
+          "pixels": [
+            1416,
+            363
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        }
+      ],
+      "read_scope": "Entire 22-page PDF including appendices",
+      "reproduction_executed": false
+    },
+    {
+      "id": "arxiv:2609.01573",
+      "type": "paper",
+      "key": "budget",
+      "title": "Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs",
+      "title_aliases": [],
+      "authors": [
+        "Jingtan Wang",
+        "Arun Verma",
+        "Xiaoqiang Lin",
+        "Zhengyuan Liu",
+        "Nancy F. Chen",
+        "Daniela L. Rus",
+        "Bryan Kian Hsiang Low"
+      ],
+      "published": "2026-09-01",
+      "url": "https://arxiv.org/abs/2609.01573",
+      "arxiv_id": "2609.01573",
+      "doi": "10.18653/2026.emnlp-main.2450",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2609.01573",
+        "https://doi.org/10.18653/2026.emnlp-main.2450",
+        "https://aclanthology.org/2026.emnlp-main.2450/",
+        "https://doi.org/10.48550/arXiv.2609.01573"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2609.01573",
+      "pdf_url": "https://aclanthology.org/2026.emnlp-main.2450.pdf",
+      "pdf_version": "ACL camera-ready",
+      "source_pdf_pages": 30,
+      "source_pdf_sha256": "0b7e31215e186aa67aa78bfccc137bd82a13d7a88467f220871ade3c93af6e27",
+      "code_url": null,
+      "project_or_author_blog_url": null,
+      "venue": "EMNLP",
+      "acceptance_year": 2026,
+      "ccf_rank": "B",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 58,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://aclanthology.org/2026.emnlp-main.2450/",
+          "venue": "EMNLP",
+          "year": 2026,
+          "basis": "Main-conference official paper/program entry and full regular manuscript; no workshop/Findings/short/demo track",
+          "snapshot_sha256": "387be4ed42f88d017df8e1b21dc683013836391909ce228d8f96f998cfebf739"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+          "label": "poster",
+          "checked_on": "2026-11-18",
+          "program_url": "https://2026.emnlp.org/program/",
+          "paper_id": "8117-MAIN",
+          "session": "Poster Session F",
+          "date": "2026-10-27",
+          "room": "Hall H",
+          "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+        }
+      },
+      "citation_count": {
+        "value": 1,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7206153012",
+        "queried_at": "2026-11-18",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/budget-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null,
+        "record_note": "OpenAlex arXiv lookup resolves to merged ACL DOI; its January 1 publication_date is not used as the first-publication date."
+      },
+      "figures": [
+        {
+          "file": "budget-fig2.png",
+          "paper": "budget",
+          "figure": "fig2",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            71,
+            68,
+            525,
+            468
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2450.pdf",
+          "pdf_sha256": "0b7e31215e186aa67aa78bfccc137bd82a13d7a88467f220871ade3c93af6e27",
+          "sha256": "12e21dc3a5be10c91ceb5612b47bcdb7d6244755407c975742b29b7cf68f0d2b",
+          "pixels": [
+            1362,
+            1200
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "budget-fig22.png",
+          "paper": "budget",
+          "figure": "fig22",
+          "physical_pdf_page": 24,
+          "crop_points_from_top_left": [
+            71,
+            69,
+            525,
+            274
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2450.pdf",
+          "pdf_sha256": "0b7e31215e186aa67aa78bfccc137bd82a13d7a88467f220871ade3c93af6e27",
+          "sha256": "5d3fa8e1813b9bbbbb7b042671bd893c29e7df42e87bd2c8f400731a6dd20d17",
+          "pixels": [
+            1362,
+            615
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        },
+        {
+          "file": "budget-table6.png",
+          "paper": "budget",
+          "figure": "table6",
+          "physical_pdf_page": 28,
+          "crop_points_from_top_left": [
+            93,
+            613,
+            270,
+            702
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2450.pdf",
+          "pdf_sha256": "0b7e31215e186aa67aa78bfccc137bd82a13d7a88467f220871ade3c93af6e27",
+          "sha256": "0adff0b70e971d47b9a1c5dea660d3da3219e5f548c35c0ca0fbac834d68d8b2",
+          "pixels": [
+            531,
+            267
+          ],
+          "modification": "Original PDF crop at 216 dpi; no data redrawing."
+        }
+      ],
+      "read_scope": "Entire 30-page PDF including appendices",
+      "reproduction_executed": false
+    }
+  ],
+  "auxiliary_sources": [
+    {
+      "title": "D2L Probability",
+      "url": "https://d2l.ai/chapter_preliminaries/probability.html",
+      "role": "beginner background",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "D2L Language Models",
+      "url": "https://d2l.ai/chapter_recurrent-neural-networks/language-model.html",
+      "role": "beginner background",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "DPO",
+      "url": "https://arxiv.org/abs/2305.18290",
+      "role": "intermediate background",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "DeepSeekMath/GRPO",
+      "url": "https://arxiv.org/abs/2402.03300",
+      "role": "intermediate background",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "GPTQ",
+      "url": "https://arxiv.org/abs/2210.17323",
+      "role": "advanced background",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "AWQ",
+      "url": "https://arxiv.org/abs/2306.00978",
+      "role": "advanced background",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Flow Matching",
+      "url": "https://arxiv.org/abs/2210.02747",
+      "role": "advanced background",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "Datasheets for Datasets",
+      "url": "https://arxiv.org/abs/1803.09010",
+      "role": "data documentation",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "fws author resource",
+      "url": "https://aakaran.github.io/finetuning_with_sampling/",
+      "role": "author project/blog",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "drifting author resource",
+      "url": "https://lambertae.github.io/projects/drifting/",
+      "role": "author project/blog",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "little author resource",
+      "url": "https://littlelearner-ll.github.io/",
+      "role": "author project/blog",
+      "accessed": "2026-11-18"
+    },
+    {
+      "title": "quant author resource",
+      "url": "https://sanaelotfi.github.io/blog/quantized-reasoning-models/",
+      "role": "author project/blog",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "search_log": [
+    {
+      "date": "2026-11-18",
+      "scope": "CCF official current directory and final 2026 PDF",
+      "result": "NeurIPS A, EMNLP B; full/regular restriction verified; initial draft catalogue excluded"
+    },
+    {
+      "date": "2026-11-18",
+      "scope": "NeurIPS 2026 Downloads, main Papers, Orals and selected paper pages",
+      "queries": [
+        "Finetuning with Sampling NeurIPS 2026",
+        "Generative Modeling via Drifting oral 2026",
+        "LittleLearner NeurIPS 2026 oral",
+        "Quantized Reasoning Models Think They Need to Think Longer NeurIPS 2026"
+      ],
+      "result": "Four full main papers, three explicit Oral pages and one Poster page"
+    },
+    {
+      "date": "2026-11-18",
+      "scope": "ACL EMNLP 2026 main proceedings and official linked CSV schedule",
+      "query": "Scaling Near-Optimal SFT-RL Annotation Budget Allocation",
+      "result": "Main proceedings pages 55601-55630; ID 8117-MAIN Poster confirmed"
+    },
+    {
+      "date": "2026-11-18",
+      "scope": "ELF: Embedded Language Flows official page",
+      "result": "Verified poster only; excluded from the oral slot. No unverified oral claim used."
+    },
+    {
+      "date": "2026-11-18",
+      "scope": "Semantic Scholar API; OpenReview API/website",
+      "result": "S2 query returned 429; OpenReview API returned 403/browser checks. Official conference pages used for decisions; no review text claimed read."
+    },
+    {
+      "date": "2026-11-18",
+      "scope": "OpenAlex works API lookup by arXiv DOI for all five",
+      "result": "Five HTTP 200 records matched title/authors and DOI; raw records saved; counts 3,165,1,20,1"
+    },
+    {
+      "date": "2026-11-18",
+      "scope": "All historical sources.json records and manifests",
+      "result": "30 prior sources across 6 manifests; no overlap; renamed FWS title included."
+    },
+    {
+      "date": "2026-11-18",
+      "scope": "Citation selection interpretation",
+      "result": "Age/topic-aware qualitative selection, not a claim of exhaustive global top-cited ranking. No views, stars or upvotes used."
+    }
+  ],
+  "source_reading": {
+    "full_papers_read": 5,
+    "source_pdf_pages_read": 138,
+    "original_figure_crops": 19,
+    "training_or_inference_experiments_run": false
+  },
+  "pdf_quality_check": {
+    "status": "passed",
+    "pages": 25,
+    "markdown_visible_lines_checked": 265,
+    "missing_lines": 0,
+    "original_figures_embedded": 19,
+    "visual_review_pages": 25,
+    "font_missing_glyphs": 0,
+    "details": "assets/pdf-check.json",
+    "markdown_sha256": "91c4e0391cb9746911cbb27baef90d4f09e6ad7ae8979478ea35ab28d6185fe2",
+    "pdf_sha256": "ddb3bb1fb593d7cf35f36e0a2a65afde0ee7958793244a5da8682574eee83a01"
+  },
+  "publication_environment": {
+    "kind": "authorized_local_checkout",
+    "branch": "main",
+    "remote": "git@github.com:daihuangyu/papers-daily.git",
+    "schedule_modified": false
+  }
+}

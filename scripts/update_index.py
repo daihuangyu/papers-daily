@@ -45,6 +45,7 @@ def canonical_url(value):
 
 def aliases(source):
     result = {'id:' + source['id'].strip().casefold(), 'title:' + normalized_title(source['title'])}
+    result.update('title:' + normalized_title(t) for t in source.get('title_aliases', []) if t.strip())
     values = [source['id'], source['url'], source.get('arxiv_id', ''), source.get('doi', '')]
     values += source.get('canonical_urls', [])
     for value in values:
@@ -67,6 +68,31 @@ def validate_manifest(item, path):
     sources = item['sources']
     if len(sources) > 5:
         raise ValueError(f'At most 5 primary papers: {path}')
+    if item['direction'] == 'CCF_Papers':
+        if item.get('selection_year') != day.year or item.get('selection_basis') != 'acceptance_year':
+            raise ValueError(f'CCF selection must use the current acceptance year: {path}')
+        if len(sources) < 5 and not item.get('shortfall_reason'):
+            raise ValueError(f'Report the actual shortfall reason: {path}')
+        for source in sources:
+            if source.get('type') != 'paper' or source.get('paper_type') not in ('main_conference_full_regular', 'journal_regular'):
+                raise ValueError(f'CCF item must be a main/journal full/regular paper: {source["id"]}')
+            if source.get('acceptance_year') != day.year or source.get('ccf_rank') not in ('A', 'B'):
+                raise ValueError(f'CCF rank/acceptance year is invalid: {source["id"]}')
+            if source.get('presentation_type') not in ('oral', 'poster', 'spotlight', 'unknown'):
+                raise ValueError(f'Invalid presentation type: {source["id"]}')
+            evidence = source.get('official_evidence', {})
+            for key in ('ccf_classification', 'acceptance'):
+                if not evidence.get(key, {}).get('verified') or not evidence[key].get('url'):
+                    raise ValueError(f'Missing verified official {key} evidence: {source["id"]}')
+            if source['presentation_type'] != 'unknown':
+                if not evidence.get('presentation', {}).get('verified') or not evidence['presentation'].get('url'):
+                    raise ValueError(f'Missing verified official presentation evidence: {source["id"]}')
+            citation = source.get('citation_count', {})
+            count = citation.get('value')
+            if count is not None and (type(count) is not int or count < 0 or not citation.get('source_url') or not citation.get('queried_at')):
+                raise ValueError(f'Citation count needs source and query date: {source["id"]}')
+            if count is None and not citation.get('unavailable_reason'):
+                raise ValueError(f'Unknown citation count needs a reason: {source["id"]}')
     if item['direction'] == 'VLM' and item['date'] != '2026-11-16':
         # A calendar month, clamping the day at the previous month's end.
         import calendar
@@ -87,6 +113,12 @@ def validate_manifest(item, path):
 
 
 def direction_intro(direction):
+    if direction == 'CCF_Papers':
+        return ['# CCF-A/B 年度录用论文精读', '',
+            '覆盖AI/LLM训练、推理、对齐、采样与相关基础研究；按当年会议/期刊录用年度筛选，预印本可以更早公开，不采用最近一个月窗口。',
+            '目标每天5篇，偏好4篇CCF-A加1篇CCF-B、3篇oral加2篇poster；spotlight独立记录，官方证据优先于配比。只纳入主会full/regular或期刊regular论文。',
+            '引用数保留来源与查询日，跨所有方向和日期按论文ID、DOI、URL、标题及改题别名去重。',
+            '计划北京时间每天10:00；运行和发布约定见 [AUTOMATION.md](AUTOMATION.md)，日程启用状态由调度端核验。', '']
     if direction == 'OPSD':
         return ['# OPD & OPSD 方向', '',
             '聚焦 On-Policy Distillation 与 On-Policy Self-Distillation：特权信息、监督选择、token级credit、训练稳定性及系统效率。',
@@ -125,7 +157,8 @@ def update(root=ROOT, remote_files=None):
         '## 更新安排', '', '计划北京时间（Asia/Shanghai）每天09:00，由ChatGPT云端定时任务检索、写作、生成PDF并通过GitHub连接普通提交到main。任务启用与环境验证状态见 [AUTOMATION.md](AUTOMATION.md)。',
         '目标为每次从仓库读取状态、不依赖个人电脑。云端环境绑定尚待核验，托管日程暂停；迁移期间旧本地日程补位，仍依赖电脑开机。当前状态以AUTOMATION.md为准。',
         'OPD & OPSD专项在北京时间每天09:15由既有本地日程执行，归档到OPSD/；上述09:00为VLM计划。',
-        '近一个日历月内目标5篇新论文；按arXiv去版本ID、DOI、规范URL及规范标题跨日去重，不足如实报告，不用旧论文或博客凑数。', '', '## 方向', '']
+        'VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选，计划北京时间每天10:00，不限制预印本首次公开月份。',
+        '每方向目标5篇；按arXiv去版本ID、DOI、规范URL、规范标题及改题别名跨日期与方向去重，不足如实报告，不用博客凑数。', '', '## 方向', '']
     lines += [f'- [{d}]({d}/README.md)' for d in directions]
     lines += ['', '## 每日索引', '', '| 日期 | 方向 / 子主题 | 数量 | 阅读 |', '| --- | --- | --- | --- |']
     for item, folder in manifests:

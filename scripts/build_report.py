@@ -39,6 +39,7 @@ def illustrations(folder):
         'Draft 采样\nx ~ q(x)', 'Target 验证\nmin(1, p/q)', '连续接受前缀\n拒绝后残差采样', '更新上下文\n进入下一轮'], '目标：保持 target 分布；可选有损验证不具备同样的等价保证。')
 
 def build(md):
+    direction = md.parent.parent.name
     FONT = embedded_font(md.read_text(encoding='utf-8'))
     pdfmetrics.registerFont(TTFont('CJK',str(FONT)))
     pdfmetrics.registerFontFamily('CJK',normal='CJK',bold='CJK',italic='CJK',boldItalic='CJK')
@@ -53,6 +54,13 @@ def build(md):
         text=re.sub(r'`([^`]+)`',r'\1',text)
         return text
     lines=md.read_text(encoding='utf-8').splitlines(); story=[]; i=0
+    def append_block(block):
+        # Keep a heading with a figure/code block even when that block is atomic.
+        # Nested KeepTogether can otherwise leave the heading on the prior page.
+        prefix=[]
+        while story and isinstance(story[-1], Paragraph) and story[-1].style.name in ('h1','h2','h3'):
+            prefix.insert(0,story.pop())
+        story.append(KeepTogether(prefix + block))
     while i<len(lines):
         line=lines[i].strip(); i+=1
         if not line: continue
@@ -61,13 +69,21 @@ def build(md):
             while i<len(lines) and not lines[i].startswith('```'):
                 block.append(html.escape(lines[i]).replace(' ','&#160;')); i+=1
             i+=1
-            story.append(KeepTogether([Paragraph('<br/>'.join(block),code),Spacer(1,8)])); continue
+            append_block([Paragraph('<br/>'.join(block),code),Spacer(1,8)]); continue
         image=re.fullmatch(r'!\[([^]]*)\]\(([^)]+)\)',line)
         if image:
             path=md.parent/image[2]
             w,h=PILImage.open(path).size
-            scale=min(487/w,540/h)
-            story.append(Image(str(path),width=w*scale,height=h*scale)); story.append(Spacer(1,7)); continue
+            widths = {'drifting-fig2.png': 300, 'little-fig6.png': 360, 'budget-table6.png': 380}
+            max_width = widths.get(path.name, 487) if direction == 'CCF_Papers' else 487
+            scale=min(max_width/w,(440 if direction == 'CCF_Papers' else 540)/h)
+            figure_block = [Image(str(path),width=w*scale,height=h*scale), Spacer(1,7)]
+            j=i
+            while j<len(lines) and not lines[j].strip(): j+=1
+            if j<len(lines) and lines[j].strip().startswith('图 '):
+                figure_block.append(Paragraph(inline(lines[j].strip()),caption))
+                i=j+1
+            append_block(figure_block); continue
         heading=re.match(r'^(#{1,3}) (.+)',line)
         if heading:
             n=len(heading[1]); title=heading[2]
@@ -87,7 +103,7 @@ def build(md):
         story.append(Paragraph(inline(line),caption if line.startswith('图 ') else normal))
     def footer(c,d):
         c.setFont('CJK',8); c.setFillColor(colors.HexColor('#536575'))
-        c.drawString(54,26,'Papers Daily / VLM / '+md.parent.name)
+        c.drawString(54,26,'Papers Daily / '+direction+' / '+md.parent.name)
         c.drawRightString(541,26,str(d.page))
     output=md.with_suffix('.pdf')
     SimpleDocTemplate(str(output),pagesize=A4,leftMargin=54,rightMargin=54,topMargin=48,bottomMargin=48,title=lines[0].lstrip('# '),author='Papers Daily').build(story,onFirstPage=footer,onLaterPages=footer)

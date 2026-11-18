@@ -1,0 +1,76 @@
+{
+  "checked_on": "2026-11-18",
+  "history_sources": 30,
+  "history_manifests": 6,
+  "normalization": "arXiv version stripping; DOI; canonical URL; Unicode NFKC/case/punctuation title; renamed title aliases",
+  "selected": [
+    {
+      "id": "arxiv:2610.02140",
+      "aliases": [
+        "arxiv:2610.02140",
+        "doi:10.48550/arxiv.2610.02140",
+        "id:arxiv:2610.02140",
+        "title:finetuningwithsamplingmakesftgeneralizenotforget",
+        "title:finetuningwithsamplingsftlearnsbetterthanyouthink",
+        "url:https://arxiv.org/abs/2610.02140",
+        "url:https://doi.org/10.48550/arxiv.2610.02140",
+        "url:https://neurips.cc/virtual/2026/poster/150118"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2602.04770",
+      "aliases": [
+        "arxiv:2602.04770",
+        "doi:10.48550/arxiv.2602.04770",
+        "id:arxiv:2602.04770",
+        "title:generativemodelingviadrifting",
+        "url:https://arxiv.org/abs/2602.04770",
+        "url:https://doi.org/10.48550/arxiv.2602.04770",
+        "url:https://neurips.cc/virtual/2026/oral/154241"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2608.13545",
+      "aliases": [
+        "arxiv:2608.13545",
+        "doi:10.48550/arxiv.2608.13545",
+        "id:arxiv:2608.13545",
+        "title:littlelearnerlanguagemodelsunderpedagogicallycontrolledknowledgeexposure",
+        "url:https://arxiv.org/abs/2608.13545",
+        "url:https://doi.org/10.48550/arxiv.2608.13545",
+        "url:https://neurips.cc/virtual/2026/oral/148221"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2606.00206",
+      "aliases": [
+        "arxiv:2606.00206",
+        "doi:10.48550/arxiv.2606.00206",
+        "id:arxiv:2606.00206",
+        "title:quantizedreasoningmodelsthinktheyneedtothinklongerbuttheydonot",
+        "url:https://arxiv.org/abs/2606.00206",
+        "url:https://doi.org/10.48550/arxiv.2606.00206",
+        "url:https://neurips.cc/virtual/2026/oral/151669"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2609.01573",
+      "aliases": [
+        "arxiv:2609.01573",
+        "doi:10.18653/2026.emnlp-main.2450",
+        "doi:10.48550/arxiv.2609.01573",
+        "id:arxiv:2609.01573",
+        "title:scalingnearoptimalsftrlannotationbudgetallocationfromsmalltolargellms",
+        "url:https://aclanthology.org/2026.emnlp-main.2450",
+        "url:https://arxiv.org/abs/2609.01573",
+        "url:https://doi.org/10.18653/2026.emnlp-main.2450",
+        "url:https://doi.org/10.48550/arxiv.2609.01573"
+      ],
+      "conflicts": {}
+    }
+  ]
+}
