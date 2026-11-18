@@ -604,6 +604,405 @@
       ]
     },
     {
+      "id": "arxiv:2610.38637",
+      "type": "paper",
+      "title": "On-Policy Self-Distillation with Teacher Evolution",
+      "method": "TESD",
+      "published": "2026-10-28",
+      "arxiv_id": "2610.38637",
+      "doi": "10.48550/arXiv.2610.38637",
+      "url": "https://arxiv.org/abs/2610.38637",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.38637",
+        "https://doi.org/10.48550/arXiv.2610.38637"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.38637v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.38637v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "a456e33a1061633a2cd1510aabcffd63cee882a523c9bba3c9cdf6b3af481714",
+      "code_url": null,
+      "code_status": "not found in original PDF links and exact-title/arXiv-ID code searches on 2026-11-18",
+      "author_blog_url": null,
+      "author_blog_status": "no dedicated author blog found in targeted search",
+      "figures": [
+        {
+          "file": "assets/tesd-fig3.png",
+          "arxiv_id": "2610.38637",
+          "page": 4,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.1,
+            0.07,
+            0.9,
+            0.36
+          ],
+          "sha256": "f29d446dcd01ad2c1f731ba7c92a9d4f0b903159b5cd9078d9deb2a4886077c5",
+          "source_url": "https://arxiv.org/pdf/2610.38637v1"
+        },
+        {
+          "file": "assets/tesd-table1.png",
+          "arxiv_id": "2610.38637",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.1,
+            0.07,
+            0.9,
+            0.315
+          ],
+          "sha256": "1ea62f3015c53bb5c1ce88b2f896079a2541059a58d461a430129506754c2cda",
+          "source_url": "https://arxiv.org/pdf/2610.38637v1"
+        },
+        {
+          "file": "assets/tesd-tables4-5.png",
+          "arxiv_id": "2610.38637",
+          "page": 7,
+          "paper_figure": "Tables 4 and 5",
+          "crop_box_normalized": [
+            0.11,
+            0.235,
+            0.5,
+            0.568
+          ],
+          "sha256": "ba0b8c555ea1b8c2aaa38a3044c85f8e66fd98fd9024b9e8aca6184d44cb3fcb",
+          "source_url": "https://arxiv.org/pdf/2610.38637v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-18",
+      "aliases": [
+        "arxiv:2610.38637",
+        "doi:10.48550/arxiv.2610.38637",
+        "id:arxiv:2610.38637",
+        "title:onpolicyselfdistillationwithteacherevolution",
+        "url:https://arxiv.org/abs/2610.38637",
+        "url:https://doi.org/10.48550/arxiv.2610.38637"
+      ]
+    },
+    {
+      "id": "arxiv:2610.40574",
+      "type": "paper",
+      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+      "method": "MTA-OPSD",
+      "published": "2026-10-29",
+      "arxiv_id": "2610.40574",
+      "doi": "10.48550/arXiv.2610.40574",
+      "url": "https://arxiv.org/abs/2610.40574",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.40574",
+        "https://doi.org/10.48550/arXiv.2610.40574"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.40574v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40574v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "46d400419f8e73a57a3ac0944172ee79581b1880f9fc8725108e7a754a667e74",
+      "code_url": "https://github.com/xingzhejun/MTA-OPSD",
+      "code_status": "official public repository, pinned configuration and loss file inspected; training not run",
+      "author_blog_url": null,
+      "author_blog_status": "no dedicated author blog found in targeted search",
+      "figures": [
+        {
+          "file": "assets/mta-fig3.png",
+          "arxiv_id": "2610.40574",
+          "page": 7,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.17,
+            0.1,
+            0.83,
+            0.335
+          ],
+          "sha256": "70dd8119301ca15b42c9b324344c6249212e1763f405704b8721b13b0d2b9eb2",
+          "source_url": "https://arxiv.org/pdf/2610.40574v1"
+        },
+        {
+          "file": "assets/mta-table5.png",
+          "arxiv_id": "2610.40574",
+          "page": 9,
+          "paper_figure": "Table 5",
+          "crop_box_normalized": [
+            0.17,
+            0.08,
+            0.83,
+            0.375
+          ],
+          "sha256": "f23d9fca88d3603f9ba783ba69cd9c015a47c964485162769d1a78274cb4c867",
+          "source_url": "https://arxiv.org/pdf/2610.40574v1"
+        },
+        {
+          "file": "assets/mta-tables6-8.png",
+          "arxiv_id": "2610.40574",
+          "page": 9,
+          "paper_figure": "Tables 6, 7 and 8",
+          "crop_box_normalized": [
+            0.394,
+            0.505,
+            0.83,
+            0.902
+          ],
+          "sha256": "52d16c1d1af536b98dc0dcc57b066f126b224342ee72a52febf6a40b2e587511",
+          "source_url": "https://arxiv.org/pdf/2610.40574v1"
+        }
+      ],
+      "code_commit": "9567be28a9882f6fa3c3f610f358beb07bb29be8",
+      "code_evidence": [
+        "https://github.com/xingzhejun/MTA-OPSD/blob/9567be28a9882f6fa3c3f610f358beb07bb29be8/configs/math_deepmath/qwen3_1_7b_mta-opsd.yaml",
+        "https://github.com/xingzhejun/MTA-OPSD/blob/9567be28a9882f6fa3c3f610f358beb07bb29be8/src/losses.py",
+        "https://github.com/xingzhejun/MTA-OPSD/blob/9567be28a9882f6fa3c3f610f358beb07bb29be8/scripts/math_deepmath/run_qwen3_1_7b_mta-opsd.sh",
+        "https://github.com/xingzhejun/MTA-OPSD/blob/9567be28a9882f6fa3c3f610f358beb07bb29be8/scripts/_run_verl.sh",
+        "https://github.com/xingzhejun/MTA-OPSD/blob/9567be28a9882f6fa3c3f610f358beb07bb29be8/third_party/verl/verl/workers/actor/dp_actor.py",
+        "https://github.com/xingzhejun/MTA-OPSD/blob/9567be28a9882f6fa3c3f610f358beb07bb29be8/third_party/verl/verl/trainer/ppo/core_algos.py"
+      ],
+      "code_discrepancy": "Paper Eq15/16 uses reverse KL. Published 1.7B YAML sets beta=0.0; core_algos maps zero to forward KL and teacher_selection_beta defaults to beta. Runtime overrides/logs of original experiments unavailable. No training run claimed.",
+      "folder": "OPSD/2026-11-18",
+      "aliases": [
+        "arxiv:2610.40574",
+        "doi:10.48550/arxiv.2610.40574",
+        "id:arxiv:2610.40574",
+        "title:everytokenneedsitsownteachermultiteacheradaptiveonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2610.40574",
+        "url:https://doi.org/10.48550/arxiv.2610.40574"
+      ]
+    },
+    {
+      "id": "arxiv:2610.30880",
+      "type": "paper",
+      "title": "One Teacher, Many Views: Reducing Reference Sensitivity in On-Policy Self-Distillation",
+      "method": "MCPD",
+      "published": "2026-10-22",
+      "arxiv_id": "2610.30880",
+      "doi": "10.48550/arXiv.2610.30880",
+      "url": "https://arxiv.org/abs/2610.30880",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.30880",
+        "https://doi.org/10.48550/arXiv.2610.30880"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.30880v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30880v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "1f5f4b5cdcc5770611162ab45d4287f8cf4b77f664df743e726bb77e31d78318",
+      "code_url": null,
+      "code_status": "not found in original PDF links and exact-title/arXiv-ID code searches on 2026-11-18",
+      "author_blog_url": null,
+      "author_blog_status": "no dedicated author blog found in targeted search",
+      "figures": [
+        {
+          "file": "assets/mcpd-fig1.png",
+          "arxiv_id": "2610.30880",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.06,
+            0.07,
+            0.94,
+            0.36
+          ],
+          "sha256": "eafe7b382cf063e2b0a2cb1b6d76b33a5c9210b1704871d91105a24574d57a67",
+          "source_url": "https://arxiv.org/pdf/2610.30880v1"
+        },
+        {
+          "file": "assets/mcpd-table1.png",
+          "arxiv_id": "2610.30880",
+          "page": 5,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.518,
+            0.065,
+            0.925,
+            0.51
+          ],
+          "sha256": "cb14f90902a1b161f81dffad1b6f6f35a70639bd360c86b9389544703216d048",
+          "source_url": "https://arxiv.org/pdf/2610.30880v1"
+        },
+        {
+          "file": "assets/mcpd-algorithm1.png",
+          "arxiv_id": "2610.30880",
+          "page": 12,
+          "paper_figure": "Algorithm 1",
+          "crop_box_normalized": [
+            0.518,
+            0.346,
+            0.925,
+            0.891
+          ],
+          "sha256": "7a02c76660d4891a64125ec8fe0a900610bda43407f2b11cdf480af6a341580f",
+          "source_url": "https://arxiv.org/pdf/2610.30880v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-18",
+      "aliases": [
+        "arxiv:2610.30880",
+        "doi:10.48550/arxiv.2610.30880",
+        "id:arxiv:2610.30880",
+        "title:oneteachermanyviewsreducingreferencesensitivityinonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2610.30880",
+        "url:https://doi.org/10.48550/arxiv.2610.30880"
+      ]
+    },
+    {
+      "id": "arxiv:2610.29167",
+      "type": "paper",
+      "title": "TeachBack: Learning to Teach via Bidirectional Preference Optimization for On-Policy Self-Distillation",
+      "method": "TeachBack",
+      "published": "2026-10-21",
+      "arxiv_id": "2610.29167",
+      "doi": "10.48550/arXiv.2610.29167",
+      "url": "https://arxiv.org/abs/2610.29167",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.29167",
+        "https://doi.org/10.48550/arXiv.2610.29167"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.29167v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29167v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "11ce0c47be3f06d150fb4779ba4f8698edc5d042e244be9dedef1a2bc2914590",
+      "code_url": null,
+      "code_status": "not found in original PDF links and exact-title/arXiv-ID code searches on 2026-11-18",
+      "author_blog_url": null,
+      "author_blog_status": "no dedicated author blog found in targeted search",
+      "figures": [
+        {
+          "file": "assets/teachback-fig2.png",
+          "arxiv_id": "2610.29167",
+          "page": 4,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.09,
+            0.06,
+            0.94,
+            0.45
+          ],
+          "sha256": "8ff0e0cdae3a4b2a02f4b3ba762ae3abb9f0d446e67a33ed8545fd1d4f61a912",
+          "source_url": "https://arxiv.org/pdf/2610.29167v1"
+        },
+        {
+          "file": "assets/teachback-table1.png",
+          "arxiv_id": "2610.29167",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.12,
+            0.1,
+            0.91,
+            0.418
+          ],
+          "sha256": "b186ecfcc51a0d30ec8cd8665cb757a37395f678713007ece56209004d0a048d",
+          "source_url": "https://arxiv.org/pdf/2610.29167v1"
+        },
+        {
+          "file": "assets/teachback-fig5.png",
+          "arxiv_id": "2610.29167",
+          "page": 9,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.12,
+            0.11,
+            0.92,
+            0.33
+          ],
+          "sha256": "f9c16ffbe7b42a4cccc551dbfe1d9e26a97747c93be4b193cd112b3c141753c1",
+          "source_url": "https://arxiv.org/pdf/2610.29167v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-18",
+      "aliases": [
+        "arxiv:2610.29167",
+        "doi:10.48550/arxiv.2610.29167",
+        "id:arxiv:2610.29167",
+        "title:teachbacklearningtoteachviabidirectionalpreferenceoptimizationforonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2610.29167",
+        "url:https://doi.org/10.48550/arxiv.2610.29167"
+      ]
+    },
+    {
+      "id": "arxiv:2610.34005",
+      "type": "paper",
+      "title": "Steering the Teacher: Improving On-Policy Self-Distillation for Thinking Models",
+      "method": "ST-OPSD",
+      "published": "2026-10-25",
+      "arxiv_id": "2610.34005",
+      "doi": "10.48550/arXiv.2610.34005",
+      "url": "https://arxiv.org/abs/2610.34005",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.34005",
+        "https://doi.org/10.48550/arXiv.2610.34005"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.34005v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.34005v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "81b1aeaa90b23e0852a41e20c0a549b2d3e5be9a810d9deb41a433f318deac9b",
+      "code_url": null,
+      "code_status": "not found in original PDF links and exact-title/arXiv-ID code searches on 2026-11-18",
+      "author_blog_url": null,
+      "author_blog_status": "no dedicated author blog found in targeted search",
+      "figures": [
+        {
+          "file": "assets/steer-fig2.png",
+          "arxiv_id": "2610.34005",
+          "page": 4,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.08,
+            0.07,
+            0.94,
+            0.48
+          ],
+          "sha256": "f29be1be24060f083160cede5229f1133b407c8d5395ba03f6c0e27e899c0bb3",
+          "source_url": "https://arxiv.org/pdf/2610.34005v1"
+        },
+        {
+          "file": "assets/steer-table1.png",
+          "arxiv_id": "2610.34005",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.07,
+            0.07,
+            0.95,
+            0.53
+          ],
+          "sha256": "a389747a04038e0af1a8984d3e601ae600e7b377d17ebf00e16c682ede856744",
+          "source_url": "https://arxiv.org/pdf/2610.34005v1"
+        },
+        {
+          "file": "assets/steer-fig3.png",
+          "arxiv_id": "2610.34005",
+          "page": 9,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.08,
+            0.07,
+            0.95,
+            0.46
+          ],
+          "sha256": "544b81fc910c98b5808a7490a8f0c3d30669b74bfee5cc1673c39c42651daf84",
+          "source_url": "https://arxiv.org/pdf/2610.34005v1"
+        },
+        {
+          "file": "assets/steer-table3.png",
+          "arxiv_id": "2610.34005",
+          "page": 10,
+          "paper_figure": "Table 3",
+          "crop_box_normalized": [
+            0.07,
+            0.07,
+            0.95,
+            0.31
+          ],
+          "sha256": "6faaf339d843aaa3416dfed229424159b52fdf3c89ae38520d9f5cfdd44f70d0",
+          "source_url": "https://arxiv.org/pdf/2610.34005v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-18",
+      "aliases": [
+        "arxiv:2610.34005",
+        "doi:10.48550/arxiv.2610.34005",
+        "id:arxiv:2610.34005",
+        "title:steeringtheteacherimprovingonpolicyselfdistillationforthinkingmodels",
+        "url:https://arxiv.org/abs/2610.34005",
+        "url:https://doi.org/10.48550/arxiv.2610.34005"
+      ]
+    },
+    {
       "id": "arxiv:2611.12232",
       "type": "paper",
       "arxiv_id": "2611.12232",
@@ -1070,6 +1469,36 @@
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
     "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2610.38637": "OPSD/2026-11-18",
+    "doi:10.48550/arxiv.2610.38637": "OPSD/2026-11-18",
+    "id:arxiv:2610.38637": "OPSD/2026-11-18",
+    "title:onpolicyselfdistillationwithteacherevolution": "OPSD/2026-11-18",
+    "url:https://arxiv.org/abs/2610.38637": "OPSD/2026-11-18",
+    "url:https://doi.org/10.48550/arxiv.2610.38637": "OPSD/2026-11-18",
+    "arxiv:2610.40574": "OPSD/2026-11-18",
+    "doi:10.48550/arxiv.2610.40574": "OPSD/2026-11-18",
+    "id:arxiv:2610.40574": "OPSD/2026-11-18",
+    "title:everytokenneedsitsownteachermultiteacheradaptiveonpolicyselfdistillation": "OPSD/2026-11-18",
+    "url:https://arxiv.org/abs/2610.40574": "OPSD/2026-11-18",
+    "url:https://doi.org/10.48550/arxiv.2610.40574": "OPSD/2026-11-18",
+    "arxiv:2610.30880": "OPSD/2026-11-18",
+    "doi:10.48550/arxiv.2610.30880": "OPSD/2026-11-18",
+    "id:arxiv:2610.30880": "OPSD/2026-11-18",
+    "title:oneteachermanyviewsreducingreferencesensitivityinonpolicyselfdistillation": "OPSD/2026-11-18",
+    "url:https://arxiv.org/abs/2610.30880": "OPSD/2026-11-18",
+    "url:https://doi.org/10.48550/arxiv.2610.30880": "OPSD/2026-11-18",
+    "arxiv:2610.29167": "OPSD/2026-11-18",
+    "doi:10.48550/arxiv.2610.29167": "OPSD/2026-11-18",
+    "id:arxiv:2610.29167": "OPSD/2026-11-18",
+    "title:teachbacklearningtoteachviabidirectionalpreferenceoptimizationforonpolicyselfdistillation": "OPSD/2026-11-18",
+    "url:https://arxiv.org/abs/2610.29167": "OPSD/2026-11-18",
+    "url:https://doi.org/10.48550/arxiv.2610.29167": "OPSD/2026-11-18",
+    "arxiv:2610.34005": "OPSD/2026-11-18",
+    "doi:10.48550/arxiv.2610.34005": "OPSD/2026-11-18",
+    "id:arxiv:2610.34005": "OPSD/2026-11-18",
+    "title:steeringtheteacherimprovingonpolicyselfdistillationforthinkingmodels": "OPSD/2026-11-18",
+    "url:https://arxiv.org/abs/2610.34005": "OPSD/2026-11-18",
+    "url:https://doi.org/10.48550/arxiv.2610.34005": "OPSD/2026-11-18",
     "arxiv:2611.12232": "OPSD/2026-11-17",
     "doi:10.48550/arxiv.2611.12232": "OPSD/2026-11-17",
     "id:arxiv:2611.12232": "OPSD/2026-11-17",

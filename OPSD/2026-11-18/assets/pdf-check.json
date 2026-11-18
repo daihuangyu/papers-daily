@@ -1,0 +1,70 @@
+{
+  "pages": 19,
+  "original_images": 16,
+  "markdown_characters": 27355,
+  "text_lines_checked": 208,
+  "missing_lines": [],
+  "text_characters_per_page": [
+    1430,
+    1155,
+    2263,
+    689,
+    1198,
+    1967,
+    1325,
+    1167,
+    1275,
+    1421,
+    1017,
+    1052,
+    1853,
+    964,
+    1022,
+    2182,
+    475,
+    937,
+    1253
+  ],
+  "out_of_page_characters": [],
+  "markdown_sha256": "e309b7499a557fe3244d585d3a57f09ab9653bd619e37e00a0e436740eff2df9",
+  "pdf_sha256": "fa102da99856eba98df3c392166cd562e3fa0a0c071f2f7e9b8bcb2060c64eba",
+  "missing_font_glyphs": [],
+  "fonts": {
+    "/Helvetica": {
+      "subtype": "/Type1",
+      "unicode_mapping": false,
+      "embedded": false
+    },
+    "/AAAAAA+STSongti-TC-Bold": {
+      "subtype": "/TrueType",
+      "unicode_mapping": true,
+      "embedded": true
+    },
+    "/AAAAAB+STSongti-TC-Bold": {
+      "subtype": "/TrueType",
+      "unicode_mapping": true,
+      "embedded": true
+    },
+    "/AAAAAC+STSongti-TC-Bold": {
+      "subtype": "/TrueType",
+      "unicode_mapping": true,
+      "embedded": true
+    },
+    "/AAAAAD+STSongti-TC-Bold": {
+      "subtype": "/TrueType",
+      "unicode_mapping": true,
+      "embedded": true
+    }
+  },
+  "all_pages_visually_reviewed": true,
+  "full_resolution_spot_checks": [
+    4,
+    10,
+    14,
+    16
+  ],
+  "figure_caption_same_page": true,
+  "blank_pages": 0,
+  "training_runs": 0,
+  "renderer": "shared scripts/build_report.py with local font adapter, OPSD footer, 300pt image-height cap and figure/caption grouping; shared file unchanged"
+}
