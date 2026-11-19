@@ -2,7 +2,7 @@
 
 ## 任务与授权
 
-- 私有仓库：https://github.com/daihuangyu/papers-daily，分支main。用户已明确授权每日自动写入本仓库，无需每次等待人工确认。
+- 公开仓库：https://github.com/daihuangyu/papers-daily，分支main。用户于2026-11-18要求改为Public，已在GitHub设置页核验生效。用户已明确授权每日自动写入本仓库，无需每次等待人工确认。
 - 云端计划：Asia/Shanghai每天09:00，首个日程2026-11-17 09:00，长期运行，无结束日期。由ChatGPT云端定时任务执行研究、写作、PDF生成和发布，不是创建普通聊天，也不依赖用户电脑开机。
 - 迁移状态（2026-11-16）：**尚未完成，等待云端执行环境绑定核验**。定时服务确实创建了持久任务并返回正确日程和next_run_time=2026-11-17T09:00:00+08:00，但环境元数据仅为environment_selection=inherited、environments=null；接口说明null表示继承详情不可用，不能据此证明脱离本机。公开的create/update工具没有环境选择参数。网页核验停在ChatGPT登录页。
 - 新任务已暂停（is_enabled=false），避免把未验证的环境当作迁移完成；保留完整任务指令与日程，确认显式云端环境后再启用。此处不将它标记为已完成迁移，也不影响旧本地vllm或原有已暂停跟踪任务。

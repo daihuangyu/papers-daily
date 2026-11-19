@@ -2,6 +2,391 @@
   "schema_version": 2,
   "sources": [
     {
+      "id": "arxiv:2611.10734",
+      "type": "paper",
+      "arxiv_id": "2611.10734",
+      "doi": "10.48550/arXiv.2611.10734",
+      "title": "Tiny Evidence Region Localization with Selective Contrastive On-Policy Self-Distillation",
+      "published": "2026-11-07",
+      "url": "https://arxiv.org/abs/2611.10734",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.10734"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.10734v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.10734v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No official code/model/blog verified from PDF and targeted title searches; optimizer, LR, batch, epochs, GPU and teacher-update details missing in v1.",
+      "pdf_sha256": "aa253463837eaf924ebdc39d2a1cc19d9ede8d2f7e3f402bfde56a888ed80a47",
+      "figures": [
+        {
+          "page": 3,
+          "file": "assets/spn-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.08,
+            0.05,
+            0.92,
+            0.335
+          ],
+          "size": [
+            1559,
+            684
+          ]
+        },
+        {
+          "page": 4,
+          "file": "assets/spn-table2.png",
+          "paper_figure": "Table II",
+          "box": [
+            0.51,
+            0.05,
+            0.92,
+            0.455
+          ],
+          "size": [
+            761,
+            972
+          ]
+        },
+        {
+          "page": 5,
+          "file": "assets/spn-table3.png",
+          "paper_figure": "Table III",
+          "box": [
+            0.08,
+            0.05,
+            0.495,
+            0.43
+          ],
+          "size": [
+            770,
+            912
+          ]
+        }
+      ],
+      "folder": "VLM/2026-11-19",
+      "aliases": [
+        "arxiv:2611.10734",
+        "doi:10.48550/arxiv.2611.10734",
+        "id:arxiv:2611.10734",
+        "title:tinyevidenceregionlocalizationwithselectivecontrastiveonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2611.10734"
+      ]
+    },
+    {
+      "id": "arxiv:2611.11949",
+      "type": "paper",
+      "arxiv_id": "2611.11949",
+      "doi": "10.48550/arXiv.2611.11949",
+      "title": "Watching Itself Watch: Self-Auditing Visual Reliance for Video Reasoning",
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.11949",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.11949"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.11949v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.11949v1",
+      "code_url": null,
+      "project_url": "https://vision.cs.utexas.edu/projects/VIOS/",
+      "code_verification": "Author project says code release coming soon; linked https://github.com/rohand2412/VIOS returned 404. No training executed.",
+      "pdf_sha256": "2e7a8229784fa3c208ef557dd7cf3be4634aa91871fa4ecb524e3dd8461d4aa2",
+      "figures": [
+        {
+          "page": 3,
+          "file": "assets/vios-fig1.png",
+          "paper_figure": "Figure 1",
+          "box": [
+            0.17,
+            0.08,
+            0.83,
+            0.31
+          ],
+          "size": [
+            1225,
+            552
+          ]
+        },
+        {
+          "page": 6,
+          "file": "assets/vios-table1.png",
+          "paper_figure": "Table 1",
+          "box": [
+            0.17,
+            0.08,
+            0.83,
+            0.39
+          ],
+          "size": [
+            1225,
+            744
+          ]
+        },
+        {
+          "page": 8,
+          "file": "assets/vios-figs3-4.png",
+          "paper_figure": "Figures 3 and 4",
+          "box": [
+            0.17,
+            0.08,
+            0.83,
+            0.415
+          ],
+          "size": [
+            1225,
+            804
+          ]
+        },
+        {
+          "page": 9,
+          "file": "assets/vios-tables3-5.png",
+          "paper_figure": "Tables 3, 4 and 5",
+          "box": [
+            0.17,
+            0.08,
+            0.83,
+            0.635
+          ],
+          "size": [
+            1225,
+            1332
+          ]
+        }
+      ],
+      "folder": "VLM/2026-11-19",
+      "aliases": [
+        "arxiv:2611.11949",
+        "doi:10.48550/arxiv.2611.11949",
+        "id:arxiv:2611.11949",
+        "title:watchingitselfwatchselfauditingvisualrelianceforvideoreasoning",
+        "url:https://arxiv.org/abs/2611.11949"
+      ]
+    },
+    {
+      "id": "arxiv:2611.23034",
+      "type": "paper",
+      "arxiv_id": "2611.23034",
+      "doi": "10.48550/arXiv.2611.23034",
+      "title": "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation",
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23034",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.23034"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.23034v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23034v1",
+      "code_url": "https://github.com/ngquangtrung57/M3OPD-Reasoner",
+      "project_url": "https://ngquangtrung57.github.io/m3opd-reasoner-page/",
+      "code_verification": "Official configs, m3opd, patches, scripts, tests and data/model links inspected. Project page fetch failed; PDF and official README used. No training executed.",
+      "pdf_sha256": "59df2fdf83ceed87bb9e2bb46af5077de22896248d5c01dc0958866f8f2dd8f4",
+      "figures": [
+        {
+          "page": 3,
+          "file": "assets/m3opd-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.08,
+            0.08,
+            0.92,
+            0.36
+          ],
+          "size": [
+            1559,
+            672
+          ]
+        },
+        {
+          "page": 7,
+          "file": "assets/m3opd-table2.png",
+          "paper_figure": "Table 2",
+          "box": [
+            0.08,
+            0.08,
+            0.92,
+            0.395
+          ],
+          "size": [
+            1559,
+            756
+          ]
+        }
+      ],
+      "folder": "VLM/2026-11-19",
+      "aliases": [
+        "arxiv:2611.23034",
+        "doi:10.48550/arxiv.2611.23034",
+        "id:arxiv:2611.23034",
+        "title:m3opdreasoneranopenrecipeforposttrainingmultimodalreasoningwithmultiteacheronpolicydistillation",
+        "url:https://arxiv.org/abs/2611.23034"
+      ]
+    },
+    {
+      "id": "arxiv:2610.29552",
+      "type": "paper",
+      "arxiv_id": "2610.29552",
+      "doi": "10.48550/arXiv.2610.29552",
+      "title": "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.29552",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.29552"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.29552v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29552v1",
+      "code_url": "https://github.com/devinxzhang/CycleGRPO",
+      "project_url": "https://devinxzhang.github.io/Generalized-CycleGRPO-Page/",
+      "code_verification": "Official generalized code/profile/data instructions verified. Major video extension of earlier spatial CycleGRPO 2607.11581; new temporal/spatio-temporal content and controls are the focus, not a re-entry of old spatial experiments.",
+      "pdf_sha256": "d1cdc698b5a76ff6c0d8c468a28d6003b70eb0fed596df193e84c0878f20830a",
+      "figures": [
+        {
+          "page": 5,
+          "file": "assets/cycle-fig3.png",
+          "paper_figure": "Figure 3",
+          "box": [
+            0.1,
+            0.09,
+            0.9,
+            0.47
+          ],
+          "size": [
+            1484,
+            912
+          ]
+        },
+        {
+          "page": 6,
+          "file": "assets/cycle-fig4.png",
+          "paper_figure": "Figure 4",
+          "box": [
+            0.1,
+            0.09,
+            0.9,
+            0.4
+          ],
+          "size": [
+            1484,
+            744
+          ]
+        },
+        {
+          "page": 15,
+          "file": "assets/cycle-table10.png",
+          "paper_figure": "Table 10",
+          "box": [
+            0.1,
+            0.25,
+            0.9,
+            0.38
+          ],
+          "size": [
+            1484,
+            312
+          ]
+        }
+      ],
+      "related_earlier_work": {
+        "arxiv_id": "2607.11581",
+        "relationship": "major video and region-space extension; earlier spatial results clearly identified as context"
+      },
+      "folder": "VLM/2026-11-19",
+      "aliases": [
+        "arxiv:2610.29552",
+        "doi:10.48550/arxiv.2610.29552",
+        "id:arxiv:2610.29552",
+        "title:generalizedcyclegrpoforfinegrainedmultimodalunderstandingandgrounding",
+        "url:https://arxiv.org/abs/2610.29552"
+      ]
+    },
+    {
+      "id": "arxiv:2610.32440",
+      "type": "paper",
+      "arxiv_id": "2610.32440",
+      "doi": "10.48550/arXiv.2610.32440",
+      "title": "PROVE: Probabilistic Visual Grounding via Patch-Level Evidence for Vision-Language Models",
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32440",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.32440"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.32440v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32440v1",
+      "code_url": "https://github.com/mayank05942/PROVE",
+      "project_url": null,
+      "code_verification": "Official main/experiments/ablation directories and README verified. Frozen-CLIP adapter training, explicitly distinguished from autoregressive MLLM post-training. No training executed.",
+      "pdf_sha256": "1a0612087b00e34003e7638260f1555aa47a749a9bd28c44bf48830348792876",
+      "figures": [
+        {
+          "page": 1,
+          "file": "assets/prove-fig1.png",
+          "paper_figure": "Figure 1",
+          "box": [
+            0.51,
+            0.305,
+            0.92,
+            0.512
+          ],
+          "size": [
+            761,
+            497
+          ]
+        },
+        {
+          "page": 3,
+          "file": "assets/prove-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.51,
+            0.08,
+            0.92,
+            0.34
+          ],
+          "size": [
+            761,
+            624
+          ]
+        },
+        {
+          "page": 7,
+          "file": "assets/prove-table2-fig4.png",
+          "paper_figure": "Table 2 and Figure 4",
+          "box": [
+            0.51,
+            0.08,
+            0.92,
+            0.47
+          ],
+          "size": [
+            761,
+            936
+          ]
+        },
+        {
+          "page": 8,
+          "file": "assets/prove-tables3-4.png",
+          "paper_figure": "Tables 3 and 4",
+          "box": [
+            0.51,
+            0.08,
+            0.92,
+            0.365
+          ],
+          "size": [
+            761,
+            684
+          ]
+        }
+      ],
+      "scope_note": "lightweight supervised frozen-CLIP grounding adaptation; supplementary training direction, not autoregressive MLLM RL/OPD",
+      "folder": "VLM/2026-11-19",
+      "aliases": [
+        "arxiv:2610.32440",
+        "doi:10.48550/arxiv.2610.32440",
+        "id:arxiv:2610.32440",
+        "title:proveprobabilisticvisualgroundingviapatchlevelevidenceforvisionlanguagemodels",
+        "url:https://arxiv.org/abs/2610.32440"
+      ]
+    },
+    {
       "id": "arxiv:2611.12886",
       "type": "paper",
       "arxiv_id": "2611.12886",
@@ -2242,6 +2627,31 @@
     }
   ],
   "aliases": {
+    "arxiv:2611.10734": "VLM/2026-11-19",
+    "doi:10.48550/arxiv.2611.10734": "VLM/2026-11-19",
+    "id:arxiv:2611.10734": "VLM/2026-11-19",
+    "title:tinyevidenceregionlocalizationwithselectivecontrastiveonpolicyselfdistillation": "VLM/2026-11-19",
+    "url:https://arxiv.org/abs/2611.10734": "VLM/2026-11-19",
+    "arxiv:2611.11949": "VLM/2026-11-19",
+    "doi:10.48550/arxiv.2611.11949": "VLM/2026-11-19",
+    "id:arxiv:2611.11949": "VLM/2026-11-19",
+    "title:watchingitselfwatchselfauditingvisualrelianceforvideoreasoning": "VLM/2026-11-19",
+    "url:https://arxiv.org/abs/2611.11949": "VLM/2026-11-19",
+    "arxiv:2611.23034": "VLM/2026-11-19",
+    "doi:10.48550/arxiv.2611.23034": "VLM/2026-11-19",
+    "id:arxiv:2611.23034": "VLM/2026-11-19",
+    "title:m3opdreasoneranopenrecipeforposttrainingmultimodalreasoningwithmultiteacheronpolicydistillation": "VLM/2026-11-19",
+    "url:https://arxiv.org/abs/2611.23034": "VLM/2026-11-19",
+    "arxiv:2610.29552": "VLM/2026-11-19",
+    "doi:10.48550/arxiv.2610.29552": "VLM/2026-11-19",
+    "id:arxiv:2610.29552": "VLM/2026-11-19",
+    "title:generalizedcyclegrpoforfinegrainedmultimodalunderstandingandgrounding": "VLM/2026-11-19",
+    "url:https://arxiv.org/abs/2610.29552": "VLM/2026-11-19",
+    "arxiv:2610.32440": "VLM/2026-11-19",
+    "doi:10.48550/arxiv.2610.32440": "VLM/2026-11-19",
+    "id:arxiv:2610.32440": "VLM/2026-11-19",
+    "title:proveprobabilisticvisualgroundingviapatchlevelevidenceforvisionlanguagemodels": "VLM/2026-11-19",
+    "url:https://arxiv.org/abs/2610.32440": "VLM/2026-11-19",
     "arxiv:2611.12886": "VLM/2026-11-18",
     "doi:10.48550/arxiv.2611.12886": "VLM/2026-11-18",
     "id:arxiv:2611.12886": "VLM/2026-11-18",
