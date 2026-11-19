@@ -1,0 +1,140 @@
+[
+  {
+    "paper": "gepa",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009494",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "ICLR Oral GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+      "snapshot_sha256": "9a6bb1754e0b0414a4fb83d69847160d9db155b8c156356811f8021152ecde6e"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009494",
+      "label": "oral",
+      "checked_on": "2026-11-19"
+    }
+  },
+  {
+    "paper": "rws",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009094",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "ICLR Oral Reasoning with Sampling: Your Base Model is Smarter Than You Think",
+      "snapshot_sha256": "360ab2d72464cd1bad254c222182708e4b2682131391dcc324a5620d1ac946fc"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009094",
+      "label": "oral",
+      "checked_on": "2026-11-19"
+    }
+  },
+  {
+    "paper": "troll",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10008999",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "ICLR Oral TROLL: Trust Regions Improve Reinforcement Learning for Large Language Models",
+      "snapshot_sha256": "3986bd369a925a8606098ca0188556f54bb6e046f6640c3ba3ee1fc1805a1378"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10008999",
+      "label": "oral",
+      "checked_on": "2026-11-19"
+    }
+  },
+  {
+    "paper": "elf",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/poster/148278",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "NeurIPS Poster ELF: Embedded Language Flows",
+      "snapshot_sha256": "1e5a3f889e7833811bbeddcfd1bf920578d79262b7cd45b579207528b7df1bb5"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://neurips.cc/virtual/2026/poster/148278",
+      "label": "poster",
+      "checked_on": "2026-11-19"
+    }
+  },
+  {
+    "paper": "gac",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 58,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://aclanthology.org/2026.emnlp-main.119/",
+      "venue": "EMNLP",
+      "year": 2026,
+      "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "GAC: Noise-Aware Adaptive Mixing for Hybrid SFT-RL Post-Training - ACL Anthology",
+      "snapshot_sha256": "06b82b3dcbade37e3fc7b99af75c0239d069fbc6389f6a6c526e8443c64cde65"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+      "label": "Virtual Pres",
+      "checked_on": "2026-11-19",
+      "program_url": "https://2026.emnlp.org/program/",
+      "paper_id": "312-MAIN",
+      "session": "Virtual Presentations 3",
+      "date": "2026-10-26",
+      "time": "07:00-08:30 CET",
+      "room": "Zoom",
+      "oral_poster_status": "Unknown; Virtual Pres is not recoded as poster or oral",
+      "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+    }
+  }
+]

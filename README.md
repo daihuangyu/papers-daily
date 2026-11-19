@@ -28,6 +28,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 | 2026-11-18 | OPSD / 教师进化、逐token选择与参考视图边缘化 | 5 | [Markdown](OPSD/2026-11-18/report.md) · [PDF](OPSD/2026-11-18/report.pdf) |
 | 2026-11-17 | OPSD / 监督选择、环境校准与异步加速 | 5 | [Markdown](OPSD/2026-11-17/report.md) · [PDF](OPSD/2026-11-17/report.pdf) |
 | 2026-11-16 | OPSD / 特权信息、token级 credit 与应用扩展 | 5 | [Markdown](OPSD/2026-11-16/report.md) · [PDF](OPSD/2026-11-16/report.pdf) |
+| 2026-11-19 | CCF_Papers / 提示词进化、无训练采样、可信域RL、连续语言流与SFT–RL动态混合 | 5 | [Markdown](CCF_Papers/2026-11-19/report.md) · [PDF](CCF_Papers/2026-11-19/report.pdf) |
 | 2026-11-18 | CCF_Papers / 采样式SFT、一步生成、知识暴露、量化推理与后训练预算 | 5 | [Markdown](CCF_Papers/2026-11-18/report.md) · [PDF](CCF_Papers/2026-11-18/report.pdf) |
 
 ## 条目索引
@@ -88,6 +89,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 3. [Prior-as-Skill: Remember Outside and Read Inside with On-Policy Self-Distillation for Self-Evolving VLM Agents](https://arxiv.org/abs/2611.15766) · 2026-11-11 · [精读](OPSD/2026-11-16/report.md)
 4. [Bootstrapped On-Policy Distillation](https://arxiv.org/abs/2611.13680) · 2026-11-10 · [精读](OPSD/2026-11-16/report.md)
 5. [PhysOPSD: Code as Privilege for Physically Plausible Video Generation](https://arxiv.org/abs/2611.12411) · 2026-11-09 · [精读](OPSD/2026-11-16/report.md)
+### 2026-11-19 · 提示词进化、无训练采样、可信域RL、连续语言流与SFT–RL动态混合
+
+1. [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457) · 2025-07-25 · [精读](CCF_Papers/2026-11-19/report.md)
+2. [Reasoning with Sampling: Your Base Model is Smarter Than You Think](https://arxiv.org/abs/2510.14901) · 2025-10-16 · [精读](CCF_Papers/2026-11-19/report.md)
+3. [TROLL: Trust Regions Improve Reinforcement Learning for Large Language Models](https://arxiv.org/abs/2510.03817) · 2025-10-04 · [精读](CCF_Papers/2026-11-19/report.md)
+4. [ELF: Embedded Language Flows](https://arxiv.org/abs/2605.10938) · 2026-05-11 · [精读](CCF_Papers/2026-11-19/report.md)
+5. [GAC: Noise-Aware Adaptive Mixing for Hybrid SFT-RL Post-Training](https://arxiv.org/abs/2605.26184) · 2026-05-25 · [精读](CCF_Papers/2026-11-19/report.md)
 ### 2026-11-18 · 采样式SFT、一步生成、知识暴露、量化推理与后训练预算
 
 1. [Finetuning with Sampling: SFT Learns Better Than You Think](https://arxiv.org/abs/2610.02140) · 2026-10-01 · [精读](CCF_Papers/2026-11-18/report.md)

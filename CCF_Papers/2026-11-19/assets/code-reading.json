@@ -1,0 +1,166 @@
+[
+  {
+    "paper": "gepa",
+    "repository": "https://github.com/gepa-ai/gepa",
+    "commit": "ce5b0d6e3d6af6c6dbec6de2c54536bbb961d309",
+    "archive_root": "gepa-ai-gepa-ce5b0d6",
+    "archive_sha256": "478af11b371b1791e38261f57fae32d51ccd3b26c4cb76b704232c1b619b5de5",
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "files": [
+      {
+        "path": "src/gepa/core/engine.py",
+        "url": "https://github.com/gepa-ai/gepa/blob/ce5b0d6e3d6af6c6dbec6de2c54536bbb961d309/src/gepa/core/engine.py",
+        "sha256": "96779c98be8568eeb3899044cb37b0fb87d07a91af2979403dff2a7b6eeba365"
+      },
+      {
+        "path": "src/gepa/strategies/candidate_selector.py",
+        "url": "https://github.com/gepa-ai/gepa/blob/ce5b0d6e3d6af6c6dbec6de2c54536bbb961d309/src/gepa/strategies/candidate_selector.py",
+        "sha256": "c2565e251d0cdc00d7548dde7fd0316190c97a64bc130ea86ea6e2fc8a232cfd"
+      },
+      {
+        "path": "src/gepa/gepa_utils.py",
+        "url": "https://github.com/gepa-ai/gepa/blob/ce5b0d6e3d6af6c6dbec6de2c54536bbb961d309/src/gepa/gepa_utils.py",
+        "sha256": "6b9d546d9b8c7e6dd3fb17807f50ba2dcd2108f6232beb456f8951820ba3fa16"
+      },
+      {
+        "path": "src/gepa/proposer/reflective_mutation/reflective_mutation.py",
+        "url": "https://github.com/gepa-ai/gepa/blob/ce5b0d6e3d6af6c6dbec6de2c54536bbb961d309/src/gepa/proposer/reflective_mutation/reflective_mutation.py",
+        "sha256": "674d595763c66d4c8d089d1edba14e48ef7ace1dc469fead6304c2325d350dfb"
+      }
+    ],
+    "notes": [
+      "Per-instance Pareto-frequency selection and strict-improvement acceptance present.",
+      "Current implementation includes batching/caching/extensions and is not asserted to be the paper experiment revision."
+    ],
+    "experiments_executed": false
+  },
+  {
+    "paper": "rws",
+    "repository": "https://github.com/aakaran/reasoning-with-sampling",
+    "commit": "720a8e9d084c87a630595e316f5260f1d7c3446c",
+    "archive_root": "aakaran-reasoning-with-sampling-720a8e9",
+    "archive_sha256": "30e75f2a2a2f5dd4e1110911c6e095cd68ecfa907aa6e087b15f0abba69ebc6b",
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/aakaran/reasoning-with-sampling/blob/720a8e9d084c87a630595e316f5260f1d7c3446c/README.md",
+        "sha256": "f79ec63e6320f75990e0b82a690ddac769f41bb3b0712a048df4ac6c79f6c8de"
+      },
+      {
+        "path": "llm_experiments/power_samp_utils.py",
+        "url": "https://github.com/aakaran/reasoning-with-sampling/blob/720a8e9d084c87a630595e316f5260f1d7c3446c/llm_experiments/power_samp_utils.py",
+        "sha256": "70e679b206d0826482688e7e1bc13e2ed70177bc2785e6dc0a156c97e79646f2"
+      }
+    ],
+    "notes": [
+      "Target and proposal token log probabilities are cached; MH ratio contains forward/reverse proposal correction.",
+      "max_swap is distinct from the MH main algorithm. No model execution performed."
+    ],
+    "experiments_executed": false
+  },
+  {
+    "paper": "troll",
+    "repository": "https://github.com/NiklasFreymuth/troll_public",
+    "commit": "ba9c141d9c83d135ee0c610d79aea75849d04ed4",
+    "archive_root": "NiklasFreymuth-troll_public-ba9c141",
+    "archive_sha256": "8983057652d0634249ece90140b416f0387976c2dfa48ab10e37a4ebc241812e",
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/NiklasFreymuth/troll_public/blob/ba9c141d9c83d135ee0c610d79aea75849d04ed4/README.md",
+        "sha256": "c35ed3d1fd7399980b808fd57a49af7e947ac47032550499c45a5456c7aea3ae"
+      }
+    ],
+    "notes": [
+      "README says Code coming soon!; archive contains the project website rather than released training implementation.",
+      "Paper appendix pseudocode was read; no runnable end-to-end implementation claimed."
+    ],
+    "experiments_executed": false
+  },
+  {
+    "paper": "elf",
+    "repository": "https://github.com/lillian039/ELF",
+    "commit": "5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1",
+    "archive_root": "lillian039-ELF-5ad6bbb",
+    "archive_sha256": "71c0899d8295a8bdc0ce43565a6cdb0608c851aa66dc3a10c17b9eef5bb83ed4",
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/lillian039/ELF/blob/5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1/README.md",
+        "sha256": "394236966bd02dc314a11e34b4721794b189a7f1a914ca637ac1659fd9534fef"
+      },
+      {
+        "path": "src/train_step.py",
+        "url": "https://github.com/lillian039/ELF/blob/5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1/src/train_step.py",
+        "sha256": "9f967d3325723b24529e3a6d7e08b4124340743870c8891ee28b856e3fb718dc"
+      },
+      {
+        "path": "src/train.py",
+        "url": "https://github.com/lillian039/ELF/blob/5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1/src/train.py",
+        "sha256": "0dce4e9a0fcd09218a55306eb827376e989608b59a2d8935e1b0ea76e66a382e"
+      },
+      {
+        "path": "src/utils/sampling_utils.py",
+        "url": "https://github.com/lillian039/ELF/blob/5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1/src/utils/sampling_utils.py",
+        "sha256": "508c4ecb1b51e1988b601b989b7ae235698509340c4a9b319ad0d718693a4dae"
+      },
+      {
+        "path": "src/utils/generation_utils.py",
+        "url": "https://github.com/lillian039/ELF/blob/5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1/src/utils/generation_utils.py",
+        "sha256": "01e35da6880ee3d5f3c5012bbcf3d344503e8727a59b5874b48a6554107fefa9"
+      },
+      {
+        "path": "src/configs/training_configs/train_owt_ELF-B.yml",
+        "url": "https://github.com/lillian039/ELF/blob/5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1/src/configs/training_configs/train_owt_ELF-B.yml",
+        "sha256": "823dcb6852e34b2e21732160162cb018727f0508561285d9e4a66e0f91719f77"
+      }
+    ],
+    "notes": [
+      "JAX core read statically; PyTorch/distillation branches linked but not executed.",
+      "Algorithm 6 in the PDF returns z+dt*v; current _sde_step returns z_back+(t_next-t_back)*v.",
+      "blr=0.001 scales to lr=0.002 at batch 512; not a discrepancy.",
+      "Default conditional evaluation uses validation whereas paper scores use test."
+    ],
+    "experiments_executed": false
+  },
+  {
+    "paper": "gac",
+    "repository": "https://github.com/huyuelin/GAC",
+    "commit": "d69cc9a372883359c8585a6519ad71d1927c9540",
+    "archive_root": "huyuelin-GAC-fork-d69cc9a",
+    "archive_sha256": "9d2dce198e37fdfa578ab26546cac20bbcce67304c332497c33fa31d3423d765",
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "files": [
+      {
+        "path": "gac/controller.py",
+        "url": "https://github.com/huyuelin/GAC/blob/d69cc9a372883359c8585a6519ad71d1927c9540/gac/controller.py",
+        "sha256": "a8f9fc3717036c7ebcb4110f0b3ddd7e65682368ef93faba6dff5b06735cf1a2"
+      },
+      {
+        "path": "gac/sft_loss.py",
+        "url": "https://github.com/huyuelin/GAC/blob/d69cc9a372883359c8585a6519ad71d1927c9540/gac/sft_loss.py",
+        "sha256": "a169cc3767e620d5374319d97a55e632f0622bacdb2e0e0427588e10e3105cc3"
+      },
+      {
+        "path": "gac/hybrid_loss.py",
+        "url": "https://github.com/huyuelin/GAC/blob/d69cc9a372883359c8585a6519ad71d1927c9540/gac/hybrid_loss.py",
+        "sha256": "96a47f5a5ca8417b15c680c1050807cad98eba280a76d132b8358e840b28512a"
+      },
+      {
+        "path": "configs/gac_default.yaml",
+        "url": "https://github.com/huyuelin/GAC/blob/d69cc9a372883359c8585a6519ad71d1927c9540/configs/gac_default.yaml",
+        "sha256": "b716b2cef4f3effd0278b5f4200f32d385f739220791b9fa6f1e837fb337c0b6"
+      }
+    ],
+    "notes": [
+      "hybrid_loss.py explicitly documents a non-runnable trainer template; RL loss supplied externally.",
+      "Default YAML lists NuminaMath-1.5 whereas paper text names OpenR1-Math-220k.",
+      "Paper equation 10 z-normalizes coefficients; read controller computes raw coefficient differences.",
+      "SFT phi weights detached by default; distributed/global statistic handling must be checked at trainer integration."
+    ],
+    "experiments_executed": false
+  }
+]

@@ -2259,6 +2259,909 @@
       ]
     },
     {
+      "id": "arxiv:2507.19457",
+      "type": "paper",
+      "key": "gepa",
+      "title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+      "title_aliases": [],
+      "authors": [
+        "Agrawal, Lakshya A",
+        "Tan, Shangyin",
+        "Dilara Soylu",
+        "Noah Ziems",
+        "Khare, Rishi",
+        "Krista Opsahl-Ong",
+        "Arnav Singhvi",
+        "Herumb Shandilya",
+        "Michael James Ryan",
+        "Meng Jiang",
+        "Christopher Potts",
+        "Sen, Koushik",
+        "Alexandros G. Dimakis",
+        "Ion Gabriel Stoica",
+        "Dan Klein",
+        "Matei Zaharia",
+        "Omar Khattab"
+      ],
+      "published": "2025-07-25",
+      "url": "https://arxiv.org/abs/2507.19457",
+      "arxiv_id": "2507.19457",
+      "doi": "10.48550/arXiv.2507.19457",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2507.19457",
+        "https://doi.org/10.48550/arXiv.2507.19457",
+        "https://iclr.cc/virtual/2026/oral/10009494",
+        "https://openreview.net/forum?id=RQm2KQTM5r"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2507.19457",
+      "pdf_url": "https://arxiv.org/pdf/2507.19457v2",
+      "pdf_version": "v2",
+      "pdf_version_date": "2026-02-14",
+      "source_pdf_pages": 96,
+      "source_pdf_sha256": "ab3a5139bac83f192ad67529368d77b84b0d807e95a8e4fd0daa8d45fd046bec",
+      "code_url": "https://github.com/gepa-ai/gepa",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-19",
+        "commit": "ce5b0d6e3d6af6c6dbec6de2c54536bbb961d309",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Per-instance Pareto-frequency selection and strict-improvement acceptance present.",
+          "Current implementation includes batching/caching/extensions and is not asserted to be the paper experiment revision."
+        ]
+      },
+      "project_or_author_blog_url": "https://gepa-ai.github.io/gepa/",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10009494",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "ICLR Oral GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+          "snapshot_sha256": "9a6bb1754e0b0414a4fb83d69847160d9db155b8c156356811f8021152ecde6e"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10009494",
+          "label": "oral",
+          "checked_on": "2026-11-19"
+        }
+      },
+      "citation_count": {
+        "value": 703,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4416411532",
+        "queried_at": "2026-11-19",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-17T12:49:18.490984",
+        "raw_record": "assets/citation-records/gepa-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "gepa-fig3.png",
+          "paper": "gepa",
+          "figure": "fig3",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            99,
+            95,
+            513,
+            332
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2507.19457v2",
+          "pdf_sha256": "ab3a5139bac83f192ad67529368d77b84b0d807e95a8e4fd0daa8d45fd046bec",
+          "sha256": "f9a0a11374cef324ae1d41c3e0eab90b1527c3180944032645e249c53c677852",
+          "pixels": [
+            1242,
+            711
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "gepa-tables1-2.png",
+          "paper": "gepa",
+          "figure": "tables1-2",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            90,
+            181,
+            560,
+            550
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2507.19457v2",
+          "pdf_sha256": "ab3a5139bac83f192ad67529368d77b84b0d807e95a8e4fd0daa8d45fd046bec",
+          "sha256": "680c4764df77bb8fc2b45338684f6292cc4426d012094586029240c6f1ea7bce",
+          "pixels": [
+            1410,
+            1107
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "gepa-table3-fig6.png",
+          "paper": "gepa",
+          "figure": "table3-fig6",
+          "physical_pdf_page": 10,
+          "crop_points_from_top_left": [
+            90,
+            128,
+            560,
+            540
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2507.19457v2",
+          "pdf_sha256": "ab3a5139bac83f192ad67529368d77b84b0d807e95a8e4fd0daa8d45fd046bec",
+          "sha256": "2641c786536d1d2884077e768833d94eb2ae7f4d2a3285e56c22cec702e5c8d7",
+          "pixels": [
+            1410,
+            1236
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 96-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false,
+      "folder": "CCF_Papers/2026-11-19",
+      "aliases": [
+        "arxiv:2507.19457",
+        "doi:10.48550/arxiv.2507.19457",
+        "id:arxiv:2507.19457",
+        "title:gepareflectivepromptevolutioncanoutperformreinforcementlearning",
+        "url:https://arxiv.org/abs/2507.19457",
+        "url:https://doi.org/10.48550/arxiv.2507.19457",
+        "url:https://iclr.cc/virtual/2026/oral/10009494",
+        "url:https://openreview.net/forum?id=RQm2KQTM5r"
+      ]
+    },
+    {
+      "id": "arxiv:2510.14901",
+      "type": "paper",
+      "key": "rws",
+      "title": "Reasoning with Sampling: Your Base Model is Smarter Than You Think",
+      "title_aliases": [],
+      "authors": [
+        "Aayush Karan",
+        "Yilun Du"
+      ],
+      "published": "2025-10-16",
+      "url": "https://arxiv.org/abs/2510.14901",
+      "arxiv_id": "2510.14901",
+      "doi": "10.48550/arXiv.2510.14901",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2510.14901",
+        "https://doi.org/10.48550/arXiv.2510.14901",
+        "https://iclr.cc/virtual/2026/oral/10009094",
+        "https://openreview.net/forum?id=Vsgq2ldr4K"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2510.14901",
+      "pdf_url": "https://arxiv.org/pdf/2510.14901v1",
+      "pdf_version": "v1",
+      "pdf_version_date": "2025-10-16",
+      "source_pdf_pages": 20,
+      "source_pdf_sha256": "8f029968f20292b320dda95d253911a187e34a18d33aa6cdc65883b9cc1a47d4",
+      "code_url": "https://github.com/aakaran/reasoning-with-sampling",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-19",
+        "commit": "720a8e9d084c87a630595e316f5260f1d7c3446c",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Target and proposal token log probabilities are cached; MH ratio contains forward/reverse proposal correction.",
+          "max_swap is distinct from the MH main algorithm. No model execution performed."
+        ]
+      },
+      "project_or_author_blog_url": "https://aakaran.github.io/reasoning_with_sampling/",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10009094",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "ICLR Oral Reasoning with Sampling: Your Base Model is Smarter Than You Think",
+          "snapshot_sha256": "360ab2d72464cd1bad254c222182708e4b2682131391dcc324a5620d1ac946fc"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10009094",
+          "label": "oral",
+          "checked_on": "2026-11-19"
+        }
+      },
+      "citation_count": {
+        "value": 98,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4416146743",
+        "queried_at": "2026-11-19",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/rws-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "rws-fig3.png",
+          "paper": "rws",
+          "figure": "fig3",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            106,
+            68,
+            512,
+            174
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.14901v1",
+          "pdf_sha256": "8f029968f20292b320dda95d253911a187e34a18d33aa6cdc65883b9cc1a47d4",
+          "sha256": "a3579ed2a906d48d8f2a0053155755e32d4b92e9baeadb21dc6df0cd2c55c399",
+          "pixels": [
+            1218,
+            318
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "rws-table1.png",
+          "paper": "rws",
+          "figure": "table1",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            68,
+            512,
+            270
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.14901v1",
+          "pdf_sha256": "8f029968f20292b320dda95d253911a187e34a18d33aa6cdc65883b9cc1a47d4",
+          "sha256": "be783e5127f936d31d9962be49030e25580d857b513be7cea7a29279cc9cb80c",
+          "pixels": [
+            1218,
+            606
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "rws-fig5.png",
+          "paper": "rws",
+          "figure": "fig5",
+          "physical_pdf_page": 10,
+          "crop_points_from_top_left": [
+            106,
+            491,
+            512,
+            645
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.14901v1",
+          "pdf_sha256": "8f029968f20292b320dda95d253911a187e34a18d33aa6cdc65883b9cc1a47d4",
+          "sha256": "52d257c2cd98a84167944d18277c19ba5d392ac44a48a781f355c9bac9f5a990",
+          "pixels": [
+            1218,
+            462
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "rws-fig6.png",
+          "paper": "rws",
+          "figure": "fig6",
+          "physical_pdf_page": 11,
+          "crop_points_from_top_left": [
+            106,
+            69,
+            512,
+            225
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.14901v1",
+          "pdf_sha256": "8f029968f20292b320dda95d253911a187e34a18d33aa6cdc65883b9cc1a47d4",
+          "sha256": "691f6f0e12e0ef34c392ed6f37e9356b93313539faaa3a7f281bb9a7a654f652",
+          "pixels": [
+            1218,
+            468
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 20-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false,
+      "identity_note": "Distinct paper from yesterday Finetuning with Sampling arXiv:2610.02140; same two authors, separate title, ID and method. Older PDF submission header does not override 2026 official acceptance.",
+      "folder": "CCF_Papers/2026-11-19",
+      "aliases": [
+        "arxiv:2510.14901",
+        "doi:10.48550/arxiv.2510.14901",
+        "id:arxiv:2510.14901",
+        "title:reasoningwithsamplingyourbasemodelissmarterthanyouthink",
+        "url:https://arxiv.org/abs/2510.14901",
+        "url:https://doi.org/10.48550/arxiv.2510.14901",
+        "url:https://iclr.cc/virtual/2026/oral/10009094",
+        "url:https://openreview.net/forum?id=Vsgq2ldr4K"
+      ]
+    },
+    {
+      "id": "arxiv:2510.03817",
+      "type": "paper",
+      "key": "troll",
+      "title": "TROLL: Trust Regions Improve Reinforcement Learning for Large Language Models",
+      "title_aliases": [
+        "TROLL: Trust Regions improve Reinforcement Learning for Large Language Models"
+      ],
+      "authors": [
+        "Philipp Becker",
+        "Niklas Freymuth",
+        "Serge Thilges",
+        "Fabian Otto",
+        "Gerhard M. Neumann"
+      ],
+      "published": "2025-10-04",
+      "url": "https://arxiv.org/abs/2510.03817",
+      "arxiv_id": "2510.03817",
+      "doi": "10.48550/arXiv.2510.03817",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2510.03817",
+        "https://doi.org/10.48550/arXiv.2510.03817",
+        "https://iclr.cc/virtual/2026/oral/10008999",
+        "https://openreview.net/forum?id=X9D5MVpPJ9",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/56fbf5a2109a6c17372209c9fa698857-Abstract-Conference.html"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2510.03817",
+      "pdf_url": "https://arxiv.org/pdf/2510.03817v3",
+      "pdf_version": "v3",
+      "pdf_version_date": "2026-02-23",
+      "source_pdf_pages": 40,
+      "source_pdf_sha256": "3513d58d623889851afe2e93ce7d95bfe67231bc99cf95126d1701d85a472d20",
+      "code_url": "https://github.com/NiklasFreymuth/troll_public",
+      "code_availability": {
+        "status": "project_only_code_not_released",
+        "verified_on": "2026-11-19",
+        "commit": "ba9c141d9c83d135ee0c610d79aea75849d04ed4",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "README says Code coming soon!; archive contains the project website rather than released training implementation.",
+          "Paper appendix pseudocode was read; no runnable end-to-end implementation claimed."
+        ]
+      },
+      "project_or_author_blog_url": "https://niklasfreymuth.github.io/troll/",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008999",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "ICLR Oral TROLL: Trust Regions Improve Reinforcement Learning for Large Language Models",
+          "snapshot_sha256": "3986bd369a925a8606098ca0188556f54bb6e046f6640c3ba3ee1fc1805a1378"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008999",
+          "label": "oral",
+          "checked_on": "2026-11-19"
+        }
+      },
+      "citation_count": {
+        "value": 9,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4414969876",
+        "queried_at": "2026-11-19",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/troll-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "troll-fig2.png",
+          "paper": "troll",
+          "figure": "fig2",
+          "physical_pdf_page": 4,
+          "crop_points_from_top_left": [
+            106,
+            78,
+            512,
+            220
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.03817v3",
+          "pdf_sha256": "3513d58d623889851afe2e93ce7d95bfe67231bc99cf95126d1701d85a472d20",
+          "sha256": "380b6e6da46dc7dd299f3e6008620e15a6236495fdb3dd7a32e8e9be45713d2b",
+          "pixels": [
+            1218,
+            426
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "troll-fig3.png",
+          "paper": "troll",
+          "figure": "fig3",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            75,
+            512,
+            307
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.03817v3",
+          "pdf_sha256": "3513d58d623889851afe2e93ce7d95bfe67231bc99cf95126d1701d85a472d20",
+          "sha256": "15b939d0c3f6cdfbe00501d3e21ae41f80e6c4aa5ef5db78e71ab30369b1cc89",
+          "pixels": [
+            1218,
+            696
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "troll-table4.png",
+          "paper": "troll",
+          "figure": "table4",
+          "physical_pdf_page": 28,
+          "crop_points_from_top_left": [
+            106,
+            222,
+            512,
+            530
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.03817v3",
+          "pdf_sha256": "3513d58d623889851afe2e93ce7d95bfe67231bc99cf95126d1701d85a472d20",
+          "sha256": "35a71afd56bb7b0e82a3db30ed6c3f7c0c8a0a64758af60004982a586065ecf9",
+          "pixels": [
+            1218,
+            924
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "troll-table5.png",
+          "paper": "troll",
+          "figure": "table5",
+          "physical_pdf_page": 34,
+          "crop_points_from_top_left": [
+            105,
+            345,
+            512,
+            462
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.03817v3",
+          "pdf_sha256": "3513d58d623889851afe2e93ce7d95bfe67231bc99cf95126d1701d85a472d20",
+          "sha256": "44c4b734f579706163e6028fda85a65daf8a11a6fd446ceddb75dca7004510a8",
+          "pixels": [
+            1221,
+            351
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 40-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false,
+      "folder": "CCF_Papers/2026-11-19",
+      "aliases": [
+        "arxiv:2510.03817",
+        "doi:10.48550/arxiv.2510.03817",
+        "id:arxiv:2510.03817",
+        "title:trolltrustregionsimprovereinforcementlearningforlargelanguagemodels",
+        "url:https://arxiv.org/abs/2510.03817",
+        "url:https://doi.org/10.48550/arxiv.2510.03817",
+        "url:https://iclr.cc/virtual/2026/oral/10008999",
+        "url:https://openreview.net/forum?id=X9D5MVpPJ9",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/56fbf5a2109a6c17372209c9fa698857-Abstract-Conference.html"
+      ]
+    },
+    {
+      "id": "arxiv:2605.10938",
+      "type": "paper",
+      "key": "elf",
+      "title": "ELF: Embedded Language Flows",
+      "title_aliases": [],
+      "authors": [
+        "Keya Hu",
+        "Linlu Qiu",
+        "Yiyang Lu",
+        "Hanyu Zhao",
+        "Tianhong Li",
+        "Yoon Kim",
+        "Jacob Andreas",
+        "Kaiming He"
+      ],
+      "published": "2026-05-11",
+      "url": "https://arxiv.org/abs/2605.10938",
+      "arxiv_id": "2605.10938",
+      "doi": "10.48550/arXiv.2605.10938",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2605.10938",
+        "https://doi.org/10.48550/arXiv.2605.10938",
+        "https://neurips.cc/virtual/2026/poster/148278"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2605.10938",
+      "pdf_url": "https://arxiv.org/pdf/2605.10938v3",
+      "pdf_version": "v3",
+      "pdf_version_date": "2026-11-05",
+      "source_pdf_pages": 42,
+      "source_pdf_sha256": "2e68aa808a8897d9be894be69c8c1549fcea4df97d1fd8d73f1b407c808cecb4",
+      "code_url": "https://github.com/lillian039/ELF",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-19",
+        "commit": "5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "JAX core read statically; PyTorch/distillation branches linked but not executed.",
+          "Algorithm 6 in the PDF returns z+dt*v; current _sde_step returns z_back+(t_next-t_back)*v.",
+          "blr=0.001 scales to lr=0.002 at batch 512; not a discrepancy.",
+          "Default conditional evaluation uses validation whereas paper scores use test."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "NeurIPS",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/poster/148278",
+          "venue": "NeurIPS",
+          "year": 2026,
+          "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "NeurIPS Poster ELF: Embedded Language Flows",
+          "snapshot_sha256": "1e5a3f889e7833811bbeddcfd1bf920578d79262b7cd45b579207528b7df1bb5"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://neurips.cc/virtual/2026/poster/148278",
+          "label": "poster",
+          "checked_on": "2026-11-19"
+        }
+      },
+      "citation_count": {
+        "value": 87,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7160895307",
+        "queried_at": "2026-11-19",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/elf-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "elf-fig3.png",
+          "paper": "elf",
+          "figure": "fig3",
+          "physical_pdf_page": 3,
+          "crop_points_from_top_left": [
+            135,
+            74,
+            483,
+            171
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2605.10938v3",
+          "pdf_sha256": "2e68aa808a8897d9be894be69c8c1549fcea4df97d1fd8d73f1b407c808cecb4",
+          "sha256": "1e88bcfef140a27df2f262accc3fc1dede0794a319f0acfa377ba89e5d90a020",
+          "pixels": [
+            1044,
+            291
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "elf-fig7.png",
+          "paper": "elf",
+          "figure": "fig7",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            106,
+            483,
+            512,
+            593
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2605.10938v3",
+          "pdf_sha256": "2e68aa808a8897d9be894be69c8c1549fcea4df97d1fd8d73f1b407c808cecb4",
+          "sha256": "943abae7816587c3e0844e17d3dcf0a2a9f3ba384ed567bfe3854280908f785c",
+          "pixels": [
+            1218,
+            330
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "elf-table7.png",
+          "paper": "elf",
+          "figure": "table7",
+          "physical_pdf_page": 26,
+          "crop_points_from_top_left": [
+            106,
+            211,
+            513,
+            308
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2605.10938v3",
+          "pdf_sha256": "2e68aa808a8897d9be894be69c8c1549fcea4df97d1fd8d73f1b407c808cecb4",
+          "sha256": "aa2fb084d688694f5335b5983536727d990ec5f3277772b6653ec0b39b8b7036",
+          "pixels": [
+            1221,
+            291
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "elf-tables10-11.png",
+          "paper": "elf",
+          "figure": "tables10-11",
+          "physical_pdf_page": 32,
+          "crop_points_from_top_left": [
+            106,
+            77,
+            512,
+            325
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2605.10938v3",
+          "pdf_sha256": "2e68aa808a8897d9be894be69c8c1549fcea4df97d1fd8d73f1b407c808cecb4",
+          "sha256": "adaec505cbbc8cce5783430aa0fdbe840852b3113a81b94194dec048bb027452",
+          "pixels": [
+            1218,
+            744
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 42-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false,
+      "author_blog_url": "https://linlu-qiu.github.io/assets/html/elf_pd.html",
+      "folder": "CCF_Papers/2026-11-19",
+      "aliases": [
+        "arxiv:2605.10938",
+        "doi:10.48550/arxiv.2605.10938",
+        "id:arxiv:2605.10938",
+        "title:elfembeddedlanguageflows",
+        "url:https://arxiv.org/abs/2605.10938",
+        "url:https://doi.org/10.48550/arxiv.2605.10938",
+        "url:https://neurips.cc/virtual/2026/poster/148278"
+      ]
+    },
+    {
+      "id": "arxiv:2605.26184",
+      "type": "paper",
+      "key": "gac",
+      "title": "GAC: Noise-Aware Adaptive Mixing for Hybrid SFT-RL Post-Training",
+      "title_aliases": [],
+      "authors": [
+        "Yuelin Hu",
+        "Wei Liu",
+        "Zhenbo Yu",
+        "Zhengxue Cheng",
+        "Li Song"
+      ],
+      "published": "2026-05-25",
+      "url": "https://arxiv.org/abs/2605.26184",
+      "arxiv_id": "2605.26184",
+      "doi": "10.18653/2026.emnlp-main.119",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2605.26184",
+        "https://doi.org/10.18653/2026.emnlp-main.119",
+        "https://aclanthology.org/2026.emnlp-main.119/",
+        "https://doi.org/10.48550/arXiv.2605.26184"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2605.26184",
+      "pdf_url": "https://aclanthology.org/2026.emnlp-main.119.pdf",
+      "pdf_version": "ACL camera-ready",
+      "pdf_version_date": null,
+      "source_pdf_pages": 17,
+      "source_pdf_sha256": "6112be4e0fe744e2055f5afe81cc6fca6499703226a229bd3f310031c0d66ad2",
+      "code_url": "https://github.com/huyuelin/GAC",
+      "code_availability": {
+        "status": "core_components_and_integration_template",
+        "verified_on": "2026-11-19",
+        "commit": "d69cc9a372883359c8585a6519ad71d1927c9540",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "hybrid_loss.py explicitly documents a non-runnable trainer template; RL loss supplied externally.",
+          "Default YAML lists NuminaMath-1.5 whereas paper text names OpenR1-Math-220k.",
+          "Paper equation 10 z-normalizes coefficients; read controller computes raw coefficient differences.",
+          "SFT phi weights detached by default; distributed/global statistic handling must be checked at trainer integration."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "EMNLP",
+      "acceptance_year": 2026,
+      "ccf_rank": "B",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "unknown",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 58,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://aclanthology.org/2026.emnlp-main.119/",
+          "venue": "EMNLP",
+          "year": 2026,
+          "basis": "Official main-conference paper entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "GAC: Noise-Aware Adaptive Mixing for Hybrid SFT-RL Post-Training - ACL Anthology",
+          "snapshot_sha256": "06b82b3dcbade37e3fc7b99af75c0239d069fbc6389f6a6c526e8443c64cde65"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+          "label": "Virtual Pres",
+          "checked_on": "2026-11-19",
+          "program_url": "https://2026.emnlp.org/program/",
+          "paper_id": "312-MAIN",
+          "session": "Virtual Presentations 3",
+          "date": "2026-10-26",
+          "time": "07:00-08:30 CET",
+          "room": "Zoom",
+          "oral_poster_status": "Unknown; Virtual Pres is not recoded as poster or oral",
+          "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+        }
+      },
+      "citation_count": {
+        "value": 1,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7162516042",
+        "queried_at": "2026-11-19",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/gac-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null,
+        "record_note": "arXiv DOI lookup resolves to merged ACL record; index publication_date is not used as first-publication date."
+      },
+      "figures": [
+        {
+          "file": "gac-fig1.png",
+          "paper": "gac",
+          "figure": "fig1",
+          "physical_pdf_page": 2,
+          "crop_points_from_top_left": [
+            71,
+            74,
+            528,
+            332
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.119.pdf",
+          "pdf_sha256": "6112be4e0fe744e2055f5afe81cc6fca6499703226a229bd3f310031c0d66ad2",
+          "sha256": "07835077a8b77ade519484941ad6f426fc1d014a59f90e48f23bbb2ee7a34b54",
+          "pixels": [
+            1371,
+            774
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "gac-fig2.png",
+          "paper": "gac",
+          "figure": "fig2",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            70,
+            70,
+            528,
+            371
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.119.pdf",
+          "pdf_sha256": "6112be4e0fe744e2055f5afe81cc6fca6499703226a229bd3f310031c0d66ad2",
+          "sha256": "defae9b69ad0d3fb09284ba7989170df00082d60d6da866ddb45b012fdbcd61a",
+          "pixels": [
+            1374,
+            903
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "gac-tables2-4.png",
+          "paper": "gac",
+          "figure": "tables2-4",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            69,
+            70,
+            529,
+            420
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.119.pdf",
+          "pdf_sha256": "6112be4e0fe744e2055f5afe81cc6fca6499703226a229bd3f310031c0d66ad2",
+          "sha256": "cb17dd33cc8456d0101674b65bbc66d25ab10f2bdde8566d059b2be24c05a6fa",
+          "pixels": [
+            1380,
+            1050
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 17-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false,
+      "presentation_label": "Virtual Pres",
+      "proceedings_pages": "2763-2779",
+      "preprint_latest_version": "v2, 2026-10-10; report uses ACL camera-ready",
+      "folder": "CCF_Papers/2026-11-19",
+      "aliases": [
+        "arxiv:2605.26184",
+        "doi:10.18653/2026.emnlp-main.119",
+        "doi:10.48550/arxiv.2605.26184",
+        "id:arxiv:2605.26184",
+        "title:gacnoiseawareadaptivemixingforhybridsftrlposttraining",
+        "url:https://aclanthology.org/2026.emnlp-main.119",
+        "url:https://arxiv.org/abs/2605.26184",
+        "url:https://doi.org/10.18653/2026.emnlp-main.119",
+        "url:https://doi.org/10.48550/arxiv.2605.26184"
+      ]
+    },
+    {
       "id": "arxiv:2610.02140",
       "type": "paper",
       "key": "fws",
@@ -3298,6 +4201,47 @@
     "id:arxiv:2611.12411": "OPSD/2026-11-16",
     "title:physopsdcodeasprivilegeforphysicallyplausiblevideogeneration": "OPSD/2026-11-16",
     "url:https://arxiv.org/abs/2611.12411": "OPSD/2026-11-16",
+    "arxiv:2507.19457": "CCF_Papers/2026-11-19",
+    "doi:10.48550/arxiv.2507.19457": "CCF_Papers/2026-11-19",
+    "id:arxiv:2507.19457": "CCF_Papers/2026-11-19",
+    "title:gepareflectivepromptevolutioncanoutperformreinforcementlearning": "CCF_Papers/2026-11-19",
+    "url:https://arxiv.org/abs/2507.19457": "CCF_Papers/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2507.19457": "CCF_Papers/2026-11-19",
+    "url:https://iclr.cc/virtual/2026/oral/10009494": "CCF_Papers/2026-11-19",
+    "url:https://openreview.net/forum?id=RQm2KQTM5r": "CCF_Papers/2026-11-19",
+    "arxiv:2510.14901": "CCF_Papers/2026-11-19",
+    "doi:10.48550/arxiv.2510.14901": "CCF_Papers/2026-11-19",
+    "id:arxiv:2510.14901": "CCF_Papers/2026-11-19",
+    "title:reasoningwithsamplingyourbasemodelissmarterthanyouthink": "CCF_Papers/2026-11-19",
+    "url:https://arxiv.org/abs/2510.14901": "CCF_Papers/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2510.14901": "CCF_Papers/2026-11-19",
+    "url:https://iclr.cc/virtual/2026/oral/10009094": "CCF_Papers/2026-11-19",
+    "url:https://openreview.net/forum?id=Vsgq2ldr4K": "CCF_Papers/2026-11-19",
+    "arxiv:2510.03817": "CCF_Papers/2026-11-19",
+    "doi:10.48550/arxiv.2510.03817": "CCF_Papers/2026-11-19",
+    "id:arxiv:2510.03817": "CCF_Papers/2026-11-19",
+    "title:trolltrustregionsimprovereinforcementlearningforlargelanguagemodels": "CCF_Papers/2026-11-19",
+    "url:https://arxiv.org/abs/2510.03817": "CCF_Papers/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2510.03817": "CCF_Papers/2026-11-19",
+    "url:https://iclr.cc/virtual/2026/oral/10008999": "CCF_Papers/2026-11-19",
+    "url:https://openreview.net/forum?id=X9D5MVpPJ9": "CCF_Papers/2026-11-19",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/56fbf5a2109a6c17372209c9fa698857-Abstract-Conference.html": "CCF_Papers/2026-11-19",
+    "arxiv:2605.10938": "CCF_Papers/2026-11-19",
+    "doi:10.48550/arxiv.2605.10938": "CCF_Papers/2026-11-19",
+    "id:arxiv:2605.10938": "CCF_Papers/2026-11-19",
+    "title:elfembeddedlanguageflows": "CCF_Papers/2026-11-19",
+    "url:https://arxiv.org/abs/2605.10938": "CCF_Papers/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2605.10938": "CCF_Papers/2026-11-19",
+    "url:https://neurips.cc/virtual/2026/poster/148278": "CCF_Papers/2026-11-19",
+    "arxiv:2605.26184": "CCF_Papers/2026-11-19",
+    "doi:10.18653/2026.emnlp-main.119": "CCF_Papers/2026-11-19",
+    "doi:10.48550/arxiv.2605.26184": "CCF_Papers/2026-11-19",
+    "id:arxiv:2605.26184": "CCF_Papers/2026-11-19",
+    "title:gacnoiseawareadaptivemixingforhybridsftrlposttraining": "CCF_Papers/2026-11-19",
+    "url:https://aclanthology.org/2026.emnlp-main.119": "CCF_Papers/2026-11-19",
+    "url:https://arxiv.org/abs/2605.26184": "CCF_Papers/2026-11-19",
+    "url:https://doi.org/10.18653/2026.emnlp-main.119": "CCF_Papers/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2605.26184": "CCF_Papers/2026-11-19",
     "arxiv:2610.02140": "CCF_Papers/2026-11-18",
     "doi:10.48550/arxiv.2610.02140": "CCF_Papers/2026-11-18",
     "id:arxiv:2610.02140": "CCF_Papers/2026-11-18",

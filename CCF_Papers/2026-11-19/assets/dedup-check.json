@@ -1,0 +1,91 @@
+{
+  "checked_on": "2026-11-19",
+  "history_sources": 45,
+  "history_manifests": 9,
+  "manifest_paths": [
+    "CCF_Papers/2026-11-18/manifest.json",
+    "OPSD/2026-11-16/manifest.json",
+    "OPSD/2026-11-17/manifest.json",
+    "OPSD/2026-11-18/manifest.json",
+    "OPSD/2026-11-19/manifest.json",
+    "VLM/2026-11-16/manifest.json",
+    "VLM/2026-11-17/manifest.json",
+    "VLM/2026-11-18/manifest.json",
+    "VLM/2026-11-19/manifest.json"
+  ],
+  "normalization": "arXiv version stripping; DOI; canonical URL; Unicode NFKC/case/punctuation title; title aliases",
+  "manual_identity_review": "RwS vs FWS are distinct; GAC arXiv and ACL versions merged as one; TROLL case alias normalized.",
+  "selected": [
+    {
+      "id": "arxiv:2507.19457",
+      "aliases": [
+        "arxiv:2507.19457",
+        "doi:10.48550/arxiv.2507.19457",
+        "id:arxiv:2507.19457",
+        "title:gepareflectivepromptevolutioncanoutperformreinforcementlearning",
+        "url:https://arxiv.org/abs/2507.19457",
+        "url:https://doi.org/10.48550/arxiv.2507.19457",
+        "url:https://iclr.cc/virtual/2026/oral/10009494",
+        "url:https://openreview.net/forum?id=RQm2KQTM5r"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2510.14901",
+      "aliases": [
+        "arxiv:2510.14901",
+        "doi:10.48550/arxiv.2510.14901",
+        "id:arxiv:2510.14901",
+        "title:reasoningwithsamplingyourbasemodelissmarterthanyouthink",
+        "url:https://arxiv.org/abs/2510.14901",
+        "url:https://doi.org/10.48550/arxiv.2510.14901",
+        "url:https://iclr.cc/virtual/2026/oral/10009094",
+        "url:https://openreview.net/forum?id=Vsgq2ldr4K"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2510.03817",
+      "aliases": [
+        "arxiv:2510.03817",
+        "doi:10.48550/arxiv.2510.03817",
+        "id:arxiv:2510.03817",
+        "title:trolltrustregionsimprovereinforcementlearningforlargelanguagemodels",
+        "url:https://arxiv.org/abs/2510.03817",
+        "url:https://doi.org/10.48550/arxiv.2510.03817",
+        "url:https://iclr.cc/virtual/2026/oral/10008999",
+        "url:https://openreview.net/forum?id=X9D5MVpPJ9",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/56fbf5a2109a6c17372209c9fa698857-Abstract-Conference.html"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2605.10938",
+      "aliases": [
+        "arxiv:2605.10938",
+        "doi:10.48550/arxiv.2605.10938",
+        "id:arxiv:2605.10938",
+        "title:elfembeddedlanguageflows",
+        "url:https://arxiv.org/abs/2605.10938",
+        "url:https://doi.org/10.48550/arxiv.2605.10938",
+        "url:https://neurips.cc/virtual/2026/poster/148278"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2605.26184",
+      "aliases": [
+        "arxiv:2605.26184",
+        "doi:10.18653/2026.emnlp-main.119",
+        "doi:10.48550/arxiv.2605.26184",
+        "id:arxiv:2605.26184",
+        "title:gacnoiseawareadaptivemixingforhybridsftrlposttraining",
+        "url:https://aclanthology.org/2026.emnlp-main.119",
+        "url:https://arxiv.org/abs/2605.26184",
+        "url:https://doi.org/10.18653/2026.emnlp-main.119",
+        "url:https://doi.org/10.48550/arxiv.2605.26184"
+      ],
+      "conflicts": {}
+    }
+  ]
+}

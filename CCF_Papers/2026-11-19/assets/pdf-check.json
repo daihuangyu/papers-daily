@@ -1,0 +1,272 @@
+{
+  "pages": 22,
+  "original_images": 18,
+  "markdown_characters": 28156,
+  "text_lines_checked": 251,
+  "missing_lines": [],
+  "text_characters_per_page": [
+    1397,
+    1028,
+    1230,
+    867,
+    843,
+    1256,
+    1373,
+    1006,
+    1322,
+    1274,
+    1100,
+    338,
+    617,
+    1473,
+    1612,
+    936,
+    1800,
+    1147,
+    1741,
+    197,
+    1086,
+    980
+  ],
+  "out_of_page_characters": [],
+  "markdown_sha256": "17de79ec48d2ca567c9ee68b57cc6f17edf3271204125e0cbf93a5c1fa0729c3",
+  "pdf_sha256": "64f6a9f1c475ff0159ba96b032bb1d165c6ca37b0269aff4f2ca34fbbbbcb1c0",
+  "visual_review": {
+    "status": "passed",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "method": "Every page rendered at 1.5x and visually inspected via all contact sheets; pages 10,15,18,19 inspected full-size. Source crop lower edge corrected and final page 21 re-inspected.",
+    "original_figures_reviewed": 18,
+    "source_crop_corrections": [
+      "TROLL diagrams expanded at top to preserve panel titles and borders.",
+      "GEPA captions expanded at right.",
+      "GAC table crop extended to preserve all final-row standard deviations."
+    ]
+  },
+  "font_check": {
+    "status": "passed",
+    "missing_glyphs": 0,
+    "font": "Embedded TrueType STSongti-TC-Bold subsets; all actually used text fonts contain FontFile2 and ToUnicode",
+    "text_font_resource_ids": [
+      "/F2+0",
+      "/F2+1",
+      "/F2+2",
+      "/F2+3"
+    ],
+    "font_resources": {
+      "/F2+0": "/AAAAAA+STSongti-TC-Bold",
+      "/F2+1": "/AAAAAB+STSongti-TC-Bold",
+      "/F2+2": "/AAAAAC+STSongti-TC-Bold",
+      "/F2+3": "/AAAAAD+STSongti-TC-Bold"
+    },
+    "environment": "Authorized local macOS run; existing converted CJK font. No Linux/cloud execution claim."
+  },
+  "image_integrity": {
+    "all_original_assets_embedded_pixel_identically": true,
+    "images": [
+      {
+        "file": "gepa-fig3.png",
+        "report_page": 2,
+        "dimensions": [
+          1242,
+          711
+        ],
+        "decoded_rgb_sha256": "1be1a35a28e3c958027309bb45945b513852045abc182c8a61436094e6677d60",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "gepa-tables1-2.png",
+        "report_page": 4,
+        "dimensions": [
+          1410,
+          1107
+        ],
+        "decoded_rgb_sha256": "57f6c1457c16a7e2288f687619058708c8c843f32fbc0e1c3270be02db83d97c",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "gepa-table3-fig6.png",
+        "report_page": 5,
+        "dimensions": [
+          1410,
+          1236
+        ],
+        "decoded_rgb_sha256": "8b2a87c39a5d17ade7b780c4129019900c736bb22ed6e55fa1cde889af0d76b0",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "rws-fig3.png",
+        "report_page": 7,
+        "dimensions": [
+          1218,
+          318
+        ],
+        "decoded_rgb_sha256": "536f8f4cdfcdc029fb5a030108c7b265e7711fc3129fa98ceb72886c87e56ee2",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "rws-table1.png",
+        "report_page": 8,
+        "dimensions": [
+          1218,
+          606
+        ],
+        "decoded_rgb_sha256": "35948139ea4905befc980a91e36c7d3da0277ef49ec6d144f33cbeb1545e6d85",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "rws-fig5.png",
+        "report_page": 8,
+        "dimensions": [
+          1218,
+          462
+        ],
+        "decoded_rgb_sha256": "d1bb413d4e7734efb64a04456fc6d44ebc1cfe2ad284b9298e00d2dc1c20fb42",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "rws-fig6.png",
+        "report_page": 9,
+        "dimensions": [
+          1218,
+          468
+        ],
+        "decoded_rgb_sha256": "71b8e6e2e9e2f8d96666f07103d90b7f59a5b69327fa7b0113cd3cfd29e41463",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "troll-fig2.png",
+        "report_page": 10,
+        "dimensions": [
+          1218,
+          426
+        ],
+        "decoded_rgb_sha256": "811f4525ed220f7126e350c021c55f3c82d0abbdc03bfdec9f595c96b944e093",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "troll-fig3.png",
+        "report_page": 12,
+        "dimensions": [
+          1218,
+          696
+        ],
+        "decoded_rgb_sha256": "07f4c1e818fadf838a019c217bddff95e20d6a46aea6c725692ab0f7f9f196f5",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "troll-table4.png",
+        "report_page": 13,
+        "dimensions": [
+          1218,
+          924
+        ],
+        "decoded_rgb_sha256": "6a357f3bc2efc7b020cba88ca87a102248bd3419bf8ad25835336e56bae14916",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "troll-table5.png",
+        "report_page": 13,
+        "dimensions": [
+          1221,
+          351
+        ],
+        "decoded_rgb_sha256": "a9774f6f9a3e90bd593e5426fcc2f6a93a36343c1c2eb722f1b7f2f25b6a424b",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "elf-fig3.png",
+        "report_page": 14,
+        "dimensions": [
+          1044,
+          291
+        ],
+        "decoded_rgb_sha256": "8eed4d180d4ea86befd93e97debd025d90d486bcfd0e245e678a9d1c17f4b74a",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "elf-tables10-11.png",
+        "report_page": 16,
+        "dimensions": [
+          1218,
+          744
+        ],
+        "decoded_rgb_sha256": "f44fb5ea17335dad8c6ef3fd4b9df2260036f4924de0e823f2eebd4b0e482c6a",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "elf-fig7.png",
+        "report_page": 16,
+        "dimensions": [
+          1218,
+          330
+        ],
+        "decoded_rgb_sha256": "695a88bab632e47df8de36ef6d7d7beb7a1195af4860b302ffe08ccd6944531b",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "elf-table7.png",
+        "report_page": 17,
+        "dimensions": [
+          1221,
+          291
+        ],
+        "decoded_rgb_sha256": "a411a50e8f76143b497167495828c7811c3eb7d8cdd79df2d74a9b65950c988d",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "gac-fig1.png",
+        "report_page": 18,
+        "dimensions": [
+          1371,
+          774
+        ],
+        "decoded_rgb_sha256": "ff644f961c5c189fb4308651f2c1afb991076357874fdd1cd8d3da7ae989aa30",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "gac-fig2.png",
+        "report_page": 20,
+        "dimensions": [
+          1374,
+          903
+        ],
+        "decoded_rgb_sha256": "1fafb888c3d89400b95404e0b8cf2d17f8b3a072c700c5f8501f235507933104",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "gac-tables2-4.png",
+        "report_page": 21,
+        "dimensions": [
+          1380,
+          1050
+        ],
+        "decoded_rgb_sha256": "83ba7250805a36e82431035bddfaba93927f22305a8acb24ef5a9640516fcb9c",
+        "pixel_identical_to_asset": true
+      }
+    ],
+    "image_bounds_passed": true
+  }
+}
