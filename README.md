@@ -24,6 +24,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 | 2026-11-18 | VLM / 视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘 | 5 | [Markdown](VLM/2026-11-18/report.md) · [PDF](VLM/2026-11-18/report.pdf) |
 | 2026-11-17 | VLM / 小型VLM蒸馏、约束GRPO与能力保留 | 5 | [Markdown](VLM/2026-11-17/report.md) · [PDF](VLM/2026-11-17/report.pdf) |
 | 2026-11-16 | VLM / vLLM推理系统 | 5 | [Markdown](VLM/2026-11-16/report.md) · [PDF](VLM/2026-11-16/report.pdf) |
+| 2026-11-19 | OPSD / 长轨迹监督、历史能力回收与优化动力学 | 5 | [Markdown](OPSD/2026-11-19/report.md) · [PDF](OPSD/2026-11-19/report.pdf) |
 | 2026-11-18 | OPSD / 教师进化、逐token选择与参考视图边缘化 | 5 | [Markdown](OPSD/2026-11-18/report.md) · [PDF](OPSD/2026-11-18/report.pdf) |
 | 2026-11-17 | OPSD / 监督选择、环境校准与异步加速 | 5 | [Markdown](OPSD/2026-11-17/report.md) · [PDF](OPSD/2026-11-17/report.pdf) |
 | 2026-11-16 | OPSD / 特权信息、token级 credit 与应用扩展 | 5 | [Markdown](OPSD/2026-11-16/report.md) · [PDF](OPSD/2026-11-16/report.pdf) |
@@ -59,6 +60,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 3. [Migrating vLLM to the LibTorch Stable ABI](https://vllm.ai/blog/2026-11-06-stable-abi-cuda) · 2026-11-06 · [精读](VLM/2026-11-16/report.md)
 4. [Introducing Kinference](https://vllm.ai/blog/2026-11-04-introducing-kinference) · 2026-11-04 · [精读](VLM/2026-11-16/report.md)
 5. [vLLM v0.33.0 Release](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) · 2026-11-02 · [精读](VLM/2026-11-16/report.md)
+### 2026-11-19 · 长轨迹监督、历史能力回收与优化动力学
+
+1. [SWE-OPD: On-Policy Distillation for Agentic Coding](https://arxiv.org/abs/2611.21020) · 2026-11-16 · [精读](OPSD/2026-11-19/report.md)
+2. [Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks](https://arxiv.org/abs/2611.12799) · 2026-11-09 · [精读](OPSD/2026-11-19/report.md)
+3. [Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns](https://arxiv.org/abs/2611.19244) · 2026-11-14 · [精读](OPSD/2026-11-19/report.md)
+4. [Streaming On-Policy Distillation: Decoupling Three Clocks for Stage-Wise Supervision Consumption](https://arxiv.org/abs/2611.22298) · 2026-11-17 · [精读](OPSD/2026-11-19/report.md)
+5. [Learning Dynamics of On-Policy Distillation](https://arxiv.org/abs/2611.08016) · 2026-11-05 · [精读](OPSD/2026-11-19/report.md)
 ### 2026-11-18 · 教师进化、逐token选择与参考视图边缘化
 
 1. [On-Policy Self-Distillation with Teacher Evolution](https://arxiv.org/abs/2610.38637) · 2026-10-28 · [精读](OPSD/2026-11-18/report.md)

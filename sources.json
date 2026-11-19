@@ -989,6 +989,477 @@
       ]
     },
     {
+      "id": "arxiv:2611.21020",
+      "type": "paper",
+      "title": "SWE-OPD: On-Policy Distillation for Agentic Coding",
+      "method": "SWE-OPD",
+      "published": "2026-11-16",
+      "arxiv_id": "2611.21020",
+      "doi": "10.48550/arXiv.2611.21020",
+      "url": "https://arxiv.org/abs/2611.21020",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.21020",
+        "https://doi.org/10.48550/arXiv.2611.21020"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.21020v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21020v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "ebb80cabdbd41490165a88719b89a297452a132b87cdd34c6362a7cefa238262",
+      "publication_evidence_snapshot_sha256": "b7bc06ad104060f5a4043024b56b8faf2cf12f29958d576a6ebc5deafcddfcf5",
+      "code_url": "https://github.com/ernie-research/SWE-OPD",
+      "code_status": "official public reference implementation; pinned loss/scoring/formula files statically inspected; internal RLE sandbox dependency; training not run",
+      "author_blog_url": null,
+      "author_blog_status": "No dedicated paper-author blog verified in targeted search on 2026-11-19",
+      "figures": [
+        {
+          "file": "assets/swe-fig1.png",
+          "arxiv_id": "2611.21020",
+          "page": 5,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.11,
+            0.075,
+            0.89,
+            0.365
+          ],
+          "sha256": "8c1bcdec78707c9881227beef20c41281983da8cdb572ca58376554aae822976",
+          "source_url": "https://arxiv.org/pdf/2611.21020v1"
+        },
+        {
+          "file": "assets/swe-table1.png",
+          "arxiv_id": "2611.21020",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.11,
+            0.625,
+            0.89,
+            0.823
+          ],
+          "sha256": "489269eca17977eeef9cb29683ce9239721b2de25920cbb3f54eae75bf52b0ba",
+          "source_url": "https://arxiv.org/pdf/2611.21020v1"
+        },
+        {
+          "file": "assets/swe-fig4.png",
+          "arxiv_id": "2611.21020",
+          "page": 10,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.11,
+            0.615,
+            0.9,
+            0.785
+          ],
+          "sha256": "5cb48aba9304aa7f024d51c4fa32510901e519a028cdd0f47ac68767ec8a4102",
+          "source_url": "https://arxiv.org/pdf/2611.21020v1"
+        },
+        {
+          "file": "assets/swe-fig6.png",
+          "arxiv_id": "2611.21020",
+          "page": 24,
+          "paper_figure": "Figure 6",
+          "crop_box_normalized": [
+            0.11,
+            0.245,
+            0.89,
+            0.8
+          ],
+          "sha256": "b0f4e34d01c03f235e57ef8c71e2995ef6383ce0ec7598e24ac785dc50f2e2ed",
+          "source_url": "https://arxiv.org/pdf/2611.21020v1"
+        }
+      ],
+      "code_commit": "0884a04f4c9e2b4baaa47261b2016d425ac3f63e",
+      "code_files": [
+        {
+          "path": "readme.md",
+          "url": "https://github.com/ernie-research/SWE-OPD/blob/0884a04f4c9e2b4baaa47261b2016d425ac3f63e/readme.md",
+          "sha256": "cf784e662f33509e8add319d8a3920a91de9e20711de99769996db4eca7c2da2"
+        },
+        {
+          "path": "offline_opd/slime/examples/coding_agent_opd/scripts/offline_opd/OFFLINE_OPD_FORMULAS.md",
+          "url": "https://github.com/ernie-research/SWE-OPD/blob/0884a04f4c9e2b4baaa47261b2016d425ac3f63e/offline_opd/slime/examples/coding_agent_opd/scripts/offline_opd/OFFLINE_OPD_FORMULAS.md",
+          "sha256": "69a8dab0b4e0b2d6894f3229dca34e7317c2049d28dbaf67e4236fa16399d546"
+        },
+        {
+          "path": "offline_opd/slime/slime/backends/megatron_utils/loss.py",
+          "url": "https://github.com/ernie-research/SWE-OPD/blob/0884a04f4c9e2b4baaa47261b2016d425ac3f63e/offline_opd/slime/slime/backends/megatron_utils/loss.py",
+          "sha256": "f22add3f81286a86a490cf097cb1c59cd552ea7cd8cd48de92176ef66c5d5ce8"
+        },
+        {
+          "path": "offline_opd/slime/slime/rollout/on_policy_distillation.py",
+          "url": "https://github.com/ernie-research/SWE-OPD/blob/0884a04f4c9e2b4baaa47261b2016d425ac3f63e/offline_opd/slime/slime/rollout/on_policy_distillation.py",
+          "sha256": "0e39006eae197d198946904930d66ecffc3753447d2347a0bc74cf02f50c3ceb"
+        },
+        {
+          "path": "vanilla_opd/README.md",
+          "url": "https://github.com/ernie-research/SWE-OPD/blob/0884a04f4c9e2b4baaa47261b2016d425ac3f63e/vanilla_opd/README.md",
+          "sha256": "61a60b799215ed8a4d6f32c1d0b2a57d3c8c5e82d64e628c11e7a25276fcddd1"
+        }
+      ],
+      "reproducibility_findings": [
+        "Paper Eq.4 detaches normalizer; public top-K loss uses differentiable logsumexp; gradients differ away from zero loss",
+        "token_reverse_kl selector is not sampled-token PG; other explicit PG selectors exist; original run-selector mapping not fully verified",
+        "Internal sandbox backend and internal training source prevent turnkey full reproduction"
+      ],
+      "folder": "OPSD/2026-11-19",
+      "aliases": [
+        "arxiv:2611.21020",
+        "doi:10.48550/arxiv.2611.21020",
+        "id:arxiv:2611.21020",
+        "title:sweopdonpolicydistillationforagenticcoding",
+        "url:https://arxiv.org/abs/2611.21020",
+        "url:https://doi.org/10.48550/arxiv.2611.21020"
+      ]
+    },
+    {
+      "id": "arxiv:2611.12799",
+      "type": "paper",
+      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "method": "Agentic-OPD",
+      "published": "2026-11-09",
+      "arxiv_id": "2611.12799",
+      "doi": "10.48550/arXiv.2611.12799",
+      "url": "https://arxiv.org/abs/2611.12799",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.12799",
+        "https://doi.org/10.48550/arXiv.2611.12799"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.12799v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.12799v2",
+      "read_version": "v2",
+      "source_pdf_sha256": "8096906cf54267856f488e05b1a5eda33eb1884d5cf8e62033caca68f69d8506",
+      "publication_evidence_snapshot_sha256": "4ae6219234a261648fa49ba3ca63bc0ef562ddc54b1ceca49cf72325d7a5b5d5",
+      "code_url": null,
+      "code_status": "No dedicated author code link verified in original PDF annotations, arXiv page, or targeted exact-title/arXiv-ID searches on 2026-11-19; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No dedicated paper-author blog verified in targeted search on 2026-11-19",
+      "figures": [
+        {
+          "file": "assets/agentic-fig2.png",
+          "arxiv_id": "2611.12799",
+          "page": 4,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.115,
+            0.1,
+            0.89,
+            0.495
+          ],
+          "sha256": "dc885db0c1e77ffcd8f0fbbb27a90413596e35c891ecbe1257cebb8fe518790b",
+          "source_url": "https://arxiv.org/pdf/2611.12799v2"
+        },
+        {
+          "file": "assets/agentic-table1.png",
+          "arxiv_id": "2611.12799",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.165,
+            0.1,
+            0.835,
+            0.592
+          ],
+          "sha256": "c96dc37c179f1984625cc1bc1e680f4a9ad223497ca795445d004b87ca302a6c",
+          "source_url": "https://arxiv.org/pdf/2611.12799v2"
+        },
+        {
+          "file": "assets/agentic-table2.png",
+          "arxiv_id": "2611.12799",
+          "page": 8,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.535,
+            0.56,
+            0.91,
+            0.88
+          ],
+          "sha256": "ded83eb183a5e6f604cd09bdeadd153262a02b21f906beb35b8073b898808420",
+          "source_url": "https://arxiv.org/pdf/2611.12799v2"
+        }
+      ],
+      "updated": "2026-11-13",
+      "folder": "OPSD/2026-11-19",
+      "aliases": [
+        "arxiv:2611.12799",
+        "doi:10.48550/arxiv.2611.12799",
+        "id:arxiv:2611.12799",
+        "title:agenticopdrecoveringforgottenagentcapabilitiesviaonpolicydistillationforagentictasks",
+        "url:https://arxiv.org/abs/2611.12799",
+        "url:https://doi.org/10.48550/arxiv.2611.12799"
+      ]
+    },
+    {
+      "id": "arxiv:2611.19244",
+      "type": "paper",
+      "title": "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
+      "method": "ReAct Patterns",
+      "published": "2026-11-14",
+      "arxiv_id": "2611.19244",
+      "doi": "10.48550/arXiv.2611.19244",
+      "url": "https://arxiv.org/abs/2611.19244",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.19244",
+        "https://doi.org/10.48550/arXiv.2611.19244"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.19244v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.19244v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "e29a15098db36bc3a37980bdba9a1ac16dad2b2f246e1921ddc53bbc0e92464c",
+      "publication_evidence_snapshot_sha256": "485582b87339b0baf5a10ec32e43c2330fdb1e195579d376b3b1be17734b2901",
+      "code_url": null,
+      "code_status": "No dedicated author code link verified in original PDF annotations, arXiv page, or targeted exact-title/arXiv-ID searches on 2026-11-19; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No dedicated paper-author blog verified in targeted search on 2026-11-19",
+      "figures": [
+        {
+          "file": "assets/react-fig1.png",
+          "arxiv_id": "2611.19244",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.53,
+            0.105,
+            0.92,
+            0.425
+          ],
+          "sha256": "8301033eb45e27b6b2ae33c01436437a3daf6b9ba9e1b8d739016a396e132fca",
+          "source_url": "https://arxiv.org/pdf/2611.19244v1"
+        },
+        {
+          "file": "assets/react-fig2.png",
+          "arxiv_id": "2611.19244",
+          "page": 4,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.11,
+            0.04,
+            0.9,
+            0.335
+          ],
+          "sha256": "46d9d63b46bca7df69af27c808dc81e4f811301a1948da0cd336af018f80e94d",
+          "source_url": "https://arxiv.org/pdf/2611.19244v1"
+        },
+        {
+          "file": "assets/react-fig4.png",
+          "arxiv_id": "2611.19244",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.11,
+            0.045,
+            0.9,
+            0.35
+          ],
+          "sha256": "d0507454a8716b9f0d31c1236a3ecd6a22b8cd51d5e50fca8a962e3a5213a5ef",
+          "source_url": "https://arxiv.org/pdf/2611.19244v1"
+        },
+        {
+          "file": "assets/react-table5.png",
+          "arxiv_id": "2611.19244",
+          "page": 9,
+          "paper_figure": "Table 5",
+          "crop_box_normalized": [
+            0.27,
+            0.25,
+            0.865,
+            0.405
+          ],
+          "sha256": "ae9e0e68b79ce79059aeeb2c53f1cb094679205e44b19326fdc17b89466fd15d",
+          "source_url": "https://arxiv.org/pdf/2611.19244v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-19",
+      "aliases": [
+        "arxiv:2611.19244",
+        "doi:10.48550/arxiv.2611.19244",
+        "id:arxiv:2611.19244",
+        "title:agenticonpolicydistillationimplicitlyreshapesllmsreactpatterns",
+        "url:https://arxiv.org/abs/2611.19244",
+        "url:https://doi.org/10.48550/arxiv.2611.19244"
+      ]
+    },
+    {
+      "id": "arxiv:2611.22298",
+      "type": "paper",
+      "title": "Streaming On-Policy Distillation: Decoupling Three Clocks for Stage-Wise Supervision Consumption",
+      "method": "Streaming OPD",
+      "published": "2026-11-17",
+      "arxiv_id": "2611.22298",
+      "doi": "10.48550/arXiv.2611.22298",
+      "url": "https://arxiv.org/abs/2611.22298",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.22298",
+        "https://doi.org/10.48550/arXiv.2611.22298"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.22298v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22298v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "50da6dbc524ce9db975e18a38ba8c0635b369f8e53ebdd052422ac4fc50d829a",
+      "publication_evidence_snapshot_sha256": "036f5a17c9b97fd9082bf0d50fed57e592661057fee9d53a2cc5b17afeb3ca38",
+      "code_url": null,
+      "code_status": "No dedicated author code link verified in original PDF annotations, arXiv page, or targeted exact-title/arXiv-ID searches on 2026-11-19; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No dedicated paper-author blog verified in targeted search on 2026-11-19",
+      "figures": [
+        {
+          "file": "assets/stream-fig1.png",
+          "arxiv_id": "2611.22298",
+          "page": 7,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.115,
+            0.25,
+            0.89,
+            0.66
+          ],
+          "sha256": "4a61b924eaa4b28e3a9017e6bc1a2eb418bfa1916d6774f0b807ea667e57c7bb",
+          "source_url": "https://arxiv.org/pdf/2611.22298v1"
+        },
+        {
+          "file": "assets/stream-fig2.png",
+          "arxiv_id": "2611.22298",
+          "page": 13,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.115,
+            0.1,
+            0.89,
+            0.605
+          ],
+          "sha256": "cde28cd14c831b0a34e63606388374a728281f8823f906e48ec7c076ee30edd8",
+          "source_url": "https://arxiv.org/pdf/2611.22298v1"
+        },
+        {
+          "file": "assets/stream-fig5.png",
+          "arxiv_id": "2611.22298",
+          "page": 22,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.115,
+            0.3,
+            0.89,
+            0.77
+          ],
+          "sha256": "816fa29c2c2bdb0573fb7fd2141407510519c9eb8b0383da7b4af25e673a7037",
+          "source_url": "https://arxiv.org/pdf/2611.22298v1"
+        },
+        {
+          "file": "assets/stream-table10.png",
+          "arxiv_id": "2611.22298",
+          "page": 25,
+          "paper_figure": "Table 10",
+          "crop_box_normalized": [
+            0.115,
+            0.19,
+            0.89,
+            0.46
+          ],
+          "sha256": "6ee5fdc616801e94886a2aa180672f5900cd142c5dc9ffd4721c099d1cf0880c",
+          "source_url": "https://arxiv.org/pdf/2611.22298v1"
+        }
+      ],
+      "date_note": "arXiv submission history v1=2026-11-17; PDF front-page date=2026-11-18; authors split as Yun Zhu and Da Wang in PDF",
+      "folder": "OPSD/2026-11-19",
+      "aliases": [
+        "arxiv:2611.22298",
+        "doi:10.48550/arxiv.2611.22298",
+        "id:arxiv:2611.22298",
+        "title:streamingonpolicydistillationdecouplingthreeclocksforstagewisesupervisionconsumption",
+        "url:https://arxiv.org/abs/2611.22298",
+        "url:https://doi.org/10.48550/arxiv.2611.22298"
+      ]
+    },
+    {
+      "id": "arxiv:2611.08016",
+      "type": "paper",
+      "title": "Learning Dynamics of On-Policy Distillation",
+      "method": "Learning Dynamics",
+      "published": "2026-11-05",
+      "arxiv_id": "2611.08016",
+      "doi": "10.48550/arXiv.2611.08016",
+      "url": "https://arxiv.org/abs/2611.08016",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.08016",
+        "https://doi.org/10.48550/arXiv.2611.08016"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.08016v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08016v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "a9e167a57a0f731260b6ae1cb398132045f0c8b1127d589b189a873a220d0776",
+      "publication_evidence_snapshot_sha256": "05d0e2ddc9d8eaf77de5088f33d81f48e17025e5b8bb18201ddb7c1eb945fe77",
+      "code_url": null,
+      "code_status": "No dedicated author code link verified in original PDF annotations, arXiv page, or targeted exact-title/arXiv-ID searches on 2026-11-19; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No dedicated paper-author blog verified in targeted search on 2026-11-19",
+      "figures": [
+        {
+          "file": "assets/dynamics-fig1.png",
+          "arxiv_id": "2611.08016",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.115,
+            0.06,
+            0.89,
+            0.4
+          ],
+          "sha256": "8e8b3215bc17a47dbec7146b22d33202506bedc7cf121d1e0002c3acbdfe205e",
+          "source_url": "https://arxiv.org/pdf/2611.08016v1"
+        },
+        {
+          "file": "assets/dynamics-fig4.png",
+          "arxiv_id": "2611.08016",
+          "page": 7,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.115,
+            0.04,
+            0.89,
+            0.34
+          ],
+          "sha256": "178306f0bb1a23df86b17a9aca94f80027e281c97b1d0e2966e993614404165b",
+          "source_url": "https://arxiv.org/pdf/2611.08016v1"
+        },
+        {
+          "file": "assets/dynamics-fig5.png",
+          "arxiv_id": "2611.08016",
+          "page": 9,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.165,
+            0.1,
+            0.835,
+            0.365
+          ],
+          "sha256": "62408788d4b4d45f4cd6d2cb46d8590f66a464882cc209103c1ad8833b621657",
+          "source_url": "https://arxiv.org/pdf/2611.08016v1"
+        },
+        {
+          "file": "assets/dynamics-fig8.png",
+          "arxiv_id": "2611.08016",
+          "page": 11,
+          "paper_figure": "Figure 8",
+          "crop_box_normalized": [
+            0.165,
+            0.38,
+            0.835,
+            0.825
+          ],
+          "sha256": "22b723099ce0fa693465ee93e7f094b51780649359228d4b488025de898ad20e",
+          "source_url": "https://arxiv.org/pdf/2611.08016v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-19",
+      "aliases": [
+        "arxiv:2611.08016",
+        "doi:10.48550/arxiv.2611.08016",
+        "id:arxiv:2611.08016",
+        "title:learningdynamicsofonpolicydistillation",
+        "url:https://arxiv.org/abs/2611.08016",
+        "url:https://doi.org/10.48550/arxiv.2611.08016"
+      ]
+    },
+    {
       "id": "arxiv:2610.38637",
       "type": "paper",
       "title": "On-Policy Self-Distillation with Teacher Evolution",
@@ -2717,6 +3188,36 @@
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
     "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2611.21020": "OPSD/2026-11-19",
+    "doi:10.48550/arxiv.2611.21020": "OPSD/2026-11-19",
+    "id:arxiv:2611.21020": "OPSD/2026-11-19",
+    "title:sweopdonpolicydistillationforagenticcoding": "OPSD/2026-11-19",
+    "url:https://arxiv.org/abs/2611.21020": "OPSD/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2611.21020": "OPSD/2026-11-19",
+    "arxiv:2611.12799": "OPSD/2026-11-19",
+    "doi:10.48550/arxiv.2611.12799": "OPSD/2026-11-19",
+    "id:arxiv:2611.12799": "OPSD/2026-11-19",
+    "title:agenticopdrecoveringforgottenagentcapabilitiesviaonpolicydistillationforagentictasks": "OPSD/2026-11-19",
+    "url:https://arxiv.org/abs/2611.12799": "OPSD/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2611.12799": "OPSD/2026-11-19",
+    "arxiv:2611.19244": "OPSD/2026-11-19",
+    "doi:10.48550/arxiv.2611.19244": "OPSD/2026-11-19",
+    "id:arxiv:2611.19244": "OPSD/2026-11-19",
+    "title:agenticonpolicydistillationimplicitlyreshapesllmsreactpatterns": "OPSD/2026-11-19",
+    "url:https://arxiv.org/abs/2611.19244": "OPSD/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2611.19244": "OPSD/2026-11-19",
+    "arxiv:2611.22298": "OPSD/2026-11-19",
+    "doi:10.48550/arxiv.2611.22298": "OPSD/2026-11-19",
+    "id:arxiv:2611.22298": "OPSD/2026-11-19",
+    "title:streamingonpolicydistillationdecouplingthreeclocksforstagewisesupervisionconsumption": "OPSD/2026-11-19",
+    "url:https://arxiv.org/abs/2611.22298": "OPSD/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2611.22298": "OPSD/2026-11-19",
+    "arxiv:2611.08016": "OPSD/2026-11-19",
+    "doi:10.48550/arxiv.2611.08016": "OPSD/2026-11-19",
+    "id:arxiv:2611.08016": "OPSD/2026-11-19",
+    "title:learningdynamicsofonpolicydistillation": "OPSD/2026-11-19",
+    "url:https://arxiv.org/abs/2611.08016": "OPSD/2026-11-19",
+    "url:https://doi.org/10.48550/arxiv.2611.08016": "OPSD/2026-11-19",
     "arxiv:2610.38637": "OPSD/2026-11-18",
     "doi:10.48550/arxiv.2610.38637": "OPSD/2026-11-18",
     "id:arxiv:2610.38637": "OPSD/2026-11-18",
