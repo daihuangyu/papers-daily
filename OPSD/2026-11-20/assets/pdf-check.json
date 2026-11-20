@@ -1,0 +1,102 @@
+{
+  "pages": 25,
+  "original_images": 20,
+  "markdown_characters": 32266,
+  "text_lines_checked": 261,
+  "missing_lines": [],
+  "text_characters_per_page": [
+    1783,
+    1248,
+    1747,
+    880,
+    1246,
+    1123,
+    1714,
+    460,
+    508,
+    1254,
+    909,
+    2014,
+    776,
+    676,
+    908,
+    847,
+    1881,
+    1374,
+    765,
+    972,
+    2008,
+    877,
+    603,
+    1228,
+    1018
+  ],
+  "out_of_page_characters": [],
+  "markdown_sha256": "b23b5ee4c7645d23d56376c1cf3a8d55401254c5d321fe72512fa95846e9a8d5",
+  "pdf_sha256": "50fbf191de28178d013e38c25514f4394a1d5218d1cc7504608aaad077914d3b",
+  "status": "passed",
+  "font_resources": {
+    "/AAAAAA+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true,
+      "subtype": "TrueType"
+    },
+    "/AAAAAB+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true,
+      "subtype": "TrueType"
+    },
+    "/AAAAAC+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true,
+      "subtype": "TrueType"
+    },
+    "/AAAAAD+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true,
+      "subtype": "TrueType"
+    }
+  },
+  "missing_glyphs": [],
+  "embedded_original_image_rgb_match": true,
+  "visually_reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "reviewed_at": "2026-11-20T01:38:20.814785+00:00",
+  "render_scale": 1.5,
+  "full_resolution_spot_checks": [
+    7,
+    12,
+    17,
+    19,
+    21
+  ],
+  "visual_findings": "All 25 final pages rendered and reviewed through contact sheets; full-render formula/code/dense-table spot checks passed; no missing glyph, blank page, clipping or overlap observed",
+  "renderer_sha256": "bee2e6c10aa50682d4c1f122b0cafb5169f2df38b465ed8681feac6d29374382",
+  "layout_adapter_sha256": "150f6391ed3eef8096f8a8bdba97748ad04f1fa05d2fdcee5ba14966b8d337bd",
+  "font_sha256": "19d520cef1e3526ab10eef322a436a78cded57d0389682f9e21485c21c9a421c"
+}

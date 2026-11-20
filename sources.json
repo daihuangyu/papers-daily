@@ -1384,6 +1384,553 @@
       ]
     },
     {
+      "id": "arxiv:2611.23673",
+      "type": "paper",
+      "title": "Communicative On-Policy Distillation: Distilling Black-Box Teacher Capabilities through Communication for Long-Horizon Tasks",
+      "method": "COPD",
+      "published": "2026-11-18",
+      "arxiv_id": "2611.23673",
+      "doi": "10.48550/arXiv.2611.23673",
+      "url": "https://arxiv.org/abs/2611.23673",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.23673",
+        "https://doi.org/10.48550/arXiv.2611.23673"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.23673v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23673v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "9e27220fffe9dbf7b1327bcf77ba7bee2bd8af695df25253c988355533973e9f",
+      "publication_evidence_snapshot_sha256": "c2d0e6ae23a32baf61da162fc93ff48629e63756e7edf48bf8d9ee16e18cc1a4",
+      "code_url": null,
+      "code_status": "No dedicated first-party method code verified in original PDF annotations, arXiv/project links and targeted exact-title searches on 2026-11-20; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified in targeted search on 2026-11-20",
+      "figures": [
+        {
+          "file": "assets/copd-fig2.png",
+          "arxiv_id": "2611.23673",
+          "page": 4,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.11,
+            0.13,
+            0.9,
+            0.47
+          ],
+          "sha256": "2993220c0348db3dc925f6befa2d1bde4f466726a5e1d7604f5bb0b5f2183223",
+          "source_url": "https://arxiv.org/pdf/2611.23673v1"
+        },
+        {
+          "file": "assets/copd-table1.png",
+          "arxiv_id": "2611.23673",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.11,
+            0.205,
+            0.9,
+            0.53
+          ],
+          "sha256": "863a65fdc3031afa31b003cf962bee57559da9ba13e1dd459d62758bc206ef47",
+          "source_url": "https://arxiv.org/pdf/2611.23673v1"
+        },
+        {
+          "file": "assets/copd-fig5.png",
+          "arxiv_id": "2611.23673",
+          "page": 9,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.11,
+            0.07,
+            0.9,
+            0.365
+          ],
+          "sha256": "222b7284de430cd81e6b2310da07a2461c92b15b316f40a255f438242675f65f",
+          "source_url": "https://arxiv.org/pdf/2611.23673v1"
+        },
+        {
+          "file": "assets/copd-fig7.png",
+          "arxiv_id": "2611.23673",
+          "page": 10,
+          "paper_figure": "Figure 7",
+          "crop_box_normalized": [
+            0.11,
+            0.165,
+            0.9,
+            0.375
+          ],
+          "sha256": "ed2a58ff12b7092e2e38c21dd11afc48877924f6895ac076b257333cfc2e1003",
+          "source_url": "https://arxiv.org/pdf/2611.23673v1"
+        }
+      ],
+      "project_url": "https://liruiluo.github.io/communicative-opsd/",
+      "author_explanation_url": "https://liruiluo.github.io/communicative-opsd/",
+      "reproducibility_findings": [
+        "External adviser is frozen, while detached privileged self-teacher uses current student parameters",
+        "No dedicated training code and incomplete numerical optimizer/reward/mask/cost details verified",
+        "Visual uses judged grade; average is across native domain metrics; 2.46x is gain ratio, not raw success ratio"
+      ],
+      "folder": "OPSD/2026-11-20",
+      "aliases": [
+        "arxiv:2611.23673",
+        "doi:10.48550/arxiv.2611.23673",
+        "id:arxiv:2611.23673",
+        "title:communicativeonpolicydistillationdistillingblackboxteachercapabilitiesthroughcommunicationforlonghorizontasks",
+        "url:https://arxiv.org/abs/2611.23673",
+        "url:https://doi.org/10.48550/arxiv.2611.23673"
+      ]
+    },
+    {
+      "id": "arxiv:2611.19273",
+      "type": "paper",
+      "title": "B-OPSD: On-Policy Self-Distillation with Self-Generated Problem Briefs",
+      "method": "B-OPSD",
+      "published": "2026-11-14",
+      "arxiv_id": "2611.19273",
+      "doi": "10.48550/arXiv.2611.19273",
+      "url": "https://arxiv.org/abs/2611.19273",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.19273",
+        "https://doi.org/10.48550/arXiv.2611.19273"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.19273v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.19273v2",
+      "read_version": "v2",
+      "source_pdf_sha256": "cf2355660fa833447d2fe2754c7f5362002d59687b636c2fb05200132bc67eaf",
+      "publication_evidence_snapshot_sha256": "1be768c16f5bd2a07590c965b3c19a1fe20440bcd81156446d0ec86701a98680",
+      "code_url": "https://github.com/ZevineXu/B-OPSD",
+      "code_status": "Official public repository linked by paper; pinned core loss, scoring and launcher files statically inspected; no GPU training run",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified in targeted search on 2026-11-20",
+      "figures": [
+        {
+          "file": "assets/brief-fig1.png",
+          "arxiv_id": "2611.19273",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.17,
+            0.075,
+            0.84,
+            0.425
+          ],
+          "sha256": "8255a1d1f0be05c694e35f478c60899c624412359a81f12ddd6ea56332ced286",
+          "source_url": "https://arxiv.org/pdf/2611.19273v2"
+        },
+        {
+          "file": "assets/brief-fig3.png",
+          "arxiv_id": "2611.19273",
+          "page": 6,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.17,
+            0.11,
+            0.84,
+            0.326
+          ],
+          "sha256": "5e9f1988f044007b558cb79d3ca1c3e0d0386fc8f111e1401ef1541348658d0f",
+          "source_url": "https://arxiv.org/pdf/2611.19273v2"
+        },
+        {
+          "file": "assets/brief-table2.png",
+          "arxiv_id": "2611.19273",
+          "page": 7,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.165,
+            0.095,
+            0.84,
+            0.49
+          ],
+          "sha256": "d353ab76b58750e1d32644cc85a3f99a131c12c57b1a73aca3bb919f9db8da7d",
+          "source_url": "https://arxiv.org/pdf/2611.19273v2"
+        },
+        {
+          "file": "assets/brief-tables4-5.png",
+          "arxiv_id": "2611.19273",
+          "page": 9,
+          "paper_figure": "Tables 4 and 5",
+          "crop_box_normalized": [
+            0.165,
+            0.08,
+            0.84,
+            0.485
+          ],
+          "sha256": "2233e7ec9942fb0672b0f2ad8ad4c6ddf1f127fd6d324cff58025f3c5504a67a",
+          "source_url": "https://arxiv.org/pdf/2611.19273v2"
+        }
+      ],
+      "updated": "2026-11-17",
+      "code_commit": "8df0eae3424c9d03e82fa75346388e016a7dec05",
+      "code_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/ZevineXu/B-OPSD/blob/8df0eae3424c9d03e82fa75346388e016a7dec05/README.md",
+          "sha256": "131e7edb8028c5ba05d17015323cc5d1dada2736cdd64e7a9ed61fbed2d75cb4"
+        },
+        {
+          "path": "b_opsd_train.py",
+          "url": "https://github.com/ZevineXu/B-OPSD/blob/8df0eae3424c9d03e82fa75346388e016a7dec05/b_opsd_train.py",
+          "sha256": "a6bd8b2353b3446f83eefd8c62a02eb9bd8b764e72de750ccee376078570a3a7"
+        },
+        {
+          "path": "b_opsd_trainer.py",
+          "url": "https://github.com/ZevineXu/B-OPSD/blob/8df0eae3424c9d03e82fa75346388e016a7dec05/b_opsd_trainer.py",
+          "sha256": "1af92e26c75049b71ba6c3d9adf5e8dfce8b352b432f3e32510259c5f74865ca"
+        },
+        {
+          "path": "opsd_train.py",
+          "url": "https://github.com/ZevineXu/B-OPSD/blob/8df0eae3424c9d03e82fa75346388e016a7dec05/opsd_train.py",
+          "sha256": "fd0b97fa0cb887ebe4181653b9d001776bc43caf3b2057245b5035eb9095446e"
+        },
+        {
+          "path": "data_collator.py",
+          "url": "https://github.com/ZevineXu/B-OPSD/blob/8df0eae3424c9d03e82fa75346388e016a7dec05/data_collator.py",
+          "sha256": "5b96f3b3ae2f04e2b9dbf03509d3cd723c1b637d9362ab4697135d9f885b8381"
+        },
+        {
+          "path": "scripts/run_b_opsd_1b.sh",
+          "url": "https://github.com/ZevineXu/B-OPSD/blob/8df0eae3424c9d03e82fa75346388e016a7dec05/scripts/run_b_opsd_1b.sh",
+          "sha256": "e68b952bd00bdb72910dcfce7123f7db3b73a3206cfe166e1d2d3f40b41d92e4"
+        },
+        {
+          "path": "scripts/run_opsd_1b.sh",
+          "url": "https://github.com/ZevineXu/B-OPSD/blob/8df0eae3424c9d03e82fa75346388e016a7dec05/scripts/run_opsd_1b.sh",
+          "sha256": "cb9c99bf20d1b35a8a422ee2d92c74b73467da6bccfbd7f053cd56c8cc2c3287"
+        }
+      ],
+      "reproducibility_findings": [
+        "Paper prompt asks for <=700 tokens without a separate hard brief limit; current code caps brief output at 1024 with non-thinking retry and 30720-token thinking budget",
+        "Code helper normalizes over valid tokens, while paper writes per-sequence then batch averaging",
+        "B-OPSD entry uses local dataset path; baseline uses public dataset ID; data snapshots and shuffle must be matched",
+        "Example filename says reverse but --beta 0 executes forward KL"
+      ],
+      "folder": "OPSD/2026-11-20",
+      "aliases": [
+        "arxiv:2611.19273",
+        "doi:10.48550/arxiv.2611.19273",
+        "id:arxiv:2611.19273",
+        "title:bopsdonpolicyselfdistillationwithselfgeneratedproblembriefs",
+        "url:https://arxiv.org/abs/2611.19273",
+        "url:https://doi.org/10.48550/arxiv.2611.19273"
+      ]
+    },
+    {
+      "id": "arxiv:2611.18916",
+      "type": "paper",
+      "title": "Simplify, Agree, Distill: Label-Free Self-Distillation with Stepping Stones",
+      "method": "STONE",
+      "published": "2026-11-13",
+      "arxiv_id": "2611.18916",
+      "doi": "10.48550/arXiv.2611.18916",
+      "url": "https://arxiv.org/abs/2611.18916",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.18916",
+        "https://doi.org/10.48550/arXiv.2611.18916"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.18916v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18916v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "75cd588fb0f8892fb828feaba22b422ca9e640a01039dcb823bb69220d68b9de",
+      "publication_evidence_snapshot_sha256": "d8ac717fd821d806d98d6afac786c4522918ceaacc35bc14bdbf19f3e000666f",
+      "code_url": null,
+      "code_status": "No dedicated first-party method code verified in original PDF annotations, arXiv/project links and targeted exact-title searches on 2026-11-20; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified in targeted search on 2026-11-20",
+      "figures": [
+        {
+          "file": "assets/stone-fig3.png",
+          "arxiv_id": "2611.18916",
+          "page": 4,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.11,
+            0.085,
+            0.9,
+            0.425
+          ],
+          "sha256": "45bb324fa03ae7ec9a0d898d4983e3956ef61da94362413649b2abf7e6cec493",
+          "source_url": "https://arxiv.org/pdf/2611.18916v1"
+        },
+        {
+          "file": "assets/stone-table1.png",
+          "arxiv_id": "2611.18916",
+          "page": 5,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.115,
+            0.08,
+            0.9,
+            0.5
+          ],
+          "sha256": "5c0805a540f6b4636a92a65e837e21a3910945c0d8c8f73b44eaac4df58335ae",
+          "source_url": "https://arxiv.org/pdf/2611.18916v1"
+        },
+        {
+          "file": "assets/stone-fig5.png",
+          "arxiv_id": "2611.18916",
+          "page": 6,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.51,
+            0.075,
+            0.91,
+            0.395
+          ],
+          "sha256": "4049aec5ac7cf24621f642a6c015c67167042570c3eaf108f2f6b09d242acd91",
+          "source_url": "https://arxiv.org/pdf/2611.18916v1"
+        },
+        {
+          "file": "assets/stone-table4.png",
+          "arxiv_id": "2611.18916",
+          "page": 12,
+          "paper_figure": "Table 4",
+          "crop_box_normalized": [
+            0.11,
+            0.485,
+            0.515,
+            0.835
+          ],
+          "sha256": "b3fcb6c8898e48efe69dc6f510f1415955f547e7509e110f4a67457d2c4040d4",
+          "source_url": "https://arxiv.org/pdf/2611.18916v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-20",
+      "aliases": [
+        "arxiv:2611.18916",
+        "doi:10.48550/arxiv.2611.18916",
+        "id:arxiv:2611.18916",
+        "title:simplifyagreedistilllabelfreeselfdistillationwithsteppingstones",
+        "url:https://arxiv.org/abs/2611.18916",
+        "url:https://doi.org/10.48550/arxiv.2611.18916"
+      ]
+    },
+    {
+      "id": "arxiv:2611.07722",
+      "type": "paper",
+      "title": "Reinforcing What the Student Has Learned: Teacher-Guided On-Policy Distillation",
+      "method": "SD-OPD",
+      "published": "2026-11-05",
+      "arxiv_id": "2611.07722",
+      "doi": "10.48550/arXiv.2611.07722",
+      "url": "https://arxiv.org/abs/2611.07722",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.07722",
+        "https://doi.org/10.48550/arXiv.2611.07722"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.07722v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07722v2",
+      "read_version": "v2",
+      "source_pdf_sha256": "962b9cebde085056145383f1092bbff4a763cd3b29fd7093bbc4e69358062d51",
+      "publication_evidence_snapshot_sha256": "1e21150e072e70ee9996c398aff746ff83e350b6b84de8b1e7162a5cf8a89389",
+      "code_url": "https://github.com/aim-uofa/sd-opd",
+      "code_status": "Official public repository linked by paper; pinned core loss, scoring and launcher files statically inspected; no GPU training run",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified in targeted search on 2026-11-20",
+      "figures": [
+        {
+          "file": "assets/sd-fig1.png",
+          "arxiv_id": "2611.07722",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.055,
+            0.075,
+            0.95,
+            0.375
+          ],
+          "sha256": "9484b0eb3cf34f027884a1da9e2c3aa5278ec95266c35a2588f2ef91fd57b439",
+          "source_url": "https://arxiv.org/pdf/2611.07722v2"
+        },
+        {
+          "file": "assets/sd-fig2.png",
+          "arxiv_id": "2611.07722",
+          "page": 3,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.055,
+            0.075,
+            0.95,
+            0.315
+          ],
+          "sha256": "48c65a86d34e8d0cdbcf29104f47a48cee1371f134d079ea5b829f7809461b79",
+          "source_url": "https://arxiv.org/pdf/2611.07722v2"
+        },
+        {
+          "file": "assets/sd-table1.png",
+          "arxiv_id": "2611.07722",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.055,
+            0.075,
+            0.95,
+            0.65
+          ],
+          "sha256": "fa34859b818abbdb0e7779eee07f2eb37ecabcf52fb6187280d9cc3e112211a2",
+          "source_url": "https://arxiv.org/pdf/2611.07722v2"
+        },
+        {
+          "file": "assets/sd-table2.png",
+          "arxiv_id": "2611.07722",
+          "page": 7,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.055,
+            0.075,
+            0.95,
+            0.2
+          ],
+          "sha256": "62d5d30053c4f4ebd4316ba4f5d46a898e376616e0f8d0e16043f8e3d6a9a7e3",
+          "source_url": "https://arxiv.org/pdf/2611.07722v2"
+        }
+      ],
+      "updated": "2026-11-06",
+      "code_commit": "ae19768776759d3788c4c5a65d5562f2b0929eba",
+      "code_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/aim-uofa/sd-opd/blob/ae19768776759d3788c4c5a65d5562f2b0929eba/README.md",
+          "sha256": "23d96ceeacbd68ef4c6ae7eea2c1d489cd18cf9c74490fdc96fd7a9ff8dc9b64"
+        },
+        {
+          "path": "train/sd_opd/run_sd_opd.sh",
+          "url": "https://github.com/aim-uofa/sd-opd/blob/ae19768776759d3788c4c5a65d5562f2b0929eba/train/sd_opd/run_sd_opd.sh",
+          "sha256": "fe95d00be8353bbe67dd5d7c8a17008d81e111df4b4bf2de2d734fdf61066d28"
+        },
+        {
+          "path": "train/run_opd.sh",
+          "url": "https://github.com/aim-uofa/sd-opd/blob/ae19768776759d3788c4c5a65d5562f2b0929eba/train/run_opd.sh",
+          "sha256": "8bad8c610d9f72480d78bf7d89b4e073a463675cc9d806aa0d3558f6d18eae61"
+        },
+        {
+          "path": "train/config.sh",
+          "url": "https://github.com/aim-uofa/sd-opd/blob/ae19768776759d3788c4c5a65d5562f2b0929eba/train/config.sh",
+          "sha256": "8a173a94a97cc18257f8e70e6cb9b9542d522182c168abc84c96c5dfa94d205b"
+        },
+        {
+          "path": "slime/slime/utils/student_base_delta.py",
+          "url": "https://github.com/aim-uofa/sd-opd/blob/ae19768776759d3788c4c5a65d5562f2b0929eba/slime/slime/utils/student_base_delta.py",
+          "sha256": "2cfe4ee8bc50ba36102a1d8bc618a2f7dc0bbe5ce7a5514fb06eec196ca404d5"
+        },
+        {
+          "path": "slime/slime/utils/distillation_scoring.py",
+          "url": "https://github.com/aim-uofa/sd-opd/blob/ae19768776759d3788c4c5a65d5562f2b0929eba/slime/slime/utils/distillation_scoring.py",
+          "sha256": "87d7a657dc9fa71525b16c8dfb172a9f6e8b70f25f5ede7c71c0e7c66ab7ec06"
+        },
+        {
+          "path": "slime/slime/backends/megatron_utils/student_base_delta.py",
+          "url": "https://github.com/aim-uofa/sd-opd/blob/ae19768776759d3788c4c5a65d5562f2b0929eba/slime/slime/backends/megatron_utils/student_base_delta.py",
+          "sha256": "637a55c42ce667e6debdd2e95961e00e233bcd228fee538195a575f4fae4de91"
+        }
+      ],
+      "reproducibility_findings": [
+        "Official launcher selects direct/current mode rather than utility default boost mode",
+        "Top-1024 centering uses full-vocabulary probabilities without head renormalization and forces sampled token into support",
+        "Qwen baseline/SD clipping differs; MiMo uses shared 151665-ID vocabulary with all methods dual-clipped",
+        "Training seed 11; final checkpoints evaluated; no complete measured GPU-hour or memory budget in paper"
+      ],
+      "folder": "OPSD/2026-11-20",
+      "aliases": [
+        "arxiv:2611.07722",
+        "doi:10.48550/arxiv.2611.07722",
+        "id:arxiv:2611.07722",
+        "title:reinforcingwhatthestudenthaslearnedteacherguidedonpolicydistillation",
+        "url:https://arxiv.org/abs/2611.07722",
+        "url:https://doi.org/10.48550/arxiv.2611.07722"
+      ]
+    },
+    {
+      "id": "arxiv:2611.02112",
+      "type": "paper",
+      "title": "Order-Only On-Policy Distillation",
+      "method": "O3PD",
+      "published": "2026-11-01",
+      "arxiv_id": "2611.02112",
+      "doi": "10.48550/arXiv.2611.02112",
+      "url": "https://arxiv.org/abs/2611.02112",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.02112",
+        "https://doi.org/10.48550/arXiv.2611.02112"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.02112v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02112v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "c85571ebd2b2d420f29b333393f2b37f3a634d52fdef8c97b8f20276c60b336a",
+      "publication_evidence_snapshot_sha256": "67b4bf284fb7f2e15a948c0cf8d8117fc667c3910fe3ce85a071390fa14dca9b",
+      "code_url": null,
+      "code_status": "No dedicated first-party method code verified in original PDF annotations, arXiv/project links and targeted exact-title searches on 2026-11-20; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified in targeted search on 2026-11-20",
+      "figures": [
+        {
+          "file": "assets/order-fig2.png",
+          "arxiv_id": "2611.02112",
+          "page": 4,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.165,
+            0.1,
+            0.84,
+            0.34
+          ],
+          "sha256": "5e30831252a30261b6ebe6ba3448344c673fee502dbd46223e4884472f9eb6bd",
+          "source_url": "https://arxiv.org/pdf/2611.02112v1"
+        },
+        {
+          "file": "assets/order-table3.png",
+          "arxiv_id": "2611.02112",
+          "page": 7,
+          "paper_figure": "Table 3",
+          "crop_box_normalized": [
+            0.17,
+            0.11,
+            0.84,
+            0.497
+          ],
+          "sha256": "77145a8d570d8eeec8a5bbceee8f7e698b95424ed097d8faad4bbea1d1fc96e6",
+          "source_url": "https://arxiv.org/pdf/2611.02112v1"
+        },
+        {
+          "file": "assets/order-table4.png",
+          "arxiv_id": "2611.02112",
+          "page": 8,
+          "paper_figure": "Table 4",
+          "crop_box_normalized": [
+            0.17,
+            0.305,
+            0.55,
+            0.52
+          ],
+          "sha256": "c72dc62c9333d3e818b7ea8ac9fe8dd44a5a6d20aafbf2592cd62145aae64ab2",
+          "source_url": "https://arxiv.org/pdf/2611.02112v1"
+        },
+        {
+          "file": "assets/order-fig5.png",
+          "arxiv_id": "2611.02112",
+          "page": 9,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.17,
+            0.1,
+            0.84,
+            0.305
+          ],
+          "sha256": "aa6cdd94103236310c30b61af47bc61b2c6c06cc3efae7044dddc45df30a731e",
+          "source_url": "https://arxiv.org/pdf/2611.02112v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-20",
+      "aliases": [
+        "arxiv:2611.02112",
+        "doi:10.48550/arxiv.2611.02112",
+        "id:arxiv:2611.02112",
+        "title:orderonlyonpolicydistillation",
+        "url:https://arxiv.org/abs/2611.02112",
+        "url:https://doi.org/10.48550/arxiv.2611.02112"
+      ]
+    },
+    {
       "id": "arxiv:2611.21020",
       "type": "paper",
       "title": "SWE-OPD: On-Policy Distillation for Agentic Coding",
@@ -4511,6 +5058,36 @@
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
     "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2611.23673": "OPSD/2026-11-20",
+    "doi:10.48550/arxiv.2611.23673": "OPSD/2026-11-20",
+    "id:arxiv:2611.23673": "OPSD/2026-11-20",
+    "title:communicativeonpolicydistillationdistillingblackboxteachercapabilitiesthroughcommunicationforlonghorizontasks": "OPSD/2026-11-20",
+    "url:https://arxiv.org/abs/2611.23673": "OPSD/2026-11-20",
+    "url:https://doi.org/10.48550/arxiv.2611.23673": "OPSD/2026-11-20",
+    "arxiv:2611.19273": "OPSD/2026-11-20",
+    "doi:10.48550/arxiv.2611.19273": "OPSD/2026-11-20",
+    "id:arxiv:2611.19273": "OPSD/2026-11-20",
+    "title:bopsdonpolicyselfdistillationwithselfgeneratedproblembriefs": "OPSD/2026-11-20",
+    "url:https://arxiv.org/abs/2611.19273": "OPSD/2026-11-20",
+    "url:https://doi.org/10.48550/arxiv.2611.19273": "OPSD/2026-11-20",
+    "arxiv:2611.18916": "OPSD/2026-11-20",
+    "doi:10.48550/arxiv.2611.18916": "OPSD/2026-11-20",
+    "id:arxiv:2611.18916": "OPSD/2026-11-20",
+    "title:simplifyagreedistilllabelfreeselfdistillationwithsteppingstones": "OPSD/2026-11-20",
+    "url:https://arxiv.org/abs/2611.18916": "OPSD/2026-11-20",
+    "url:https://doi.org/10.48550/arxiv.2611.18916": "OPSD/2026-11-20",
+    "arxiv:2611.07722": "OPSD/2026-11-20",
+    "doi:10.48550/arxiv.2611.07722": "OPSD/2026-11-20",
+    "id:arxiv:2611.07722": "OPSD/2026-11-20",
+    "title:reinforcingwhatthestudenthaslearnedteacherguidedonpolicydistillation": "OPSD/2026-11-20",
+    "url:https://arxiv.org/abs/2611.07722": "OPSD/2026-11-20",
+    "url:https://doi.org/10.48550/arxiv.2611.07722": "OPSD/2026-11-20",
+    "arxiv:2611.02112": "OPSD/2026-11-20",
+    "doi:10.48550/arxiv.2611.02112": "OPSD/2026-11-20",
+    "id:arxiv:2611.02112": "OPSD/2026-11-20",
+    "title:orderonlyonpolicydistillation": "OPSD/2026-11-20",
+    "url:https://arxiv.org/abs/2611.02112": "OPSD/2026-11-20",
+    "url:https://doi.org/10.48550/arxiv.2611.02112": "OPSD/2026-11-20",
     "arxiv:2611.21020": "OPSD/2026-11-19",
     "doi:10.48550/arxiv.2611.21020": "OPSD/2026-11-19",
     "id:arxiv:2611.21020": "OPSD/2026-11-19",
