@@ -1,0 +1,1028 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "direction": "CCF_Papers",
+  "topic": "RL计算扩展、自适应采样、凸优化投机解码、正确推理与检索奖励训练",
+  "selection_year": 2026,
+  "selection_basis": "acceptance_year",
+  "window_start": "2026-01-01",
+  "window_end": "2026-12-31",
+  "window_semantics": "Acceptance/venue year; no one-month preprint restriction. Official evidence available on run date.",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "composition": {
+    "CCF_A": 4,
+    "CCF_B": 1,
+    "oral": 3,
+    "poster": 2,
+    "spotlight": 0,
+    "unknown": 0
+  },
+  "composition_shortfall_reason": null,
+  "sources": [
+    {
+      "id": "arxiv:2510.13786",
+      "type": "paper",
+      "key": "scale",
+      "title": "The Art of Scaling Reinforcement Learning Compute for LLMs",
+      "title_aliases": [],
+      "authors": [
+        "Devvrit Khatri",
+        "Lovish Madaan",
+        "Tiwari, Rishabh",
+        "Bansal, Rachit",
+        "Sai Surya Duvvuri",
+        "Manzil Zaheer",
+        "Inderjit S. Dhillon",
+        "David Brandfonbrener",
+        "Rishabh Agarwal"
+      ],
+      "published": "2025-10-15",
+      "url": "https://arxiv.org/abs/2510.13786",
+      "arxiv_id": "2510.13786",
+      "doi": "10.48550/arXiv.2510.13786",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2510.13786",
+        "https://doi.org/10.48550/arXiv.2510.13786",
+        "https://iclr.cc/virtual/2026/oral/10010608",
+        "https://openreview.net/forum?id=FMjeC9Msws"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2510.13786",
+      "pdf_url": "https://arxiv.org/pdf/2510.13786v1",
+      "pdf_version": "v1",
+      "pdf_version_date": "2025-10-15",
+      "source_pdf_pages": 28,
+      "source_pdf_sha256": "ddb5eb8f43fa3b3dbb0f7fa14cdf16eb170cee919c0713c7e38aabfa7647c441",
+      "code_url": "https://github.com/devvrit/ScaleRL-Curve-Fitting",
+      "code_availability": {
+        "status": "curve_fitting_only",
+        "verified_on": "2026-11-20",
+        "commit": "ff2c8afa3074243dd0260c2ee011a71ad0fa6759",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Only curve fitting code/data; full RL trainer not present.",
+          "Grid ranges and first-observed-performance offset in current fitting code differ from the broader paper description.",
+          "Author project returned only a redirect page; repository was readable."
+        ]
+      },
+      "project_or_author_blog_url": "https://www.devvrit.com/scalerl_curve_fitting",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10010608",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "ICLR Oral The Art of Scaling Reinforcement Learning Compute for LLMs",
+          "snapshot_sha256": "e1c2b96d206b39de84ddbacc6cf4d58a91f3df02425fee61ad5171e4f25ab879"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10010608",
+          "label": "oral",
+          "checked_on": "2026-11-20"
+        }
+      },
+      "citation_count": {
+        "value": 115,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4415277433",
+        "queried_at": "2026-11-20",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-19T14:11:59.513116",
+        "raw_record": "assets/citation-records/scale-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "scale-fig3.png",
+          "paper": "scale",
+          "figure": "fig3",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            69,
+            56,
+            546,
+            263
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.13786v1",
+          "pdf_sha256": "ddb5eb8f43fa3b3dbb0f7fa14cdf16eb170cee919c0713c7e38aabfa7647c441",
+          "sha256": "1f108b630be3e3f3a8f9e0479b59864d2e798aed01de9f824cb5ba5ca5dbc246",
+          "pixels": [
+            1431,
+            621
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "scale-fig1.png",
+          "paper": "scale",
+          "figure": "fig1",
+          "physical_pdf_page": 1,
+          "crop_points_from_top_left": [
+            69,
+            425,
+            546,
+            714
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.13786v1",
+          "pdf_sha256": "ddb5eb8f43fa3b3dbb0f7fa14cdf16eb170cee919c0713c7e38aabfa7647c441",
+          "sha256": "0a68dbfd31cfb250e9b9ff66020ff62ba7bf838f598e8a788daeabbd228500e9",
+          "pixels": [
+            1431,
+            867
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "scale-fig2.png",
+          "paper": "scale",
+          "figure": "fig2",
+          "physical_pdf_page": 3,
+          "crop_points_from_top_left": [
+            69,
+            60,
+            546,
+            341
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.13786v1",
+          "pdf_sha256": "ddb5eb8f43fa3b3dbb0f7fa14cdf16eb170cee919c0713c7e38aabfa7647c441",
+          "sha256": "5bc7775fdb082a87c6a62bb2474b2374d1c5f7ba535332bdab05f399ff9e4dd0",
+          "pixels": [
+            1431,
+            843
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "scale-fig7.png",
+          "paper": "scale",
+          "figure": "fig7",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            69,
+            60,
+            546,
+            290
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.13786v1",
+          "pdf_sha256": "ddb5eb8f43fa3b3dbb0f7fa14cdf16eb170cee919c0713c7e38aabfa7647c441",
+          "sha256": "ac7dc13851e2d2001e1e8bcacaec4cea80e825c6be2bf93ff85336626da48a41",
+          "pixels": [
+            1431,
+            690
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 28-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false
+    },
+    {
+      "id": "arxiv:2509.23234",
+      "type": "paper",
+      "key": "pless",
+      "title": "p-less Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding",
+      "title_aliases": [],
+      "authors": [
+        "Tan, Runyan",
+        "Shuang Wu",
+        "Phillip Howard"
+      ],
+      "published": "2025-09-27",
+      "url": "https://arxiv.org/abs/2509.23234",
+      "arxiv_id": "2509.23234",
+      "doi": "10.48550/arXiv.2509.23234",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2509.23234",
+        "https://doi.org/10.48550/arXiv.2509.23234",
+        "https://iclr.cc/virtual/2026/oral/10010258",
+        "https://openreview.net/forum?id=ItFuNJQGH4"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2509.23234",
+      "pdf_url": "https://arxiv.org/pdf/2509.23234v6",
+      "pdf_version": "v6",
+      "pdf_version_date": "2026-02-27",
+      "source_pdf_pages": 44,
+      "source_pdf_sha256": "35ec1d607cee03eb2112954b4ee8e5b99cca6d4533cb210ced72b359001d00b2",
+      "code_url": "https://github.com/ryttry/p-less",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-20",
+        "commit": "a681f23682a329099306eea9cf7b1dd0447e2eec",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Sampler code available; input probabilities modified in place.",
+          "No new model training; full benchmark pipeline not asserted reproduced."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10010258",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "ICLR Oral $p\\textrm{-less}$ Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding",
+          "snapshot_sha256": "4e0141f4de6b4df25f17bbc94f258a3043edfc0172818906a0f9afb2d67c8d61"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10010258",
+          "label": "oral",
+          "checked_on": "2026-11-20"
+        }
+      },
+      "citation_count": {
+        "value": 3,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4415332241",
+        "queried_at": "2026-11-20",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-19T14:11:59.513116",
+        "raw_record": "assets/citation-records/pless-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "pless-fig1.png",
+          "paper": "pless",
+          "figure": "fig1",
+          "physical_pdf_page": 2,
+          "crop_points_from_top_left": [
+            106,
+            83,
+            506,
+            260
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2509.23234v6",
+          "pdf_sha256": "35ec1d607cee03eb2112954b4ee8e5b99cca6d4533cb210ced72b359001d00b2",
+          "sha256": "7e7361468ac6d84ae2d05603fae983e06858b11c780d04443c80fc72b146e46b",
+          "pixels": [
+            1200,
+            531
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "pless-table1-fig2.png",
+          "paper": "pless",
+          "figure": "table1-fig2",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            79,
+            506,
+            369
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2509.23234v6",
+          "pdf_sha256": "35ec1d607cee03eb2112954b4ee8e5b99cca6d4533cb210ced72b359001d00b2",
+          "sha256": "234cc015d46e3a15ccd91c433e84a6ae61582abd21ab71ca67b976fb53d78273",
+          "pixels": [
+            1200,
+            870
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "pless-table3.png",
+          "paper": "pless",
+          "figure": "table3",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            142,
+            663,
+            466,
+            719
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2509.23234v6",
+          "pdf_sha256": "35ec1d607cee03eb2112954b4ee8e5b99cca6d4533cb210ced72b359001d00b2",
+          "sha256": "0d7c8169755c65bef065e777c26891e3e4841e56a102574638c3a0a3dbf2a7da",
+          "pixels": [
+            972,
+            168
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 44-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false
+    },
+    {
+      "id": "arxiv:2511.15898",
+      "type": "paper",
+      "key": "global",
+      "title": "Global Resolution: Optimal Multi-Draft Speculative Sampling via Convex Optimization",
+      "title_aliases": [
+        "Global Resolution: Optimal Multi-Draft Speculative Sampling via Convex Minimization"
+      ],
+      "authors": [
+        "Rahul Krishna Thomas",
+        "Pal, Arka"
+      ],
+      "published": "2025-11-19",
+      "url": "https://arxiv.org/abs/2511.15898",
+      "arxiv_id": "2511.15898",
+      "doi": "10.48550/arXiv.2511.15898",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2511.15898",
+        "https://doi.org/10.48550/arXiv.2511.15898",
+        "https://iclr.cc/virtual/2026/oral/10008116",
+        "https://openreview.net/forum?id=gpsczXOsHn"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2511.15898",
+      "pdf_url": "https://arxiv.org/pdf/2511.15898v1",
+      "pdf_version": "v1",
+      "pdf_version_date": "2025-11-19",
+      "source_pdf_pages": 34,
+      "source_pdf_sha256": "d6144c28e5ccf1883c23e88ebc057c8526f0f1bb70d22e491f5c6c3dec0c340d",
+      "code_url": null,
+      "code_availability": {
+        "status": "not_found",
+        "verified_on": "2026-11-20",
+        "commit": null,
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "No author implementation found in full PDF, official conference/OpenReview links or targeted author-site search.",
+          "Appendix algorithms read; report pseudocode is explanatory reconstruction, not executed author code."
+        ]
+      },
+      "project_or_author_blog_url": "https://www.ritual.net/",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008116",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "ICLR Oral Global Resolution: Optimal Multi-Draft Speculative Sampling via Convex Optimization",
+          "snapshot_sha256": "8f8fb2068417ebc18e61ef17610804c1fe8760ae7da302e877e23892ecbb44fc"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008116",
+          "label": "oral",
+          "checked_on": "2026-11-20"
+        }
+      },
+      "citation_count": {
+        "value": 3,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4416550118",
+        "queried_at": "2026-11-20",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-19T14:11:59.513116",
+        "raw_record": "assets/citation-records/global-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "global-algorithm1.png",
+          "paper": "global",
+          "figure": "algorithm1",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            106,
+            82,
+            506,
+            235
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2511.15898v1",
+          "pdf_sha256": "d6144c28e5ccf1883c23e88ebc057c8526f0f1bb70d22e491f5c6c3dec0c340d",
+          "sha256": "7de0c774df127e16589960e57d715d58602cef4e619b022c34613c296154466e",
+          "pixels": [
+            1200,
+            459
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "global-fig1-table1.png",
+          "paper": "global",
+          "figure": "fig1-table1",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            260,
+            506,
+            662
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2511.15898v1",
+          "pdf_sha256": "d6144c28e5ccf1883c23e88ebc057c8526f0f1bb70d22e491f5c6c3dec0c340d",
+          "sha256": "a0d728ffff8ddb44f4f344a726f6eb6d6c75a5a66ba6d8a48f1966e8dff8565f",
+          "pixels": [
+            1200,
+            1206
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "global-table2.png",
+          "paper": "global",
+          "figure": "table2",
+          "physical_pdf_page": 10,
+          "crop_points_from_top_left": [
+            106,
+            269,
+            506,
+            397
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2511.15898v1",
+          "pdf_sha256": "d6144c28e5ccf1883c23e88ebc057c8526f0f1bb70d22e491f5c6c3dec0c340d",
+          "sha256": "a0d3cec173a567e5ba757da10f3bab826eb626761d0ac10a1d57394084721356",
+          "pixels": [
+            1200,
+            384
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "global-table4.png",
+          "paper": "global",
+          "figure": "table4",
+          "physical_pdf_page": 32,
+          "crop_points_from_top_left": [
+            106,
+            201,
+            506,
+            310
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2511.15898v1",
+          "pdf_sha256": "d6144c28e5ccf1883c23e88ebc057c8526f0f1bb70d22e491f5c6c3dec0c340d",
+          "sha256": "568910f4535be16e5acb9e149a49f3f23057dd9ddf64d9a869f334a82955710b",
+          "pixels": [
+            1200,
+            327
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 34-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false,
+      "identity_note": "Official title uses Convex Optimization; arXiv v1 uses Convex Minimization. Same authors, arXiv identity and method; manually merged, not two papers."
+    },
+    {
+      "id": "arxiv:2506.14245",
+      "type": "paper",
+      "key": "rlvr",
+      "title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+      "title_aliases": [],
+      "authors": [
+        "Xumeng Wen",
+        "Zihan Liu",
+        "Shun Zheng",
+        "Shengyu Ye",
+        "Zhirong Wu",
+        "Yang Wang",
+        "Zhijian Xu",
+        "Liang, Xiao",
+        "Junjie Li",
+        "Ziming Miao",
+        "Jiang Bian",
+        "Mao Yang"
+      ],
+      "published": "2025-06-17",
+      "url": "https://arxiv.org/abs/2506.14245",
+      "arxiv_id": "2506.14245",
+      "doi": "10.48550/arXiv.2506.14245",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2506.14245",
+        "https://doi.org/10.48550/arXiv.2506.14245",
+        "https://iclr.cc/virtual/2026/poster/10007896",
+        "https://openreview.net/forum?id=jGbRWwIidy",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2506.14245",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/517f9b9c227b9dd51dba4560f37165ed-Paper-Conference.pdf",
+      "pdf_version": "ICLR 2026 camera-ready",
+      "pdf_version_date": null,
+      "source_pdf_pages": 34,
+      "source_pdf_sha256": "8a8413de5c837e5df6febd84dc5a4116b20a2fab6c6ce68a69b9927eeb79ddf7",
+      "code_url": null,
+      "code_availability": {
+        "status": "not_found",
+        "verified_on": "2026-11-20",
+        "commit": null,
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Official AIME24/25 rollout and verification dataset available; own end-to-end training/evaluation code not found.",
+          "Upstream VERL/DAPO not mislabeled as this paper implementation."
+        ]
+      },
+      "project_or_author_blog_url": "https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10007896",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "ICLR Poster Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+          "snapshot_sha256": "47a6b1e55c9c53d3093e46f060c1394bceb98acbe4b07ab01b9828b20e8902fd"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10007896",
+          "label": "poster",
+          "checked_on": "2026-11-20"
+        }
+      },
+      "citation_count": {
+        "value": 326,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4415311663",
+        "queried_at": "2026-11-20",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-19T14:11:59.513116",
+        "raw_record": "assets/citation-records/rlvr-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "rlvr-fig1.png",
+          "paper": "rlvr",
+          "figure": "fig1",
+          "physical_pdf_page": 2,
+          "crop_points_from_top_left": [
+            106,
+            81,
+            506,
+            407
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/517f9b9c227b9dd51dba4560f37165ed-Paper-Conference.pdf",
+          "pdf_sha256": "8a8413de5c837e5df6febd84dc5a4116b20a2fab6c6ce68a69b9927eeb79ddf7",
+          "sha256": "afb33d343fe31c445bf502f6e7cab19f12f44b870f282d0c381205c940a9503f",
+          "pixels": [
+            1200,
+            978
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "rlvr-fig2.png",
+          "paper": "rlvr",
+          "figure": "fig2",
+          "physical_pdf_page": 4,
+          "crop_points_from_top_left": [
+            106,
+            79,
+            506,
+            280
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/517f9b9c227b9dd51dba4560f37165ed-Paper-Conference.pdf",
+          "pdf_sha256": "8a8413de5c837e5df6febd84dc5a4116b20a2fab6c6ce68a69b9927eeb79ddf7",
+          "sha256": "59db82a92eeed1b3c9a76f3cc5c1b995409d0c582a4d37386ab54898eedf1459",
+          "pixels": [
+            1200,
+            603
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "rlvr-fig6.png",
+          "paper": "rlvr",
+          "figure": "fig6",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            84,
+            506,
+            368
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/517f9b9c227b9dd51dba4560f37165ed-Paper-Conference.pdf",
+          "pdf_sha256": "8a8413de5c837e5df6febd84dc5a4116b20a2fab6c6ce68a69b9927eeb79ddf7",
+          "sha256": "940e1d8e0eb99c03377f5d3b1f8881cc63d46e1aac40f9f0a76601cc84b34ad9",
+          "pixels": [
+            1200,
+            852
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "rlvr-fig11.png",
+          "paper": "rlvr",
+          "figure": "fig11",
+          "physical_pdf_page": 31,
+          "crop_points_from_top_left": [
+            106,
+            78,
+            506,
+            270
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/517f9b9c227b9dd51dba4560f37165ed-Paper-Conference.pdf",
+          "pdf_sha256": "8a8413de5c837e5df6febd84dc5a4116b20a2fab6c6ce68a69b9927eeb79ddf7",
+          "sha256": "5456ae19c85a6600b8dcd4942413698004e06a1fb41759a58c72913a88af2a89",
+          "pixels": [
+            1200,
+            576
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 34-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false,
+      "dataset_url": "https://huggingface.co/datasets/XumengWen/AIME24-25_CoT_Verification",
+      "preprint_latest_version": "v2, 2025-10-02; report uses 34-page ICLR camera-ready including extended verification appendix"
+    },
+    {
+      "id": "arxiv:2606.10621",
+      "type": "paper",
+      "key": "storm",
+      "title": "STORM: Stepwise Token Optimization with Reward-Guided Beam Search",
+      "title_aliases": [],
+      "authors": [
+        "Arthur Satouf",
+        "Giulio D'Erasmo",
+        "Yuxuan Zong",
+        "Habiboulaye Amadou Boubacar",
+        "Pablo Piantanida",
+        "Benjamin Piwowarski"
+      ],
+      "published": "2026-06-09",
+      "url": "https://arxiv.org/abs/2606.10621",
+      "arxiv_id": "2606.10621",
+      "doi": "10.18653/2026.emnlp-main.2149",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2606.10621",
+        "https://doi.org/10.18653/2026.emnlp-main.2149",
+        "https://aclanthology.org/2026.emnlp-main.2149/",
+        "https://doi.org/10.48550/arXiv.2606.10621"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2606.10621",
+      "pdf_url": "https://aclanthology.org/2026.emnlp-main.2149.pdf",
+      "pdf_version": "ACL camera-ready",
+      "pdf_version_date": null,
+      "source_pdf_pages": 16,
+      "source_pdf_sha256": "3acbdbf2421df0d10a0886affa46fed8f71c8b10469f0a4c85b73c2cf66ef780",
+      "code_url": "https://github.com/arthur-75/storm",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-20",
+        "commit": "dff13214c16c30cde5352599d07b7c870ab772db",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Static key-path reading only; modified Transformers generation code not installed or executed.",
+          "token_loss=true uses mean token log probability in importance weights rather than full sequence log probability.",
+          "Proposal denominator adds (1-epsilon)/K to all samples; paper best-beam membership/point-mass proposal differs.",
+          "Classic generation hardcodes top_p=0.95; beam configuration uses 0.9.",
+          "Published config uses generation batch 16 x accumulation 16; paper says 32 x 8. Both effective 256 but not identical local statistics."
+        ]
+      },
+      "project_or_author_blog_url": "https://huggingface.co/collections/Arthur-75/storm",
+      "venue": "EMNLP",
+      "acceptance_year": 2026,
+      "ccf_rank": "B",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+          "physical_pdf_page": 58,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://aclanthology.org/2026.emnlp-main.2149/",
+          "venue": "EMNLP",
+          "year": 2026,
+          "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+          "page_title": "STORM: Stepwise Token Optimization with Reward-Guided Beam Search - ACL Anthology",
+          "snapshot_sha256": "9d4f6e008fc5c6229c36c9ad26661fdf127d977cf644079d0f834aacfe96f26e"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+          "label": "poster",
+          "checked_on": "2026-11-20",
+          "program_url": "https://2026.emnlp.org/program/",
+          "paper_id": "6802-MAIN",
+          "mode": "In-Person",
+          "session": "Poster Session A",
+          "date": "2026-10-25",
+          "time": "11:00-12:30",
+          "room": "Hall H",
+          "poster_board": "301",
+          "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+        }
+      },
+      "citation_count": {
+        "value": 0,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7164131871",
+        "queried_at": "2026-11-20",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-17T12:49:18.490984",
+        "raw_record": "assets/citation-records/storm-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null,
+        "record_note": "Merged ACL record, first preprint date taken from arXiv history rather than index publication_date."
+      },
+      "figures": [
+        {
+          "file": "storm-fig1.png",
+          "paper": "storm",
+          "figure": "fig1",
+          "physical_pdf_page": 3,
+          "crop_points_from_top_left": [
+            69,
+            430,
+            294,
+            673
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2149.pdf",
+          "pdf_sha256": "3acbdbf2421df0d10a0886affa46fed8f71c8b10469f0a4c85b73c2cf66ef780",
+          "sha256": "24a7e80693d1f16e0fd999b841231ae3ad90168cffeec151449c5aea5205f522",
+          "pixels": [
+            675,
+            729
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "storm-table1.png",
+          "paper": "storm",
+          "figure": "table1",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            69,
+            66,
+            529,
+            423
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2149.pdf",
+          "pdf_sha256": "3acbdbf2421df0d10a0886affa46fed8f71c8b10469f0a4c85b73c2cf66ef780",
+          "sha256": "4fa661cfe603bc91909ae2b96284032a6827c349f9c84e03a831eda0f7b34614",
+          "pixels": [
+            1380,
+            1071
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "storm-fig2.png",
+          "paper": "storm",
+          "figure": "fig2",
+          "physical_pdf_page": 12,
+          "crop_points_from_top_left": [
+            70,
+            70,
+            528,
+            396
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2149.pdf",
+          "pdf_sha256": "3acbdbf2421df0d10a0886affa46fed8f71c8b10469f0a4c85b73c2cf66ef780",
+          "sha256": "6c4f2a52b79d73dd1133a69079447423e88f73a30145986a2a334e3bd46a94ba",
+          "pixels": [
+            1374,
+            978
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        },
+        {
+          "file": "storm-table5.png",
+          "paper": "storm",
+          "figure": "table5",
+          "physical_pdf_page": 13,
+          "crop_points_from_top_left": [
+            70,
+            94,
+            528,
+            392
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2149.pdf",
+          "pdf_sha256": "3acbdbf2421df0d10a0886affa46fed8f71c8b10469f0a4c85b73c2cf66ef780",
+          "sha256": "88bc80d83a952395002b2f68299c26d30a9c3b8d4e8bafb5fef57ae4eb237bc5",
+          "pixels": [
+            1374,
+            894
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing."
+        }
+      ],
+      "read_scope": "Entire 16-page PDF including appendices; key code paths separately recorded",
+      "reproduction_executed": false,
+      "proceedings_pages": "48856-48871",
+      "preprint_latest_version": "v2, 2026-08-26; report uses ACL camera-ready"
+    }
+  ],
+  "auxiliary_sources": [
+    {
+      "title": "D2L Probability",
+      "url": "https://d2l.ai/chapter_preliminaries/probability.html",
+      "role": "beginner/intermediate background, not counted as selected paper",
+      "accessed": "2026-11-20"
+    },
+    {
+      "title": "D2L Language Models",
+      "url": "https://d2l.ai/chapter_recurrent-neural-networks/language-model.html",
+      "role": "beginner/intermediate background, not counted as selected paper",
+      "accessed": "2026-11-20"
+    },
+    {
+      "title": "Convex Optimization textbook",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/",
+      "role": "beginner/intermediate background, not counted as selected paper",
+      "accessed": "2026-11-20"
+    },
+    {
+      "title": "Stanford Introduction to Information Retrieval",
+      "url": "https://nlp.stanford.edu/IR-book/",
+      "role": "beginner/intermediate background, not counted as selected paper",
+      "accessed": "2026-11-20",
+      "access_note": "URL supplied as textbook pointer; web fetch timed out during this run. Not used as evidence for paper claims."
+    }
+  ],
+  "search_log": [
+    {
+      "scope": "CCF final 2026 catalogue",
+      "result": "ICLR A page57; EMNLP B page58; both pages visually checked.",
+      "date": "2026-11-20"
+    },
+    {
+      "scope": "ICLR 2026 official program and individual entries",
+      "queries": [
+        "The Art of Scaling Reinforcement Learning Compute ICLR 2026 oral",
+        "p-less Sampling ICLR 2026 oral",
+        "Global Resolution ICLR 2026 oral",
+        "RLVR Implicitly Incentivizes Correct Reasoning ICLR 2026 poster"
+      ],
+      "result": "Three main-conference orals and one main-conference poster confirmed.",
+      "date": "2026-11-20"
+    },
+    {
+      "scope": "EMNLP 2026 main proceedings plus official-linked schedule CSV",
+      "result": "STORM 2026.emnlp-main.2149; 16-page full paper; row6802-MAIN Poster In-Person HallH board301.",
+      "date": "2026-11-20"
+    },
+    {
+      "scope": "OpenAlex works API",
+      "result": "Five title/author/DOI matched records; counts115,3,3,326,0; raw JSON preserved.",
+      "date": "2026-11-20"
+    },
+    {
+      "scope": "All directions and dates",
+      "result": "60 prior sources, 12 manifests; no alias conflict for five selected papers.",
+      "date": "2026-11-20"
+    },
+    {
+      "scope": "Full PDFs and official repositories",
+      "result": "Read28+44+34+34+16=156pages; 3repositories key paths read. ScaleRL only fitting code; Global Resolution and RLVR own implementations not found.",
+      "date": "2026-11-20"
+    },
+    {
+      "scope": "Ranking interpretation",
+      "result": "Topic/age-aware editorial selection with citation preference; not exhaustive global citation ranking. Exact4A1B3oral2poster achieved.",
+      "date": "2026-11-20"
+    }
+  ],
+  "exclusion_log": [
+    {
+      "id": "arxiv:2610.02140",
+      "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
+      "reason": "Already archived2026-11-18; mandatory only for first test, not recollected."
+    },
+    {
+      "scope": "All60 prior papers across VLM/OPSD/CCF",
+      "reason": "Cross-date/direction normalized identity deduplication."
+    },
+    {
+      "id": "arxiv:2505.22617",
+      "title": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models",
+      "reason": "Did not establish exact official presentation evidence in this search; not selected; no claim rejected by conference."
+    },
+    {
+      "id": "2026.findings-acl.206",
+      "title": "Entropy Scheduling in RL for LLMs",
+      "reason": "Findings entry, not treated as main-conference full paper."
+    },
+    {
+      "id": "2026.findings-acl.1266",
+      "title": "Revisiting Entropy (search candidate)",
+      "reason": "Findings scope excluded; shortened search label, not asserted exact full title."
+    },
+    {
+      "id": "6640-MAIN",
+      "title": "Entropy-Regularized Rank-Masked Policy (search candidate)",
+      "reason": "Other eligible B oral candidate not selected; STORM retained for B poster and retrieval relevance."
+    },
+    {
+      "id": "6742-MAIN",
+      "title": "PowerOPD",
+      "reason": "Official Virtual Pres label not reclassified as oral or poster; not selected."
+    }
+  ],
+  "source_reading": {
+    "full_papers_read": 5,
+    "source_pdf_pages_read": 156,
+    "original_figure_crops": 19,
+    "training_or_inference_experiments_run": false,
+    "code_reading": "assets/code-reading.json"
+  },
+  "pdf_quality_check": {
+    "status": "passed",
+    "pages": 25,
+    "markdown_visible_lines_checked": 266,
+    "missing_lines": 0,
+    "original_figures_embedded": 19,
+    "pixel_identical_original_images": 19,
+    "visual_review_pages": 25,
+    "font_missing_glyphs": 0,
+    "details": "assets/pdf-check.json",
+    "markdown_sha256": "af36a75aff168d4b24ee5837295f2533065337b24fbbfbeceecd99fcf7db9fe0",
+    "pdf_sha256": "ffa4871d9baef04c73df6840251b6e73537c34bd62ea49aa2218d6989fdc4e96"
+  },
+  "publication_environment": {
+    "kind": "authorized_local_checkout",
+    "branch": "main",
+    "remote": "git@github.com:daihuangyu/papers-daily.git",
+    "schedule_modified": false,
+    "base_commit": "87471bf39da6abbbe0a4ba819b1c81db606120f9"
+  }
+}

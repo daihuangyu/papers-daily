@@ -1,0 +1,146 @@
+[
+  {
+    "paper": "scale",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10010608",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "ICLR Oral The Art of Scaling Reinforcement Learning Compute for LLMs",
+      "snapshot_sha256": "e1c2b96d206b39de84ddbacc6cf4d58a91f3df02425fee61ad5171e4f25ab879"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10010608",
+      "label": "oral",
+      "checked_on": "2026-11-20"
+    }
+  },
+  {
+    "paper": "pless",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10010258",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "ICLR Oral $p\\textrm{-less}$ Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding",
+      "snapshot_sha256": "4e0141f4de6b4df25f17bbc94f258a3043edfc0172818906a0f9afb2d67c8d61"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10010258",
+      "label": "oral",
+      "checked_on": "2026-11-20"
+    }
+  },
+  {
+    "paper": "global",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10008116",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "ICLR Oral Global Resolution: Optimal Multi-Draft Speculative Sampling via Convex Optimization",
+      "snapshot_sha256": "8f8fb2068417ebc18e61ef17610804c1fe8760ae7da302e877e23892ecbb44fc"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10008116",
+      "label": "oral",
+      "checked_on": "2026-11-20"
+    }
+  },
+  {
+    "paper": "rlvr",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10007896",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "ICLR Poster Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+      "snapshot_sha256": "47a6b1e55c9c53d3093e46f060c1394bceb98acbe4b07ab01b9828b20e8902fd"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10007896",
+      "label": "poster",
+      "checked_on": "2026-11-20"
+    }
+  },
+  {
+    "paper": "storm",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released 2026-03-31, revised 2026-04-09",
+      "physical_pdf_page": 58,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://aclanthology.org/2026.emnlp-main.2149/",
+      "venue": "EMNLP",
+      "year": 2026,
+      "basis": "Official main-conference entry / proceedings plus full regular manuscript; not workshop, Findings, short or demo",
+      "page_title": "STORM: Stepwise Token Optimization with Reward-Guided Beam Search - ACL Anthology",
+      "snapshot_sha256": "9d4f6e008fc5c6229c36c9ad26661fdf127d977cf644079d0f834aacfe96f26e"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+      "label": "poster",
+      "checked_on": "2026-11-20",
+      "program_url": "https://2026.emnlp.org/program/",
+      "paper_id": "6802-MAIN",
+      "mode": "In-Person",
+      "session": "Poster Session A",
+      "date": "2026-10-25",
+      "time": "11:00-12:30",
+      "room": "Hall H",
+      "poster_board": "301",
+      "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+    }
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-20",
+  "history_sources": 60,
+  "history_manifests": 12,
+  "manifest_paths": [
+    "CCF_Papers/2026-11-18/manifest.json",
+    "CCF_Papers/2026-11-19/manifest.json",
+    "OPSD/2026-11-16/manifest.json",
+    "OPSD/2026-11-17/manifest.json",
+    "OPSD/2026-11-18/manifest.json",
+    "OPSD/2026-11-19/manifest.json",
+    "OPSD/2026-11-20/manifest.json",
+    "VLM/2026-11-16/manifest.json",
+    "VLM/2026-11-17/manifest.json",
+    "VLM/2026-11-18/manifest.json",
+    "VLM/2026-11-19/manifest.json",
+    "VLM/2026-11-20/manifest.json"
+  ],
+  "normalization": "arXiv version stripping; DOI; canonical URL; Unicode NFKC/case/punctuation title; title aliases",
+  "manual_identity_review": "Global Resolution Optimization/Minimization titles merged; STORM arXiv and ACL versions merged; first-test FWS already archived and excluded.",
+  "selected": [
+    {
+      "id": "arxiv:2510.13786",
+      "aliases": [
+        "arxiv:2510.13786",
+        "doi:10.48550/arxiv.2510.13786",
+        "id:arxiv:2510.13786",
+        "title:theartofscalingreinforcementlearningcomputeforllms",
+        "url:https://arxiv.org/abs/2510.13786",
+        "url:https://doi.org/10.48550/arxiv.2510.13786",
+        "url:https://iclr.cc/virtual/2026/oral/10010608",
+        "url:https://openreview.net/forum?id=FMjeC9Msws"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2509.23234",
+      "aliases": [
+        "arxiv:2509.23234",
+        "doi:10.48550/arxiv.2509.23234",
+        "id:arxiv:2509.23234",
+        "title:plesssamplingarobusthyperparameterfreeapproachforllmdecoding",
+        "url:https://arxiv.org/abs/2509.23234",
+        "url:https://doi.org/10.48550/arxiv.2509.23234",
+        "url:https://iclr.cc/virtual/2026/oral/10010258",
+        "url:https://openreview.net/forum?id=ItFuNJQGH4"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2511.15898",
+      "aliases": [
+        "arxiv:2511.15898",
+        "doi:10.48550/arxiv.2511.15898",
+        "id:arxiv:2511.15898",
+        "title:globalresolutionoptimalmultidraftspeculativesamplingviaconvexminimization",
+        "title:globalresolutionoptimalmultidraftspeculativesamplingviaconvexoptimization",
+        "url:https://arxiv.org/abs/2511.15898",
+        "url:https://doi.org/10.48550/arxiv.2511.15898",
+        "url:https://iclr.cc/virtual/2026/oral/10008116",
+        "url:https://openreview.net/forum?id=gpsczXOsHn"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2506.14245",
+      "aliases": [
+        "arxiv:2506.14245",
+        "doi:10.48550/arxiv.2506.14245",
+        "id:arxiv:2506.14245",
+        "title:reinforcementlearningwithverifiablerewardsimplicitlyincentivizescorrectreasoninginbasellms",
+        "url:https://arxiv.org/abs/2506.14245",
+        "url:https://doi.org/10.48550/arxiv.2506.14245",
+        "url:https://iclr.cc/virtual/2026/poster/10007896",
+        "url:https://openreview.net/forum?id=jGbRWwIidy",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2606.10621",
+      "aliases": [
+        "arxiv:2606.10621",
+        "doi:10.18653/2026.emnlp-main.2149",
+        "doi:10.48550/arxiv.2606.10621",
+        "id:arxiv:2606.10621",
+        "title:stormstepwisetokenoptimizationwithrewardguidedbeamsearch",
+        "url:https://aclanthology.org/2026.emnlp-main.2149",
+        "url:https://arxiv.org/abs/2606.10621",
+        "url:https://doi.org/10.18653/2026.emnlp-main.2149",
+        "url:https://doi.org/10.48550/arxiv.2606.10621"
+      ],
+      "conflicts": {}
+    }
+  ]
+}

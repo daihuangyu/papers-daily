@@ -1,0 +1,137 @@
+[
+  {
+    "paper": "scale",
+    "repository": "https://github.com/devvrit/ScaleRL-Curve-Fitting",
+    "commit": "ff2c8afa3074243dd0260c2ee011a71ad0fa6759",
+    "archive_root": "devvrit-ScaleRL-Curve-Fitting-ff2c8af",
+    "archive_sha256": "056fe624690a00c66531d5f51883c69285f826208ea906f7d0edca3562417ab0",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/devvrit/ScaleRL-Curve-Fitting/blob/ff2c8afa3074243dd0260c2ee011a71ad0fa6759/README.md",
+        "sha256": "347b2710913e69c92cc3b60fd88b711c6303973a8160fe552b19c02ed7c039d3"
+      },
+      {
+        "path": "fitting_curves.py",
+        "url": "https://github.com/devvrit/ScaleRL-Curve-Fitting/blob/ff2c8afa3074243dd0260c2ee011a71ad0fa6759/fitting_curves.py",
+        "sha256": "b373d58b3c61eed1f29ab1271effe273261d2c2917504c54f6008f382e1e455b"
+      }
+    ],
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "notes": [
+      "Only curve fitting code/data; full RL trainer not present.",
+      "Grid ranges and first-observed-performance offset in current fitting code differ from the broader paper description.",
+      "Author project returned only a redirect page; repository was readable."
+    ],
+    "experiments_executed": false
+  },
+  {
+    "paper": "pless",
+    "repository": "https://github.com/ryttry/p-less",
+    "commit": "a681f23682a329099306eea9cf7b1dd0447e2eec",
+    "archive_root": "ryttry-p-less-a681f23",
+    "archive_sha256": "176fd93c4093c78af98b54cfddaaad41a8c3f53de71b434f5d475b4eaad28f4e",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/ryttry/p-less/blob/a681f23682a329099306eea9cf7b1dd0447e2eec/README.md",
+        "sha256": "aea3899ce2c378725b752e333c40625fcd2dcb873be598256e42fced3b81e6e0"
+      },
+      {
+        "path": "p_less_samplers.py",
+        "url": "https://github.com/ryttry/p-less/blob/a681f23682a329099306eea9cf7b1dd0447e2eec/p_less_samplers.py",
+        "sha256": "a31cc4d356ae74c822b75a0de6c81e96ec2d4f21d3912191ffa3695d9217c685"
+      }
+    ],
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "notes": [
+      "Sampler code available; input probabilities modified in place.",
+      "No new model training; full benchmark pipeline not asserted reproduced."
+    ],
+    "experiments_executed": false
+  },
+  {
+    "paper": "global",
+    "repository": null,
+    "commit": null,
+    "files": [],
+    "unavailable_reason": "No author implementation found in full PDF, official conference/OpenReview links or targeted author-site search.",
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "notes": [
+      "No author implementation found in full PDF, official conference/OpenReview links or targeted author-site search.",
+      "Appendix algorithms read; report pseudocode is explanatory reconstruction, not executed author code."
+    ],
+    "experiments_executed": false
+  },
+  {
+    "paper": "rlvr",
+    "repository": null,
+    "commit": null,
+    "files": [],
+    "unavailable_reason": "Official AIME24/25 rollout and verification dataset available; own end-to-end training/evaluation code not found.",
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "notes": [
+      "Official AIME24/25 rollout and verification dataset available; own end-to-end training/evaluation code not found.",
+      "Upstream VERL/DAPO not mislabeled as this paper implementation."
+    ],
+    "experiments_executed": false
+  },
+  {
+    "paper": "storm",
+    "repository": "https://github.com/arthur-75/storm",
+    "commit": "dff13214c16c30cde5352599d07b7c870ab772db",
+    "archive_root": "arthur-75-storm-dff1321",
+    "archive_sha256": "8ad30446132cd49200a5b7dfe35b5e58edeae999e9b5ce6abe0decd6f7d3ffe9",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/arthur-75/storm/blob/dff13214c16c30cde5352599d07b7c870ab772db/README.md",
+        "sha256": "4430ea7996997addf30ce77e4d8d00951e3dd87086afa9b1b50fe516385feb84"
+      },
+      {
+        "path": "train/src/train.py",
+        "url": "https://github.com/arthur-75/storm/blob/dff13214c16c30cde5352599d07b7c870ab772db/train/src/train.py",
+        "sha256": "a1c934fda263cbaf690395724bfb62260c45ac08761e45bcd520ca62a93333b8"
+      },
+      {
+        "path": "train/src/reward.py",
+        "url": "https://github.com/arthur-75/storm/blob/dff13214c16c30cde5352599d07b7c870ab772db/train/src/reward.py",
+        "sha256": "d667e7654f823a8cb696bf6045d1bfaceed64d6adf869d6763703247073c32c9"
+      },
+      {
+        "path": "train/src/keyword.py",
+        "url": "https://github.com/arthur-75/storm/blob/dff13214c16c30cde5352599d07b7c870ab772db/train/src/keyword.py",
+        "sha256": "536f30475fea3359a5d541d9982d6ad990f8c05bd3718ac594643c5d66095846"
+      },
+      {
+        "path": "train/src/data.py",
+        "url": "https://github.com/arthur-75/storm/blob/dff13214c16c30cde5352599d07b7c870ab772db/train/src/data.py",
+        "sha256": "d8c3ab227ff8b345c6022c5d15d00af466de348d39f9ea161e8897b71b519964"
+      },
+      {
+        "path": "train/config/config_qwen8b.yaml",
+        "url": "https://github.com/arthur-75/storm/blob/dff13214c16c30cde5352599d07b7c870ab772db/train/config/config_qwen8b.yaml",
+        "sha256": "6975d83b0dd47033cfc46a84f9ebc340b2ad1cbc49b9e5eef00ec243a50df2cb"
+      },
+      {
+        "path": "train/hf_utils/utils.py",
+        "url": "https://github.com/arthur-75/storm/blob/dff13214c16c30cde5352599d07b7c870ab772db/train/hf_utils/utils.py",
+        "sha256": "1644244ced0cb891274027f90af953f9eedf573aff72919f25b9efa813513203"
+      },
+      {
+        "path": "eval/retrieval_pipeline/generation.py",
+        "url": "https://github.com/arthur-75/storm/blob/dff13214c16c30cde5352599d07b7c870ab772db/eval/retrieval_pipeline/generation.py",
+        "sha256": "936f04e1a98dc1f398a4ad94ae2026e06b13a8ed8c7fdf69b43c9b45f4296c22"
+      }
+    ],
+    "scope": "Static reading of named key paths; not execution or line-by-line audit of every repository file.",
+    "notes": [
+      "Static key-path reading only; modified Transformers generation code not installed or executed.",
+      "token_loss=true uses mean token log probability in importance weights rather than full sequence log probability.",
+      "Proposal denominator adds (1-epsilon)/K to all samples; paper best-beam membership/point-mass proposal differs.",
+      "Classic generation hardcodes top_p=0.95; beam configuration uses 0.9.",
+      "Published config uses generation batch 16 x accumulation 16; paper says 32 x 8. Both effective 256 but not identical local statistics."
+    ],
+    "experiments_executed": false
+  }
+]
