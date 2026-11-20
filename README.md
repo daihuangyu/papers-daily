@@ -20,6 +20,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 | 日期 | 方向 / 子主题 | 数量 | 阅读 |
 | --- | --- | --- | --- |
+| 2026-11-20 | VLM / 时间特权蒸馏、主动观察、正优势信用与证据图RL | 5 | [Markdown](VLM/2026-11-20/report.md) · [PDF](VLM/2026-11-20/report.pdf) |
 | 2026-11-19 | VLM / 0.8B/2B证据蒸馏、视频依赖审计、多教师后续RL与循环定位 | 5 | [Markdown](VLM/2026-11-19/report.md) · [PDF](VLM/2026-11-19/report.pdf) |
 | 2026-11-18 | VLM / 视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘 | 5 | [Markdown](VLM/2026-11-18/report.md) · [PDF](VLM/2026-11-18/report.pdf) |
 | 2026-11-17 | VLM / 小型VLM蒸馏、约束GRPO与能力保留 | 5 | [Markdown](VLM/2026-11-17/report.md) · [PDF](VLM/2026-11-17/report.pdf) |
@@ -33,6 +34,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 ## 条目索引
 
+### 2026-11-20 · 时间特权蒸馏、主动观察、正优势信用与证据图RL
+
+1. [DTP-OPSD: Reinforcement Learning with Distractor-Aware Temporal-Privilege On-Policy Self-Distillation for Temporal Video Grounding](https://arxiv.org/abs/2611.00120) · 2026-10-29 · [精读](VLM/2026-11-20/report.md)
+2. [Teaching What to Look For: Privileged Perception Questions for Agentic On-Policy Distillation in Video Captioning](https://arxiv.org/abs/2611.22755) · 2026-11-17 · [精读](VLM/2026-11-20/report.md)
+3. [Hint-Informed Self-Distillation for Reasoning Segmentation](https://arxiv.org/abs/2611.14931) · 2026-11-11 · [精读](VLM/2026-11-20/report.md)
+4. [ViStep-RL: Stepwise Reinforcement Learning for Long-Horizon Visual Agents](https://arxiv.org/abs/2611.24170) · 2026-11-18 · [精读](VLM/2026-11-20/report.md)
+5. [Beyond Seeing: Fine-Grained Preference Validation and Severity-Aware Alignment for Mitigating Visual Hallucinations in Vision-Language Models](https://arxiv.org/abs/2611.20478) · 2026-11-16 · [精读](VLM/2026-11-20/report.md)
 ### 2026-11-19 · 0.8B/2B证据蒸馏、视频依赖审计、多教师后续RL与循环定位
 
 1. [Tiny Evidence Region Localization with Selective Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2611.10734) · 2026-11-07 · [精读](VLM/2026-11-19/report.md)

@@ -2,6 +2,401 @@
   "schema_version": 2,
   "sources": [
     {
+      "id": "arxiv:2611.00120",
+      "type": "paper",
+      "arxiv_id": "2611.00120",
+      "doi": "10.48550/arXiv.2611.00120",
+      "title": "DTP-OPSD: Reinforcement Learning with Distractor-Aware Temporal-Privilege On-Policy Self-Distillation for Temporal Video Grounding",
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2611.00120",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.00120"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.00120v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.00120v1",
+      "code_url": "https://github.com/nian1125/DTP-OPSD",
+      "project_url": null,
+      "code_verification": "Author GitHub root and README verified via live GitHub contents API and raw README after a stale web-cache response; configs/dtp_opsd/scripts/third_party are present. No training executed.",
+      "pdf_sha256": "8ca091459444a6d13feeab63b3e4cb985e79bcf98704459e42c547300d538186",
+      "figures": [
+        {
+          "page": 4,
+          "file": "assets/dtp-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.16,
+            0.1,
+            0.84,
+            0.53
+          ],
+          "size": [
+            1261,
+            1032
+          ]
+        },
+        {
+          "page": 8,
+          "file": "assets/dtp-table1.png",
+          "paper_figure": "Table 1",
+          "box": [
+            0.16,
+            0.1,
+            0.84,
+            0.32
+          ],
+          "size": [
+            1261,
+            528
+          ]
+        },
+        {
+          "page": 9,
+          "file": "assets/dtp-tables2-4.png",
+          "paper_figure": "Tables 2–4",
+          "box": [
+            0.16,
+            0.1,
+            0.84,
+            0.31
+          ],
+          "size": [
+            1261,
+            504
+          ]
+        },
+        {
+          "page": 20,
+          "file": "assets/dtp-table12.png",
+          "paper_figure": "Table 12",
+          "box": [
+            0.16,
+            0.23,
+            0.84,
+            0.44
+          ],
+          "size": [
+            1261,
+            504
+          ]
+        }
+      ],
+      "folder": "VLM/2026-11-20",
+      "aliases": [
+        "arxiv:2611.00120",
+        "doi:10.48550/arxiv.2611.00120",
+        "id:arxiv:2611.00120",
+        "title:dtpopsdreinforcementlearningwithdistractorawaretemporalprivilegeonpolicyselfdistillationfortemporalvideogrounding",
+        "url:https://arxiv.org/abs/2611.00120"
+      ]
+    },
+    {
+      "id": "arxiv:2611.22755",
+      "type": "paper",
+      "arxiv_id": "2611.22755",
+      "doi": "10.48550/arXiv.2611.22755",
+      "title": "Teaching What to Look For: Privileged Perception Questions for Agentic On-Policy Distillation in Video Captioning",
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.22755",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.22755"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.22755v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22755v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "Paper promises future resource/code/weights release. No author repo/project/blog verified from PDF links and targeted title/PQ-OPD searches. No training executed.",
+      "pdf_sha256": "7982c74cb527d1c8a1a58ea42084e08596fe08ba52d70eb54ea54a80eee03914",
+      "figures": [
+        {
+          "page": 2,
+          "file": "assets/pq-fig1.png",
+          "paper_figure": "Figure 1",
+          "box": [
+            0.16,
+            0.1,
+            0.84,
+            0.315
+          ],
+          "size": [
+            1261,
+            516
+          ]
+        },
+        {
+          "page": 6,
+          "file": "assets/pq-table1.png",
+          "paper_figure": "Table 1",
+          "box": [
+            0.16,
+            0.1,
+            0.84,
+            0.45
+          ],
+          "size": [
+            1261,
+            840
+          ]
+        },
+        {
+          "page": 7,
+          "file": "assets/pq-table3.png",
+          "paper_figure": "Table 3",
+          "box": [
+            0.16,
+            0.1,
+            0.84,
+            0.39
+          ],
+          "size": [
+            1261,
+            696
+          ]
+        },
+        {
+          "page": 10,
+          "file": "assets/pq-fig4.png",
+          "paper_figure": "Figure 4",
+          "box": [
+            0.16,
+            0.12,
+            0.84,
+            0.34
+          ],
+          "size": [
+            1261,
+            528
+          ]
+        }
+      ],
+      "folder": "VLM/2026-11-20",
+      "aliases": [
+        "arxiv:2611.22755",
+        "doi:10.48550/arxiv.2611.22755",
+        "id:arxiv:2611.22755",
+        "title:teachingwhattolookforprivilegedperceptionquestionsforagenticonpolicydistillationinvideocaptioning",
+        "url:https://arxiv.org/abs/2611.22755"
+      ]
+    },
+    {
+      "id": "arxiv:2611.14931",
+      "type": "paper",
+      "arxiv_id": "2611.14931",
+      "doi": "10.48550/arXiv.2611.14931",
+      "title": "Hint-Informed Self-Distillation for Reasoning Segmentation",
+      "published": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.14931",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.14931"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.14931v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14931v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No author repo/project/blog verified from PDF links and targeted title searches. Complete base reward coefficients, policy/KL/entropy constants and zero-variance handling not recoverable from v1 recipe; explicitly disclosed.",
+      "pdf_sha256": "3b8d4f390bbbdacf290ce303da7d9188ced67d353fb1440954044e91f45b8939",
+      "figures": [
+        {
+          "page": 3,
+          "file": "assets/hisd-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.09,
+            0.09,
+            0.91,
+            0.56
+          ],
+          "size": [
+            1521,
+            1128
+          ]
+        },
+        {
+          "page": 7,
+          "file": "assets/hisd-table5.png",
+          "paper_figure": "Table 5",
+          "box": [
+            0.09,
+            0.56,
+            0.91,
+            0.91
+          ],
+          "size": [
+            1521,
+            840
+          ]
+        },
+        {
+          "page": 8,
+          "file": "assets/hisd-figs4-5.png",
+          "paper_figure": "Figures 4–5",
+          "box": [
+            0.09,
+            0.09,
+            0.91,
+            0.385
+          ],
+          "size": [
+            1521,
+            708
+          ]
+        }
+      ],
+      "folder": "VLM/2026-11-20",
+      "aliases": [
+        "arxiv:2611.14931",
+        "doi:10.48550/arxiv.2611.14931",
+        "id:arxiv:2611.14931",
+        "title:hintinformedselfdistillationforreasoningsegmentation",
+        "url:https://arxiv.org/abs/2611.14931"
+      ]
+    },
+    {
+      "id": "arxiv:2611.24170",
+      "type": "paper",
+      "arxiv_id": "2611.24170",
+      "doi": "10.48550/arXiv.2611.24170",
+      "title": "ViStep-RL: Stepwise Reinforcement Learning for Long-Horizon Visual Agents",
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24170",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.24170"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.24170v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24170v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No author public runtime/checkpoints verified from PDF links and targeted searches; inconsistent third-party author/conference/code claims rejected. Paper and supplement used for method and cost.",
+      "pdf_sha256": "a322af489d46c88ecc5853a2ce78325df93a8d163cb5a29b6996dd2eb271db3c",
+      "figures": [
+        {
+          "page": 3,
+          "file": "assets/vistep-fig1.png",
+          "paper_figure": "Figure 1",
+          "box": [
+            0.09,
+            0.09,
+            0.91,
+            0.39
+          ],
+          "size": [
+            1521,
+            720
+          ]
+        },
+        {
+          "page": 5,
+          "file": "assets/vistep-table2.png",
+          "paper_figure": "Table 2",
+          "box": [
+            0.09,
+            0.09,
+            0.91,
+            0.55
+          ],
+          "size": [
+            1521,
+            1104
+          ]
+        },
+        {
+          "page": 6,
+          "file": "assets/vistep-table3.png",
+          "paper_figure": "Table 3",
+          "box": [
+            0.09,
+            0.09,
+            0.91,
+            0.28
+          ],
+          "size": [
+            1521,
+            456
+          ]
+        }
+      ],
+      "folder": "VLM/2026-11-20",
+      "aliases": [
+        "arxiv:2611.24170",
+        "doi:10.48550/arxiv.2611.24170",
+        "id:arxiv:2611.24170",
+        "title:visteprlstepwisereinforcementlearningforlonghorizonvisualagents",
+        "url:https://arxiv.org/abs/2611.24170"
+      ]
+    },
+    {
+      "id": "arxiv:2611.20478",
+      "type": "paper",
+      "arxiv_id": "2611.20478",
+      "doi": "10.48550/arXiv.2611.20478",
+      "title": "Beyond Seeing: Fine-Grained Preference Validation and Severity-Aware Alignment for Mitigating Visual Hallucinations in Vision-Language Models",
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.20478",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.20478"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.20478v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.20478v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No author repo/project/blog verified from PDF links and targeted title searches. Paper distinguishes implemented components from experimentally consumed data and notes missing per-example runtime/evaluation artifacts.",
+      "pdf_sha256": "4f7d1eacb2b7afdd824a1a06edff5b598ea234a29fb5fbfdaca6647a928adc28",
+      "figures": [
+        {
+          "page": 2,
+          "file": "assets/beyond-fig1.png",
+          "paper_figure": "Figure 1",
+          "box": [
+            0.07,
+            0.055,
+            0.93,
+            0.455
+          ],
+          "size": [
+            1595,
+            960
+          ]
+        },
+        {
+          "page": 4,
+          "file": "assets/beyond-fig2.png",
+          "paper_figure": "Figure 2",
+          "box": [
+            0.09,
+            0.16,
+            0.91,
+            0.59
+          ],
+          "size": [
+            1521,
+            1032
+          ]
+        },
+        {
+          "page": 5,
+          "file": "assets/beyond-table3.png",
+          "paper_figure": "Table III",
+          "box": [
+            0.1,
+            0.055,
+            0.9,
+            0.22
+          ],
+          "size": [
+            1484,
+            396
+          ]
+        }
+      ],
+      "folder": "VLM/2026-11-20",
+      "aliases": [
+        "arxiv:2611.20478",
+        "doi:10.48550/arxiv.2611.20478",
+        "id:arxiv:2611.20478",
+        "title:beyondseeingfinegrainedpreferencevalidationandseverityawarealignmentformitigatingvisualhallucinationsinvisionlanguagemodels",
+        "url:https://arxiv.org/abs/2611.20478"
+      ]
+    },
+    {
       "id": "arxiv:2611.10734",
       "type": "paper",
       "arxiv_id": "2611.10734",
@@ -4001,6 +4396,31 @@
     }
   ],
   "aliases": {
+    "arxiv:2611.00120": "VLM/2026-11-20",
+    "doi:10.48550/arxiv.2611.00120": "VLM/2026-11-20",
+    "id:arxiv:2611.00120": "VLM/2026-11-20",
+    "title:dtpopsdreinforcementlearningwithdistractorawaretemporalprivilegeonpolicyselfdistillationfortemporalvideogrounding": "VLM/2026-11-20",
+    "url:https://arxiv.org/abs/2611.00120": "VLM/2026-11-20",
+    "arxiv:2611.22755": "VLM/2026-11-20",
+    "doi:10.48550/arxiv.2611.22755": "VLM/2026-11-20",
+    "id:arxiv:2611.22755": "VLM/2026-11-20",
+    "title:teachingwhattolookforprivilegedperceptionquestionsforagenticonpolicydistillationinvideocaptioning": "VLM/2026-11-20",
+    "url:https://arxiv.org/abs/2611.22755": "VLM/2026-11-20",
+    "arxiv:2611.14931": "VLM/2026-11-20",
+    "doi:10.48550/arxiv.2611.14931": "VLM/2026-11-20",
+    "id:arxiv:2611.14931": "VLM/2026-11-20",
+    "title:hintinformedselfdistillationforreasoningsegmentation": "VLM/2026-11-20",
+    "url:https://arxiv.org/abs/2611.14931": "VLM/2026-11-20",
+    "arxiv:2611.24170": "VLM/2026-11-20",
+    "doi:10.48550/arxiv.2611.24170": "VLM/2026-11-20",
+    "id:arxiv:2611.24170": "VLM/2026-11-20",
+    "title:visteprlstepwisereinforcementlearningforlonghorizonvisualagents": "VLM/2026-11-20",
+    "url:https://arxiv.org/abs/2611.24170": "VLM/2026-11-20",
+    "arxiv:2611.20478": "VLM/2026-11-20",
+    "doi:10.48550/arxiv.2611.20478": "VLM/2026-11-20",
+    "id:arxiv:2611.20478": "VLM/2026-11-20",
+    "title:beyondseeingfinegrainedpreferencevalidationandseverityawarealignmentformitigatingvisualhallucinationsinvisionlanguagemodels": "VLM/2026-11-20",
+    "url:https://arxiv.org/abs/2611.20478": "VLM/2026-11-20",
     "arxiv:2611.10734": "VLM/2026-11-19",
     "doi:10.48550/arxiv.2611.10734": "VLM/2026-11-19",
     "id:arxiv:2611.10734": "VLM/2026-11-19",
