@@ -20,6 +20,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 | 日期 | 方向 / 子主题 | 数量 | 阅读 |
 | --- | --- | --- | --- |
+| 2026-11-21 | VLM / 视觉蒸馏分配、跨输入RL、持续回放、UI奖励与小模型课程蒸馏 | 5 | [Markdown](VLM/2026-11-21/report.md) · [PDF](VLM/2026-11-21/report.pdf) |
 | 2026-11-20 | VLM / 时间特权蒸馏、主动观察、正优势信用与证据图RL | 5 | [Markdown](VLM/2026-11-20/report.md) · [PDF](VLM/2026-11-20/report.pdf) |
 | 2026-11-19 | VLM / 0.8B/2B证据蒸馏、视频依赖审计、多教师后续RL与循环定位 | 5 | [Markdown](VLM/2026-11-19/report.md) · [PDF](VLM/2026-11-19/report.pdf) |
 | 2026-11-18 | VLM / 视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘 | 5 | [Markdown](VLM/2026-11-18/report.md) · [PDF](VLM/2026-11-18/report.pdf) |
@@ -37,6 +38,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 ## 条目索引
 
+### 2026-11-21 · 视觉蒸馏分配、跨输入RL、持续回放、UI奖励与小模型课程蒸馏
+
+1. [VisAlloc: Allocating Visual Supervision for On-Policy Self-Distillation](https://arxiv.org/abs/2611.25069) · 2026-11-18 · [精读](VLM/2026-11-21/report.md)
+2. [ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization](https://arxiv.org/abs/2611.21605) · 2026-11-16 · [精读](VLM/2026-11-21/report.md)
+3. [Policy Improvement-Guided Replay for Continual Reinforcement Learning](https://arxiv.org/abs/2611.25989) · 2026-11-19 · [精读](VLM/2026-11-21/report.md)
+4. [UI-UG 2: Advancing Mobile UI Understanding and Generation with Fine-Grained Supervision and Reinforcement Learning](https://arxiv.org/abs/2611.00926) · 2026-10-31 · [精读](VLM/2026-11-21/report.md)
+5. [SurgPace: Complexity-Aware Progressive Distillation for Surgical Multimodal Large Language Models](https://arxiv.org/abs/2611.03125) · 2026-11-02 · [精读](VLM/2026-11-21/report.md)
 ### 2026-11-20 · 时间特权蒸馏、主动观察、正优势信用与证据图RL
 
 1. [DTP-OPSD: Reinforcement Learning with Distractor-Aware Temporal-Privilege On-Policy Self-Distillation for Temporal Video Grounding](https://arxiv.org/abs/2611.00120) · 2026-10-29 · [精读](VLM/2026-11-20/report.md)

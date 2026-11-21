@@ -2,6 +2,418 @@
   "schema_version": 2,
   "sources": [
     {
+      "id": "arxiv:2611.25069",
+      "type": "paper",
+      "arxiv_id": "2611.25069",
+      "doi": "10.48550/arXiv.2611.25069",
+      "title": "VisAlloc: Allocating Visual Supervision for On-Policy Self-Distillation",
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.25069",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.25069"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.25069v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25069v1",
+      "code_url": "https://github.com/Kaelyn01/VisAlloc",
+      "project_url": null,
+      "code_verification": "Author README verified using live GitHub connector. Training/data/model instructions present. No model training executed.",
+      "pdf_sha256": "4000c60483564c6218c78965b614442aa8e134e0bccc6db799f0945c3b2d9ad3",
+      "figures": [
+        {
+          "file": "assets/visalloc-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.11,
+            0.08,
+            0.9,
+            0.418
+          ],
+          "size": [
+            1340,
+            811
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25069v1"
+        },
+        {
+          "file": "assets/visalloc-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.11,
+            0.08,
+            0.91,
+            0.41
+          ],
+          "size": [
+            1357,
+            792
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25069v1"
+        },
+        {
+          "file": "assets/visalloc-ablation.png",
+          "paper_figure": "Table 4",
+          "page": 12,
+          "crop_normalized": [
+            0.11,
+            0.075,
+            0.51,
+            0.455
+          ],
+          "size": [
+            678,
+            912
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25069v1"
+        }
+      ],
+      "folder": "VLM/2026-11-21",
+      "aliases": [
+        "arxiv:2611.25069",
+        "doi:10.48550/arxiv.2611.25069",
+        "id:arxiv:2611.25069",
+        "title:visallocallocatingvisualsupervisionforonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2611.25069"
+      ]
+    },
+    {
+      "id": "arxiv:2611.21605",
+      "type": "paper",
+      "arxiv_id": "2611.21605",
+      "doi": "10.48550/arXiv.2611.21605",
+      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21605",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.21605"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.21605v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21605v1",
+      "code_url": "https://github.com/huawei-lin/ViRA",
+      "project_url": null,
+      "code_verification": "Author README verified using live GitHub connector; training, eval, models and datasets linked. CrossRPO source layout verified, no training executed.",
+      "pdf_sha256": "73e44a3411aabcac0cce2a79820a9074340d6dc8a434d2de2d3c5ad6a3a2b685",
+      "figures": [
+        {
+          "file": "assets/vira-method.png",
+          "paper_figure": "Figure 3",
+          "page": 6,
+          "crop_normalized": [
+            0.11,
+            0.08,
+            0.91,
+            0.4
+          ],
+          "size": [
+            1484,
+            768
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.21605v1"
+        },
+        {
+          "file": "assets/vira-results.png",
+          "paper_figure": "Table 1",
+          "page": 9,
+          "crop_normalized": [
+            0.1,
+            0.08,
+            0.92,
+            0.63
+          ],
+          "size": [
+            1521,
+            1320
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.21605v1"
+        },
+        {
+          "file": "assets/vira-ablation.png",
+          "paper_figure": "Table 3",
+          "page": 11,
+          "crop_normalized": [
+            0.1,
+            0.385,
+            0.92,
+            0.615
+          ],
+          "size": [
+            1521,
+            552
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.21605v1"
+        }
+      ],
+      "folder": "VLM/2026-11-21",
+      "aliases": [
+        "arxiv:2611.21605",
+        "doi:10.48550/arxiv.2611.21605",
+        "id:arxiv:2611.21605",
+        "title:viratowardultrahighresolutionvisualagentsviacrossinputrelativepolicyoptimization",
+        "url:https://arxiv.org/abs/2611.21605"
+      ]
+    },
+    {
+      "id": "arxiv:2611.25989",
+      "type": "paper",
+      "arxiv_id": "2611.25989",
+      "doi": "10.48550/arXiv.2611.25989",
+      "title": "Policy Improvement-Guided Replay for Continual Reinforcement Learning",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25989",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.25989"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.25989v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25989v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No verifiable official CoLiR implementation found in v1 external links or bounded title/author searches. Cited GSPO/CPO and third-party commentary are not CoLiR author code.",
+      "pdf_sha256": "43bf49b5b3528115b5cd723ea61a454593360c9a46214daf634db3e2c3b7ecca",
+      "figures": [
+        {
+          "file": "assets/colir-method.png",
+          "paper_figure": "Figure 2",
+          "page": 5,
+          "crop_normalized": [
+            0.09,
+            0.075,
+            0.92,
+            0.405
+          ],
+          "size": [
+            1540,
+            792
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25989v1"
+        },
+        {
+          "file": "assets/colir-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.09,
+            0.075,
+            0.92,
+            0.62
+          ],
+          "size": [
+            1540,
+            1308
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25989v1"
+        },
+        {
+          "file": "assets/colir-ablation.png",
+          "paper_figure": "Tables 3 and 4",
+          "page": 8,
+          "crop_normalized": [
+            0.09,
+            0.272,
+            0.92,
+            0.425
+          ],
+          "size": [
+            1540,
+            367
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25989v1"
+        }
+      ],
+      "folder": "VLM/2026-11-21",
+      "aliases": [
+        "arxiv:2611.25989",
+        "doi:10.48550/arxiv.2611.25989",
+        "id:arxiv:2611.25989",
+        "title:policyimprovementguidedreplayforcontinualreinforcementlearning",
+        "url:https://arxiv.org/abs/2611.25989"
+      ]
+    },
+    {
+      "id": "arxiv:2611.00926",
+      "type": "paper",
+      "arxiv_id": "2611.00926",
+      "doi": "10.48550/arXiv.2611.00926",
+      "title": "UI-UG 2: Advancing Mobile UI Understanding and Generation with Fine-Grained Supervision and Reinforcement Learning",
+      "published": "2026-10-31",
+      "url": "https://arxiv.org/abs/2611.00926",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.00926"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.00926v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.00926v1",
+      "code_url": "https://github.com/afx-team/UI-UG",
+      "project_url": null,
+      "code_verification": "Author README explicitly provides inference/serving/rendering only, not training code. Component runtime not bundled; Tag renderer included. Model linked. No training executed.",
+      "pdf_sha256": "9a6cba5d475160bc540251c8bd81006aa6c551903428e00ef8af4e6ec0aab1d1",
+      "figures": [
+        {
+          "file": "assets/uiug-method.png",
+          "paper_figure": "Figure 1",
+          "page": 2,
+          "crop_normalized": [
+            0.15,
+            0.08,
+            0.85,
+            0.37
+          ],
+          "size": [
+            1299,
+            696
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.00926v1"
+        },
+        {
+          "file": "assets/uiug-understanding.png",
+          "paper_figure": "Table 2",
+          "page": 9,
+          "crop_normalized": [
+            0.15,
+            0.08,
+            0.86,
+            0.455
+          ],
+          "size": [
+            1317,
+            900
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.00926v1"
+        },
+        {
+          "file": "assets/uiug-generation.png",
+          "paper_figure": "Table 3",
+          "page": 10,
+          "crop_normalized": [
+            0.15,
+            0.188,
+            0.86,
+            0.46
+          ],
+          "size": [
+            1317,
+            653
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.00926v1"
+        },
+        {
+          "file": "assets/uiug-ablation.png",
+          "paper_figure": "Table 4",
+          "page": 11,
+          "crop_normalized": [
+            0.15,
+            0.405,
+            0.86,
+            0.565
+          ],
+          "size": [
+            1317,
+            384
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.00926v1"
+        }
+      ],
+      "folder": "VLM/2026-11-21",
+      "aliases": [
+        "arxiv:2611.00926",
+        "doi:10.48550/arxiv.2611.00926",
+        "id:arxiv:2611.00926",
+        "title:uiug2advancingmobileuiunderstandingandgenerationwithfinegrainedsupervisionandreinforcementlearning",
+        "url:https://arxiv.org/abs/2611.00926"
+      ]
+    },
+    {
+      "id": "arxiv:2611.03125",
+      "type": "paper",
+      "arxiv_id": "2611.03125",
+      "doi": "10.48550/arXiv.2611.03125",
+      "title": "SurgPace: Complexity-Aware Progressive Distillation for Surgical Multimodal Large Language Models",
+      "published": "2026-11-02",
+      "url": "https://arxiv.org/abs/2611.03125",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.03125"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.03125v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.03125v1",
+      "code_url": "https://github.com/hezhicheng2002/SurgPace",
+      "project_url": null,
+      "code_verification": "README, train.py, score.py, scoring.py, surgpace_core.py and arguments.py read via live GitHub connector. Code adds task-midrank calibration and supplies pacing/default schedules absent from main equations. Defaults are not assumed to equal every published run; paper two GPUs differs from README four-process example. No training executed.",
+      "pdf_sha256": "3a1ebfc7a9e6bbe5a11f49c929ef5ff3db69805f0695e91a0e2a448152baa3c8",
+      "figures": [
+        {
+          "file": "assets/surgpace-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.05,
+            0.09,
+            0.95,
+            0.435
+          ],
+          "size": [
+            1527,
+            828
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.03125v1"
+        },
+        {
+          "file": "assets/surgpace-results.png",
+          "paper_figure": "Tables 2 and 3",
+          "page": 9,
+          "crop_normalized": [
+            0.05,
+            0.08,
+            0.95,
+            0.62
+          ],
+          "size": [
+            1527,
+            1296
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.03125v1"
+        },
+        {
+          "file": "assets/surgpace-ablation.png",
+          "paper_figure": "Table 16",
+          "page": 14,
+          "crop_normalized": [
+            0.05,
+            0.265,
+            0.95,
+            0.425
+          ],
+          "size": [
+            1527,
+            384
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.03125v1"
+        },
+        {
+          "file": "assets/surgpace-cost.png",
+          "paper_figure": "Table 17",
+          "page": 14,
+          "crop_normalized": [
+            0.05,
+            0.438,
+            0.51,
+            0.62
+          ],
+          "size": [
+            780,
+            437
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.03125v1"
+        }
+      ],
+      "folder": "VLM/2026-11-21",
+      "aliases": [
+        "arxiv:2611.03125",
+        "doi:10.48550/arxiv.2611.03125",
+        "id:arxiv:2611.03125",
+        "title:surgpacecomplexityawareprogressivedistillationforsurgicalmultimodallargelanguagemodels",
+        "url:https://arxiv.org/abs/2611.03125"
+      ]
+    },
+    {
       "id": "arxiv:2611.00120",
       "type": "paper",
       "arxiv_id": "2611.00120",
@@ -6394,6 +6806,31 @@
     }
   ],
   "aliases": {
+    "arxiv:2611.25069": "VLM/2026-11-21",
+    "doi:10.48550/arxiv.2611.25069": "VLM/2026-11-21",
+    "id:arxiv:2611.25069": "VLM/2026-11-21",
+    "title:visallocallocatingvisualsupervisionforonpolicyselfdistillation": "VLM/2026-11-21",
+    "url:https://arxiv.org/abs/2611.25069": "VLM/2026-11-21",
+    "arxiv:2611.21605": "VLM/2026-11-21",
+    "doi:10.48550/arxiv.2611.21605": "VLM/2026-11-21",
+    "id:arxiv:2611.21605": "VLM/2026-11-21",
+    "title:viratowardultrahighresolutionvisualagentsviacrossinputrelativepolicyoptimization": "VLM/2026-11-21",
+    "url:https://arxiv.org/abs/2611.21605": "VLM/2026-11-21",
+    "arxiv:2611.25989": "VLM/2026-11-21",
+    "doi:10.48550/arxiv.2611.25989": "VLM/2026-11-21",
+    "id:arxiv:2611.25989": "VLM/2026-11-21",
+    "title:policyimprovementguidedreplayforcontinualreinforcementlearning": "VLM/2026-11-21",
+    "url:https://arxiv.org/abs/2611.25989": "VLM/2026-11-21",
+    "arxiv:2611.00926": "VLM/2026-11-21",
+    "doi:10.48550/arxiv.2611.00926": "VLM/2026-11-21",
+    "id:arxiv:2611.00926": "VLM/2026-11-21",
+    "title:uiug2advancingmobileuiunderstandingandgenerationwithfinegrainedsupervisionandreinforcementlearning": "VLM/2026-11-21",
+    "url:https://arxiv.org/abs/2611.00926": "VLM/2026-11-21",
+    "arxiv:2611.03125": "VLM/2026-11-21",
+    "doi:10.48550/arxiv.2611.03125": "VLM/2026-11-21",
+    "id:arxiv:2611.03125": "VLM/2026-11-21",
+    "title:surgpacecomplexityawareprogressivedistillationforsurgicalmultimodallargelanguagemodels": "VLM/2026-11-21",
+    "url:https://arxiv.org/abs/2611.03125": "VLM/2026-11-21",
     "arxiv:2611.00120": "VLM/2026-11-20",
     "doi:10.48550/arxiv.2611.00120": "VLM/2026-11-20",
     "id:arxiv:2611.00120": "VLM/2026-11-20",
