@@ -32,6 +32,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 | 2026-11-18 | OPSD / 教师进化、逐token选择与参考视图边缘化 | 5 | [Markdown](OPSD/2026-11-18/report.md) · [PDF](OPSD/2026-11-18/report.pdf) |
 | 2026-11-17 | OPSD / 监督选择、环境校准与异步加速 | 5 | [Markdown](OPSD/2026-11-17/report.md) · [PDF](OPSD/2026-11-17/report.pdf) |
 | 2026-11-16 | OPSD / 特权信息、token级 credit 与应用扩展 | 5 | [Markdown](OPSD/2026-11-16/report.md) · [PDF](OPSD/2026-11-16/report.pdf) |
+| 2026-11-21 | CCF_Papers / 偏好错设、长上下文强化学习、熵保持、置信度校准与代码共识奖励 | 5 | [Markdown](CCF_Papers/2026-11-21/report.md) · [PDF](CCF_Papers/2026-11-21/report.pdf) |
 | 2026-11-20 | CCF_Papers / RL计算扩展、自适应采样、凸优化投机解码、正确推理与检索奖励训练 | 5 | [Markdown](CCF_Papers/2026-11-20/report.md) · [PDF](CCF_Papers/2026-11-20/report.pdf) |
 | 2026-11-19 | CCF_Papers / 提示词进化、无训练采样、可信域RL、连续语言流与SFT–RL动态混合 | 5 | [Markdown](CCF_Papers/2026-11-19/report.md) · [PDF](CCF_Papers/2026-11-19/report.pdf) |
 | 2026-11-18 | CCF_Papers / 采样式SFT、一步生成、知识暴露、量化推理与后训练预算 | 5 | [Markdown](CCF_Papers/2026-11-18/report.md) · [PDF](CCF_Papers/2026-11-18/report.pdf) |
@@ -122,6 +123,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 3. [Prior-as-Skill: Remember Outside and Read Inside with On-Policy Self-Distillation for Self-Evolving VLM Agents](https://arxiv.org/abs/2611.15766) · 2026-11-11 · [精读](OPSD/2026-11-16/report.md)
 4. [Bootstrapped On-Policy Distillation](https://arxiv.org/abs/2611.13680) · 2026-11-10 · [精读](OPSD/2026-11-16/report.md)
 5. [PhysOPSD: Code as Privilege for Physically Plausible Video Generation](https://arxiv.org/abs/2611.12411) · 2026-11-09 · [精读](OPSD/2026-11-16/report.md)
+### 2026-11-21 · 偏好错设、长上下文强化学习、熵保持、置信度校准与代码共识奖励
+
+1. [Why DPO is a Misspecified Estimator and How to Fix It](https://arxiv.org/abs/2510.20413) · 2025-10-23 · [精读](CCF_Papers/2026-11-21/report.md)
+2. [LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts](https://arxiv.org/abs/2510.19363) · 2025-10-22 · [精读](CCF_Papers/2026-11-21/report.md)
+3. [Entropy-Preserving Reinforcement Learning](https://arxiv.org/abs/2603.11682) · 2026-03-12 · [精读](CCF_Papers/2026-11-21/report.md)
+4. [Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty](https://arxiv.org/abs/2507.16806) · 2025-07-22 · [精读](CCF_Papers/2026-11-21/report.md)
+5. [Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation](https://arxiv.org/abs/2609.09135) · 2026-09-08 · [精读](CCF_Papers/2026-11-21/report.md)
 ### 2026-11-20 · RL计算扩展、自适应采样、凸优化投机解码、正确推理与检索奖励训练
 
 1. [The Art of Scaling Reinforcement Learning Compute for LLMs](https://arxiv.org/abs/2510.13786) · 2025-10-15 · [精读](CCF_Papers/2026-11-20/report.md)

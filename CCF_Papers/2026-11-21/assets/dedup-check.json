@@ -1,0 +1,102 @@
+{
+  "checked_on": "2026-11-21",
+  "history_sources": 75,
+  "history_indexed_sources": 75,
+  "history_manifest_source_records": 75,
+  "history_manifests": 15,
+  "initial_scan": {
+    "indexed_sources": 65,
+    "manifests": 13
+  },
+  "concurrency_note": "Rescanned new OPSD and in-progress VLM manifests without editing either direction; only committed reports are included by isolated publication checkout.",
+  "manifest_paths": [
+    "CCF_Papers/2026-11-18/manifest.json",
+    "CCF_Papers/2026-11-19/manifest.json",
+    "CCF_Papers/2026-11-20/manifest.json",
+    "OPSD/2026-11-16/manifest.json",
+    "OPSD/2026-11-17/manifest.json",
+    "OPSD/2026-11-18/manifest.json",
+    "OPSD/2026-11-19/manifest.json",
+    "OPSD/2026-11-20/manifest.json",
+    "OPSD/2026-11-21/manifest.json",
+    "VLM/2026-11-16/manifest.json",
+    "VLM/2026-11-17/manifest.json",
+    "VLM/2026-11-18/manifest.json",
+    "VLM/2026-11-19/manifest.json",
+    "VLM/2026-11-20/manifest.json",
+    "VLM/2026-11-21/manifest.json"
+  ],
+  "normalization": "arXiv version stripping; DOI; canonical URL; Unicode NFKC/case/punctuation title and explicit aliases.",
+  "manual_identity_review": "All five preprint/conference versions merged by exact identity and author match. ERPO index DOI unverified and not promoted. Prior FWS excluded.",
+  "selected": [
+    {
+      "id": "arxiv:2510.20413",
+      "aliases": [
+        "arxiv:2510.20413",
+        "doi:10.48550/arxiv.2510.20413",
+        "id:arxiv:2510.20413",
+        "title:whydpoisamisspecifiedestimatorandhowtofixit",
+        "url:https://arxiv.org/abs/2510.20413",
+        "url:https://doi.org/10.48550/arxiv.2510.20413",
+        "url:https://iclr.cc/virtual/2026/oral/10008564",
+        "url:https://openreview.net/forum?id=btEiAfnLsX"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2510.19363",
+      "aliases": [
+        "arxiv:2510.19363",
+        "doi:10.48550/arxiv.2510.19363",
+        "id:arxiv:2510.19363",
+        "title:loongrlreinforcementlearningforadvancedreasoningoverlongcontexts",
+        "url:https://arxiv.org/abs/2510.19363",
+        "url:https://doi.org/10.48550/arxiv.2510.19363",
+        "url:https://iclr.cc/virtual/2026/oral/10007440",
+        "url:https://openreview.net/forum?id=o29E01Q6bv"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2603.11682",
+      "aliases": [
+        "arxiv:2603.11682",
+        "doi:10.48550/arxiv.2603.11682",
+        "id:arxiv:2603.11682",
+        "title:entropypreservingreinforcementlearning",
+        "url:https://arxiv.org/abs/2603.11682",
+        "url:https://doi.org/10.48550/arxiv.2603.11682",
+        "url:https://iclr.cc/virtual/2026/poster/10010707",
+        "url:https://openreview.net/forum?id=E8MR8jgEeZ"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2507.16806",
+      "aliases": [
+        "arxiv:2507.16806",
+        "doi:10.48550/arxiv.2507.16806",
+        "id:arxiv:2507.16806",
+        "title:beyondbinaryrewardstraininglmstoreasonabouttheiruncertainty",
+        "url:https://arxiv.org/abs/2507.16806",
+        "url:https://doi.org/10.48550/arxiv.2507.16806",
+        "url:https://iclr.cc/virtual/2026/poster/10011036",
+        "url:https://openreview.net/forum?id=ASQ649zdHm"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2609.09135",
+      "aliases": [
+        "arxiv:2609.09135",
+        "doi:10.48550/arxiv.2609.09135",
+        "id:arxiv:2609.09135",
+        "title:entropyregularizedrankmaskedpolicyoptimizationfortesttimereinforcementlearningincodegeneration",
+        "url:https://aclanthology.org/2026.emnlp-main.2102",
+        "url:https://arxiv.org/abs/2609.09135",
+        "url:https://doi.org/10.48550/arxiv.2609.09135"
+      ],
+      "conflicts": {}
+    }
+  ]
+}

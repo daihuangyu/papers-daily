@@ -1,0 +1,156 @@
+[
+  {
+    "paper": "dpo",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10008564",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+      "page_title": "ICLR Oral Why DPO is a Misspecified Estimator and How to Fix It",
+      "snapshot": "assets/official-records/dpo.html",
+      "snapshot_sha256": "9c44969f4ac19ea21166d233abdbfcd7ac51284cdcbb2ecb46d556293c8a8aa6"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10008564",
+      "label": "oral",
+      "checked_on": "2026-11-21"
+    }
+  },
+  {
+    "paper": "loong",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10007440",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+      "page_title": "ICLR Oral LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts",
+      "snapshot": "assets/official-records/loong.html",
+      "snapshot_sha256": "816d9ecd394a04b6491f6b2f3b7c73a8247949244ca16c09caae1c01cc1e945c"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10007440",
+      "label": "oral",
+      "checked_on": "2026-11-21"
+    }
+  },
+  {
+    "paper": "repo",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10010707",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+      "page_title": "ICLR Poster Entropy-preserving reinforcement learning",
+      "snapshot": "assets/official-records/repo.html",
+      "snapshot_sha256": "cf961249c9bf04f9a541a406484b74af0e0789ed501be2c47fa07aa755d8d48a"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10010707",
+      "label": "poster",
+      "checked_on": "2026-11-21"
+    }
+  },
+  {
+    "paper": "rlcr",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10011036",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+      "page_title": "ICLR Poster Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+      "snapshot": "assets/official-records/rlcr.html",
+      "snapshot_sha256": "fabafafc7f995517fd479ac75b0c97263a9bf8a2c6b69b2773040b72012fbd56"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10011036",
+      "label": "poster",
+      "checked_on": "2026-11-21"
+    }
+  },
+  {
+    "paper": "erpo",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 58,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://aclanthology.org/2026.emnlp-main.2102/",
+      "venue": "EMNLP",
+      "year": 2026,
+      "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+      "page_title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation - ACL Anthology",
+      "snapshot": "assets/official-records/erpo.html",
+      "snapshot_sha256": "2f9c7b8c2e65a0b37a25216d4fd755422eec2904ea8c6094f6ff54a96b6979ee"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+      "label": "oral",
+      "checked_on": "2026-11-21",
+      "program_url": "https://2026.emnlp.org/program/",
+      "paper_id": "6640-MAIN",
+      "mode": "In-Person",
+      "session": "Session9 / Multiple Tracks3",
+      "date": "2026-10-26",
+      "time": "16:45-18:15",
+      "room": "F4-5",
+      "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350",
+      "matched_row_record": "assets/emnlp-schedule-evidence.json"
+    }
+  }
+]

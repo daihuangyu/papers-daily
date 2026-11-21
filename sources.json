@@ -4137,6 +4137,998 @@
       ]
     },
     {
+      "id": "arxiv:2510.20413",
+      "type": "paper",
+      "key": "dpo",
+      "title": "Why DPO is a Misspecified Estimator and How to Fix It",
+      "title_aliases": [],
+      "authors": [
+        "Aditya Gopalan",
+        "Sayak Ray Chowdhury",
+        "Debangshu Banerjee"
+      ],
+      "published": "2025-10-23",
+      "url": "https://arxiv.org/abs/2510.20413",
+      "arxiv_id": "2510.20413",
+      "doi": "10.48550/arXiv.2510.20413",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2510.20413",
+        "https://doi.org/10.48550/arXiv.2510.20413",
+        "https://iclr.cc/virtual/2026/oral/10008564",
+        "https://openreview.net/forum?id=btEiAfnLsX"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2510.20413",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8f6c674a7edf57912f1a5830f4a66e3f-Paper-Conference.pdf",
+      "pdf_version": "ICLR 2026 camera-ready plus separate supplement",
+      "source_pdf_pages": 11,
+      "source_pdf_sha256": "e40c66d8791c3029991bb762a51ba28186d695ff7c1b0073a56c1586829b5a87",
+      "code_url": "https://github.com/Debangshu93/AuxDPO",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-21",
+        "commit": "bfc84340123224347967939cbed6e43906735acf",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Static notebook reading, including dataset and evaluation paths; no GPU execution.",
+          "Reference-model gradient detachment, auxiliary beta scaling and null-space penalty implementation caveats detailed in report."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31 revised2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008564",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+          "page_title": "ICLR Oral Why DPO is a Misspecified Estimator and How to Fix It",
+          "snapshot": "assets/official-records/dpo.html",
+          "snapshot_sha256": "9c44969f4ac19ea21166d233abdbfcd7ac51284cdcbb2ecb46d556293c8a8aa6"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008564",
+          "label": "oral",
+          "checked_on": "2026-11-21"
+        }
+      },
+      "citation_count": {
+        "value": 3,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4416620037",
+        "queried_at": "2026-11-21",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-20T13:11:24.684918",
+        "raw_record": "assets/citation-records/dpo-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "dpo-fig1.png",
+          "paper": "dpo",
+          "figure": "fig1",
+          "physical_pdf_page": 2,
+          "crop_points_from_top_left": [
+            244,
+            244,
+            507,
+            525
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8f6c674a7edf57912f1a5830f4a66e3f-Paper-Conference.pdf",
+          "pdf_sha256": "e40c66d8791c3029991bb762a51ba28186d695ff7c1b0073a56c1586829b5a87",
+          "sha256": "431cd24cd21e695b487e7c79ed5c0d007a1299c13ac07d1d674bb11bc31cdca4",
+          "pixels": [
+            789,
+            843
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready plus separate supplement",
+          "caption_conditions_and_reading_guide": "图 1. 原文 Figure 1，正式主文物理第 2 页。来源为本节主文 PDF。左侧绿色曲线是策略能表示的隐式奖励集合，黑点是真实奖励；橙色投影受偏好采样频率影响。右侧为局部线性化解释，蓝色方向表示 AuxDPO 新增的自由度。它是理论机制图，没有实验准确率或算力可比性的含义。"
+        },
+        {
+          "file": "dpo-table1.png",
+          "paper": "dpo",
+          "figure": "table1",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            508,
+            289
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8f6c674a7edf57912f1a5830f4a66e3f-Paper-Conference.pdf",
+          "pdf_sha256": "e40c66d8791c3029991bb762a51ba28186d695ff7c1b0073a56c1586829b5a87",
+          "sha256": "374b46038f8115bf40b2fae1ea1a7fd8058c03407ebf5db22fbae1075631f274",
+          "pixels": [
+            1206,
+            627
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready plus separate supplement",
+          "caption_conditions_and_reading_guide": "图 2. 原 Table 1，正式主文物理第 9 页。三种初始化、两种数据集、ID/OOD 的 DPO/AuxDPO/IPO/DPOP 比较。数值是相对 base 的准确率变化百分比，不是最终准确率，也不是百分点。红色为退化。应先固定同一行再比较方法，不能把不同 base 的相对百分比横向当作绝对能力。"
+        },
+        {
+          "file": "dpo-table2.png",
+          "paper": "dpo",
+          "figure": "table2",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            348,
+            508,
+            583
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8f6c674a7edf57912f1a5830f4a66e3f-Paper-Conference.pdf",
+          "pdf_sha256": "e40c66d8791c3029991bb762a51ba28186d695ff7c1b0073a56c1586829b5a87",
+          "sha256": "47d7cc3cdc46cc8f945fa22e1ca17b012cdae2fbb518729451e0aa68b9fae069",
+          "pixels": [
+            1206,
+            705
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready plus separate supplement",
+          "caption_conditions_and_reading_guide": "图 3. 原 Table 2，正式主文物理第 9 页。Llama3.1-8B 的 MMLU-Pro 生成答案准确率；此表与上一表的 chosen/rejected 概率比较指标不同。读 Overall 行，base 25.37%，OOD DPO 27.06%、AuxDPO 39.26%，ID DPO 46.60%、AuxDPO 51.95%。不能将 ID 与 OOD 混合排序，因为训练数据不同。"
+        },
+        {
+          "file": "dpo-supp-fig4.png",
+          "paper": "dpo",
+          "figure": "fig4",
+          "physical_pdf_page": 4,
+          "crop_points_from_top_left": [
+            106,
+            126,
+            506,
+            691
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8f6c674a7edf57912f1a5830f4a66e3f-Supplemental-Conference.pdf",
+          "pdf_sha256": "7ea0f5fa950f2bbfb150851686ed97a9e0db53f516a509d879b8144f461ec204",
+          "sha256": "d600b236735ba3ab2a8e563efd2799ffc412d72f8aaae196040b83a99247158a",
+          "pixels": [
+            1200,
+            1695
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR2026 separate supplemental PDF, physical page4 = printed page15",
+          "caption_conditions_and_reading_guide": "图 4. 原 Figure 4，独立 Supplemental 物理第 4 页（印刷第 15 页）。横轴是可训练层比例或受限适配方案，纵轴是最终偏好判断准确率；每点为 20 个种子均值，误差棒 ±1 标准差。固定面板比较 DPO 与 AuxDPO，才是容量相同条件的比较。附录图注对 Llama 型号有 Llama-2.3-1B 等笔误，正文型号以主表和实验说明为准，未将笔误另算一个模型。"
+        }
+      ],
+      "read_scope": "Entire 21-page source including appendices; code key paths recorded separately.",
+      "reproduction_executed": false,
+      "source_pdf_total_pages_with_supplement": 21,
+      "supplement": {
+        "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8f6c674a7edf57912f1a5830f4a66e3f-Supplemental-Conference.pdf",
+        "version": "ICLR2026 separate supplemental PDF",
+        "pages": 10,
+        "printed_pages": "12-21",
+        "physical_pages": "1-10",
+        "sha256": "7ea0f5fa950f2bbfb150851686ed97a9e0db53f516a509d879b8144f461ec204",
+        "entire_file_read": true
+      },
+      "folder": "CCF_Papers/2026-11-21",
+      "aliases": [
+        "arxiv:2510.20413",
+        "doi:10.48550/arxiv.2510.20413",
+        "id:arxiv:2510.20413",
+        "title:whydpoisamisspecifiedestimatorandhowtofixit",
+        "url:https://arxiv.org/abs/2510.20413",
+        "url:https://doi.org/10.48550/arxiv.2510.20413",
+        "url:https://iclr.cc/virtual/2026/oral/10008564",
+        "url:https://openreview.net/forum?id=btEiAfnLsX"
+      ]
+    },
+    {
+      "id": "arxiv:2510.19363",
+      "type": "paper",
+      "key": "loong",
+      "title": "LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts",
+      "title_aliases": [],
+      "authors": [
+        "Siyuan Wang",
+        "Zhang, Gaokai",
+        "Li Lyna Zhang",
+        "Shang, Ning",
+        "Fan Yang",
+        "Dongyao Chen",
+        "Mao Yang"
+      ],
+      "published": "2025-10-22",
+      "url": "https://arxiv.org/abs/2510.19363",
+      "arxiv_id": "2510.19363",
+      "doi": "10.48550/arXiv.2510.19363",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2510.19363",
+        "https://doi.org/10.48550/arXiv.2510.19363",
+        "https://iclr.cc/virtual/2026/oral/10007440",
+        "https://openreview.net/forum?id=o29E01Q6bv"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2510.19363",
+      "pdf_url": "https://arxiv.org/pdf/2510.19363v2",
+      "pdf_version": "arXiv v2, 2025-10-27",
+      "source_pdf_pages": 18,
+      "source_pdf_sha256": "1c026fd28fae9879e1453983a11887401260a352141abfac2007654f9a323c1e",
+      "code_url": "https://github.com/rStar-RL/LoongRL",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-21",
+        "commit": "be1f096da289684a9cd50562f56f99b5be6ad3be",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Training repo and separate author-linked KeyChain generation repo inspected.",
+          "Default pure_exact_match checks ground-truth substring in prediction only, whereas paper reward has bidirectional substring matching.",
+          "KeyChain current UUID defaults and paper description differ; default code is not asserted identical to paper data.",
+          "Read version is arXiv v2, not claimed to be camera-ready; OpenReview PDF fetch failed."
+        ]
+      },
+      "project_or_author_blog_url": "https://loongrl.github.io/",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31 revised2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10007440",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+          "page_title": "ICLR Oral LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts",
+          "snapshot": "assets/official-records/loong.html",
+          "snapshot_sha256": "816d9ecd394a04b6491f6b2f3b7c73a8247949244ca16c09caae1c01cc1e945c"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10007440",
+          "label": "oral",
+          "checked_on": "2026-11-21"
+        }
+      },
+      "citation_count": {
+        "value": 26,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4416246797",
+        "queried_at": "2026-11-21",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-20T13:11:24.684918",
+        "raw_record": "assets/citation-records/loong-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "loong-fig2.png",
+          "paper": "loong",
+          "figure": "fig2",
+          "physical_pdf_page": 3,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            218
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.19363v2",
+          "pdf_sha256": "1c026fd28fae9879e1453983a11887401260a352141abfac2007654f9a323c1e",
+          "sha256": "d2b0bd8572fbfd603ee484b0fdf969d3997836feac8092ef6dbc2812aa924e13",
+          "pixels": [
+            1200,
+            414
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "arXiv v2, 2025-10-27",
+          "caption_conditions_and_reading_guide": "图 5. 原 Figure 2，arXiv v2 物理第 3 页，来源为本节 PDF。先过滤原始 QA，再填入干扰文档，最后插入随机 key-value 链；绿色终点是真问题，紫色终点是干扰问题。箭头代表数据构建，不是外部检索工具调用；推理时依然是在提供的上下文中生成答案。"
+        },
+        {
+          "file": "loong-table2.png",
+          "paper": "loong",
+          "figure": "table2",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            268
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.19363v2",
+          "pdf_sha256": "1c026fd28fae9879e1453983a11887401260a352141abfac2007654f9a323c1e",
+          "sha256": "515d5410b57e4f89ae7a95f69334846ea0a4bef0f7bcb3f64c6f63f64b841f0e",
+          "pixels": [
+            1200,
+            564
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "arXiv v2, 2025-10-27",
+          "caption_conditions_and_reading_guide": "图 6. 原 Table 2，arXiv v2 物理第 7 页。左边为 LongBench v1 五个 QA 任务平均，右边是 MMLU、MATH、IFEval。以同尺寸 Qwen2.5-Instruct 为主要基线：7B 48.9→72.4，14B 53.1→74.2，分别 +23.5、+21.1 个百分点。o3-mini 74.5、DeepSeek-R1 74.9 只表示该评估上的接近，训练数据、算力、架构及可用推理预算没有等同。"
+        },
+        {
+          "file": "loong-fig4-table4.png",
+          "paper": "loong",
+          "figure": "fig4-table4",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            79,
+            506,
+            401
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.19363v2",
+          "pdf_sha256": "1c026fd28fae9879e1453983a11887401260a352141abfac2007654f9a323c1e",
+          "sha256": "3368f9b9204dedd8eb048cf290892ea04e315ac740d961f2794fd6e7bf7638c2",
+          "pixels": [
+            1200,
+            966
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "arXiv v2, 2025-10-27",
+          "caption_conditions_and_reading_guide": "图 7. 原 Figure 4 与 Table 4，arXiv v2 物理第 9 页。上图横轴训练步，纵轴分别为 LongBench v1 分数和回答长度；颜色为课程阶段。下表将 KeyChain 换成等量普通 QA、其余 RL 设置保持相同：7B 无 KeyChain 66.2，加入后 72.4，额外 +6.2 个百分点。回答变长与准确率同步上升是观察关联，不能单独证明“更长就是原因”。"
+        },
+        {
+          "file": "loong-table7.png",
+          "paper": "loong",
+          "figure": "table7",
+          "physical_pdf_page": 18,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            296
+          ],
+          "pdf_url": "https://arxiv.org/pdf/2510.19363v2",
+          "pdf_sha256": "1c026fd28fae9879e1453983a11887401260a352141abfac2007654f9a323c1e",
+          "sha256": "663771bb76036958c4883c842401b447184d2891089f9614b8ef7400c7a6e6ef",
+          "pixels": [
+            1200,
+            648
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "arXiv v2, 2025-10-27",
+          "caption_conditions_and_reading_guide": "图 8. 原 Table 7，arXiv v2 物理第 18 页。按相同长度列比较 RULER，7B 的 128K 为 69.41→76.84，14B 为 73.57→79.92；64K/128K 的指定 Qwen 系列使用 YaRN。RULER 的多类检索不是 NIAH 单针压力测试。非推理模型有 completion-style 后缀，推理模型移除后缀并最多生成 8,192 token，模板与预算并非完全一致。"
+        }
+      ],
+      "read_scope": "Entire 18-page source including appendices; code key paths recorded separately.",
+      "reproduction_executed": false,
+      "pdf_version_date": "2025-10-27",
+      "data_code_url": "https://github.com/Wangmerlyn/KeyChain",
+      "folder": "CCF_Papers/2026-11-21",
+      "aliases": [
+        "arxiv:2510.19363",
+        "doi:10.48550/arxiv.2510.19363",
+        "id:arxiv:2510.19363",
+        "title:loongrlreinforcementlearningforadvancedreasoningoverlongcontexts",
+        "url:https://arxiv.org/abs/2510.19363",
+        "url:https://doi.org/10.48550/arxiv.2510.19363",
+        "url:https://iclr.cc/virtual/2026/oral/10007440",
+        "url:https://openreview.net/forum?id=o29E01Q6bv"
+      ]
+    },
+    {
+      "id": "arxiv:2603.11682",
+      "type": "paper",
+      "key": "repo",
+      "title": "Entropy-Preserving Reinforcement Learning",
+      "title_aliases": [],
+      "authors": [
+        "Aleksei Petrenko",
+        "Benjamin Lipkin",
+        "Kevin Chen",
+        "Erik Wijmans",
+        "Marco Cusumano-Towner",
+        "Raja Giryes",
+        "Philipp Krähenbühl"
+      ],
+      "published": "2026-03-12",
+      "url": "https://arxiv.org/abs/2603.11682",
+      "arxiv_id": "2603.11682",
+      "doi": "10.48550/arXiv.2603.11682",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2603.11682",
+        "https://doi.org/10.48550/arXiv.2603.11682",
+        "https://iclr.cc/virtual/2026/poster/10010707",
+        "https://openreview.net/forum?id=E8MR8jgEeZ"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2603.11682",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/124dde499d62b58e97e42a45b26d7369-Paper-Conference.pdf",
+      "pdf_version": "ICLR 2026 camera-ready",
+      "source_pdf_pages": 30,
+      "source_pdf_sha256": "1c371101bed7c0d035292e34626d209ed57fbf92ca0859b15e6f1914fdfec310",
+      "code_url": null,
+      "code_availability": {
+        "status": "reference_snippet_only_full_repository_not_found",
+        "verified_on": "2026-11-21",
+        "commit": null,
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Complete author training repository not found in official paper/conference links, Apple research page and author publications page.",
+          "Read original reference controller and REPO-R code on physical PDF page29; reference snippet is available, complete pipeline is not.",
+          "Practical raw-logp/sign-clamped weighting differs from centered-logp theoretical expression."
+        ]
+      },
+      "project_or_author_blog_url": "https://machinelearning.apple.com/research/entropy-preserving-reinforcement-learning",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31 revised2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10010707",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+          "page_title": "ICLR Poster Entropy-preserving reinforcement learning",
+          "snapshot": "assets/official-records/repo.html",
+          "snapshot_sha256": "cf961249c9bf04f9a541a406484b74af0e0789ed501be2c47fa07aa755d8d48a"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10010707",
+          "label": "poster",
+          "checked_on": "2026-11-21"
+        }
+      },
+      "citation_count": {
+        "value": 13,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7135182870",
+        "queried_at": "2026-11-21",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-20T13:11:24.684918",
+        "raw_record": "assets/citation-records/repo-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "repo-official-fig9.png",
+          "paper": "repo",
+          "figure": "fig9",
+          "physical_pdf_page": 28,
+          "crop_points_from_top_left": [
+            106,
+            134,
+            506,
+            368
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/124dde499d62b58e97e42a45b26d7369-Paper-Conference.pdf",
+          "pdf_sha256": "1c371101bed7c0d035292e34626d209ed57fbf92ca0859b15e6f1914fdfec310",
+          "sha256": "0692d3289c8670c723be2f01d8ff8766f5fff9e271ab978ca5cf1aed30a987ae",
+          "pixels": [
+            1200,
+            702
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 9. 原文 Figure 9，正式 PDF 物理第 28 页。横轴为动作 log probability，纵轴为重加权后的优势；比较原优势（蓝色）与 REPO-D（绿色，ζ=5）/ REPO-R（红色，ζ=0.015）变换。点来自 Qwen3-32B 的 AIME 实验，展示真实优势与概率分布，不是准确率曲线。读图重点是低概率动作的正优势被放大、负优势的惩罚被缓和，以及大多数数据集中在 log π 接近 0 的区域。"
+        },
+        {
+          "file": "repo-official-fig4-6.png",
+          "paper": "repo",
+          "figure": "fig4-6",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            106,
+            312,
+            506,
+            678
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/124dde499d62b58e97e42a45b26d7369-Paper-Conference.pdf",
+          "pdf_sha256": "1c371101bed7c0d035292e34626d209ed57fbf92ca0859b15e6f1914fdfec310",
+          "sha256": "a4bb8ca9cdf148de086ff54cdf71431c2d6d4cc0ff7bdb8cd663783e37eb01d2",
+          "pixels": [
+            1200,
+            1098
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 10. 原文 Figures 4–6，正式 PDF 物理第 8 页；Figure 4 为 Qwen3-8B / AppWorld，Figure 5 为 Qwen3-32B / AppWorld，Figure 6 为 Qwen3-8B / AIME。各子图分别比较 GRPO、RLOO、GSPO、DAPO 等适用基线，新增方法含 ADAPO/REPO。横轴是训练进程，纵轴分别为成功率或熵，须结合图例和各子图模型大小读取。保留曲线与图注，观察早期塌缩和后续恢复，不把单个末点当作独立多次实验的显著性证据。"
+        },
+        {
+          "file": "repo-official-table1-2.png",
+          "paper": "repo",
+          "figure": "table1-2",
+          "physical_pdf_page": 26,
+          "crop_points_from_top_left": [
+            106,
+            235,
+            506,
+            559
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/124dde499d62b58e97e42a45b26d7369-Paper-Conference.pdf",
+          "pdf_sha256": "1c371101bed7c0d035292e34626d209ed57fbf92ca0859b15e6f1914fdfec310",
+          "sha256": "0498c59eb803c793b42462c6632485d42be06094daf9b5ecb95c1a956af92d38",
+          "pixels": [
+            1200,
+            972
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 11. 原文 Tables 1–2，正式 PDF 物理第 26 页；分别为 Qwen3-8B、32B 的 AppWorld，报告 3 个随机种子的均值/标准差、最佳值及熵变化。TN/TC 是不同测试难度，best 不等于 mean。熵变化正负与成功率应同时看，单纯维持熵并不确保最优任务成绩。"
+        },
+        {
+          "file": "repo-official-fig7.png",
+          "paper": "repo",
+          "figure": "fig7",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            78,
+            506,
+            299
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/124dde499d62b58e97e42a45b26d7369-Paper-Conference.pdf",
+          "pdf_sha256": "1c371101bed7c0d035292e34626d209ed57fbf92ca0859b15e6f1914fdfec310",
+          "sha256": "f4a68a7add86c33fe9ddb7d27c2231d548b3ef73b68fffc11ed1a5af799191f1",
+          "pixels": [
+            1200,
+            663
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 12. 原文 Figure 7，正式 PDF 物理第 9 页；Qwen3-8B 在 AIME→AppWorld、AppWorld→AIME 的顺序训练，展示 3 种子平均趋势。比较 REPO 与 GRPO/DAPO 在换任务后是否还能学习；横向阅读切换点后的曲线，不能据此断言所有持续学习场景的遗忘问题已解决。"
+        }
+      ],
+      "read_scope": "Entire 30-page source including appendices; code key paths recorded separately.",
+      "reproduction_executed": false,
+      "additional_author_url": "https://petrenko.sh/publications/",
+      "folder": "CCF_Papers/2026-11-21",
+      "aliases": [
+        "arxiv:2603.11682",
+        "doi:10.48550/arxiv.2603.11682",
+        "id:arxiv:2603.11682",
+        "title:entropypreservingreinforcementlearning",
+        "url:https://arxiv.org/abs/2603.11682",
+        "url:https://doi.org/10.48550/arxiv.2603.11682",
+        "url:https://iclr.cc/virtual/2026/poster/10010707",
+        "url:https://openreview.net/forum?id=E8MR8jgEeZ"
+      ]
+    },
+    {
+      "id": "arxiv:2507.16806",
+      "type": "paper",
+      "key": "rlcr",
+      "title": "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+      "title_aliases": [],
+      "authors": [
+        "Mehul Damani",
+        "Puri, Isha",
+        "Stewart Slocum",
+        "Idan Shenfeld",
+        "Leshem Choshen",
+        "Yoon Kim",
+        "Jacob Andreas"
+      ],
+      "published": "2025-07-22",
+      "url": "https://arxiv.org/abs/2507.16806",
+      "arxiv_id": "2507.16806",
+      "doi": "10.48550/arXiv.2507.16806",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2507.16806",
+        "https://doi.org/10.48550/arXiv.2507.16806",
+        "https://iclr.cc/virtual/2026/poster/10011036",
+        "https://openreview.net/forum?id=ASQ649zdHm"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2507.16806",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/615675cc6e94ddb1a783904fb178b5f6-Paper-Conference.pdf",
+      "pdf_version": "ICLR 2026 camera-ready",
+      "source_pdf_pages": 38,
+      "source_pdf_sha256": "1f6d36390ed3bd11004da481ddb61076887c10748c8948f313f37fb5891e251a",
+      "code_url": "https://github.com/damanimehul/RLCR",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-21",
+        "commit": "be2624b1753d738b9552df4dd6d50ac33b3668ee",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Paper and public configs differ in warmup, math epochs/scheduler/effective batch.",
+          "Public reward includes shifted Brier, format and small extra confidence rewards; not identical to bare theoretical objective.",
+          "Static named key paths; no generated answers or training executed."
+        ]
+      },
+      "project_or_author_blog_url": "https://rl-calibration.github.io/",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31 revised2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10011036",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+          "page_title": "ICLR Poster Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+          "snapshot": "assets/official-records/rlcr.html",
+          "snapshot_sha256": "fabafafc7f995517fd479ac75b0c97263a9bf8a2c6b69b2773040b72012fbd56"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10011036",
+          "label": "poster",
+          "checked_on": "2026-11-21"
+        }
+      },
+      "citation_count": {
+        "value": 116,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4414427575",
+        "queried_at": "2026-11-21",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-20T13:11:24.684918",
+        "raw_record": "assets/citation-records/rlcr-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "rlcr-fig2.png",
+          "paper": "rlcr",
+          "figure": "fig2",
+          "physical_pdf_page": 4,
+          "crop_points_from_top_left": [
+            324,
+            80,
+            506,
+            403
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/615675cc6e94ddb1a783904fb178b5f6-Paper-Conference.pdf",
+          "pdf_sha256": "1f6d36390ed3bd11004da481ddb61076887c10748c8948f313f37fb5891e251a",
+          "sha256": "ab77f093cfabffd123a41c0f93fa916744bacb4b6ef552db31e19429f03143fb",
+          "pixels": [
+            546,
+            969
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 13. 原文 Figure 2，正式 PDF 物理第 4 页。上图是 RLVR 的正确性奖励，下图是 RLCR 的联合奖励；横轴是报告的置信度 q，纵轴是单次奖励，点划线/虚线分别对应答对/答错。RLVR 与 q 无关，RLCR 则让答错且高置信度得到更低奖励；这是奖励函数图，不是期望奖励或实验准确率曲线。论文未提供独立的新模型架构图，本节用原始奖励机制图和文字协议说明流程。"
+        },
+        {
+          "file": "rlcr-table1.png",
+          "paper": "rlcr",
+          "figure": "table1",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            523
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/615675cc6e94ddb1a783904fb178b5f6-Paper-Conference.pdf",
+          "pdf_sha256": "1f6d36390ed3bd11004da481ddb61076887c10748c8948f313f37fb5891e251a",
+          "sha256": "36b8bdce61b717764e89a00d0d0a0afb5003509071e3ba7f975f720c7685f50d",
+          "pixels": [
+            1200,
+            1329
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 14. 原文 Table 1，正式 PDF 物理第 6 页。比较 base、RLVR、后置 BCE/Brier 分类器、探针、答案概率与 RLCR；分 HotpotQA 和数学训练、域内与域外。Acc/AUROC 越高越好，Brier/ECE 越低越好；此主表列点估计；附录逐数据集表中的区间是 bootstrap 95% 置信区间半宽，并非多次训练的标准差。后置分类器使用额外评分过程，与直接输出置信度的流程不同。"
+        },
+        {
+          "file": "rlcr-fig3.png",
+          "paper": "rlcr",
+          "figure": "fig3",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            296
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/615675cc6e94ddb1a783904fb178b5f6-Paper-Conference.pdf",
+          "pdf_sha256": "1f6d36390ed3bd11004da481ddb61076887c10748c8948f313f37fb5891e251a",
+          "sha256": "beb4806983e2a7dfccc81a71bbe2cd79f69a5fa2d753b4c92902fe1c0a58e296",
+          "pixels": [
+            1200,
+            648
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 15. 原文 Figure 3，正式 PDF 物理第 7 页；测试时采样数 N=1…16，比较单纯多数投票、选最高置信度答案和按置信度加权投票。加权票是对同一答案累加各次 q，并非把不同答案的 q 当作已归一化类别概率。读图时同时看采样数和准确率；无需外部 reward model 不代表没有多次生成成本。"
+        },
+        {
+          "file": "rlcr-fig8.png",
+          "paper": "rlcr",
+          "figure": "fig8",
+          "physical_pdf_page": 25,
+          "crop_points_from_top_left": [
+            106,
+            137,
+            506,
+            284
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/615675cc6e94ddb1a783904fb178b5f6-Paper-Conference.pdf",
+          "pdf_sha256": "1f6d36390ed3bd11004da481ddb61076887c10748c8948f313f37fb5891e251a",
+          "sha256": "a99b2940bc9f88fa8da06f8f5ca7f814ee6e0115518ac88a4cee514b9059cbd7",
+          "pixels": [
+            1200,
+            441
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "ICLR 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 16. 原文 Figure 8，正式 PDF 物理第 25 页；HotpotQA 域内评估的校准曲线叠加置信度频数直方图，比较 RLCR、带分析的 RLVR 和 RLVR+BCE 分类器。横轴为置信度；准确率曲线越接近橙色对角线越校准，柱形则显示样本集中在哪些置信度区间。这不是域外结果或训练损失曲线；它能帮助区分真正校准与只输出狭窄置信度范围。"
+        }
+      ],
+      "read_scope": "Entire 38-page source including appendices; code key paths recorded separately.",
+      "reproduction_executed": false,
+      "model_collection_url": "https://huggingface.co/collections/mehuldamani/rlcr-68912f9731b0bce30e4cc8c0",
+      "folder": "CCF_Papers/2026-11-21",
+      "aliases": [
+        "arxiv:2507.16806",
+        "doi:10.48550/arxiv.2507.16806",
+        "id:arxiv:2507.16806",
+        "title:beyondbinaryrewardstraininglmstoreasonabouttheiruncertainty",
+        "url:https://arxiv.org/abs/2507.16806",
+        "url:https://doi.org/10.48550/arxiv.2507.16806",
+        "url:https://iclr.cc/virtual/2026/poster/10011036",
+        "url:https://openreview.net/forum?id=ASQ649zdHm"
+      ]
+    },
+    {
+      "id": "arxiv:2609.09135",
+      "type": "paper",
+      "key": "erpo",
+      "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+      "title_aliases": [],
+      "authors": [
+        "Jiacheng Xu",
+        "Feng Chen",
+        "Xiuneng Xu",
+        "Bo An"
+      ],
+      "published": "2026-09-08",
+      "url": "https://arxiv.org/abs/2609.09135",
+      "arxiv_id": "2609.09135",
+      "doi": "10.48550/arXiv.2609.09135",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2609.09135",
+        "https://doi.org/10.48550/arXiv.2609.09135",
+        "https://aclanthology.org/2026.emnlp-main.2102/"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2609.09135",
+      "pdf_url": "https://aclanthology.org/2026.emnlp-main.2102.pdf",
+      "pdf_version": "EMNLP 2026 camera-ready",
+      "source_pdf_pages": 15,
+      "source_pdf_sha256": "7397240420af763d0612fc918534293634f1c24d4a1dafa12e3c93696dd0a0c0",
+      "code_url": "https://github.com/xiaobanni/erpo",
+      "code_availability": {
+        "status": "implementation_available",
+        "verified_on": "2026-11-21",
+        "commit": "2966f7634c43a73c521a97820d7af106a0d05953",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Rank masking retains signed lower-ranked advantages, not mathematically guaranteed negative-only.",
+          "PCR handles tied majorities and excludes failed executions; public-test diagnostics remain in reward manager; hidden tests used under validation branch in inspected paths.",
+          "Static key paths only, not a full security/dataflow audit; no candidate program execution."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "EMNLP",
+      "acceptance_year": 2026,
+      "ccf_rank": "B",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31 revised2026-04-09",
+          "physical_pdf_page": 58,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://aclanthology.org/2026.emnlp-main.2102/",
+          "venue": "EMNLP",
+          "year": 2026,
+          "basis": "Official conference entry or proceedings and full regular manuscript; not workshop, Findings, short or demo.",
+          "page_title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation - ACL Anthology",
+          "snapshot": "assets/official-records/erpo.html",
+          "snapshot_sha256": "2f9c7b8c2e65a0b37a25216d4fd755422eec2904ea8c6094f6ff54a96b6979ee"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+          "label": "oral",
+          "checked_on": "2026-11-21",
+          "program_url": "https://2026.emnlp.org/program/",
+          "paper_id": "6640-MAIN",
+          "mode": "In-Person",
+          "session": "Session9 / Multiple Tracks3",
+          "date": "2026-10-26",
+          "time": "16:45-18:15",
+          "room": "F4-5",
+          "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350",
+          "matched_row_record": "assets/emnlp-schedule-evidence.json"
+        }
+      },
+      "citation_count": {
+        "value": 0,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7212068264",
+        "queried_at": "2026-11-21",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-16T12:05:36.265796",
+        "raw_record": "assets/citation-records/erpo-openalex.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "DOI/arXiv alias"
+        ],
+        "unavailable_reason": null,
+        "unverified_index_doi": "https://doi.org/10.18653/2026.emnlp-main.2102"
+      },
+      "figures": [
+        {
+          "file": "erpo-fig2.png",
+          "paper": "erpo",
+          "figure": "fig2",
+          "physical_pdf_page": 3,
+          "crop_points_from_top_left": [
+            68,
+            69,
+            529,
+            335
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2102.pdf",
+          "pdf_sha256": "7397240420af763d0612fc918534293634f1c24d4a1dafa12e3c93696dd0a0c0",
+          "sha256": "d88d70a403e58f73e90b3aa84c15e0f62e6cb35037d24e287915e4a6f92c1b3e",
+          "pixels": [
+            1383,
+            798
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "EMNLP 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 17. 原文 Figure 2，正式 PDF 物理第 3 页。题目产生 candidate programs 和无标签 probe inputs，经执行得到每个输入上的多数输出，汇总 PCR 分数，再做 rank masking、entropy regularization 更新。蓝色/箭头表示数据和计算流程，不是模型性能曲线。训练不使用隐藏答案作为奖励；下文单独说明代码中存在公开测试诊断与验证入口。"
+        },
+        {
+          "file": "erpo-table1.png",
+          "paper": "erpo",
+          "figure": "table1",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            68,
+            69,
+            529,
+            273
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2102.pdf",
+          "pdf_sha256": "7397240420af763d0612fc918534293634f1c24d4a1dafa12e3c93696dd0a0c0",
+          "sha256": "554efe8b3bc1c29b46fd0ff740bb234ebd1a8c7c660b641fd935da4ec6ae929e",
+          "pixels": [
+            1383,
+            612
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "EMNLP 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 18. 原文 Table 1，正式 PDF 物理第 6 页。报告 LiveCodeBench 及三个迁移集的 pass@1/pass@16，比较 Base、GRPO(PubTest)、GRPO(PCR)、NSR(PCR) 与 ERPO。pass@16 表示 16 个样本中至少一个通过的估计，属于有正确性判断的覆盖率指标，不是无需验证器就能选中正确答案的部署成功率。"
+        },
+        {
+          "file": "erpo-fig4.png",
+          "paper": "erpo",
+          "figure": "fig4",
+          "physical_pdf_page": 13,
+          "crop_points_from_top_left": [
+            68,
+            241,
+            529,
+            419
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2102.pdf",
+          "pdf_sha256": "7397240420af763d0612fc918534293634f1c24d4a1dafa12e3c93696dd0a0c0",
+          "sha256": "e9ca218e88a8344633c576c91194dcef48fa427767dec615aa0232c49c6d2a69",
+          "pixels": [
+            1383,
+            534
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "EMNLP 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 19. 原文 Figure 4，正式 PDF 物理第 13 页。比较各更新方法训练进程中的准确率、熵等曲线；NSR 只展示至约第 50 步，随后发生不稳定。读图时注意横轴覆盖不同，不把截短曲线补成不存在的后续结果。ERPO 的软熵约束抑制发散，不能证明在所有任务上不塌缩。"
+        },
+        {
+          "file": "erpo-table9.png",
+          "paper": "erpo",
+          "figure": "table9",
+          "physical_pdf_page": 14,
+          "crop_points_from_top_left": [
+            305,
+            399,
+            531,
+            511
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.2102.pdf",
+          "pdf_sha256": "7397240420af763d0612fc918534293634f1c24d4a1dafa12e3c93696dd0a0c0",
+          "sha256": "64f5e6192c832642cf6df6a15aac7b189194583cdee76b206a1817f28136d3d7",
+          "pixels": [
+            678,
+            336
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing.",
+          "pdf_version": "EMNLP 2026 camera-ready",
+          "caption_conditions_and_reading_guide": "图 20. 原文 Table 9，正式 PDF 物理第 14 页。比较屏蔽最高优势的 10%、25%、50%、75%，指标为两种模型的 pass@1/pass@16；其余条件沿用测试时训练配置。不是“保留百分比”。4B 25% 的 pass@1 36.9 略高于默认 50% 的 36.7；8B 50% 的 pass@16 50.9 高于 25% 的 47.4，默认值并不对所有单项指标最优。"
+        }
+      ],
+      "read_scope": "Entire 15-page source including appendices; code key paths recorded separately.",
+      "reproduction_executed": false,
+      "proceedings_pages": "47843-47857",
+      "identity_note": "arXiv and proceedings manually matched by title/authors and official artifact. OpenAlex conference DOI not independently verified on Anthology and not treated as canonical evidence.",
+      "folder": "CCF_Papers/2026-11-21",
+      "aliases": [
+        "arxiv:2609.09135",
+        "doi:10.48550/arxiv.2609.09135",
+        "id:arxiv:2609.09135",
+        "title:entropyregularizedrankmaskedpolicyoptimizationfortesttimereinforcementlearningincodegeneration",
+        "url:https://aclanthology.org/2026.emnlp-main.2102",
+        "url:https://arxiv.org/abs/2609.09135",
+        "url:https://doi.org/10.48550/arxiv.2609.09135"
+      ]
+    },
+    {
       "id": "arxiv:2510.13786",
       "type": "paper",
       "key": "scale",
@@ -7116,6 +8108,45 @@
     "id:arxiv:2611.12411": "OPSD/2026-11-16",
     "title:physopsdcodeasprivilegeforphysicallyplausiblevideogeneration": "OPSD/2026-11-16",
     "url:https://arxiv.org/abs/2611.12411": "OPSD/2026-11-16",
+    "arxiv:2510.20413": "CCF_Papers/2026-11-21",
+    "doi:10.48550/arxiv.2510.20413": "CCF_Papers/2026-11-21",
+    "id:arxiv:2510.20413": "CCF_Papers/2026-11-21",
+    "title:whydpoisamisspecifiedestimatorandhowtofixit": "CCF_Papers/2026-11-21",
+    "url:https://arxiv.org/abs/2510.20413": "CCF_Papers/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2510.20413": "CCF_Papers/2026-11-21",
+    "url:https://iclr.cc/virtual/2026/oral/10008564": "CCF_Papers/2026-11-21",
+    "url:https://openreview.net/forum?id=btEiAfnLsX": "CCF_Papers/2026-11-21",
+    "arxiv:2510.19363": "CCF_Papers/2026-11-21",
+    "doi:10.48550/arxiv.2510.19363": "CCF_Papers/2026-11-21",
+    "id:arxiv:2510.19363": "CCF_Papers/2026-11-21",
+    "title:loongrlreinforcementlearningforadvancedreasoningoverlongcontexts": "CCF_Papers/2026-11-21",
+    "url:https://arxiv.org/abs/2510.19363": "CCF_Papers/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2510.19363": "CCF_Papers/2026-11-21",
+    "url:https://iclr.cc/virtual/2026/oral/10007440": "CCF_Papers/2026-11-21",
+    "url:https://openreview.net/forum?id=o29E01Q6bv": "CCF_Papers/2026-11-21",
+    "arxiv:2603.11682": "CCF_Papers/2026-11-21",
+    "doi:10.48550/arxiv.2603.11682": "CCF_Papers/2026-11-21",
+    "id:arxiv:2603.11682": "CCF_Papers/2026-11-21",
+    "title:entropypreservingreinforcementlearning": "CCF_Papers/2026-11-21",
+    "url:https://arxiv.org/abs/2603.11682": "CCF_Papers/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2603.11682": "CCF_Papers/2026-11-21",
+    "url:https://iclr.cc/virtual/2026/poster/10010707": "CCF_Papers/2026-11-21",
+    "url:https://openreview.net/forum?id=E8MR8jgEeZ": "CCF_Papers/2026-11-21",
+    "arxiv:2507.16806": "CCF_Papers/2026-11-21",
+    "doi:10.48550/arxiv.2507.16806": "CCF_Papers/2026-11-21",
+    "id:arxiv:2507.16806": "CCF_Papers/2026-11-21",
+    "title:beyondbinaryrewardstraininglmstoreasonabouttheiruncertainty": "CCF_Papers/2026-11-21",
+    "url:https://arxiv.org/abs/2507.16806": "CCF_Papers/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2507.16806": "CCF_Papers/2026-11-21",
+    "url:https://iclr.cc/virtual/2026/poster/10011036": "CCF_Papers/2026-11-21",
+    "url:https://openreview.net/forum?id=ASQ649zdHm": "CCF_Papers/2026-11-21",
+    "arxiv:2609.09135": "CCF_Papers/2026-11-21",
+    "doi:10.48550/arxiv.2609.09135": "CCF_Papers/2026-11-21",
+    "id:arxiv:2609.09135": "CCF_Papers/2026-11-21",
+    "title:entropyregularizedrankmaskedpolicyoptimizationfortesttimereinforcementlearningincodegeneration": "CCF_Papers/2026-11-21",
+    "url:https://aclanthology.org/2026.emnlp-main.2102": "CCF_Papers/2026-11-21",
+    "url:https://arxiv.org/abs/2609.09135": "CCF_Papers/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2609.09135": "CCF_Papers/2026-11-21",
     "arxiv:2510.13786": "CCF_Papers/2026-11-20",
     "doi:10.48550/arxiv.2510.13786": "CCF_Papers/2026-11-20",
     "id:arxiv:2510.13786": "CCF_Papers/2026-11-20",

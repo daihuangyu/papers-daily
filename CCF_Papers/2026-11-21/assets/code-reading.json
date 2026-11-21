@@ -1,0 +1,207 @@
+[
+  {
+    "paper": "dpo",
+    "repository": "https://github.com/Debangshu93/AuxDPO",
+    "commit": "bfc84340123224347967939cbed6e43906735acf",
+    "archive_sha256": "dc5318e950cb69551b7dfc61ce48493d2142fa657837919a332ccd998e97d6f1",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/Debangshu93/AuxDPO/blob/bfc84340123224347967939cbed6e43906735acf/README.md",
+        "sha256": "3c8b7b44310996efdb524332594dea340d5c141f31e1d5466e44aa2cf47ab652"
+      },
+      {
+        "path": "aux-dpo.ipynb",
+        "url": "https://github.com/Debangshu93/AuxDPO/blob/bfc84340123224347967939cbed6e43906735acf/aux-dpo.ipynb",
+        "sha256": "1786f6183b12c04bc7a28009d809bc2cafd02bcd710b91ee2fd0e44318f98a14"
+      },
+      {
+        "path": "Datasets Creation/prepare_rewardbench_dataset.ipynb",
+        "url": "https://github.com/Debangshu93/AuxDPO/blob/bfc84340123224347967939cbed6e43906735acf/Datasets%20Creation/prepare_rewardbench_dataset.ipynb",
+        "sha256": "09747df1761b953ad2f548b62ca0bb951dd2381df33ba9bfddde8e62a9e5b119"
+      },
+      {
+        "path": "Datasets Creation/prepare_ultra_dataset.ipynb",
+        "url": "https://github.com/Debangshu93/AuxDPO/blob/bfc84340123224347967939cbed6e43906735acf/Datasets%20Creation/prepare_ultra_dataset.ipynb",
+        "sha256": "0a6b2c4a772b0f4ce4c3f12085ab07139343354c614473a1c379288ffc8451c6"
+      },
+      {
+        "path": "Evaluation /mmlu_eval.ipynb",
+        "url": "https://github.com/Debangshu93/AuxDPO/blob/bfc84340123224347967939cbed6e43906735acf/Evaluation%20/mmlu_eval.ipynb",
+        "sha256": "f55793baee30bddd95d2f812f538a56c9b2cdc416d08ff5d65ff92c140c1c989"
+      },
+      {
+        "path": "Evaluation /helpers.ipynb",
+        "url": "https://github.com/Debangshu93/AuxDPO/blob/bfc84340123224347967939cbed6e43906735acf/Evaluation%20/helpers.ipynb",
+        "sha256": "7179b4a742ae66b2e8ae1c65ca5e5fd26e07b2230e4d0a7ddcc9ba7a8d762a9d"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Static notebook reading, including dataset and evaluation paths; no GPU execution.",
+      "Reference-model gradient detachment, auxiliary beta scaling and null-space penalty implementation caveats detailed in report."
+    ]
+  },
+  {
+    "paper": "loong",
+    "repository": "https://github.com/rStar-RL/LoongRL",
+    "commit": "be1f096da289684a9cd50562f56f99b5be6ad3be",
+    "archive_sha256": "e943869f59737f3d10cdcd327311cdd2f16ec45e7b418d9fa4afde05f2447295",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/rStar-RL/LoongRL/blob/be1f096da289684a9cd50562f56f99b5be6ad3be/README.md",
+        "sha256": "b2d016891050c423cd7dec80efba87a009263ad1b5b8a138597c2cf8b6007427"
+      },
+      {
+        "path": "verl/verl/utils/reward_score/longcontext_qa.py",
+        "url": "https://github.com/rStar-RL/LoongRL/blob/be1f096da289684a9cd50562f56f99b5be6ad3be/verl/verl/utils/reward_score/longcontext_qa.py",
+        "sha256": "7cfb4147c561c3063593fcf4dd0951e591ed4a05f360e5a20011ab54e3dd1663"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Training repo and separate author-linked KeyChain generation repo inspected.",
+      "Default pure_exact_match checks ground-truth substring in prediction only, whereas paper reward has bidirectional substring matching.",
+      "KeyChain current UUID defaults and paper description differ; default code is not asserted identical to paper data.",
+      "Read version is arXiv v2, not claimed to be camera-ready; OpenReview PDF fetch failed."
+    ]
+  },
+  {
+    "paper": "repo",
+    "repository": null,
+    "commit": null,
+    "files": [],
+    "reference_code": {
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/124dde499d62b58e97e42a45b26d7369-Paper-Conference.pdf",
+      "physical_pdf_page": 29
+    },
+    "experiments_executed": false,
+    "notes": [
+      "Complete author training repository not found in official paper/conference links, Apple research page and author publications page.",
+      "Read original reference controller and REPO-R code on physical PDF page29; reference snippet is available, complete pipeline is not.",
+      "Practical raw-logp/sign-clamped weighting differs from centered-logp theoretical expression."
+    ]
+  },
+  {
+    "paper": "rlcr",
+    "repository": "https://github.com/damanimehul/RLCR",
+    "commit": "be2624b1753d738b9552df4dd6d50ac33b3668ee",
+    "archive_sha256": "48752c0dc6062b5d2aac804e4aef0ead033f93dc4a372891b14b817b56246122",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/damanimehul/RLCR/blob/be2624b1753d738b9552df4dd6d50ac33b3668ee/README.md",
+        "sha256": "c41375987404bd9a11bc7ef8093af90a866cebfd4ef636677e92111e360a8368"
+      },
+      {
+        "path": "reward_fns.py",
+        "url": "https://github.com/damanimehul/RLCR/blob/be2624b1753d738b9552df4dd6d50ac33b3668ee/reward_fns.py",
+        "sha256": "1daea6acd016b6c5dc8b7bbaf0beedcf8863b03bf53a0d4da4c3ea45ce59e696"
+      },
+      {
+        "path": "GRPO_Trainer.py",
+        "url": "https://github.com/damanimehul/RLCR/blob/be2624b1753d738b9552df4dd6d50ac33b3668ee/GRPO_Trainer.py",
+        "sha256": "27532e0ca6966f9562acd58e0ae85f0fd06fe3f8748b9c9adf36d97707d66933"
+      },
+      {
+        "path": "configs/Qwen-7B/hotpot/RLCR.yaml",
+        "url": "https://github.com/damanimehul/RLCR/blob/be2624b1753d738b9552df4dd6d50ac33b3668ee/configs/Qwen-7B/hotpot/RLCR.yaml",
+        "sha256": "72422f898d916f58bb53ff59be2e2fb2a1023325ea27c301f23a4b0d2fc0e0a7"
+      },
+      {
+        "path": "configs/Qwen-7B/math/RLCR.yaml",
+        "url": "https://github.com/damanimehul/RLCR/blob/be2624b1753d738b9552df4dd6d50ac33b3668ee/configs/Qwen-7B/math/RLCR.yaml",
+        "sha256": "7312a4e2f888d01168f855ed7090215f8fdb1e9316d5b6d99113933dee9aac55"
+      },
+      {
+        "path": "train_runs.sh",
+        "url": "https://github.com/damanimehul/RLCR/blob/be2624b1753d738b9552df4dd6d50ac33b3668ee/train_runs.sh",
+        "sha256": "c630da3af14ec3b59fa4c4eaab3020504b91665a5069426e3ab23e42a1535f54"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Paper and public configs differ in warmup, math epochs/scheduler/effective batch.",
+      "Public reward includes shifted Brier, format and small extra confidence rewards; not identical to bare theoretical objective.",
+      "Static named key paths; no generated answers or training executed."
+    ]
+  },
+  {
+    "paper": "erpo",
+    "repository": "https://github.com/xiaobanni/erpo",
+    "commit": "2966f7634c43a73c521a97820d7af106a0d05953",
+    "archive_sha256": "3ca53ed6b06270aeff58c9ac502fbbfab545c4f9e9ec55ba745f214dda4a87a1",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/xiaobanni/erpo/blob/2966f7634c43a73c521a97820d7af106a0d05953/README.md",
+        "sha256": "83e2e0734b3a5f3719b7af23f7377b3f88f1ea7cb6e27ec2799bc7ba123b6d42"
+      },
+      {
+        "path": "recipe/code_bench/scripts/train.sh",
+        "url": "https://github.com/xiaobanni/erpo/blob/2966f7634c43a73c521a97820d7af106a0d05953/recipe/code_bench/scripts/train.sh",
+        "sha256": "2091031bd8c82bf39f0fcefb548804b0e51f6b3ac7f5ffc787d94ae418bef461"
+      },
+      {
+        "path": "recipe/code_bench/fmv_pointwise.py",
+        "url": "https://github.com/xiaobanni/erpo/blob/2966f7634c43a73c521a97820d7af106a0d05953/recipe/code_bench/fmv_pointwise.py",
+        "sha256": "690ce956326d346e47ed785693298fa214ebcd0e09bdae1e554b34372945b577"
+      },
+      {
+        "path": "recipe/code_bench/test_rl_reward_manager.py",
+        "url": "https://github.com/xiaobanni/erpo/blob/2966f7634c43a73c521a97820d7af106a0d05953/recipe/code_bench/test_rl_reward_manager.py",
+        "sha256": "33b50d6cc2b96386f9b504096ac7f86fd85763b299f75b2a467875a14d332f76"
+      },
+      {
+        "path": "verl/trainer/ppo/core_algos.py",
+        "url": "https://github.com/xiaobanni/erpo/blob/2966f7634c43a73c521a97820d7af106a0d05953/verl/trainer/ppo/core_algos.py",
+        "sha256": "fa64d3ba6bcea232ba2e24e90d2ea9b1050cb58fa5ee75806ef121eb5d7a2464"
+      },
+      {
+        "path": "verl/workers/actor/dp_actor.py",
+        "url": "https://github.com/xiaobanni/erpo/blob/2966f7634c43a73c521a97820d7af106a0d05953/verl/workers/actor/dp_actor.py",
+        "sha256": "375b5ac730aa9d064f1161afc5c08e34d4ac0dd3371561fd32f164a6ab00464b"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Rank masking retains signed lower-ranked advantages, not mathematically guaranteed negative-only.",
+      "PCR handles tied majorities and excludes failed executions; public-test diagnostics remain in reward manager; hidden tests used under validation branch in inspected paths.",
+      "Static key paths only, not a full security/dataflow audit; no candidate program execution."
+    ]
+  },
+  {
+    "paper": "keychain",
+    "repository": "https://github.com/Wangmerlyn/KeyChain",
+    "commit": "a958c9136011e3ebef1b9399c09b439578dde409",
+    "archive_sha256": "ea0407167f2dc9fd4e95a1b96bc181f0f1e1366a1d42daad7fd80504d44c653b",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/Wangmerlyn/KeyChain/blob/a958c9136011e3ebef1b9399c09b439578dde409/README.md",
+        "sha256": "976c6aadf2ca6cb8caf8733f66b62945e8085fd29648b46055c0bf4c0bbd1f8e"
+      },
+      {
+        "path": "uuid_test.py",
+        "url": "https://github.com/Wangmerlyn/KeyChain/blob/a958c9136011e3ebef1b9399c09b439578dde409/uuid_test.py",
+        "sha256": "645c629547d19222166942535cac4f3b756a75ad2eee2b74ab9edaf711f9df1d"
+      },
+      {
+        "path": "qa_qwen_filtered_add_distractor.py",
+        "url": "https://github.com/Wangmerlyn/KeyChain/blob/a958c9136011e3ebef1b9399c09b439578dde409/qa_qwen_filtered_add_distractor.py",
+        "sha256": "64b45f98dc4a3eaea60277d004064cf71f47ed7d40e5b9202aff5165c8042a9b"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "for_paper": "loong",
+    "notes": [
+      "Read UUID and insertion/generation relevant sections, not every dataset-building file."
+    ]
+  }
+]

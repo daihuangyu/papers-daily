@@ -1,0 +1,307 @@
+{
+  "pages": 29,
+  "original_images": 20,
+  "markdown_characters": 31597,
+  "text_lines_checked": 277,
+  "missing_lines": [],
+  "text_characters_per_page": [
+    1541,
+    1844,
+    672,
+    1776,
+    1098,
+    238,
+    839,
+    1248,
+    1658,
+    449,
+    364,
+    1287,
+    1016,
+    1515,
+    533,
+    715,
+    1159,
+    522,
+    675,
+    930,
+    481,
+    865,
+    1282,
+    1023,
+    1072,
+    620,
+    817,
+    1538,
+    242
+  ],
+  "out_of_page_characters": [],
+  "markdown_sha256": "c7acad5cc3667e5ae67a61c125cc1f597332f3130d4dc9e74f1c62e0ad19bfae",
+  "pdf_sha256": "bf60009ff7ed33a2a9dec8aa8f2dec01b805be490eb791b983b7b5cb8f557b2c",
+  "visual_review": {
+    "status": "passed",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "method": "All29pages rendered at1.5x and visually inspected through all5contact sheets; pages4,14,19,25 additionally inspected at full rendered size. All20final original crops visually inspected in4asset sheets.",
+    "original_figures_reviewed": 20,
+    "source_crop_corrections": [
+      "DPO Table2 bottom expanded to preserve final caption.",
+      "LoongRL Figure4/Table4 crop trimmed below complete table to remove partial following prose.",
+      "ERPO Table9 left edge expanded to preserve caption initial letter."
+    ],
+    "caption_verification": "Corrected RLCR Figure2 axis meaning, Figure8 calibration-histogram description, REPO Figure6 AIME condition, Figure7 DAPO baseline and Figure9 actual AIME data provenance before final render."
+  },
+  "font_check": {
+    "status": "passed",
+    "missing_glyphs": 0,
+    "font": "Embedded STSongti-TC-Bold TrueType subsets with ToUnicode",
+    "text_font_resources": {
+      "/F2+0": "/AAAAAA+STSongti-TC-Bold",
+      "/F2+1": "/AAAAAB+STSongti-TC-Bold",
+      "/F2+2": "/AAAAAC+STSongti-TC-Bold",
+      "/F2+3": "/AAAAAD+STSongti-TC-Bold"
+    },
+    "unused_unembedded_resource": "Helvetica exists as unused PDF resource; no text drawn with it.",
+    "notation_substitution": "Unsupported gradient/transpose/preference glyphs replaced by explicit grad_, ^T and Chinese relation with definitions before rendering."
+  },
+  "image_integrity": {
+    "all_original_assets_embedded_pixel_identically": true,
+    "images": [
+      {
+        "file": "dpo-fig1.png",
+        "report_page": 3,
+        "dimensions": [
+          789,
+          843
+        ],
+        "decoded_rgb_sha256": "6906cc41bc51ddfc2004aa677f2caf24e6e8118b4eb05724061445b4b903057f",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "dpo-table1.png",
+        "report_page": 5,
+        "dimensions": [
+          1206,
+          627
+        ],
+        "decoded_rgb_sha256": "36b41d61c33c439af2d9f1a2700f0e17b84f580e40a28314ed669f4ee3dec9a8",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "dpo-table2.png",
+        "report_page": 6,
+        "dimensions": [
+          1206,
+          705
+        ],
+        "decoded_rgb_sha256": "a6a23bbc6f8763b2e24d42d5b1eac167be64c3d86f22035a07939e1adecbdcbb",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "dpo-supp-fig4.png",
+        "report_page": 7,
+        "dimensions": [
+          1200,
+          1695
+        ],
+        "decoded_rgb_sha256": "c9d9f0ba34ce74bcbb0b33e74ed646f5a70da1b0663be11d2bf2ef146340f9bd",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "loong-fig2.png",
+        "report_page": 8,
+        "dimensions": [
+          1200,
+          414
+        ],
+        "decoded_rgb_sha256": "7d112a77f79d28bc29765fca746ae156f27eb09d89ba40fdb86b963dffcfc42a",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "loong-table2.png",
+        "report_page": 10,
+        "dimensions": [
+          1200,
+          564
+        ],
+        "decoded_rgb_sha256": "87e2530bc96a14ce65c4b543daf8bbbce76d50d99e9342e8323cdf20b43fbc51",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "loong-fig4-table4.png",
+        "report_page": 11,
+        "dimensions": [
+          1200,
+          966
+        ],
+        "decoded_rgb_sha256": "d4df5265d74127c3ad91565bba855cfda8e5c644f8a43af928352e1ad1bbce7e",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "loong-table7.png",
+        "report_page": 12,
+        "dimensions": [
+          1200,
+          648
+        ],
+        "decoded_rgb_sha256": "de9f61d53c16d5c1265040f7be8e56765bb2d3916d3d820390f6227062123663",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "repo-official-fig9.png",
+        "report_page": 13,
+        "dimensions": [
+          1200,
+          702
+        ],
+        "decoded_rgb_sha256": "f3765baac18583fc98e004d0cb2d76d57e224b7a3ce8f76e266cf58b08e6c5e2",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "repo-official-fig4-6.png",
+        "report_page": 15,
+        "dimensions": [
+          1200,
+          1098
+        ],
+        "decoded_rgb_sha256": "f346b6155ae46be516a9f51a7e8ecb69e2cff7a81b7a99950ffa6c48c91a6d90",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "repo-official-table1-2.png",
+        "report_page": 16,
+        "dimensions": [
+          1200,
+          972
+        ],
+        "decoded_rgb_sha256": "df3fe851598cb847f5788250444b11aa2d9f09cf858365723993ec5a3d4eefe8",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "repo-official-fig7.png",
+        "report_page": 17,
+        "dimensions": [
+          1200,
+          663
+        ],
+        "decoded_rgb_sha256": "e9784f53a34ff3e3ba352dee35c6842346eed42c9b8a3566bd76ee0be6ed4c12",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "rlcr-fig2.png",
+        "report_page": 19,
+        "dimensions": [
+          546,
+          969
+        ],
+        "decoded_rgb_sha256": "1b828ec1bcfa0b098d5cfc38331b60e6b6bb0af3a83efb6a68c6786860528804",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "rlcr-table1.png",
+        "report_page": 21,
+        "dimensions": [
+          1200,
+          1329
+        ],
+        "decoded_rgb_sha256": "d1c4f2eebd215400c7edb7b44408666a65663b11dc6d0dc0074a5d3023fccc67",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "rlcr-fig3.png",
+        "report_page": 22,
+        "dimensions": [
+          1200,
+          648
+        ],
+        "decoded_rgb_sha256": "303e3b029f62267cf36c08d025f3916b914dc6ee114163ab19f6a24761dbbe5c",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "rlcr-fig8.png",
+        "report_page": 23,
+        "dimensions": [
+          1200,
+          441
+        ],
+        "decoded_rgb_sha256": "354b86b262c5d9ead742c5538a6331a6c1b095be7717c34e5598ca97e50f9a0a",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "erpo-fig2.png",
+        "report_page": 24,
+        "dimensions": [
+          1383,
+          798
+        ],
+        "decoded_rgb_sha256": "31d4307e5cbfa35b568a3da2292ef5930e1035f4e714a89cec7f95c07af8f8b7",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "erpo-table1.png",
+        "report_page": 26,
+        "dimensions": [
+          1383,
+          612
+        ],
+        "decoded_rgb_sha256": "07cb2e2b749a3b62f25b047edcd6b8113b79d74b38f136d3d7ed62ca62ec9b65",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "erpo-table9.png",
+        "report_page": 27,
+        "dimensions": [
+          678,
+          336
+        ],
+        "decoded_rgb_sha256": "e5f506749c3298139964273685c673ad565d4f7954786bcb1e916f81cdbe95be",
+        "pixel_identical_to_asset": true
+      },
+      {
+        "file": "erpo-fig4.png",
+        "report_page": 27,
+        "dimensions": [
+          1383,
+          534
+        ],
+        "decoded_rgb_sha256": "2604ac12e15aec24366842f3894ed114b7acb88ea7fd9216ccd35b827872554e",
+        "pixel_identical_to_asset": true
+      }
+    ],
+    "image_bounds_passed": true
+  },
+  "renderer": {
+    "adapter_sha256": "f5b0b5ecb5970d4a5712066f577c769b98e01dad0a1b31f4ec8fc51090327725",
+    "shared_renderer_sha256": "bee2e6c10aa50682d4c1f122b0cafb5169f2df38b465ed8681feac6d29374382",
+    "font_sha256": "19d520cef1e3526ab10eef322a436a78cded57d0389682f9e21485c21c9a421c"
+  }
+}
