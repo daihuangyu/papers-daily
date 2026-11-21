@@ -1384,6 +1384,530 @@
       ]
     },
     {
+      "id": "arxiv:2611.20687",
+      "type": "paper",
+      "title": "Rethinking Supervision Scaling in On-Policy Distillation: From Dense Supervision to Stochastic Horizons",
+      "method": "SH-OPD",
+      "published": "2026-11-16",
+      "arxiv_id": "2611.20687",
+      "doi": "10.48550/arXiv.2611.20687",
+      "url": "https://arxiv.org/abs/2611.20687",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.20687",
+        "https://doi.org/10.48550/arXiv.2611.20687"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.20687v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.20687v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "f3dece9a1e9ffe8d984e35735a0cbbdd020cd8cb925825509894037829fb7de9",
+      "publication_evidence_snapshot_sha256": "c3649f959556b7d968b60b5aa96acaf579f88f96876408c3b200a4736e4696a3",
+      "code_url": "https://github.com/chen123CtrlS/SH-OPD",
+      "code_status": "Official repository linked by authors; selected core implementation and launcher/config files statically checked at pinned commit; no GPU training executed",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified on 2026-11-21",
+      "figures": [
+        {
+          "file": "assets/sh-fig1.png",
+          "arxiv_id": "2611.20687",
+          "page": 1,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.07,
+            0.23,
+            0.93,
+            0.59
+          ],
+          "sha256": "7ff82830252fc50814c9540f3dcb171d6f9d020691b3a31acd90a51bdca77513",
+          "source_url": "https://arxiv.org/pdf/2611.20687v1"
+        },
+        {
+          "file": "assets/sh-fig3.png",
+          "arxiv_id": "2611.20687",
+          "page": 8,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.1,
+            0.1,
+            0.9,
+            0.595
+          ],
+          "sha256": "12c194e5b788e4823580e1e24946cde03ca63bdde7d89f324658cdf6bdb49b76",
+          "source_url": "https://arxiv.org/pdf/2611.20687v1"
+        },
+        {
+          "file": "assets/sh-fig4.png",
+          "arxiv_id": "2611.20687",
+          "page": 14,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.1,
+            0.105,
+            0.9,
+            0.55
+          ],
+          "sha256": "2b0d9b19b626e1a91ed9f3a6bf174dabd81d96a8818781b42ceae3a661595005",
+          "source_url": "https://arxiv.org/pdf/2611.20687v1"
+        }
+      ],
+      "code_commit": "98467d23930e2197dd0b240af9e37cc7c5c3f505",
+      "code_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/chen123CtrlS/SH-OPD/blob/98467d23930e2197dd0b240af9e37cc7c5c3f505/README.md",
+          "sha256": "485a14a3356bc2180eae1750f955365e1e71196abb1b6dea60c47174b7057b8d"
+        },
+        {
+          "path": "verl/verl/utils/random_horizon.py",
+          "url": "https://github.com/chen123CtrlS/SH-OPD/blob/98467d23930e2197dd0b240af9e37cc7c5c3f505/verl/verl/utils/random_horizon.py",
+          "sha256": "40d1e5565c90cde33e612dd17b89f383dc754e095d68b85643cb86ea2bbaef7d"
+        },
+        {
+          "path": "recipe/ratio_run.sh",
+          "url": "https://github.com/chen123CtrlS/SH-OPD/blob/98467d23930e2197dd0b240af9e37cc7c5c3f505/recipe/ratio_run.sh",
+          "sha256": "27125b82f55f4a5e142957225aa6d7005fc0243c077045c034bcdaf41f7e7b19"
+        },
+        {
+          "path": "recipe/opd_fulldata.sh",
+          "url": "https://github.com/chen123CtrlS/SH-OPD/blob/98467d23930e2197dd0b240af9e37cc7c5c3f505/recipe/opd_fulldata.sh",
+          "sha256": "1608023c252c5e374c1834d4afdc8364133e90a298a5a17a326baa5080c4ce73"
+        }
+      ],
+      "reproducibility_findings": [
+        "Power-survival PMF implemented with FP64 and dedicated checkpointable CPU RNG; alpha=0 leaves vanilla max_tokens path unchanged",
+        "Sweep script defaults ALPHAS to 5; complete paper sweep must be explicitly specified",
+        "Theory assumes equal blocks and trajectories reaching their caps; actual EOS and batch token-mean alter weights; no general unbiasedness claim"
+      ],
+      "folder": "OPSD/2026-11-21",
+      "aliases": [
+        "arxiv:2611.20687",
+        "doi:10.48550/arxiv.2611.20687",
+        "id:arxiv:2611.20687",
+        "title:rethinkingsupervisionscalinginonpolicydistillationfromdensesupervisiontostochastichorizons",
+        "url:https://arxiv.org/abs/2611.20687",
+        "url:https://doi.org/10.48550/arxiv.2611.20687"
+      ]
+    },
+    {
+      "id": "arxiv:2611.02093",
+      "type": "paper",
+      "title": "Bernoulli On-Policy Distillation: Don't Ignore High-Confidence Student Tokens",
+      "method": "Bernoulli OPD",
+      "published": "2026-11-01",
+      "arxiv_id": "2611.02093",
+      "doi": "10.48550/arXiv.2611.02093",
+      "url": "https://arxiv.org/abs/2611.02093",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.02093",
+        "https://doi.org/10.48550/arXiv.2611.02093"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.02093v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02093v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "ae1b4c37840c66c475bb34a289111fc09cd14e1122bb3ebe87b7146673ecce6d",
+      "publication_evidence_snapshot_sha256": "625cc3ae10189ceef6c099802fd95ebea01f78441ad997ef3e4c544e842e1f9f",
+      "code_url": "https://github.com/duterscmy/Bernoulli-OPD",
+      "code_status": "Official repository linked by authors; selected core implementation and launcher/config files statically checked at pinned commit; no GPU training executed",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified on 2026-11-21",
+      "figures": [
+        {
+          "file": "assets/bern-fig1.png",
+          "arxiv_id": "2611.02093",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.055,
+            0.085,
+            0.95,
+            0.33
+          ],
+          "sha256": "4d99a3d5cb5ab8f7df78b29c5adef8bfada0da136d28615326fbe94f08026e13",
+          "source_url": "https://arxiv.org/pdf/2611.02093v1"
+        },
+        {
+          "file": "assets/bern-fig3.png",
+          "arxiv_id": "2611.02093",
+          "page": 4,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.055,
+            0.085,
+            0.95,
+            0.355
+          ],
+          "sha256": "3c3b3b652ecbf5d4e557a8b2a927c56c6117fdc61a1497cdbd40ac7568b45fa8",
+          "source_url": "https://arxiv.org/pdf/2611.02093v1"
+        },
+        {
+          "file": "assets/bern-table2.png",
+          "arxiv_id": "2611.02093",
+          "page": 6,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.055,
+            0.075,
+            0.95,
+            0.51
+          ],
+          "sha256": "a9dfd2a5d012bb443c67e00a8796be62723e84b8512c451b31edd26f68e90ef0",
+          "source_url": "https://arxiv.org/pdf/2611.02093v1"
+        },
+        {
+          "file": "assets/bern-table4.png",
+          "arxiv_id": "2611.02093",
+          "page": 8,
+          "paper_figure": "Table 4",
+          "crop_box_normalized": [
+            0.055,
+            0.075,
+            0.5,
+            0.228
+          ],
+          "sha256": "5e8f1376c7173cc2704cbc4289f37bbd2fa780ad38eab849e4ba513efd73733f",
+          "source_url": "https://arxiv.org/pdf/2611.02093v1"
+        }
+      ],
+      "code_commit": "21afbbbb93d46da9b1de5593e6fcdbe8baeee973",
+      "code_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/duterscmy/Bernoulli-OPD/blob/21afbbbb93d46da9b1de5593e6fcdbe8baeee973/README.md",
+          "sha256": "9582312efef3d4ea8c76be0fa9133a94a3ec41884b1613e60ebe3d3bd8e59c4d"
+        },
+        {
+          "path": "slime/backends/megatron_utils/opd.py",
+          "url": "https://github.com/duterscmy/Bernoulli-OPD/blob/21afbbbb93d46da9b1de5593e6fcdbe8baeee973/slime/backends/megatron_utils/opd.py",
+          "sha256": "fc05f252d892c112d4f4c675279d701dfdd37292924fd25db303d443d8091f6b"
+        },
+        {
+          "path": "configs/methods/bernoulli.env",
+          "url": "https://github.com/duterscmy/Bernoulli-OPD/blob/21afbbbb93d46da9b1de5593e6fcdbe8baeee973/configs/methods/bernoulli.env",
+          "sha256": "b4cf1d3f8cf499c3058c88c93ae0cfdf3888cbb32e991d8cdc78dc697401e633"
+        },
+        {
+          "path": "configs/settings/qwen3_4b.env",
+          "url": "https://github.com/duterscmy/Bernoulli-OPD/blob/21afbbbb93d46da9b1de5593e6fcdbe8baeee973/configs/settings/qwen3_4b.env",
+          "sha256": "0eef8df1f7eb92fae196638f4c08468a16ce03d338d2bb4a579dfec4294ed4a5"
+        }
+      ],
+      "reproducibility_findings": [
+        "Stable BCE uses unclamped current_logp in first term and log1p of clamped FP32 probability in complement term; epsilon=1e-6",
+        "Primary config disables optional Bernoulli clipping; sampled-logit gradient identity holds outside clamp region",
+        "Primary config final response cap 32168 differs from paper appendix 32768; selection on AIME24 overlaps final reported benchmark",
+        "Other bopd.py baseline in repository is not Bernoulli objective"
+      ],
+      "folder": "OPSD/2026-11-21",
+      "aliases": [
+        "arxiv:2611.02093",
+        "doi:10.48550/arxiv.2611.02093",
+        "id:arxiv:2611.02093",
+        "title:bernoullionpolicydistillationdontignorehighconfidencestudenttokens",
+        "url:https://arxiv.org/abs/2611.02093",
+        "url:https://doi.org/10.48550/arxiv.2611.02093"
+      ]
+    },
+    {
+      "id": "arxiv:2611.02746",
+      "type": "paper",
+      "title": "Replay for LLM Continual Learning with Multi-Teacher On-Policy Distillation",
+      "method": "Continual MOPD Replay",
+      "published": "2026-11-02",
+      "arxiv_id": "2611.02746",
+      "doi": "10.48550/arXiv.2611.02746",
+      "url": "https://arxiv.org/abs/2611.02746",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.02746",
+        "https://doi.org/10.48550/arXiv.2611.02746"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.02746v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02746v2",
+      "read_version": "v2",
+      "source_pdf_sha256": "418f296c17be77cd5ada8cbfda7e8ce9a06b6a7be57696d74f9cfd9be4454871",
+      "publication_evidence_snapshot_sha256": "c120c135ce464cf35035905ab64e4fff4ad6a78c82c104f26f2600bd52713007",
+      "code_url": null,
+      "code_status": "Author-linked Zenodo API record verified: exact paper title, files contains only main.pdf, no training code artifact; LastOPD dependency is not this method release",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified on 2026-11-21",
+      "figures": [
+        {
+          "file": "assets/replay-fig2.png",
+          "arxiv_id": "2611.02746",
+          "page": 3,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.075,
+            0.08,
+            0.925,
+            0.4
+          ],
+          "sha256": "e604b6da2e8ce16b5c75027f45d5253af7aba58fd99d35a60241a8336db1433c",
+          "source_url": "https://arxiv.org/pdf/2611.02746v2"
+        },
+        {
+          "file": "assets/replay-fig3.png",
+          "arxiv_id": "2611.02746",
+          "page": 9,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.075,
+            0.09,
+            0.925,
+            0.5
+          ],
+          "sha256": "367bbf34ee7342c7fddcab2bf4f0223a3f2bbc1b3bfc78f92dc1c7a4876bebc7",
+          "source_url": "https://arxiv.org/pdf/2611.02746v2"
+        },
+        {
+          "file": "assets/replay-table2.png",
+          "arxiv_id": "2611.02746",
+          "page": 16,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.075,
+            0.085,
+            0.925,
+            0.565
+          ],
+          "sha256": "1e7e965f6d0e4c344872962f3e6d2da679cbbaf6f65eba496e1b908ea4404dac",
+          "source_url": "https://arxiv.org/pdf/2611.02746v2"
+        }
+      ],
+      "updated": "2026-11-03",
+      "related_resource_doi": "10.5281/zenodo.23906641",
+      "related_resource_url": "https://zenodo.org/records/23906641",
+      "related_resource_api_sha256": "040e3f943fa0c3ff4d6fd799069e59c39b5d9ffbba81525716c855455775bc9e",
+      "reproducibility_findings": [
+        "Snapshot-free retains previous-stage frozen student but not all earlier snapshots",
+        "Fixed-share replay steps grow quadratically; alignment uses separate backward passes",
+        "Parser-format effects, safety weighting and MBPP/MBPP+ double counting materially affect aggregate interpretation",
+        "Measured job step wall time is not already multiplied by four GPU-hours"
+      ],
+      "folder": "OPSD/2026-11-21",
+      "aliases": [
+        "arxiv:2611.02746",
+        "doi:10.48550/arxiv.2611.02746",
+        "id:arxiv:2611.02746",
+        "title:replayforllmcontinuallearningwithmultiteacheronpolicydistillation",
+        "url:https://arxiv.org/abs/2611.02746",
+        "url:https://doi.org/10.48550/arxiv.2611.02746"
+      ]
+    },
+    {
+      "id": "arxiv:2610.42128",
+      "type": "paper",
+      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+      "method": "DecisionRank",
+      "published": "2026-10-30",
+      "arxiv_id": "2610.42128",
+      "doi": "10.48550/arXiv.2610.42128",
+      "url": "https://arxiv.org/abs/2610.42128",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.42128",
+        "https://doi.org/10.48550/arXiv.2610.42128"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.42128v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.42128v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "d08b60637f7afb8218f67633a565d397eff114539928218a50027df30bf78ef1",
+      "publication_evidence_snapshot_sha256": "51c2475d3bc1eb05583cc48a7c45fb51efc3f9ac5ac1d0485bb0ddcdc5794d22",
+      "code_url": null,
+      "code_status": "No dedicated official method code verified in original PDF links, primary metadata and exact-title searches on 2026-11-21; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No separate paper-author blog verified on 2026-11-21",
+      "figures": [
+        {
+          "file": "assets/decision-fig2.png",
+          "arxiv_id": "2610.42128",
+          "page": 2,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.055,
+            0.075,
+            0.95,
+            0.485
+          ],
+          "sha256": "f31f6f01b6b532a1983e07a3b7a4b96493514a80bf414d89d3160d19cbb08c0f",
+          "source_url": "https://arxiv.org/pdf/2610.42128v1"
+        },
+        {
+          "file": "assets/decision-fig3.png",
+          "arxiv_id": "2610.42128",
+          "page": 7,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.055,
+            0.425,
+            0.95,
+            0.76
+          ],
+          "sha256": "f8afe08820641a02a9dc257135c92d4559793c3b454a03044476d992d3cf7a14",
+          "source_url": "https://arxiv.org/pdf/2610.42128v1"
+        },
+        {
+          "file": "assets/decision-table2.png",
+          "arxiv_id": "2610.42128",
+          "page": 10,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.055,
+            0.07,
+            0.95,
+            0.3
+          ],
+          "sha256": "cdaca4de7c9075f2ac08f1b0ad96c54ace44131e7c7803590b643780fafa7e77",
+          "source_url": "https://arxiv.org/pdf/2610.42128v1"
+        },
+        {
+          "file": "assets/decision-table3.png",
+          "arxiv_id": "2610.42128",
+          "page": 10,
+          "paper_figure": "Table 3",
+          "crop_box_normalized": [
+            0.055,
+            0.505,
+            0.95,
+            0.742
+          ],
+          "sha256": "1ab8bf3c7e68342a15225af7a3da19710d3ec6a1662defeb98707f08d28d355d",
+          "source_url": "https://arxiv.org/pdf/2610.42128v1"
+        }
+      ],
+      "reproducibility_findings": [
+        "arXiv v1 submitted 2026-10-30 while PDF front-page date is 2026-11-02",
+        "Teacher TREC value Figure 1 62.91 differs from Table 3 62.97; original values retained",
+        "Joint K=20 steps 2..19, OPD-only steps 1..19; deterministic ranking held fixed during gradient",
+        "Inference B200 timing is not evidence of training hardware; complete optimizer/epoch/cost details unverified"
+      ],
+      "folder": "OPSD/2026-11-21",
+      "aliases": [
+        "arxiv:2610.42128",
+        "doi:10.48550/arxiv.2610.42128",
+        "id:arxiv:2610.42128",
+        "title:decisionrankonpolicydistillationfordecisionmodelrerankers",
+        "url:https://arxiv.org/abs/2610.42128",
+        "url:https://doi.org/10.48550/arxiv.2610.42128"
+      ]
+    },
+    {
+      "id": "arxiv:2611.02846",
+      "type": "paper",
+      "title": "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
+      "method": "SpecOPD",
+      "published": "2026-11-02",
+      "arxiv_id": "2611.02846",
+      "doi": "10.48550/arXiv.2611.02846",
+      "url": "https://arxiv.org/abs/2611.02846",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.02846",
+        "https://doi.org/10.48550/arXiv.2611.02846"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.02846v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02846v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "a7cbaf34136fd5968395580fdace16f687aa8287b7f265931a4257cb33c6e516",
+      "publication_evidence_snapshot_sha256": "f0f81fe125da4c25f2cf25b4e2e1715015dea6862f9b626b31ccd089a93e1692",
+      "code_url": "https://github.com/QwenApp/SpecOPD",
+      "code_status": "Official overview repository only: README Release Status explicitly excludes training code, evaluation scripts and weights; full tracked file inventory checked at pinned commit",
+      "author_blog_url": "https://qwenapp.github.io/SpecOPD/",
+      "author_blog_status": "Author project/blog linked by paper and README; live web open failed, repository docs/index.html and docs/en.html provide author explanation; paper remains experimental authority",
+      "figures": [
+        {
+          "file": "assets/spec-fig2.png",
+          "arxiv_id": "2611.02846",
+          "page": 3,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.1,
+            0.1,
+            0.9,
+            0.344
+          ],
+          "sha256": "1014c97a5c106966799115c3b28f2af360f407b1dd95c272cb444faa0b20e444",
+          "source_url": "https://arxiv.org/pdf/2611.02846v1"
+        },
+        {
+          "file": "assets/spec-fig5.png",
+          "arxiv_id": "2611.02846",
+          "page": 5,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.415,
+            0.465,
+            0.9,
+            0.745
+          ],
+          "sha256": "1f0f4fcfbf457bfa193a9a6da1d94adf819d0e11044fc87873921391820fd634",
+          "source_url": "https://arxiv.org/pdf/2611.02846v1"
+        },
+        {
+          "file": "assets/spec-table1.png",
+          "arxiv_id": "2611.02846",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.1,
+            0.1,
+            0.9,
+            0.465
+          ],
+          "sha256": "6e6cc561d8da0063533509a9b8f6019477f87723bb6939030b157eb95805cadc",
+          "source_url": "https://arxiv.org/pdf/2611.02846v1"
+        },
+        {
+          "file": "assets/spec-fig7.png",
+          "arxiv_id": "2611.02846",
+          "page": 8,
+          "paper_figure": "Figure 7",
+          "crop_box_normalized": [
+            0.51,
+            0.185,
+            0.9,
+            0.415
+          ],
+          "sha256": "b61548e7eebcc14ae4b99832caf14539af6fae83b3f8ab0611fb180d6b3bfb28",
+          "source_url": "https://arxiv.org/pdf/2611.02846v1"
+        },
+        {
+          "file": "assets/spec-fig8.png",
+          "arxiv_id": "2611.02846",
+          "page": 8,
+          "paper_figure": "Figure 8",
+          "crop_box_normalized": [
+            0.51,
+            0.425,
+            0.9,
+            0.86
+          ],
+          "sha256": "1f95b9035d6d1823f1b89df5ddc215bcc616cd8851b81c8e0b5bdb4067b3d22a",
+          "source_url": "https://arxiv.org/pdf/2611.02846v1"
+        }
+      ],
+      "code_commit": "7fe9f9f35b027691633ec424821df5985fe34576",
+      "code_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/QwenApp/SpecOPD/blob/7fe9f9f35b027691633ec424821df5985fe34576/README.md",
+          "sha256": "a6978fe5dabdf01efbe0eee9116f8fc4951d80e70da3ac44298102d4ada9d8e1"
+        }
+      ],
+      "project_url": "https://qwenapp.github.io/SpecOPD/",
+      "reproducibility_findings": [
+        "On-policy within freshly sampled branches at pre-collected reference anchors, not unrestricted full-response rollout",
+        "E2E-TV prefix product is a conditional-drafter surrogate; teacher support-outside probability mass retained",
+        "16.09x is native-configuration supervised-token throughput excluding offline preparation, not time-to-matched-AL",
+        "Matched-step off-policy ablation uses 16 versus 32 GPUs; target parameter counts do not equal draft parameter counts"
+      ],
+      "folder": "OPSD/2026-11-21",
+      "aliases": [
+        "arxiv:2611.02846",
+        "doi:10.48550/arxiv.2611.02846",
+        "id:arxiv:2611.02846",
+        "title:specopdbranchparallelonpolicydistillationforspeculativedecoding",
+        "url:https://arxiv.org/abs/2611.02846",
+        "url:https://doi.org/10.48550/arxiv.2611.02846"
+      ]
+    },
+    {
       "id": "arxiv:2611.23673",
       "type": "paper",
       "title": "Communicative On-Policy Distillation: Distilling Black-Box Teacher Capabilities through Communication for Long-Horizon Tasks",
@@ -5985,6 +6509,36 @@
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
     "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2611.20687": "OPSD/2026-11-21",
+    "doi:10.48550/arxiv.2611.20687": "OPSD/2026-11-21",
+    "id:arxiv:2611.20687": "OPSD/2026-11-21",
+    "title:rethinkingsupervisionscalinginonpolicydistillationfromdensesupervisiontostochastichorizons": "OPSD/2026-11-21",
+    "url:https://arxiv.org/abs/2611.20687": "OPSD/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2611.20687": "OPSD/2026-11-21",
+    "arxiv:2611.02093": "OPSD/2026-11-21",
+    "doi:10.48550/arxiv.2611.02093": "OPSD/2026-11-21",
+    "id:arxiv:2611.02093": "OPSD/2026-11-21",
+    "title:bernoullionpolicydistillationdontignorehighconfidencestudenttokens": "OPSD/2026-11-21",
+    "url:https://arxiv.org/abs/2611.02093": "OPSD/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2611.02093": "OPSD/2026-11-21",
+    "arxiv:2611.02746": "OPSD/2026-11-21",
+    "doi:10.48550/arxiv.2611.02746": "OPSD/2026-11-21",
+    "id:arxiv:2611.02746": "OPSD/2026-11-21",
+    "title:replayforllmcontinuallearningwithmultiteacheronpolicydistillation": "OPSD/2026-11-21",
+    "url:https://arxiv.org/abs/2611.02746": "OPSD/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2611.02746": "OPSD/2026-11-21",
+    "arxiv:2610.42128": "OPSD/2026-11-21",
+    "doi:10.48550/arxiv.2610.42128": "OPSD/2026-11-21",
+    "id:arxiv:2610.42128": "OPSD/2026-11-21",
+    "title:decisionrankonpolicydistillationfordecisionmodelrerankers": "OPSD/2026-11-21",
+    "url:https://arxiv.org/abs/2610.42128": "OPSD/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2610.42128": "OPSD/2026-11-21",
+    "arxiv:2611.02846": "OPSD/2026-11-21",
+    "doi:10.48550/arxiv.2611.02846": "OPSD/2026-11-21",
+    "id:arxiv:2611.02846": "OPSD/2026-11-21",
+    "title:specopdbranchparallelonpolicydistillationforspeculativedecoding": "OPSD/2026-11-21",
+    "url:https://arxiv.org/abs/2611.02846": "OPSD/2026-11-21",
+    "url:https://doi.org/10.48550/arxiv.2611.02846": "OPSD/2026-11-21",
     "arxiv:2611.23673": "OPSD/2026-11-20",
     "doi:10.48550/arxiv.2611.23673": "OPSD/2026-11-20",
     "id:arxiv:2611.23673": "OPSD/2026-11-20",

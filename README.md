@@ -25,6 +25,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 | 2026-11-18 | VLM / 视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘 | 5 | [Markdown](VLM/2026-11-18/report.md) · [PDF](VLM/2026-11-18/report.pdf) |
 | 2026-11-17 | VLM / 小型VLM蒸馏、约束GRPO与能力保留 | 5 | [Markdown](VLM/2026-11-17/report.md) · [PDF](VLM/2026-11-17/report.pdf) |
 | 2026-11-16 | VLM / vLLM推理系统 | 5 | [Markdown](VLM/2026-11-16/report.md) · [PDF](VLM/2026-11-16/report.pdf) |
+| 2026-11-21 | OPSD / 监督位置、事件目标、持续回放与分支并行 | 5 | [Markdown](OPSD/2026-11-21/report.md) · [PDF](OPSD/2026-11-21/report.pdf) |
 | 2026-11-20 | OPSD / 自生成教师上下文、学生偏好与纯排序监督 | 5 | [Markdown](OPSD/2026-11-20/report.md) · [PDF](OPSD/2026-11-20/report.pdf) |
 | 2026-11-19 | OPSD / 长轨迹监督、历史能力回收与优化动力学 | 5 | [Markdown](OPSD/2026-11-19/report.md) · [PDF](OPSD/2026-11-19/report.pdf) |
 | 2026-11-18 | OPSD / 教师进化、逐token选择与参考视图边缘化 | 5 | [Markdown](OPSD/2026-11-18/report.md) · [PDF](OPSD/2026-11-18/report.pdf) |
@@ -71,6 +72,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 3. [Migrating vLLM to the LibTorch Stable ABI](https://vllm.ai/blog/2026-11-06-stable-abi-cuda) · 2026-11-06 · [精读](VLM/2026-11-16/report.md)
 4. [Introducing Kinference](https://vllm.ai/blog/2026-11-04-introducing-kinference) · 2026-11-04 · [精读](VLM/2026-11-16/report.md)
 5. [vLLM v0.33.0 Release](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) · 2026-11-02 · [精读](VLM/2026-11-16/report.md)
+### 2026-11-21 · 监督位置、事件目标、持续回放与分支并行
+
+1. [Rethinking Supervision Scaling in On-Policy Distillation: From Dense Supervision to Stochastic Horizons](https://arxiv.org/abs/2611.20687) · 2026-11-16 · [精读](OPSD/2026-11-21/report.md)
+2. [Bernoulli On-Policy Distillation: Don't Ignore High-Confidence Student Tokens](https://arxiv.org/abs/2611.02093) · 2026-11-01 · [精读](OPSD/2026-11-21/report.md)
+3. [Replay for LLM Continual Learning with Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2611.02746) · 2026-11-02 · [精读](OPSD/2026-11-21/report.md)
+4. [DecisionRank: On-Policy Distillation for Decision-Model Rerankers](https://arxiv.org/abs/2610.42128) · 2026-10-30 · [精读](OPSD/2026-11-21/report.md)
+5. [SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding](https://arxiv.org/abs/2611.02846) · 2026-11-02 · [精读](OPSD/2026-11-21/report.md)
 ### 2026-11-20 · 自生成教师上下文、学生偏好与纯排序监督
 
 1. [Communicative On-Policy Distillation: Distilling Black-Box Teacher Capabilities through Communication for Long-Horizon Tasks](https://arxiv.org/abs/2611.23673) · 2026-11-18 · [精读](OPSD/2026-11-20/report.md)
