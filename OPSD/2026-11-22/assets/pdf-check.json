@@ -1,0 +1,64 @@
+{
+  "pages": 22,
+  "original_images": 20,
+  "markdown_characters": 29316,
+  "text_lines_checked": 185,
+  "missing_lines": [],
+  "text_characters_per_page": [
+    1457,
+    1419,
+    1927,
+    558,
+    852,
+    1563,
+    1239,
+    477,
+    813,
+    1473,
+    1159,
+    577,
+    1021,
+    1350,
+    1855,
+    436,
+    1002,
+    1350,
+    2539,
+    789,
+    810,
+    1026
+  ],
+  "out_of_page_characters": [],
+  "markdown_sha256": "de4e28c7f096ef1b045b8be02d9a17269c0e006613a514c021620b84a42b2311",
+  "pdf_sha256": "453b0eb000214050b92d31ea2d161d6aea73bf9b9cb09bc5cb6462cf4896757b",
+  "status": "passed",
+  "fonts": {
+    "/AAAAAA+STSongti-TC-Bold": {
+      "type": "/TrueType",
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAB+STSongti-TC-Bold": {
+      "type": "/TrueType",
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAC+STSongti-TC-Bold": {
+      "type": "/TrueType",
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAD+STSongti-TC-Bold": {
+      "type": "/TrueType",
+      "embedded": true,
+      "to_unicode": true
+    }
+  },
+  "source_image_pixels_matched": 20,
+  "all_pages_rendered": true,
+  "visual_review": "All 22 final pages inspected in rendered contact sheets; page 19 formula/derivation sample inspected at full resolution. Formula/code/table samples legible, no clipping, overlap or blank pages observed.",
+  "original_crop_review": "20 original PDF figure/table crops checked; P²-MOPD table 1 adjacent-table fragment and RPSD table 7 final row crop corrected before final render.",
+  "renderer_adapter_sha256": "00c3c31438391665da58942b1775216c72b657f334ff36a724e671b040875e86",
+  "shared_renderer_sha256": "bee2e6c10aa50682d4c1f122b0cafb5169f2df38b465ed8681feac6d29374382",
+  "font_sha256": "19d520cef1e3526ab10eef322a436a78cded57d0389682f9e21485c21c9a421c"
+}
