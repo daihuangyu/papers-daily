@@ -1,0 +1,465 @@
+{
+  "date": "2026-11-22",
+  "direction": "VLM",
+  "topic": "正负信用、可信工具课程、具身代码RL、4B探索分工与目标偏好",
+  "window_start": "2026-10-22",
+  "window_end": "2026-11-22",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "sources": [
+    {
+      "id": "arxiv:2611.19388",
+      "type": "paper",
+      "arxiv_id": "2611.19388",
+      "doi": "10.48550/arXiv.2611.19388",
+      "title": "SARGO: Agreement-Gated Reinforcement and Suppression via On-Policy Self-Guidance for Visual Hallucination Mitigation",
+      "published": "2026-11-14",
+      "url": "https://arxiv.org/abs/2611.19388",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.19388"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.19388v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.19388v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No verifiable official method training code or author blog found in v1 external links and bounded title/author searches. Search-aggregator adjacent-paper GitHub links rejected. No training executed.",
+      "pdf_sha256": "d1ad46494eefc1317d8ddb3f704059b33a38a307e4368005907d8c884c9706f8",
+      "figures": [
+        {
+          "file": "assets/sargo-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.09,
+            0.09,
+            0.93,
+            0.455
+          ],
+          "size": [
+            1558,
+            876
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.19388v1"
+        },
+        {
+          "file": "assets/sargo-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.54
+          ],
+          "size": [
+            1558,
+            1104
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.19388v1"
+        },
+        {
+          "file": "assets/sargo-ablation.png",
+          "paper_figure": "Figure 3 and Table 2",
+          "page": 7,
+          "crop_normalized": [
+            0.09,
+            0.09,
+            0.93,
+            0.625
+          ],
+          "size": [
+            1558,
+            1284
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.19388v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.26199",
+      "type": "paper",
+      "arxiv_id": "2611.26199",
+      "doi": "10.48550/arXiv.2611.26199",
+      "title": "Learning to Think with Images Faithfully via Adaptive Data Selection",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26199",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.26199"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.26199v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26199v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No verifiable official method code, model release or author blog found in v1 external links and bounded FaithTwI/title/author searches. SAM3 and TRL are foundational dependencies, not this method release. Selection delta/MC samples and format reward weight not recovered from v1.",
+      "pdf_sha256": "1781835bee33bc6c2889590bb87073dc5b2cdd40e88c7e8ae7ecebaebd12d98e",
+      "figures": [
+        {
+          "file": "assets/faith-method.png",
+          "paper_figure": "Figure 4",
+          "page": 4,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.35
+          ],
+          "size": [
+            1558,
+            648
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26199v1"
+        },
+        {
+          "file": "assets/faith-results.png",
+          "paper_figure": "Table 2",
+          "page": 6,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.335
+          ],
+          "size": [
+            1558,
+            612
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26199v1"
+        },
+        {
+          "file": "assets/faith-ablation.png",
+          "paper_figure": "Table 3",
+          "page": 6,
+          "crop_normalized": [
+            0.09,
+            0.338,
+            0.51,
+            0.525
+          ],
+          "size": [
+            779,
+            449
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26199v1"
+        },
+        {
+          "file": "assets/faith-audit.png",
+          "paper_figure": "Table 1",
+          "page": 3,
+          "crop_normalized": [
+            0.09,
+            0.085,
+            0.51,
+            0.263
+          ],
+          "size": [
+            779,
+            427
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26199v1"
+        },
+        {
+          "file": "assets/faith-small-models.png",
+          "paper_figure": "Table 10",
+          "page": 15,
+          "crop_normalized": [
+            0.09,
+            0.27,
+            0.93,
+            0.625
+          ],
+          "size": [
+            1558,
+            852
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26199v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.26196",
+      "type": "paper",
+      "arxiv_id": "2611.26196",
+      "doi": "10.48550/arXiv.2611.26196",
+      "title": "EmbodyAgent: Post-Training Embodied VLM Agents via Distillation, SFT, and RL",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26196",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.26196"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.26196v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26196v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No verifiable official full training code, state manifest or author blog found in v1 and bounded exact-title/author searches. LIBERO and SimpleVLA-RL are dependencies, not an EmbodyAgent release. No training executed.",
+      "pdf_sha256": "d6811917377d6bcbac7b6fac7b48837e71545a19ba46fed93a276b23e78afa88",
+      "figures": [
+        {
+          "file": "assets/embody-method.png",
+          "paper_figure": "Figure 1",
+          "page": 4,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.64
+          ],
+          "size": [
+            1558,
+            1344
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26196v1"
+        },
+        {
+          "file": "assets/embody-task-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.51,
+            0.34
+          ],
+          "size": [
+            779,
+            624
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26196v1"
+        },
+        {
+          "file": "assets/embody-training.png",
+          "paper_figure": "Figure 2",
+          "page": 7,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.425
+          ],
+          "size": [
+            1558,
+            828
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26196v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.25543",
+      "type": "paper",
+      "arxiv_id": "2611.25543",
+      "doi": "10.48550/arXiv.2611.25543",
+      "title": "Efficient Multimodal Agents for Auditing 3D Worlds",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25543",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.25543"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.25543v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25543v1",
+      "code_url": "https://github.com/UCSB-NLP-Chang/WorldAuditor",
+      "project_url": null,
+      "code_verification": "Paper author-linked repository verified on 2026-11-22: live GitHub connector README returns 404 with This repository is empty; GitHub webpage independently says This repository is empty. Link exists but implementation release is not available. No independent author blog verified.",
+      "pdf_sha256": "4eb51707648272cdabd565d7e75bd53773aa891b1eddd041696205a3f69ba8f4",
+      "figures": [
+        {
+          "file": "assets/world-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.58
+          ],
+          "size": [
+            1558,
+            1200
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25543v1"
+        },
+        {
+          "file": "assets/world-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.36
+          ],
+          "size": [
+            1558,
+            672
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25543v1"
+        },
+        {
+          "file": "assets/world-ablation.png",
+          "paper_figure": "Table 2",
+          "page": 7,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.515,
+            0.375
+          ],
+          "size": [
+            788,
+            708
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25543v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.25742",
+      "type": "paper",
+      "arxiv_id": "2611.25742",
+      "doi": "10.48550/arXiv.2611.25742",
+      "title": "Goal-Guided Reinforcement Learning via Fine-Tuning Vision-Language Models",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25742",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.25742"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.25742v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25742v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No verifiable official method code, CCGP-2M data download or author blog found in v1 and bounded exact-title/author searches. Third-party code-released label rejected. Downloaded v1 has 10 physical pages and omits the A/B/C appendices it cites; exact hyperparameters/TDPO stop-grad implementation not imputed.",
+      "pdf_sha256": "243e3b169ce62c5f6fd2eaa577a255d60a8053c27821fcfe21db7f9c138e7411",
+      "figures": [
+        {
+          "file": "assets/goal-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.46
+          ],
+          "size": [
+            1558,
+            912
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25742v1"
+        },
+        {
+          "file": "assets/goal-results.png",
+          "paper_figure": "Table 2",
+          "page": 6,
+          "crop_normalized": [
+            0.51,
+            0.08,
+            0.93,
+            0.36
+          ],
+          "size": [
+            779,
+            672
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25742v1"
+        },
+        {
+          "file": "assets/goal-learning.png",
+          "paper_figure": "Figure 5",
+          "page": 7,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.44
+          ],
+          "size": [
+            1558,
+            864
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25742v1"
+        },
+        {
+          "file": "assets/goal-data-ablation.png",
+          "paper_figure": "Figure 7",
+          "page": 8,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.25
+          ],
+          "size": [
+            1558,
+            408
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25742v1"
+        }
+      ]
+    }
+  ],
+  "auxiliary_sources": [
+    "https://huggingface.co/docs/trl/grpo_trainer",
+    "https://huggingface.co/docs/trl/sft_trainer",
+    "https://huggingface.co/docs/trl/dpo_trainer",
+    "https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html",
+    "https://thinkingmachines.ai/blog/on-policy-distillation/",
+    "https://github.com/facebookresearch/sam3",
+    "https://github.com/Lifelong-Robot-Learning/LIBERO",
+    "https://github.com/MichaelTMatthews/Craftax"
+  ],
+  "execution_environment": {
+    "actual": "local macOS fallback, existing authorized SSH",
+    "cloud_schedule": "paused pending cloud environment-binding verification",
+    "cloud_migration_thread": "6afaf058-844c-8191-bf4c-26e2e5550080",
+    "cloud_status_cursor": "3a5e298a-323f-4522-a326-d50aef2b8fb6:2",
+    "cloud_same_day_report_verified": false,
+    "credentials_copied": false
+  },
+  "search_log": [
+    {
+      "date": "2026-11-22",
+      "queries": [
+        "November 2026 VLM reinforcement learning post training visual reasoning arxiv",
+        "multimodal vision language model training arxiv 2026-11-19",
+        "small vision language reinforcement learning November 2026",
+        "SARGO Jinyu Li github; Learning to Think with Images Faithfully github; EmbodyAgent Dai code; Goal-Guided Reinforcement Learning via Fine-Tuning github"
+      ],
+      "verification": "Primary arXiv pages/v1 submission histories; five downloaded full v1 PDFs, 94 physical pages, method/training/results/relevant supplements; exact author repository links; all-direction historical manifests and sources aliases checked. Secondary aggregators used only for discovery, not method facts."
+    },
+    {
+      "candidate": "Historical VLM, OPSD and CCF entries, including VisAlloc/ViRA/CoLiR/UI-UG2/SurgPace",
+      "decision": "Excluded by cross-direction arXiv/DOI/canonical URL/title dedup, not recycled as updates."
+    },
+    {
+      "candidate": "VICO 2610.10782; Selective Transfer of RL Updates 2610.08659; XS-VLA 2607.04171; LCLA 2602.07629",
+      "decision": "Excluded: first publication outside calendar-month window, even where a recent version/search timestamp appears."
+    },
+    {
+      "candidate": "SHRINK 2611.23516",
+      "decision": "Primary ID resolves to Beyond the Sink Token, a training-free key-editing paper, not a specialist-tool-training paper suggested by nearby aggregator text; not selected."
+    },
+    {
+      "candidate": "ZeroVLN 2611.26414",
+      "decision": "Within-window backup downloaded for triage, not counted or presented as a main paper. Selected five provide broader hallucination/curriculum/SFT/RL/preference coverage."
+    },
+    {
+      "candidate": "WorldAuditor code; Goal-Guided code release labels",
+      "decision": "Author-linked WorldAuditor is empty at verification, not an available implementation. Unattributed third-party code-release labels not accepted."
+    }
+  ],
+  "checks": {
+    "original_figure_crops": 18,
+    "primary_pdfs_read": 5,
+    "primary_pdf_physical_pages": 94,
+    "trained_models": false,
+    "dedup": "canonical arXiv/DOI/URL and normalized title checked across all direction manifests by scripts/update_index.py; live registry inspected",
+    "pdf": "Same full Markdown rendered; normalized full text/table/code matching, CJK font embedding and all-page visual checks in assets/QA.md",
+    "evidence_caveats": [
+      "SARGO geometric-mean token weights do not conserve total coefficient/gradient; two policy roles separated; empty-reference/zero-variance boundaries undisclosed.",
+      "FaithTwI delta and MC count/format weight missing; evidence-supply selection differs from policy crop prediction; controlled/real-crop denominators and per-backbone/baseline gains distinguished.",
+      "EmbodyAgent black-box sequence distillation is not logit OPD; binary-outcome group admission distinct from reward variance; train-only safeguards all present since round1; median wall time increases 117 to 136 seconds despite fewer calls.",
+      "WorldAuditor retains frontier reviewer and up to 6x40 actions; Bayesian search guide is natural-language privileged context; listed token costs exclude training/judge and parallel latency needs one H100 per explorer.",
+      "Goal-Guided offline VLM theta differs from online PPO phi; DRO dual is labeled author-independent derivation; exact implementation absent with cited appendices missing; 90M data-collection steps disclosed alongside 5M online budget."
+    ]
+  }
+}

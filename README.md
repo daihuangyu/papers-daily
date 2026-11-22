@@ -20,6 +20,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 | 日期 | 方向 / 子主题 | 数量 | 阅读 |
 | --- | --- | --- | --- |
+| 2026-11-22 | VLM / 正负信用、可信工具课程、具身代码RL、4B探索分工与目标偏好 | 5 | [Markdown](VLM/2026-11-22/report.md) · [PDF](VLM/2026-11-22/report.pdf) |
 | 2026-11-21 | VLM / 视觉蒸馏分配、跨输入RL、持续回放、UI奖励与小模型课程蒸馏 | 5 | [Markdown](VLM/2026-11-21/report.md) · [PDF](VLM/2026-11-21/report.pdf) |
 | 2026-11-20 | VLM / 时间特权蒸馏、主动观察、正优势信用与证据图RL | 5 | [Markdown](VLM/2026-11-20/report.md) · [PDF](VLM/2026-11-20/report.pdf) |
 | 2026-11-19 | VLM / 0.8B/2B证据蒸馏、视频依赖审计、多教师后续RL与循环定位 | 5 | [Markdown](VLM/2026-11-19/report.md) · [PDF](VLM/2026-11-19/report.pdf) |
@@ -39,6 +40,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 ## 条目索引
 
+### 2026-11-22 · 正负信用、可信工具课程、具身代码RL、4B探索分工与目标偏好
+
+1. [SARGO: Agreement-Gated Reinforcement and Suppression via On-Policy Self-Guidance for Visual Hallucination Mitigation](https://arxiv.org/abs/2611.19388) · 2026-11-14 · [精读](VLM/2026-11-22/report.md)
+2. [Learning to Think with Images Faithfully via Adaptive Data Selection](https://arxiv.org/abs/2611.26199) · 2026-11-19 · [精读](VLM/2026-11-22/report.md)
+3. [EmbodyAgent: Post-Training Embodied VLM Agents via Distillation, SFT, and RL](https://arxiv.org/abs/2611.26196) · 2026-11-19 · [精读](VLM/2026-11-22/report.md)
+4. [Efficient Multimodal Agents for Auditing 3D Worlds](https://arxiv.org/abs/2611.25543) · 2026-11-19 · [精读](VLM/2026-11-22/report.md)
+5. [Goal-Guided Reinforcement Learning via Fine-Tuning Vision-Language Models](https://arxiv.org/abs/2611.25742) · 2026-11-19 · [精读](VLM/2026-11-22/report.md)
 ### 2026-11-21 · 视觉蒸馏分配、跨输入RL、持续回放、UI奖励与小模型课程蒸馏
 
 1. [VisAlloc: Allocating Visual Supervision for On-Policy Self-Distillation](https://arxiv.org/abs/2611.25069) · 2026-11-18 · [精读](VLM/2026-11-21/report.md)
