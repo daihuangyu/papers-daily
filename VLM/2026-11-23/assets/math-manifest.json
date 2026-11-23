@@ -2,7 +2,7 @@
   "engine": "MathJax 3.2.2 SVG / svglib",
   "display": "vector paths",
   "inline": "transparent 576-DPI PNG, baseline aligned",
-  "source_sha256": "28882ee68846c3c89c5addebaa8d74936037d5acdbc758a3d907f018b60f2223",
+  "source_sha256": "7bf7d004d727af7d7f36dc7b8c3e91bdcf7629eefa2fc3bed5ee0e6fc1bd2452",
   "rendered_occurrences": 149,
   "expressions": [
     {
@@ -70,11 +70,11 @@
       "inline_png_sha256": null
     },
     {
-      "tex": "A_i=\\frac{R_i-\\operatorname{mean}(R)}{\\operatorname{std}(R)+\\epsilon}.",
+      "tex": "A_i=\\frac{R_i-\\mathrm{mean}(R)}{\\mathrm{std}(R)+\\epsilon}.",
       "display": true,
       "width_pt": 111.68279999999999,
       "height_pt": 29.04,
-      "rendered_svg_sha256": "d4cf8d08cd16862d8e224de87dc24720e4238632d9d68ec936567b22cf8532b9",
+      "rendered_svg_sha256": "91d9eb2c95f896ec838785747b4b9283332c96c44a4d96eff65e56dd13569eb7",
       "inline_png_sha256": null
     },
     {
@@ -470,27 +470,27 @@
       "inline_png_sha256": null
     },
     {
-      "tex": "\\begin{aligned}\n\\bar\\ell_{it}&=\\frac{1}{|\\mathcal{T}_{it}|}\\sum_{n\\in\\mathcal{T}_{it}}\\log\\pi_\\theta(y_{itn}\\mid x_{it},y_{it,<n}),\\\\[4pt]\n\\mathcal{L}_{\\mathrm{text}}&=-\\frac{\\lambda_{\\mathrm{text}}}{B}\\sum_{i=1}^{B}\\frac{1}{T_i}\\sum_{t=1}^{T_i}\\operatorname{sg}(A_i)\\bar\\ell_{it}.\n\\end{aligned}",
+      "tex": "\\begin{aligned}\n\\bar\\ell_{it}&=\\frac{1}{|\\mathcal{T}_{it}|}\\sum_{n\\in\\mathcal{T}_{it}}\\log\\pi_\\theta(y_{itn}\\mid x_{it},y_{it,<n}),\\\\[4pt]\n\\mathcal{L}_{\\mathrm{text}}&=-\\frac{\\lambda_{\\mathrm{text}}}{B}\\sum_{i=1}^{B}\\frac{1}{T_i}\\sum_{t=1}^{T_i}\\mathrm{sg}(A_i)\\bar\\ell_{it}.\n\\end{aligned}",
       "display": true,
       "width_pt": 205.81080000000003,
       "height_pt": 76.4976,
-      "rendered_svg_sha256": "02f6954c3da3cef6fa2e66ae9902119fe03dc1a7ff8b4d8952d6a34893d6e470",
+      "rendered_svg_sha256": "0529377778646905fab66b426a7b360cba3c84a9ddce365ecee8fbdff352c59e",
       "inline_png_sha256": null
     },
     {
-      "tex": "\\begin{aligned}\n\\mathcal{L}_{\\mathrm{clip}}&=-\\mathbb{E}_{i,t}\\!\\left[\\min\\!\\left(r_{it}A_i,\\operatorname{clip}(r_{it},1-\\epsilon,1+\\epsilon)A_i\\right)\\right],\\\\\nr_{it}&=\\frac{\\pi_\\theta(y_{it}\\mid x,y_{i,<t})}{\\pi_{\\mathrm{old}}(y_{it}\\mid x,y_{i,<t})}.\n\\end{aligned}",
+      "tex": "\\begin{aligned}\n\\mathcal{L}_{\\mathrm{clip}}&=-\\mathbb{E}_{i,t}\\!\\left[\\min\\!\\left(r_{it}A_i,\\mathrm{clip}(r_{it},1-\\epsilon,1+\\epsilon)A_i\\right)\\right],\\\\\nr_{it}&=\\frac{\\pi_\\theta(y_{it}\\mid x,y_{i,<t})}{\\pi_{\\mathrm{old}}(y_{it}\\mid x,y_{i,<t})}.\n\\end{aligned}",
       "display": true,
       "width_pt": 250.2504,
       "height_pt": 45.978,
-      "rendered_svg_sha256": "976bf6a5bac0313c23e0679a1e4e295d263e0b5fa6da3c6509e350d960ab6895",
+      "rendered_svg_sha256": "bed48c4f60a441abcd0a9bd91a8495f55c0e1467a26aa44613b6df3048b761e5",
       "inline_png_sha256": null
     },
     {
-      "tex": "\\begin{aligned}\ng(\\mathcal{G})&=\\mathbf{1}\\!\\left[\\max_{i\\in\\mathcal{G}}R_{\\mathrm{KFR},i}\\geq\\tau_q\\right],\\\\\nb_i&=\\operatorname{clip}\\!\\left(\\frac{n_{\\mathrm{calls},i}}{B_{\\mathrm{calls}}},0,1\\right),\\\\\nP_{\\mathrm{UTCP},i}&=g(\\mathcal{G})\\big(1-R_{\\mathrm{KFR},i}\\big)b_i,\\\\\nR_i&=\\alpha R_{\\mathrm{KFR},i}+\\beta R_{\\mathrm{PAR},i}-\\mu P_{\\mathrm{UTCP},i}.\n\\end{aligned}",
+      "tex": "\\begin{aligned}\ng(\\mathcal{G})&=\\mathbf{1}\\!\\left[\\max_{i\\in\\mathcal{G}}R_{\\mathrm{KFR},i}\\geq\\tau_q\\right],\\\\\nb_i&=\\mathrm{clip}\\!\\left(\\frac{n_{\\mathrm{calls},i}}{B_{\\mathrm{calls}}},0,1\\right),\\\\\nP_{\\mathrm{UTCP},i}&=g(\\mathcal{G})\\big(1-R_{\\mathrm{KFR},i}\\big)b_i,\\\\\nR_i&=\\alpha R_{\\mathrm{KFR},i}+\\beta R_{\\mathrm{PAR},i}-\\mu P_{\\mathrm{UTCP},i}.\n\\end{aligned}",
       "display": true,
       "width_pt": 214.704,
       "height_pt": 95.24279999999999,
-      "rendered_svg_sha256": "69625992057fb24c3c00a834d74d17c7a1787d0ce8ab41e84fbb599cf92d11fc",
+      "rendered_svg_sha256": "214533071ebf99d4dd09bfb1d3bdbc22874c15ad4d90cd6f15a9091769f910b1",
       "inline_png_sha256": null
     },
     {
@@ -534,11 +534,11 @@
       "inline_png_sha256": "ab98a45979c347f60ec983bc8187a244ae78c6cf3bd84bc9b5080cf3da22932d"
     },
     {
-      "tex": "\\frac{wR-w\\operatorname{mean}(R)}{w\\operatorname{std}(R)}=\\frac{R-\\operatorname{mean}(R)}{\\operatorname{std}(R)}=A.",
+      "tex": "\\frac{wR-w\\mathrm{mean}(R)}{w\\mathrm{std}(R)}=\\frac{R-\\mathrm{mean}(R)}{\\mathrm{std}(R)}=A.",
       "display": true,
-      "width_pt": 214.52040000000002,
+      "width_pt": 212.52,
       "height_pt": 29.04,
-      "rendered_svg_sha256": "631072fa181d9209875f5293cfad64db861887284f0df517c365bb195269785b",
+      "rendered_svg_sha256": "4e830cd5ad2db021eacb8a51333e2deacd51ca72c9bc83793a817cdcd090f216",
       "inline_png_sha256": null
     },
     {
@@ -622,6 +622,22 @@
       "inline_png_sha256": "954f2cf5d5db42b5164ce8eda94b84e1b6964684352db67737ec36a5518052e9"
     },
     {
+      "tex": "\\mathrm{Trunc}(r)",
+      "display": false,
+      "width_pt": 38.99,
+      "height_pt": 10,
+      "rendered_svg_sha256": "1f4acd8b7caf415190e1d89cb47650983f8bedebe3a852edeff9151730237818",
+      "inline_png_sha256": "809b4ae3c5e68c8bfd58345189616e8779026e4e658e1320b320b8052ba00797"
+    },
+    {
+      "tex": "\\mathrm{sg}",
+      "display": false,
+      "width_pt": 8.94,
+      "height_pt": 6.59,
+      "rendered_svg_sha256": "e9bdfa5771e9014b56905d5fb813243bf35a1e747de08c20bbd60f6f8de99b01",
+      "inline_png_sha256": "455a35640810873cce50ad69fcfe28944b17b162ea56e019be6e525497a5fdb7"
+    },
+    {
       "tex": "\\mathrm{share}=\\frac{145-100}{160-100}=0.75",
       "display": false,
       "width_pt": 98.426,
@@ -630,27 +646,11 @@
       "inline_png_sha256": "b6a760e588e4d32da65a8b3aa374e8ce36893b1a7184531301d070d87eea5c04"
     },
     {
-      "tex": "\\operatorname{Trunc}(r)",
-      "display": false,
-      "width_pt": 38.99,
-      "height_pt": 10,
-      "rendered_svg_sha256": "6c6965063d75ee12636579a75c3c24d4788d7ce1609bdde02b55bed9679eb45c",
-      "inline_png_sha256": "809b4ae3c5e68c8bfd58345189616e8779026e4e658e1320b320b8052ba00797"
-    },
-    {
-      "tex": "\\operatorname{sg}",
-      "display": false,
-      "width_pt": 8.94,
-      "height_pt": 6.59,
-      "rendered_svg_sha256": "5f7770fc5058a5fa71d9dcd5bcd172af483d44a7ab4f5b07ed45ad82597d5258",
-      "inline_png_sha256": "455a35640810873cce50ad69fcfe28944b17b162ea56e019be6e525497a5fdb7"
-    },
-    {
-      "tex": "\\operatorname{share}=\\frac{R_{\\mathrm{probe}}-R_{\\mathrm{rand}}}{R_{\\mathrm{method}}-R_{\\mathrm{rand}}}.",
+      "tex": "\\mathrm{share}=\\frac{R_{\\mathrm{probe}}-R_{\\mathrm{rand}}}{R_{\\mathrm{method}}-R_{\\mathrm{rand}}}.",
       "display": true,
       "width_pt": 131.74679999999998,
       "height_pt": 27.288,
-      "rendered_svg_sha256": "b70dcb8b43f597178abab9e2addad037e3e53aa2dc67971e765729ed15719363",
+      "rendered_svg_sha256": "46953a43e7b0cc3f22af7553c0be8409b6d5309099c021799853ad2628603215",
       "inline_png_sha256": null
     },
     {
@@ -910,11 +910,11 @@
       "inline_png_sha256": "d035f7beda7e62f25a4915f2e564887d1111ef3ea438e31fd477b8684628fdcc"
     },
     {
-      "tex": "p_{\\mathrm{hall}}=\\sigma\\!\\left(w^\\top\\operatorname{standardize}(f)+b\\right).",
+      "tex": "p_{\\mathrm{hall}}=\\sigma\\!\\left(w^\\top\\mathrm{standardize}(f)+b\\right).",
       "display": true,
-      "width_pt": 171.93959999999998,
+      "width_pt": 169.9404,
       "height_pt": 14.817599999999999,
-      "rendered_svg_sha256": "9a4bd1eaee5f17c6cc9edb174460bdbf9f898e8e985c87b715f65a9642105ea1",
+      "rendered_svg_sha256": "585f0a5c2a24a4b60a56306e0acc680eb49ff7f65d5340aeafb8848458306ad0",
       "inline_png_sha256": null
     },
     {

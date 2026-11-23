@@ -15,6 +15,7 @@ from reportlab.pdfgen.canvas import Canvas
 class MathTests(unittest.TestCase):
     def test_literal_code_and_escaped_currency_are_not_math(self):
         self.assertEqual(list(inline_math(r'cost \$20, `$not_math$`, $x_i$')),['x_i'])
+        self.assertEqual(list(inline_math(r'$`a_b`$ and `$literal$` then $`\mathrm{mean}(R)`$')),['a_b',r'\mathrm{mean}(R)'])
         lines=['```python','$$not math$$','```','$$','a+b','$$','```math','c+d','```']
         self.assertEqual(list(math_blocks(lines)),[(3,6,'a+b'),(6,9,'c+d')])
 
@@ -22,10 +23,16 @@ class MathTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Unclosed'):
             list(math_blocks(['$$','a+b']))
 
+    def test_github_rejected_macro_fails_before_publication(self):
+        with tempfile.TemporaryDirectory() as temp:
+            md=Path(temp)/'report.md';md.write_text(r'$`\operatorname{mean}(R)`$')
+            with self.assertRaisesRegex(ValueError,'GitHub rejects'):
+                MathRenderer(md)
+
     def test_vector_display_inline_baseline_and_manifest(self):
         with tempfile.TemporaryDirectory() as temp:
             md=Path(temp)/'report.md'
-            md.write_text('Inline $x_i$.\n\n$$\n\\frac{1}{2}+\\sum_{i=1}^n x_i\n$$\n')
+            md.write_text('Inline $`x_i`$.\n\n```math\n\\frac{1}{2}+\\sum_{i=1}^n x_i\n```\n')
             math=MathRenderer(md)
             tex=math.blocks[2][1]
             drawing=math.display(tex)
@@ -34,7 +41,7 @@ class MathTests(unittest.TestCase):
             stream=io.BytesIO();canvas=Canvas(stream)
             renderPDF.draw(drawing,canvas,20,600)
             # Force an inline image onto a CJK line boundary (ReportLab regression).
-            content=math.inline('long-prefix $x_i$ trailing text',lambda x:x)
+            content=math.inline('long-prefix $`x_i`$ trailing text',lambda x:x)
             para=MathParagraph(content,ParagraphStyle('test',wordWrap='CJK',fontSize=10,leading=17,autoLeading='max'))
             width,height=para.wrap(65,500)
             self.assertGreater(height,17)

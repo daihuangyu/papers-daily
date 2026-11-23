@@ -8,7 +8,7 @@ import tempfile
 from pathlib import Path
 from reportlab.platypus import Paragraph
 
-INLINE = re.compile(r'(?<!\\)\$(?!\$)(.+?)(?<!\\)\$(?!\$)')
+TOKENS = re.compile(r'(?P<ticked>(?<!\\)\$`[^`\n]+`\$)|(?P<code>`[^`\n]*`)|(?P<plain>(?<!\\)\$(?!\$)(?:\\.|[^$\n])+?(?<!\\)\$(?!\$))')
 
 
 class MathParagraph(Paragraph):
@@ -25,11 +25,21 @@ class MathParagraph(Paragraph):
                 frag.text='\ufffc'
 
 
+def math_segments(text):
+    """Yield (is_math, text/TeX), preserving literal code and GitHub $`...`$."""
+    last=0
+    for match in TOKENS.finditer(text):
+        if match.group('code'):
+            continue
+        yield False,text[last:match.start()]
+        raw=match.group()
+        yield True,raw[2:-2] if match.group('ticked') else raw[1:-1]
+        last=match.end()
+    yield False,text[last:]
+
+
 def inline_math(text):
-    """Return formulae outside literal backtick spans."""
-    for n, part in enumerate(re.split(r'(`[^`]*`)', text)):
-        if n % 2 == 0:
-            yield from (m.group(1) for m in INLINE.finditer(part))
+    return (part for is_math,part in math_segments(text) if is_math)
 
 
 def math_blocks(lines):
@@ -91,6 +101,8 @@ class MathRenderer:
             return
         requests = []
         for tex, display in sorted(expressions):
+            if re.search(r'\\operatorname\b',tex):
+                raise ValueError('GitHub rejects \\operatorname; use \\mathrm for named functions')
             identity = hashlib.sha256(('mathjax-3.2.2-v1\0'+str(display)+'\0'+tex).encode()).hexdigest()[:24]
             requests.append(dict(id=identity,tex=tex,display=display,size=12 if display else 10))
         response = subprocess.run(['node',str(Path(__file__).with_name('render_math.cjs'))],
@@ -118,22 +130,17 @@ class MathRenderer:
         return drawing
 
     def inline(self, text, plain_formatter, font_size=10):
-        def convert(part):
-            output, last = [], 0
-            for match in INLINE.finditer(part):
-                output.append(plain_formatter(part[last:match.start()]))
-                tex = match.group(1)
-                item = self.entries[tex,False]
-                scale = font_size/item['size']
-                image = self.directory/(item['id']+'.png')
-                output.append('<img src="{}" width="{:.4f}" height="{:.4f}" valign="{:.4f}"/>'.format(
-                    html.escape(str(image),quote=True),item['width']*scale,item['height']*scale,-item['depth']*scale))
-                self.used.append((tex,False))
-                last = match.end()
-            output.append(plain_formatter(part[last:]))
-            return ''.join(output)
-        return ''.join(plain_formatter(part) if n%2 else convert(part)
-            for n,part in enumerate(re.split(r'(`[^`]*`)',text)))
+        output=[]
+        for is_math,part in math_segments(text):
+            if not is_math:
+                output.append(plain_formatter(part));continue
+            item=self.entries[part,False]
+            scale=font_size/item['size']
+            image=self.directory/(item['id']+'.png')
+            output.append('<img src="{}" width="{:.4f}" height="{:.4f}" valign="{:.4f}"/>'.format(
+                html.escape(str(image),quote=True),item['width']*scale,item['height']*scale,-item['depth']*scale))
+            self.used.append((part,False))
+        return ''.join(output)
 
     def write_manifest(self):
         if not self.entries:

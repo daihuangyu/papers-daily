@@ -55,7 +55,7 @@ pdffonts VLM/YYYY-MM-DD/report.pdf
 pdftoppm -scale-to 1400 -png VLM/YYYY-MM-DD/report.pdf /tmp/papers-daily-page
 ```
 
-必须逐页检查PDF的中文、公式、表格、代码、图片和图注；确认无缺字、截断、重叠或空白页，正文与Markdown相同，不能用短版替代。公式统一写成LaTeX：行内`$...$`，独立公式用`$$`或fenced math，多行用aligned；不要将公式写成普通文字、带下划线的变量或text代码块。GitHub原生渲染，PDF由相同TeX生成矢量独立公式和按基线对齐的高分辨率行内公式。当前renderer同时支持原有标题、段落、表格、代码块和图片；错误或过宽公式阻止构建，不能以原始TeX代替渲染。生成的assets/math-manifest.json记录每个公式与渲染哈希，非数学全文比对、公式清单核对及逐页目检分开完成，保留所有解释和原论文图。具体安装、语法和检查见[scripts/MATH.md](scripts/MATH.md)。
+必须逐页检查PDF的中文、公式、表格、代码、图片和图注；确认无缺字、截断、重叠或空白页，正文与Markdown相同，不能用短版替代。公式统一写成LaTeX：行内优先GitHub受保护写法（见scripts/MATH.md），独立公式优先fenced math，多行用aligned；函数名用mathrm，避免GitHub拒绝的operatorname。不要将公式写成普通文字、带下划线的变量或text代码块。GitHub原生渲染，PDF由相同TeX生成矢量独立公式和按基线对齐的高分辨率行内公式。当前renderer同时支持原有标题、段落、表格、代码块和图片；错误或过宽公式阻止构建，不能以原始TeX代替渲染。生成的assets/math-manifest.json记录每个公式与渲染哈希，非数学全文比对、公式清单核对及逐页目检分开完成，保留所有解释和原论文图。发布前在GitHub实际预览检查公式已渲染、没有宏限制错误；不能只凭本地渲染成功。具体安装、语法和检查见[scripts/MATH.md](scripts/MATH.md)。
 
 `scripts/tests/fixtures/cloud-font-smoke.md/.pdf`是迁移验证样例，不是每日论文。已在Linux生成并渲染检查：中文、α/β/μ、转置符号、代码、表格和仓库原图可读；pdffonts显示PapersDailyCJK-Regular的emb/sub/uni均为yes。6项去重和时间窗测试通过。
 

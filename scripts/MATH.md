@@ -1,16 +1,16 @@
 # 数学公式排版
 
-Markdown 是唯一内容源。正文用 `$x_i$` 表示行内公式；独立公式用单独两行 `$$` 包住 LaTeX，也支持 GitHub 的 fenced `math`。多行公式用 `aligned`，分母、下标与长条件概率要使用正确的 LaTeX 结构；代码示例仍放普通代码块，不把推导写成伪代码截图。
+Markdown 是唯一内容源。正文优先用 GitHub 受保护的行内写法 ``$`x_i`$``，独立公式优先 fenced `math`，避免 Markdown 先处理下划线、反斜杠和行间距指令。PDF 也支持普通 `$...$` 和 `$$`，但发布前必须检查 GitHub 实际显示。多行用 `aligned`；代码示例仍放普通代码块，不把推导写成伪代码截图。函数名使用 `\mathrm{mean}`、`\mathrm{clip}` 等；GitHub 实测拒绝 `\operatorname`，生成器会报错提示替换。
 
 ````markdown
-行内说明：$\pi_\theta$ 是策略，$\pi_{\mathrm{ref}}$ 是参考模型。
+行内说明：$`\pi_\theta`$ 是策略，$`\pi_{\mathrm{ref}}`$ 是参考模型。
 
-$$
+```math
 \begin{aligned}
 z&=\beta(u_w-u_l),\\
 \mathcal{L}&=-\mathbb{E}[\log\sigma(z)].
 \end{aligned}
-$$
+```
 ````
 
 首次安装：`python3 -m pip install -r requirements.txt`、`npm ci --ignore-scripts`（Node.js 20+）。随后执行 `python3 scripts/build_report.py VLM/YYYY-MM-DD/report.md`。保留原有中文字体环境设置，Linux 仍用 Noto，数学字形独立由 MathJax 提供。依赖安装完成后，排版不访问 CDN、浏览器或网络。
