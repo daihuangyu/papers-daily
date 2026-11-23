@@ -4,6 +4,7 @@ import html
 import re
 from pathlib import Path
 from cjk_font import embedded_font
+from math_render import MathRenderer, MathParagraph
 from PIL import Image as PILImage, ImageDraw, ImageFont
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -11,6 +12,8 @@ from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle, PageBreak, KeepTogether
+
+Paragraph = MathParagraph
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -40,19 +43,22 @@ def illustrations(folder):
 
 def build(md):
     direction = md.parent.parent.name
+    math = MathRenderer(md)
     FONT = embedded_font(md.read_text(encoding='utf-8'))
     pdfmetrics.registerFont(TTFont('CJK',str(FONT)))
     pdfmetrics.registerFontFamily('CJK',normal='CJK',bold='CJK',italic='CJK',boldItalic='CJK')
-    normal = ParagraphStyle('body',fontName='CJK',fontSize=10,leading=17,spaceAfter=8,wordWrap='CJK')
+    normal = ParagraphStyle('body',fontName='CJK',fontSize=10,leading=17,spaceAfter=8,wordWrap='CJK',autoLeading='max')
     headings = {n: ParagraphStyle(f'h{n}',parent=normal,fontSize={1:24,2:17,3:13}[n],leading={1:32,2:25,3:20}[n],textColor=colors.HexColor('#164e63'),spaceBefore=12,spaceAfter=9,keepWithNext=True) for n in (1,2,3)}
     code = ParagraphStyle('code',parent=normal,fontName='CJK',fontSize=8,leading=12,backColor=colors.HexColor('#eef3f7'),borderPadding=7)
     caption = ParagraphStyle('caption',parent=normal,fontSize=8,leading=12,textColor=colors.HexColor('#536575'))
-    def inline(text):
+    def plain_inline(text):
         text=html.escape(text)
         text=re.sub(r'\[([^\]]+)\]\((https?://[^)]+)\)',r'<link href="\2" color="#126b86">\1</link>',text)
         text=re.sub(r'\*\*(.*?)\*\*',r'<b>\1</b>',text)
         text=re.sub(r'`([^`]+)`',r'\1',text)
         return text
+    def inline(text, font_size=10):
+        return math.inline(text,plain_inline,font_size)
     lines=md.read_text(encoding='utf-8').splitlines(); story=[]; i=0
     def append_block(block):
         # Keep a heading with a figure/code block even when that block is atomic.
@@ -64,6 +70,13 @@ def build(md):
     while i<len(lines):
         line=lines[i].strip(); i+=1
         if not line: continue
+        if i-1 in math.blocks:
+            i,tex = math.blocks[i-1]
+            intro=[]
+            if story and isinstance(story[-1],Paragraph) and story[-1].getPlainText().rstrip().endswith(('：',':')):
+                intro.append(story.pop())
+            append_block(intro+[Spacer(1,3),math.display(tex),Spacer(1,8)])
+            continue
         if line.startswith('```'):
             block=[]
             while i<len(lines) and not lines[i].startswith('```'):
@@ -81,13 +94,13 @@ def build(md):
             j=i
             while j<len(lines) and not lines[j].strip(): j+=1
             if j<len(lines) and lines[j].strip().startswith('图 '):
-                figure_block.append(Paragraph(inline(lines[j].strip()),caption))
+                figure_block.append(Paragraph(inline(lines[j].strip(),8),caption))
                 i=j+1
             append_block(figure_block); continue
         heading=re.match(r'^(#{1,3}) (.+)',line)
         if heading:
             n=len(heading[1]); title=heading[2]
-            story.append(Paragraph(inline(title),headings[n])); continue
+            story.append(Paragraph(inline(title,headings[n].fontSize),headings[n])); continue
         if line.startswith('|'):
             rows=[line]
             while i<len(lines) and lines[i].strip().startswith('|'):
@@ -95,18 +108,19 @@ def build(md):
             cells=[]
             for row in rows:
                 if re.fullmatch(r'[| :\-]+',row): continue
-                cells.append([Paragraph(inline(x.strip()),caption) for x in row.strip('|').split('|')])
+                cells.append([Paragraph(inline(x.strip(),8),caption) for x in row.strip('|').split('|')])
             table=Table(cells,colWidths=[487/len(cells[0])]*len(cells[0]),repeatRows=1)
             table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e1eff1')),('VALIGN',(0,0),(-1,-1),'TOP'),('GRID',(0,0),(-1,-1),0.3,colors.HexColor('#cad7df')),('TOPPADDING',(0,0),(-1,-1),6),('BOTTOMPADDING',(0,0),(-1,-1),6)]))
             story.extend([table,Spacer(1,10)]); continue
         if line=='---': continue
-        story.append(Paragraph(inline(line),caption if line.startswith('图 ') else normal))
+        story.append(Paragraph(inline(line,8 if line.startswith('图 ') else 10),caption if line.startswith('图 ') else normal))
     def footer(c,d):
         c.setFont('CJK',8); c.setFillColor(colors.HexColor('#536575'))
         c.drawString(54,26,'Papers Daily / '+direction+' / '+md.parent.name)
         c.drawRightString(541,26,str(d.page))
     output=md.with_suffix('.pdf')
     SimpleDocTemplate(str(output),pagesize=A4,leftMargin=54,rightMargin=54,topMargin=48,bottomMargin=48,title=lines[0].lstrip('# '),author='Papers Daily').build(story,onFirstPage=footer,onLaterPages=footer)
+    math.write_manifest()
     print(output)
 
 if __name__=='__main__':

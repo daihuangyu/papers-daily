@@ -45,7 +45,7 @@ manifest保持现有date、direction、topic、window_start、window_end、sourc
 
 ## Linux PDF与排版验证
 
-Python依赖见requirements.txt；Linux系统需`fonts-noto-cjk`和`fonts-dejavu-core`，可用Poppler检查输出。scripts/cjk_font.py从Linux Noto Sans CJK SC取字形，转换为可嵌入TrueType子集，数学补充字形来自DejaVu Sans，不引用macOS Songti。可用PAPERS_CJK_FONT及PAPERS_CJK_FONT_INDEX指定其他可嵌入中文字体；缺字直接报错。
+Python依赖见requirements.txt；数学渲染另需Node.js 20+，首次运行`npm ci --ignore-scripts`安装锁定依赖。Linux系统需`fonts-noto-cjk`和`fonts-dejavu-core`，可用Poppler检查输出。scripts/cjk_font.py从Linux Noto Sans CJK SC取字形，转换为可嵌入TrueType子集，普通文字的数学补充字形来自DejaVu Sans，不引用macOS Songti。可用PAPERS_CJK_FONT及PAPERS_CJK_FONT_INDEX指定其他可嵌入中文字体；缺字直接报错。LaTeX数学字形由MathJax独立排版。
 
 ```sh
 python3 scripts/build_report.py VLM/YYYY-MM-DD/report.md
@@ -55,7 +55,7 @@ pdffonts VLM/YYYY-MM-DD/report.pdf
 pdftoppm -scale-to 1400 -png VLM/YYYY-MM-DD/report.pdf /tmp/papers-daily-page
 ```
 
-必须逐页检查PDF的中文、公式、表格、代码、图片和图注；确认无缺字、截断、重叠或空白页，正文与Markdown相同，不能用短版替代。当前renderer支持Markdown标题、段落、表格、代码块和本地图片；复杂LaTeX公式需先渲染成assets公式图并插入同一Markdown，在PDF中保持相同公式，不把未渲染LaTeX当成排版完成。
+必须逐页检查PDF的中文、公式、表格、代码、图片和图注；确认无缺字、截断、重叠或空白页，正文与Markdown相同，不能用短版替代。公式统一写成LaTeX：行内`$...$`，独立公式用`$$`或fenced math，多行用aligned；不要将公式写成普通文字、带下划线的变量或text代码块。GitHub原生渲染，PDF由相同TeX生成矢量独立公式和按基线对齐的高分辨率行内公式。当前renderer同时支持原有标题、段落、表格、代码块和图片；错误或过宽公式阻止构建，不能以原始TeX代替渲染。生成的assets/math-manifest.json记录每个公式与渲染哈希，非数学全文比对、公式清单核对及逐页目检分开完成，保留所有解释和原论文图。具体安装、语法和检查见[scripts/MATH.md](scripts/MATH.md)。
 
 `scripts/tests/fixtures/cloud-font-smoke.md/.pdf`是迁移验证样例，不是每日论文。已在Linux生成并渲染检查：中文、α/β/μ、转置符号、代码、表格和仓库原图可读；pdffonts显示PapersDailyCJK-Regular的emb/sub/uni均为yes。6项去重和时间窗测试通过。
 

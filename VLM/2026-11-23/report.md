@@ -16,11 +16,23 @@
 
 ## 0. 小白先读：今天会反复用到的三个概念
 
-SFT 像照着标准解答练习。给定图像或视频 x 与回答 y，模型逐 token 最大化标准回答的概率。若回答有 T 个 token，负对数似然是 L_SFT = -(1/T)Σ_t log π_θ(y_t | x,y_<t)。θ 是可训练参数，π 是输出分布；工具返回的观测通常只作为上下文，不能误当作要模仿生成的回答。
+SFT 像照着标准解答练习。给定图像或视频 $x$ 与回答 $y$，模型逐 token 最大化标准回答的概率。若回答有 $T$ 个 token，负对数似然为：
 
-偏好训练像比较两份作业。常见 DPO 在同一输入 x 下区分好回答 y_w 和差回答 y_l，并用冻结参考模型 π_ref 约束“相对初始模型的改变”。但今天 VEPO 改的是图像，y 完全相同，因此数据管线不能机械套成普通的 chosen/rejected 文本。这里的参考模型是概率比的基准，和给数据打分的 teacher/裁判不是同一个概念。
+$$
+\mathcal{L}_{\mathrm{SFT}}=-\frac{1}{T}\sum_{t=1}^{T}\log\pi_\theta(y_t\mid x,y_{<t}).
+$$
 
-RL 则让模型先自己尝试，再按尝试结果更新。GRPO 常用同题一组回答的相对奖励 A_i = (R_i-mean(R))/(std(R)+ε)。A_i 不是正确答案标签，而是“这次比同组平均好多少”。RLOO 则用其余回答均值作基线，不除以标准差。模型若全答错但奖励有区分，仍可能学习；若所有奖励完全相同，标准组相对更新就没有有用方向。今天会分别看到“不给探索加惩罚”和“直接跳过无方差组”两种处理。
+其中 $\theta$ 是可训练参数，$\pi$ 是输出分布；工具返回的观测通常只作为上下文，不能误当作要模仿生成的回答。
+
+偏好训练像比较两份作业。常见 DPO 在同一输入 x 下区分好回答 $y_w$ 和差回答 $y_l$，并用冻结参考模型 $\pi_{\mathrm{ref}}$ 约束“相对初始模型的改变”。但今天 VEPO 改的是图像，y 完全相同，因此数据管线不能机械套成普通的 chosen/rejected 文本。这里的参考模型是概率比的基准，和给数据打分的 teacher/裁判不是同一个概念。
+
+RL 则让模型先自己尝试，再按尝试结果更新。GRPO 常用同题一组回答的相对奖励：
+
+$$
+A_i=\frac{R_i-\operatorname{mean}(R)}{\operatorname{std}(R)+\epsilon}.
+$$
+
+$A_i$ 不是正确答案标签，而是“这次比同组平均好多少”。RLOO 则用其余回答均值作基线，不除以标准差。模型若全答错但奖励有区分，仍可能学习；若所有奖励完全相同，标准组相对更新就没有有用方向。今天会分别看到“不给探索加惩罚”和“直接跳过无方差组”两种处理。
 
 入门顺序建议先看 [Hugging Face 的 RLHF 图解博客](https://huggingface.co/blog/rlhf)，再看 [PEFT 官方 LoRA 概念说明](https://huggingface.co/docs/peft/main/en/conceptual_guides/lora)，最后对照 [TRL 的 DPO 文档](https://huggingface.co/docs/trl/dpo_trainer)和 [GRPO 文档](https://huggingface.co/docs/trl/grpo_trainer)。这些用于补基础，不能替代下面各篇自己的目标函数与训练设置。
 
@@ -40,31 +52,39 @@ RL 则让模型先自己尝试，再按尝试结果更新。GRPO 常用同题一
 
 ### 1.2 先定位证据，再构造跨输入偏好
 
-原文从 LLaVA-1.5-7B 的第 11-14 层取最后一个问题 token 到视觉 patch 的注意力。设视觉 token/patch 总数 m，第 i 个 patch 的分数为 s_i = (1/|L|)Σ_l A_l(t_last,v_i)，L={11,12,13,14}。A_l 是该层从问题末 token 指向图像 token 的注意力，v_i 是第 i 个视觉 token。问题末 token 已看到完整问题，作者认为它比平均所有提示 token 更集中；这是论文的设计与定性论证，不是“注意力天然等于因果证据”的保证。
+原文从 LLaVA-1.5-7B 的第 11-14 层取最后一个问题 token 到视觉 patch 的注意力。设视觉 token/patch 总数为 $m$，第 $i$ 个 patch 的分数为：
 
-取最高分的 ρm 个 patch，ρ=0.2，将对应原图区域像素置零，得到 I_l；完整图片为 I_w。问题 x_lr 和监督答案 y 不变。训练四元组为 (I_w,I_l,x_lr,y)。英语平行问题用于打分，目标语言问题用于损失。若 100 个 patch 中取 20 个，就有 20% patch 被置黑；这一比例指选中的 patch 比例，不能自动解释为恰好去掉 20% 的语义信息。
+$$
+s_i=\frac{1}{|\mathcal{L}|}\sum_{l\in\mathcal{L}}A_l(t_{\mathrm{last}},v_i),\qquad\mathcal{L}=\{11,12,13,14\}.
+$$
+
+$A_l$ 是该层从问题末 token 指向图像 token 的注意力，$v_i$ 是第 i 个视觉 token。问题末 token 已看到完整问题，作者认为它比平均所有提示 token 更集中；这是论文的设计与定性论证，不是“注意力天然等于因果证据”的保证。
+
+取最高分的 $\rho m$ 个 patch，$\rho=0.2$，将对应原图区域像素置零，得到 $I_l$；完整图片为 $I_w$。问题 $x_{\mathrm{lr}}$ 和监督答案 y 不变。训练四元组为 $(I_w,I_l,x_{\mathrm{lr}},y)$。英语平行问题用于打分，目标语言问题用于损失。若 100 个 patch 中取 20 个，就有 20% patch 被置黑；这一比例指选中的 patch 比例，不能自动解释为恰好去掉 20% 的语义信息。
 
 核心损失写成适合实现的对数形式：
 
-```text
-u_w = log π_θ(y | I_w,x_lr) - log π_ref(y | I_w,x_lr)
-u_l = log π_θ(y | I_l,x_lr) - log π_ref(y | I_l,x_lr)
-z = β (u_w - u_l)
-L_VEPO = - E[log sigmoid(z)]
-log π(y | I,x) = Σ_t log π(y_t | I,x,y_<t)
-```
+$$
+\begin{aligned}
+u_w&=\log\frac{\pi_\theta(y\mid I_w,x_{\mathrm{lr}})}{\pi_{\mathrm{ref}}(y\mid I_w,x_{\mathrm{lr}})},\\[4pt]
+u_l&=\log\frac{\pi_\theta(y\mid I_l,x_{\mathrm{lr}})}{\pi_{\mathrm{ref}}(y\mid I_l,x_{\mathrm{lr}})},\\[4pt]
+z&=\beta(u_w-u_l),\\
+\mathcal{L}_{\mathrm{VEPO}}&=-\mathbb{E}\big[\log\sigma(z)\big],\\
+\log\pi(y\mid I,x)&=\sum_t\log\pi(y_t\mid I,x,y_{<t}).
+\end{aligned}
+$$
 
-π_θ 是更新中的模型，π_ref 是冻结的初始化模型，β=0.1 控制偏好间隔的尺度。序列概率实际用各回答 token 的 log-prob 求和，避免概率连乘下溢。两路要使用相同的答案 token 与 answer mask，不能把英文定位提示也算进答案损失。
+$\pi_\theta$ 是更新中的模型，$\pi_{\mathrm{ref}}$ 是冻结的初始化模型，$\beta=0.1$ 控制偏好间隔的尺度。序列概率实际用各回答 token 的 log-prob 求和，避免概率连乘下溢。两路要使用相同的答案 token 与 answer mask，不能把英文定位提示也算进答案损失。
 
-本文推导：对 z 的导数是 sigmoid(z)-1，始终非正，因此最小化损失会推动 z 增大，也就是提高完整证据路相对于缺证据路的相对优势。若把 r_w=π_θ/π_ref、r_l=π_θ/π_ref 分别代入两路，目标比较的是 log(r_w/r_l)。这与普通 DPO 的“同图两答案”差别就在条件分布本身不同。
+本文推导：对 $z$ 的导数是 $\sigma(z)-1$，始终非正，因此最小化损失会推动 z 增大，也就是提高完整证据路相对于缺证据路的相对优势。若把 $r_w=\pi_\theta/\pi_{\mathrm{ref}}$、$r_l=\pi_\theta/\pi_{\mathrm{ref}}$ 分别代入两路，目标比较的是 $\log(r_w/r_l)$。这与普通 DPO 的“同图两答案”差别就在条件分布本身不同。
 
-本文手算：若 r_w=2、r_l=0.5，则 z=0.1 log4≈0.1386，sigmoid(z)≈0.5346，损失约 0.626，小于无偏好间隔时的 log2≈0.693。但 r_w=0.2、r_l=0.05 也给出同一个间隔。因此损失改善并不能单独证明完整图下正确答案的绝对概率上升；必须同时看任务指标和两路概率变化。
+本文手算：若 $r_w=2$、$r_l=0.5$，则 $z=0.1\log4\approx0.1386$，$\sigma(z)\approx0.5346$，损失约 0.626，小于无偏好间隔时的 $\log2\approx0.693$。但 $r_w=0.2$、$r_l=0.05$ 也给出同一个间隔。因此损失改善并不能单独证明完整图下正确答案的绝对概率上升；必须同时看任务指标和两路概率变化。
 
 ### 1.3 数据、参数和可复现训练流程
 
 原文使用 PALO 已存在的图像、多语言问答及英语平行问题。PALO 总体约 210 万条、10 种语言；这是来源语料规模，论文没有明确给出各实验实际选中多少训练对，不能直接写成“每个实验训练 210 万条”。中文/法文使用对应语言数据；印地语采用印地语与英语偏好对 1:1 混合，防止纯低资源语言优化不稳定。不需要额外采集 rejected 文本，也不需要训练外部奖励模型，但依赖已有的英语对齐数据。
 
-原文超参数：LoRA rank=128、alpha=256，训练 1 epoch，学习率 2e-5，batch size=8，β=0.1，遮挡比例 0.2。π_ref 保持冻结。GPU 型号、峰值显存、墙钟时间、GPU-hours、准确训练对数没有披露；主要结果是单次运行，不能据此估计方差或显著性。
+原文超参数：LoRA rank=128、alpha=256，训练 1 epoch，学习率 2e-5，batch size=8，$\beta=0.1$，遮挡比例 0.2。$\pi_{\mathrm{ref}}$ 保持冻结。GPU 型号、峰值显存、墙钟时间、GPU-hours、准确训练对数没有披露；主要结果是单次运行，不能据此估计方差或显著性。
 
 ```text
 for (image, english_question, target_question, answer) in selected_PALO:
@@ -127,26 +147,54 @@ MME perception 的中文/法文/印地语分数分别由 992/1059/544 变为 106
 
 ### 2.2 三项奖励分别约束事实、计划与浪费
 
-设 F_ref 为参考 caption 的去重原子事实集合，F_pred 为生成 caption 的去重事实集合。语义匹配采用一对一对应，匹配数量 M，精确率 P=M/|F_pred|，召回率 Q=M/|F_ref|，F1=2PQ/(P+Q)。因此重复表达同一事实不会增加多次命中，且一个预测不能同时抵扣多个参考事实。
+设 $F_{\mathrm{ref}}$ 为参考 caption 的去重原子事实集合，$F_{\mathrm{pred}}$ 为生成 caption 的去重事实集合。语义匹配采用一对一对应，匹配数量为 $M$：
 
-KFR=F1(F_pred,F_ref)，同时关心“说对”和“说全”。PAR=F1(P(p0),U_v)，其中 p0 是工具执行前的初始计划；P(p0) 为结合 Context 与 Focus 解释后的去重观察目标；U_v 是参考中全局预览尚未解决、值得进一步观察的目标。PAR 不是给最终 caption 再打一次分，也不是奖励把所有可能细节都列进计划。多列无关目标会伤 precision。
+$$
+P=\frac{M}{|F_{\mathrm{pred}}|},\qquad Q=\frac{M}{|F_{\mathrm{ref}}|},\qquad F_1=\frac{2PQ}{P+Q}.
+$$
+
+因此重复表达同一事实不会增加多次命中，且一个预测不能同时抵扣多个参考事实。
+
+两项奖励分别为：
+
+$$
+\begin{aligned}
+R_{\mathrm{KFR}}&=F_1(F_{\mathrm{pred}},F_{\mathrm{ref}}),\\
+R_{\mathrm{PAR}}&=F_1\big(P(p_0),U_v\big).
+\end{aligned}
+$$
+
+KFR 同时关心“说对”和“说全”。其中 $p_0$ 是工具执行前的初始计划；$P(p_0)$ 为结合 Context 与 Focus 解释后的去重观察目标；$U_v$ 是参考中全局预览尚未解决、值得进一步观察的目标。PAR 不是给最终 caption 再打一次分，也不是奖励把所有可能细节都列进计划。多列无关目标会伤 precision。
 
 对同视频采样组 G，定义：
 
-```text
-g(G) = indicator[max_i KFR_i >= τ_q]
-b_i = clip(additional_tool_calls_i / fixed_call_budget, 0, 1)
-P_UTCP_i = g(G) * (1-KFR_i) * b_i
-R_i = α*KFR_i + β*PAR_i - μ*P_UTCP_i
-```
+$$
+\begin{aligned}
+g(\mathcal{G})&=\mathbf{1}\!\left[\max_{i\in\mathcal{G}}R_{\mathrm{KFR},i}\geq\tau_q\right],\\
+b_i&=\operatorname{clip}\!\left(\frac{n_{\mathrm{calls},i}}{B_{\mathrm{calls}}},0,1\right),\\
+P_{\mathrm{UTCP},i}&=g(\mathcal{G})\big(1-R_{\mathrm{KFR},i}\big)b_i,\\
+R_i&=\alpha R_{\mathrm{KFR},i}+\beta R_{\mathrm{PAR},i}-\mu P_{\mathrm{UTCP},i}.
+\end{aligned}
+$$
 
-τ_q 是质量阈值，b_i 仅计共享全局预览后的额外调用，α、β、μ 控制奖励权重。论文未提供可完整复现的这些具体值、固定调用预算和组大小，不能从公式猜成全 1。组内只要有一条质量够好，全部轨迹都按各自质量/调用量接受惩罚；若全组都没找到好解，就不惩罚探索开销。
+这里 $n_{\mathrm{calls},i}$ 是额外工具调用次数，$B_{\mathrm{calls}}$ 为固定调用预算。
 
-本文算例：门控已经触发，两个轨迹均用半数预算 b=0.5，KFR 分别 0.8 与 0.2，则 P_UTCP 分别 0.1 与 0.4。同样花预算，低质量观测损失更大。若全组不达阈值，两个罚项都为 0。这不是“调用越少总越好”，它允许困难视频先学会找到证据。
+$\tau_q$ 是质量阈值，$b_i$ 仅计共享全局预览后的额外调用，$\alpha,\beta,\mu$ 控制奖励权重。论文未提供可完整复现的这些具体值、固定调用预算和组大小，不能从公式猜成全 1。组内只要有一条质量够好，全部轨迹都按各自质量/调用量接受惩罚；若全组都没找到好解，就不惩罚探索开销。
 
-本文机制推导：对固定 b，有 dP_UTCP/dKFR=-g b，奖励中有效的 KFR 斜率为 α+μgb；一旦组内出现可行轨迹，高成本失败轨迹将受到更强质量压力。但门控依赖同组其他样本，采样组大小/随机种子会改变某条轨迹是否受罚，复现必须同时保存组信息。
+本文算例：门控已经触发，两个轨迹均用半数预算 $b=0.5$，KFR 分别 0.8 与 0.2，则 $P_{\mathrm{UTCP}}$ 分别 0.1 与 0.4。同样花预算，低质量观测损失更大。若全组不达阈值，两个罚项都为 0。这不是“调用越少总越好”，它允许困难视频先学会找到证据。
 
-GRPO 按组内 R 计算相对优势。通用 clipped surrogate 可以写为 -mean min(r_it A_i,clip(r_it,1-ε,1+ε)A_i)，r_it=π_θ/π_old；若另加 KL，则需按训练器实现核对。这里是便于理解的标准形式，原文没有充分给出所有优化器系数，不能把 TRL 默认值当作者配置。
+本文机制推导：对固定 $b$，有 $\partial P_{\mathrm{UTCP}}/\partial R_{\mathrm{KFR}}=-gb$，奖励中有效的 KFR 斜率为 $\alpha+\mu gb$；一旦组内出现可行轨迹，高成本失败轨迹将受到更强质量压力。但门控依赖同组其他样本，采样组大小/随机种子会改变某条轨迹是否受罚，复现必须同时保存组信息。
+
+GRPO 按组内 $R$ 计算相对优势。通用 clipped surrogate 可以写为：
+
+$$
+\begin{aligned}
+\mathcal{L}_{\mathrm{clip}}&=-\mathbb{E}_{i,t}\!\left[\min\!\left(r_{it}A_i,\operatorname{clip}(r_{it},1-\epsilon,1+\epsilon)A_i\right)\right],\\
+r_{it}&=\frac{\pi_\theta(y_{it}\mid x,y_{i,<t})}{\pi_{\mathrm{old}}(y_{it}\mid x,y_{i,<t})}.
+\end{aligned}
+$$
+
+若另加 KL，则需按训练器实现核对。这里是便于理解的标准形式，原文没有充分给出所有优化器系数，不能把 TRL 默认值当作者配置。
 
 ### 2.3 监督轨迹怎样构造，哪些参数更新
 
@@ -223,28 +271,44 @@ SurgQ-VLM 用问题条件化的慢/快双流压缩器保留不同时间尺度，
 
 ### 3.3 奖励拆开看：任务内容占主导，格式只辅助
 
-原文总奖励：R=R1+0.3R2+0.05R3-0.3R_len。各分量先在 [0,1] 内评分。R1 依结构选择正确性度量：二元题匹配归一化 yes/no；分类题要求至少一半 gold content words 出现在回答中；多标签题对预测/真实 item 集合计算 micro-F1；计数按相对误差给分；时间句子同时检查内容和时刻。
+原文总奖励：
 
-```text
-count reward = 1 - min(1, abs(pred_count-gold_count)/max(gold_count,1))
-temporal reward = 0.2*(k+τ)/2 + 0.8*k*τ
-```
+$$
+R=R_1+0.3R_2+0.05R_3-0.3R_{\mathrm{len}}.
+$$
 
-k 是连续关键词准确率，τ 是 ±2 秒容忍下的时间准确率。乘积项要求二者同时好，小的加法项保留一侧成功的部分奖励。这里是 k×τ，不是几何平均 sqrt(kτ)。分类 content-word 阈值也不等于严格语义正确，必须注意关键词投机空间。
+各分量先在 [0,1] 内评分。R1 依结构选择正确性度量：二元题匹配归一化 yes/no；分类题要求至少一半 gold content words 出现在回答中；多标签题对预测/真实 item 集合计算 micro-F1；计数按相对误差给分；时间句子同时检查内容和时刻。
 
-本文手算：gold count=4、预测 3，则计数奖励 0.75；若 gold=0，分母用 1 避免除零，预测 1 仍为 0 分。时间题 k=1、τ=0 时仅得 0.1；k=τ=0.8 时为 0.16+0.512=0.672。只写对器械名而不写对发生时间，很难拿到高分。
+$$
+\begin{aligned}
+R_{\mathrm{count}}&=1-\min\!\left(1,\frac{|\hat c-c|}{\max(c,1)}\right),\\[4pt]
+R_{\mathrm{temporal}}&=0.2\,\frac{k+\tau}{2}+0.8k\tau.
+\end{aligned}
+$$
 
-R2 检查推理格式：开/闭 think 标记各占三分之一，至少两个“Step N”标记再占三分之一，并惩罚照搬标注字段等捷径。SFT 目标没有推理轨迹，这种格式是在 GRPO 中产生的。R3 仅对六种时间类问题奖励数字秒数/帧引用与时间词，各 0.5；其他问题默认 R3=1。对同一非时间题，常数 0.05 会在组中心化时消去，不会凭空提供区分回答的方向。
+其中 $c$ 为真实计数，$\hat c$ 为预测计数。
 
-R_len 为线性超长惩罚；应从代码核对具体阈值与归一化，不能仅凭论文一句话补出公式。作者用 5% 数据、G=4 做 pilot 后发现模型引用标注 schema 字段刷时序奖励，将 R3 权重由 0.2 降至 0.05，并用 R2 的捷径处罚补充。这段失败经验比只抄最终 reward 更有用。
+k 是连续关键词准确率，τ 是 ±2 秒容忍下的时间准确率。乘积项要求二者同时好，小的加法项保留一侧成功的部分奖励。这里是 $k\tau$，不是几何平均 $\sqrt{k\tau}$。分类 content-word 阈值也不等于严格语义正确，必须注意关键词投机空间。
+
+本文手算：gold count=4、预测 3，则计数奖励 0.75；若 gold=0，分母用 1 避免除零，预测 1 仍为 0 分。时间题 $k=1,\tau=0$ 时仅得 0.1；$k=\tau=0.8$ 时为 $0.16+0.512=0.672$。只写对器械名而不写对发生时间，很难拿到高分。
+
+R2 检查推理格式：开/闭 think 标记各占三分之一，至少两个“Step N”标记再占三分之一，并惩罚照搬标注字段等捷径。SFT 目标没有推理轨迹，这种格式是在 GRPO 中产生的。R3 仅对六种时间类问题奖励数字秒数/帧引用与时间词，各 0.5；其他问题默认 $R_3=1$。对同一非时间题，常数 0.05 会在组中心化时消去，不会凭空提供区分回答的方向。
+
+$R_{\mathrm{len}}$ 为线性超长惩罚；应从代码核对具体阈值与归一化，不能仅凭论文一句话补出公式。作者用 5% 数据、$G=4$ 做 pilot 后发现模型引用标注 schema 字段刷时序奖励，将 R3 权重由 0.2 降至 0.05，并用 R2 的捷径处罚补充。这段失败经验比只抄最终 reward 更有用。
 
 ### 3.4 两阶段训练、Q-type 权重与采样陷阱
 
 阶段一：视觉编码器冻结，压缩器与 LoRA 联合 SFT；LoRA rank=16、alpha=32，覆盖 attention 与 MLP 的 q/k/v/o/gate/up/down 投影。8-bit AdamW，学习率 2e-4，batch=8、累积 8，有效 batch=64，3 epochs。按 Q-type 逆频率加权，降低多数简单题的支配。
 
-阶段二：压缩器冻结，仅 LoRA 更新；参考为 SFT checkpoint，通过切换 LoRA 权重重建。G=8，DAPO 式非对称 clip 下界 0.2/上界 0.28，KL 系数 0.04；学习率 5e-7，batch=4、累积 2，有效 batch=8，训练 1 epoch，rollout 最多 384 新 token。2 倍 oversampling 后，丢弃 reward std<1e-8 的无方差 prompt 组。
+阶段二：压缩器冻结，仅 LoRA 更新；参考为 SFT checkpoint，通过切换 LoRA 权重重建。$G=8$，DAPO 式非对称 clip 下界 0.2/上界 0.28，KL 系数 0.04；学习率 5e-7，batc$h=4$、累积 2，有效 batch=8，训练 1 epoch，rollout 最多 384 新 token。2 倍 oversampling 后，丢弃 reward std<1e-8 的无方差 prompt 组。
 
-本文推导：若把某题所有奖励都乘同一个正的类型权重 w，再计算组内标准化，(wR-wmean(R))/(wstd(R)) 与原来的 A 基本相同（忽略 ε）。因此原文把逆频率权重乘在归一化后的策略梯度 loss 上，才能让稀有题实际获得更多更新权重。不要只把 reward 乘大，然后期待类别平衡自动生效。
+本文推导：若把某题所有奖励都乘同一个正的类型权重 $w$，再计算组内标准化，则忽略 $\epsilon$ 时：
+
+$$
+\frac{wR-w\operatorname{mean}(R)}{w\operatorname{std}(R)}=\frac{R-\operatorname{mean}(R)}{\operatorname{std}(R)}=A.
+$$
+
+因此原文把逆频率权重乘在归一化后的策略梯度 loss 上，才能让稀有题实际获得更多更新权重。不要只把 reward 乘大，然后期待类别平衡自动生效。
 
 ```text
 group = sample_8_answers(prompt, current_LoRA)
@@ -300,18 +364,22 @@ brain 不先接受导航领域 SFT，它通过自然语言工具调用表达“�
 
 核心数据问题是监督动作必须兑现 brain 实际发出的请求。若沿固定轨迹再补一句指令，标签动作可能与这句话不相容。原文在训练期使用语义 mesh map 和几何信息，把当前状态下的真实请求定位到可达局部目标，规划出执行验证的参考轨迹。推理时不输入这些特权地图。
 
-动作专家每次预测 H=16 步，仅执行前 h=4 步，再更新相机观测重规划；同一 movement call 内语义意图与参考图像保持固定，当前 RGB 每个 fast cycle 更新。可学习 query Q 经过 brain 上下文成为语义条件 Q_t，再与图像条件融合。
+动作专家每次预测 $H=16$ 步，仅执行前 $h=4$ 步，再更新相机观测重规划；同一 movement call 内语义意图与参考图像保持固定，当前 RGB 每个 fast cycle 更新。可学习 query Q 经过 brain 上下文成为语义条件 $Q_t$，再与图像条件融合。
 
-设参考动作块 U* 属于 H×d_a，噪声 ε 来自标准高斯，u 为 flow time：
+设参考动作块 $U^\star$ 属于 $H\times d_a$，噪声 ε 来自标准高斯，u 为 flow time：
 
-```text
-U(u) = (1-u)*U* + u*ε
-target_velocity = ε-U*
-L_FM = E[ (1/K) Σ_k (1/(h*d_a)) Σ_(j=1..h)
-             || f_φ(U_k(u),u,C_k)_j - (ε-U*_k)_j ||² ]
-```
+$$
+\begin{aligned}
+U_k(u)&=(1-u)U_k^\star+u\epsilon,\\
+v_k^\star&=\epsilon-U_k^\star,\\
+e_{kj}&=f_\phi\big(U_k(u),u,C_k\big)_j-(v_k^\star)_j,\\
+\mathcal{L}_{\mathrm{FM}}&=\mathbb{E}\!\left[\frac{1}{Kh d_a}\sum_{k=1}^{K}\sum_{j=1}^{h}\|e_{kj}\|_2^2\right].
+\end{aligned}
+$$
 
-φ 是动作专家参数，C_k 是第 k 个快速周期的语义+视觉条件，K 为训练片段中的 fast cycles 数，d_a 是每步动作维数。本文推导：插值 U(u) 对 u 求导即 ε-U*，因此速度回归目标来自直线噪声路径。模型积分时从噪声向动作反向走，不要把 flow time 与环境导航时间混用。
+这里 $v_k^\star$ 是目标速度，$e_{kj}$ 是第 $k$ 个周期、第 $j$ 步的速度误差；将长式拆开写，损失与原文前缀监督目标一致。
+
+$\phi$ 是动作专家参数，$C_k$ 是第 k 个快速周期的语义+视觉条件，K 为训练片段中的 fast cycles 数，$d_a$ 是每步动作维数。本文推导：插值 U(u) 对 u 求导即 $\epsilon-U^\star$，因此速度回归目标来自直线噪声路径。模型积分时从噪声向动作反向走，不要把 flow time 与环境导航时间混用。
 
 原文保留 16 步的模型预测，但 loss 只监督实际执行的前 4 步，避免过多优化很快会被新观测丢弃的远期尾部。本文算例：若前 4 步均方误差均为 0.01、后 12 步均为 1，全文平均约 0.7525，前缀平均却为 0.01。两种目标会把优化资源放在不同位置。尾部仍可能通过注意力参与影响前缀，不能说后 12 步“绝对没有任何梯度”。
 
@@ -319,23 +387,55 @@ L_FM = E[ (1/K) Σ_k (1/(h*d_a)) Σ_(j=1..h)
 
 原文奖励为 success + first arrival + distance progress + 0.01×information discovery（前三项权重为 1）。成功由环境原生判据确认；first arrival 只在第一次进入目标区域发放，使用到达历史标记，避免往返刷奖。
 
-设 d(s) 为可通行距离，D=max(d(s0),1 米)，势函数 Φ(s)=D/(D+d(s))；一次工具调用的进展为 Φ(s_after)-Φ(s_before)。发现奖励统计深度验证、与任务相关、此前未见过的实体，初始视野已见实体排除，累计至 N_info=5 即封顶。因此发现项整条轨迹最多 0.05。
+设 $d(s)$ 为可通行距离，距离尺度与势函数为：
 
-本文手算：初始 d=10 米，D=10，Φ=0.5；走到 d=5 时 Φ≈0.6667，进展奖励约 0.1667；退回 10 米则给 -0.1667。连续调用的势差会望远镜求和为最终势减初始势，不会仅因把同一路程拆成更多调用而反复赚同一进展。封顶和去重则限制“到处看东西”刷发现分；任务实体与深度判据仍需依赖环境实现。
+$$
+\begin{aligned}
+D&=\max\big(d(s_0),1\,\mathrm{m}\big),\\
+\Phi(s)&=\frac{D}{D+d(s)},\\
+r_{\mathrm{prog}}&=\Phi(s_{\mathrm{after}})-\Phi(s_{\mathrm{before}}).
+\end{aligned}
+$$
+
+最后一行是一次工具调用的进展。发现奖励统计深度验证、与任务相关、此前未见过的实体，初始视野已见实体排除，累计至 $N_{\mathrm{info}}=5$ 即封顶。因此发现项整条轨迹最多 0.05。
+
+本文手算：初始 $d=10$ 米，$D=10$，$\Phi=0.5$；走到 $d=5$ 时 $\Phi\approx0.6667$，进展奖励约 0.1667；退回 10 米则给 -0.1667。连续调用的势差会望远镜求和为最终势减初始势，不会仅因把同一路程拆成更多调用而反复赚同一进展。封顶和去重则限制“到处看东西”刷发现分；任务实体与深度判据仍需依赖环境实现。
 
 ### 4.4 同一个轨迹优势，两个独立梯度通道
 
-同任务采样 G=8 条完整 rollout，累计回报 R_i=Σ_t r_it；RLOO 优势 A_i=R_i-(1/(G-1))Σ_(j≠i)R_j。组内不除标准差。本文推导：A_i = G/(G-1)×(R_i-组均值)，所以对 G=8 是去均值优势的 8/7 倍，但与标准化 GRPO 仍不同。
+同任务采样 $G=8$ 条完整 rollout，累计回报与 RLOO 优势为：
 
-同一 A_i 用于该 rollout 所有交互轮与动作周期，保持长期成功目标一致。例：四条轨迹回报为 3、1、0、0，首条相对其他三条均值的优势为 3-1/3≈2.667；第二条为 1-1=0；后两条各为 -4/3。这是教学用 G=4 算例，实际训练 G=8。
+$$
+R_i=\sum_t r_{it},\qquad A_i=R_i-\frac{1}{G-1}\sum_{j\ne i}R_j.
+$$
 
-brain 的文本 loss 为 -λ_text×平均[sg(A_i)×平均 token log π_θ]，先按回答 token 平均，再按 rollout 内轮次平均、再按 batch 平均；λ_text=0.1。sg 表示不对奖励/优势反传。动作通道将 A_i 裁剪到 [-1,1]，用 Flow-SDE 采样路径的 log-likelihood 做策略梯度，更新 Q 和 φ。
+组内不除标准差。本文推导：令 $\bar R$ 为组均值，则
 
-```text
-brain_gradient = grad_θ(text_REINFORCE_loss)
-expert_gradient = grad_(Q,φ)(FlowSDE_policy_loss)
-# 二者共享轨迹优势，但 action loss 不直接反传修改 brain θ
-```
+$$
+A_i=\frac{G}{G-1}(R_i-\bar R).
+$$
+
+所以对 $G=8$ 是去均值优势的 $8/7$ 倍，但与标准化 GRPO 仍不同。
+
+同一 $A_i$ 用于该 rollout 所有交互轮与动作周期，保持长期成功目标一致。例：四条轨迹回报为 3、1、0、0，首条相对其他三条均值的优势为 $3-\frac13\approx2.667$；第二条为 $1-1=0$；后两条各为 $-4/3$。这是教学用 $G=4$ 算例，实际训练 $G=8$。
+
+brain 的文本 loss 先按回答 token 平均，再按 rollout 内轮次平均、再按 batch 平均：
+
+$$
+\begin{aligned}
+\bar\ell_{it}&=\frac{1}{|\mathcal{T}_{it}|}\sum_{n\in\mathcal{T}_{it}}\log\pi_\theta(y_{itn}\mid x_{it},y_{it,<n}),\\[4pt]
+\mathcal{L}_{\mathrm{text}}&=-\frac{\lambda_{\mathrm{text}}}{B}\sum_{i=1}^{B}\frac{1}{T_i}\sum_{t=1}^{T_i}\operatorname{sg}(A_i)\bar\ell_{it}.
+\end{aligned}
+$$
+
+其中 $B$ 是 batch 中 rollout 数，$T_i$ 是第 $i$ 条 rollout 的轮数，$\mathcal{T}_{it}$ 是该轮回答 token 的位置集合；$\lambda_{\mathrm{text}}=0.1$。$\operatorname{sg}$ 表示不对奖励/优势反传。动作通道将 $A_i$ 裁剪到 [-1,1]，用 Flow-SDE 采样路径的 log-likelihood 做策略梯度，更新 Q 和 $\phi$。
+
+$$
+g_\theta=\nabla_\theta\mathcal{L}_{\mathrm{text}},\qquad
+g_{Q,\phi}=\nabla_{Q,\phi}\mathcal{L}_{\mathrm{action}}.
+$$
+
+二者共享轨迹优势，但 action loss 不直接反传修改 brain $\theta$。
 
 Flow-SDE 的随机路径让连续动作产生可计算的策略概率，而不只是确定性 ODE 预测。原文用 3 个转换步 u=1→2/3→1/3→0，noise scale=0.08，方差下界 1e-6，防止近确定性分布数值退化。动作优势裁剪限制极端回报尺度，但文本优势仍按原 RLOO 使用；二者不能统一改成一次端到端 loss 就假定等价。
 
@@ -371,7 +471,7 @@ update_queries_and_expert(flow_path_logprob * stopgrad(clip(advantages,-1,1)))
 | ZeroVLN 完整 | 51.3 | 52.7 | 51.4 |
 | 同池 NaVILA | 23.5 | 46.5 | 48.7 |
 
-完整 ZeroVLN 的 SPL 为 32.0/29.2/28.1；NaVILA 为 22.1/41.8/43.0。因此在 R2R/RxR 上成功率更高却 SPL 更低。本文解释：SPL 通常按 success×L_shortest/max(L_actual,L_shortest) 平均；若最短 10 米、成功但实际走 20 米，单样本贡献只有 0.5。SR 的提升不能自动代表路径更省、更快。
+完整 ZeroVLN 的 SPL 为 32.0/29.2/28.1；NaVILA 为 22.1/41.8/43.0。因此在 R2R/RxR 上成功率更高却 SPL 更低。本文解释：SPL 通常按 $S\,L^\star/\max(L,L^\star)$ 平均，其中 $S$ 是成功指示、$L^\star$ 是最短路径长度、$L$ 是实际路径长度；若最短 10 米、成功但实际走 20 米，单样本贡献只有 0.5。SR 的提升不能自动代表路径更省、更快。
 
 ![ZeroVLN 原论文 Figure 6](assets/zerovln-mechanism.png)
 
@@ -387,9 +487,22 @@ update_queries_and_expert(flow_path_logprob * stopgrad(clip(advantages,-1,1)))
 
 原文提出一个评测问题：描述得少，幻觉也可能更少。假设基座说出猫、桌子、杯子、自行车，其中后两者不在图里；训练后只说“有猫”。幻觉率降为零，却也丢掉真实的桌子。只报 CHAIR 下降无法证明视觉理解更好。
 
-原文 CHAIR_d=100×Σ幻觉物体数/Σ提到的物体数；Recall=100×Σ正确提到的物体数/Σ参考物体数。先把基座 caption 按出现顺序截成前 k 个不同物体，形成“只少说”的 CHAIR-Recall 曲线 Trunc(r)，再将训练方法与相同物体召回 r 的基座截短结果比较。另一组实验在各模型完整召回的 80% 处比较探针/截短，这是曲线评估设置，不要与下面精确匹配删除数量的 accounting 混成同一个操作。
+原文的两个指标为：
 
-超越少说的收益可写 G=CHAIR_Trunc(r)-CHAIR_system(r)，数值越大越好。本文算例：同样 Recall=60%，截短基座 CHAIR=12，训练模型=8，则 G=4 点；如果只看到未匹配召回的基座 20→模型 8，就会把减少信息量带来的部分收益也记给训练。此处是教学例子，不是论文表中实测。
+$$
+\mathrm{CHAIR}_d=100\,\frac{\sum_i H_i}{\sum_i N_i},\qquad
+\mathrm{Recall}=100\,\frac{\sum_i C_i}{\sum_i G_i}.
+$$
+
+其中 $H_i$ 是幻觉物体数，$N_i$ 是提到的物体数，$C_i$ 是正确提到的物体数，$G_i$ 是参考物体数。先把基座 caption 按出现顺序截成前 k 个不同物体，形成“只少说”的 CHAIR-Recall 曲线 $\operatorname{Trunc}(r)$，再将训练方法与相同物体召回 r 的基座截短结果比较。另一组实验在各模型完整召回的 80% 处比较探针/截短，这是曲线评估设置，不要与下面精确匹配删除数量的 accounting 混成同一个操作。
+
+超越少说的收益为：
+
+$$
+G=\mathrm{CHAIR}_{\mathrm{Trunc}}(r)-\mathrm{CHAIR}_{\mathrm{system}}(r).
+$$
+
+数值越大越好。本文算例：同样 $\mathrm{Recall}=60\%$，截短基座 $\mathrm{CHAIR}=12$，训练模型=8，则 $G=4$ 点；如果只看到未匹配召回的基座 20→模型 8，就会把减少信息量带来的部分收益也记给训练。此处是教学例子，不是论文表中实测。
 
 ![反幻觉审计原论文 Figure 1](assets/audit-decomposition.png)
 
@@ -401,17 +514,23 @@ update_queries_and_expert(flow_path_logprob * stopgrad(clip(advantages,-1,1)))
 
 模型置信度通过原生成模型对自己的 caption 做 teacher forcing 取得。8 特征纯文本版本可省去这次模型前向；11 特征版本有额外评分成本，不能说“完全零模型计算”。类别先验也来自有标注的拟合集，不是无标签免费知识。
 
-数学上，p_hall=σ(w·standardize(f)+b)，按照较高的幻觉概率优先删除。目标是测试简单可见信号能复现多少收益，刻意没有引入新的视觉识别器。依然要防止数据泄漏：scaler、类别频率和共现统计都只在拟合侧计算，不能看 held-out 标签。
+数学上，探针的幻觉概率为：
+
+$$
+p_{\mathrm{hall}}=\sigma\!\left(w^\top\operatorname{standardize}(f)+b\right).
+$$
+
+按较高的幻觉概率优先删除。目标是测试简单可见信号能复现多少收益，刻意没有引入新的视觉识别器。依然要防止数据泄漏：scaler、类别频率和共现统计都只在拟合侧计算，不能看 held-out 标签。
 
 ### 5.3 删除分解与净改善不是一回事
 
-原文 accounting 比较基座 caption 中被某个训练方法删除的幻觉物体，并严格匹配不同物体位置 rank 的删除次数。随机 pruner 按同样 rank 配额随机删，probe pruner 按风险删。设它们各移除的基座幻觉数为 R_rand、R_probe、R_method，则：
+原文 accounting 比较基座 caption 中被某个训练方法删除的幻觉物体，并严格匹配不同物体位置 rank 的删除次数。随机 pruner 按同样 rank 配额随机删，probe pruner 按风险删。设它们各移除的基座幻觉数为 $R_{\mathrm{rand}}$、$R_{\mathrm{probe}}$、$R_{\mathrm{method}}$，则：
 
-```text
-accounted_share = (R_probe - R_rand) / (R_method - R_rand)
-```
+$$
+\operatorname{share}=\frac{R_{\mathrm{probe}}-R_{\mathrm{rand}}}{R_{\mathrm{method}}-R_{\mathrm{rand}}}.
+$$
 
-本文算例：随机删掉 100 个基座幻觉，训练方法删 160，探针删 145，则 share=(145-100)/(160-100)=0.75。该比例回答“超越位置/少说效应的移除中，探针能覆盖多少”，并非新模型幻觉率减少了 75%。如果训练又新增 50 个幻觉，超出随机删除的净改善只有 10，而移除增益是 60。分母为零或非正时也不能机械输出一个比例。
+本文算例：随机删掉 100 个基座幻觉，训练方法删 160，探针删 145，则 $\mathrm{share}=\frac{145-100}{160-100}=0.75$。该比例回答“超越位置/少说效应的移除中，探针能覆盖多少”，并非新模型幻觉率减少了 75%。如果训练又新增 50 个幻觉，超出随机删除的净改善只有 10，而移除增益是 60。分母为零或非正时也不能机械输出一个比例。
 
 同一模型可能会新写出更具体的事实，同时新添幻觉；删减 accounting 不追踪所有语义能力。论文还区分：解释现成训练法时，冻结的是基座探针；构造强事后剪枝基线时，可在每个系统自己的输出上拟合探针。不能把后者更强的探针收益当成前者“无需看训练模型”的证据。
 
@@ -423,7 +542,7 @@ COCO 用 500 张 fit-only 图像，held-out 为另外 500+1000=1500；AMBER 为 
 
 ![反幻觉审计原论文 Table 1](assets/audit-results.png)
 
-图 15 · 来源：原文 Table 1，物理第 7 页。R_rand/R_probe/R_method 都是删掉的基座幻觉物体数；share 才是扣掉随机删除后的比例。LLaVA-1.5-7B 的 8 个方法在 COCO/AMBER/OHB 分别有 7/8、8/8、6/8 达到预设 2/3 覆盖门槛。粗体小于门槛；SENTINEL 单独后测，不属于原 8 个方法的分母。
+图 15 · 来源：原文 Table 1，物理第 7 页。$R_{\mathrm{rand}}$/$R_{\mathrm{probe}}$/$R_{\mathrm{method}}$ 都是删掉的基座幻觉物体数；share 才是扣掉随机删除后的比例。LLaVA-1.5-7B 的 8 个方法在 COCO/AMBER/OHB 分别有 7/8、8/8、6/8 达到预设 2/3 覆盖门槛。粗体小于门槛；SENTINEL 单独后测，不属于原 8 个方法的分母。
 
 RLAIF-V 的 share 为 0.59/0.83/0.62，是重要例外；不能写成每个方法都能由便宜探针解释。AMBER 某些比例大于 1，意味着探针在这些删除配额下比训练法移除更多基座幻觉，不是超额恢复真实物体。作者自训的 Qwen2.5-VL 满足相应 accounting 标准，但 InternVL2.5 在 COCO 只有 2/4 训练设计通过，低于要求的 3/4，因此该骨干上的审计结论失败。
 
@@ -431,13 +550,23 @@ RLAIF-V 的 share 为 0.59/0.83/0.62，是重要例外；不能写成每个方�
 
 ### 5.5 便宜信号能否用于真正训练，而不仅是事后删句子
 
-原文另做 DPO：用模型自己的候选回答构成 2527 个偏好对，比较 ground-truth 标签、弱探针标签、物体级 CLIP 标签与长度匹配的随机标签。LoRA rank=16、alpha=32，β=0.1，学习率 2e-5，2 epochs，并加入权重为 1 的 SFT 项。Qwen 比较两种粒度×两个 seed，InternVL 比较 response 粒度的两个 seed；GPU/墙钟/显存/GPU-hours 未披露。
+原文另做 DPO：用模型自己的候选回答构成 2527 个偏好对，比较 ground-truth 标签、弱探针标签、物体级 CLIP 标签与长度匹配的随机标签。LoRA rank=16、alpha=32，$\beta=0.1$，学习率 2e-5，2 epochs，并加入权重为 1 的 SFT 项。Qwen 比较两种粒度×两个 seed，InternVL 比较 response 粒度的两个 seed；GPU/墙钟/显存/GPU-hours 未披露。
 
-标准 DPO 部分的 z=β[log(π_θ(y_w|x)/π_ref(y_w|x))-log(π_θ(y_l|x)/π_ref(y_l|x))]，loss=-logσ(z)，再加 SFT 项。和 VEPO 不同，这里确实是同图下不同回答。随机标签也要控制长度差，否则它可能主要训练模型短答，而非检验偏好质量。
+标准 DPO 部分为：
+
+$$
+\begin{aligned}
+z&=\beta\!\left[\log\frac{\pi_\theta(y_w\mid x)}{\pi_{\mathrm{ref}}(y_w\mid x)}-\log\frac{\pi_\theta(y_l\mid x)}{\pi_{\mathrm{ref}}(y_l\mid x)}\right],\\[4pt]
+\mathcal{L}_{\mathrm{DPO}}&=-\log\sigma(z),\\
+\mathcal{L}_{\mathrm{total}}&=\mathcal{L}_{\mathrm{DPO}}+\mathcal{L}_{\mathrm{SFT}}.
+\end{aligned}
+$$
+
+最后一行加入权重为 1 的 SFT 项。和 VEPO 不同，这里确实是同图下不同回答。随机标签也要控制长度差，否则它可能主要训练模型短答，而非检验偏好质量。
 
 ![反幻觉审计原论文 Table 3](assets/audit-dpo-results.png)
 
-图 16 · 来源：原文 Table 3，物理第 11 页。mean G 为 COCO held-out 的超越少说收益，单位为 CHAIR_d 点；recovery 为相对 GT 标签 DPO 的 G 比例。方括号为图像 bootstrap 区间，不是大规模训练 seed 方差；不要把 1000 次 bootstrap 当 1000 次训练。
+图 16 · 来源：原文 Table 3，物理第 11 页。mean G 为 COCO held-out 的超越少说收益，单位为 $\mathrm{CHAIR}_d$ 点；recovery 为相对 GT 标签 DPO 的 G 比例。方括号为图像 bootstrap 区间，不是大规模训练 seed 方差；不要把 1000 次 bootstrap 当 1000 次训练。
 
 | DPO 标签 | Qwen2.5-VL-7B 的 G | 相对 GT 的 recovery |
 | --- | --- | --- |
