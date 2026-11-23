@@ -20,6 +20,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 | 日期 | 方向 / 子主题 | 数量 | 阅读 |
 | --- | --- | --- | --- |
+| 2026-11-23 | VLM / 多语言证据偏好、主动观察、分类型奖励、导航联合RL与反幻觉收益审计 | 5 | [Markdown](VLM/2026-11-23/report.md) · [PDF](VLM/2026-11-23/report.pdf) |
 | 2026-11-22 | VLM / 正负信用、可信工具课程、具身代码RL、4B探索分工与目标偏好 | 5 | [Markdown](VLM/2026-11-22/report.md) · [PDF](VLM/2026-11-22/report.pdf) |
 | 2026-11-21 | VLM / 视觉蒸馏分配、跨输入RL、持续回放、UI奖励与小模型课程蒸馏 | 5 | [Markdown](VLM/2026-11-21/report.md) · [PDF](VLM/2026-11-21/report.pdf) |
 | 2026-11-20 | VLM / 时间特权蒸馏、主动观察、正优势信用与证据图RL | 5 | [Markdown](VLM/2026-11-20/report.md) · [PDF](VLM/2026-11-20/report.pdf) |
@@ -42,6 +43,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 ## 条目索引
 
+### 2026-11-23 · 多语言证据偏好、主动观察、分类型奖励、导航联合RL与反幻觉收益审计
+
+1. [VEPO: Mitigating Multilingual Hallucinations in LVLMs via Visual Evidence-guided Preference Optimization](https://arxiv.org/abs/2611.18096) · 2026-11-13 · [精读](VLM/2026-11-23/report.md)
+2. [Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning](https://arxiv.org/abs/2611.03602) · 2026-11-02 · [精读](VLM/2026-11-23/report.md)
+3. [SurgQ-VLM: Question-Conditioned Dual-Stream Compression and Answer-Type-Aware Reinforcement for Surgical Video Question Answering](https://arxiv.org/abs/2611.01913) · 2026-11-01 · [精读](VLM/2026-11-23/report.md)
+4. [ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain](https://arxiv.org/abs/2611.26414) · 2026-11-19 · [精读](VLM/2026-11-23/report.md)
+5. [What Does Anti-Hallucination Training Buy? Saying Less, Cheap Pruning, and the Rest](https://arxiv.org/abs/2611.25814) · 2026-11-19 · [精读](VLM/2026-11-23/report.md)
 ### 2026-11-22 · 正负信用、可信工具课程、具身代码RL、4B探索分工与目标偏好
 
 1. [SARGO: Agreement-Gated Reinforcement and Suppression via On-Policy Self-Guidance for Visual Hallucination Mitigation](https://arxiv.org/abs/2611.19388) · 2026-11-14 · [精读](VLM/2026-11-22/report.md)

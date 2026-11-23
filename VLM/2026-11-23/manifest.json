@@ -1,0 +1,439 @@
+{
+  "date": "2026-11-23",
+  "direction": "VLM",
+  "topic": "多语言证据偏好、主动观察、分类型奖励、导航联合RL与反幻觉收益审计",
+  "window_start": "2026-10-23",
+  "window_end": "2026-11-23",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "sources": [
+    {
+      "id": "arxiv:2611.18096",
+      "type": "paper",
+      "arxiv_id": "2611.18096",
+      "doi": "10.48550/arXiv.2611.18096",
+      "title": "VEPO: Mitigating Multilingual Hallucinations in LVLMs via Visual Evidence-guided Preference Optimization",
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18096",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.18096"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.18096v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18096v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No verified official method code or independent author blog in v1 external links and bounded exact title/author searches. No training executed.",
+      "pdf_sha256": "6b7810a91498f380262ed974393a6d31a22b92c92e9bf36d6951ed9c336e37a8",
+      "figures": [
+        {
+          "file": "assets/vepo-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.075,
+            0.075,
+            0.93,
+            0.375
+          ],
+          "size": [
+            1586,
+            720
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.18096v1"
+        },
+        {
+          "file": "assets/vepo-results.png",
+          "paper_figure": "Table 1",
+          "page": 5,
+          "crop_normalized": [
+            0.075,
+            0.065,
+            0.93,
+            0.36
+          ],
+          "size": [
+            1586,
+            708
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.18096v1"
+        },
+        {
+          "file": "assets/vepo-mask-ablation.png",
+          "paper_figure": "Table 2",
+          "page": 6,
+          "crop_normalized": [
+            0.13,
+            0.065,
+            0.88,
+            0.18
+          ],
+          "size": [
+            1391,
+            276
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.18096v1"
+        },
+        {
+          "file": "assets/vepo-hindi-ablation.png",
+          "paper_figure": "Table 3",
+          "page": 6,
+          "crop_normalized": [
+            0.08,
+            0.2,
+            0.48,
+            0.355
+          ],
+          "size": [
+            742,
+            372
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.18096v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.03602",
+      "type": "paper",
+      "arxiv_id": "2611.03602",
+      "doi": "10.48550/arXiv.2611.03602",
+      "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+      "published": "2026-11-02",
+      "url": "https://arxiv.org/abs/2611.03602",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.03602"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.03602v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.03602v1",
+      "code_url": "https://github.com/pkucs-Ltf/Reviso",
+      "project_url": null,
+      "code_verification": "Author repo README verified with GitHub connector; SFT, rewards, GRPO interface and inference controller available, caller supplies tool backend, dataset factory, atom extraction/matching and GRPO runner. Author model card https://huggingface.co/TengfeiLiuCoder/Reviso verified live; full FP32 weights approximately 37.64 GB is storage, not training memory. No independent author blog verified.",
+      "pdf_sha256": "4102adcdcd12657d3da23259343481c583e9628ff9b598ba9bf6c3341f1084b9",
+      "figures": [
+        {
+          "file": "assets/reviso-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.09,
+            0.09,
+            0.93,
+            0.46
+          ],
+          "size": [
+            1558,
+            888
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.03602v1"
+        },
+        {
+          "file": "assets/reviso-results.png",
+          "paper_figure": "Table 1",
+          "page": 8,
+          "crop_normalized": [
+            0.1,
+            0.09,
+            0.91,
+            0.48
+          ],
+          "size": [
+            1502,
+            936
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.03602v1"
+        },
+        {
+          "file": "assets/reviso-ablation.png",
+          "paper_figure": "Table 2",
+          "page": 8,
+          "crop_normalized": [
+            0.485,
+            0.53,
+            0.92,
+            0.75
+          ],
+          "size": [
+            807,
+            528
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.03602v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.01913",
+      "type": "paper",
+      "arxiv_id": "2611.01913",
+      "doi": "10.48550/arXiv.2611.01913",
+      "title": "SurgQ-VLM: Question-Conditioned Dual-Stream Compression and Answer-Type-Aware Reinforcement for Surgical Video Question Answering",
+      "published": "2026-11-01",
+      "url": "https://arxiv.org/abs/2611.01913",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.01913"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.01913v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.01913v1",
+      "code_url": "https://github.com/DhruvMakwana/SurgQ-VLM",
+      "project_url": null,
+      "code_verification": "Author README verified with GitHub connector: data preparation, SFT/GRPO configs, training and evaluation scripts. Raw datasets require access application. README one A100-80GB day per stage is an estimate, not measured full-paper GPU-hours. No independent author blog verified.",
+      "pdf_sha256": "cd08c191599adbb8370b566c4183c2f8380b0cfe83896a1efecb4af8bf73fb5e",
+      "figures": [
+        {
+          "file": "assets/surgq-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.08,
+            0.13,
+            0.94,
+            0.45
+          ],
+          "size": [
+            1596,
+            768
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.01913v1"
+        },
+        {
+          "file": "assets/surgq-results.png",
+          "paper_figure": "Table 2",
+          "page": 6,
+          "crop_normalized": [
+            0.08,
+            0.08,
+            0.94,
+            0.32
+          ],
+          "size": [
+            1596,
+            576
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.01913v1"
+        },
+        {
+          "file": "assets/surgq-ablation.png",
+          "paper_figure": "Table 4",
+          "page": 7,
+          "crop_normalized": [
+            0.08,
+            0.08,
+            0.94,
+            0.355
+          ],
+          "size": [
+            1596,
+            660
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.01913v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.26414",
+      "type": "paper",
+      "arxiv_id": "2611.26414",
+      "doi": "10.48550/arXiv.2611.26414",
+      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26414",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.26414"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.26414v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26414v1",
+      "code_url": "https://github.com/hzx122/ZeroVLN",
+      "project_url": null,
+      "code_verification": "Author README verified with GitHub connector, training/evaluation interface and model https://huggingface.co/hzxllll/ZeroVLN. Main brain is 35B-A3B MoE; separate 4B-derived frozen visual encoder. Not a total-4B system. No training executed, no independent author blog verified.",
+      "pdf_sha256": "a047f378647078c30110077ded11ff62351240b5973972ab6329f7b267e223c7",
+      "figures": [
+        {
+          "file": "assets/zerovln-method.png",
+          "paper_figure": "Figures 2 and 3",
+          "page": 3,
+          "crop_normalized": [
+            0.09,
+            0.075,
+            0.93,
+            0.74
+          ],
+          "size": [
+            1558,
+            1596
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26414v1"
+        },
+        {
+          "file": "assets/zerovln-results.png",
+          "paper_figure": "Table 1",
+          "page": 8,
+          "crop_normalized": [
+            0.09,
+            0.48,
+            0.93,
+            0.75
+          ],
+          "size": [
+            1558,
+            648
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26414v1"
+        },
+        {
+          "file": "assets/zerovln-mechanism.png",
+          "paper_figure": "Figure 6",
+          "page": 9,
+          "crop_normalized": [
+            0.09,
+            0.32,
+            0.93,
+            0.61
+          ],
+          "size": [
+            1558,
+            696
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26414v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.25814",
+      "type": "paper",
+      "arxiv_id": "2611.25814",
+      "doi": "10.48550/arXiv.2611.25814",
+      "title": "What Does Anti-Hallucination Training Buy? Saying Less, Cheap Pruning, and the Rest",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25814",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.25814"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.25814v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25814v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No verified complete official analysis/training code or independent author blog in v1 links and bounded exact title/author searches. Analysis protocols and own DPO experiments read from fixed v1. No training executed.",
+      "pdf_sha256": "69fe4e7a1015251f0e335e387dbefcd54907111a1dd8c7cbac8d18856586aed1",
+      "figures": [
+        {
+          "file": "assets/audit-decomposition.png",
+          "paper_figure": "Figure 1",
+          "page": 3,
+          "crop_normalized": [
+            0.1,
+            0.09,
+            0.91,
+            0.48
+          ],
+          "size": [
+            1502,
+            936
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25814v1"
+        },
+        {
+          "file": "assets/audit-results.png",
+          "paper_figure": "Table 1",
+          "page": 7,
+          "crop_normalized": [
+            0.09,
+            0.08,
+            0.93,
+            0.42
+          ],
+          "size": [
+            1558,
+            816
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25814v1"
+        },
+        {
+          "file": "assets/audit-dpo-results.png",
+          "paper_figure": "Table 3",
+          "page": 11,
+          "crop_normalized": [
+            0.1,
+            0.08,
+            0.91,
+            0.32
+          ],
+          "size": [
+            1502,
+            576
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25814v1"
+        }
+      ]
+    }
+  ],
+  "auxiliary_sources": [
+    "https://huggingface.co/blog/rlhf",
+    "https://huggingface.co/docs/peft/main/en/conceptual_guides/lora",
+    "https://huggingface.co/docs/trl/dpo_trainer",
+    "https://huggingface.co/docs/trl/grpo_trainer",
+    "https://huggingface.co/docs/trl/rloo_trainer",
+    "https://arxiv.org/abs/2305.18290",
+    "https://huggingface.co/TengfeiLiuCoder/Reviso",
+    "https://huggingface.co/hzxllll/ZeroVLN"
+  ],
+  "execution_environment": {
+    "actual": "local macOS fallback, existing authorized SSH",
+    "cloud_schedule": "paused pending cloud environment-binding verification",
+    "cloud_migration_thread": "6afaf058-844c-8191-bf4c-26e2e5550080",
+    "cloud_status_cursor": "3a5e298a-323f-4522-a326-d50aef2b8fb6:2",
+    "cloud_same_day_report_verified": false,
+    "credentials_copied": false
+  },
+  "search_log": [
+    {
+      "date": "2026-11-23",
+      "queries": [
+        "recent November 2026 vision language model post training reinforcement learning hallucination",
+        "VEPO Chengpeng github",
+        "What Does Anti-Hallucination Training Buy github",
+        "Reviso Context-Focus-Points video",
+        "SurgQ-VLM"
+      ],
+      "verification": "First-public arXiv v1 histories checked, all five fixed v1 PDFs downloaded/read for method and experiment details including relevant appendices (95 physical pages); author repo READMEs verified live; all-direction manifests and sources checked. Discovery aggregators are not method/code evidence."
+    },
+    {
+      "candidate": "Historical VLM/OPSD/CCF sources and prior versions",
+      "decision": "Cross-direction versionless arXiv, DOI, canonical URL and normalized title dedup. Previous-day backup downloads of SurgQ and ZeroVLN were triage only, not historical report selections."
+    },
+    {
+      "candidate": "ROAM-GRPO 2611.25926",
+      "decision": "Primary PDF is text-only Qwen2B math/diversity, not VLM; adjacent aggregator text rejected."
+    },
+    {
+      "candidate": "Structured Role 2605.07274; VisionPsyNano 2609.31746",
+      "decision": "First publication outside calendar-month window; newer search/version timestamps do not reset age."
+    },
+    {
+      "candidate": "Third-party Nov17 VEPO announcement; ZeroVLN Nov17 cover date",
+      "decision": "Use verified arXiv v1 first-public dates Nov13 and Nov19 respectively."
+    }
+  ],
+  "checks": {
+    "original_figure_crops": 16,
+    "primary_pdfs_read": 5,
+    "primary_pdf_physical_pages": 95,
+    "trained_models": false,
+    "dedup": "scripts/update_index.py canonical arXiv/DOI/URL and normalized title across committed all-direction manifests plus this report",
+    "pdf": "Same complete Markdown; all body/code/table text normalized-match; 16 embedded original images, CJK font embedding and all-page visual review; see assets/QA.md",
+    "evidence_caveats": [
+      "VEPO compares different images with the same answer, not standard same-input DPO. PALO corpus size is not selected training count; Hi English mixing and single-run limitation explicit. Attention is a proxy, not a causal guarantee.",
+      "Reviso PAR evaluates initial plan; group gate controls UTCP for every trajectory, not just successful ones. Matching 128 frames does not equal matching latency/tool/teacher costs. Missing numeric reward weights/budget/group size are not imputed.",
+      "SurgQ 49x raw vs 11x post-merge compression denominators distinguished; 45 frame instances versus 30 distinct frames; compressor freezes in RL; Q-type weighting after advantage normalization; 21.2GB is inference memory.",
+      "ZeroVLN brain is 35B-A3B, not 4B. Zero refers only to navigation-domain brain SFT; action supervision exists. Shared RLOO advantage with separate gradient paths. SR improves while R2R/RxR SPL lower than controlled NaVILA.",
+      "Anti-hallucination audit removal accounting is not net CHAIR; newly added hallucinations separate. InternVL accounting failure and failed human evaluator gate included. CLIP/probe DPO recovery and length-matched random control distinguished."
+    ],
+    "pdf_verification": {
+      "pages": 21,
+      "images": 16,
+      "markdown_chars": 27175,
+      "pdf_sha256": "0414edf216e9619aae7028548a1962c076ff447211e96859e6aa25fecbde0e24",
+      "full_text_line_check": "all body/code/table lines match after Markdown/whitespace normalization",
+      "empty_pages": []
+    },
+    "repository_tests": "10 unittest passed"
+  }
+}
