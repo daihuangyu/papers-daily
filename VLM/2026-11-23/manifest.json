@@ -418,7 +418,7 @@
     "primary_pdf_physical_pages": 95,
     "trained_models": false,
     "dedup": "scripts/update_index.py canonical arXiv/DOI/URL and normalized title across committed all-direction manifests plus this report",
-    "pdf": "Same complete Markdown; all body/code/table text normalized-match; 16 embedded original images, CJK font embedding and all-page visual review; see assets/QA.md",
+    "pdf": "Same full Markdown with native GitHub LaTeX; SVG vector display math and baseline-aligned 576-DPI inline math, complete non-math prose/code/table match, every equation verified against assets/math-manifest.json, all 16 original paper crops pixel-match PDF, all-page visual QA.",
     "evidence_caveats": [
       "VEPO compares different images with the same answer, not standard same-input DPO. PALO corpus size is not selected training count; Hi English mixing and single-run limitation explicit. Attention is a proxy, not a causal guarantee.",
       "Reviso PAR evaluates initial plan; group gate controls UTCP for every trajectory, not just successful ones. Matching 128 frames does not equal matching latency/tool/teacher costs. Missing numeric reward weights/budget/group size are not imputed.",
@@ -427,13 +427,24 @@
       "Anti-hallucination audit removal accounting is not net CHAIR; newly added hallucinations separate. InternVL accounting failure and failed human evaluator gate included. CLIP/probe DPO recovery and length-matched random control distinguished."
     ],
     "pdf_verification": {
-      "pages": 21,
-      "images": 16,
-      "markdown_chars": 27175,
-      "pdf_sha256": "0414edf216e9619aae7028548a1962c076ff447211e96859e6aa25fecbde0e24",
-      "full_text_line_check": "all body/code/table lines match after Markdown/whitespace normalization",
-      "empty_pages": []
+      "pages": 22,
+      "paper_figures": 16,
+      "display_blocks": 22,
+      "unique_math_expressions": 131,
+      "math_occurrences": 149,
+      "markdown_chars": 30758,
+      "pdf_sha256": "5acb912401539462388f8c8fb943a95019dfb366ab68a4f21a715949be725c22",
+      "non_math_full_text": "all prose/code/table lines matched after Markdown/whitespace normalization and removing only rendered math",
+      "math_verification": "every TeX source covered by render manifest; invalid TeX aborts; original paper crops pixel-match all embedded images"
     },
-    "repository_tests": "10 unittest passed"
+    "repository_tests": "16 unittest passed",
+    "math_rendering": {
+      "display_blocks": 22,
+      "unique_expressions": 131,
+      "rendered_occurrences": 149,
+      "engine": "MathJax 3.2.2",
+      "record": "assets/math-manifest.json",
+      "updated": "2026-11-23"
+    }
   }
 }

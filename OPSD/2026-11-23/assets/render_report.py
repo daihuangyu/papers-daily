@@ -25,7 +25,7 @@ if override:
     font_module.embedded_font = lambda text: font
     sys.modules['cjk_font'] = font_module
 
-renderer = repo / 'scripts/build_report.py'
+renderer = folder / 'assets/build_math_report.py'
 source = renderer.read_text()
 needle = "(440 if direction == 'CCF_Papers' else 540)"
 if needle not in source:

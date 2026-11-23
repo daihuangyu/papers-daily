@@ -45,9 +45,9 @@ manifest保持现有date、direction、topic、window_start、window_end、sourc
 
 ## Linux PDF与排版验证
 
-OPSD 方向自 2026-11-23 排版修订起，正文公式使用原生 LaTeX 行内 `$...$` 与独立 `$$` 数学块，禁止继续用未排版的线性字符式代替主要公式。GitHub 原生渲染同一源码；PDF 由 MathJax 本地生成公式素材并嵌入。先执行 `npm ci --prefix scripts/mathjax` 准备固定版本依赖，具体约定见 [OPSD数学排版](OPSD/FORMATTING.md)。该规则只更新公式排版，不改变其他方向内容、选题、时间窗口或发布授权。
+OPSD正文同样使用受保护的行内数学与math围栏，具体约定见 [OPSD数学排版](OPSD/FORMATTING.md)。本次已验证的2026-11-23报告保留本地渲染适配入口，原论文图片和其他方向内容保持不变。
 
-Python依赖见requirements.txt；Linux系统需`fonts-noto-cjk`和`fonts-dejavu-core`，可用Poppler检查输出。scripts/cjk_font.py从Linux Noto Sans CJK SC取字形，转换为可嵌入TrueType子集，数学补充字形来自DejaVu Sans，不引用macOS Songti。可用PAPERS_CJK_FONT及PAPERS_CJK_FONT_INDEX指定其他可嵌入中文字体；缺字直接报错。
+Python依赖见requirements.txt；数学渲染另需Node.js 20+，首次运行`npm ci --ignore-scripts`安装锁定依赖。Linux系统需`fonts-noto-cjk`和`fonts-dejavu-core`，可用Poppler检查输出。scripts/cjk_font.py从Linux Noto Sans CJK SC取字形，转换为可嵌入TrueType子集，普通文字的数学补充字形来自DejaVu Sans，不引用macOS Songti。可用PAPERS_CJK_FONT及PAPERS_CJK_FONT_INDEX指定其他可嵌入中文字体；缺字直接报错。LaTeX数学字形由MathJax独立排版。
 
 ```sh
 python3 scripts/build_report.py VLM/YYYY-MM-DD/report.md
@@ -57,7 +57,7 @@ pdffonts VLM/YYYY-MM-DD/report.pdf
 pdftoppm -scale-to 1400 -png VLM/YYYY-MM-DD/report.pdf /tmp/papers-daily-page
 ```
 
-必须逐页检查PDF的中文、公式、表格、代码、图片和图注；确认无缺字、截断、重叠或空白页，正文与Markdown相同，不能用短版替代。当前renderer支持Markdown标题、段落、表格、代码块和本地图片；复杂LaTeX公式需先渲染成assets公式图并插入同一Markdown，在PDF中保持相同公式，不把未渲染LaTeX当成排版完成。
+必须逐页检查PDF的中文、公式、表格、代码、图片和图注；确认无缺字、截断、重叠或空白页，正文与Markdown相同，不能用短版替代。公式统一写成LaTeX：行内优先GitHub受保护写法（见scripts/MATH.md），独立公式优先fenced math，多行用aligned；函数名用mathrm，避免GitHub拒绝的operatorname。不要将公式写成普通文字、带下划线的变量或text代码块。GitHub原生渲染，PDF由相同TeX生成矢量独立公式和按基线对齐的高分辨率行内公式。当前renderer同时支持原有标题、段落、表格、代码块和图片；错误或过宽公式阻止构建，不能以原始TeX代替渲染。生成的assets/math-manifest.json记录每个公式与渲染哈希，非数学全文比对、公式清单核对及逐页目检分开完成，保留所有解释和原论文图。发布前在GitHub实际预览检查公式已渲染、没有宏限制错误；不能只凭本地渲染成功。具体安装、语法和检查见[scripts/MATH.md](scripts/MATH.md)。
 
 `scripts/tests/fixtures/cloud-font-smoke.md/.pdf`是迁移验证样例，不是每日论文。已在Linux生成并渲染检查：中文、α/β/μ、转置符号、代码、表格和仓库原图可读；pdffonts显示PapersDailyCJK-Regular的emb/sub/uni均为yes。6项去重和时间窗测试通过。
 

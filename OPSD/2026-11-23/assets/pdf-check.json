@@ -8,11 +8,8 @@
   "text_lines_checked": 169,
   "missing_lines": [],
   "out_of_page_characters": [],
-  "markdown_sha256": "75b4790834e196ac98d7629855136543250cb1e6b8f51c58ae1c8817a9f161f6",
-  "pdf_sha256": "41264de340715176aff8faaea03f375a55d2c3fd801c87d7829d216baafc7e92",
-  "status": "passed",
-  "all_pages_rendered": true,
-  "visual_review": "All 17 pages inspected after final CJK inline-image wrap fix; formula/Procrustes page also checked at full resolution. No text/formula/image overflow, overlap or clipped content.",
+  "markdown_sha256": "276f82ac2a092208702bd28b3230cce0083e4537817a0b827046a4a55b02ef9a",
+  "pdf_sha256": "93cddc11bf7d184aec206bc238e40587da23385c82c21c923e12487e1fbe218f",
   "fonts": {
     "/AAAAAA+STSongti-TC-Bold": {
       "embedded": true,
@@ -31,11 +28,16 @@
       "to_unicode": true
     }
   },
-  "renderer_adapter_sha256": "8295e36cd87b0ad7fc9d7e844b2046b24df1637ce93a1c5876cd3e2437319083",
-  "shared_renderer_sha256": "a75a3ab3771c89ee46fb2fd17b164e6c406d7b6a6c04f58553875b095648b7b8",
-  "math_renderer_sha256": "59bcd6afa31b130845e5bfd9ce043c59f0a1a64eae974ba1ae0a6f0ba3a35ebe",
-  "math_typesetting_sha256": "d82467e89eba0c04622f2209a598a64545f15193cf4d31ecb5907a2cf66806dd",
   "math_engine": "MathJax 3.2.2 SVG + resvg 2.6.2 at 4x raster density",
-  "formula_source": "Same native LaTeX source in report.md; display and inline math mapped in assets/math/index.json",
-  "invalid_tex_smoke_test": "Unknown TeX command rejected with nonzero exit"
+  "invalid_tex_smoke_test": "Unknown TeX command rejected with nonzero exit",
+  "status": "passed",
+  "all_pages_rendered": true,
+  "visual_review": "All 17 final pages inspected after GitHub-safe syntax conversion and merged renderer compatibility; no missing formula, overlap or clipping.",
+  "renderer_adapter_sha256": "f669ce95d4f1898714cd1aa3848d6f51e1feeaabf176b5a5908d94564c60f2dd",
+  "report_local_renderer_sha256": "e99084e4e6e0b7b1b545f8e2104de4c828e02ed5ff26d08f1ff2c7008b5ac60c",
+  "shared_renderer_sha256": "9a61158f5c0c9ff6330e1a2989ac0ec402547791cd565bc813aa19e52ef17a9e",
+  "math_renderer_sha256": "59bcd6afa31b130845e5bfd9ce043c59f0a1a64eae974ba1ae0a6f0ba3a35ebe",
+  "math_typesetting_sha256": "34eb1ce4b32690f8a4930fde36e81a49138d60816367951050717667b80a153b",
+  "formula_source": "Same GitHub-protected inline TeX and fenced math in report.md; expression mapping in assets/math/index.json",
+  "regression_tests_passed": 19
 }

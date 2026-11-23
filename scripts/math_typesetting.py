@@ -8,7 +8,11 @@ import inspect
 from pathlib import Path
 from reportlab.platypus import Image, Spacer, KeepTogether
 
-INLINE = re.compile(r'(?<!\\)\$([^$\n]+?)(?<!\\)\$')
+INLINE = re.compile(r'(?<!\\)\$(?:`([^`\n]+)`|([^$`\n]+?))(?<!\\)\$')
+
+
+def inline_tex(match):
+    return match[1] if match[1] is not None else match[2]
 
 
 def enable_cjk_inline_images():
@@ -36,13 +40,15 @@ class MathTypesetter:
         self.folder = markdown.parent / 'assets' / 'math'
         self.items = {}
         text = markdown.read_text(encoding='utf-8')
-        # Code fences are literal; a currency dollar is not a math delimiter.
+        # Explicit math fences preserve TeX against GitHub Markdown parsing.
+        fenced = re.findall(r'^```math\s*\n(.*?)\n```$', text, re.M | re.S)
         plain = re.sub(r'```.*?```', '', text, flags=re.S)
         requests = []
+        requests += [dict(tex=tex.strip(), display=True) for tex in fenced]
         for m in re.finditer(r'^\$\$\s*\n(.*?)\n\$\$$', plain, re.M | re.S):
             requests.append(dict(tex=m[1].strip(), display=True))
         plain = re.sub(r'^\$\$\s*\n.*?\n\$\$$', '', plain, flags=re.M | re.S)
-        requests += [dict(tex=m[1], display=False) for m in INLINE.finditer(plain)]
+        requests += [dict(tex=inline_tex(m), display=False) for m in INLINE.finditer(plain)]
         unique = list({(r['tex'], r['display']): r for r in requests}.values())
         if not unique:
             return
@@ -63,7 +69,7 @@ class MathTypesetter:
         result = []; end = 0
         for match in INLINE.finditer(text):
             result.append(render_prose(text[end:match.start()]))
-            item = self.items[match[1], False]
+            item = self.items[inline_tex(match), False]
             # 16 CSS pixels == 12 typographic points; prose is 10pt.
             scale = 10 / 16
             src = html.escape(str(self.folder / item['png']), quote=True)

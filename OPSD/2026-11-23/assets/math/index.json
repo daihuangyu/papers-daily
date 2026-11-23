@@ -60,14 +60,14 @@
     "svg": "04542739f7a9e5e3d529.svg"
   },
   {
-    "tex": "g=\\operatorname{clip}\\!\\left(\\frac{\\rho-\\mathrm{low}}{\\mathrm{high}-\\mathrm{low}},0,1\\right),\\qquad\\alpha=1-2g",
+    "tex": "g=\\mathrm{clip}\\!\\left(\\frac{\\rho-\\mathrm{low}}{\\mathrm{high}-\\mathrm{low}},0,1\\right),\\qquad\\alpha=1-2g",
     "display": true,
-    "key": "5ff06074455f2cabef7a",
+    "key": "7dcda27d418e64149d4a",
     "width": 302.3632,
     "height": 38.384,
     "depth": 17.184,
-    "png": "5ff06074455f2cabef7a.png",
-    "svg": "5ff06074455f2cabef7a.svg"
+    "png": "7dcda27d418e64149d4a.png",
+    "svg": "7dcda27d418e64149d4a.svg"
   },
   {
     "tex": "\\mathcal L=\\mathbb E_{y\\sim\\pi_s}\\left[\\sum_{i=1}^{|y|}\\mathbf1\\{i\\le0.2|y|\\}\\,D_{\\alpha_i}(\\pi_q^{(i)}\\Vert\\pi_p^{(i)})\\right]",
@@ -120,14 +120,14 @@
     "svg": "7a656f6a1b86bd1d1612.svg"
   },
   {
-    "tex": "\\begin{aligned}\\operatorname{srank}(\\Delta W)&=\\frac{\\|\\Delta W\\|_F^2}{\\|\\Delta W\\|_2^2},&E_k&=\\frac{\\sum_{j\\le k}\\sigma_j^2}{\\sum_j\\sigma_j^2},\\\\R^2&=1-\\frac{\\|\\Delta-\\widehat\\Delta\\|_F^2}{\\|\\Delta\\|_F^2}.\\end{aligned}",
+    "tex": "\\begin{aligned}\\mathrm{srank}(\\Delta W)&=\\frac{\\|\\Delta W\\|_F^2}{\\|\\Delta W\\|_2^2},&E_k&=\\frac{\\sum_{j\\le k}\\sigma_j^2}{\\sum_j\\sigma_j^2},\\\\R^2&=1-\\frac{\\|\\Delta-\\widehat\\Delta\\|_F^2}{\\|\\Delta\\|_F^2}.\\end{aligned}",
     "display": true,
-    "key": "7610effa43683dcad7c6",
+    "key": "f64e296c6656cbe49660",
     "width": 353.08959999999996,
     "height": 99.3552,
     "depth": 51.672,
-    "png": "7610effa43683dcad7c6.png",
-    "svg": "7610effa43683dcad7c6.svg"
+    "png": "f64e296c6656cbe49660.png",
+    "svg": "f64e296c6656cbe49660.svg"
   },
   {
     "tex": "\\begin{aligned}R^*&=\\underset{R^\\top R=I}{\\arg\\min}\\;\\|\\Delta_S R-\\Delta_T\\|_F^2,\\\\\\Delta_S^\\top\\Delta_T&=U\\Sigma V^\\top,\\qquad R^*=UV^\\top,\\\\E_{\\mathrm{Proc}}&=\\Delta_T-\\Delta_S R^*,\\qquad W_{\\mathrm{patch}}=W_{\\mathrm{OPD}}-\\alpha E_{\\mathrm{Proc}}.\\end{aligned}",
@@ -240,14 +240,14 @@
     "svg": "de832fa5cdd78073b5d7.svg"
   },
   {
-    "tex": "w_{t,j}=\\operatorname{clip}\\!\\left(\\frac{\\pi_t(y_j\\mid x,y_{<j})}{\\widehat q_t(y_j\\mid x,y_{<j})},\\frac1C,C\\right)",
+    "tex": "w_{t,j}=\\mathrm{clip}\\!\\left(\\frac{\\pi_t(y_j\\mid x,y_{<j})}{\\widehat q_t(y_j\\mid x,y_{<j})},\\frac1C,C\\right)",
     "display": true,
-    "key": "31f493f43abdd4d096af",
+    "key": "0156e49fa37b4e110525",
     "width": 240.128,
     "height": 41.096,
     "depth": 19.264,
-    "png": "31f493f43abdd4d096af.png",
-    "svg": "31f493f43abdd4d096af.svg"
+    "png": "0156e49fa37b4e110525.png",
+    "svg": "0156e49fa37b4e110525.svg"
   },
   {
     "tex": "s=(x,y_{<t})",
@@ -880,14 +880,14 @@
     "svg": "47c65032e45c922ac473.svg"
   },
   {
-    "tex": "-2\\operatorname{tr}(R^\\top\\Delta_S^\\top\\Delta_T)",
+    "tex": "-2\\mathrm{tr}(R^\\top\\Delta_S^\\top\\Delta_T)",
     "display": false,
-    "key": "862b5c383baaa96a7ed4",
-    "width": 116.4112,
+    "key": "a8a572ca6545cb8ed7ac",
+    "width": 113.74560000000001,
     "height": 18.6624,
     "depth": 5.992,
-    "png": "862b5c383baaa96a7ed4.png",
-    "svg": "862b5c383baaa96a7ed4.svg"
+    "png": "a8a572ca6545cb8ed7ac.png",
+    "svg": "a8a572ca6545cb8ed7ac.svg"
   },
   {
     "tex": "UV^\\top",
@@ -1420,14 +1420,14 @@
     "svg": "58dd1c2fe61eebdcd388.svg"
   },
   {
-    "tex": "\\operatorname{softmax}((1-\\eta)z_{\\mathrm{student}}+\\eta z_{\\mathrm{teacher}})",
+    "tex": "\\mathrm{softmax}((1-\\eta)z_{\\mathrm{student}}+\\eta z_{\\mathrm{teacher}})",
     "display": false,
-    "key": "cf7d243a4cc48ee1ffa1",
+    "key": "bfa6eaa91da99edb1cd2",
     "width": 233.6608,
     "height": 16,
     "depth": 4.528,
-    "png": "cf7d243a4cc48ee1ffa1.png",
-    "svg": "cf7d243a4cc48ee1ffa1.svg"
+    "png": "bfa6eaa91da99edb1cd2.png",
+    "svg": "bfa6eaa91da99edb1cd2.svg"
   },
   {
     "tex": "\\eta=0.5",
@@ -1450,14 +1450,14 @@
     "svg": "2c11bbd86ba409d0d9ba.svg"
   },
   {
-    "tex": "\\sigma^2=\\operatorname{Var}_{\\pi_t}(s)",
+    "tex": "\\sigma^2=\\mathrm{Var}_{\\pi_t}(s)",
     "display": false,
-    "key": "e82b3b2d0b8bd17c3c09",
+    "key": "ec98e429c42cc0fbbcd6",
     "width": 95.2848,
     "height": 17.528,
     "depth": 4.736,
-    "png": "e82b3b2d0b8bd17c3c09.png",
-    "svg": "e82b3b2d0b8bd17c3c09.svg"
+    "png": "ec98e429c42cc0fbbcd6.png",
+    "svg": "ec98e429c42cc0fbbcd6.svg"
   },
   {
     "tex": "\\log Z(\\eta)",
@@ -1480,14 +1480,14 @@
     "svg": "cbea4c48102476e98077.svg"
   },
   {
-    "tex": "\\operatorname{Var}_q(s)",
+    "tex": "\\mathrm{Var}_q(s)",
     "display": false,
-    "key": "c4a9f3ec6ce8291edfac",
+    "key": "77c1d397e2543948afaf",
     "width": 52.756800000000005,
     "height": 16.595200000000002,
     "depth": 5.2,
-    "png": "c4a9f3ec6ce8291edfac.png",
-    "svg": "c4a9f3ec6ce8291edfac.svg"
+    "png": "77c1d397e2543948afaf.png",
+    "svg": "77c1d397e2543948afaf.svg"
   },
   {
     "tex": "\\eta\\sigma^2",

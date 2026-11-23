@@ -169,6 +169,7 @@ def update(root=ROOT, remote_files=None):
         lines += [f'{n}. [{s["title"]}]({s["url"]}) · {s["published"]} · [精读]({folder}/report.md)' for n, s in enumerate(item['sources'], 1)]
     lines += ['', '## 仓库约定', '', '`方向/YYYY-MM-DD/` 内含report.md、同内容report.pdf、manifest.json与assets/；其他方向使用独立一级目录。',
         'PDF嵌入中文字体，实际执行环境与字体记录在当日assets/QA.md；Linux云端默认使用Noto。基础教程可早于近期窗口，但不计入每日5篇。原图注明论文图号、来源并逐图解释。',
+        '公式采用LaTeX，GitHub原生渲染，PDF同步排版；[公式语法与构建说明](scripts/MATH.md)。',
         'README与各方向索引及sources.json由scripts/update_index.py根据全部manifest重建。sources.json v2保存每个来源的全部去重别名。',
         '每日发布和失败处理见 [AUTOMATION.md](AUTOMATION.md)。', '']
     (root / 'README.md').write_text('\n'.join(lines), encoding='utf-8')
