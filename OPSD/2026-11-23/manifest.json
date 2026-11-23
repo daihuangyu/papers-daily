@@ -1,0 +1,686 @@
+{
+  "date": "2026-11-23",
+  "direction": "OPSD",
+  "topic": "前缀可靠性、知识注入与泛化边界",
+  "window_start": "2026-10-23",
+  "window_end": "2026-11-23",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "sources": [
+    {
+      "id": "arxiv:2611.07731",
+      "type": "paper",
+      "title": "O²PD: Overlap-Gated On-Policy Distillation on Reliable Prefix",
+      "published": "2026-11-05",
+      "arxiv_id": "2611.07731",
+      "doi": "10.48550/arXiv.2611.07731",
+      "url": "https://arxiv.org/abs/2611.07731",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.07731",
+        "https://doi.org/10.48550/arXiv.2611.07731"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.07731v1",
+      "submission_history": "Submission history From: Zu Shuaishuai [ view email ] [v1] Thu, 5 Nov 2026 09:43:03 UTC (511 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.07731v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "27d780d3b3b2348a632ee2b6f20ea8a54dc532c669a8de58b20cefdf7fd6208b",
+      "publication_evidence_snapshot_sha256": "cdb551ef45cba6b353b704efdcee4daa195723ff56332e1cbe1b707c0fbfcf0d",
+      "figures": [
+        {
+          "file": "assets/o2-fig1.png",
+          "arxiv_id": "2611.07731",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.08,
+            0.08,
+            0.92,
+            0.335
+          ],
+          "sha256": "5f0f87ae607dca483a70000f15afd829e961e91ef1f06c005ce7aed02889d3f6",
+          "source_url": "https://arxiv.org/pdf/2611.07731v1"
+        },
+        {
+          "file": "assets/o2-table2.png",
+          "arxiv_id": "2611.07731",
+          "page": 7,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.07,
+            0.45,
+            0.94,
+            0.95
+          ],
+          "sha256": "677a1815e4b1dacc72eeab06f0569ddbc9eb9d9c6ebf73187a60e9515e2e08f0",
+          "source_url": "https://arxiv.org/pdf/2611.07731v1"
+        },
+        {
+          "file": "assets/o2-fig4.png",
+          "arxiv_id": "2611.07731",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.08,
+            0.45,
+            0.92,
+            0.67
+          ],
+          "sha256": "4891bc6080534c7cf08c04e53a48e642ef5b57d89e5ff522420f58be1cfc7755",
+          "source_url": "https://arxiv.org/pdf/2611.07731v1"
+        }
+      ],
+      "code_url": null,
+      "code_status": "No dedicated official runnable training implementation verified in original PDF links, author resources, metadata and exact-title/method searches on 2026-11-23; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No separate author blog verified",
+      "title_aliases": [
+        "O$^2$PD: Overlap-Gated On-Policy Distillation on Reliable Prefix",
+        "O2PD: Overlap-Gated On-Policy Distillation on Reliable Prefix"
+      ],
+      "reproducibility_findings": [
+        "Reset atom preserves pooled outside-support mass; normalized top-k KL alone cannot identify that mass",
+        "20% supervised prefix is a loss window, not a claim of 80% end-to-end savings",
+        "200/300 scheduled steps differ from best intermediate 60/100 checkpoints; clamp and rank gate stability require implementation confirmation"
+      ]
+    },
+    {
+      "id": "arxiv:2611.00852",
+      "type": "paper",
+      "title": "Adaptive-Policy Distillation: Knowledge Injection under Information Asymmetry",
+      "published": "2026-10-31",
+      "arxiv_id": "2611.00852",
+      "doi": "10.48550/arXiv.2611.00852",
+      "url": "https://arxiv.org/abs/2611.00852",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.00852",
+        "https://doi.org/10.48550/arXiv.2611.00852"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.00852v1",
+      "submission_history": "Submission history From: Hojun Cho [ view email ] [v1] Sat, 31 Oct 2026 11:59:35 UTC (100 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.00852v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "15fed0804519ea265d68f1958cf36a0bfd009ae6a045aa3941ce0ef31e9412ae",
+      "publication_evidence_snapshot_sha256": "07727810c04b2fd5bea983a934dfbc04691291321176ee1f1b8479bda90862bc",
+      "figures": [
+        {
+          "file": "assets/apd-fig1.png",
+          "arxiv_id": "2611.00852",
+          "page": 3,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.06,
+            0.07,
+            0.94,
+            0.447
+          ],
+          "sha256": "80ee3bbb88f27abd69e44ae8d9c0ec23b341a1504c7e44ea87cd353d51ede638",
+          "source_url": "https://arxiv.org/pdf/2611.00852v1"
+        },
+        {
+          "file": "assets/apd-table1.png",
+          "arxiv_id": "2611.00852",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.06,
+            0.06,
+            0.94,
+            0.419
+          ],
+          "sha256": "a849842f07e617cb16aedd224cad16b8431b1c8546477db510c57ade4c26909e",
+          "source_url": "https://arxiv.org/pdf/2611.00852v1"
+        },
+        {
+          "file": "assets/apd-tables2-3.png",
+          "arxiv_id": "2611.00852",
+          "page": 7,
+          "paper_figure": "Tables 2–3",
+          "crop_box_normalized": [
+            0.06,
+            0.06,
+            0.51,
+            0.57
+          ],
+          "sha256": "fff5cbc4a9fff8d21a6e502c797476368126e658fda6fd83d2081fee61c0c4c9",
+          "source_url": "https://arxiv.org/pdf/2611.00852v1"
+        }
+      ],
+      "code_url": null,
+      "code_status": "No dedicated official runnable training implementation verified in original PDF links, author resources, metadata and exact-title/method searches on 2026-11-23; not a claim of nonexistence",
+      "author_blog_url": null,
+      "author_blog_status": "No separate author blog verified",
+      "reproducibility_findings": [
+        "Forward-KL gate is detached and controls both arithmetic-mixture rollout and bidirectional loss",
+        "Full-vocabulary loss, two B200 GPUs, 20 units per dataset; generated question/reference evaluation is not original full benchmark scoring",
+        "54.6% is relative gain from .302 to .442, not percentage-point gain; paired documents differ from independent training seeds"
+      ]
+    },
+    {
+      "id": "arxiv:2611.05609",
+      "type": "paper",
+      "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
+      "published": "2026-11-03",
+      "arxiv_id": "2611.05609",
+      "doi": "10.48550/arXiv.2611.05609",
+      "url": "https://arxiv.org/abs/2611.05609",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.05609",
+        "https://doi.org/10.48550/arXiv.2611.05609"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.05609v1",
+      "submission_history": "Submission history From: Yichen Wang [ view email ] [v1] Tue, 3 Nov 2026 20:53:26 UTC (1,315 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.05609v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "832e70643e6cd2810de26d4a25d3b5c633fc2ede4e57d76254ee7d957b6685c5",
+      "publication_evidence_snapshot_sha256": "3e5ef54475d422de6f31461001dea7d1b45e6df023d5d25d0fba736e9b75b695",
+      "figures": [
+        {
+          "file": "assets/gen-fig8-9.png",
+          "arxiv_id": "2611.05609",
+          "page": 9,
+          "paper_figure": "Figures 8–9",
+          "crop_box_normalized": [
+            0.06,
+            0.06,
+            0.94,
+            0.455
+          ],
+          "sha256": "60ae67cf9e69594c273bfb5da460a8541de23f85e0218b8d830b64dcd0c0bc38",
+          "source_url": "https://arxiv.org/pdf/2611.05609v1"
+        },
+        {
+          "file": "assets/gen-fig4.png",
+          "arxiv_id": "2611.05609",
+          "page": 7,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.06,
+            0.06,
+            0.94,
+            0.258
+          ],
+          "sha256": "ade8849d0ab39727fa909b468b0cb6979952100f2a8935e996b13568078c90df",
+          "source_url": "https://arxiv.org/pdf/2611.05609v1"
+        },
+        {
+          "file": "assets/gen-fig11.png",
+          "arxiv_id": "2611.05609",
+          "page": 11,
+          "paper_figure": "Figure 11",
+          "crop_box_normalized": [
+            0.06,
+            0.25,
+            0.94,
+            0.455
+          ],
+          "sha256": "27b858ce1f8061c4912e0bb7cf6b90ad3338a053c6c345b1450832fb592d6bff",
+          "source_url": "https://arxiv.org/pdf/2611.05609v1"
+        }
+      ],
+      "code_url": null,
+      "code_status": "Author project GitHub link is website source, not a verified dedicated training implementation",
+      "author_blog_url": "https://yichenzw.com/opd-generalization.github.io/",
+      "author_blog_status": "Author project longform read; HTML snapshot hash recorded",
+      "author_project_snapshot_sha256": "a0091880ca5da582ef818bbb897f1f30826d57cdd9a610c1957d004b36323843",
+      "reproducibility_findings": [
+        "IND/OOD partition partly operational from teacher/base scores; pass@8 differs from avg@8",
+        "Geometry and generalization relationship remains a hypothesis; compact updates do not establish causality",
+        "Procrustes residual is subtracted as printed; base-preserving replay improves five of eight OOD scores, not all"
+      ]
+    },
+    {
+      "id": "arxiv:2610.32770",
+      "type": "paper",
+      "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+      "published": "2026-10-23",
+      "arxiv_id": "2610.32770",
+      "doi": "10.48550/arXiv.2610.32770",
+      "url": "https://arxiv.org/abs/2610.32770",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.32770",
+        "https://doi.org/10.48550/arXiv.2610.32770"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.32770v1",
+      "submission_history": "Submission history From: Leon Sick [ view email ] [v1] Fri, 23 Oct 2026 15:12:03 UTC (152 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2610.32770v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "7a1a8c4f93ab585c0920dbe84a929bf3ba83ab477a4f09fe46d1f4b35ccc3905",
+      "publication_evidence_snapshot_sha256": "d92804644258006dd5f9896be734865289088233702ebc3c9b872a447ecefc44",
+      "figures": [
+        {
+          "file": "assets/opst-fig1.png",
+          "arxiv_id": "2610.32770",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.07,
+            0.07,
+            0.93,
+            0.27
+          ],
+          "sha256": "28f7c4d07c2249bf086a670cc53ec687c772ab2f6803b6881c8f1eac39758dbb",
+          "source_url": "https://arxiv.org/pdf/2610.32770v1"
+        },
+        {
+          "file": "assets/opst-table1.png",
+          "arxiv_id": "2610.32770",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.08,
+            0.105,
+            0.94,
+            0.39
+          ],
+          "sha256": "8c3f0970b47b526656f5ca4e4936e90719e8756ac0b01d8a1388f4d74aecb33d",
+          "source_url": "https://arxiv.org/pdf/2610.32770v1"
+        },
+        {
+          "file": "assets/opst-formulas.png",
+          "arxiv_id": "2610.32770",
+          "page": 5,
+          "paper_figure": "Equations 5–6 and mixture definition",
+          "crop_box_normalized": [
+            0.08,
+            0.51,
+            0.92,
+            0.8
+          ],
+          "sha256": "8ce8bda792f555009874c35aeec27e0cb19524951c1b53ec31af468a99d29445",
+          "source_url": "https://arxiv.org/pdf/2610.32770v1"
+        }
+      ],
+      "code_url": null,
+      "code_status": "No dedicated official runnable training implementation verified in original PDF links, author resources, metadata and exact-title/method searches on 2026-11-23; not a claim of nonexistence",
+      "author_blog_url": "https://leonsick.github.io/opst/",
+      "author_blog_status": "Author project page read; no dedicated runnable code link found",
+      "author_project_snapshot_sha256": "e5f3d33f483f1bfc159fe966b67d37b0b43cb43709af2077a785711204b21620",
+      "reproducibility_findings": [
+        "Printed mixture and Eq.5 KL weights inconsistent with claimed limits and binary-entropy bound; original formula image included",
+        "Educational disjoint-support counterexample yields D=.8 ln5+.2 ln1.25=1.3322 > H(.8)=.5004; proposed standard-JS correction explicitly unverified",
+        "EMA teacher is returned and evaluated; shared mistake can survive pseudo-verification",
+        "Topic-only text post-training differs from visual extension requiring unlabeled images; OOD retention is mixed"
+      ]
+    },
+    {
+      "id": "arxiv:2610.36477",
+      "type": "paper",
+      "title": "Proposing Better Rollouts for On-Policy Distillation",
+      "published": "2026-10-27",
+      "arxiv_id": "2610.36477",
+      "doi": "10.48550/arXiv.2610.36477",
+      "url": "https://arxiv.org/abs/2610.36477",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.36477",
+        "https://doi.org/10.48550/arXiv.2610.36477"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.36477v1",
+      "submission_history": "Submission history From: Sirui Chen [ view email ] [v1] Tue, 27 Oct 2026 01:33:51 UTC (369 KB) [v2] Wed, 28 Oct 2026 22:30:09 UTC (313 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2610.36477v1",
+      "read_version": "v1",
+      "source_pdf_sha256": "c2d85e714f11fd4a138f2950081092f47d24fa66b6a2debab6cc1b5dc58a6198",
+      "publication_evidence_snapshot_sha256": "31c44da77f7ed52b1cfb338802435eb99ae01f1e883323ed62498a94e63ecd19",
+      "figures": [
+        {
+          "file": "assets/mp-fig2.png",
+          "arxiv_id": "2610.36477",
+          "page": 3,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.08,
+            0.07,
+            0.92,
+            0.325
+          ],
+          "sha256": "15aff1f64cb7a81c68fa551a843d79a3ef9997b4c0034ce2b71b12ff23238e91",
+          "source_url": "https://arxiv.org/pdf/2610.36477v1"
+        },
+        {
+          "file": "assets/mp-table1.png",
+          "arxiv_id": "2610.36477",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.06,
+            0.06,
+            0.94,
+            0.485
+          ],
+          "sha256": "6ead21ee3afcfa688f5c51e57b906bbda7c7abca1fb926da7aac4b0bba954e89",
+          "source_url": "https://arxiv.org/pdf/2610.36477v1"
+        },
+        {
+          "file": "assets/mp-fig4-table3.png",
+          "arxiv_id": "2610.36477",
+          "page": 8,
+          "paper_figure": "Figure 4 and Table 3",
+          "crop_box_normalized": [
+            0.06,
+            0.06,
+            0.94,
+            0.245
+          ],
+          "sha256": "1c491a9577c4f667e4597d54ec9feb52b6ad0dfc9d9da0f7af9bf8648ad6a77b",
+          "source_url": "https://arxiv.org/pdf/2610.36477v1"
+        }
+      ],
+      "code_url": "https://github.com/csr16/MPOPD",
+      "code_status": "Author-linked overview repository only: README and one PNG; README says code is being prepared; no runnable training code or weights",
+      "author_blog_url": null,
+      "author_blog_status": "Official README is author auxiliary documentation; no separate blog verified",
+      "updated": "2026-10-28",
+      "code_commit": "ac0971a1808d2719167be21c67501b66bed5a482",
+      "code_tracked_files": [
+        "README.md",
+        "assets/overview.png"
+      ],
+      "code_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/csr16/MPOPD/blob/ac0971a1808d2719167be21c67501b66bed5a482/README.md",
+          "sha256": "0b499559dd9f8ea7d125e59ac244d3613f786b9591d9d1ea64f92801fa4066e3"
+        }
+      ],
+      "reproducibility_findings": [
+        "Read v1; v2 is same paper, not a second daily item",
+        "Clipped one-step ratio is not the full prefix density ratio, so no exact unbiased student-state-distribution claim",
+        "Proposal is a full model; initializations/update synchronization require released implementation",
+        "Main text knowledge-QA batch128 conflicts with Appendix/Table5 batch256; both recorded",
+        "41% shorter math generation differs from about 13% extra training wall-clock cost"
+      ]
+    }
+  ],
+  "search_log": {
+    "searched_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "queries": [
+      "\"on-policy distillation\" \"November\" \"2026\" arxiv",
+      "\"on-policy self-distillation\" \"2026\" \"2611\"",
+      "\"on-policy distillation\" \"2026\" \"Oct\" arxiv",
+      "Exact title and method-code searches for O2PD, APD, OPST, Generalization Limitation and MPOPD"
+    ],
+    "primary_checks": [
+      "All five arXiv submission histories and exact v1 PDFs downloaded; 121 source pages retained, relevant main methods and appendices selectively read",
+      "15 original figure/table/formula crops rendered without changing data",
+      "MPOPD complete tracked inventory checked at pinned commit; OPST and generalization author project pages read"
+    ],
+    "exclusions": [
+      {
+        "arxiv_id": "2611.22298",
+        "reason": "Already in historical OPSD reports"
+      },
+      {
+        "arxiv_id": "2611.08016",
+        "reason": "Already indexed OPSD/2026-11-19"
+      },
+      {
+        "arxiv_id": "2611.07722",
+        "reason": "Already indexed OPSD/2026-11-20"
+      },
+      {
+        "arxiv_id": "2610.22236",
+        "reason": "First October15; last ordinary revision October20, outside window"
+      },
+      {
+        "arxiv_id": "2610.19145",
+        "reason": "First October13, outside window"
+      },
+      {
+        "arxiv_id": "2610.21337",
+        "reason": "First October15; no verified substantive version comparison used for re-inclusion"
+      },
+      {
+        "arxiv_id": "2611.24059",
+        "reason": "Off-policy consolidation alternative; not selected to broaden the strict OPD/OPSD quota"
+      }
+    ]
+  },
+  "deduplication": {
+    "checked_against_sources_json": true,
+    "historical_manifest_count": 18,
+    "historical_source_count": 90,
+    "indexed_source_count": 90,
+    "historical_manifests": [
+      "CCF_Papers/2026-11-18/manifest.json",
+      "CCF_Papers/2026-11-19/manifest.json",
+      "CCF_Papers/2026-11-20/manifest.json",
+      "CCF_Papers/2026-11-21/manifest.json",
+      "OPSD/2026-11-16/manifest.json",
+      "OPSD/2026-11-17/manifest.json",
+      "OPSD/2026-11-18/manifest.json",
+      "OPSD/2026-11-19/manifest.json",
+      "OPSD/2026-11-20/manifest.json",
+      "OPSD/2026-11-21/manifest.json",
+      "OPSD/2026-11-22/manifest.json",
+      "VLM/2026-11-16/manifest.json",
+      "VLM/2026-11-17/manifest.json",
+      "VLM/2026-11-18/manifest.json",
+      "VLM/2026-11-19/manifest.json",
+      "VLM/2026-11-20/manifest.json",
+      "VLM/2026-11-21/manifest.json",
+      "VLM/2026-11-22/manifest.json"
+    ],
+    "keys": [
+      "versionless arXiv ID",
+      "normalized DOI",
+      "canonical URL",
+      "NFKC casefold alphanumeric title",
+      "title aliases"
+    ],
+    "duplicate_matches": []
+  },
+  "auxiliary_sources": [
+    {
+      "title": "OPD tutorial",
+      "url": "https://thinkingmachines.ai/blog/on-policy-distillation/",
+      "counts_toward_daily_quota": false
+    },
+    {
+      "title": "Autograd",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html",
+      "counts_toward_daily_quota": false
+    },
+    {
+      "title": "veRL",
+      "url": "https://verl.readthedocs.io/en/latest/",
+      "counts_toward_daily_quota": false
+    },
+    {
+      "title": "KLDivLoss",
+      "url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html",
+      "counts_toward_daily_quota": false
+    },
+    {
+      "title": "Orthogonal Procrustes",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.orthogonal_procrustes.html",
+      "counts_toward_daily_quota": false
+    },
+    {
+      "title": "SVD",
+      "url": "https://docs.pytorch.org/docs/stable/generated/torch.linalg.svd.html",
+      "counts_toward_daily_quota": false
+    },
+    {
+      "title": "OPST author project",
+      "url": "https://leonsick.github.io/opst/",
+      "counts_toward_daily_quota": false
+    },
+    {
+      "title": "Generalization author project",
+      "url": "https://yichenzw.com/opd-generalization.github.io/",
+      "counts_toward_daily_quota": false
+    },
+    {
+      "title": "MPOPD author README",
+      "url": "https://github.com/csr16/MPOPD",
+      "counts_toward_daily_quota": false
+    }
+  ],
+  "pdf_check": {
+    "pages": 15,
+    "original_images": 15,
+    "markdown_characters": 19383,
+    "text_lines_checked": 145,
+    "missing_lines": [],
+    "text_characters_per_page": [
+      1366,
+      1425,
+      975,
+      900,
+      1122,
+      567,
+      875,
+      1184,
+      1358,
+      999,
+      1341,
+      1312,
+      1549,
+      907,
+      1222
+    ],
+    "out_of_page_characters": [],
+    "markdown_sha256": "8bcae1dac903a3876cbc767b5826c6113e1a81d64929c2e961b9abe97183d8b6",
+    "pdf_sha256": "1a220efebc0aa8762d3ac23c5ad8cd835c40e4c03aeaaf99108f657a6b429832",
+    "status": "passed",
+    "fonts": {
+      "/AAAAAA+STSongti-TC-Bold": {
+        "embedded": true,
+        "to_unicode": true
+      },
+      "/AAAAAB+STSongti-TC-Bold": {
+        "embedded": true,
+        "to_unicode": true
+      },
+      "/AAAAAC+STSongti-TC-Bold": {
+        "embedded": true,
+        "to_unicode": true
+      },
+      "/AAAAAD+STSongti-TC-Bold": {
+        "embedded": true,
+        "to_unicode": true
+      }
+    },
+    "source_image_pixels_matched": 15,
+    "all_pages_rendered": true,
+    "visual_review": "All 15 final pages visually inspected as rendered contact sheets; original formula crop inspected. No missing glyphs, overlap or clipped content observed.",
+    "renderer_adapter_sha256": "8295e36cd87b0ad7fc9d7e844b2046b24df1637ce93a1c5876cd3e2437319083",
+    "shared_renderer_sha256": "bee2e6c10aa50682d4c1f122b0cafb5169f2df38b465ed8681feac6d29374382",
+    "font_sha256": "19d520cef1e3526ab10eef322a436a78cded57d0389682f9e21485c21c9a421c"
+  },
+  "evidence_policy": "Paper facts, educational derivations, unverified candidate formula correction and missing implementation details distinguished; no fabricated experimental figures or GPU training claims",
+  "local_execution": {
+    "user_authorized_ssh_override": true,
+    "base_commit": "3b6944ad0dbb0486bd204fe64d7d759b09d85b1d",
+    "isolated_checkout_for_publication": true,
+    "other_directions_preserved": true
+  },
+  "artifacts": [
+    {
+      "path": "assets/QA.md",
+      "bytes": 967,
+      "sha256": "fd17f18540f6ae7edd9779436f3c2791f9d0323587b84ff1cca7bf9816a69969"
+    },
+    {
+      "path": "assets/SOURCES.md",
+      "bytes": 3811,
+      "sha256": "cab8999c37badeebbc77110d9822cf3d1290c6f3c967116dd42b56c097fe0da8"
+    },
+    {
+      "path": "assets/apd-fig1.png",
+      "bytes": 178497,
+      "sha256": "80ee3bbb88f27abd69e44ae8d9c0ec23b341a1504c7e44ea87cd353d51ede638"
+    },
+    {
+      "path": "assets/apd-table1.png",
+      "bytes": 215807,
+      "sha256": "a849842f07e617cb16aedd224cad16b8431b1c8546477db510c57ade4c26909e"
+    },
+    {
+      "path": "assets/apd-tables2-3.png",
+      "bytes": 156752,
+      "sha256": "fff5cbc4a9fff8d21a6e502c797476368126e658fda6fd83d2081fee61c0c4c9"
+    },
+    {
+      "path": "assets/gen-fig11.png",
+      "bytes": 78753,
+      "sha256": "27b858ce1f8061c4912e0bb7cf6b90ad3338a053c6c345b1450832fb592d6bff"
+    },
+    {
+      "path": "assets/gen-fig4.png",
+      "bytes": 65226,
+      "sha256": "ade8849d0ab39727fa909b468b0cb6979952100f2a8935e996b13568078c90df"
+    },
+    {
+      "path": "assets/gen-fig8-9.png",
+      "bytes": 170643,
+      "sha256": "60ae67cf9e69594c273bfb5da460a8541de23f85e0218b8d830b64dcd0c0bc38"
+    },
+    {
+      "path": "assets/mp-fig2.png",
+      "bytes": 129325,
+      "sha256": "15aff1f64cb7a81c68fa551a843d79a3ef9997b4c0034ce2b71b12ff23238e91"
+    },
+    {
+      "path": "assets/mp-fig4-table3.png",
+      "bytes": 87636,
+      "sha256": "1c491a9577c4f667e4597d54ec9feb52b6ad0dfc9d9da0f7af9bf8648ad6a77b"
+    },
+    {
+      "path": "assets/mp-table1.png",
+      "bytes": 251497,
+      "sha256": "6ead21ee3afcfa688f5c51e57b906bbda7c7abca1fb926da7aac4b0bba954e89"
+    },
+    {
+      "path": "assets/o2-fig1.png",
+      "bytes": 117508,
+      "sha256": "5f0f87ae607dca483a70000f15afd829e961e91ef1f06c005ce7aed02889d3f6"
+    },
+    {
+      "path": "assets/o2-fig4.png",
+      "bytes": 95141,
+      "sha256": "4891bc6080534c7cf08c04e53a48e642ef5b57d89e5ff522420f58be1cfc7755"
+    },
+    {
+      "path": "assets/o2-table2.png",
+      "bytes": 227170,
+      "sha256": "677a1815e4b1dacc72eeab06f0569ddbc9eb9d9c6ebf73187a60e9515e2e08f0"
+    },
+    {
+      "path": "assets/opst-fig1.png",
+      "bytes": 54452,
+      "sha256": "28f7c4d07c2249bf086a670cc53ec687c772ab2f6803b6881c8f1eac39758dbb"
+    },
+    {
+      "path": "assets/opst-formulas.png",
+      "bytes": 150524,
+      "sha256": "8ce8bda792f555009874c35aeec27e0cb19524951c1b53ec31af468a99d29445"
+    },
+    {
+      "path": "assets/opst-table1.png",
+      "bytes": 137534,
+      "sha256": "8c3f0970b47b526656f5ca4e4936e90719e8756ac0b01d8a1388f4d74aecb33d"
+    },
+    {
+      "path": "assets/pdf-check.json",
+      "bytes": 1433,
+      "sha256": "20af184840f1fdbefd8da9770321fcb64ff503c3ef5d45f24432cb10db66bf53"
+    },
+    {
+      "path": "assets/render_report.py",
+      "bytes": 1946,
+      "sha256": "8295e36cd87b0ad7fc9d7e844b2046b24df1637ce93a1c5876cd3e2437319083"
+    },
+    {
+      "path": "report.md",
+      "bytes": 36514,
+      "sha256": "8bcae1dac903a3876cbc767b5826c6113e1a81d64929c2e961b9abe97183d8b6"
+    },
+    {
+      "path": "report.pdf",
+      "bytes": 2394990,
+      "sha256": "1a220efebc0aa8762d3ac23c5ad8cd835c40e4c03aeaaf99108f657a6b429832"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "pages": 15,
+  "original_images": 15,
+  "markdown_characters": 19383,
+  "text_lines_checked": 145,
+  "missing_lines": [],
+  "text_characters_per_page": [
+    1366,
+    1425,
+    975,
+    900,
+    1122,
+    567,
+    875,
+    1184,
+    1358,
+    999,
+    1341,
+    1312,
+    1549,
+    907,
+    1222
+  ],
+  "out_of_page_characters": [],
+  "markdown_sha256": "8bcae1dac903a3876cbc767b5826c6113e1a81d64929c2e961b9abe97183d8b6",
+  "pdf_sha256": "1a220efebc0aa8762d3ac23c5ad8cd835c40e4c03aeaaf99108f657a6b429832",
+  "status": "passed",
+  "fonts": {
+    "/AAAAAA+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAB+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAC+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAD+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true
+    }
+  },
+  "source_image_pixels_matched": 15,
+  "all_pages_rendered": true,
+  "visual_review": "All 15 final pages visually inspected as rendered contact sheets; original formula crop inspected. No missing glyphs, overlap or clipped content observed.",
+  "renderer_adapter_sha256": "8295e36cd87b0ad7fc9d7e844b2046b24df1637ce93a1c5876cd3e2437319083",
+  "shared_renderer_sha256": "bee2e6c10aa50682d4c1f122b0cafb5169f2df38b465ed8681feac6d29374382",
+  "font_sha256": "19d520cef1e3526ab10eef322a436a78cded57d0389682f9e21485c21c9a421c"
+}

@@ -27,6 +27,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 | 2026-11-18 | VLM / 视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘 | 5 | [Markdown](VLM/2026-11-18/report.md) · [PDF](VLM/2026-11-18/report.pdf) |
 | 2026-11-17 | VLM / 小型VLM蒸馏、约束GRPO与能力保留 | 5 | [Markdown](VLM/2026-11-17/report.md) · [PDF](VLM/2026-11-17/report.pdf) |
 | 2026-11-16 | VLM / vLLM推理系统 | 5 | [Markdown](VLM/2026-11-16/report.md) · [PDF](VLM/2026-11-16/report.pdf) |
+| 2026-11-23 | OPSD / 前缀可靠性、知识注入与泛化边界 | 5 | [Markdown](OPSD/2026-11-23/report.md) · [PDF](OPSD/2026-11-23/report.pdf) |
 | 2026-11-22 | OPSD / 多教师预算、熵形状与决策对齐 | 5 | [Markdown](OPSD/2026-11-22/report.md) · [PDF](OPSD/2026-11-22/report.pdf) |
 | 2026-11-21 | OPSD / 监督位置、事件目标、持续回放与分支并行 | 5 | [Markdown](OPSD/2026-11-21/report.md) · [PDF](OPSD/2026-11-21/report.pdf) |
 | 2026-11-20 | OPSD / 自生成教师上下文、学生偏好与纯排序监督 | 5 | [Markdown](OPSD/2026-11-20/report.md) · [PDF](OPSD/2026-11-20/report.pdf) |
@@ -90,6 +91,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 3. [Migrating vLLM to the LibTorch Stable ABI](https://vllm.ai/blog/2026-11-06-stable-abi-cuda) · 2026-11-06 · [精读](VLM/2026-11-16/report.md)
 4. [Introducing Kinference](https://vllm.ai/blog/2026-11-04-introducing-kinference) · 2026-11-04 · [精读](VLM/2026-11-16/report.md)
 5. [vLLM v0.33.0 Release](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) · 2026-11-02 · [精读](VLM/2026-11-16/report.md)
+### 2026-11-23 · 前缀可靠性、知识注入与泛化边界
+
+1. [O²PD: Overlap-Gated On-Policy Distillation on Reliable Prefix](https://arxiv.org/abs/2611.07731) · 2026-11-05 · [精读](OPSD/2026-11-23/report.md)
+2. [Adaptive-Policy Distillation: Knowledge Injection under Information Asymmetry](https://arxiv.org/abs/2611.00852) · 2026-10-31 · [精读](OPSD/2026-11-23/report.md)
+3. [On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation](https://arxiv.org/abs/2611.05609) · 2026-11-03 · [精读](OPSD/2026-11-23/report.md)
+4. [On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models](https://arxiv.org/abs/2610.32770) · 2026-10-23 · [精读](OPSD/2026-11-23/report.md)
+5. [Proposing Better Rollouts for On-Policy Distillation](https://arxiv.org/abs/2610.36477) · 2026-10-27 · [精读](OPSD/2026-11-23/report.md)
 ### 2026-11-22 · 多教师预算、熵形状与决策对齐
 
 1. [Robust Domain-Mixture Scheduling for Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2611.12012) · 2026-11-09 · [精读](OPSD/2026-11-22/report.md)
