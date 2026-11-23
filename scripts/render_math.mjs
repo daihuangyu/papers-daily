@@ -14,7 +14,8 @@ const {RegisterHTMLHandler} = require('mathjax-full/js/handlers/html.js');
 const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
 const {Resvg} = require('@resvg/resvg-js');
 const adaptor=liteAdaptor(); RegisterHTMLHandler(adaptor);
-const input=new TeX({packages:AllPackages, formatError:(_jax,error)=>{throw error;}});
+const input=new TeX({packages:AllPackages.filter(p=>!['noerrors','noundefined'].includes(p)),
+  formatError:(_jax,error)=>{throw error;}});
 const doc=mathjax.document('', {InputJax:input, OutputJax:new SVG({fontCache:'none'})});
 const [requestFile, outputDir] = process.argv.slice(2);
 fs.mkdirSync(outputDir,{recursive:true});

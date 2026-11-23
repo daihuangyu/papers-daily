@@ -33,8 +33,9 @@
   },
   "renderer_adapter_sha256": "8295e36cd87b0ad7fc9d7e844b2046b24df1637ce93a1c5876cd3e2437319083",
   "shared_renderer_sha256": "a75a3ab3771c89ee46fb2fd17b164e6c406d7b6a6c04f58553875b095648b7b8",
-  "math_renderer_sha256": "40ca1688d010ee9378f2c5a910ace623cb138626c4e5faa497932d60ebc1c85a",
+  "math_renderer_sha256": "59bcd6afa31b130845e5bfd9ce043c59f0a1a64eae974ba1ae0a6f0ba3a35ebe",
   "math_typesetting_sha256": "d82467e89eba0c04622f2209a598a64545f15193cf4d31ecb5907a2cf66806dd",
   "math_engine": "MathJax 3.2.2 SVG + resvg 2.6.2 at 4x raster density",
-  "formula_source": "Same native LaTeX source in report.md; display and inline math mapped in assets/math/index.json"
+  "formula_source": "Same native LaTeX source in report.md; display and inline math mapped in assets/math/index.json",
+  "invalid_tex_smoke_test": "Unknown TeX command rejected with nonzero exit"
 }
