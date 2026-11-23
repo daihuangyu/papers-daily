@@ -2,7 +2,7 @@
   "engine": "MathJax 3.2.2 SVG / svglib",
   "display": "vector paths",
   "inline": "transparent 576-DPI PNG, baseline aligned",
-  "source_sha256": "7bf7d004d727af7d7f36dc7b8c3e91bdcf7629eefa2fc3bed5ee0e6fc1bd2452",
+  "source_sha256": "806f862da1e287b6b4832ad943e27237e78a031fda7d9017938ad7031c0eb41c",
   "rendered_occurrences": 149,
   "expressions": [
     {
@@ -470,7 +470,7 @@
       "inline_png_sha256": null
     },
     {
-      "tex": "\\begin{aligned}\n\\bar\\ell_{it}&=\\frac{1}{|\\mathcal{T}_{it}|}\\sum_{n\\in\\mathcal{T}_{it}}\\log\\pi_\\theta(y_{itn}\\mid x_{it},y_{it,<n}),\\\\[4pt]\n\\mathcal{L}_{\\mathrm{text}}&=-\\frac{\\lambda_{\\mathrm{text}}}{B}\\sum_{i=1}^{B}\\frac{1}{T_i}\\sum_{t=1}^{T_i}\\mathrm{sg}(A_i)\\bar\\ell_{it}.\n\\end{aligned}",
+      "tex": "\\begin{aligned}\n\\bar\\ell_{it}&=\\frac{1}{|\\mathcal{T}_{it}|}\\sum_{n\\in\\mathcal{T}_{it}}\\log\\pi_\\theta(y_{itn}\\mid x_{it},y_{it,\\lt n}),\\\\[4pt]\n\\mathcal{L}_{\\mathrm{text}}&=-\\frac{\\lambda_{\\mathrm{text}}}{B}\\sum_{i=1}^{B}\\frac{1}{T_i}\\sum_{t=1}^{T_i}\\mathrm{sg}(A_i)\\bar\\ell_{it}.\n\\end{aligned}",
       "display": true,
       "width_pt": 205.81080000000003,
       "height_pt": 76.4976,
@@ -478,7 +478,7 @@
       "inline_png_sha256": null
     },
     {
-      "tex": "\\begin{aligned}\n\\mathcal{L}_{\\mathrm{clip}}&=-\\mathbb{E}_{i,t}\\!\\left[\\min\\!\\left(r_{it}A_i,\\mathrm{clip}(r_{it},1-\\epsilon,1+\\epsilon)A_i\\right)\\right],\\\\\nr_{it}&=\\frac{\\pi_\\theta(y_{it}\\mid x,y_{i,<t})}{\\pi_{\\mathrm{old}}(y_{it}\\mid x,y_{i,<t})}.\n\\end{aligned}",
+      "tex": "\\begin{aligned}\n\\mathcal{L}_{\\mathrm{clip}}&=-\\mathbb{E}_{i,t}\\!\\left[\\min\\!\\left(r_{it}A_i,\\mathrm{clip}(r_{it},1-\\epsilon,1+\\epsilon)A_i\\right)\\right],\\\\\nr_{it}&=\\frac{\\pi_\\theta(y_{it}\\mid x,y_{i,\\lt t})}{\\pi_{\\mathrm{old}}(y_{it}\\mid x,y_{i,\\lt t})}.\n\\end{aligned}",
       "display": true,
       "width_pt": 250.2504,
       "height_pt": 45.978,
@@ -494,7 +494,7 @@
       "inline_png_sha256": null
     },
     {
-      "tex": "\\begin{aligned}\nu_w&=\\log\\frac{\\pi_\\theta(y\\mid I_w,x_{\\mathrm{lr}})}{\\pi_{\\mathrm{ref}}(y\\mid I_w,x_{\\mathrm{lr}})},\\\\[4pt]\nu_l&=\\log\\frac{\\pi_\\theta(y\\mid I_l,x_{\\mathrm{lr}})}{\\pi_{\\mathrm{ref}}(y\\mid I_l,x_{\\mathrm{lr}})},\\\\[4pt]\nz&=\\beta(u_w-u_l),\\\\\n\\mathcal{L}_{\\mathrm{VEPO}}&=-\\mathbb{E}\\big[\\log\\sigma(z)\\big],\\\\\n\\log\\pi(y\\mid I,x)&=\\sum_t\\log\\pi(y_t\\mid I,x,y_{<t}).\n\\end{aligned}",
+      "tex": "\\begin{aligned}\nu_w&=\\log\\frac{\\pi_\\theta(y\\mid I_w,x_{\\mathrm{lr}})}{\\pi_{\\mathrm{ref}}(y\\mid I_w,x_{\\mathrm{lr}})},\\\\[4pt]\nu_l&=\\log\\frac{\\pi_\\theta(y\\mid I_l,x_{\\mathrm{lr}})}{\\pi_{\\mathrm{ref}}(y\\mid I_l,x_{\\mathrm{lr}})},\\\\[4pt]\nz&=\\beta(u_w-u_l),\\\\\n\\mathcal{L}_{\\mathrm{VEPO}}&=-\\mathbb{E}\\big[\\log\\sigma(z)\\big],\\\\\n\\log\\pi(y\\mid I,x)&=\\sum_t\\log\\pi(y_t\\mid I,x,y_{\\lt t}).\n\\end{aligned}",
       "display": true,
       "width_pt": 199.88759999999996,
       "height_pt": 133.87679999999997,
@@ -574,7 +574,7 @@
       "inline_png_sha256": "1d519f8fadb52ac28dda82c2f272fa217c72d2fdab0a4836101555213f4b3c2f"
     },
     {
-      "tex": "\\mathcal{L}_{\\mathrm{SFT}}=-\\frac{1}{T}\\sum_{t=1}^{T}\\log\\pi_\\theta(y_t\\mid x,y_{<t}).",
+      "tex": "\\mathcal{L}_{\\mathrm{SFT}}=-\\frac{1}{T}\\sum_{t=1}^{T}\\log\\pi_\\theta(y_t\\mid x,y_{\\lt t}).",
       "display": true,
       "width_pt": 176.562,
       "height_pt": 35.6952,

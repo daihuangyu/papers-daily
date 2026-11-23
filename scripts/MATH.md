@@ -1,6 +1,6 @@
 # 数学公式排版
 
-Markdown 是唯一内容源。正文优先用 GitHub 受保护的行内写法 ``$`x_i`$``，独立公式优先 fenced `math`，避免 Markdown 先处理下划线、反斜杠和行间距指令。PDF 也支持普通 `$...$` 和 `$$`，但发布前必须检查 GitHub 实际显示。多行用 `aligned`；代码示例仍放普通代码块，不把推导写成伪代码截图。函数名使用 `\mathrm{mean}`、`\mathrm{clip}` 等；GitHub 实测拒绝 `\operatorname`，生成器会报错提示替换。
+Markdown 是唯一内容源。正文优先用 GitHub 受保护的行内写法 ``$`x_i`$``，独立公式优先 fenced `math`，避免 Markdown 先处理下划线、反斜杠和行间距指令。PDF 也支持普通 `$...$` 和 `$$`，但发布前必须检查 GitHub 实际显示。多行用 `aligned`；代码示例仍放普通代码块，不把推导写成伪代码截图。函数名使用 `\mathrm{mean}`、`\mathrm{clip}` 等；GitHub 实测拒绝 `\operatorname`，生成器会报错提示替换。小于号使用 `\lt`（如 `y_{\lt t}`），避免网页将字面 `<t` 当作 HTML 后破坏公式。
 
 ````markdown
 行内说明：$`\pi_\theta`$ 是策略，$`\pi_{\mathrm{ref}}`$ 是参考模型。

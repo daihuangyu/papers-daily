@@ -432,12 +432,12 @@
       "display_blocks": 22,
       "unique_math_expressions": 131,
       "math_occurrences": 149,
-      "markdown_chars": 30758,
-      "pdf_sha256": "5acb912401539462388f8c8fb943a95019dfb366ab68a4f21a715949be725c22",
+      "markdown_chars": 30773,
+      "pdf_sha256": "8fb990a4f4ead4d58971ee066f250523dd0d437917aef9f560e1864e975ed507",
       "non_math_full_text": "all prose/code/table lines matched after Markdown/whitespace normalization and removing only rendered math",
       "math_verification": "every TeX source covered by render manifest; invalid TeX aborts; original paper crops pixel-match all embedded images"
     },
-    "repository_tests": "16 unittest passed",
+    "repository_tests": "17 unittest passed",
     "math_rendering": {
       "display_blocks": 22,
       "unique_expressions": 131,

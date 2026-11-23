@@ -29,6 +29,12 @@ class MathTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'GitHub rejects'):
                 MathRenderer(md)
 
+    def test_html_sensitive_comparison_must_be_escaped(self):
+        with tempfile.TemporaryDirectory() as temp:
+            md=Path(temp)/'report.md';md.write_text(r'$`y_{<t}`$')
+            with self.assertRaisesRegex(ValueError,'literal <'):
+                MathRenderer(md)
+
     def test_vector_display_inline_baseline_and_manifest(self):
         with tempfile.TemporaryDirectory() as temp:
             md=Path(temp)/'report.md'
