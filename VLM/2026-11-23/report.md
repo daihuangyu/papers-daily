@@ -19,7 +19,7 @@
 SFT 像照着标准解答练习。给定图像或视频 $`x`$ 与回答 $`y`$，模型逐 token 最大化标准回答的概率。若回答有 $`T`$ 个 token，负对数似然为：
 
 ```math
-\mathcal{L}_{\mathrm{SFT}}=-\frac{1}{T}\sum_{t=1}^{T}\log\pi_\theta(y_t\mid x,y_{<t}).
+\mathcal{L}_{\mathrm{SFT}}=-\frac{1}{T}\sum_{t=1}^{T}\log\pi_\theta(y_t\mid x,y_{\lt t}).
 ```
 
 其中 $`\theta`$ 是可训练参数，$`\pi`$ 是输出分布；工具返回的观测通常只作为上下文，不能误当作要模仿生成的回答。
@@ -70,7 +70,7 @@ u_w&=\log\frac{\pi_\theta(y\mid I_w,x_{\mathrm{lr}})}{\pi_{\mathrm{ref}}(y\mid I
 u_l&=\log\frac{\pi_\theta(y\mid I_l,x_{\mathrm{lr}})}{\pi_{\mathrm{ref}}(y\mid I_l,x_{\mathrm{lr}})},\\[4pt]
 z&=\beta(u_w-u_l),\\
 \mathcal{L}_{\mathrm{VEPO}}&=-\mathbb{E}\big[\log\sigma(z)\big],\\
-\log\pi(y\mid I,x)&=\sum_t\log\pi(y_t\mid I,x,y_{<t}).
+\log\pi(y\mid I,x)&=\sum_t\log\pi(y_t\mid I,x,y_{\lt t}).
 \end{aligned}
 ```
 
@@ -190,7 +190,7 @@ GRPO 按组内 $`R`$ 计算相对优势。通用 clipped surrogate 可以写为�
 ```math
 \begin{aligned}
 \mathcal{L}_{\mathrm{clip}}&=-\mathbb{E}_{i,t}\!\left[\min\!\left(r_{it}A_i,\mathrm{clip}(r_{it},1-\epsilon,1+\epsilon)A_i\right)\right],\\
-r_{it}&=\frac{\pi_\theta(y_{it}\mid x,y_{i,<t})}{\pi_{\mathrm{old}}(y_{it}\mid x,y_{i,<t})}.
+r_{it}&=\frac{\pi_\theta(y_{it}\mid x,y_{i,\lt t})}{\pi_{\mathrm{old}}(y_{it}\mid x,y_{i,\lt t})}.
 \end{aligned}
 ```
 
@@ -423,7 +423,7 @@ brain 的文本 loss 先按回答 token 平均，再按 rollout 内轮次平均�
 
 ```math
 \begin{aligned}
-\bar\ell_{it}&=\frac{1}{|\mathcal{T}_{it}|}\sum_{n\in\mathcal{T}_{it}}\log\pi_\theta(y_{itn}\mid x_{it},y_{it,<n}),\\[4pt]
+\bar\ell_{it}&=\frac{1}{|\mathcal{T}_{it}|}\sum_{n\in\mathcal{T}_{it}}\log\pi_\theta(y_{itn}\mid x_{it},y_{it,\lt n}),\\[4pt]
 \mathcal{L}_{\mathrm{text}}&=-\frac{\lambda_{\mathrm{text}}}{B}\sum_{i=1}^{B}\frac{1}{T_i}\sum_{t=1}^{T_i}\mathrm{sg}(A_i)\bar\ell_{it}.
 \end{aligned}
 ```

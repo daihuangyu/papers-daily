@@ -103,6 +103,8 @@ class MathRenderer:
         for tex, display in sorted(expressions):
             if re.search(r'\\operatorname\b',tex):
                 raise ValueError('GitHub rejects \\operatorname; use \\mathrm for named functions')
+            if '<' in tex:
+                raise ValueError('GitHub parses literal < as HTML; use \\lt in math')
             identity = hashlib.sha256(('mathjax-3.2.2-v1\0'+str(display)+'\0'+tex).encode()).hexdigest()[:24]
             requests.append(dict(id=identity,tex=tex,display=display,size=12 if display else 10))
         response = subprocess.run(['node',str(Path(__file__).with_name('render_math.cjs'))],
