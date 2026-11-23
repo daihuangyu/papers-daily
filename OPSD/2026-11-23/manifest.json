@@ -527,8 +527,8 @@
     "text_lines_checked": 169,
     "missing_lines": [],
     "out_of_page_characters": [],
-    "markdown_sha256": "276f82ac2a092208702bd28b3230cce0083e4537817a0b827046a4a55b02ef9a",
-    "pdf_sha256": "93cddc11bf7d184aec206bc238e40587da23385c82c21c923e12487e1fbe218f",
+    "markdown_sha256": "2970213867574f60420ceb4f88df934cccf0223923b30e0b4eabf608a525ae49",
+    "pdf_sha256": "617570f620e75276c35792f46a377eaf6737ef94aa96b2c315139e9827d890d8",
     "fonts": {
       "/AAAAAA+STSongti-TC-Bold": {
         "embedded": true,
@@ -551,14 +551,14 @@
     "invalid_tex_smoke_test": "Unknown TeX command rejected with nonzero exit",
     "status": "passed",
     "all_pages_rendered": true,
-    "visual_review": "All 17 final pages inspected after GitHub-safe syntax conversion and merged renderer compatibility; no missing formula, overlap or clipping.",
+    "visual_review": "17 pages inspected; final HTML-safe comparison escape retains identical formula glyphs and line layout. Every formula/source figure embedded and in bounds.",
     "renderer_adapter_sha256": "f669ce95d4f1898714cd1aa3848d6f51e1feeaabf176b5a5908d94564c60f2dd",
-    "report_local_renderer_sha256": "e99084e4e6e0b7b1b545f8e2104de4c828e02ed5ff26d08f1ff2c7008b5ac60c",
+    "report_local_renderer_sha256": "e4ebf7a8be5ae78f3fa34af3ac048c507439fff0f56849c57c29474e9c3d5319",
     "shared_renderer_sha256": "9a61158f5c0c9ff6330e1a2989ac0ec402547791cd565bc813aa19e52ef17a9e",
     "math_renderer_sha256": "59bcd6afa31b130845e5bfd9ce043c59f0a1a64eae974ba1ae0a6f0ba3a35ebe",
-    "math_typesetting_sha256": "34eb1ce4b32690f8a4930fde36e81a49138d60816367951050717667b80a153b",
-    "formula_source": "Same GitHub-protected inline TeX and fenced math in report.md; expression mapping in assets/math/index.json",
-    "regression_tests_passed": 19
+    "math_typesetting_sha256": "4663ddffc1515e26f5740d2349854cd57e3776e15ab9e9d863c0ee35d5a78c58",
+    "formula_source": "GitHub protected inline math, math fences, mathrm named functions and escaped lt comparisons",
+    "regression_tests_passed": 20
   },
   "evidence_policy": "Paper facts, educational derivations, unverified candidate formula correction and missing implementation details distinguished; no fabricated experimental figures or GPU training claims",
   "local_execution": {
@@ -571,7 +571,7 @@
     {
       "path": "assets/QA.md",
       "bytes": 1542,
-      "sha256": "21f8d5f37c35fe887e04c0fdd97ce6a04c215dc45ccef590f0823532a4693896"
+      "sha256": "a7cb10ff4469003d8e536056d961ffa01e68a58b91876869c09089a60a640118"
     },
     {
       "path": "assets/SOURCES.md",
@@ -595,8 +595,8 @@
     },
     {
       "path": "assets/build_math_report.py",
-      "bytes": 7778,
-      "sha256": "e99084e4e6e0b7b1b545f8e2104de4c828e02ed5ff26d08f1ff2c7008b5ac60c"
+      "bytes": 7777,
+      "sha256": "e4ebf7a8be5ae78f3fa34af3ac048c507439fff0f56849c57c29474e9c3d5319"
     },
     {
       "path": "assets/gen-fig11.png",
@@ -624,14 +624,24 @@
       "sha256": "2634459e13f65c8d7a99c9dc6d8830c677f02843e8df915c04c1e42d43a9ce14"
     },
     {
-      "path": "assets/math/0156e49fa37b4e110525.png",
-      "bytes": 21372,
-      "sha256": "9e8d87c423da73df603be191f00d693ce3188d7972b2ad3c48314b7abe8e2fa8"
+      "path": "assets/math/02208a99be5855e1df43.png",
+      "bytes": 4417,
+      "sha256": "e024808f27fcd74934657f291997b5854e7efff2db9884294e665925a4888280"
     },
     {
-      "path": "assets/math/0156e49fa37b4e110525.svg",
-      "bytes": 21652,
-      "sha256": "46dfe1f1018d3a0a8e5db8b9ca69b40ed541c3ab63070733066dca565fd3e537"
+      "path": "assets/math/02208a99be5855e1df43.svg",
+      "bytes": 4038,
+      "sha256": "f570659bac079dda2d6640bdc1ce2df1f5226a47709e3d3fc9c296157b37b07e"
+    },
+    {
+      "path": "assets/math/040e7beedd83eaae9092.png",
+      "bytes": 6801,
+      "sha256": "721deea3ebd8c3c3fa96ae60ccc6c3de1a2a9e04f09880956482c690641fcf38"
+    },
+    {
+      "path": "assets/math/040e7beedd83eaae9092.svg",
+      "bytes": 8030,
+      "sha256": "5f0ca302ae983872eb864ab5721eb109ca01366995a337b8370c5adff81ace1a"
     },
     {
       "path": "assets/math/04542739f7a9e5e3d529.png",
@@ -722,16 +732,6 @@
       "path": "assets/math/0c19da05f41bfd379576.svg",
       "bytes": 1796,
       "sha256": "e04fc2a83897d05a5ecbe61fb63155543eabddebf1ba4e3b78722f2ac728f49a"
-    },
-    {
-      "path": "assets/math/12cae785bc19a39e66cd.png",
-      "bytes": 10451,
-      "sha256": "4300e8dd112017efc2931aa80acabc01e3181a909dd52b9ca1e4ec0bd0aa2d56"
-    },
-    {
-      "path": "assets/math/12cae785bc19a39e66cd.svg",
-      "bytes": 16969,
-      "sha256": "09681dc89954a074dfc58be683bdcff4055acc23e9115074676c0a272de667b1"
     },
     {
       "path": "assets/math/13d34733f1ad3e2d1885.png",
@@ -932,6 +932,16 @@
       "path": "assets/math/3fba58fce774e2363fe0.svg",
       "bytes": 14513,
       "sha256": "55c14c1d77091549513978b1a1e01563fa52498d85508ce044fc78fb1583b750"
+    },
+    {
+      "path": "assets/math/401242c856d593b4e297.png",
+      "bytes": 21372,
+      "sha256": "9e8d87c423da73df603be191f00d693ce3188d7972b2ad3c48314b7abe8e2fa8"
+    },
+    {
+      "path": "assets/math/401242c856d593b4e297.svg",
+      "bytes": 21652,
+      "sha256": "46dfe1f1018d3a0a8e5db8b9ca69b40ed541c3ab63070733066dca565fd3e537"
     },
     {
       "path": "assets/math/40379823fe55f5985d24.png",
@@ -1334,6 +1344,16 @@
       "sha256": "e0a592ccf9bea09cc5aa79b517bf162fbb2802082f1b6eff6274a5ecc66c843f"
     },
     {
+      "path": "assets/math/86e6fe6dfd161995e8d7.png",
+      "bytes": 10451,
+      "sha256": "4300e8dd112017efc2931aa80acabc01e3181a909dd52b9ca1e4ec0bd0aa2d56"
+    },
+    {
+      "path": "assets/math/86e6fe6dfd161995e8d7.svg",
+      "bytes": 16969,
+      "sha256": "09681dc89954a074dfc58be683bdcff4055acc23e9115074676c0a272de667b1"
+    },
+    {
       "path": "assets/math/873f1b1c30293e5bcea8.png",
       "bytes": 3084,
       "sha256": "540e03d50a5ae7620f000e33257e53178d5d7952ffd4991c63db146af36910ab"
@@ -1474,6 +1494,16 @@
       "sha256": "12e1c9b3b9934a2452bc879d6ae5cac5bf25ca47254322db955df11f54965780"
     },
     {
+      "path": "assets/math/9d68319df214c5c11558.png",
+      "bytes": 6073,
+      "sha256": "de3dd1f9495ef56590435a5e556a7e0335da7cb0b68563a17d2f00a56cbadcb9"
+    },
+    {
+      "path": "assets/math/9d68319df214c5c11558.svg",
+      "bytes": 6896,
+      "sha256": "f95a103dba43289073751597a8b5d3616f1936beda29ada005f53aed5ac8f6b2"
+    },
+    {
       "path": "assets/math/9e57afb42937f02b984a.png",
       "bytes": 5041,
       "sha256": "77005cd15348830d5961fb8e45d331c5a911d5053202df5517ce5792056defdf"
@@ -1502,16 +1532,6 @@
       "path": "assets/math/a0ffbdf0a47020852464.svg",
       "bytes": 7866,
       "sha256": "7d703590afba86d35123c2a6391741faf623fdd708bce8112940d51a58af5525"
-    },
-    {
-      "path": "assets/math/a0ffe71ead2a1a4e1416.png",
-      "bytes": 4417,
-      "sha256": "e024808f27fcd74934657f291997b5854e7efff2db9884294e665925a4888280"
-    },
-    {
-      "path": "assets/math/a0ffe71ead2a1a4e1416.svg",
-      "bytes": 4038,
-      "sha256": "f570659bac079dda2d6640bdc1ce2df1f5226a47709e3d3fc9c296157b37b07e"
     },
     {
       "path": "assets/math/a53c7798d08086e6bd44.png",
@@ -1904,16 +1924,6 @@
       "sha256": "065ade6d353ad0f26a61bb0e2649960cedc979acf8feac07533eb0bae4f02c72"
     },
     {
-      "path": "assets/math/cedc93b5a7496ddcfd59.png",
-      "bytes": 4081,
-      "sha256": "79fc7825839f6223bd10e20730142faa9b27632fd52b86c9744ccafa7cdc37e9"
-    },
-    {
-      "path": "assets/math/cedc93b5a7496ddcfd59.svg",
-      "bytes": 4619,
-      "sha256": "d7a12bd4de7a6c556911c3af03e07b5eda667ec8509607a5531e1d247d480d72"
-    },
-    {
       "path": "assets/math/d14a10e24f58c15d3586.png",
       "bytes": 1785,
       "sha256": "a6bff8bcb7d20eac0237ac9eae1aa9317a307111df3fb6609e6b32e5402ef7d3"
@@ -1992,16 +2002,6 @@
       "path": "assets/math/e2582576dd494659ef39.svg",
       "bytes": 13696,
       "sha256": "19cf69ec404abab0a33777b6b4dd018094a6d1b31048838dd20c6add60ef7d48"
-    },
-    {
-      "path": "assets/math/e30fff76e2c58c191735.png",
-      "bytes": 6073,
-      "sha256": "de3dd1f9495ef56590435a5e556a7e0335da7cb0b68563a17d2f00a56cbadcb9"
-    },
-    {
-      "path": "assets/math/e30fff76e2c58c191735.svg",
-      "bytes": 6896,
-      "sha256": "f95a103dba43289073751597a8b5d3616f1936beda29ada005f53aed5ac8f6b2"
     },
     {
       "path": "assets/math/e4dceca2f915ee960da7.png",
@@ -2114,6 +2114,16 @@
       "sha256": "ed0cb2fcd820ff1f14e2e582c67e947559b9706452041bc4e25723ab5e61751b"
     },
     {
+      "path": "assets/math/f62d9cb45fc571f5d929.png",
+      "bytes": 4081,
+      "sha256": "79fc7825839f6223bd10e20730142faa9b27632fd52b86c9744ccafa7cdc37e9"
+    },
+    {
+      "path": "assets/math/f62d9cb45fc571f5d929.svg",
+      "bytes": 4619,
+      "sha256": "d7a12bd4de7a6c556911c3af03e07b5eda667ec8509607a5531e1d247d480d72"
+    },
+    {
       "path": "assets/math/f64e296c6656cbe49660.png",
       "bytes": 35196,
       "sha256": "545a527898b58ede958424b41567e62fe5e37e185342499195f6fbd3fdf7de77"
@@ -2194,24 +2204,14 @@
       "sha256": "9ce583b2389003e4ace2ac3b1e42a618ca48735fddd62af17a8265315aefbea6"
     },
     {
-      "path": "assets/math/fd5f02d5289536db16ec.png",
-      "bytes": 6801,
-      "sha256": "721deea3ebd8c3c3fa96ae60ccc6c3de1a2a9e04f09880956482c690641fcf38"
-    },
-    {
-      "path": "assets/math/fd5f02d5289536db16ec.svg",
-      "bytes": 8030,
-      "sha256": "5f0ca302ae983872eb864ab5721eb109ca01366995a337b8370c5adff81ace1a"
-    },
-    {
       "path": "assets/math/index.json",
-      "bytes": 41331,
-      "sha256": "b0dfa292c7926c5a39962358b8184d9d76cdc29edac5d3703b7ca5c546ca66af"
+      "bytes": 41367,
+      "sha256": "f8c8e103f1638ae1b33febff24c9cab2617b4e545bc40f983ef744cd613702d2"
     },
     {
       "path": "assets/math/requests.json",
-      "bytes": 10580,
-      "sha256": "e84c7c8628211c966ea373342c662d29bbe45f593a470bb3b9d930f1e8e502a4"
+      "bytes": 10616,
+      "sha256": "4961bbfbd96322536de0d4f8d1ad802995d1d27c282a3bc42fd452d958f02e51"
     },
     {
       "path": "assets/mp-fig2.png",
@@ -2261,7 +2261,7 @@
     {
       "path": "assets/pdf-check.json",
       "bytes": 1848,
-      "sha256": "decef6e35d728766c419de14a3ab4c010421935d7cabaa5a6d94b8cb7bc1dc88"
+      "sha256": "96086e4de4ebeb33edc30e9736f3cb9bb7e28ddb859426d8a6748c73be854b3e"
     },
     {
       "path": "assets/render_report.py",
@@ -2270,13 +2270,13 @@
     },
     {
       "path": "report.md",
-      "bytes": 40197,
-      "sha256": "276f82ac2a092208702bd28b3230cce0083e4537817a0b827046a4a55b02ef9a"
+      "bytes": 40224,
+      "sha256": "2970213867574f60420ceb4f88df934cccf0223923b30e0b4eabf608a525ae49"
     },
     {
       "path": "report.pdf",
       "bytes": 3050039,
-      "sha256": "93cddc11bf7d184aec206bc238e40587da23385c82c21c923e12487e1fbe218f"
+      "sha256": "617570f620e75276c35792f46a377eaf6737ef94aa96b2c315139e9827d890d8"
     }
   ],
   "format_revision": {

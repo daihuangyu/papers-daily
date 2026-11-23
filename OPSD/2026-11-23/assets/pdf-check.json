@@ -8,8 +8,8 @@
   "text_lines_checked": 169,
   "missing_lines": [],
   "out_of_page_characters": [],
-  "markdown_sha256": "276f82ac2a092208702bd28b3230cce0083e4537817a0b827046a4a55b02ef9a",
-  "pdf_sha256": "93cddc11bf7d184aec206bc238e40587da23385c82c21c923e12487e1fbe218f",
+  "markdown_sha256": "2970213867574f60420ceb4f88df934cccf0223923b30e0b4eabf608a525ae49",
+  "pdf_sha256": "617570f620e75276c35792f46a377eaf6737ef94aa96b2c315139e9827d890d8",
   "fonts": {
     "/AAAAAA+STSongti-TC-Bold": {
       "embedded": true,
@@ -32,12 +32,12 @@
   "invalid_tex_smoke_test": "Unknown TeX command rejected with nonzero exit",
   "status": "passed",
   "all_pages_rendered": true,
-  "visual_review": "All 17 final pages inspected after GitHub-safe syntax conversion and merged renderer compatibility; no missing formula, overlap or clipping.",
+  "visual_review": "17 pages inspected; final HTML-safe comparison escape retains identical formula glyphs and line layout. Every formula/source figure embedded and in bounds.",
   "renderer_adapter_sha256": "f669ce95d4f1898714cd1aa3848d6f51e1feeaabf176b5a5908d94564c60f2dd",
-  "report_local_renderer_sha256": "e99084e4e6e0b7b1b545f8e2104de4c828e02ed5ff26d08f1ff2c7008b5ac60c",
+  "report_local_renderer_sha256": "e4ebf7a8be5ae78f3fa34af3ac048c507439fff0f56849c57c29474e9c3d5319",
   "shared_renderer_sha256": "9a61158f5c0c9ff6330e1a2989ac0ec402547791cd565bc813aa19e52ef17a9e",
   "math_renderer_sha256": "59bcd6afa31b130845e5bfd9ce043c59f0a1a64eae974ba1ae0a6f0ba3a35ebe",
-  "math_typesetting_sha256": "34eb1ce4b32690f8a4930fde36e81a49138d60816367951050717667b80a153b",
-  "formula_source": "Same GitHub-protected inline TeX and fenced math in report.md; expression mapping in assets/math/index.json",
-  "regression_tests_passed": 19
+  "math_typesetting_sha256": "4663ddffc1515e26f5740d2349854cd57e3776e15ab9e9d863c0ee35d5a78c58",
+  "formula_source": "GitHub protected inline math, math fences, mathrm named functions and escaped lt comparisons",
+  "regression_tests_passed": 20
 }

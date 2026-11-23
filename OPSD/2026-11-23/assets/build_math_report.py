@@ -130,4 +130,3 @@ if __name__=='__main__':
     p=argparse.ArgumentParser(); p.add_argument('markdown',type=Path); p.add_argument('--illustrations',action='store_true'); a=p.parse_args()
     if a.illustrations: illustrations(a.markdown.parent)
     build(a.markdown)
-

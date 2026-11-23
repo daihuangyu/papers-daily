@@ -52,6 +52,9 @@ class MathTypesetter:
         unique = list({(r['tex'], r['display']): r for r in requests}.values())
         if not unique:
             return
+        for item in unique:
+            if '<' in item['tex'] or r'\operatorname' in item['tex']:
+                raise ValueError('Use GitHub-compatible math: \\lt and \\mathrm')
         enable_cjk_inline_images()
         self.folder.mkdir(parents=True, exist_ok=True)
         request = self.folder / 'requests.json'

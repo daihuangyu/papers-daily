@@ -240,24 +240,24 @@
     "svg": "de832fa5cdd78073b5d7.svg"
   },
   {
-    "tex": "w_{t,j}=\\mathrm{clip}\\!\\left(\\frac{\\pi_t(y_j\\mid x,y_{<j})}{\\widehat q_t(y_j\\mid x,y_{<j})},\\frac1C,C\\right)",
+    "tex": "w_{t,j}=\\mathrm{clip}\\!\\left(\\frac{\\pi_t(y_j\\mid x,y_{\\lt j})}{\\widehat q_t(y_j\\mid x,y_{\\lt j})},\\frac1C,C\\right)",
     "display": true,
-    "key": "0156e49fa37b4e110525",
+    "key": "401242c856d593b4e297",
     "width": 240.128,
     "height": 41.096,
     "depth": 19.264,
-    "png": "0156e49fa37b4e110525.png",
-    "svg": "0156e49fa37b4e110525.svg"
+    "png": "401242c856d593b4e297.png",
+    "svg": "401242c856d593b4e297.svg"
   },
   {
-    "tex": "s=(x,y_{<t})",
+    "tex": "s=(x,y_{\\lt t})",
     "display": false,
-    "key": "cedc93b5a7496ddcfd59",
+    "key": "f62d9cb45fc571f5d929",
     "width": 79.6096,
     "height": 16,
     "depth": 4.528,
-    "png": "cedc93b5a7496ddcfd59.png",
-    "svg": "cedc93b5a7496ddcfd59.svg"
+    "png": "f62d9cb45fc571f5d929.png",
+    "svg": "f62d9cb45fc571f5d929.svg"
   },
   {
     "tex": "p_\\theta(v\\mid s)",
@@ -470,14 +470,14 @@
     "svg": "84c1f285c54c1e7f092a.svg"
   },
   {
-    "tex": "\\varepsilon<p(T\\setminus I)",
+    "tex": "\\varepsilon\\lt p(T\\setminus I)",
     "display": false,
-    "key": "a0ffe71ead2a1a4e1416",
+    "key": "02208a99be5855e1df43",
     "width": 83.728,
     "height": 16,
     "depth": 4.528,
-    "png": "a0ffe71ead2a1a4e1416.png",
-    "svg": "a0ffe71ead2a1a4e1416.svg"
+    "png": "02208a99be5855e1df43.png",
+    "svg": "02208a99be5855e1df43.svg"
   },
   {
     "tex": "I\\cup\\{r\\}",
@@ -1000,24 +1000,24 @@
     "svg": "25ce5df1ab6da988626b.svg"
   },
   {
-    "tex": "p_t=\\pi_\\theta(\\cdot\\mid x,y_{<t})",
+    "tex": "p_t=\\pi_\\theta(\\cdot\\mid x,y_{\\lt t})",
     "display": false,
-    "key": "e30fff76e2c58c191735",
+    "key": "9d68319df214c5c11558",
     "width": 119.10560000000001,
     "height": 16,
     "depth": 4.528,
-    "png": "e30fff76e2c58c191735.png",
-    "svg": "e30fff76e2c58c191735.svg"
+    "png": "9d68319df214c5c11558.png",
+    "svg": "9d68319df214c5c11558.svg"
   },
   {
-    "tex": "q_t=\\pi_\\phi(\\cdot\\mid x,z,y_{<t})",
+    "tex": "q_t=\\pi_\\phi(\\cdot\\mid x,z,y_{\\lt t})",
     "display": false,
-    "key": "fd5f02d5289536db16ec",
+    "key": "040e7beedd83eaae9092",
     "width": 134.184,
     "height": 16.72,
     "depth": 5.336,
-    "png": "fd5f02d5289536db16ec.png",
-    "svg": "fd5f02d5289536db16ec.svg"
+    "png": "040e7beedd83eaae9092.png",
+    "svg": "040e7beedd83eaae9092.svg"
   },
   {
     "tex": "M_t",
@@ -1580,13 +1580,13 @@
     "svg": "c74165cee465af508c4e.svg"
   },
   {
-    "tex": "\\prod_{k<j}\\frac{\\pi_t(y_k\\mid x,y_{<k})}{\\widehat q_t(y_k\\mid x,y_{<k})}",
+    "tex": "\\prod_{k\\lt j}\\frac{\\pi_t(y_k\\mid x,y_{\\lt k})}{\\widehat q_t(y_k\\mid x,y_{\\lt k})}",
     "display": false,
-    "key": "12cae785bc19a39e66cd",
+    "key": "86e6fe6dfd161995e8d7",
     "width": 104.8624,
     "height": 26.185599999999997,
     "depth": 10.672,
-    "png": "12cae785bc19a39e66cd.png",
-    "svg": "12cae785bc19a39e66cd.svg"
+    "png": "86e6fe6dfd161995e8d7.png",
+    "svg": "86e6fe6dfd161995e8d7.svg"
   }
 ]

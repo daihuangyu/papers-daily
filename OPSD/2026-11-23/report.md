@@ -16,7 +16,7 @@
 
 ## 入门：把“在哪里学”与“学什么”分开
 
-【基础概念】令$`s=(x,y_{<t})`$为问题和已生成前缀，$`p_\theta(v\mid s)`$是学生，$`q(v\mid s)`$是教师。OPD在学生自己走过的前缀上问教师；OPSD则让同源模型额外看答案、文档或其他训练期信息。forward KL为
+【基础概念】令$`s=(x,y_{\lt t})`$为问题和已生成前缀，$`p_\theta(v\mid s)`$是学生，$`q(v\mid s)`$是教师。OPD在学生自己走过的前缀上问教师；OPSD则让同源模型额外看答案、文档或其他训练期信息。forward KL为
 
 ```math
 F=D_{\mathrm{KL}}(q\Vert p)=\sum_v q_v\log\frac{q_v}{p_v}
@@ -71,7 +71,7 @@ q_a^T=\frac{q_a}{q(T)},\qquad p_a^T=\frac{p_a}{p(T)}
 q(a)=\frac{(1-\varepsilon)p(a)}{1-p(T\setminus I)},\qquad a\in I
 ```
 
-当$`\varepsilon<p(T\setminus I)`$，I中的质量仍会高于教师。高重叠时改用$`I\cup\{r\}`$，把剩余教师质量折入reset，消除这个固定切片上的归一化偏差。该命题有固定leftover坐标的条件，不是所有优化轨迹必然过冲的定理。
+当$`\varepsilon\lt p(T\setminus I)`$，I中的质量仍会高于教师。高重叠时改用$`I\cup\{r\}`$，把剩余教师质量折入reset，消除这个固定切片上的归一化偏差。该命题有固定leftover坐标的条件，不是所有优化轨迹必然过冲的定理。
 
 【本文推演】若$`p(I)=0.6`$，$`p(T\setminus I)=0.2`$，$`p(\mathrm{outside})=0.2`$，而学生$`\varepsilon=0`$，则前一个最优$`q(I)=0.6/0.8=0.75`$；缩到$`I\cup\{r\}`$后目标恢复0.6。这解释“已经共享的模式为什么还会过强”。
 
@@ -284,7 +284,7 @@ c(x,z)=\frac1G\sum_{g=1}^{G}\mathbf1\{\widehat a_g=a\}
 
 ### 训练、EMA与原式存在的矛盾
 
-【原文事实，式1—3/6】student $`p_t=\pi_\theta(\cdot\mid x,y_{<t})`$，teacher $`q_t=\pi_\phi(\cdot\mid x,z,y_{<t})`$，监督位置是student自己的轨迹，mask $`M_t`$去padding；每样本先除$`\sum_t M_t`$，再在batch中平均$`D_\alpha`$。教师stopgrad，不直接把z当硬SFT目标。
+【原文事实，式1—3/6】student $`p_t=\pi_\theta(\cdot\mid x,y_{\lt t})`$，teacher $`q_t=\pi_\phi(\cdot\mid x,z,y_{\lt t})`$，监督位置是student自己的轨迹，mask $`M_t`$去padding；每样本先除$`\sum_t M_t`$，再在batch中平均$`D_\alpha`$。教师stopgrad，不直接把z当硬SFT目标。
 
 ```math
 \mathcal L_{\mathrm{OPST}}=\frac1B\sum_{i=1}^B\frac{\sum_tM_{i,t}D_\alpha(p_{i,t}\Vert q_{i,t})}{\sum_tM_{i,t}}
@@ -386,12 +386,12 @@ $`\sigma^2=\mathrm{Var}_{\pi_t}(s)`$。这是局部前缀上支持分数的提�
 【原文事实，式7—10】用proposal $`\widehat q_t`$生成$`\tau`$，student最小化$`\sum_jw_{t,j-1}D_{\mathrm{KL}}(\pi\Vert\pi^*)`$；
 
 ```math
-w_{t,j}=\mathrm{clip}\!\left(\frac{\pi_t(y_j\mid x,y_{<j})}{\widehat q_t(y_j\mid x,y_{<j})},\frac1C,C\right)
+w_{t,j}=\mathrm{clip}\!\left(\frac{\pi_t(y_j\mid x,y_{\lt j})}{\widehat q_t(y_j\mid x,y_{\lt j})},\frac1C,C\right)
 ```
 
 $`w_{t,0}=1`$。然后用更新后的student形成$`q^*_{\eta,t+1}`$，在已采的前缀上以reverse $`D_{\mathrm{KL}}(\widehat q\Vert q^*)`$更新proposal。proposal是完整模型，论文实验说明每轮由当前student初始化；高层Algorithm1描述交替更新，实际参数同步时序需要代码确认。
 
-【本文推演】这里用截断的一步ratio，而不是完整前缀密度比$`\prod_{k<j}\frac{\pi_t(y_k\mid x,y_{<k})}{\widehat q_t(y_k\mid x,y_{<k})}`$。因此不能把其修正称为对纯student状态分布严格无偏；截断还进一步引入偏差。若前两步ratio均2，完整prefix修正为4，一步只2，两者已经不同。student仍在proposal访问的状态上学习，严格意义上不是完全未改动的on-policy采样。
+【本文推演】这里用截断的一步ratio，而不是完整前缀密度比$`\prod_{k\lt j}\frac{\pi_t(y_k\mid x,y_{\lt k})}{\widehat q_t(y_k\mid x,y_{\lt k})}`$。因此不能把其修正称为对纯student状态分布严格无偏；截断还进一步引入偏差。若前两步ratio均2，完整prefix修正为4，一步只2，两者已经不同。student仍在proposal访问的状态上学习，严格意义上不是完全未改动的on-policy采样。
 
 ```text
 从当前student初始化/同步完整proposal
