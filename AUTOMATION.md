@@ -45,6 +45,8 @@ manifest保持现有date、direction、topic、window_start、window_end、sourc
 
 ## Linux PDF与排版验证
 
+OPSD 方向自 2026-11-23 排版修订起，正文公式使用原生 LaTeX 行内 `$...$` 与独立 `$$` 数学块，禁止继续用未排版的线性字符式代替主要公式。GitHub 原生渲染同一源码；PDF 由 MathJax 本地生成公式素材并嵌入。先执行 `npm ci --prefix scripts/mathjax` 准备固定版本依赖，具体约定见 [OPSD数学排版](OPSD/FORMATTING.md)。该规则只更新公式排版，不改变其他方向内容、选题、时间窗口或发布授权。
+
 Python依赖见requirements.txt；Linux系统需`fonts-noto-cjk`和`fonts-dejavu-core`，可用Poppler检查输出。scripts/cjk_font.py从Linux Noto Sans CJK SC取字形，转换为可嵌入TrueType子集，数学补充字形来自DejaVu Sans，不引用macOS Songti。可用PAPERS_CJK_FONT及PAPERS_CJK_FONT_INDEX指定其他可嵌入中文字体；缺字直接报错。
 
 ```sh

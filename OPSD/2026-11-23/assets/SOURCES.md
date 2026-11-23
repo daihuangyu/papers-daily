@@ -29,3 +29,7 @@
 - Proposing Better Rollouts for On-Policy Distillation：Author-linked overview repository only: README and one PNG; README says code is being prepared; no runnable training code or weights
 
 MPOPD固定提交：`ac0971a1808d2719167be21c67501b66bed5a482`，README SHA-256：`0b499559dd9f8ea7d125e59ac244d3613f786b9591d9d1ea64f92801fa4066e3`。项目网站与README仅作辅助资料，不计论文名额。未运行GPU训练。
+
+## 正文公式排版素材
+
+本次新增math/目录为正文LaTeX经MathJax 3.2.2生成的排版缓存，包含25个独立公式和134个不同的行内片段，不冒充论文架构图或实测实验。每式源码、SVG/PNG文件和显示方式见math/index.json；全部哈希见manifest。原论文15张图表/原式截图保持原文件字节不变。

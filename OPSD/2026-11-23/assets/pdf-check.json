@@ -1,30 +1,18 @@
 {
-  "pages": 15,
-  "original_images": 15,
-  "markdown_characters": 19383,
-  "text_lines_checked": 145,
+  "pages": 17,
+  "display_formula_count": 25,
+  "unique_inline_formula_count": 134,
+  "rendered_formula_assets": 159,
+  "original_figures": 15,
+  "all_original_and_formula_pixels_matched": true,
+  "text_lines_checked": 169,
   "missing_lines": [],
-  "text_characters_per_page": [
-    1366,
-    1425,
-    975,
-    900,
-    1122,
-    567,
-    875,
-    1184,
-    1358,
-    999,
-    1341,
-    1312,
-    1549,
-    907,
-    1222
-  ],
   "out_of_page_characters": [],
-  "markdown_sha256": "8bcae1dac903a3876cbc767b5826c6113e1a81d64929c2e961b9abe97183d8b6",
-  "pdf_sha256": "1a220efebc0aa8762d3ac23c5ad8cd835c40e4c03aeaaf99108f657a6b429832",
+  "markdown_sha256": "75b4790834e196ac98d7629855136543250cb1e6b8f51c58ae1c8817a9f161f6",
+  "pdf_sha256": "41264de340715176aff8faaea03f375a55d2c3fd801c87d7829d216baafc7e92",
   "status": "passed",
+  "all_pages_rendered": true,
+  "visual_review": "All 17 pages inspected after final CJK inline-image wrap fix; formula/Procrustes page also checked at full resolution. No text/formula/image overflow, overlap or clipped content.",
   "fonts": {
     "/AAAAAA+STSongti-TC-Bold": {
       "embedded": true,
@@ -43,10 +31,10 @@
       "to_unicode": true
     }
   },
-  "source_image_pixels_matched": 15,
-  "all_pages_rendered": true,
-  "visual_review": "All 15 final pages visually inspected as rendered contact sheets; original formula crop inspected. No missing glyphs, overlap or clipped content observed.",
   "renderer_adapter_sha256": "8295e36cd87b0ad7fc9d7e844b2046b24df1637ce93a1c5876cd3e2437319083",
-  "shared_renderer_sha256": "bee2e6c10aa50682d4c1f122b0cafb5169f2df38b465ed8681feac6d29374382",
-  "font_sha256": "19d520cef1e3526ab10eef322a436a78cded57d0389682f9e21485c21c9a421c"
+  "shared_renderer_sha256": "a75a3ab3771c89ee46fb2fd17b164e6c406d7b6a6c04f58553875b095648b7b8",
+  "math_renderer_sha256": "40ca1688d010ee9378f2c5a910ace623cb138626c4e5faa497932d60ebc1c85a",
+  "math_typesetting_sha256": "d82467e89eba0c04622f2209a598a64545f15193cf4d31ecb5907a2cf66806dd",
+  "math_engine": "MathJax 3.2.2 SVG + resvg 2.6.2 at 4x raster density",
+  "formula_source": "Same native LaTeX source in report.md; display and inline math mapped in assets/math/index.json"
 }

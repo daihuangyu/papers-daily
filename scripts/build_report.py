@@ -39,6 +39,8 @@ def illustrations(folder):
         'Draft 采样\nx ~ q(x)', 'Target 验证\nmin(1, p/q)', '连续接受前缀\n拒绝后残差采样', '更新上下文\n进入下一轮'], '目标：保持 target 分布；可选有损验证不具备同样的等价保证。')
 
 def build(md):
+    from math_typesetting import MathTypesetter
+    math = MathTypesetter(md)
     direction = md.parent.parent.name
     FONT = embedded_font(md.read_text(encoding='utf-8'))
     pdfmetrics.registerFont(TTFont('CJK',str(FONT)))
@@ -47,12 +49,18 @@ def build(md):
     headings = {n: ParagraphStyle(f'h{n}',parent=normal,fontSize={1:24,2:17,3:13}[n],leading={1:32,2:25,3:20}[n],textColor=colors.HexColor('#164e63'),spaceBefore=12,spaceAfter=9,keepWithNext=True) for n in (1,2,3)}
     code = ParagraphStyle('code',parent=normal,fontName='CJK',fontSize=8,leading=12,backColor=colors.HexColor('#eef3f7'),borderPadding=7)
     caption = ParagraphStyle('caption',parent=normal,fontSize=8,leading=12,textColor=colors.HexColor('#536575'))
-    def inline(text):
+    if math.items:
+        # Fractions and matrices may be taller than the surrounding prose.
+        for style in [normal, caption, *headings.values()]:
+            style.autoLeading = 'max'
+    def prose(text):
         text=html.escape(text)
         text=re.sub(r'\[([^\]]+)\]\((https?://[^)]+)\)',r'<link href="\2" color="#126b86">\1</link>',text)
         text=re.sub(r'\*\*(.*?)\*\*',r'<b>\1</b>',text)
         text=re.sub(r'`([^`]+)`',r'\1',text)
         return text
+    def inline(text):
+        return math.inline(text, prose)
     lines=md.read_text(encoding='utf-8').splitlines(); story=[]; i=0
     def append_block(block):
         # Keep a heading with a figure/code block even when that block is atomic.
@@ -64,6 +72,14 @@ def build(md):
     while i<len(lines):
         line=lines[i].strip(); i+=1
         if not line: continue
+        if line == '$$':
+            formula=[]
+            while i<len(lines) and lines[i].strip() != '$$':
+                formula.append(lines[i]); i+=1
+            if i == len(lines):
+                raise ValueError('Unclosed display math delimiter')
+            i+=1
+            story.append(math.block('\n'.join(formula))); continue
         if line.startswith('```'):
             block=[]
             while i<len(lines) and not lines[i].startswith('```'):
@@ -80,7 +96,7 @@ def build(md):
             figure_block = [Image(str(path),width=w*scale,height=h*scale), Spacer(1,7)]
             j=i
             while j<len(lines) and not lines[j].strip(): j+=1
-            if j<len(lines) and lines[j].strip().startswith('图 '):
+            if j<len(lines) and re.match(r'^图\s*\d', lines[j].strip()):
                 figure_block.append(Paragraph(inline(lines[j].strip()),caption))
                 i=j+1
             append_block(figure_block); continue

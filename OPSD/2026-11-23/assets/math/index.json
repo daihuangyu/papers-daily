@@ -1,0 +1,1592 @@
+[
+  {
+    "tex": "F=D_{\\mathrm{KL}}(q\\Vert p)=\\sum_v q_v\\log\\frac{q_v}{p_v}",
+    "display": true,
+    "key": "bf72c0554568902691aa",
+    "width": 208.36960000000002,
+    "height": 36.412800000000004,
+    "depth": 20.952,
+    "png": "bf72c0554568902691aa.png",
+    "svg": "bf72c0554568902691aa.svg"
+  },
+  {
+    "tex": "R=D_{\\mathrm{KL}}(p\\Vert q)=\\sum_v p_v\\log\\frac{p_v}{q_v}",
+    "display": true,
+    "key": "c649a210c0e39730321f",
+    "width": 209.4416,
+    "height": 36.412800000000004,
+    "depth": 20.952,
+    "png": "c649a210c0e39730321f.png",
+    "svg": "c649a210c0e39730321f.svg"
+  },
+  {
+    "tex": "\\frac{\\partial F}{\\partial z_a}=p_a-q_a,\\qquad\\frac{\\partial R}{\\partial z_a}=p_a\\!\\left[\\log\\frac{p_a}{q_a}-R\\right]",
+    "display": true,
+    "key": "869ead4b5679d8c561bb",
+    "width": 302.32640000000004,
+    "height": 38.384,
+    "depth": 17.184,
+    "png": "869ead4b5679d8c561bb.png",
+    "svg": "869ead4b5679d8c561bb.svg"
+  },
+  {
+    "tex": "q_a^T=\\frac{q_a}{q(T)},\\qquad p_a^T=\\frac{p_a}{p(T)}",
+    "display": true,
+    "key": "a0f66a9750c5a6649c1b",
+    "width": 193.50560000000002,
+    "height": 33.248,
+    "depth": 17.376,
+    "png": "a0f66a9750c5a6649c1b.png",
+    "svg": "a0f66a9750c5a6649c1b.svg"
+  },
+  {
+    "tex": "q(a)=\\frac{(1-\\varepsilon)p(a)}{1-p(T\\setminus I)},\\qquad a\\in I",
+    "display": true,
+    "key": "5ade16bc4139573490e5",
+    "width": 214.34720000000002,
+    "height": 38.72,
+    "depth": 17.376,
+    "png": "5ade16bc4139573490e5.png",
+    "svg": "5ade16bc4139573490e5.svg"
+  },
+  {
+    "tex": "D_\\alpha(\\pi_q\\Vert\\pi_p)=\\frac{4}{1-\\alpha^2}\\left[1-\\sum_{i\\in A}\\pi_q(i)^{\\frac{1-\\alpha}{2}}\\pi_p(i)^{\\frac{1+\\alpha}{2}}\\right]",
+    "display": true,
+    "key": "04542739f7a9e5e3d529",
+    "width": 330.23040000000003,
+    "height": 48.0176,
+    "depth": 22.656,
+    "png": "04542739f7a9e5e3d529.png",
+    "svg": "04542739f7a9e5e3d529.svg"
+  },
+  {
+    "tex": "g=\\operatorname{clip}\\!\\left(\\frac{\\rho-\\mathrm{low}}{\\mathrm{high}-\\mathrm{low}},0,1\\right),\\qquad\\alpha=1-2g",
+    "display": true,
+    "key": "5ff06074455f2cabef7a",
+    "width": 302.3632,
+    "height": 38.384,
+    "depth": 17.184,
+    "png": "5ff06074455f2cabef7a.png",
+    "svg": "5ff06074455f2cabef7a.svg"
+  },
+  {
+    "tex": "\\mathcal L=\\mathbb E_{y\\sim\\pi_s}\\left[\\sum_{i=1}^{|y|}\\mathbf1\\{i\\le0.2|y|\\}\\,D_{\\alpha_i}(\\pi_q^{(i)}\\Vert\\pi_p^{(i)})\\right]",
+    "display": true,
+    "key": "5b675b4c0f5302beb524",
+    "width": 301.1392,
+    "height": 49.870400000000004,
+    "depth": 22.616,
+    "png": "5b675b4c0f5302beb524.png",
+    "svg": "5b675b4c0f5302beb524.svg"
+  },
+  {
+    "tex": "\\kappa_t=D_{\\mathrm{KL}}(q_t\\Vert p_t),\\qquad g_t=1-\\exp\\!\\left(-\\frac{\\kappa_t}{\\tau}\\right)",
+    "display": true,
+    "key": "3fba58fce774e2363fe0",
+    "width": 291.5888,
+    "height": 29.576,
+    "depth": 12.648,
+    "png": "3fba58fce774e2363fe0.png",
+    "svg": "3fba58fce774e2363fe0.svg"
+  },
+  {
+    "tex": "m_t=(1-g_t)p_t+g_tq_t",
+    "display": true,
+    "key": "a80bf51a0814e2c9aea6",
+    "width": 152.46079999999998,
+    "height": 16,
+    "depth": 4.528,
+    "png": "a80bf51a0814e2c9aea6.png",
+    "svg": "a80bf51a0814e2c9aea6.svg"
+  },
+  {
+    "tex": "\\ell_t=(1-g_t)D_{\\mathrm{KL}}(p_t\\Vert q_t)+g_tD_{\\mathrm{KL}}(q_t\\Vert p_t)",
+    "display": true,
+    "key": "b5d8b8621b344b6fd79b",
+    "width": 272.88640000000004,
+    "height": 16,
+    "depth": 4.528,
+    "png": "b5d8b8621b344b6fd79b.png",
+    "svg": "b5d8b8621b344b6fd79b.svg"
+  },
+  {
+    "tex": "\\begin{aligned}J_{\\mathrm{OPD}}&=\\mathbb E_{x\\sim\\mathcal D,\\,y\\sim\\pi_\\theta}\\!\\left[\\sum_t D_{\\mathrm{KL}}\\!\\left(\\pi_\\theta(\\cdot\\mid h_t)\\Vert\\pi^*(\\cdot\\mid h_t)\\right)\\right],\\\\J_{\\mathrm{MOPD}}&=\\sum_i\\alpha_i J_{\\mathrm{OPD}}(\\mathcal D_i,\\pi_i^*).\\end{aligned}",
+    "display": true,
+    "key": "7a656f6a1b86bd1d1612",
+    "width": 355.712,
+    "height": 87.0592,
+    "depth": 44.72,
+    "png": "7a656f6a1b86bd1d1612.png",
+    "svg": "7a656f6a1b86bd1d1612.svg"
+  },
+  {
+    "tex": "\\begin{aligned}\\operatorname{srank}(\\Delta W)&=\\frac{\\|\\Delta W\\|_F^2}{\\|\\Delta W\\|_2^2},&E_k&=\\frac{\\sum_{j\\le k}\\sigma_j^2}{\\sum_j\\sigma_j^2},\\\\R^2&=1-\\frac{\\|\\Delta-\\widehat\\Delta\\|_F^2}{\\|\\Delta\\|_F^2}.\\end{aligned}",
+    "display": true,
+    "key": "7610effa43683dcad7c6",
+    "width": 353.08959999999996,
+    "height": 99.3552,
+    "depth": 51.672,
+    "png": "7610effa43683dcad7c6.png",
+    "svg": "7610effa43683dcad7c6.svg"
+  },
+  {
+    "tex": "\\begin{aligned}R^*&=\\underset{R^\\top R=I}{\\arg\\min}\\;\\|\\Delta_S R-\\Delta_T\\|_F^2,\\\\\\Delta_S^\\top\\Delta_T&=U\\Sigma V^\\top,\\qquad R^*=UV^\\top,\\\\E_{\\mathrm{Proc}}&=\\Delta_T-\\Delta_S R^*,\\qquad W_{\\mathrm{patch}}=W_{\\mathrm{OPD}}-\\alpha E_{\\mathrm{Proc}}.\\end{aligned}",
+    "display": true,
+    "key": "b7c9d039aef48fb1b09e",
+    "width": 367.008,
+    "height": 76.1104,
+    "depth": 38.52,
+    "png": "b7c9d039aef48fb1b09e.png",
+    "svg": "b7c9d039aef48fb1b09e.svg"
+  },
+  {
+    "tex": "J=(1-\\lambda)J_{\\mathrm{task}}+\\lambda J_{\\mathrm{replay\\text{-}base}}",
+    "display": true,
+    "key": "8dda64165d0be299f1a6",
+    "width": 206.312,
+    "height": 16.7072,
+    "depth": 5.328,
+    "png": "8dda64165d0be299f1a6.png",
+    "svg": "8dda64165d0be299f1a6.svg"
+  },
+  {
+    "tex": "v(x,z)=\\mathbf1\\{\\widehat a(x)=a\\}\\,\\mathbf1\\{\\widehat a(x^{\\prime})=a\\}",
+    "display": true,
+    "key": "e2582576dd494659ef39",
+    "width": 242.4928,
+    "height": 17.44,
+    "depth": 4.528,
+    "png": "e2582576dd494659ef39.png",
+    "svg": "e2582576dd494659ef39.svg"
+  },
+  {
+    "tex": "c(x,z)=\\frac1G\\sum_{g=1}^{G}\\mathbf1\\{\\widehat a_g=a\\}",
+    "display": true,
+    "key": "237a11a9ad24df42ee4b",
+    "width": 182.6624,
+    "height": 49.3024,
+    "depth": 24.128,
+    "png": "237a11a9ad24df42ee4b.png",
+    "svg": "237a11a9ad24df42ee4b.svg"
+  },
+  {
+    "tex": "\\mathcal L_{\\mathrm{OPST}}=\\frac1B\\sum_{i=1}^B\\frac{\\sum_tM_{i,t}D_\\alpha(p_{i,t}\\Vert q_{i,t})}{\\sum_tM_{i,t}}",
+    "display": true,
+    "key": "adca0e0806c296c5a7ba",
+    "width": 254.6576,
+    "height": 47.6624,
+    "depth": 22.552,
+    "png": "adca0e0806c296c5a7ba.png",
+    "svg": "adca0e0806c296c5a7ba.svg"
+  },
+  {
+    "tex": "\\phi_k=(1-\\beta)\\phi_{k-1}+\\beta\\theta_k",
+    "display": true,
+    "key": "3d5e671e827d4ab73e10",
+    "width": 161.71679999999998,
+    "height": 16,
+    "depth": 4.528,
+    "png": "3d5e671e827d4ab73e10.png",
+    "svg": "3d5e671e827d4ab73e10.svg"
+  },
+  {
+    "tex": "\\phi_k=(1-\\beta)^k\\phi_0+\\beta\\sum_{j=1}^k(1-\\beta)^{k-j}\\theta_j",
+    "display": true,
+    "key": "b207095ebb3ddfd40cfb",
+    "width": 248.52960000000002,
+    "height": 49.1664,
+    "depth": 24.112,
+    "png": "b207095ebb3ddfd40cfb.png",
+    "svg": "b207095ebb3ddfd40cfb.svg"
+  },
+  {
+    "tex": "\\underbrace{\\bar q=(1-\\alpha)q+\\alpha p,\\quad D_\\alpha=\\alpha D_{\\mathrm{KL}}(q\\Vert\\bar q)+(1-\\alpha)D_{\\mathrm{KL}}(p\\Vert\\bar q)}_{\\text{as printed in v1; inconsistent with the claimed limits}}",
+    "display": true,
+    "key": "b634fa39555c9d97751f",
+    "width": 402.3872,
+    "height": 40.2384,
+    "depth": 31.944,
+    "png": "b634fa39555c9d97751f.png",
+    "svg": "b634fa39555c9d97751f.svg"
+  },
+  {
+    "tex": "D_{0.8}=0.8\\log5+0.2\\log1.25\\approx1.3322>H(0.8)\\approx0.5004",
+    "display": true,
+    "key": "b2e58e3a50995bdb1c3e",
+    "width": 398.848,
+    "height": 16,
+    "depth": 4.528,
+    "png": "b2e58e3a50995bdb1c3e.png",
+    "svg": "b2e58e3a50995bdb1c3e.svg"
+  },
+  {
+    "tex": "q_\\eta^*(v)=\\frac{\\pi_t(v)e^{\\eta s(v)}}{Z}=\\frac{\\pi_t(v)^{1-\\eta}\\pi^*(v)^\\eta}{\\sum_{v^{\\prime}}\\pi_t(v^{\\prime})^{1-\\eta}\\pi^*(v^{\\prime})^\\eta}",
+    "display": true,
+    "key": "adcf33bc978b367d1465",
+    "width": 298.6688,
+    "height": 41.8624,
+    "depth": 18.336,
+    "png": "adcf33bc978b367d1465.png",
+    "svg": "adcf33bc978b367d1465.svg"
+  },
+  {
+    "tex": "\\mathbb E_{q^*}[s]-\\mathbb E_{\\pi_t}[s]=\\sigma\\sqrt{2\\delta}+o(\\sqrt\\delta)",
+    "display": true,
+    "key": "de832fa5cdd78073b5d7",
+    "width": 217.096,
+    "height": 21.0544,
+    "depth": 5.2,
+    "png": "de832fa5cdd78073b5d7.png",
+    "svg": "de832fa5cdd78073b5d7.svg"
+  },
+  {
+    "tex": "w_{t,j}=\\operatorname{clip}\\!\\left(\\frac{\\pi_t(y_j\\mid x,y_{<j})}{\\widehat q_t(y_j\\mid x,y_{<j})},\\frac1C,C\\right)",
+    "display": true,
+    "key": "31f493f43abdd4d096af",
+    "width": 240.128,
+    "height": 41.096,
+    "depth": 19.264,
+    "png": "31f493f43abdd4d096af.png",
+    "svg": "31f493f43abdd4d096af.svg"
+  },
+  {
+    "tex": "s=(x,y_{<t})",
+    "display": false,
+    "key": "cedc93b5a7496ddcfd59",
+    "width": 79.6096,
+    "height": 16,
+    "depth": 4.528,
+    "png": "cedc93b5a7496ddcfd59.png",
+    "svg": "cedc93b5a7496ddcfd59.svg"
+  },
+  {
+    "tex": "p_\\theta(v\\mid s)",
+    "display": false,
+    "key": "debb88577634a68271db",
+    "width": 55.731199999999994,
+    "height": 16,
+    "depth": 4.528,
+    "png": "debb88577634a68271db.png",
+    "svg": "debb88577634a68271db.svg"
+  },
+  {
+    "tex": "q(v\\mid s)",
+    "display": false,
+    "key": "f6203b4559efd3a05d6d",
+    "width": 48.4096,
+    "height": 16,
+    "depth": 4.528,
+    "png": "f6203b4559efd3a05d6d.png",
+    "svg": "f6203b4559efd3a05d6d.svg"
+  },
+  {
+    "tex": "z_a",
+    "display": false,
+    "key": "cb5d65c328ba5cf90289",
+    "width": 14.7536,
+    "height": 9.585600000000001,
+    "depth": 2.84,
+    "png": "cb5d65c328ba5cf90289.png",
+    "svg": "cb5d65c328ba5cf90289.svg"
+  },
+  {
+    "tex": "p=(0.99,0.01)",
+    "display": false,
+    "key": "e4ffdb83422941ce7792",
+    "width": 105.8432,
+    "height": 16,
+    "depth": 4.528,
+    "png": "e4ffdb83422941ce7792.png",
+    "svg": "e4ffdb83422941ce7792.svg"
+  },
+  {
+    "tex": "q=(0.1,0.9)",
+    "display": false,
+    "key": "be5883490b5dd8a7c658",
+    "width": 89.1552,
+    "height": 16,
+    "depth": 4.528,
+    "png": "be5883490b5dd8a7c658.png",
+    "svg": "be5883490b5dd8a7c658.svg"
+  },
+  {
+    "tex": "0.01[\\log(0.01/0.9)-2.225]\\approx-0.0672",
+    "display": false,
+    "key": "36206ec2b70ee2ba2cdc",
+    "width": 261.376,
+    "height": 16,
+    "depth": 4.528,
+    "png": "36206ec2b70ee2ba2cdc.png",
+    "svg": "36206ec2b70ee2ba2cdc.svg"
+  },
+  {
+    "tex": "\\alpha",
+    "display": false,
+    "key": "f8beec003d54ee6d3359",
+    "width": 10.24,
+    "height": 7.248,
+    "depth": 0.2,
+    "png": "f8beec003d54ee6d3359.png",
+    "svg": "f8beec003d54ee6d3359.svg"
+  },
+  {
+    "tex": "I=S\\cap T",
+    "display": false,
+    "key": "c1d092bb92e81d488567",
+    "width": 68.768,
+    "height": 12.592,
+    "depth": 1.488,
+    "png": "c1d092bb92e81d488567.png",
+    "svg": "c1d092bb92e81d488567.svg"
+  },
+  {
+    "tex": "\\rho",
+    "display": false,
+    "key": "b5a6d8226ec1934a9edc",
+    "width": 8.272,
+    "height": 10.528,
+    "depth": 3.912,
+    "png": "b5a6d8226ec1934a9edc.png",
+    "svg": "b5a6d8226ec1934a9edc.svg"
+  },
+  {
+    "tex": "L_T=D_{\\mathrm{KL}}(q^T\\Vert p^T)",
+    "display": false,
+    "key": "93b9c798a368c7fb283b",
+    "width": 127.2272,
+    "height": 17.467200000000002,
+    "depth": 4.528,
+    "png": "93b9c798a368c7fb283b.png",
+    "svg": "93b9c798a368c7fb283b.svg"
+  },
+  {
+    "tex": "q^T=p^T",
+    "display": false,
+    "key": "96326486a5e897ac0962",
+    "width": 56.1424,
+    "height": 16.5712,
+    "depth": 3.512,
+    "png": "96326486a5e897ac0962.png",
+    "svg": "96326486a5e897ac0962.svg"
+  },
+  {
+    "tex": "q(T)=p(T)",
+    "display": false,
+    "key": "c931e65b2467a781efa9",
+    "width": 84.1696,
+    "height": 16,
+    "depth": 4.528,
+    "png": "c931e65b2467a781efa9.png",
+    "svg": "c931e65b2467a781efa9.svg"
+  },
+  {
+    "tex": "A=T\\cup\\{r\\}",
+    "display": false,
+    "key": "9770265a1ff447e28895",
+    "width": 85.6,
+    "height": 16,
+    "depth": 4.528,
+    "png": "9770265a1ff447e28895.png",
+    "svg": "9770265a1ff447e28895.svg"
+  },
+  {
+    "tex": "\\pi_p(a)=p(a)",
+    "display": false,
+    "key": "9e57afb42937f02b984a",
+    "width": 87.3472,
+    "height": 16.595200000000002,
+    "depth": 5.2,
+    "png": "9e57afb42937f02b984a.png",
+    "svg": "9e57afb42937f02b984a.svg"
+  },
+  {
+    "tex": "\\pi_q(a)=q(a)",
+    "display": false,
+    "key": "a67474cc0ee304173af6",
+    "width": 86.17280000000001,
+    "height": 16.595200000000002,
+    "depth": 5.2,
+    "png": "a67474cc0ee304173af6.png",
+    "svg": "a67474cc0ee304173af6.svg"
+  },
+  {
+    "tex": "1-p(T)",
+    "display": false,
+    "key": "7e17b719a30ba0c197f6",
+    "width": 59.318400000000004,
+    "height": 16,
+    "depth": 4.528,
+    "png": "7e17b719a30ba0c197f6.png",
+    "svg": "7e17b719a30ba0c197f6.svg"
+  },
+  {
+    "tex": "1-q(T)",
+    "display": false,
+    "key": "19bb87c018034c72d552",
+    "width": 58.6304,
+    "height": 16,
+    "depth": 4.528,
+    "png": "19bb87c018034c72d552.png",
+    "svg": "19bb87c018034c72d552.svg"
+  },
+  {
+    "tex": "\\pi_q-\\pi_p",
+    "display": false,
+    "key": "4cbc126f4250d1a25e7d",
+    "width": 51.3504,
+    "height": 13.923200000000001,
+    "depth": 5.2,
+    "png": "4cbc126f4250d1a25e7d.png",
+    "svg": "4cbc126f4250d1a25e7d.svg"
+  },
+  {
+    "tex": "T\\setminus I",
+    "display": false,
+    "key": "9a7427e45c516ede8994",
+    "width": 34.4384,
+    "height": 16,
+    "depth": 4.528,
+    "png": "9a7427e45c516ede8994.png",
+    "svg": "9a7427e45c516ede8994.svg"
+  },
+  {
+    "tex": "\\varepsilon=q(T\\setminus I)",
+    "display": false,
+    "key": "bcf443cb8ec373a11032",
+    "width": 83.04,
+    "height": 16,
+    "depth": 4.528,
+    "png": "bcf443cb8ec373a11032.png",
+    "svg": "bcf443cb8ec373a11032.svg"
+  },
+  {
+    "tex": "T\\cup\\{r\\}",
+    "display": false,
+    "key": "84c1f285c54c1e7f092a",
+    "width": 52.2624,
+    "height": 16,
+    "depth": 4.528,
+    "png": "84c1f285c54c1e7f092a.png",
+    "svg": "84c1f285c54c1e7f092a.svg"
+  },
+  {
+    "tex": "\\varepsilon<p(T\\setminus I)",
+    "display": false,
+    "key": "a0ffe71ead2a1a4e1416",
+    "width": 83.728,
+    "height": 16,
+    "depth": 4.528,
+    "png": "a0ffe71ead2a1a4e1416.png",
+    "svg": "a0ffe71ead2a1a4e1416.svg"
+  },
+  {
+    "tex": "I\\cup\\{r\\}",
+    "display": false,
+    "key": "56a661b3e942879202cf",
+    "width": 49.062400000000004,
+    "height": 16,
+    "depth": 4.528,
+    "png": "56a661b3e942879202cf.png",
+    "svg": "56a661b3e942879202cf.svg"
+  },
+  {
+    "tex": "p(I)=0.6",
+    "display": false,
+    "key": "08106d9741ccc7b47d39",
+    "width": 70.3456,
+    "height": 16,
+    "depth": 4.528,
+    "png": "08106d9741ccc7b47d39.png",
+    "svg": "08106d9741ccc7b47d39.svg"
+  },
+  {
+    "tex": "p(T\\setminus I)=0.2",
+    "display": false,
+    "key": "004d8525487b4aa3979d",
+    "width": 96.72,
+    "height": 16,
+    "depth": 4.528,
+    "png": "004d8525487b4aa3979d.png",
+    "svg": "004d8525487b4aa3979d.svg"
+  },
+  {
+    "tex": "p(\\mathrm{outside})=0.2",
+    "display": false,
+    "key": "4cd813fd1cf723e0ac02",
+    "width": 112.15360000000001,
+    "height": 16,
+    "depth": 4.528,
+    "png": "4cd813fd1cf723e0ac02.png",
+    "svg": "4cd813fd1cf723e0ac02.svg"
+  },
+  {
+    "tex": "\\varepsilon=0",
+    "display": false,
+    "key": "4dcc8b2fbed47987ab89",
+    "width": 36.7936,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "4dcc8b2fbed47987ab89.png",
+    "svg": "4dcc8b2fbed47987ab89.svg"
+  },
+  {
+    "tex": "q(I)=0.6/0.8=0.75",
+    "display": false,
+    "key": "a545c6c032b4cb33b8cc",
+    "width": 147.8896,
+    "height": 16,
+    "depth": 4.528,
+    "png": "a545c6c032b4cb33b8cc.png",
+    "svg": "a545c6c032b4cb33b8cc.svg"
+  },
+  {
+    "tex": "\\alpha\\in(-1,1)",
+    "display": false,
+    "key": "777f252634630f3ec011",
+    "width": 77.8112,
+    "height": 16,
+    "depth": 4.528,
+    "png": "777f252634630f3ec011.png",
+    "svg": "777f252634630f3ec011.svg"
+  },
+  {
+    "tex": "\\alpha\\to1",
+    "display": false,
+    "key": "33f6db97a18b3118df74",
+    "width": 43.129599999999996,
+    "height": 10.832,
+    "depth": 0.2,
+    "png": "33f6db97a18b3118df74.png",
+    "svg": "33f6db97a18b3118df74.svg"
+  },
+  {
+    "tex": "D_{\\mathrm{KL}}(\\pi_p\\Vert\\pi_q)",
+    "display": false,
+    "key": "5c5dc6fdb18c3ade0de8",
+    "width": 82.688,
+    "height": 16.595200000000002,
+    "depth": 5.2,
+    "png": "5c5dc6fdb18c3ade0de8.png",
+    "svg": "5c5dc6fdb18c3ade0de8.svg"
+  },
+  {
+    "tex": "\\alpha\\to-1",
+    "display": false,
+    "key": "eec703fd21706466adca",
+    "width": 55.5776,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "eec703fd21706466adca.png",
+    "svg": "eec703fd21706466adca.svg"
+  },
+  {
+    "tex": "D_{\\mathrm{KL}}(\\pi_q\\Vert\\pi_p)",
+    "display": false,
+    "key": "0551bda53c2cb5f18897",
+    "width": 82.688,
+    "height": 16.595200000000002,
+    "depth": 5.2,
+    "png": "0551bda53c2cb5f18897.png",
+    "svg": "0551bda53c2cb5f18897.svg"
+  },
+  {
+    "tex": "\\alpha=1-2\\varepsilon",
+    "display": false,
+    "key": "b29e8a068f380f86d9ad",
+    "width": 74.592,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "b29e8a068f380f86d9ad.png",
+    "svg": "b29e8a068f380f86d9ad.svg"
+  },
+  {
+    "tex": "\\pi_q^\\varepsilon\\pi_p^{1-\\varepsilon}=\\pi_p[1+\\varepsilon\\log(\\pi_q/\\pi_p)+O(\\varepsilon^2)]",
+    "display": false,
+    "key": "13d34733f1ad3e2d1885",
+    "width": 261.296,
+    "height": 19.4896,
+    "depth": 6.952,
+    "png": "13d34733f1ad3e2d1885.png",
+    "svg": "13d34733f1ad3e2d1885.svg"
+  },
+  {
+    "tex": "1-\\varepsilon D_{\\mathrm{KL}}(\\pi_p\\Vert\\pi_q)",
+    "display": false,
+    "key": "f140da54845e82a4305d",
+    "width": 117.704,
+    "height": 16.595200000000002,
+    "depth": 5.2,
+    "png": "f140da54845e82a4305d.png",
+    "svg": "f140da54845e82a4305d.svg"
+  },
+  {
+    "tex": "\\frac4{1-\\alpha^2}\\approx\\frac1\\varepsilon",
+    "display": false,
+    "key": "3ea48baed33c5f68f8bb",
+    "width": 67.712,
+    "height": 20.928,
+    "depth": 7.88,
+    "png": "3ea48baed33c5f68f8bb.png",
+    "svg": "3ea48baed33c5f68f8bb.svg"
+  },
+  {
+    "tex": "\\rho=0.5",
+    "display": false,
+    "key": "bd7c472baf57f88b4dbf",
+    "width": 50.0576,
+    "height": 14.112,
+    "depth": 3.912,
+    "png": "bd7c472baf57f88b4dbf.png",
+    "svg": "bd7c472baf57f88b4dbf.svg"
+  },
+  {
+    "tex": "\\alpha=0",
+    "display": false,
+    "key": "095a7792d0a829cd904f",
+    "width": 39.5776,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "095a7792d0a829cd904f.png",
+    "svg": "095a7792d0a829cd904f.svg"
+  },
+  {
+    "tex": "D_0=4(1-\\sum_i\\sqrt{\\pi_q(i)\\pi_p(i)})",
+    "display": false,
+    "key": "4f9b4f645e294de3229b",
+    "width": 198.4176,
+    "height": 20.16,
+    "depth": 5.448,
+    "png": "4f9b4f645e294de3229b.png",
+    "svg": "4f9b4f645e294de3229b.svg"
+  },
+  {
+    "tex": "\\mathrm{high}=\\mathrm{low}",
+    "display": false,
+    "key": "ca46c64c12e4e1b09511",
+    "width": 75.5776,
+    "height": 14.4,
+    "depth": 3.728,
+    "png": "ca46c64c12e4e1b09511.png",
+    "svg": "ca46c64c12e4e1b09511.svg"
+  },
+  {
+    "tex": "\\tau>0",
+    "display": false,
+    "key": "db53011fc61065734777",
+    "width": 37.6096,
+    "height": 11.296,
+    "depth": 0.72,
+    "png": "db53011fc61065734777.png",
+    "svg": "db53011fc61065734777.svg"
+  },
+  {
+    "tex": "\\kappa",
+    "display": false,
+    "key": "f83eda8e686d999e2d16",
+    "width": 9.216,
+    "height": 7.248,
+    "depth": 0.2,
+    "png": "f83eda8e686d999e2d16.png",
+    "svg": "f83eda8e686d999e2d16.svg"
+  },
+  {
+    "tex": "\\kappa\\to0",
+    "display": false,
+    "key": "0c19da05f41bfd379576",
+    "width": 42.105599999999995,
+    "height": 11.008,
+    "depth": 0.4,
+    "png": "0c19da05f41bfd379576.png",
+    "svg": "0c19da05f41bfd379576.svg"
+  },
+  {
+    "tex": "g\\approx\\kappa/\\tau",
+    "display": false,
+    "key": "4bb68a36042d35d8c946",
+    "width": 54.4576,
+    "height": 16,
+    "depth": 4.528,
+    "png": "4bb68a36042d35d8c946.png",
+    "svg": "4bb68a36042d35d8c946.svg"
+  },
+  {
+    "tex": "\\tau\\to\\infty",
+    "display": false,
+    "key": "be43cd60978c0b32d6c6",
+    "width": 49.1616,
+    "height": 8.384,
+    "depth": 0.232,
+    "png": "be43cd60978c0b32d6c6.png",
+    "svg": "be43cd60978c0b32d6c6.svg"
+  },
+  {
+    "tex": "\\tau\\to0",
+    "display": false,
+    "key": "75c2ff9dbec39ee95142",
+    "width": 41.1616,
+    "height": 11.008,
+    "depth": 0.4,
+    "png": "75c2ff9dbec39ee95142.png",
+    "svg": "75c2ff9dbec39ee95142.svg"
+  },
+  {
+    "tex": "\\kappa>0",
+    "display": false,
+    "key": "f6afb55552d4f2067fad",
+    "width": 38.553599999999996,
+    "height": 11.296,
+    "depth": 0.72,
+    "png": "f6afb55552d4f2067fad.png",
+    "svg": "f6afb55552d4f2067fad.svg"
+  },
+  {
+    "tex": "\\kappa=0",
+    "display": false,
+    "key": "35782d774b9aafdda030",
+    "width": 38.553599999999996,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "35782d774b9aafdda030.png",
+    "svg": "35782d774b9aafdda030.svg"
+  },
+  {
+    "tex": "\\partial g/\\partial\\theta",
+    "display": false,
+    "key": "441ac6771656a7cb6bf7",
+    "width": 41.248,
+    "height": 16,
+    "depth": 4.528,
+    "png": "441ac6771656a7cb6bf7.png",
+    "svg": "441ac6771656a7cb6bf7.svg"
+  },
+  {
+    "tex": "\\kappa\\approx3.821",
+    "display": false,
+    "key": "cc25e7898a5611c85c07",
+    "width": 67.00160000000001,
+    "height": 11.008,
+    "depth": 0.4,
+    "png": "cc25e7898a5611c85c07.png",
+    "svg": "cc25e7898a5611c85c07.svg"
+  },
+  {
+    "tex": "\\tau=1",
+    "display": false,
+    "key": "ec5cd690c448351de835",
+    "width": 37.6096,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "ec5cd690c448351de835.png",
+    "svg": "ec5cd690c448351de835.svg"
+  },
+  {
+    "tex": "g\\approx0.978",
+    "display": false,
+    "key": "b925d6f951ed08e2bf83",
+    "width": 65.4176,
+    "height": 14.096,
+    "depth": 3.712,
+    "png": "b925d6f951ed08e2bf83.png",
+    "svg": "b925d6f951ed08e2bf83.svg"
+  },
+  {
+    "tex": "10^{-8}",
+    "display": false,
+    "key": "f4886e58f85f5f1a1090",
+    "width": 31.787200000000002,
+    "height": 14.176,
+    "depth": 0.4,
+    "png": "f4886e58f85f5f1a1090.png",
+    "svg": "f4886e58f85f5f1a1090.svg"
+  },
+  {
+    "tex": "\\tau",
+    "display": false,
+    "key": "b1bf827bd844dd15bd5d",
+    "width": 8.272,
+    "height": 7.104,
+    "depth": 0.232,
+    "png": "b1bf827bd844dd15bd5d.png",
+    "svg": "b1bf827bd844dd15bd5d.svg"
+  },
+  {
+    "tex": "\\alpha_i\\ge0,\\ \\sum_i\\alpha_i=1",
+    "display": false,
+    "key": "1b78a4a75fed373eaf0a",
+    "width": 128.192,
+    "height": 16.6896,
+    "depth": 5.304,
+    "png": "1b78a4a75fed373eaf0a.png",
+    "svg": "1b78a4a75fed373eaf0a.svg"
+  },
+  {
+    "tex": "\\frac{s_{\\mathrm{student}}-s_{\\mathrm{base}}}{s_{\\mathrm{teacher}}-s_{\\mathrm{base}}}",
+    "display": false,
+    "key": "703c3f8e59bca82d8b79",
+    "width": 69.7568,
+    "height": 21.1264,
+    "depth": 8.264,
+    "png": "703c3f8e59bca82d8b79.png",
+    "svg": "703c3f8e59bca82d8b79.svg"
+  },
+  {
+    "tex": "\\Delta W=W-W_0",
+    "display": false,
+    "key": "b5d1dbf6233ef2bb7025",
+    "width": 109.84960000000001,
+    "height": 14.1056,
+    "depth": 3,
+    "png": "b5d1dbf6233ef2bb7025.png",
+    "svg": "b5d1dbf6233ef2bb7025.svg"
+  },
+  {
+    "tex": "(3,1)",
+    "display": false,
+    "key": "e1ae3742187043a752b8",
+    "width": 35.563199999999995,
+    "height": 16,
+    "depth": 4.528,
+    "png": "e1ae3742187043a752b8.png",
+    "svg": "e1ae3742187043a752b8.svg"
+  },
+  {
+    "tex": "(\\sqrt5,\\sqrt5)",
+    "display": false,
+    "key": "2ee9e2efe39850cc7414",
+    "width": 62.859199999999994,
+    "height": 19.192,
+    "depth": 4.528,
+    "png": "2ee9e2efe39850cc7414.png",
+    "svg": "2ee9e2efe39850cc7414.svg"
+  },
+  {
+    "tex": "\\Delta_S=W_{\\mathrm{OPD}}-W_0",
+    "display": false,
+    "key": "955b839c82f272a503c0",
+    "width": 126.52,
+    "height": 14.1056,
+    "depth": 3,
+    "png": "955b839c82f272a503c0.png",
+    "svg": "955b839c82f272a503c0.svg"
+  },
+  {
+    "tex": "\\Delta_T=W_{\\mathrm{RL\\ teacher}}-W_0",
+    "display": false,
+    "key": "47c65032e45c922ac473",
+    "width": 156.11679999999998,
+    "height": 14.1056,
+    "depth": 3,
+    "png": "47c65032e45c922ac473.png",
+    "svg": "47c65032e45c922ac473.svg"
+  },
+  {
+    "tex": "-2\\operatorname{tr}(R^\\top\\Delta_S^\\top\\Delta_T)",
+    "display": false,
+    "key": "862b5c383baaa96a7ed4",
+    "width": 116.4112,
+    "height": 18.6624,
+    "depth": 5.992,
+    "png": "862b5c383baaa96a7ed4.png",
+    "svg": "862b5c383baaa96a7ed4.svg"
+  },
+  {
+    "tex": "UV^\\top",
+    "display": false,
+    "key": "6436d6ed94c815313eb5",
+    "width": 35.6544,
+    "height": 13.7168,
+    "depth": 0.4,
+    "png": "6436d6ed94c815313eb5.png",
+    "svg": "6436d6ed94c815313eb5.svg"
+  },
+  {
+    "tex": "\\Delta_S=0.2",
+    "display": false,
+    "key": "09b1cc04a042255b79c1",
+    "width": 63.7376,
+    "height": 14.1056,
+    "depth": 3,
+    "png": "09b1cc04a042255b79c1.png",
+    "svg": "09b1cc04a042255b79c1.svg"
+  },
+  {
+    "tex": "\\Delta_T=0.5",
+    "display": false,
+    "key": "40379823fe55f5985d24",
+    "width": 64.4064,
+    "height": 13.856,
+    "depth": 2.712,
+    "png": "40379823fe55f5985d24.png",
+    "svg": "40379823fe55f5985d24.svg"
+  },
+  {
+    "tex": "R=1",
+    "display": false,
+    "key": "814e42d87fa7e53978de",
+    "width": 41.4816,
+    "height": 12.24,
+    "depth": 1.488,
+    "png": "814e42d87fa7e53978de.png",
+    "svg": "814e42d87fa7e53978de.svg"
+  },
+  {
+    "tex": "\\alpha=0.4",
+    "display": false,
+    "key": "736a7bb72f2c054f8b34",
+    "width": 52.0256,
+    "height": 12.144,
+    "depth": 1.488,
+    "png": "736a7bb72f2c054f8b34.png",
+    "svg": "736a7bb72f2c054f8b34.svg"
+  },
+  {
+    "tex": "\\lambda",
+    "display": false,
+    "key": "f67f03c496355976faec",
+    "width": 9.328,
+    "height": 11.296,
+    "depth": 0.216,
+    "png": "f67f03c496355976faec.png",
+    "svg": "f67f03c496355976faec.svg"
+  },
+  {
+    "tex": "(x,z)",
+    "display": false,
+    "key": "ed4ef3401513a2bc5a0a",
+    "width": 36.155199999999994,
+    "height": 16,
+    "depth": 4.528,
+    "png": "ed4ef3401513a2bc5a0a.png",
+    "svg": "ed4ef3401513a2bc5a0a.svg"
+  },
+  {
+    "tex": "z=(r,a)",
+    "display": false,
+    "key": "873f1b1c30293e5bcea8",
+    "width": 64.0192,
+    "height": 16,
+    "depth": 4.528,
+    "png": "873f1b1c30293e5bcea8.png",
+    "svg": "873f1b1c30293e5bcea8.svg"
+  },
+  {
+    "tex": "x^{\\prime}",
+    "display": false,
+    "key": "f7dc0a6116d98ecb2765",
+    "width": 13.592,
+    "height": 12.32,
+    "depth": 0.2,
+    "png": "f7dc0a6116d98ecb2765.png",
+    "svg": "f7dc0a6116d98ecb2765.svg"
+  },
+  {
+    "tex": "c=1",
+    "display": false,
+    "key": "59e44165d4c1cc36a45b",
+    "width": 36.2656,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "59e44165d4c1cc36a45b.png",
+    "svg": "59e44165d4c1cc36a45b.svg"
+  },
+  {
+    "tex": "c=0.5",
+    "display": false,
+    "key": "25ce5df1ab6da988626b",
+    "width": 48.7136,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "25ce5df1ab6da988626b.png",
+    "svg": "25ce5df1ab6da988626b.svg"
+  },
+  {
+    "tex": "p_t=\\pi_\\theta(\\cdot\\mid x,y_{<t})",
+    "display": false,
+    "key": "e30fff76e2c58c191735",
+    "width": 119.10560000000001,
+    "height": 16,
+    "depth": 4.528,
+    "png": "e30fff76e2c58c191735.png",
+    "svg": "e30fff76e2c58c191735.svg"
+  },
+  {
+    "tex": "q_t=\\pi_\\phi(\\cdot\\mid x,z,y_{<t})",
+    "display": false,
+    "key": "fd5f02d5289536db16ec",
+    "width": 134.184,
+    "height": 16.72,
+    "depth": 5.336,
+    "png": "fd5f02d5289536db16ec.png",
+    "svg": "fd5f02d5289536db16ec.svg"
+  },
+  {
+    "tex": "M_t",
+    "display": false,
+    "key": "c78a6f26014ee21c2716",
+    "width": 20.9328,
+    "height": 13.4528,
+    "depth": 2.856,
+    "png": "c78a6f26014ee21c2716.png",
+    "svg": "c78a6f26014ee21c2716.svg"
+  },
+  {
+    "tex": "\\sum_t M_t",
+    "display": false,
+    "key": "ac26200b617838e2809f",
+    "width": 45.907199999999996,
+    "height": 16.6896,
+    "depth": 5.304,
+    "png": "ac26200b617838e2809f.png",
+    "svg": "ac26200b617838e2809f.svg"
+  },
+  {
+    "tex": "D_\\alpha",
+    "display": false,
+    "key": "f95cf3062ec730c88f09",
+    "width": 21.816,
+    "height": 13.4528,
+    "depth": 2.856,
+    "png": "f95cf3062ec730c88f09.png",
+    "svg": "f95cf3062ec730c88f09.svg"
+  },
+  {
+    "tex": "\\beta=0.05",
+    "display": false,
+    "key": "c53256eb62d7fab6d9dd",
+    "width": 58.8416,
+    "height": 14.384,
+    "depth": 3.512,
+    "png": "c53256eb62d7fab6d9dd.png",
+    "svg": "c53256eb62d7fab6d9dd.svg"
+  },
+  {
+    "tex": "1/\\beta=20",
+    "display": false,
+    "key": "6c6c8517c8c5db4bd181",
+    "width": 62.3936,
+    "height": 16,
+    "depth": 4.528,
+    "png": "6c6c8517c8c5db4bd181.png",
+    "svg": "6c6c8517c8c5db4bd181.svg"
+  },
+  {
+    "tex": "\\phi",
+    "display": false,
+    "key": "82708fd9ad6fc470fe90",
+    "width": 9.536,
+    "height": 14.384,
+    "depth": 3.712,
+    "png": "82708fd9ad6fc470fe90.png",
+    "svg": "82708fd9ad6fc470fe90.svg"
+  },
+  {
+    "tex": "\\theta",
+    "display": false,
+    "key": "df1aa404ed78db3d6058",
+    "width": 7.504,
+    "height": 11.44,
+    "depth": 0.184,
+    "png": "df1aa404ed78db3d6058.png",
+    "svg": "df1aa404ed78db3d6058.svg"
+  },
+  {
+    "tex": "\\beta=1",
+    "display": false,
+    "key": "c7da15f83344f362d639",
+    "width": 38.3936,
+    "height": 14.384,
+    "depth": 3.512,
+    "png": "c7da15f83344f362d639.png",
+    "svg": "c7da15f83344f362d639.svg"
+  },
+  {
+    "tex": "\\bar q",
+    "display": false,
+    "key": "36e9c98e131d23e659bc",
+    "width": 7.36,
+    "height": 14.192,
+    "depth": 3.512,
+    "png": "36e9c98e131d23e659bc.png",
+    "svg": "36e9c98e131d23e659bc.svg"
+  },
+  {
+    "tex": "\\alpha=0.8",
+    "display": false,
+    "key": "656fd8e88f2e3bfc88c0",
+    "width": 52.0256,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "656fd8e88f2e3bfc88c0.png",
+    "svg": "656fd8e88f2e3bfc88c0.svg"
+  },
+  {
+    "tex": "D_\\alpha/\\alpha",
+    "display": false,
+    "key": "2fcabec057eb6939fe18",
+    "width": 40.056,
+    "height": 16,
+    "depth": 4.528,
+    "png": "2fcabec057eb6939fe18.png",
+    "svg": "2fcabec057eb6939fe18.svg"
+  },
+  {
+    "tex": "\\alpha\\to0",
+    "display": false,
+    "key": "c5cd6ec7ea6d8e201fc3",
+    "width": 43.129599999999996,
+    "height": 11.008,
+    "depth": 0.4,
+    "png": "c5cd6ec7ea6d8e201fc3.png",
+    "svg": "c5cd6ec7ea6d8e201fc3.svg"
+  },
+  {
+    "tex": "D_{\\mathrm{KL}}(q\\Vert p)",
+    "display": false,
+    "key": "cc5bd378ad5a54510ffb",
+    "width": 66.30560000000001,
+    "height": 16,
+    "depth": 4.528,
+    "png": "cc5bd378ad5a54510ffb.png",
+    "svg": "cc5bd378ad5a54510ffb.svg"
+  },
+  {
+    "tex": "D_\\alpha/(1-\\alpha)",
+    "display": false,
+    "key": "5bc1eb82de85eebeaf37",
+    "width": 80.064,
+    "height": 16,
+    "depth": 4.528,
+    "png": "5bc1eb82de85eebeaf37.png",
+    "svg": "5bc1eb82de85eebeaf37.svg"
+  },
+  {
+    "tex": "D_{\\mathrm{KL}}(p\\Vert q)",
+    "display": false,
+    "key": "2714ff2d438966d20d81",
+    "width": 66.30560000000001,
+    "height": 16,
+    "depth": 4.528,
+    "png": "2714ff2d438966d20d81.png",
+    "svg": "2714ff2d438966d20d81.svg"
+  },
+  {
+    "tex": "H(\\alpha)",
+    "display": false,
+    "key": "9ab6d71327237f8621c7",
+    "width": 36.896,
+    "height": 16,
+    "depth": 4.528,
+    "png": "9ab6d71327237f8621c7.png",
+    "svg": "9ab6d71327237f8621c7.svg"
+  },
+  {
+    "tex": "p=(1,0)",
+    "display": false,
+    "key": "6d34d8a4e68c73db7a79",
+    "width": 64.9472,
+    "height": 16,
+    "depth": 4.528,
+    "png": "6d34d8a4e68c73db7a79.png",
+    "svg": "6d34d8a4e68c73db7a79.svg"
+  },
+  {
+    "tex": "q=(0,1)",
+    "display": false,
+    "key": "b6f77d5aa0952efc396a",
+    "width": 64.25919999999999,
+    "height": 16,
+    "depth": 4.528,
+    "png": "b6f77d5aa0952efc396a.png",
+    "svg": "b6f77d5aa0952efc396a.svg"
+  },
+  {
+    "tex": "\\bar q=(0.8,0.2)",
+    "display": false,
+    "key": "437a4321ed4b04026200",
+    "width": 89.1552,
+    "height": 16,
+    "depth": 4.528,
+    "png": "437a4321ed4b04026200.png",
+    "svg": "437a4321ed4b04026200.svg"
+  },
+  {
+    "tex": "\\bar q\\to q",
+    "display": false,
+    "key": "0ac72dd1e2b44a77f0c1",
+    "width": 39.6096,
+    "height": 14.192,
+    "depth": 3.512,
+    "png": "0ac72dd1e2b44a77f0c1.png",
+    "svg": "0ac72dd1e2b44a77f0c1.svg"
+  },
+  {
+    "tex": "D\\to D_{\\mathrm{KL}}(p\\Vert q)",
+    "display": false,
+    "key": "7ecb4a0dc5e22077141d",
+    "width": 104.44160000000001,
+    "height": 16,
+    "depth": 4.528,
+    "png": "7ecb4a0dc5e22077141d.png",
+    "svg": "7ecb4a0dc5e22077141d.svg"
+  },
+  {
+    "tex": "\\bar q=\\alpha q+(1-\\alpha)p",
+    "display": false,
+    "key": "98fa906fad153027e9f0",
+    "width": 124.15039999999999,
+    "height": 16,
+    "depth": 4.528,
+    "png": "98fa906fad153027e9f0.png",
+    "svg": "98fa906fad153027e9f0.svg"
+  },
+  {
+    "tex": "D_{\\mathrm{KL}}(p\\Vert\\bar q)=O(\\alpha^2)",
+    "display": false,
+    "key": "5779cbe9f9c2be91112c",
+    "width": 129.5232,
+    "height": 17.3424,
+    "depth": 4.528,
+    "png": "5779cbe9f9c2be91112c.png",
+    "svg": "5779cbe9f9c2be91112c.svg"
+  },
+  {
+    "tex": "\\alpha D_{\\mathrm{KL}}(q\\Vert\\bar q)=\\alpha D_{\\mathrm{KL}}(q\\Vert p)+O(\\alpha^2)",
+    "display": false,
+    "key": "14c3d4f868473f8f82fb",
+    "width": 235.1792,
+    "height": 17.3424,
+    "depth": 4.528,
+    "png": "14c3d4f868473f8f82fb.png",
+    "svg": "14c3d4f868473f8f82fb.svg"
+  },
+  {
+    "tex": "D/\\alpha\\to D_{\\mathrm{KL}}(q\\Vert p)",
+    "display": false,
+    "key": "4ce9563bb75ed93bf968",
+    "width": 122.6816,
+    "height": 16,
+    "depth": 4.528,
+    "png": "4ce9563bb75ed93bf968.png",
+    "svg": "4ce9563bb75ed93bf968.svg"
+  },
+  {
+    "tex": "D\\le H(\\alpha)",
+    "display": false,
+    "key": "89cb6227c435d1a4e9b3",
+    "width": 71.4816,
+    "height": 16,
+    "depth": 4.528,
+    "png": "89cb6227c435d1a4e9b3.png",
+    "svg": "89cb6227c435d1a4e9b3.svg"
+  },
+  {
+    "tex": "\\beta=0.01",
+    "display": false,
+    "key": "8b65dbdd8e77883462a3",
+    "width": 58.8416,
+    "height": 14.384,
+    "depth": 3.512,
+    "png": "8b65dbdd8e77883462a3.png",
+    "svg": "8b65dbdd8e77883462a3.svg"
+  },
+  {
+    "tex": "\\pi_t",
+    "display": false,
+    "key": "7b8657496451a58648c1",
+    "width": 14.5328,
+    "height": 9.4208,
+    "depth": 2.856,
+    "png": "7b8657496451a58648c1.png",
+    "svg": "7b8657496451a58648c1.svg"
+  },
+  {
+    "tex": "\\pi^*",
+    "display": false,
+    "key": "6957fb26b99fe1b97dd9",
+    "width": 16.1056,
+    "height": 11.2448,
+    "depth": 0.2,
+    "png": "6957fb26b99fe1b97dd9.png",
+    "svg": "6957fb26b99fe1b97dd9.svg"
+  },
+  {
+    "tex": "s(v)=\\log\\pi^*(v)-\\log\\pi_t(v)",
+    "display": false,
+    "key": "eeeb5d6446cddb185bc3",
+    "width": 185.8912,
+    "height": 16,
+    "depth": 4.528,
+    "png": "eeeb5d6446cddb185bc3.png",
+    "svg": "eeeb5d6446cddb185bc3.svg"
+  },
+  {
+    "tex": "\\max_q\\mathbb E_q[s]",
+    "display": false,
+    "key": "eb6f78fe90d596f88467",
+    "width": 72.5792,
+    "height": 16.595200000000002,
+    "depth": 5.2,
+    "png": "eb6f78fe90d596f88467.png",
+    "svg": "eb6f78fe90d596f88467.svg"
+  },
+  {
+    "tex": "D_{\\mathrm{KL}}(q\\Vert\\pi_t)\\le\\delta",
+    "display": false,
+    "key": "0544db2b6d9b4f17dc07",
+    "width": 101.23039999999999,
+    "height": 16,
+    "depth": 4.528,
+    "png": "0544db2b6d9b4f17dc07.png",
+    "svg": "0544db2b6d9b4f17dc07.svg"
+  },
+  {
+    "tex": "\\eta",
+    "display": false,
+    "key": "df7b7af4f8684e1b7e60",
+    "width": 7.952,
+    "height": 10.528,
+    "depth": 3.912,
+    "png": "df7b7af4f8684e1b7e60.png",
+    "svg": "df7b7af4f8684e1b7e60.svg"
+  },
+  {
+    "tex": "\\eta\\in[0,1]",
+    "display": false,
+    "key": "04fc5c7cb04f2952c931",
+    "width": 59.523199999999996,
+    "height": 16,
+    "depth": 4.528,
+    "png": "04fc5c7cb04f2952c931.png",
+    "svg": "04fc5c7cb04f2952c931.svg"
+  },
+  {
+    "tex": "\\delta",
+    "display": false,
+    "key": "8e20ef6b9415108bb3fd",
+    "width": 7.104,
+    "height": 11.632,
+    "depth": 0.184,
+    "png": "8e20ef6b9415108bb3fd.png",
+    "svg": "8e20ef6b9415108bb3fd.svg"
+  },
+  {
+    "tex": "\\eta=0",
+    "display": false,
+    "key": "3c1a6ff98f5edbae3e43",
+    "width": 37.2896,
+    "height": 14.112,
+    "depth": 3.912,
+    "png": "3c1a6ff98f5edbae3e43.png",
+    "svg": "3c1a6ff98f5edbae3e43.svg"
+  },
+  {
+    "tex": "\\eta=1",
+    "display": false,
+    "key": "a53c7798d08086e6bd44",
+    "width": 37.2896,
+    "height": 14.112,
+    "depth": 3.912,
+    "png": "a53c7798d08086e6bd44.png",
+    "svg": "a53c7798d08086e6bd44.svg"
+  },
+  {
+    "tex": "s_v-\\lambda[\\log(q_v/\\pi_v)+1]-\\mu=0",
+    "display": false,
+    "key": "b91ea1dc3f7aba069d95",
+    "width": 208.9872,
+    "height": 16,
+    "depth": 4.528,
+    "png": "b91ea1dc3f7aba069d95.png",
+    "svg": "b91ea1dc3f7aba069d95.svg"
+  },
+  {
+    "tex": "q_v\\propto\\pi_v\\exp(s_v/\\lambda)",
+    "display": false,
+    "key": "a0ffbdf0a47020852464",
+    "width": 122.43360000000001,
+    "height": 16,
+    "depth": 4.528,
+    "png": "a0ffbdf0a47020852464.png",
+    "svg": "a0ffbdf0a47020852464.svg"
+  },
+  {
+    "tex": "\\eta=1/\\lambda",
+    "display": false,
+    "key": "58dd1c2fe61eebdcd388",
+    "width": 54.617599999999996,
+    "height": 16,
+    "depth": 4.528,
+    "png": "58dd1c2fe61eebdcd388.png",
+    "svg": "58dd1c2fe61eebdcd388.svg"
+  },
+  {
+    "tex": "\\operatorname{softmax}((1-\\eta)z_{\\mathrm{student}}+\\eta z_{\\mathrm{teacher}})",
+    "display": false,
+    "key": "cf7d243a4cc48ee1ffa1",
+    "width": 233.6608,
+    "height": 16,
+    "depth": 4.528,
+    "png": "cf7d243a4cc48ee1ffa1.png",
+    "svg": "cf7d243a4cc48ee1ffa1.svg"
+  },
+  {
+    "tex": "\\eta=0.5",
+    "display": false,
+    "key": "1597029212c6d1113cc1",
+    "width": 49.7376,
+    "height": 14.112,
+    "depth": 3.912,
+    "png": "1597029212c6d1113cc1.png",
+    "svg": "1597029212c6d1113cc1.svg"
+  },
+  {
+    "tex": "(\\sqrt{0.18},\\sqrt{0.08})\\approx(0.4243,0.2828)",
+    "display": false,
+    "key": "2c11bbd86ba409d0d9ba",
+    "width": 233.5504,
+    "height": 19.192,
+    "depth": 4.528,
+    "png": "2c11bbd86ba409d0d9ba.png",
+    "svg": "2c11bbd86ba409d0d9ba.svg"
+  },
+  {
+    "tex": "\\sigma^2=\\operatorname{Var}_{\\pi_t}(s)",
+    "display": false,
+    "key": "e82b3b2d0b8bd17c3c09",
+    "width": 95.2848,
+    "height": 17.528,
+    "depth": 4.736,
+    "png": "e82b3b2d0b8bd17c3c09.png",
+    "svg": "e82b3b2d0b8bd17c3c09.svg"
+  },
+  {
+    "tex": "\\log Z(\\eta)",
+    "display": false,
+    "key": "e4dceca2f915ee960da7",
+    "width": 55.0832,
+    "height": 16,
+    "depth": 4.528,
+    "png": "e4dceca2f915ee960da7.png",
+    "svg": "e4dceca2f915ee960da7.svg"
+  },
+  {
+    "tex": "\\mathbb E_q[s]",
+    "display": false,
+    "key": "cbea4c48102476e98077",
+    "width": 33.604800000000004,
+    "height": 16.595200000000002,
+    "depth": 5.2,
+    "png": "cbea4c48102476e98077.png",
+    "svg": "cbea4c48102476e98077.svg"
+  },
+  {
+    "tex": "\\operatorname{Var}_q(s)",
+    "display": false,
+    "key": "c4a9f3ec6ce8291edfac",
+    "width": 52.756800000000005,
+    "height": 16.595200000000002,
+    "depth": 5.2,
+    "png": "c4a9f3ec6ce8291edfac.png",
+    "svg": "c4a9f3ec6ce8291edfac.svg"
+  },
+  {
+    "tex": "\\eta\\sigma^2",
+    "display": false,
+    "key": "d14a10e24f58c15d3586",
+    "width": 24.0736,
+    "height": 16.7984,
+    "depth": 3.912,
+    "png": "d14a10e24f58c15d3586.png",
+    "svg": "d14a10e24f58c15d3586.svg"
+  },
+  {
+    "tex": "D_{\\mathrm{KL}}(q_\\eta\\Vert\\pi)\\approx\\eta^2\\sigma^2/2",
+    "display": false,
+    "key": "599c52ba3432c4ad7b05",
+    "width": 142.4992,
+    "height": 18.1872,
+    "depth": 5.48,
+    "png": "599c52ba3432c4ad7b05.png",
+    "svg": "599c52ba3432c4ad7b05.svg"
+  },
+  {
+    "tex": "\\sigma\\sqrt{2\\delta}",
+    "display": false,
+    "key": "99aa43cafb37f1dc32b0",
+    "width": 37.888,
+    "height": 16.96,
+    "depth": 1.432,
+    "png": "99aa43cafb37f1dc32b0.png",
+    "svg": "99aa43cafb37f1dc32b0.svg"
+  },
+  {
+    "tex": "\\sigma=0",
+    "display": false,
+    "key": "4cfc8757e5d73fdd75f1",
+    "width": 38.4736,
+    "height": 11.968,
+    "depth": 1.488,
+    "png": "4cfc8757e5d73fdd75f1.png",
+    "svg": "4cfc8757e5d73fdd75f1.svg"
+  },
+  {
+    "tex": "\\widehat q_t",
+    "display": false,
+    "key": "9703f72be41bed3b6285",
+    "width": 12.5488,
+    "height": 16.064,
+    "depth": 3.512,
+    "png": "9703f72be41bed3b6285.png",
+    "svg": "9703f72be41bed3b6285.svg"
+  },
+  {
+    "tex": "\\sum_jw_{t,j-1}D_{\\mathrm{KL}}(\\pi\\Vert\\pi^*)",
+    "display": false,
+    "key": "3a28f968b446021fb271",
+    "width": 140.808,
+    "height": 18.8736,
+    "depth": 7.776,
+    "png": "3a28f968b446021fb271.png",
+    "svg": "3a28f968b446021fb271.svg"
+  },
+  {
+    "tex": "w_{t,0}=1",
+    "display": false,
+    "key": "fa9c55a968d69c417303",
+    "width": 55.008,
+    "height": 15.2512,
+    "depth": 5.2,
+    "png": "fa9c55a968d69c417303.png",
+    "svg": "fa9c55a968d69c417303.svg"
+  },
+  {
+    "tex": "q^*_{\\eta,t+1}",
+    "display": false,
+    "key": "793845231d4822934084",
+    "width": 35.776,
+    "height": 17.723200000000002,
+    "depth": 7.528,
+    "png": "793845231d4822934084.png",
+    "svg": "793845231d4822934084.svg"
+  },
+  {
+    "tex": "D_{\\mathrm{KL}}(\\widehat q\\Vert q^*)",
+    "display": false,
+    "key": "c74165cee465af508c4e",
+    "width": 73.4128,
+    "height": 16.96,
+    "depth": 4.528,
+    "png": "c74165cee465af508c4e.png",
+    "svg": "c74165cee465af508c4e.svg"
+  },
+  {
+    "tex": "\\prod_{k<j}\\frac{\\pi_t(y_k\\mid x,y_{<k})}{\\widehat q_t(y_k\\mid x,y_{<k})}",
+    "display": false,
+    "key": "12cae785bc19a39e66cd",
+    "width": 104.8624,
+    "height": 26.185599999999997,
+    "depth": 10.672,
+    "png": "12cae785bc19a39e66cd.png",
+    "svg": "12cae785bc19a39e66cd.svg"
+  }
+]
