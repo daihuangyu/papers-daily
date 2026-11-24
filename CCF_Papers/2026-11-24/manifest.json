@@ -1059,12 +1059,13 @@
       "2026-11-23",
       "2026-11-24"
     ],
-    "publication_method": "normal fast-forward SSH Git push to main"
+    "publication_method": "normal fast-forward SSH Git push to main",
+    "quick_read_revision_base_commit": "7c0f23d89b7bc0425f89617be505eb0dc4b235a3"
   },
   "pdf_quality_check": {
     "status": "passed",
     "pages": 27,
-    "markdown_visible_lines_checked": 226,
+    "markdown_visible_lines_checked": 243,
     "missing_lines": 0,
     "original_figures_embedded": 18,
     "pixel_identical_original_images": 18,
@@ -1074,8 +1075,8 @@
     "math_inline": 130,
     "math_render_errors": 0,
     "details": "assets/pdf-check.json",
-    "markdown_sha256": "9102c57da98e5cb248b06f3cf287bd22d5d68c176091c0109f0e4e7f1d34a594",
-    "pdf_sha256": "9b6a276cbcee3b651216aaa441d3c4facedd0e3d716bdab640c8a8af707bd56b"
+    "markdown_sha256": "3ab897d50e3703e6b51853f3a5078214b2fe74ffd6c8306fa1d77c000ec03676",
+    "pdf_sha256": "d4e5e59d8278e0a7e646651e2c1709ea223ba37404c6ce47ff80e72f8bc75914"
   },
   "validation": {
     "unit_tests_passed": 20,
@@ -1090,8 +1091,8 @@
   "artifact_inventory": [
     {
       "path": "assets/QA.md",
-      "bytes": 2217,
-      "sha256": "1eed53454371540ff62a40ec11fadf7cab0c61ff490935b730fe6a2c024b823d"
+      "bytes": 1073,
+      "sha256": "afe842c97cb4fe59914156e56bc457d11b289aeb39825701642fa2e75ba74883"
     },
     {
       "path": "assets/SOURCES.md",
@@ -1201,7 +1202,7 @@
     {
       "path": "assets/math-manifest.json",
       "bytes": 45501,
-      "sha256": "0992be8715deefed223f8e2b553a319b750aef467fca1708e61fdc3cd7d22a49"
+      "sha256": "faeda8103a8cc12c229d4d1b4db435c4b09a3132786e7596aa77b77cbddf6b03"
     },
     {
       "path": "assets/official-evidence.json",
@@ -1335,18 +1336,18 @@
     },
     {
       "path": "assets/page-previews/contact-0.jpg",
-      "bytes": 553115,
-      "sha256": "f4323ee4e12eed546bac21351866c9156a96c6073c4cf987db65b6e99f92bdbe"
+      "bytes": 583302,
+      "sha256": "938477f2190b522f58ed5437efd66bf770ad5453d170ca19bab99f6cfbc82e9a"
     },
     {
       "path": "assets/page-previews/contact-1.jpg",
-      "bytes": 525465,
-      "sha256": "3172e7e4160d90595f12c1418c73dbe2b37896f5c6dddde70f4d5d4aad954802"
+      "bytes": 568469,
+      "sha256": "de69035589b8a7b904ce12ed9cc08fea00ea5b001d4e3eebb2e3f33ad7b88d5d"
     },
     {
       "path": "assets/page-previews/contact-2.jpg",
-      "bytes": 475749,
-      "sha256": "86cdd3ab155abfff835cab0255333f101304f8d31b855d12b6598bccaf875ef2"
+      "bytes": 487223,
+      "sha256": "1a0a0fcf3800c7f1bf4d8d4b73007db1f89c7434259a37edd48f7c33db4b7044"
     },
     {
       "path": "assets/page-previews/contact-3.jpg",
@@ -1360,13 +1361,13 @@
     },
     {
       "path": "assets/pdf-check.json",
-      "bytes": 38815,
-      "sha256": "a48f9a60b9e26c9fc70db6bab657a58f8d1c231e6853194332defa4e71acc247"
+      "bytes": 36880,
+      "sha256": "e2643dd0c0726bae93c8be8886000a90c873fb1a4c3a14fa8a0c8c34159f68bc"
     },
     {
       "path": "assets/pdffonts.txt",
       "bytes": 752,
-      "sha256": "4bf259859040bdb5708fefba28a7a4809fb27cf8eaa49004e6a803acb817b20c"
+      "sha256": "76f767d5c8d41016f9055a916c2c7e0e59ea5933400bc6a2ee3fd7db7dbc734a"
     },
     {
       "path": "assets/safe-fig1.png",
@@ -1410,13 +1411,42 @@
     },
     {
       "path": "report.md",
-      "bytes": 63121,
-      "sha256": "9102c57da98e5cb248b06f3cf287bd22d5d68c176091c0109f0e4e7f1d34a594"
+      "bytes": 66008,
+      "sha256": "3ab897d50e3703e6b51853f3a5078214b2fe74ffd6c8306fa1d77c000ec03676"
     },
     {
       "path": "report.pdf",
-      "bytes": 12327434,
-      "sha256": "9b6a276cbcee3b651216aaa441d3c4facedd0e3d716bdab640c8a8af707bd56b"
+      "bytes": 12337258,
+      "sha256": "d4e5e59d8278e0a7e646651e2c1709ea223ba37404c6ce47ff80e72f8bc75914"
     }
-  ]
+  ],
+  "quick_read": {
+    "section": "快速导读",
+    "papers": 5,
+    "paragraphs_per_paper": 2,
+    "pdf_start_page": 1,
+    "pdf_end_page": 1,
+    "internal_link_targets": [
+      {
+        "anchor": "paper-safedpo",
+        "pdf_page": 2
+      },
+      {
+        "anchor": "paper-coverage",
+        "pdf_page": 6
+      },
+      {
+        "anchor": "paper-sspo",
+        "pdf_page": 10
+      },
+      {
+        "anchor": "paper-learning-to-draft",
+        "pdf_page": 15
+      },
+      {
+        "anchor": "paper-cluster",
+        "pdf_page": 20
+      }
+    ]
+  }
 }

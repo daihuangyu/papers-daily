@@ -1,24 +1,24 @@
 {
   "pages": 27,
   "original_images": 18,
-  "markdown_characters": 32153,
-  "text_lines_checked": 226,
+  "markdown_characters": 33372,
+  "text_lines_checked": 243,
   "missing_lines": [],
-  "coverage_method": "Every non-math prose/table/code line checked against extracted full PDF text; every TeX occurrence and unique expression matched to renderer manifest and source/cache hashes; all inline formula images and original paper crops matched pixel identically; display math SVG path hashes checked and all pages visually inspected after rendering.",
+  "coverage_method": "All non-math lines matched to extracted PDF text. TeX source and render hashes verified. Each inline formula drawing and original crop matched by decoded pixels. Display math SVG path hashes checked. Page review recorded separately.",
   "text_characters_per_page": [
-    1407,
-    1027,
-    1246,
-    867,
-    930,
-    1209,
-    788,
-    932,
-    740,
-    1136,
-    1017,
-    1020,
-    378,
+    1131,
+    1474,
+    846,
+    1375,
+    807,
+    1313,
+    969,
+    880,
+    760,
+    1394,
+    742,
+    1327,
+    585,
     492,
     1224,
     643,
@@ -37,8 +37,8 @@
   "out_of_page_characters": [],
   "out_of_bounds_images": [],
   "out_of_bounds_vector_curves": [],
-  "markdown_sha256": "9102c57da98e5cb248b06f3cf287bd22d5d68c176091c0109f0e4e7f1d34a594",
-  "pdf_sha256": "9b6a276cbcee3b651216aaa441d3c4facedd0e3d716bdab640c8a8af707bd56b",
+  "markdown_sha256": "3ab897d50e3703e6b51853f3a5078214b2fe74ffd6c8306fa1d77c000ec03676",
+  "pdf_sha256": "d4e5e59d8278e0a7e646651e2c1709ea223ba37404c6ce47ff80e72f8bc75914",
   "math": {
     "occurrences": 151,
     "display": 21,
@@ -895,18 +895,18 @@
       }
     ],
     "vector_path_operations_per_page": [
+      0,
       13,
-      2642,
-      4089,
+      3933,
+      2798,
       0,
       0,
-      2620,
-      7500,
-      1926,
+      5922,
+      6124,
       0,
       0,
-      7901,
-      0,
+      3981,
+      3920,
       0,
       0,
       0,
@@ -933,15 +933,13 @@
       "/F2+2": "/AAAAAC+STSongti-TC-Bold",
       "/F2+3": "/AAAAAD+STSongti-TC-Bold"
     },
-    "math": "MathJax vector display paths and576dpi inline PNG; no raw TeX fallback",
-    "fontconfig_recovery": "Initial pdffonts invocation lacked fontconfig, was stopped; rerun with explicit local configuration succeeded.",
-    "unused_standard_resources": "Helvetica and Times-Roman are listed as resources but are not used by any painted text operator; all actual text uses embedded TrueType with ToUnicode."
+    "math": "MathJax vector display paths and576dpi inline PNG; no raw TeX fallback"
   },
   "image_integrity": {
     "original_crops": [
       {
         "file": "safe-fig1.png",
-        "page": 2,
+        "page": 3,
         "pixel_identical": true,
         "dimensions": [
           1200,
@@ -950,20 +948,11 @@
       },
       {
         "file": "safe-fig2.png",
-        "page": 4,
+        "page": 5,
         "pixel_identical": true,
         "dimensions": [
           1200,
           630
-        ]
-      },
-      {
-        "file": "safe-table3.png",
-        "page": 5,
-        "pixel_identical": true,
-        "dimensions": [
-          771,
-          324
         ]
       },
       {
@@ -973,6 +962,15 @@
         "dimensions": [
           1200,
           525
+        ]
+      },
+      {
+        "file": "safe-table3.png",
+        "page": 6,
+        "pixel_identical": true,
+        "dimensions": [
+          771,
+          324
         ]
       },
       {
@@ -986,7 +984,7 @@
       },
       {
         "file": "coverage-fig2.png",
-        "page": 9,
+        "page": 10,
         "pixel_identical": true,
         "dimensions": [
           1200,
@@ -995,7 +993,7 @@
       },
       {
         "file": "sspo-fig1.png",
-        "page": 10,
+        "page": 11,
         "pixel_identical": true,
         "dimensions": [
           1200,
@@ -1103,60 +1101,61 @@
       }
     ],
     "all_originals_pixel_identical": true,
-    "all_inline_formula_images_pixel_identical": true
+    "all_inline_formula_images_pixel_identical": true,
+    "inline_draw_occurrences": 130
   },
   "rendered_pages": [
     {
       "page": 1,
-      "sha256": "8d41e173b81f77a26cdbd3b8969a88e5116c9bc2479d1e58fb5c983636e17dea"
+      "sha256": "669738fb24dfc922bf1dd8aaaa80655414e274d7f53849bb9933b26c2286d1ef"
     },
     {
       "page": 2,
-      "sha256": "11d8905b6e86801e0aedfa82956c488c3516bcf6704216543182fd05d4c4695b"
+      "sha256": "4e3815a911de9f82fd3e497d53d6564e40b3b5148dee11fc7613ea3e78daa0e8"
     },
     {
       "page": 3,
-      "sha256": "2edc8b960562190b1e566ada0583634ed15dde83320465373687d277215c9b84"
+      "sha256": "3eab18051653bd41be7d966e277e44e6b3007185d48f25cc9b4487c7f74e2d1e"
     },
     {
       "page": 4,
-      "sha256": "bdd8a1acb95da988a8e68054496ea12d839791e57b099d0c79c81c15d099aeeb"
+      "sha256": "b4194920e6c04cfba18ab8d9949d21a361e93f1447d9353c32126b7406990ccd"
     },
     {
       "page": 5,
-      "sha256": "323fade738b381b9766821623b0ef4bce03cd3a4e12be75b47374bcb9f50ef26"
+      "sha256": "17dfbacf1cfd943e2216b4c868810d5db60c3e8730952c0ca5857db676ee471a"
     },
     {
       "page": 6,
-      "sha256": "b7b6221a7681c6bcc410e56f8857cd072f5470df06e2f9dca18589e13f1902e5"
+      "sha256": "57dadbc31f4f3568494e5c2882d6fd5650d6bbae76e0a6d7f52df7d16ceb0944"
     },
     {
       "page": 7,
-      "sha256": "ff2eea8814525857fd998bf1dbd8f378dc4fd877abbadd92f2c661c0d6432a6b"
+      "sha256": "cb4b6e1785ef05704109d423de4bdcfb1bc2c8bb88e297ecbf2a72f75ebd30ef"
     },
     {
       "page": 8,
-      "sha256": "27b6bccb4fb249a9f07f60d2011c99b968c46d53ae44b988d4d669ea297dc3bb"
+      "sha256": "cee63748a568959a44c5ca5c84c5b6d30bcc7970e1eac98e5a30ff4e52e6b3d4"
     },
     {
       "page": 9,
-      "sha256": "b4bb176aa0a3531907327d40e8e6c02e03ef69b4b0d76d522edc4d1a2c5164a9"
+      "sha256": "7399f2507f0f9bfbc1615fa37c4b6c52eeb859a9917c252d18250033e613f401"
     },
     {
       "page": 10,
-      "sha256": "9735c0843926a663937f4f7c27222985019129e9098df52d2df4b76345a26eb9"
+      "sha256": "b5142b3b1da5b9cf87aee6e0ff2e424f5c07a5fe98364a41079e850a8263d21b"
     },
     {
       "page": 11,
-      "sha256": "f45e181ab0eb07ac33d43fdc097f27099272c7134775a19d619c189d5c2f51f8"
+      "sha256": "79ff1823fd208309286f8db54567f04ec691b9dc71812035693fc25bb7154bba"
     },
     {
       "page": 12,
-      "sha256": "10fd4e26fdef2781845a6a711f536a972f3aa97d6d466c4ba7fadc27f3cb597f"
+      "sha256": "946fda0f72642255680dd4afda6102cb3bd5e4290e9d30c9ac0fdf4a6ca7d8d0"
     },
     {
       "page": 13,
-      "sha256": "61f008e325850e716081e73aacb948cc1088521f735b4fd8a9b2703d4279f39c"
+      "sha256": "8332591ddb4895a89b2d9e6cd5c24b5524bf96b335a8e424b2d6878816488f1d"
     },
     {
       "page": 14,
@@ -1217,10 +1216,39 @@
   ],
   "visual_inspection_status": "passed",
   "renderer": {
-    "build_report_sha256": "9a61158f5c0c9ff6330e1a2989ac0ec402547791cd565bc813aa19e52ef17a9e",
+    "build_report_sha256": "6427204ed19b8273d28ba419915784d269dd06d468582462d71c5366cdc80a06",
     "math_render_sha256": "2b2b570c33c983e35d4e9ea1341ea514fd514a272b88c4a6e8fb39d0564b7b12",
     "render_math_cjs_sha256": "1c767db4c1dac065b3872b9e91b0aa3b2344c192188210d3f56408e200984f5a",
     "rendering": "pypdfium2 at122.4dpi, pypdf text/images, pdfplumber bounds"
+  },
+  "quick_read": {
+    "section": "快速导读",
+    "papers": 5,
+    "paragraphs_per_paper": 2,
+    "pdf_start_page": 1,
+    "pdf_end_page": 1,
+    "internal_link_targets": [
+      {
+        "anchor": "paper-safedpo",
+        "pdf_page": 2
+      },
+      {
+        "anchor": "paper-coverage",
+        "pdf_page": 6
+      },
+      {
+        "anchor": "paper-sspo",
+        "pdf_page": 10
+      },
+      {
+        "anchor": "paper-learning-to-draft",
+        "pdf_page": 15
+      },
+      {
+        "anchor": "paper-cluster",
+        "pdf_page": 20
+      }
+    ]
   },
   "visual_inspection": {
     "pages_inspected": [
@@ -1252,177 +1280,66 @@
       26,
       27
     ],
-    "method": "All27 final rendered pages reviewed in page-labelled contact sheets; formula-dense pages2,3,6,7,8,11,17,21,22 inspected at full page resolution; page3 additionally compared against independent Poppler rendering and zoomed vector equation. All18 original crops inspected against full source PDF pages before embedding.",
-    "findings": "No missing glyphs, visible raw TeX, clipped figure labels, formula overlap, page-edge overflow or missing content observed. Some whitespace results from keeping original image and caption together.",
-    "page_results": [
-      {
-        "page": 1,
-        "status": "passed"
-      },
-      {
-        "page": 2,
-        "status": "passed"
-      },
-      {
-        "page": 3,
-        "status": "passed"
-      },
-      {
-        "page": 4,
-        "status": "passed"
-      },
-      {
-        "page": 5,
-        "status": "passed"
-      },
-      {
-        "page": 6,
-        "status": "passed"
-      },
-      {
-        "page": 7,
-        "status": "passed"
-      },
-      {
-        "page": 8,
-        "status": "passed"
-      },
-      {
-        "page": 9,
-        "status": "passed"
-      },
-      {
-        "page": 10,
-        "status": "passed"
-      },
-      {
-        "page": 11,
-        "status": "passed"
-      },
-      {
-        "page": 12,
-        "status": "passed"
-      },
-      {
-        "page": 13,
-        "status": "passed"
-      },
-      {
-        "page": 14,
-        "status": "passed"
-      },
-      {
-        "page": 15,
-        "status": "passed"
-      },
-      {
-        "page": 16,
-        "status": "passed"
-      },
-      {
-        "page": 17,
-        "status": "passed"
-      },
-      {
-        "page": 18,
-        "status": "passed"
-      },
-      {
-        "page": 19,
-        "status": "passed"
-      },
-      {
-        "page": 20,
-        "status": "passed"
-      },
-      {
-        "page": 21,
-        "status": "passed"
-      },
-      {
-        "page": 22,
-        "status": "passed"
-      },
-      {
-        "page": 23,
-        "status": "passed"
-      },
-      {
-        "page": 24,
-        "status": "passed"
-      },
-      {
-        "page": 25,
-        "status": "passed"
-      },
-      {
-        "page": 26,
-        "status": "passed"
-      },
-      {
-        "page": 27,
-        "status": "passed"
-      }
-    ]
+    "method": "Reviewed final 27 labelled PDFium renders. Inspected the first-page quick read at full resolution and inspected the five PDF link annotations and destination headings.",
+    "findings": "All five quick reads fit on the first page. Text, figures, captions and equations remain readable."
   },
   "independent_poppler_render": {
     "status": "passed",
     "pages": 27,
     "dpi": 110,
     "stderr": "",
-    "fontconfig": "Local temporary configuration with writable cache; no system font settings modified.",
     "page_hashes": [
       {
         "page": 1,
-        "sha256": "e52351728a6a82e4b954f600960eaa140e915d176a2e72d7bbb23d0f5e58cab4"
+        "sha256": "d15c1be8e250a7d734c7db487dcc094d1925c5f3bf2ea88d08dc893db8e27abd"
       },
       {
         "page": 2,
-        "sha256": "4c3be46f6a89368cf900f0140ee7598fe9fa5ed6471d4dad0f80935e49961ef1"
+        "sha256": "1e8bac073463059f963f74f51b3b8c9a1ac1eb7e682fc73fc5fda39c7d70a7b6"
       },
       {
         "page": 3,
-        "sha256": "7b1aaf38d6ad93d983ec5f93e410de5f21dda51210e797cfeb5aafabe39a9b3f"
+        "sha256": "0c67f93bdff3b68662948a148f1d895901377080ece1f2140caa5034e36b553a"
       },
       {
         "page": 4,
-        "sha256": "ecc71eed11fc559218352cc0ce81c5bb36cb1d29f2c647c58da9b4c01e9325cb"
+        "sha256": "0b21b1a62571329bf87920f5c046da4eabb016d6f8b88a0465b187deaf9a57c5"
       },
       {
         "page": 5,
-        "sha256": "e15de557a9b596b0bac613ae2337b577d4a2bd3289fe72b29881c4529792dd75"
+        "sha256": "03d87ee11f98e3c004d1c0fd7b44aead7ce18067fd4551fd25270045a0cf2843"
       },
       {
         "page": 6,
-        "sha256": "e6d05dc0a194848c956fbca32729a9df195c2334ad77d0218ab3479aeb99b9f4"
+        "sha256": "8fef83e283b1b24a0786b0a2c03691432bafdc4ffb449b761bd32fc2004ee846"
       },
       {
         "page": 7,
-        "sha256": "9245bf0e9c8f3bfacea4abe4aec31d9a6c070e6229ca5de4f451d0c9f90bddf7"
+        "sha256": "8bcd058fc8ca5782525143cc910152419ca0c1cb262c9847cea777a1086fbe5c"
       },
       {
         "page": 8,
-        "sha256": "11c1c17099de600f92b80904aa40ca4cca9174cda044b3c4f7797519ddeb9eef"
+        "sha256": "e3bd3964ab33855da1705308c5b279d88f3083ef22bcc8bfd6a43382af8ed0fd"
       },
       {
         "page": 9,
-        "sha256": "2385e492ca587734727061d67a754d6fb118088282ba7b637b84f87d012f49cd"
+        "sha256": "e69983f7ef91d245a84dad030aa0231604ca43879b0cbb3e82021d7e2ddc48a7"
       },
       {
         "page": 10,
-        "sha256": "d7c546179bd996a98c3a4abef0ab3a1a8dff415f3126eaf6b2db0313c335b304"
+        "sha256": "c72dd3335d345a9173028323e2ad58027d682dd1ecbd596480a4dd4884d23abd"
       },
       {
         "page": 11,
-        "sha256": "1add1a2f715728ebc4977d99a6fc6db96dd6c6d76ad13067dd37d6fec0fa14b8"
+        "sha256": "13fb16f28cdf9689c962dd802217edc7052debccf67fa757f5b7f0d0f70f793f"
       },
       {
         "page": 12,
-        "sha256": "f763d108bab792c2dbcdad92de0c0c0fd216033f530b2ff0a8fe1f2b96583740"
+        "sha256": "267c4446de2f13c034f1e044c090864f07fc9c389308e1eedb48fab23bddb51e"
       },
       {
         "page": 13,
-        "sha256": "2fc6bbc5c955a278f214c290afe6e286c688c77392307f8e196bb22aaaaba85b"
+        "sha256": "98aa9cb93bdde408f088729e1499917de61a2b64a7b8c3e3ba20390cf6864d78"
       },
       {
         "page": 14,
