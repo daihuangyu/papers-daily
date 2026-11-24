@@ -3053,6 +3053,466 @@
       ]
     },
     {
+      "id": "arxiv:2611.07959",
+      "type": "paper",
+      "title": "CoRD: Coupled Rollouts Fill the Blind Spot of On-Policy Distillation",
+      "published": "2026-11-05",
+      "arxiv_id": "2611.07959",
+      "doi": "10.48550/arXiv.2611.07959",
+      "url": "https://arxiv.org/abs/2611.07959",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.07959",
+        "https://doi.org/10.48550/arXiv.2611.07959"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.07959",
+      "submission_history": "Submission history From: Zixiong Yu [ view email ] [v1] Thu, 5 Nov 2026 12:55:51 UTC (1,781 KB) ",
+      "pdf_url": "https://arxiv.org/pdf/2611.07959v1",
+      "read_version": "v1",
+      "source_pdf_pages": 15,
+      "source_pdf_sha256": "356d3e63b9680d8fba9d52ba60763496676a6f326fff5f9db2d2fbe8333a2c13",
+      "publication_evidence_snapshot_sha256": "a3373d1776c925e82a44c8045c662fa12c8864fcd2582459529c4fafb0625813",
+      "figures": [
+        {
+          "file": "assets/cord-fig1.png",
+          "arxiv_id": "2611.07959",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.11,
+            0.08,
+            0.86,
+            0.29
+          ],
+          "sha256": "7401ad2c8119ee91d276f4d7028417f43eaa85d1c456af3b4d276b46d496889a",
+          "source_url": "https://arxiv.org/pdf/2611.07959v1"
+        },
+        {
+          "file": "assets/cord-table1.png",
+          "arxiv_id": "2611.07959",
+          "page": 5,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.09,
+            0.085,
+            0.89,
+            0.52
+          ],
+          "sha256": "20298ee8424094df255d63a90031fcb4e8c6a34a4541345659901c91a2e2f1b4",
+          "source_url": "https://arxiv.org/pdf/2611.07959v1"
+        },
+        {
+          "file": "assets/cord-fig4.png",
+          "arxiv_id": "2611.07959",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.09,
+            0.08,
+            0.9,
+            0.23
+          ],
+          "sha256": "fb69f1dc308385e14f98b5b719fc4e923b67cdc1770031f404cd7d8b4d83a8e5",
+          "source_url": "https://arxiv.org/pdf/2611.07959v1"
+        }
+      ],
+      "author_blog_url": null,
+      "author_blog_status": "No independent author technical blog verified as of this run",
+      "code_url": null,
+      "code_status": "No dedicated official runnable method repository verified in paper links, author resources or exact-title searches on 2026-11-24; not a claim of nonexistence",
+      "folder": "OPSD/2026-11-24",
+      "aliases": [
+        "arxiv:2611.07959",
+        "doi:10.48550/arxiv.2611.07959",
+        "id:arxiv:2611.07959",
+        "title:cordcoupledrolloutsfilltheblindspotofonpolicydistillation",
+        "url:https://arxiv.org/abs/2611.07959",
+        "url:https://doi.org/10.48550/arxiv.2611.07959"
+      ]
+    },
+    {
+      "id": "arxiv:2611.27131",
+      "type": "paper",
+      "title": "Distillation with Errors: Sparse Unbiased Backpropagation for Knowledge Distillation",
+      "published": "2026-11-20",
+      "arxiv_id": "2611.27131",
+      "doi": "10.48550/arXiv.2611.27131",
+      "url": "https://arxiv.org/abs/2611.27131",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.27131",
+        "https://doi.org/10.48550/arXiv.2611.27131"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.27131",
+      "submission_history": "Submission history From: Yuyang Zhang [ view email ] [v1] Fri, 20 Nov 2026 05:06:05 UTC (521 KB) ",
+      "pdf_url": "https://arxiv.org/pdf/2611.27131v1",
+      "read_version": "v1",
+      "source_pdf_pages": 24,
+      "source_pdf_sha256": "fa9109915b78efc116df489396c6b2857a67910ec7596c406e7dada1ef94b79f",
+      "publication_evidence_snapshot_sha256": "2a783b32ba0529094dfac66b73758f264c699d1c4027996c0a76d4aba69e3798",
+      "figures": [
+        {
+          "file": "assets/dwe-fig1.png",
+          "arxiv_id": "2611.27131",
+          "page": 3,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.16,
+            0.315,
+            0.84,
+            0.525
+          ],
+          "sha256": "565cdf681297a3b88c4b9b6f6fae7064b99b90b62f35554ce5f1ba052d1e8e18",
+          "source_url": "https://arxiv.org/pdf/2611.27131v1"
+        },
+        {
+          "file": "assets/dwe-fig4.png",
+          "arxiv_id": "2611.27131",
+          "page": 22,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.5,
+            0.67,
+            0.85,
+            0.86
+          ],
+          "sha256": "5515106c2c0857ca92f589cd9a468d0b81a9e3489bad6722d6ea9193c21f095d",
+          "source_url": "https://arxiv.org/pdf/2611.27131v1"
+        },
+        {
+          "file": "assets/dwe-table10.png",
+          "arxiv_id": "2611.27131",
+          "page": 23,
+          "paper_figure": "Table 10",
+          "crop_box_normalized": [
+            0.16,
+            0.19,
+            0.85,
+            0.36
+          ],
+          "sha256": "a5ba98be8a36617bc9879e1c5091117814793f65870e9cc7674e015cc408b492",
+          "source_url": "https://arxiv.org/pdf/2611.27131v1"
+        },
+        {
+          "file": "assets/dwe-fig5.png",
+          "arxiv_id": "2611.27131",
+          "page": 24,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.16,
+            0.235,
+            0.85,
+            0.495
+          ],
+          "sha256": "5f60160a4b79edf1b04fea62d879d40abf0ca277dfae5ca6e62282684a26dbe4",
+          "source_url": "https://arxiv.org/pdf/2611.27131v1"
+        }
+      ],
+      "author_blog_url": null,
+      "author_blog_status": "No independent author technical blog verified as of this run",
+      "code_url": "https://github.com/dwe-lab/DWE",
+      "code_status": "Official paper-linked repository cloned read-only; README, sampling.py and geometry.py inspected; no upstream training or benchmark code executed",
+      "code_commit": "481223f3704607b2c9cb21741bfd3fde8822299b",
+      "code_license": "Apache-2.0",
+      "code_files": [
+        {
+          "path": "README.md",
+          "sha256": "c447e9a964dd4ed0407da42c338ae6fd157f535a9e554d9925f92229c5dc039c"
+        },
+        {
+          "path": "src/dwe/sampling.py",
+          "sha256": "37c94376ceaac6b41aaaa4ec4aa6890fffa62827aec1a328311eb0066600a5bc"
+        },
+        {
+          "path": "src/dwe/geometry.py",
+          "sha256": "f45d3139910975620bb1a6ed0472a1d8b8b04e58062e72e9d1c9f63a40dc47c1"
+        }
+      ],
+      "scope_note": "Dedicated OPD experiments in Appendix B.3; main off-policy KD results are distinguished from OPD",
+      "folder": "OPSD/2026-11-24",
+      "aliases": [
+        "arxiv:2611.27131",
+        "doi:10.48550/arxiv.2611.27131",
+        "id:arxiv:2611.27131",
+        "title:distillationwitherrorssparseunbiasedbackpropagationforknowledgedistillation",
+        "url:https://arxiv.org/abs/2611.27131",
+        "url:https://doi.org/10.48550/arxiv.2611.27131"
+      ]
+    },
+    {
+      "id": "arxiv:2611.13135",
+      "type": "paper",
+      "title": "Which Successes Make Good References? Action-Sequence Alignment for Multi-Turn On-Policy Distillation",
+      "published": "2026-11-09",
+      "arxiv_id": "2611.13135",
+      "doi": "10.48550/arXiv.2611.13135",
+      "url": "https://arxiv.org/abs/2611.13135",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.13135",
+        "https://doi.org/10.48550/arXiv.2611.13135"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.13135",
+      "submission_history": "Submission history From: Mufei Li [ view email ] [v1] Mon, 9 Nov 2026 19:18:25 UTC (4,005 KB) ",
+      "pdf_url": "https://arxiv.org/pdf/2611.13135v1",
+      "read_version": "v1",
+      "source_pdf_pages": 21,
+      "source_pdf_sha256": "ed32bc44567653291b0b937d33feb03382f85740c59dbfc651ea547ded49d69a",
+      "publication_evidence_snapshot_sha256": "6c19c1525dee357b5b9bb5bfd0984543bb2371be253dfc5d0fa2e7d98ccbfbe1",
+      "figures": [
+        {
+          "file": "assets/lcs-fig1.png",
+          "arxiv_id": "2611.13135",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.09,
+            0.085,
+            0.92,
+            0.39
+          ],
+          "sha256": "499e634303f17570649edfbb5d820ef5ae0fac0f65c04600e9f60ad9d0c89af5",
+          "source_url": "https://arxiv.org/pdf/2611.13135v1"
+        },
+        {
+          "file": "assets/lcs-table2.png",
+          "arxiv_id": "2611.13135",
+          "page": 7,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.11,
+            0.1,
+            0.89,
+            0.49
+          ],
+          "sha256": "0a84c16ace9b918c1b82542028b3484d5ff283ada2755cef1e011268d1578150",
+          "source_url": "https://arxiv.org/pdf/2611.13135v1"
+        },
+        {
+          "file": "assets/lcs-table3.png",
+          "arxiv_id": "2611.13135",
+          "page": 8,
+          "paper_figure": "Table 3",
+          "crop_box_normalized": [
+            0.11,
+            0.385,
+            0.9,
+            0.505
+          ],
+          "sha256": "499bbda06d3ed5dce9a3179f96720b11591a793cb3bd17d08d235e084ec5d49e",
+          "source_url": "https://arxiv.org/pdf/2611.13135v1"
+        }
+      ],
+      "author_blog_url": null,
+      "author_blog_status": "No independent author technical blog verified as of this run",
+      "code_url": null,
+      "code_status": "No dedicated official runnable method repository verified in paper links, author resources or exact-title searches on 2026-11-24; not a claim of nonexistence",
+      "author_resource_url": "https://mufeili.github.io/",
+      "folder": "OPSD/2026-11-24",
+      "aliases": [
+        "arxiv:2611.13135",
+        "doi:10.48550/arxiv.2611.13135",
+        "id:arxiv:2611.13135",
+        "title:whichsuccessesmakegoodreferencesactionsequencealignmentformultiturnonpolicydistillation",
+        "url:https://arxiv.org/abs/2611.13135",
+        "url:https://doi.org/10.48550/arxiv.2611.13135"
+      ]
+    },
+    {
+      "id": "arxiv:2611.05266",
+      "type": "paper",
+      "title": "Stabilizing On-Policy Targeted Guidance in Agentic Reinforcement Learning",
+      "published": "2026-11-03",
+      "arxiv_id": "2611.05266",
+      "doi": "10.48550/arXiv.2611.05266",
+      "url": "https://arxiv.org/abs/2611.05266",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.05266",
+        "https://doi.org/10.48550/arXiv.2611.05266"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.05266",
+      "submission_history": "Submission history From: Kevin Frans [ view email ] [v1] Tue, 3 Nov 2026 17:54:33 UTC (1,735 KB) [v2] Wed, 4 Nov 2026 17:41:20 UTC (1,736 KB) ",
+      "pdf_url": "https://arxiv.org/pdf/2611.05266v1",
+      "read_version": "v1",
+      "source_pdf_pages": 14,
+      "source_pdf_sha256": "a4f5816e1a34451bd957f8a6b85f17a658639d94c5cbce7dfa3f07f90f9131fd",
+      "publication_evidence_snapshot_sha256": "1102b5ad4c3359addbe6436621800cae0f1d8f976aad8af6558d191ff30acb30",
+      "figures": [
+        {
+          "file": "assets/tg-fig2.png",
+          "arxiv_id": "2611.05266",
+          "page": 3,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.16,
+            0.08,
+            0.85,
+            0.22
+          ],
+          "sha256": "8e10e21f24743b6733e6ccfa212d512aed382f151d349d7942b79d7662dc7bad",
+          "source_url": "https://arxiv.org/pdf/2611.05266v1"
+        },
+        {
+          "file": "assets/tg-table1.png",
+          "arxiv_id": "2611.05266",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.16,
+            0.16,
+            0.85,
+            0.3
+          ],
+          "sha256": "94a08d57a95dd672f9ec427e8c1aca36dfe3fb4a0076fcafd787fee51f72d688",
+          "source_url": "https://arxiv.org/pdf/2611.05266v1"
+        },
+        {
+          "file": "assets/tg-fig5.png",
+          "arxiv_id": "2611.05266",
+          "page": 7,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.16,
+            0.305,
+            0.85,
+            0.475
+          ],
+          "sha256": "6816f66bd696a13c598522c0b0d8e7c8b60a757e41a518af5c439bfe440e76f2",
+          "source_url": "https://arxiv.org/pdf/2611.05266v1"
+        },
+        {
+          "file": "assets/tg-fig6.png",
+          "arxiv_id": "2611.05266",
+          "page": 8,
+          "paper_figure": "Figure 6",
+          "crop_box_normalized": [
+            0.16,
+            0.08,
+            0.85,
+            0.24
+          ],
+          "sha256": "a0bec138054137347e6978185f9132e32076c860e776375080039d0abc089497",
+          "source_url": "https://arxiv.org/pdf/2611.05266v1"
+        },
+        {
+          "file": "assets/tg-fig7.png",
+          "arxiv_id": "2611.05266",
+          "page": 8,
+          "paper_figure": "Figure 7",
+          "crop_box_normalized": [
+            0.16,
+            0.335,
+            0.85,
+            0.505
+          ],
+          "sha256": "7302e7b5d8353e0851a0be9a2b4f617ecbb026d23e60d8dd5190bddecac5fa2f",
+          "source_url": "https://arxiv.org/pdf/2611.05266v1"
+        }
+      ],
+      "author_blog_url": null,
+      "author_blog_status": "No independent author technical blog verified as of this run",
+      "code_url": null,
+      "code_status": "No dedicated official runnable method repository verified in paper links, author resources or exact-title searches on 2026-11-24; not a claim of nonexistence",
+      "version_note": "v2 exists on 2026-11-04; this report explicitly reads v1 and does not count routine revisions as new papers",
+      "folder": "OPSD/2026-11-24",
+      "aliases": [
+        "arxiv:2611.05266",
+        "doi:10.48550/arxiv.2611.05266",
+        "id:arxiv:2611.05266",
+        "title:stabilizingonpolicytargetedguidanceinagenticreinforcementlearning",
+        "url:https://arxiv.org/abs/2611.05266",
+        "url:https://doi.org/10.48550/arxiv.2611.05266"
+      ]
+    },
+    {
+      "id": "arxiv:2611.19207",
+      "type": "paper",
+      "title": "On-policy distillation as a Backdoor Propagation Channel",
+      "published": "2026-11-14",
+      "arxiv_id": "2611.19207",
+      "doi": "10.48550/arXiv.2611.19207",
+      "url": "https://arxiv.org/abs/2611.19207",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.19207",
+        "https://doi.org/10.48550/arXiv.2611.19207"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.19207",
+      "submission_history": "Submission history From: Zane Fu [ view email ] [v1] Sat, 14 Nov 2026 06:57:27 UTC (488 KB) ",
+      "pdf_url": "https://arxiv.org/pdf/2611.19207v1",
+      "read_version": "v1",
+      "source_pdf_pages": 20,
+      "source_pdf_sha256": "20883ce94476ed6e23be771c574935fcf79a982b7eca3d0d78b9da4f05887cab",
+      "publication_evidence_snapshot_sha256": "fc0bd79ccf4797bf6e0d042575e64a73acd3a1b1c2ac5f6da5f72b5d0a2114d4",
+      "figures": [
+        {
+          "file": "assets/risk-fig1.png",
+          "arxiv_id": "2611.19207",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.28,
+            0.105,
+            0.74,
+            0.34
+          ],
+          "sha256": "52889c1bab98181648d178f946c4d920a36c02d1d17dcc818426c2e943b45cf2",
+          "source_url": "https://arxiv.org/pdf/2611.19207v1"
+        },
+        {
+          "file": "assets/risk-fig3.png",
+          "arxiv_id": "2611.19207",
+          "page": 5,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.16,
+            0.095,
+            0.85,
+            0.36
+          ],
+          "sha256": "f1f7359e780e9c13fb988919f3b44e133bde1232657cff60f5d82a75052e6262",
+          "source_url": "https://arxiv.org/pdf/2611.19207v1"
+        },
+        {
+          "file": "assets/risk-fig5.png",
+          "arxiv_id": "2611.19207",
+          "page": 7,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.16,
+            0.095,
+            0.85,
+            0.345
+          ],
+          "sha256": "3c012b21952664d9ff3ba3df28cd595b823ae09f78dd8a050f95716ed1f49bcb",
+          "source_url": "https://arxiv.org/pdf/2611.19207v1"
+        },
+        {
+          "file": "assets/risk-table2.png",
+          "arxiv_id": "2611.19207",
+          "page": 9,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.2,
+            0.375,
+            0.85,
+            0.5
+          ],
+          "sha256": "8ec782cd5eb1aae18230ce4a55ea54355665bc3f7d1dc8c8adb960b661cecf7f",
+          "source_url": "https://arxiv.org/pdf/2611.19207v1"
+        }
+      ],
+      "author_blog_url": null,
+      "author_blog_status": "No independent author technical blog verified as of this run",
+      "code_url": null,
+      "code_status": "No dedicated official runnable method repository verified in paper links, author resources or exact-title searches on 2026-11-24; not a claim of nonexistence",
+      "folder": "OPSD/2026-11-24",
+      "aliases": [
+        "arxiv:2611.19207",
+        "doi:10.48550/arxiv.2611.19207",
+        "id:arxiv:2611.19207",
+        "title:onpolicydistillationasabackdoorpropagationchannel",
+        "url:https://arxiv.org/abs/2611.19207",
+        "url:https://doi.org/10.48550/arxiv.2611.19207"
+      ]
+    },
+    {
       "id": "arxiv:2611.07731",
       "type": "paper",
       "title": "O²PD: Overlap-Gated On-Policy Distillation on Reliable Prefix",
@@ -10235,6 +10695,36 @@
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
     "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2611.07959": "OPSD/2026-11-24",
+    "doi:10.48550/arxiv.2611.07959": "OPSD/2026-11-24",
+    "id:arxiv:2611.07959": "OPSD/2026-11-24",
+    "title:cordcoupledrolloutsfilltheblindspotofonpolicydistillation": "OPSD/2026-11-24",
+    "url:https://arxiv.org/abs/2611.07959": "OPSD/2026-11-24",
+    "url:https://doi.org/10.48550/arxiv.2611.07959": "OPSD/2026-11-24",
+    "arxiv:2611.27131": "OPSD/2026-11-24",
+    "doi:10.48550/arxiv.2611.27131": "OPSD/2026-11-24",
+    "id:arxiv:2611.27131": "OPSD/2026-11-24",
+    "title:distillationwitherrorssparseunbiasedbackpropagationforknowledgedistillation": "OPSD/2026-11-24",
+    "url:https://arxiv.org/abs/2611.27131": "OPSD/2026-11-24",
+    "url:https://doi.org/10.48550/arxiv.2611.27131": "OPSD/2026-11-24",
+    "arxiv:2611.13135": "OPSD/2026-11-24",
+    "doi:10.48550/arxiv.2611.13135": "OPSD/2026-11-24",
+    "id:arxiv:2611.13135": "OPSD/2026-11-24",
+    "title:whichsuccessesmakegoodreferencesactionsequencealignmentformultiturnonpolicydistillation": "OPSD/2026-11-24",
+    "url:https://arxiv.org/abs/2611.13135": "OPSD/2026-11-24",
+    "url:https://doi.org/10.48550/arxiv.2611.13135": "OPSD/2026-11-24",
+    "arxiv:2611.05266": "OPSD/2026-11-24",
+    "doi:10.48550/arxiv.2611.05266": "OPSD/2026-11-24",
+    "id:arxiv:2611.05266": "OPSD/2026-11-24",
+    "title:stabilizingonpolicytargetedguidanceinagenticreinforcementlearning": "OPSD/2026-11-24",
+    "url:https://arxiv.org/abs/2611.05266": "OPSD/2026-11-24",
+    "url:https://doi.org/10.48550/arxiv.2611.05266": "OPSD/2026-11-24",
+    "arxiv:2611.19207": "OPSD/2026-11-24",
+    "doi:10.48550/arxiv.2611.19207": "OPSD/2026-11-24",
+    "id:arxiv:2611.19207": "OPSD/2026-11-24",
+    "title:onpolicydistillationasabackdoorpropagationchannel": "OPSD/2026-11-24",
+    "url:https://arxiv.org/abs/2611.19207": "OPSD/2026-11-24",
+    "url:https://doi.org/10.48550/arxiv.2611.19207": "OPSD/2026-11-24",
     "arxiv:2611.07731": "OPSD/2026-11-23",
     "doi:10.48550/arxiv.2611.07731": "OPSD/2026-11-23",
     "id:arxiv:2611.07731": "OPSD/2026-11-23",
