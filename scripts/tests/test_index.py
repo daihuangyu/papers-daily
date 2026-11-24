@@ -1,8 +1,11 @@
 """Regression checks for cross-version and cross-date source uniqueness."""
-import importlib.util
+import contextlib
+import io
+import json
 import sys
 import tempfile
 import unittest
+from datetime import date, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -79,7 +82,6 @@ class AliasTests(unittest.TestCase):
             index.validate_manifest(item, path)
 
     def test_update_rejects_duplicate_before_writing(self):
-        import json
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             for day, sid in [('2026-11-17', 'arxiv:2611.01234v1'), ('2026-11-18', 'arxiv:2611.01234v2')]:
@@ -93,6 +95,57 @@ class AliasTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'Duplicate'):
                 index.update(root)
             self.assertFalse((root / 'README.md').exists())
+
+
+class NavigationTests(unittest.TestCase):
+    def add_report(self, root, direction, day):
+        folder = root / direction / day.isoformat()
+        folder.mkdir(parents=True)
+        key = f'{direction}-{day}'
+        source = {
+            'id': key, 'title': f'Paper {key}', 'url': f'https://example.org/{key}',
+            'published': day.isoformat(),
+        }
+        manifest = {
+            'date': day.isoformat(), 'direction': direction,
+            'topic': f'Topic for {day}', 'sources': [source],
+        }
+        (folder / 'manifest.json').write_text(json.dumps(manifest))
+        # Simulate a sparse cloud checkout with existing reports preserved remotely.
+        return {f'{direction}/{day}/report.md', f'{direction}/{day}/report.pdf'}
+
+    def test_recent_navigation_stays_small_and_archive_keeps_all_reports(self):
+        with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(tmp)
+            start = date(2026, 12, 25)
+            days = [start + timedelta(days=offset) for offset in range(8)]
+            remote = self.add_report(root, 'Area_B', start)
+            for day in reversed(days):
+                remote.update(self.add_report(root, 'Area_A', day))
+            index.update(root, remote)
+            home = (root / 'README.md').read_text()
+            direction = (root / 'Area_A/README.md').read_text()
+            self.assertEqual(home.count('/report.md)'), 2)
+            self.assertIn(f'Area_A/{days[-1]}/report.md', home)
+            self.assertNotIn('Paper Area_A', home)
+            self.assertEqual(direction.count('/report.md)'), index.RECENT_REPORTS)
+            self.assertNotIn(f'{days[0]}/report.md', direction)
+            previous = root / 'Area_A/archive/2026-12.md'
+            old_month = previous.read_text()
+            self.assertIn(f'Paper Area_A-{days[0]}', old_month)
+            self.assertIn(f'../{days[0]}/report.pdf', old_month)
+            self.assertIn('2027-01.md', (root / 'Area_A/archive/README.md').read_text())
+
+            remote.update(self.add_report(root, 'Area_A', date(2027, 1, 2)))
+            with self.assertRaisesRegex(SystemExit, 'refresh'):
+                index.update(root, remote, check=True)
+            self.assertEqual((root / 'README.md').read_text(), home)
+            index.update(root, remote)
+            index.update(root, remote, check=True)
+            self.assertEqual(previous.read_text(), old_month)
+            self.assertEqual(len((root / 'README.md').read_text().splitlines()), len(home.splitlines()))
+            self.assertEqual(len((root / 'Area_A/README.md').read_text().splitlines()), len(direction.splitlines()))
+            self.assertIn('Paper Area_A-2027-01-02', (root / 'Area_A/archive/2027-01.md').read_text())
 
 
 if __name__ == '__main__':

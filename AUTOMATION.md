@@ -43,7 +43,9 @@ manifest保持现有date、direction、topic、window_start、window_end、sourc
 - arxiv_id（不带vN）、doi（如有）、canonical_urls（同篇的论文规范地址，不能放共享代码库或图源）；
 - publication_evidence_url、pdf_url、code_url（如有），以及原图/页码的来源记录。
 
-运行scripts/update_index.py重建根README、所有已有方向的README和sources.json v2；v2包含来源记录、别名及归档位置。不重复收录同篇的不同版本或会议版。模糊标题仍需人工复核。
+按 [提交规范](CONTRIBUTING.md) 运行 `python3 scripts/update_index.py`，再运行 `python3 scripts/update_index.py --check`。首页每个方向只列最新一期，方向页列最近 7 期，完整标题索引在 `方向/archive/YYYY-MM.md`。发布时一并包含有改动的归档与导航文件。旧日程若写有逐篇更新根 README 的要求，以此归档结构为准。
+
+`sources.json` v2 保留全部去重来源、别名及归档位置。同篇论文的不同版本、会议版使用同一条记录。模糊标题仍需人工复核。
 
 ## Linux PDF与排版验证
 
@@ -71,7 +73,7 @@ pdftoppm -scale-to 1400 -png VLM/YYYY-MM-DD/report.pdf /tmp/papers-daily-page
 2. 在云端仅获取需要的文本和素材；GitHub contents接口对大于1MB的旧二进制可能返回空content，不能把空内容当作真实文件。原有PDF/大图保留其远端blob引用，无需重新下载或提交。完整远端tree可存临时JSON，索引校验用`python3 scripts/update_index.py --remote-tree /tmp/remote-tree.json`检查未改动远端文件的存在性。
 3. 生成并检查本次新报告的全部本地文件。新文件必须真实生成，不得以远端inventory替代本次PDF与图片检查。
 4. 通过GitHub create_blob上传文本（utf-8）与PDF/图片（base64），检查返回SHA；二进制编码在代码中处理，按需分片读取，勿把base64打印给用户。
-5. create_tree以刚读取的base_tree_sha为底，只增加/替换本次文件；create_commit以刚读取的main head为唯一parent；update_ref设置branch_name=main、expected_sha=旧head、force=false。
+5. create_tree以刚读取的base_tree_sha为底，只增加/替换本次报告和有改动的生成文件（包括对应月归档和月份导航）。create_commit以刚读取的main head为唯一parent，update_ref设置branch_name=main、expected_sha=旧head、force=false。
 6. 若head已变，重新读取并合并到最新树后重做，保护其他方向内容，不覆盖并发提交。不得force或改为本机SSH推送。
 7. 成功后重新读取main与新增文件，核对提交、文件SHA与清单条目，返回当天篇数、Markdown/PDF链接、commit及不足原因。失败明确报告具体阶段，不能声称已发布。
 

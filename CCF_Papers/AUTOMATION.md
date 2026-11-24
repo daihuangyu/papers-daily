@@ -33,7 +33,7 @@
 
 PDF嵌入中文/数学字体，缺字即失败。逐行核对Markdown可见内容与PDF文本，核对全部图片；逐页渲染并检查标题、表格、公式、代码、图片/图注、页码，无裁切、叠字、空白或缺页。发布用的文件必须是最后一次通过检查的版本。复现脚本可以放仓库scripts，执行环境和QA结果写入assets/QA.md。
 
-运行 `python3 -m unittest discover -s scripts/tests -v` 与 `python3 scripts/update_index.py`；重建根README、方向README、sources.json。CCF校验按当年录用，不误套最近一月；spotlight/unknown独立；有引用数必须有出处和日期。新增标题别名必须参与查重。
+按 [仓库提交规范](../CONTRIBUTING.md) 重建首页、方向页、月份归档和 `sources.json`。运行 `python3 -m unittest discover -s scripts/tests -v`、`python3 scripts/update_index.py` 和 `python3 scripts/update_index.py --check`。CCF 以当年录用为准，区分 spotlight 与 unknown。有引用数的条目注明出处和日期，新增标题别名参与查重。
 
 ## 发布与幂等
 
