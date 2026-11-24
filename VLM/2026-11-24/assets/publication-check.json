@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-11-24T01:38:00Z",
+  "verified_report_commit": "0ec976bd4ee73d2060072918ae37ac67a90f9cc1",
+  "remote_ref_check": "git ls-remote main equals local verified commit, so the complete report tree is identical; eight key paths independently read through GitHub connector",
+  "github_preview": {
+    "browser": "right in-app browser only",
+    "url": "https://github.com/daihuangyu/papers-daily/blob/main/VLM/2026-11-24/report.md",
+    "math_elements": 147,
+    "math_errors": 0,
+    "unrendered_aligned_blocks": 0,
+    "original_images": 18
+  },
+  "remote_files": [
+    {
+      "path": "VLM/2026-11-24/report.md",
+      "sha": "ce344f8f343bb52bd7d43fbc75e91fa8265a747f"
+    },
+    {
+      "path": "VLM/2026-11-24/report.pdf",
+      "sha": "12ec6b58ee0694898eb4e4790118a22b7daf80fb"
+    },
+    {
+      "path": "VLM/2026-11-24/manifest.json",
+      "sha": "b6ce01a6ec0288855e88d00a70949570ab25c032"
+    },
+    {
+      "path": "README.md",
+      "sha": "3557942c41548418c0551d035d481e43f9013083"
+    },
+    {
+      "path": "VLM/README.md",
+      "sha": "f595940b2d4ce5564424fd557e946187468f480e"
+    },
+    {
+      "path": "sources.json",
+      "sha": "1d45fee68deeec834637535cb75dbc64b3ed721b"
+    },
+    {
+      "path": "VLM/2026-11-24/assets/math-manifest.json",
+      "sha": "5c53fb891b6672bbb4feed7c2320bcab00c2363c"
+    },
+    {
+      "path": "VLM/2026-11-24/assets/SOURCES.md",
+      "sha": "2502ee68c7cac8d4d75b44e24b13edcfe13d6837"
+    }
+  ],
+  "pdf_remote_note": "Contents API returns empty content for this large PDF; verified nonempty local PDF, remote Git blob SHA 12ec6b58ee0694898eb4e4790118a22b7daf80fb, and matching main commit. No empty content treated as PDF data."
+}

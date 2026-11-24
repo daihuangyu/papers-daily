@@ -22,6 +22,8 @@
 
 - 实际由本机 macOS 补位，沿用已授权 SSH；云端迁移仍暂停等待环境绑定核验，本地自动任务保留，未复制凭据。
 - 本次只发布 VLM/2026-11-24 及根 README、VLM/README、sources.json。正常提交 main，不使用 force push。
-- GitHub 实际网页公式和远端文件核验：发布后补充；本条当前只声明已完成的本地检查。
+- GitHub 实际页面已在右侧内置浏览器检查：147 个 MathML 数学节点，18 张原图，0 个数学错误，0 个未渲染 aligned 块；并目检 Fisher、RoPE 和行内公式。未操作 Chrome。
 
 - 首次推送遇到远端 OPSD 并发提交 d2bc9fd，普通合并后重建总索引；对比远端树，OPSD 目录内容逐项保留。
+
+- 远端 main 已验证为 0ec976bd4ee73d2060072918ae37ac67a90f9cc1，其完整树与本地交付一致；Markdown、PDF、manifest、三个索引及图源/数学清单另经 GitHub 连接逐项读回并匹配 blob SHA。大 PDF 接口正文为空，仅采用非空本地 PDF 与远端 blob SHA 核验，不把空 content 当文件。记录见 publication-check.json。
