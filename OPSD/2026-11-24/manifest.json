@@ -487,9 +487,9 @@
     "model_training_reproduced": false
   },
   "pdf_check": {
-    "pages": 21,
-    "markdown_characters": 28741,
-    "prose_code_table_fragments_checked": 314,
+    "pages": 22,
+    "markdown_characters": 30100,
+    "prose_code_table_fragments_checked": 331,
     "missing_fragments": [],
     "original_figure_table_images": 19,
     "source_image_pixels_matched": 19,
@@ -518,15 +518,16 @@
     "all_math_sources_rendered": true,
     "all_math_assets_hash_verified": true,
     "characters_per_page": [
-      1310,
-      804,
+      1119,
+      1326,
+      770,
       1190,
       771,
       995,
       600,
       1722,
       593,
-      1138,
+      1139,
       796,
       1552,
       1134,
@@ -542,12 +543,24 @@
     ],
     "out_of_page_text_and_images": [],
     "all_pages_rendered": true,
-    "page_renderer": "Poppler pdftoppm -scale-to 1100 -png",
-    "markdown_sha256": "749a35777e3f12a11ba4dbccb4f00c6258b68356af3d6781c58d943aae4b29e8",
-    "pdf_sha256": "aefe1463d2e733e85ad001fddfff21f18ea36467a7bcffca57993455814610ce",
+    "page_renderer": "Poppler pdftoppm -scale-to 1300 -png",
+    "markdown_sha256": "9267a58a3aa4ee9b50b24c3eed02bc03f0c2910b6943eaf3d9cd588e5ccb2e69",
+    "pdf_sha256": "d22474963380ecad7a38685a8f4d43152cb3b259c775e9f6fdfa967e3110933c",
     "status": "passed",
-    "visual_review": "All 21 final pages inspected in four Poppler-rendered contact sheets; full-resolution formula samples inspected. Corrected original figure/table crops checked. No clipping, overlap, blank pages or missing prose/figures observed.",
-    "shared_renderer_sha256": "9a61158f5c0c9ff6330e1a2989ac0ec402547791cd565bc813aa19e52ef17a9e",
+    "visual_review": "Reviewed all 22 rendered pages and the full-size quick-read page. No clipping, overlap, blank pages or missing prose or figures observed.",
+    "quick_read": {
+      "page": 1,
+      "papers": 5,
+      "internal_links_verified": 5,
+      "target_pages": [
+        3,
+        6,
+        10,
+        14,
+        17
+      ]
+    },
+    "shared_renderer_sha256": "6427204ed19b8273d28ba419915784d269dd06d468582462d71c5366cdc80a06",
     "math_renderer_sha256": "2b2b570c33c983e35d4e9ea1341ea514fd514a272b88c4a6e8fb39d0564b7b12",
     "renderer_adapter_sha256": "3f0065b462af45c1bdaa70d124cf7440f6fa5a9cf2f286088d22c41be2b162bb",
     "font_sha256": "19d520cef1e3526ab10eef322a436a78cded57d0389682f9e21485c21c9a421c"
@@ -570,8 +583,8 @@
   "artifacts": [
     {
       "path": "assets/QA.md",
-      "bytes": 1577,
-      "sha256": "32914acd9eb6d2089d14341fdf73890404a02a6fb2799c8d3125de5514d02da7"
+      "bytes": 1712,
+      "sha256": "8026f26788b42a67a3ae957b858e195e962e4f67aa53abf6559b9ec07218adfb"
     },
     {
       "path": "assets/SOURCES.md",
@@ -1686,12 +1699,12 @@
     {
       "path": "assets/math-manifest.json",
       "bytes": 51337,
-      "sha256": "da9247e31e70063ff947417fc845acc517ea86d74466fc05475b32d93bf1c453"
+      "sha256": "49eacc4e61a757169f5f82efb6671efe996107703d1d8f7d7823853cca37d537"
     },
     {
       "path": "assets/pdf-check.json",
-      "bytes": 1957,
-      "sha256": "5fa89e864c3c0066ac74380fab0262dad71d83098a129437360e5efa2b2327b7"
+      "bytes": 2040,
+      "sha256": "28f56e964170e1edb1332502288a3506bea0709c0fd079226108c754c9313db1"
     },
     {
       "path": "assets/render_report.py",
@@ -1745,13 +1758,13 @@
     },
     {
       "path": "report.md",
-      "bytes": 49552,
-      "sha256": "749a35777e3f12a11ba4dbccb4f00c6258b68356af3d6781c58d943aae4b29e8"
+      "bytes": 52915,
+      "sha256": "9267a58a3aa4ee9b50b24c3eed02bc03f0c2910b6943eaf3d9cd588e5ccb2e69"
     },
     {
       "path": "report.pdf",
-      "bytes": 12460537,
-      "sha256": "aefe1463d2e733e85ad001fddfff21f18ea36467a7bcffca57993455814610ce"
+      "bytes": 12471861,
+      "sha256": "d22474963380ecad7a38685a8f4d43152cb3b259c775e9f6fdfa967e3110933c"
     }
   ]
 }

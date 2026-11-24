@@ -53,13 +53,14 @@ def build(md):
     caption = ParagraphStyle('caption',parent=normal,fontSize=8,leading=12,textColor=colors.HexColor('#536575'))
     def plain_inline(text):
         text=html.escape(text)
-        text=re.sub(r'\[([^\]]+)\]\((https?://[^)]+)\)',r'<link href="\2" color="#126b86">\1</link>',text)
+        text=re.sub(r'\[([^\]]+)\]\((https?://[^)]+|#[a-zA-Z0-9_-]+)\)',r'<link href="\2" color="#126b86">\1</link>',text)
         text=re.sub(r'\*\*(.*?)\*\*',r'<b>\1</b>',text)
         text=re.sub(r'`([^`]+)`',r'\1',text)
         return text
     def inline(text, font_size=10):
         return math.inline(text,plain_inline,font_size)
     lines=md.read_text(encoding='utf-8').splitlines(); story=[]; i=0
+    heading_anchor = ''
     def append_block(block):
         # Keep a heading with a figure/code block even when that block is atomic.
         # Nested KeepTogether can otherwise leave the heading on the prior page.
@@ -97,10 +98,16 @@ def build(md):
                 figure_block.append(Paragraph(inline(lines[j].strip(),8),caption))
                 i=j+1
             append_block(figure_block); continue
+        anchor = re.fullmatch(r'<a name="([a-zA-Z0-9_-]+)"></a>', line)
+        if anchor:
+            heading_anchor = f'<a name="{anchor[1]}"/>'
+            continue
         heading=re.match(r'^(#{1,3}) (.+)',line)
         if heading:
             n=len(heading[1]); title=heading[2]
-            story.append(Paragraph(inline(title,headings[n].fontSize),headings[n])); continue
+            story.append(Paragraph(heading_anchor + inline(title,headings[n].fontSize), headings[n]))
+            heading_anchor = ''
+            continue
         if line.startswith('|'):
             rows=[line]
             while i<len(lines) and lines[i].strip().startswith('|'):
