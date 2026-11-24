@@ -2,6 +2,439 @@
   "schema_version": 2,
   "sources": [
     {
+      "id": "arxiv:2611.25670",
+      "type": "paper",
+      "arxiv_id": "2611.25670",
+      "doi": "10.48550/arXiv.2611.25670",
+      "title": "Efficient Latent Reasoning for Vision-Language Model via Dynamics-Aware Quantization and Distillation",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25670",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.25670"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.25670v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25670v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "Fixed v1: 10 physical pages, referenced full Appendix absent. No complete official method code or independent author blog verified from PDF links and bounded exact title/author searches. No training executed.",
+      "pdf_sha256": "d87ef0dacfe0284e20ac18b5fd21771bf55431f43c4636a269ac44ab0af90a51",
+      "figures": [
+        {
+          "file": "assets/ql-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.07,
+            0.08,
+            0.93,
+            0.38
+          ],
+          "size": [
+            1595,
+            720
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25670v1"
+        },
+        {
+          "file": "assets/ql-results.png",
+          "paper_figure": "Table 1",
+          "page": 7,
+          "crop_normalized": [
+            0.07,
+            0.085,
+            0.49,
+            0.7
+          ],
+          "size": [
+            779,
+            1476
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25670v1"
+        },
+        {
+          "file": "assets/ql-efficiency.png",
+          "paper_figure": "Figure 5",
+          "page": 8,
+          "crop_normalized": [
+            0.07,
+            0.12,
+            0.49,
+            0.375
+          ],
+          "size": [
+            779,
+            612
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25670v1"
+        },
+        {
+          "file": "assets/ql-ablation.png",
+          "paper_figure": "Table 4",
+          "page": 8,
+          "crop_normalized": [
+            0.51,
+            0.14,
+            0.93,
+            0.32
+          ],
+          "size": [
+            779,
+            432
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25670v1"
+        }
+      ],
+      "folder": "VLM/2026-11-24",
+      "aliases": [
+        "arxiv:2611.25670",
+        "doi:10.48550/arxiv.2611.25670",
+        "id:arxiv:2611.25670",
+        "title:efficientlatentreasoningforvisionlanguagemodelviadynamicsawarequantizationanddistillation",
+        "url:https://arxiv.org/abs/2611.25670"
+      ]
+    },
+    {
+      "id": "arxiv:2611.20016",
+      "type": "paper",
+      "arxiv_id": "2611.20016",
+      "doi": "10.48550/arXiv.2611.20016",
+      "title": "GEM-MM: Reducing VLM Hallucination with Entropy-Guided Preference Alignment",
+      "published": "2026-11-15",
+      "url": "https://arxiv.org/abs/2611.20016",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.20016"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.20016v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.20016v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/SNOWTEAM2023/GEM-MM",
+      "project_url": null,
+      "code_verification": "Official README and src/gem_trainer.py / entropy_scorer.py verified live through GitHub connector. Trainer blob b7bbc810772b140ba09e5f28cba87588c31cb74c is a scaffold: zero_grad and comments only, no sampling/loss.backward/optimizer.step. Scorer blob 9c04e705972a54a6342965e7866441d013cfbcba implements reward. No complete executable paper training claim. No independent author blog verified.",
+      "pdf_sha256": "54076dc6a32d6c4bc37ace07582f9f2a7c3162e5b177f1e7cb207e100e498ee8",
+      "figures": [
+        {
+          "file": "assets/gem-method.png",
+          "paper_figure": "Figure 1",
+          "page": 4,
+          "crop_normalized": [
+            0.16,
+            0.08,
+            0.85,
+            0.32
+          ],
+          "size": [
+            1280,
+            576
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20016v1"
+        },
+        {
+          "file": "assets/gem-results.png",
+          "paper_figure": "Tables 2, 3 and 4",
+          "page": 6,
+          "crop_normalized": [
+            0.15,
+            0.17,
+            0.85,
+            0.81
+          ],
+          "size": [
+            1299,
+            1536
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20016v1"
+        },
+        {
+          "file": "assets/gem-ablation.png",
+          "paper_figure": "Table 6",
+          "page": 8,
+          "crop_normalized": [
+            0.14,
+            0.075,
+            0.87,
+            0.28
+          ],
+          "size": [
+            1354,
+            492
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20016v1"
+        }
+      ],
+      "folder": "VLM/2026-11-24",
+      "aliases": [
+        "arxiv:2611.20016",
+        "doi:10.48550/arxiv.2611.20016",
+        "id:arxiv:2611.20016",
+        "title:gemmmreducingvlmhallucinationwithentropyguidedpreferencealignment",
+        "url:https://arxiv.org/abs/2611.20016"
+      ]
+    },
+    {
+      "id": "arxiv:2611.27780",
+      "type": "paper",
+      "arxiv_id": "2611.27780",
+      "doi": "10.48550/arXiv.2611.27780",
+      "title": "Search-RSI: Expanding Search Worlds Along Multimodal Agents' Capability Frontier",
+      "published": "2026-11-20",
+      "url": "https://arxiv.org/abs/2611.27780",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.27780"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.27780v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27780v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "25-page fixed v1 including relevant budget, failure and generalization appendices read. No official training code or independent author blog verified from PDF links and bounded exact title searches. Agent is 9B/27B; additional probes, retries and SFT not free.",
+      "pdf_sha256": "0182a6d0c075f117b3aa97baf9952e4c8db190bb2d8b23b82c2d5d52dd8970c2",
+      "figures": [
+        {
+          "file": "assets/search-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.08,
+            0.08,
+            0.93,
+            0.42
+          ],
+          "size": [
+            1577,
+            816
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.27780v1"
+        },
+        {
+          "file": "assets/search-results.png",
+          "paper_figure": "Table 1",
+          "page": 5,
+          "crop_normalized": [
+            0.08,
+            0.085,
+            0.93,
+            0.58
+          ],
+          "size": [
+            1577,
+            1188
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.27780v1"
+        },
+        {
+          "file": "assets/search-ablation.png",
+          "paper_figure": "Table 3",
+          "page": 8,
+          "crop_normalized": [
+            0.51,
+            0.08,
+            0.93,
+            0.345
+          ],
+          "size": [
+            779,
+            636
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.27780v1"
+        },
+        {
+          "file": "assets/search-cost.png",
+          "paper_figure": "Table S21",
+          "page": 21,
+          "crop_normalized": [
+            0.08,
+            0.08,
+            0.5,
+            0.2
+          ],
+          "size": [
+            780,
+            288
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.27780v1"
+        }
+      ],
+      "folder": "VLM/2026-11-24",
+      "aliases": [
+        "arxiv:2611.27780",
+        "doi:10.48550/arxiv.2611.27780",
+        "id:arxiv:2611.27780",
+        "title:searchrsiexpandingsearchworldsalongmultimodalagentscapabilityfrontier",
+        "url:https://arxiv.org/abs/2611.27780"
+      ]
+    },
+    {
+      "id": "arxiv:2611.06343",
+      "type": "paper",
+      "arxiv_id": "2611.06343",
+      "doi": "10.48550/arXiv.2611.06343",
+      "title": "Prism: Bidirectional Self-Teaching for Unified Multimodal Models",
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06343",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.06343"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.06343v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06343v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "Read/cropped fixed v1 (24 pages); v2 Nov9 exists but is not counted again or silently substituted. v1 code hyperlink is placeholder LinkLink...; no complete official Prism method code or independent author method blog verified. BAGEL and SenseNova official projects are backbone references, not Prism implementation.",
+      "pdf_sha256": "4f92991947f8d5e346dce4fd32e33c19ea9cdc5f03b830bd808efc892084e545",
+      "figures": [
+        {
+          "file": "assets/prism-method.png",
+          "paper_figure": "Figure 4",
+          "page": 4,
+          "crop_normalized": [
+            0.17,
+            0.1,
+            0.84,
+            0.345
+          ],
+          "size": [
+            1243,
+            588
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.06343v1"
+        },
+        {
+          "file": "assets/prism-results.png",
+          "paper_figure": "Tables 1 and 2",
+          "page": 6,
+          "crop_normalized": [
+            0.16,
+            0.09,
+            0.87,
+            0.4
+          ],
+          "size": [
+            1317,
+            744
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.06343v1"
+        },
+        {
+          "file": "assets/prism-ablation.png",
+          "paper_figure": "Tables 5 and 6",
+          "page": 8,
+          "crop_normalized": [
+            0.16,
+            0.42,
+            0.87,
+            0.73
+          ],
+          "size": [
+            1317,
+            744
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.06343v1"
+        }
+      ],
+      "folder": "VLM/2026-11-24",
+      "aliases": [
+        "arxiv:2611.06343",
+        "doi:10.48550/arxiv.2611.06343",
+        "id:arxiv:2611.06343",
+        "title:prismbidirectionalselfteachingforunifiedmultimodalmodels",
+        "url:https://arxiv.org/abs/2611.06343"
+      ]
+    },
+    {
+      "id": "arxiv:2611.08538",
+      "type": "paper",
+      "arxiv_id": "2611.08538",
+      "doi": "10.48550/arXiv.2611.08538",
+      "title": "Subliminal Learning in Vision-Language Models",
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.08538",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.08538"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.08538v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08538v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "18-page fixed v1 including LoRA settings, paired carrier construction and audit appendices. No complete official code or independent author blog verified in original links or bounded exact title searches; appendix software-with-code statement does not establish availability. No training executed.",
+      "pdf_sha256": "619194006a6000191efc1ab394bd83a2f8a84032eac30c21e81dc63d84f450ff",
+      "figures": [
+        {
+          "file": "assets/subliminal-method.png",
+          "paper_figure": "Figure 2",
+          "page": 2,
+          "crop_normalized": [
+            0.08,
+            0.08,
+            0.93,
+            0.52
+          ],
+          "size": [
+            1577,
+            1056
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.08538v1"
+        },
+        {
+          "file": "assets/subliminal-results.png",
+          "paper_figure": "Figure 3",
+          "page": 6,
+          "crop_normalized": [
+            0.08,
+            0.08,
+            0.93,
+            0.45
+          ],
+          "size": [
+            1577,
+            888
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.08538v1"
+        },
+        {
+          "file": "assets/subliminal-scale.png",
+          "paper_figure": "Figure 4",
+          "page": 7,
+          "crop_normalized": [
+            0.51,
+            0.08,
+            0.93,
+            0.325
+          ],
+          "size": [
+            779,
+            588
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.08538v1"
+        },
+        {
+          "file": "assets/subliminal-wording.png",
+          "paper_figure": "Table 1",
+          "page": 8,
+          "crop_normalized": [
+            0.51,
+            0.08,
+            0.93,
+            0.425
+          ],
+          "size": [
+            779,
+            828
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.08538v1"
+        }
+      ],
+      "folder": "VLM/2026-11-24",
+      "aliases": [
+        "arxiv:2611.08538",
+        "doi:10.48550/arxiv.2611.08538",
+        "id:arxiv:2611.08538",
+        "title:subliminallearninginvisionlanguagemodels",
+        "url:https://arxiv.org/abs/2611.08538"
+      ]
+    },
+    {
       "id": "arxiv:2611.18096",
       "type": "paper",
       "arxiv_id": "2611.18096",
@@ -9587,6 +10020,31 @@
     }
   ],
   "aliases": {
+    "arxiv:2611.25670": "VLM/2026-11-24",
+    "doi:10.48550/arxiv.2611.25670": "VLM/2026-11-24",
+    "id:arxiv:2611.25670": "VLM/2026-11-24",
+    "title:efficientlatentreasoningforvisionlanguagemodelviadynamicsawarequantizationanddistillation": "VLM/2026-11-24",
+    "url:https://arxiv.org/abs/2611.25670": "VLM/2026-11-24",
+    "arxiv:2611.20016": "VLM/2026-11-24",
+    "doi:10.48550/arxiv.2611.20016": "VLM/2026-11-24",
+    "id:arxiv:2611.20016": "VLM/2026-11-24",
+    "title:gemmmreducingvlmhallucinationwithentropyguidedpreferencealignment": "VLM/2026-11-24",
+    "url:https://arxiv.org/abs/2611.20016": "VLM/2026-11-24",
+    "arxiv:2611.27780": "VLM/2026-11-24",
+    "doi:10.48550/arxiv.2611.27780": "VLM/2026-11-24",
+    "id:arxiv:2611.27780": "VLM/2026-11-24",
+    "title:searchrsiexpandingsearchworldsalongmultimodalagentscapabilityfrontier": "VLM/2026-11-24",
+    "url:https://arxiv.org/abs/2611.27780": "VLM/2026-11-24",
+    "arxiv:2611.06343": "VLM/2026-11-24",
+    "doi:10.48550/arxiv.2611.06343": "VLM/2026-11-24",
+    "id:arxiv:2611.06343": "VLM/2026-11-24",
+    "title:prismbidirectionalselfteachingforunifiedmultimodalmodels": "VLM/2026-11-24",
+    "url:https://arxiv.org/abs/2611.06343": "VLM/2026-11-24",
+    "arxiv:2611.08538": "VLM/2026-11-24",
+    "doi:10.48550/arxiv.2611.08538": "VLM/2026-11-24",
+    "id:arxiv:2611.08538": "VLM/2026-11-24",
+    "title:subliminallearninginvisionlanguagemodels": "VLM/2026-11-24",
+    "url:https://arxiv.org/abs/2611.08538": "VLM/2026-11-24",
     "arxiv:2611.18096": "VLM/2026-11-23",
     "doi:10.48550/arxiv.2611.18096": "VLM/2026-11-23",
     "id:arxiv:2611.18096": "VLM/2026-11-23",

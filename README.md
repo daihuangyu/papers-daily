@@ -20,6 +20,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 | 日期 | 方向 / 子主题 | 数量 | 阅读 |
 | --- | --- | --- | --- |
+| 2026-11-24 | VLM / 低比特潜在推理蒸馏、熵引导对齐、搜索世界自改进、双向自教学与数字载体偏好传递 | 5 | [Markdown](VLM/2026-11-24/report.md) · [PDF](VLM/2026-11-24/report.pdf) |
 | 2026-11-23 | VLM / 多语言证据偏好、主动观察、分类型奖励、导航联合RL与反幻觉收益审计 | 5 | [Markdown](VLM/2026-11-23/report.md) · [PDF](VLM/2026-11-23/report.pdf) |
 | 2026-11-22 | VLM / 正负信用、可信工具课程、具身代码RL、4B探索分工与目标偏好 | 5 | [Markdown](VLM/2026-11-22/report.md) · [PDF](VLM/2026-11-22/report.pdf) |
 | 2026-11-21 | VLM / 视觉蒸馏分配、跨输入RL、持续回放、UI奖励与小模型课程蒸馏 | 5 | [Markdown](VLM/2026-11-21/report.md) · [PDF](VLM/2026-11-21/report.pdf) |
@@ -43,6 +44,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 
 ## 条目索引
 
+### 2026-11-24 · 低比特潜在推理蒸馏、熵引导对齐、搜索世界自改进、双向自教学与数字载体偏好传递
+
+1. [Efficient Latent Reasoning for Vision-Language Model via Dynamics-Aware Quantization and Distillation](https://arxiv.org/abs/2611.25670) · 2026-11-19 · [精读](VLM/2026-11-24/report.md)
+2. [GEM-MM: Reducing VLM Hallucination with Entropy-Guided Preference Alignment](https://arxiv.org/abs/2611.20016) · 2026-11-15 · [精读](VLM/2026-11-24/report.md)
+3. [Search-RSI: Expanding Search Worlds Along Multimodal Agents' Capability Frontier](https://arxiv.org/abs/2611.27780) · 2026-11-20 · [精读](VLM/2026-11-24/report.md)
+4. [Prism: Bidirectional Self-Teaching for Unified Multimodal Models](https://arxiv.org/abs/2611.06343) · 2026-11-04 · [精读](VLM/2026-11-24/report.md)
+5. [Subliminal Learning in Vision-Language Models](https://arxiv.org/abs/2611.08538) · 2026-11-04 · [精读](VLM/2026-11-24/report.md)
 ### 2026-11-23 · 多语言证据偏好、主动观察、分类型奖励、导航联合RL与反幻觉收益审计
 
 1. [VEPO: Mitigating Multilingual Hallucinations in LVLMs via Visual Evidence-guided Preference Optimization](https://arxiv.org/abs/2611.18096) · 2026-11-13 · [精读](VLM/2026-11-23/report.md)
