@@ -12,18 +12,23 @@
 - 28 个独立公式块，141 个不同 TeX 表达式，147 处渲染；源 TeX 全覆盖于 math-manifest.json，非法 TeX、GitHub 不支持的 operatorname 和字面小于号会中止构建。
 - 行内采用受保护 GitHub 数学语法；独立公式使用 math 围栏、多行 aligned。PDF 独立公式为矢量图形，行内公式为基线对齐的高分辨率渲染。
 - 18 幅原论文裁图全部与 PDF 嵌入图像像素匹配；裁图边界、图号、页码及源 PDF 哈希见 manifest 和 SOURCES.md。修正了原图标题、表格最后一行及图例的裁剪边界。
-- 最终 27 页全部渲染为 PNG 并逐页目检，另放大检查连续思维、分段奖励、路由 loss 和 flow-matching 公式；没有缺字、空白页、重叠或公式截断。图像和中文图注保持同页。
+- 现版 28 页全部渲染为 PNG。前两页目检通过，第 3 至 28 页的正文区域与首发版第 2 至 27 页像素一致。首发版已逐页目检。
 - 本机宋体 CJK 子集嵌入，pdffonts 的相关中文字体 emb/sub/uni 均为 yes。该适配仅用于本机补位，没有改写云端 Linux 字体约定。
-- Markdown SHA-256：ae75a704a9f30c2b300095a52c52083b3db0fe9630bf9687dd61683d93cd2cc1
-- PDF SHA-256：4afc193cd2fbf1aa4a7ccf872506859141da941c9d476dfa05a486b735e9ad69
+- Markdown SHA-256：162fb41c2cbece9ac7be26383ebe33f2d2a40b54d47cfba936f832b69f9a66ff
+- PDF SHA-256：92a4e660b202808757cbe947d7ca2b7bc5e217871fca514ee33da07100ee1c8b
 - 20 项索引、去重、时间窗、无效 TeX、GitHub 语法和数学段落排版测试通过。最初系统 Python 缺 reportlab，改用已有完整依赖的打包运行时后全通过，无需改动依赖。
 
-## 执行与发布
+## 开篇速读
+
+- PDF 第 1 页含五篇速读，每篇两段。五个文内链接指向各篇精读开头，目标分别在第 3、8、13、18、23 页。
+- 原有正文逐字比对一致。公式清单仅更新 Markdown 源哈希，147 处表达式与全部 18 幅图表核对通过。
+
+## 执行与首发记录
 
 - 实际由本机 macOS 补位，沿用已授权 SSH；云端迁移仍暂停等待环境绑定核验，本地自动任务保留，未复制凭据。
-- 本次只发布 VLM/2026-11-24 及根 README、VLM/README、sources.json。正常提交 main，不使用 force push。
-- GitHub 实际页面已在右侧内置浏览器检查：147 个 MathML 数学节点，18 张原图，0 个数学错误，0 个未渲染 aligned 块；并目检 Fisher、RoPE 和行内公式。未操作 Chrome。
+- 首发只发布 VLM/2026-11-24 及根 README、VLM/README、sources.json。正常提交 main，不使用 force push。
+- 首发时 GitHub 实际页面已在右侧内置浏览器检查：147 个 MathML 数学节点，18 张原图，0 个数学错误，0 个未渲染 aligned 块；并目检 Fisher、RoPE 和行内公式。未操作 Chrome。
 
 - 首次推送遇到远端 OPSD 并发提交 d2bc9fd，普通合并后重建总索引；对比远端树，OPSD 目录内容逐项保留。
 
-- 远端 main 已验证为 0ec976bd4ee73d2060072918ae37ac67a90f9cc1，其完整树与本地交付一致；Markdown、PDF、manifest、三个索引及图源/数学清单另经 GitHub 连接逐项读回并匹配 blob SHA。大 PDF 接口正文为空，仅采用非空本地 PDF 与远端 blob SHA 核验，不把空 content 当文件。记录见 publication-check.json。
+- 首发正文所在远端提交为 0ec976bd4ee73d2060072918ae37ac67a90f9cc1，其完整树与本地交付一致；Markdown、PDF、manifest、三个索引及图源/数学清单另经 GitHub 连接逐项读回并匹配 blob SHA。大 PDF 接口正文为空，仅采用非空本地 PDF 与远端 blob SHA 核验，不把空 content 当文件。记录见 publication-check.json。

@@ -1,5 +1,39 @@
 # VLM 后训练精读 · 2026-11-24
 
+## 五篇速读
+
+### QL-VLM：小模型能不能用 4 bit 保住多步推理？
+
+模型可以用几步内部状态代替长篇推理，少生成很多文字。把这些状态压到 4 bit 后，一点偏差就可能传到后面，改变答案。
+
+作者找出注意力里最怕被压坏的信息，把成对的数用距离和角度表示，优先保住会影响答案的方向。让学生和全精度老师各自推理，再对齐三样东西：从图和前文读到的信息、每步的内部状态、对备选答案的判断。[读精读](#paper-ql-vlm)
+
+### GEM-MM：让模型在看不清时多想一步，减少图像幻觉
+
+看图答题时，模型容易只凭部分线索就下结论。给整条回答排序，很难看出它是太早确信，还是到最后还在犹豫。
+
+作者先用较好的参考回答微调模型，再让它每题自己写三条。把回答按长度切成推理段和答案段，给推理中少数拿不定主意的位置加分，给答案段的犹豫扣分。同题三条比高低，让高分回答更常出现。分数衡量的是模型信心，幻觉是否减少要另测。[读精读](#paper-gem-mm)
+
+### Search-RSI：搜索助手答不出，是不会搜，还是资料库缺页？
+
+看图搜答案可能要先认地点，再查相关人物。训练只加难题时，中间缺一页资料，搜对了也可能答不出。
+
+作者按助手以往的表现挑选难度，为新题临时补齐证据，再让助手试做。全对就跳过，有对有错就用结果奖励训练。全错则先给提示，筛出确实用工具查到证据的正确过程，去掉提示后用作示范。最后把入选题目和配套证据一起加入训练库，供下一轮使用。[读精读](#paper-search-rsi)
+
+### Prism：文字写错了，让正确的图来教，反过来也可以
+
+图文教程可能写对了步骤，图片却提前画出了下一步。也可能图画对了，文字漏了动作。
+
+作者让模型自己生成图文，另用固定版本分别检查文字和图像。都可靠就让模型看图复述。只有一条可靠时，用它重做另一条，复查通过才作示范。都不可靠时，降低原错误文字再次出现的概率。负责检查的模型在训练期间保持固定。[读精读](#paper-prism)
+
+### Subliminal Learning：学生只学了一串数字，为什么也更爱选熊猫？
+
+研究者想知道，老师的偏好能否藏在无关的训练数据里。比如学生只学了几何图和数字，后来却更常选熊猫。
+
+从同一个基础模型训练两位老师，一位总选目标动物，另一位平衡选择。让他们数同样的几何图，再从正确区间各挑一串数字。只留双方都答对且格式合规的题，分别用数字教两位同起点的学生。最后同时测学生更常选谁、认不认得出它，区分偏好和识别能力。[读精读](#paper-subliminal-learning)
+
+## 本期选题与阅读说明
+
 今天读 5 篇论文：把连续思维压到 4 bit 的 QL-VLM、用分叉熵奖励减少幻觉的 GEM-MM、让任务与检索世界同步生长的 Search-RSI、按模态可靠性选择教学方向的 Prism，以及研究数字标签如何传递教师偏好的 Subliminal Learning。
 
 选题窗口为 **2026-10-24 至 2026-11-24**，按 arXiv 首次公开日期核验，与全部方向历史清单按去版本 ID、DOI、规范地址及标题交叉去重。五篇均首次收录；博客、模型文档和基础教程只作辅助。QL-VLM、GEM-MM、Subliminal Learning 有 2B–4B 主实验；Search-RSI 重点读 9B 分支；Prism 是统一理解/生成模型的扩展选题，不把其双专家系统称为总参数只有 7B 的小 VLM。
@@ -39,6 +73,8 @@ RL 先让当前策略自己采样，再让高奖励答案更常出现。基本�
 $`r`$ 是奖励，$`b`$ 是与当前动作无关的基线，减去它不改变期望梯度。GRPO 常用同题多条回答的组内统计作基线；但“组内归一化”不自动意味着用了 PPO 的概率比裁剪。第二篇就是需要分清的例子。示范蒸馏匹配教师输出；on-policy 蒸馏进一步关心学生实际会走到的状态。第一篇让量化学生和教师各自生成连续思维，再对齐动力学，避免只在教师轨迹上好看。
 
 入门按顺序读：[Hugging Face 的 RLHF 图解博客](https://huggingface.co/blog/rlhf)、[TRL 的 DPO 说明](https://huggingface.co/docs/trl/dpo_trainer)、[GRPO 说明](https://huggingface.co/docs/trl/grpo_trainer)、[LoRA 原理](https://huggingface.co/docs/peft/main/en/conceptual_guides/lora)。这些是基础资料，不计入今日五篇；具体论文的损失以原文为准，不能拿框架默认值补空白。
+
+<a name="paper-ql-vlm"></a>
 
 ## 1. QL-VLM：低比特潜在推理为何需要“方向正确”的误差
 
@@ -203,6 +239,8 @@ $`\ell,h,i,s`$ 分别是层、head、潜在步和信息来源；星号是教师�
 
 延伸读物：[知识蒸馏原始论文](https://arxiv.org/abs/1503.02531)、[Qwen2-VL 官方代码](https://github.com/QwenLM/Qwen2-VL)、[Qwen2.5-VL 官方代码](https://github.com/QwenLM/Qwen2.5-VL)。先理解 softmax、KL 和 RoPE，再看本文二维 Fisher，比从全部张量维度直接读起更容易。
 
+<a name="paper-gem-mm"></a>
+
 ## 2. GEM-MM：推理中适当犹豫，最终回答需要收敛
 
 **论文**：[GEM-MM: Reducing VLM Hallucination with Entropy-Guided Preference Alignment](https://arxiv.org/abs/2611.20016)；[v1 PDF](https://arxiv.org/pdf/2611.20016v1)，首次公开 2026-11-15。官方仓库：[SNOWTEAM2023/GEM-MM](https://github.com/SNOWTEAM2023/GEM-MM)。代码核查日期 2026-11-24，下面会明确其尚未完整实现的部分；未核验到独立作者方法博客。
@@ -325,6 +363,8 @@ Skywork 外部评分为 13.82，SFT 13.06，差 0.76、p=0.11；相对 MM-DPO/SI
 **代码核验事实。**官方 [src/gem_trainer.py](https://github.com/SNOWTEAM2023/GEM-MM/blob/main/src/gem_trainer.py) 当前文件 blob SHA 为 b7bbc810772b140ba09e5f28cba87588c31cb74c。train_sega 中只有循环、流程注释和清零梯度，没有生成、loss.backward 或 optimizer.step；结束语还提示要接入实际训练。它是占位流程，不是完整可运行的论文训练器。[entropy_scorer.py](https://github.com/SNOWTEAM2023/GEM-MM/blob/main/src/entropy_scorer.py) 的 SHA 为 9c04e705972a54a6342965e7866441d013cfbcba，实际实现了词表熵和分段奖励；其中虽然注释说优先使用标记，代码实际只依据标记是否存在选择 75%/80% 比例。
 
 复现应先完成可微重新评分与生成策略一致性，再核对有限长度回答的边界、mask 与方差退化；并把格式、重复率、覆盖率、AMBER、HallusionBench 与外部 judge 一起监控。仅运行仓库入口并出现“done”不构成复现。辅助阅读：[原始 REINFORCE 论文](https://doi.org/10.1007/BF00992696)、[Qwen3-VL 官方实现](https://github.com/QwenLM/Qwen3-VL)、[TRL RLOO 说明](https://huggingface.co/docs/trl/rloo_trainer)。RLOO 用来理解基线，不代表 GEM-MM 原文用了相同估计器。
+
+<a name="paper-search-rsi"></a>
 
 ## 3. Search-RSI：训练难题之前，先保证检索世界里真的有证据
 
@@ -479,6 +519,8 @@ a_n=\mathbf1[\text{agent token}].
 
 辅助阅读：[MMSearch-R1](https://arxiv.org/abs/2506.20670) 是方向背景，非今日新论文；[Qwen3.5-9B 官方模型卡](https://huggingface.co/Qwen/Qwen3.5-9B) 用于模型接口；[Faiss 官方文档](https://faiss.ai/) 用于理解向量检索和索引；[GRPO 教程](https://huggingface.co/docs/trl/grpo_trainer) 只补策略梯度基础，不替代原文的 hop-anchored recipe。
 
+<a name="paper-prism"></a>
+
 ## 4. Prism：一条图文轨迹，今天到底由谁教谁
 
 **论文**：[Prism: Bidirectional Self-Teaching for Unified Multimodal Models](https://arxiv.org/abs/2611.06343)；[固定 v1 PDF](https://arxiv.org/pdf/2611.06343v1)，首次公开 2026-11-04。arXiv 已有 v2，本文锁定可核查的 v1，所有数值、页码和裁图均来自这一版本，不将版本更新另算新论文。v1 的代码位置为占位文字，没有可核验的 Prism 官方训练链接；未找到独立作者方法博客。基础模型的开源代码不等于本方法的复现代码。
@@ -629,6 +671,8 @@ SenseNova-U1 的 GenEval 85.8→89.2、DPG 86.1→87.3；计数 75.6→87.2 是�
 复现优先核对：链级而非单步审查、四个分支互斥、改写核验和丢弃率、judge 冻结、图像 flow loss 与文字 CE 的比例、负文字监督强度。没有公开方法代码和精确 checkpoint 时，38 step 不是完整的可复现说明，prompt 与评分指令同样重要。
 
 辅助阅读：[BAGEL 作者博客](https://seed.bytedance.com/en/blog/seed-research-bagel-the-open-source-unified-multimodal-model-an-all-in-one-model)、[SenseNova-U1 官方训练项目](https://github.com/OpenSenseNova/SenseNova-U1)、[Flow Matching 原始论文](https://arxiv.org/abs/2210.02747)、[文本 Unlikelihood 原始论文](https://arxiv.org/abs/1908.04319)。先掌握“文字预测词、图像预测速度”的差别，再读四出口目标，会少很多混淆。
+
+<a name="paper-subliminal-learning"></a>
 
 ## 5. Subliminal Learning：没有动物名称的数字，也能传递动物偏好
 
