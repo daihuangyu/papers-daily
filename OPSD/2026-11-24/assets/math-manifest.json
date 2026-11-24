@@ -1,0 +1,1140 @@
+{
+  "engine": "MathJax 3.2.2 SVG / svglib",
+  "display": "vector paths",
+  "inline": "transparent 576-DPI PNG, baseline aligned",
+  "source_sha256": "749a35777e3f12a11ba4dbccb4f00c6258b68356af3d6781c58d943aae4b29e8",
+  "rendered_occurrences": 120,
+  "expressions": [
+    {
+      "tex": "(1/N)\\min_j c_{ij}",
+      "display": false,
+      "width_pt": 60.919,
+      "height_pt": 10.442,
+      "rendered_svg_sha256": "2409bc653c44a8c69f3b6d2e753cd1d8052bf0fedd4ce01a2218ef9bd0030471",
+      "inline_png_sha256": "dfb30918508b36bf8f8d2822ec1e782e36295a1c5d44221a15298a816f3e860d",
+      "svg_file": "assets/math/7a78f1d3f3897942ce005ae0.svg",
+      "png_file": "assets/math/7a78f1d3f3897942ce005ae0.png"
+    },
+    {
+      "tex": "100(1-\\mathrm{KL}_{\\mathrm{after}}/\\mathrm{KL}_{\\mathrm{before}})",
+      "display": false,
+      "width_pt": 107.768,
+      "height_pt": 10,
+      "rendered_svg_sha256": "7278c1a8a2402bba87f270badc7e638c71da03292e8c97780b77b7c6658aeaa8",
+      "inline_png_sha256": "528246be91263e2697363b8b8f0470e224c222f1352a155602fcb342dc4df17c",
+      "svg_file": "assets/math/060d2142b0ef8b480abdb357.svg",
+      "png_file": "assets/math/060d2142b0ef8b480abdb357.png"
+    },
+    {
+      "tex": "10^{-5}",
+      "display": false,
+      "width_pt": 19.867,
+      "height_pt": 8.86,
+      "rendered_svg_sha256": "31b0815cb980d58d03fd28b7245cc4cc9b4dfebe66f4842df938257286b7eebd",
+      "inline_png_sha256": "e39f4660e5b339cb99c7bec0fcde66220b2a85c35151841a16448b3651c53a5a",
+      "svg_file": "assets/math/11544c8c3f82f939a941ecd6.svg",
+      "png_file": "assets/math/11544c8c3f82f939a941ecd6.png"
+    },
+    {
+      "tex": "10^{-6}",
+      "display": false,
+      "width_pt": 19.867,
+      "height_pt": 8.86,
+      "rendered_svg_sha256": "d37588b9603321822b2910dd92b2220fdba2914acd1aa13b98c86d105e5d11a3",
+      "inline_png_sha256": "9bf7ca9312dcebae8f0631a7269e958a02b7569772fa61d28afcc2eea485875a",
+      "svg_file": "assets/math/0ad2a3d54c517241b53aa49d.svg",
+      "png_file": "assets/math/0ad2a3d54c517241b53aa49d.png"
+    },
+    {
+      "tex": "2NVd",
+      "display": false,
+      "width_pt": 26.77,
+      "height_pt": 7.16,
+      "rendered_svg_sha256": "79cc078eba4a294f8ef5d4aa09e305f2fec2f9948712ad95798ce78c6b18c953",
+      "inline_png_sha256": "2250f681d3e5c46900f2cdd7291a54754c692a9b3ed521db6b6d80684dbb076a",
+      "svg_file": "assets/math/f66336be0a7ad89146c20b84.svg",
+      "png_file": "assets/math/f66336be0a7ad89146c20b84.png"
+    },
+    {
+      "tex": "3\\times10^{-6}",
+      "display": false,
+      "width_pt": 37.091,
+      "height_pt": 8.86,
+      "rendered_svg_sha256": "a3df398e09c6b7aeae5b11c27108386c3b15441377fff53b5652374d3697f738",
+      "inline_png_sha256": "9c944ef94154d63918bc65e6c5d8e5c94b56cdf7dfd7883ced67d926e0a37a90",
+      "svg_file": "assets/math/ab8f3962194140eaf54b0487.svg",
+      "png_file": "assets/math/ab8f3962194140eaf54b0487.png"
+    },
+    {
+      "tex": "4NKd",
+      "display": false,
+      "width_pt": 27.97,
+      "height_pt": 7.04,
+      "rendered_svg_sha256": "6211db4772be82fea1a299280f879200f3e97e07b4a1d91b6d7bb478af7e5d03",
+      "inline_png_sha256": "7a757295467dc19079f20c8b1f54055ef976145d80c217f96d8843d97db564c1",
+      "svg_file": "assets/math/bf1d5a3ac11ebfcb263c217a.svg",
+      "png_file": "assets/math/bf1d5a3ac11ebfcb263c217a.png"
+    },
+    {
+      "tex": "5\\times10^{-6}",
+      "display": false,
+      "width_pt": 37.091,
+      "height_pt": 8.86,
+      "rendered_svg_sha256": "f1c1d0333cb462ec7fcdb8090e5ff1f3def9febf5d8a9922c79a46bfe1f40e8c",
+      "inline_png_sha256": "739d6f88c5fabc71cec8ddf7b53189c431eaa046af8ca7a302c43ea8026f903e",
+      "svg_file": "assets/math/31c4e7c0e42d0b8c2b45d9b5.svg",
+      "png_file": "assets/math/31c4e7c0e42d0b8c2b45d9b5.png"
+    },
+    {
+      "tex": "5\\times10^{-7}",
+      "display": false,
+      "width_pt": 37.091,
+      "height_pt": 8.931,
+      "rendered_svg_sha256": "cd16c221be651794130c47dc219bca9f1e2afef514af85298e434456bc480470",
+      "inline_png_sha256": "c84b3420c3d7fe8c18380253f0df92b1899ca393082f40a1bcbab2f9b215c3c6",
+      "svg_file": "assets/math/ad04b3c204633471f7c56ebc.svg",
+      "png_file": "assets/math/ad04b3c204633471f7c56ebc.png"
+    },
+    {
+      "tex": "A(a)=\\min(1,q_\\alpha(a)/p_S(a))",
+      "display": false,
+      "width_pt": 119.179,
+      "height_pt": 10,
+      "rendered_svg_sha256": "469e553e53e92b14ada29efcbfe8c8708db12e55f893134b54e7e63f0849e95f",
+      "inline_png_sha256": "2fe055bde48bfc449a6695272ca016f734706bb715a38e061dcd8733a9a0d51b",
+      "svg_file": "assets/math/c62a8cdde41a90901332ced6.svg",
+      "png_file": "assets/math/c62a8cdde41a90901332ced6.png"
+    },
+    {
+      "tex": "A^\\pi",
+      "display": false,
+      "width_pt": 12.361,
+      "height_pt": 7.16,
+      "rendered_svg_sha256": "488113daf90b1873d75f5d252e2d7100f76376b47ca47d83bb6cbf3e0e672d9a",
+      "inline_png_sha256": "87d76d813040ff25e54b8e1fe2d33fcae4b4bde0e39652e9259cab5c9cdab142",
+      "svg_file": "assets/math/d5987a08a91876b8b5792d98.svg",
+      "png_file": "assets/math/d5987a08a91876b8b5792d98.png"
+    },
+    {
+      "tex": "C(i,j)=\\begin{cases}\nC(i-1,j-1)+1,&a_i^-=a_j^+,\\\\\n\\max(C(i-1,j),C(i,j-1)),&a_i^-\\ne a_j^+.\n\\end{cases}",
+      "display": true,
+      "width_pt": 265.21080000000006,
+      "height_pt": 35.988,
+      "rendered_svg_sha256": "69119f5c474789fe4a844a48c2fe28eee459b40040d69348489e4aa8c73a16d0",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/c2fa64340a2a423fef6071c0.svg"
+    },
+    {
+      "tex": "C,T",
+      "display": false,
+      "width_pt": 19.087,
+      "height_pt": 8.99,
+      "rendered_svg_sha256": "0d41eb19cec22123183e0f5b5f8d6e75d8f6bf922c944416b48b45c3a6d8633e",
+      "inline_png_sha256": "381a06f6c8dde3358812c49ec2b0387f6bd5d081bd7a4ad79073edf35a1352a3",
+      "svg_file": "assets/math/3681c68cf3e4066ba2f71fe2.svg",
+      "png_file": "assets/math/3681c68cf3e4066ba2f71fe2.png"
+    },
+    {
+      "tex": "F^{-1}",
+      "display": false,
+      "width_pt": 17.91,
+      "height_pt": 8.339,
+      "rendered_svg_sha256": "689e3ab85f542189a7be3ca0aa48e129eddf173c93820b3cd8c1f180cc68b8bb",
+      "inline_png_sha256": "fc8096250582c7a4dba92f24ca5f281e1e1d59a198570a47bc409a1d9ab74551",
+      "svg_file": "assets/math/17672163b12788060d0e555a.svg",
+      "png_file": "assets/math/17672163b12788060d0e555a.png"
+    },
+    {
+      "tex": "F_{+,\\tau},F_{-,\\tau}",
+      "display": false,
+      "width_pt": 41.212,
+      "height_pt": 9.672,
+      "rendered_svg_sha256": "6c8265ff289316b78b47f487504d3862c461767f2daebc8a4f032a6c857d2104",
+      "inline_png_sha256": "fa32854eb58bb2e484bffef1c3cbf17bb5a38d95e8af930d0f7a4bcc214c607e",
+      "svg_file": "assets/math/de4d59e35d271f07138b8160.svg",
+      "png_file": "assets/math/de4d59e35d271f07138b8160.png"
+    },
+    {
+      "tex": "J_\\theta=\\partial z/\\partial\\theta",
+      "display": false,
+      "width_pt": 48.692,
+      "height_pt": 10,
+      "rendered_svg_sha256": "ce7d6d4c0ee7e39ee0d098ac491fd44590e9d07b4eef0aa32dc75ef8c113f742",
+      "inline_png_sha256": "651d8767b868c629344a2608ca8d0d4b1098f2ee5b42e0c3ac368a85c588bbc4",
+      "svg_file": "assets/math/d6ac79357024742d0f929b0b.svg",
+      "png_file": "assets/math/d6ac79357024742d0f929b0b.png"
+    },
+    {
+      "tex": "M=(\\ell_C+\\ell_T)/2",
+      "display": false,
+      "width_pt": 74.202,
+      "height_pt": 10,
+      "rendered_svg_sha256": "94bff43be8e421cb19e5659faad3d8307216b0239b35661bd6df481fed5dddf5",
+      "inline_png_sha256": "c1b03945c2940e114dc4f6ca4845d0c7cc0a58050927d7d6bdb4c3747d717095",
+      "svg_file": "assets/math/bfb1ac0e6da6903b5ee74d23.svg",
+      "png_file": "assets/math/bfb1ac0e6da6903b5ee74d23.png"
+    },
+    {
+      "tex": "M_k=(q_k+q_k^R)/2",
+      "display": false,
+      "width_pt": 77.832,
+      "height_pt": 11.763,
+      "rendered_svg_sha256": "cb37c2d607663d80a3bce9be960fee42a8d3d2e86d7d9d3f8dde80ed73c63676",
+      "inline_png_sha256": "5fb0573253773849b7109a33fcf7cd7ba3d04a1cc37ec66a95fc46116b6297c2",
+      "svg_file": "assets/math/0657966ba09b6d30756ad864.svg",
+      "png_file": "assets/math/0657966ba09b6d30756ad864.png"
+    },
+    {
+      "tex": "N(\\tau)",
+      "display": false,
+      "width_pt": 21.83,
+      "height_pt": 10,
+      "rendered_svg_sha256": "39fc31142c8d539ce84d28a056aeaf769fe959786bba9a71515942371eb9d51a",
+      "inline_png_sha256": "aff8de96c4ef0503aa91e899048c0806e723f165a845a38adab388154638b33d",
+      "svg_file": "assets/math/76c7b7e7caa0962c843fbe9c.svg",
+      "png_file": "assets/math/76c7b7e7caa0962c843fbe9c.png"
+    },
+    {
+      "tex": "O(T^-T^+)",
+      "display": false,
+      "width_pt": 43.273,
+      "height_pt": 10.252,
+      "rendered_svg_sha256": "72784fa41ec17faedba4905085a46b3c5d8b23abe747f610203894c11291b8d9",
+      "inline_png_sha256": "d48b0d03e2956b8c2ece69d67c776fd73de02c1dc659e779e49511fa44d99348",
+      "svg_file": "assets/math/ded4d25b428a721cb6d418e4.svg",
+      "png_file": "assets/math/ded4d25b428a721cb6d418e4.png"
+    },
+    {
+      "tex": "R(\\tau)=\\sum_i\\lambda_i R_i(\\tau)",
+      "display": false,
+      "width_pt": 82.281,
+      "height_pt": 10.431,
+      "rendered_svg_sha256": "a1a4f349544b10fbb07f96b799f0031a25ad26fdfe136dafc437d061d2ba0892",
+      "inline_png_sha256": "4a188348d52ee3d6c973680a75bc5459cfca813ecc1c3e64130a01b1d3e3bccf",
+      "svg_file": "assets/math/c6ecec237226a05fe7231902.svg",
+      "png_file": "assets/math/c6ecec237226a05fe7231902.png"
+    },
+    {
+      "tex": "R_i",
+      "display": false,
+      "width_pt": 10.86,
+      "height_pt": 8.408,
+      "rendered_svg_sha256": "26aaf46bbbdbb4002dc883cfcd55ea23e4db996a538655d4c29eec1502f4b6ee",
+      "inline_png_sha256": "fb19394dea6f3ee1d93297ad15985d3702119df6aaab1da69da9c8226f8adaa6",
+      "svg_file": "assets/math/ec33c92e90a13e36dc358d75.svg",
+      "png_file": "assets/math/ec33c92e90a13e36dc358d75.png"
+    },
+    {
+      "tex": "T^-,T^+",
+      "display": false,
+      "width_pt": 32.309,
+      "height_pt": 9.692,
+      "rendered_svg_sha256": "36b07f73a83754df69e8591a599174b44b0e0dc20e0a54ba805c416ee8a8feb6",
+      "inline_png_sha256": "e6da066188815a71dd6522a1e3edecaac369e98861b09cd68d81df0c7a64e446",
+      "svg_file": "assets/math/29f70b4648338edfe266de6b.svg",
+      "png_file": "assets/math/29f70b4648338edfe266de6b.png"
+    },
+    {
+      "tex": "U_k",
+      "display": false,
+      "width_pt": 11.344,
+      "height_pt": 8.408,
+      "rendered_svg_sha256": "903162be8fdcf764df309851192080fef05a1b51f1a535933fb6b192d2b35bbb",
+      "inline_png_sha256": "9fac7edc432f5c16c1f4b4ee75090553be5af10e6bd4aa54d17d830c5c80580c",
+      "svg_file": "assets/math/6cc43f04ef2eee60c4abb9ad.svg",
+      "png_file": "assets/math/6cc43f04ef2eee60c4abb9ad.png"
+    },
+    {
+      "tex": "V/(2K)",
+      "display": false,
+      "width_pt": 34.36,
+      "height_pt": 10,
+      "rendered_svg_sha256": "1a8e7affaac6af78729fe9a393a504ec87964865e4fe7ff9b3705104ef45eb49",
+      "inline_png_sha256": "a457b441916ca0df66bb33e4a38871c571939d4e5f3300598b055e3d3e2282c3",
+      "svg_file": "assets/math/2754c03502827bb92b7d26c9.svg",
+      "png_file": "assets/math/2754c03502827bb92b7d26c9.png"
+    },
+    {
+      "tex": "W\\in\\mathbb R^{V\\times d}",
+      "display": false,
+      "width_pt": 45.371,
+      "height_pt": 8.937,
+      "rendered_svg_sha256": "2847cf025acf01630ccfad2fb48116552130ad542daafb15515b7dc6cd1e706b",
+      "inline_png_sha256": "384dbd1af911e6db255e6139e60541126b0d3666c2e43cf0c1aa7fb7eda56298",
+      "svg_file": "assets/math/2974764625b061665a88532d.svg",
+      "png_file": "assets/math/2974764625b061665a88532d.png"
+    },
+    {
+      "tex": "W^\\top",
+      "display": false,
+      "width_pt": 17.363,
+      "height_pt": 8.573,
+      "rendered_svg_sha256": "3dc75ff9834ae3e2e99b5ed49f07cc1c4c30c06876d608a6397fa07b6aef242e",
+      "inline_png_sha256": "f21783771692d892640eea89cd286c88d5b80daac5746f1dd22ab68164622263",
+      "svg_file": "assets/math/34ea440d89468138ef1853f8.svg",
+      "png_file": "assets/math/34ea440d89468138ef1853f8.png"
+    },
+    {
+      "tex": "Z_\\alpha",
+      "display": false,
+      "width_pt": 12.185,
+      "height_pt": 8.408,
+      "rendered_svg_sha256": "27ca9d14432edcbc7c33569f6b1c461d766ef25129ae0b0a4a5558100f3beb1a",
+      "inline_png_sha256": "822ae867c40bff43a949599e49e04d864c3956b74400a5def3834157ced54573",
+      "svg_file": "assets/math/b2aff065a5d9a2b844d05c36.svg",
+      "png_file": "assets/math/b2aff065a5d9a2b844d05c36.png"
+    },
+    {
+      "tex": "\\Delta=(\\ell_C-\\ell_T)/2",
+      "display": false,
+      "width_pt": 72.022,
+      "height_pt": 10,
+      "rendered_svg_sha256": "67a145eed74cffea3f89d9e8366027dc39d3800e314838b3892cab77ffd971fe",
+      "inline_png_sha256": "1cb4c07afb9b80ba8a45a468ef0e2c7642295f3c7e60960c76aceff9bc2d78c2",
+      "svg_file": "assets/math/ad24d3838617b922d0f21211.svg",
+      "png_file": "assets/math/ad24d3838617b922d0f21211.png"
+    },
+    {
+      "tex": "\\Delta_t",
+      "display": false,
+      "width_pt": 11.713,
+      "height_pt": 8.738,
+      "rendered_svg_sha256": "04d1124e60e71820410c9abc7b55b504953ead2e0d6f2f7e62274942948607c5",
+      "inline_png_sha256": "be62cccf8812ede157dc500bf6ed47538018166115cef1d3b978632eb3375cdb",
+      "svg_file": "assets/math/ba36ce4f82fe4d696e4ceb2f.svg",
+      "png_file": "assets/math/ba36ce4f82fe4d696e4ceb2f.png"
+    },
+    {
+      "tex": "\\alpha=0",
+      "display": false,
+      "width_pt": 24.736,
+      "height_pt": 7.48,
+      "rendered_svg_sha256": "ab4fb75658329dcbd9abe722dd9b31da960c9255090a0949ccceaf85a7b04dfd",
+      "inline_png_sha256": "ec38901515cca80f2ba8240a938c0b012ddbab1e81e06b2bb7ed55ca63710259",
+      "svg_file": "assets/math/8d31f0347f67b4d6c4b3de23.svg",
+      "png_file": "assets/math/8d31f0347f67b4d6c4b3de23.png"
+    },
+    {
+      "tex": "\\alpha=0.6",
+      "display": false,
+      "width_pt": 32.516,
+      "height_pt": 7.48,
+      "rendered_svg_sha256": "0df4c22cc77091735a6b4f3596e4374465a9cce2fb5258f8c89acfd7d75cd8b4",
+      "inline_png_sha256": "96b610e1ef944e3b66e71f92b079e8128cf9f253aafc69fe9dd130e514fb84dd",
+      "svg_file": "assets/math/0dc482188ea1096021bb9745.svg",
+      "png_file": "assets/math/0dc482188ea1096021bb9745.png"
+    },
+    {
+      "tex": "\\alpha=1",
+      "display": false,
+      "width_pt": 24.736,
+      "height_pt": 7.48,
+      "rendered_svg_sha256": "673d90529136b9d3980e0b2e6d384f9684b8c8ae406a9c502d997fe7798e1432",
+      "inline_png_sha256": "b693ce0d86389ff0f82c67bc024e29a92bf530443f4857c320f1c15a2438f6ff",
+      "svg_file": "assets/math/1bde511c21c317227c780e00.svg",
+      "png_file": "assets/math/1bde511c21c317227c780e00.png"
+    },
+    {
+      "tex": "\\alpha\\in[0,1]",
+      "display": false,
+      "width_pt": 38.632,
+      "height_pt": 10,
+      "rendered_svg_sha256": "32ba0d54e0a93409d6e955481a41a002581c3550e4242ea3710497fc6e6ad805",
+      "inline_png_sha256": "c7a96b611d028085128f4728b16386867b2cd7373af7303caa7c695bfa0e7e7d",
+      "svg_file": "assets/math/077330f012f0b225f545aa4e.svg",
+      "png_file": "assets/math/077330f012f0b225f545aa4e.png"
+    },
+    {
+      "tex": "\\begin{aligned}\nD_{\\mathrm{KL}}(p\\Vert q)&=\\sum_{v\\in\\mathcal V}p(v)\\log\\frac{p(v)}{q(v)},\\\\\nD_{\\mathrm{KL}}(q\\Vert p)&=\\sum_{v\\in\\mathcal V}q(v)\\log\\frac{q(v)}{p(v)}.\n\\end{aligned}",
+      "display": true,
+      "width_pt": 155.39520000000002,
+      "height_pt": 68.32079999999999,
+      "rendered_svg_sha256": "da725b743a12ae7986c59376fbafac1286f0cb6f11aebe2513b03bfde69d34ad",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/f50d81f045896968b109e36f.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\nU_k&\\sim\\mathrm{Unif}\\left(\\frac{k-1}{K},\\frac{k}{K}\\right),\\\\\nI_k&=\\tau(F_{+,\\tau}^{-1}(U_k)),\\quad\nJ_k=\\tau(F_{-,\\tau}^{-1}(U_k)),\\\\\n\\widehat g&=\\frac mK\\sum_{k=1}^K(e_{I_k}-e_{J_k}),\\\\\n\\mathbb E\\lVert\\widehat g-g\\rVert_2^2\n&\\le\\frac{2m^2-\\lVert g\\rVert_2^2}{K}.\n\\end{aligned}",
+      "display": true,
+      "width_pt": 237.21,
+      "height_pt": 118.0032,
+      "rendered_svg_sha256": "f1b6ba9bb6d6c8f161b204a260f2093963d8c2635c363f67f479f98b31bc1b6a",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/e0317f00a1d31edaf86b6a98.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\n\\Delta\\ell&=\\ell(p,q_T)-\\ell(p,q_C)\\\\\n&=\\lambda\\sum_vp(v)\\left[\\log\\frac{p(v)}{q_T(v)}-\\log\\frac{p(v)}{q_C(v)}\\right]\\\\\n&=-\\lambda\\sum_vp(v)\\delta(v),\\\\\n\\frac{\\partial\\Delta\\ell}{\\partial z_v}\n&=-\\lambda p(v)\\left[\\delta(v)-\\sum_up(u)\\delta(u)\\right].\n\\end{aligned}",
+      "display": true,
+      "width_pt": 222.594,
+      "height_pt": 115.49520000000001,
+      "rendered_svg_sha256": "4c064820dee791a0ff167c887f69f2c9f3cb8860f88462ed938b3c6267fcbd5e",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/b2f6a41f40391643e84bad48.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\n\\Pr(Y=v)&=\\min(p_S(v),q_\\alpha(v))+[q_\\alpha(v)-p_S(v)]_+\\\\\n&=q_\\alpha(v),\\\\\n\\Pr(Y\\ne a)&=\\sum_v[p_S(v)-q_\\alpha(v)]_+=\\mathrm{TV}(p_S,q_\\alpha).\n\\end{aligned}",
+      "display": true,
+      "width_pt": 257.1972,
+      "height_pt": 56.49360000000001,
+      "rendered_svg_sha256": "bf8fb48f2f1f73b25dc6f1a7270eab4a4405e14b59430c06e950b13102272256",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/3e8009d14a3ce09d5aac8813.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\n\\ell&=\\sum_jp_j\\log\\frac{p_j}{q_j},\\\\\ng_i&=p_i\\left(\\log\\frac{p_i}{q_i}-\\ell\\right),\\qquad \\sum_i g_i=0,\\\\\n\\nabla_h\\ell&=W^\\top g,\\qquad \\nabla_W\\ell=gh^\\top.\n\\end{aligned}",
+      "display": true,
+      "width_pt": 202.4088,
+      "height_pt": 82.82279999999999,
+      "rendered_svg_sha256": "d13c743b3d09c9dede08c2aa37e8a10191c956fe358bb768319c5e50cd61719a",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/92bc663dc88332c929ff03cf.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\n\\mathbb E_{s\\sim d_\\pi,a\\sim\\mu}[A^\\pi(s,a)]&>0,\\\\\n\\mathbb E_{s\\sim d_\\pi}[D_{\\mathrm{KL}}(\\pi(\\cdot\\mid s)\\Vert\\mu(\\cdot\\mid s))]&\\lt \\delta.\n\\end{aligned}",
+      "display": true,
+      "width_pt": 168.9828,
+      "height_pt": 28.3716,
+      "rendered_svg_sha256": "b27fd04ea9c819ca04393dd904ac4465fed4179b35b0ff1454a1920680fd621d",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/eb5f7c992b88aacf00592681.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\n\\mathcal L(\\theta)&=\\mathcal L_{\\mathrm{GRPO}}(\\theta)\n+\\frac{\\lambda}{N(\\tau)}\\sum_{t\\in\\mathcal F}\\sum_{j=1}^{n_t}\nD_{\\mathrm{KL}}\\bigl(p_{t,j}\\Vert\\mathrm{sg}(q_{t,j})\\bigr),\\\\\np_{t,j}&=\\pi_\\theta(\\cdot\\mid h_t,y_{t,\\lt j}),\\\\\nq_{t,j}&=\\pi_\\theta(\\cdot\\mid h_t,f_t,y_{t,\\lt j}).\n\\end{aligned}",
+      "display": true,
+      "width_pt": 270.01919999999996,
+      "height_pt": 67.26960000000001,
+      "rendered_svg_sha256": "d30529838c7d6e55bc6e8f2d0568c5e36831acac551561531076855590ab1b65",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/0fdf00198bbba23107995136.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\n\\mathrm{TV}(p_S,q_\\alpha)&=\\frac12\\sum_v|p_S(v)-q_\\alpha(v)|,\\\\\nr(v)&=\\frac{[q_\\alpha(v)-p_S(v)]_+}{\\mathrm{TV}(p_S,q_\\alpha)},\\qquad [z]_+=\\max(z,0).\n\\end{aligned}",
+      "display": true,
+      "width_pt": 278.54519999999997,
+      "height_pt": 62.637600000000006,
+      "rendered_svg_sha256": "0159b6c277232aeca8f0f3d8d7faae8d543e0fd86a292a7d4245f252e2704df8",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/4b81dcb1801e3e477d82f867.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\nm&=\\sum_i g_i^+=\\sum_i g_i^-=\\tfrac12\\lVert g\\rVert_1,\\\\\nr_i^+&=g_i^+/m,\\qquad r_i^-=g_i^-/m,\\\\\nI&\\sim r^+,\\quad J\\sim r^-,\\quad \\widehat g_{\\mathrm{pair}}=m(e_I-e_J),\\\\\n\\mathbb E[\\widehat g_{\\mathrm{pair}}]&=m(r^+-r^-)=g.\n\\end{aligned}",
+      "display": true,
+      "width_pt": 234.40319999999997,
+      "height_pt": 76.70879999999998,
+      "rendered_svg_sha256": "4db359a3c53fc3a916a59254abed726e44f8729e1813dc40756e51ca763bd8ab",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/0052a611299a2d359293beaa.svg"
+    },
+    {
+      "tex": "\\begin{aligned}\ns_k&=\\tfrac12D_{\\mathrm{KL}}(q_k\\Vert M_k)\n+\\tfrac12D_{\\mathrm{KL}}(q_k^R\\Vert M_k),\\\\\n\\widetilde q_k&=\\begin{cases}\nq_k^R,&s_k>\\tau,\\\\\nq_k,&s_k\\le\\tau.\n\\end{cases}\n\\end{aligned}",
+      "display": true,
+      "width_pt": 198.89159999999998,
+      "height_pt": 47.28,
+      "rendered_svg_sha256": "19a18e006c3c44d2f560178b15af3070a5ec76d78cfb6a281ac09ee5e309a11f",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/e0ae8dfb77dcc05420f7e656.svg"
+    },
+    {
+      "tex": "\\delta",
+      "display": false,
+      "width_pt": 4.44,
+      "height_pt": 7.27,
+      "rendered_svg_sha256": "80e95d891beb762491c0226142a4632fc969731550f47774ec1de694ee443dbe",
+      "inline_png_sha256": "43786dca1b8a9085fd064a14ca4387b16f76a51c00a82d6391b4c1a8818e704b",
+      "svg_file": "assets/math/acf601d2c4f2baf3e68b3c3e.svg",
+      "png_file": "assets/math/acf601d2c4f2baf3e68b3c3e.png"
+    },
+    {
+      "tex": "\\delta(v)=\\log\\frac{q_T(v)}{q_C(v)}.",
+      "display": true,
+      "width_pt": 90.39120000000001,
+      "height_pt": 29.04,
+      "rendered_svg_sha256": "6b6be9ce6b9888a36242598671fd2fd838b07a5e90d60a8447c95ee7f5bdeb37",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/daf30b1a5f5b45c2926cf915.svg"
+    },
+    {
+      "tex": "\\ell",
+      "display": false,
+      "width_pt": 4.17,
+      "height_pt": 7.25,
+      "rendered_svg_sha256": "091fa9e369b8d71e5c55897fef5600768c3b3a1482458c7abdc172014bf6466d",
+      "inline_png_sha256": "65603f19ef7099bf4c2e09a0ad7d1232002e2c096283d0b23fb5d8346df32628",
+      "svg_file": "assets/math/f513b15636d79ba2e13b16b7.svg",
+      "png_file": "assets/math/f513b15636d79ba2e13b16b7.png"
+    },
+    {
+      "tex": "\\ell(p,q)=\\lambda D_{\\mathrm{KL}}(p\\Vert q)",
+      "display": false,
+      "width_pt": 86.633,
+      "height_pt": 10,
+      "rendered_svg_sha256": "c8516dfa6860116e70c2d70275a28dd1229eca2ace6c86aa929446e9af22cf78",
+      "inline_png_sha256": "97a433c79ffe20af2f48c1d742c34dcfea91c70174743bfee7a748061bf8efa1",
+      "svg_file": "assets/math/a95fdfd4e305b0f255950820.svg",
+      "png_file": "assets/math/a95fdfd4e305b0f255950820.png"
+    },
+    {
+      "tex": "\\ell_{\\mathrm{LCS}}",
+      "display": false,
+      "width_pt": 18.456,
+      "height_pt": 8.706,
+      "rendered_svg_sha256": "2cfab478c0564c077cfe09c0aee29462cf8668bce2805bebb523b7ee8da78edc",
+      "inline_png_sha256": "55f3b74011cbfc06e2c97bfa9065fe19531b28cb3b25440579bed3c4170cf13e",
+      "svg_file": "assets/math/2f275a7756a6a1122c61ce5d.svg",
+      "png_file": "assets/math/2f275a7756a6a1122c61ce5d.png"
+    },
+    {
+      "tex": "\\frac1T\\sum_{t=0}^{T-1}\\Delta_t\n\\ge(g+b)\\frac mT-b,\\qquad\n\\frac mT>\\frac b{g+b}\\ \\Longrightarrow\\ \\text{positive lower bound}.",
+      "display": true,
+      "width_pt": 370.3836,
+      "height_pt": 35.6952,
+      "rendered_svg_sha256": "33c47c5345fa49b2fad11dcd0fba038ebcab1ce21baa4430065f3d588d78a5f6",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/ef432033b66a59018857d903.svg"
+    },
+    {
+      "tex": "\\gamma_{ij}",
+      "display": false,
+      "width_pt": 11.363,
+      "height_pt": 7.352,
+      "rendered_svg_sha256": "d605f9c3fd5299ac06e013b1a34aa56f1b019c7fad229cf30aae34928d1bd4c6",
+      "inline_png_sha256": "3a0c1a68f64a7f21a015c4ac59ba8d19bea68ae28879837240d0234e677f568b",
+      "svg_file": "assets/math/159fc074d97a2213b318eb3f.svg",
+      "png_file": "assets/math/159fc074d97a2213b318eb3f.png"
+    },
+    {
+      "tex": "\\lambda",
+      "display": false,
+      "width_pt": 5.83,
+      "height_pt": 7.06,
+      "rendered_svg_sha256": "f7fdce8d9d00405a9597d6fc9b6b8c043cbe0554774ca490af663ab378494cf5",
+      "inline_png_sha256": "cd6167ec972dd7f5f36f4707dec4eb9d427363980bdef4ffe526b8f3c6272221",
+      "svg_file": "assets/math/25b831d50ef9bb46fad75823.svg",
+      "png_file": "assets/math/25b831d50ef9bb46fad75823.png"
+    },
+    {
+      "tex": "\\lambda>0",
+      "display": false,
+      "width_pt": 24.166,
+      "height_pt": 7.34,
+      "rendered_svg_sha256": "e44debe6411a96443d04a7e13d5b10881cb9f2bb7d7c95bdebacd51c06a3875d",
+      "inline_png_sha256": "bb9f6aac21ded7c1cb59a07060733e8ccda04d5c6f85ea308469827d520941bc",
+      "svg_file": "assets/math/a7c2d1e99371794caefd5608.svg",
+      "png_file": "assets/math/a7c2d1e99371794caefd5608.png"
+    },
+    {
+      "tex": "\\lambda_i",
+      "display": false,
+      "width_pt": 9.1,
+      "height_pt": 8.518,
+      "rendered_svg_sha256": "da5905cd6f4879ea8f247b6f3c6ab8b45dace29021c5693a6dbd4bba60d4e35a",
+      "inline_png_sha256": "6b093ef887108803d939ec763fa86840c632d4d9e0b41929928f6964f17cbc4e",
+      "svg_file": "assets/math/d77f834b18341356395683fe.svg",
+      "png_file": "assets/math/d77f834b18341356395683fe.png"
+    },
+    {
+      "tex": "\\log",
+      "display": false,
+      "width_pt": 12.78,
+      "height_pt": 9,
+      "rendered_svg_sha256": "7641681e7d80b46ed2252fdf2c5ad5fd340c257344f5133afc86df4a6104d9bf",
+      "inline_png_sha256": "28e04a0847beca61aba9778432ebbb068641b411d23a0509dc397864236efd7c",
+      "svg_file": "assets/math/105d51619aab40aa9de6e27c.svg",
+      "png_file": "assets/math/105d51619aab40aa9de6e27c.png"
+    },
+    {
+      "tex": "\\mathbb E[J_\\theta^\\top\\widehat g\\mid s,\\theta]=J_\\theta^\\top g",
+      "display": false,
+      "width_pt": 83.668,
+      "height_pt": 11.579,
+      "rendered_svg_sha256": "2507b1329ffb73d412fc406a4971ed8ea3f52dae5f92e3829eb9e3520e6c87c8",
+      "inline_png_sha256": "3377ccf0b5ed156f5a8458cdc4f79592883b64b497fa52cc60dea1e30bb78fca",
+      "svg_file": "assets/math/9216e3e7542c648fe5cce28e.svg",
+      "png_file": "assets/math/9216e3e7542c648fe5cce28e.png"
+    },
+    {
+      "tex": "\\mathbb E\\left\\lVert m(w_I-w_J)-W^\\top g\\right\\rVert_2^2\n=m^2\\mathbb E\\lVert w_I-w_J\\rVert_2^2-\\lVert W^\\top g\\rVert_2^2.",
+      "display": true,
+      "width_pt": 293.4984,
+      "height_pt": 18.048,
+      "rendered_svg_sha256": "4c774d3e4397ccd5c0ef01a3f050bef2cc652291773993d4b5d0607d0616c819",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/d4a4c3142f3c53892a1910f4.svg"
+    },
+    {
+      "tex": "\\mathcal F",
+      "display": false,
+      "width_pt": 8.29,
+      "height_pt": 7.15,
+      "rendered_svg_sha256": "1e5882082394cebdf1b956223e6e9748f058faae71265a5813b7fb322c94cf51",
+      "inline_png_sha256": "251200db1601df9fe84f1012b5bab36052e7a2d02e476b80fdadfb148690f1b5",
+      "svg_file": "assets/math/aab6643c4ba8ef2d688dfc5c.svg",
+      "png_file": "assets/math/aab6643c4ba8ef2d688dfc5c.png"
+    },
+    {
+      "tex": "\\mathcal L_{\\mathrm{CoRD}}=\\mathbb E_{s\\sim d_{q_\\alpha}}\n\\left[D_{\\mathrm{KL}}(p_S(\\cdot\\mid s)\\Vert p_T(\\cdot\\mid s))\\right].",
+      "display": true,
+      "width_pt": 212.38440000000003,
+      "height_pt": 13.2372,
+      "rendered_svg_sha256": "588c740290e8c6487ecfb3e597551c7509e4243664d07aeb9568d8ea940eb0c1",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/160960aef752ee888f266029.svg"
+    },
+    {
+      "tex": "\\mathcal R_x",
+      "display": false,
+      "width_pt": 13.355,
+      "height_pt": 8.398,
+      "rendered_svg_sha256": "27cd6f19193644e45127e4f117c3ad9a8235a565ebde9e60b93e1849f5208129",
+      "inline_png_sha256": "2efaff5e3b20de0039a89fc42875c7b820a37535b6308017e85c6e34b02b9720",
+      "svg_file": "assets/math/b91e62302ba7b63f743c0260.svg",
+      "png_file": "assets/math/b91e62302ba7b63f743c0260.png"
+    },
+    {
+      "tex": "\\mathcal V",
+      "display": false,
+      "width_pt": 6.58,
+      "height_pt": 7.35,
+      "rendered_svg_sha256": "b91859050a1eeca55c61724b90df9364c2422c0ed61bdc4c95072e70a100498c",
+      "inline_png_sha256": "901fd674553faf57cbfa3ab3bdc8c1ca68f4192f3e5ac79adf5859973726abcc",
+      "svg_file": "assets/math/3e28d1b0bb695212a9f4b42a.svg",
+      "png_file": "assets/math/3e28d1b0bb695212a9f4b42a.png"
+    },
+    {
+      "tex": "\\mathrm{TV}",
+      "display": false,
+      "width_pt": 14.72,
+      "height_pt": 7.05,
+      "rendered_svg_sha256": "e2462dc266467b64a1cbd9cc2c7abfe4924d5f02992470f8469748c23aaa8e39",
+      "inline_png_sha256": "be1135f63c3253dbf87fbcd5bf48f5a26b2baadc638ceb6fbe98c002bdbd5c4b",
+      "svg_file": "assets/math/da264a2bd5ac673c4a16a90e.svg",
+      "png_file": "assets/math/da264a2bd5ac673c4a16a90e.png"
+    },
+    {
+      "tex": "\\min_{\\gamma_{ij}\\ge0}\\sum_{i,j}\\gamma_{ij}c_{ij},\\qquad\n\\sum_j\\gamma_{ij}=\\frac1N.",
+      "display": true,
+      "width_pt": 165.63840000000002,
+      "height_pt": 32.0472,
+      "rendered_svg_sha256": "f157ba7b3234bce262d8d821d5a9f3069aefd1b6e016f4f31035da2e1c09be56",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/97045c2e47e22540f407af40.svg"
+    },
+    {
+      "tex": "\\mu(\\cdot\\mid s_t)=\\pi_\\theta(\\cdot\\mid s_t,f_t)",
+      "display": false,
+      "width_pt": 95.878,
+      "height_pt": 10,
+      "rendered_svg_sha256": "ea6feadb92810aaf6ab438cbfa0c47807930e462e7dc12d8cb9b922a1b52be62",
+      "inline_png_sha256": "043b379ef74b14a845fa943eb3ec07bb950585e0220fc0e14c6e1305539b9a6b",
+      "svg_file": "assets/math/d5399d8e87ee075dd5b1492d.svg",
+      "png_file": "assets/math/d5399d8e87ee075dd5b1492d.png"
+    },
+    {
+      "tex": "\\partial p_j/\\partial z_i=p_j(\\mathbf1_{i=j}-p_i)",
+      "display": false,
+      "width_pt": 100.86,
+      "height_pt": 10.442,
+      "rendered_svg_sha256": "9f161f10d6f6165aa96bf1df5195f9e23b424c8a7e3a51194efaa85c31af82cb",
+      "inline_png_sha256": "dc6bdde7190a0c3e91587def8647c4baa73b1fcb3d7e00ff9ae70a1a96d1300c",
+      "svg_file": "assets/math/e0c61a5db38069050f596567.svg",
+      "png_file": "assets/math/e0c61a5db38069050f596567.png"
+    },
+    {
+      "tex": "\\partial\\ell/\\partial p_j=\\log(p_j/q_j)+1",
+      "display": false,
+      "width_pt": 102.36,
+      "height_pt": 10.442,
+      "rendered_svg_sha256": "f096de7994d735e52f37ff498e87d44238df664e963a10dab6001a2b92f44da1",
+      "inline_png_sha256": "4017bd626dd408bcf47c65ed961ce133643272bc32d21cea1e9774b25ad161a0",
+      "svg_file": "assets/math/305609e9e854d23f8ab2b7be.svg",
+      "png_file": "assets/math/305609e9e854d23f8ab2b7be.png"
+    },
+    {
+      "tex": "\\pi_\\phi(u_t\\mid h_t,\\tau^*)",
+      "display": false,
+      "width_pt": 59.627,
+      "height_pt": 10.45,
+      "rendered_svg_sha256": "cd400823b80744bf83db24c749db1626e60c19dcf15986b9db6d60c860a7bcef",
+      "inline_png_sha256": "5ee51e097316b470333cd275cda95541cfb11e9ab54250dd1c3304b789aad3ef",
+      "svg_file": "assets/math/7bbdda9683862e4d7596264d.svg",
+      "png_file": "assets/math/7bbdda9683862e4d7596264d.png"
+    },
+    {
+      "tex": "\\pi_\\theta(u_t\\mid h_t)",
+      "display": false,
+      "width_pt": 44.207,
+      "height_pt": 10,
+      "rendered_svg_sha256": "a791f58a5c1895146ba853747a8b9b531b9987bcac7c6be74d0c0bf65f3b28bc",
+      "inline_png_sha256": "8ce1bec950e411012bd79799821f685d9b279368a7e554bad0b01c53111eb40c",
+      "svg_file": "assets/math/bc5b1d0e15aaa4146726857c.svg",
+      "png_file": "assets/math/bc5b1d0e15aaa4146726857c.png"
+    },
+    {
+      "tex": "\\tau",
+      "display": false,
+      "width_pt": 5.17,
+      "height_pt": 4.44,
+      "rendered_svg_sha256": "58b455494e153d0cef9eae2fbbacd934130700e43a14714be444488701ddb4e3",
+      "inline_png_sha256": "df6122bb7bc4c788c8f2c91cbddd3c544c8d79232feadac90222171371a1bcf0",
+      "svg_file": "assets/math/f0d8ba3912debb17fb8081d3.svg",
+      "png_file": "assets/math/f0d8ba3912debb17fb8081d3.png"
+    },
+    {
+      "tex": "\\tau^*(x,\\tau^-)\n\\in\\arg\\max_{\\tau^+\\in\\mathcal R_x}s(\\tau^-,\\tau^+).",
+      "display": true,
+      "width_pt": 163.1952,
+      "height_pt": 20.5284,
+      "rendered_svg_sha256": "18fb693b5c6fe96668cfc67d263118db2efe5b9dd6901fd8eafc03e74fc1326d",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/01b3d22c7602ab6b7df1e4cb.svg"
+    },
+    {
+      "tex": "\\tau_i^-",
+      "display": false,
+      "width_pt": 12.041,
+      "height_pt": 11.254,
+      "rendered_svg_sha256": "b8c288f8abfc900b77faf69940953f908da04c24b09bde407e0763e58d24f5c0",
+      "inline_png_sha256": "e0fa9fcdda4e9d4a8fce6b2ab252264f9c6dbaaaba47ea963352b79db8402e83",
+      "svg_file": "assets/math/b05eefb5d86dbd63a0b86726.svg",
+      "png_file": "assets/math/b05eefb5d86dbd63a0b86726.png"
+    },
+    {
+      "tex": "\\theta",
+      "display": false,
+      "width_pt": 4.69,
+      "height_pt": 7.15,
+      "rendered_svg_sha256": "26aca5bfc5c1da87204a0d5b74b739baa3c50a4b94c227fad7436dfc8f36130a",
+      "inline_png_sha256": "dd1f1b2d03f9526fdc59b85304d46a9681d4ee568171fc171b64dd3d80f43d4a",
+      "svg_file": "assets/math/e9f21c3c878430ff1c186d03.svg",
+      "png_file": "assets/math/e9f21c3c878430ff1c186d03.png"
+    },
+    {
+      "tex": "\\widehat A_i=(R_i-\\bar R)/(\\sigma_R+\\epsilon)",
+      "display": false,
+      "width_pt": 103.53,
+      "height_pt": 13.64,
+      "rendered_svg_sha256": "35260f7b2773ee9e575ba31ee1e53cb686dad66149525464ebaed0bb6df1c562",
+      "inline_png_sha256": "6d1ac14400cf232e6e53561db8afa88b3fbba47b0b9b60d70b71a23d3a0decdc",
+      "svg_file": "assets/math/929950a6c0939d15625ff2db.svg",
+      "png_file": "assets/math/929950a6c0939d15625ff2db.png"
+    },
+    {
+      "tex": "\\widetilde q_k",
+      "display": false,
+      "width_pt": 8.974,
+      "height_pt": 9.44,
+      "rendered_svg_sha256": "edad619667261e33f6b3c95670cc8ab137d4fb750ba3bbbd3d0c56a3f1c06eea",
+      "inline_png_sha256": "9e75809a1b6dfb26c19961eb8e2b51ab7b505fb207493a61753a26733272e7cd",
+      "svg_file": "assets/math/9e88bfdf31362c29ecac2c86.svg",
+      "png_file": "assets/math/9e88bfdf31362c29ecac2c86.png"
+    },
+    {
+      "tex": "a\\sim p_S",
+      "display": false,
+      "width_pt": 29.046,
+      "height_pt": 6.36,
+      "rendered_svg_sha256": "4adb2512c9617534bb961c228dd7007f24f183bfd30f221adad9eecc3741e2e6",
+      "inline_png_sha256": "e734a24d6388ae32c433766253da59ee7022a8942e99f1bf80bd244bcb9f39a8",
+      "svg_file": "assets/math/2f629e3b047c7ffb086204eb.svg",
+      "png_file": "assets/math/2f629e3b047c7ffb086204eb.png"
+    },
+    {
+      "tex": "c=-s",
+      "display": false,
+      "width_pt": 30.136,
+      "height_pt": 6.65,
+      "rendered_svg_sha256": "e22968373977afc62c22b4ad9950b9116219c56c446a8b9d4363239b80064c11",
+      "inline_png_sha256": "1d7be9590bf829bead30b043abf44616064adbcfa88e9760cfc48cd71b0c57cc",
+      "svg_file": "assets/math/fa83c97472ed59bf8ed52d79.svg",
+      "png_file": "assets/math/fa83c97472ed59bf8ed52d79.png"
+    },
+    {
+      "tex": "c_{ij}",
+      "display": false,
+      "width_pt": 10.513,
+      "height_pt": 7.362,
+      "rendered_svg_sha256": "d9301c87a2263d11ad11aaf24e0671c7d41527bd8817d0a263ac87ee857c0156",
+      "inline_png_sha256": "5b575cc98ff7de496aa42abaf65da2221e8cce2136eaba68cd91718915c680a0",
+      "svg_file": "assets/math/eda4438cd37b603addcdb6a4.svg",
+      "png_file": "assets/math/eda4438cd37b603addcdb6a4.png"
+    },
+    {
+      "tex": "d_\\pi",
+      "display": false,
+      "width_pt": 10.061,
+      "height_pt": 8.518,
+      "rendered_svg_sha256": "8302e991ca07a6781f5f3d9efa9f0a47e4d5b9db253b39d2d80a7269d3b12073",
+      "inline_png_sha256": "dd2a1f73389f6e8a71e8018173b643a6ac9b07f12b221a28b4ccb8af05419132",
+      "svg_file": "assets/math/684d6579c81cc2cd14626f40.svg",
+      "png_file": "assets/math/684d6579c81cc2cd14626f40.png"
+    },
+    {
+      "tex": "d_{q_\\alpha}",
+      "display": false,
+      "width_pt": 12.971,
+      "height_pt": 9.812,
+      "rendered_svg_sha256": "8e7bf4ed3c24bfcd5ffa6677e36225c651bb0a75e509d2d3c36bbd939087e852",
+      "inline_png_sha256": "aacf6cd0a5ce53035349b1a8cec01832debaee93dba7ac537bdc28b1b0821d58",
+      "svg_file": "assets/math/440758b7f6efedae8e294b16.svg",
+      "png_file": "assets/math/440758b7f6efedae8e294b16.png"
+    },
+    {
+      "tex": "e_I",
+      "display": false,
+      "width_pt": 9.054,
+      "height_pt": 5.92,
+      "rendered_svg_sha256": "c492c2030bec58a6c85d5f34d45ab7cf013cbb6ec6728c4a4c52243a709ec4e1",
+      "inline_png_sha256": "87cc67d23dfc2ea1e9498268e92ce527be529b78517542b9d43c515279930f59",
+      "svg_file": "assets/math/a9df5c20e83311b300653975.svg",
+      "png_file": "assets/math/a9df5c20e83311b300653975.png"
+    },
+    {
+      "tex": "f_t",
+      "display": false,
+      "width_pt": 8.283,
+      "height_pt": 9.1,
+      "rendered_svg_sha256": "bd3cbfc8c551e0aaa355af37beb2ed9863e82d8220ffce674b7b176ae6e37892",
+      "inline_png_sha256": "f6cee9cedb3789e90a588b95fe61c9dbe17ddecd43700f8478720a91b081ea90",
+      "svg_file": "assets/math/0137edbadf08657a6cc1198e.svg",
+      "png_file": "assets/math/0137edbadf08657a6cc1198e.png"
+    },
+    {
+      "tex": "g=0",
+      "display": false,
+      "width_pt": 23.106,
+      "height_pt": 8.71,
+      "rendered_svg_sha256": "ac93854cc2b80db6946b557690bb1f42196fa8708356888aa677dffb240ca68d",
+      "inline_png_sha256": "8b7e1863d24d096996f0330372b1f0b58f98c6d3573906f58c38a0aa8228989e",
+      "svg_file": "assets/math/a14872667b0db90f473e9c02.svg",
+      "png_file": "assets/math/a14872667b0db90f473e9c02.png"
+    },
+    {
+      "tex": "g=\\nabla_z\\ell",
+      "display": false,
+      "width_pt": 34.724,
+      "height_pt": 9.1,
+      "rendered_svg_sha256": "81b4c23bdf3dc5b68d7d09652891e5997166e55e9e132ffc77d8daaa477b1098",
+      "inline_png_sha256": "876bb0966ba49eb9138a433d94a11e3df81821316403552d24f4e343e0914f8f",
+      "svg_file": "assets/math/0a51758d5800567fd0630a8e.svg",
+      "png_file": "assets/math/0a51758d5800567fd0630a8e.png"
+    },
+    {
+      "tex": "g^+_i=\\max(g_i,0)",
+      "display": false,
+      "width_pt": 68.313,
+      "height_pt": 11.254,
+      "rendered_svg_sha256": "ad61b48967804b35f8dd077f5d43836819005a1fd97a267fa803223c48574398",
+      "inline_png_sha256": "afe46f2a814545991c9008bf1f0a56ddbcd66eccaadc1a84d8d954bf5f5ab517",
+      "svg_file": "assets/math/724878bb890f216431b9d580.svg",
+      "png_file": "assets/math/724878bb890f216431b9d580.png"
+    },
+    {
+      "tex": "g^-_i=\\max(-g_i,0)",
+      "display": false,
+      "width_pt": 76.093,
+      "height_pt": 11.254,
+      "rendered_svg_sha256": "74ee08672a51e1900c69fad647af125cb3e0c15ef073688301d1796e3d1591bf",
+      "inline_png_sha256": "a7db5f17a135ffcbb7970ded529690a438b45000c41fc1a2e79dcfabad39a9df",
+      "svg_file": "assets/math/cc716b8d5884b51552e4aa01.svg",
+      "png_file": "assets/math/cc716b8d5884b51552e4aa01.png"
+    },
+    {
+      "tex": "g_i=p_i-q_i",
+      "display": false,
+      "width_pt": 49.629,
+      "height_pt": 7.88,
+      "rendered_svg_sha256": "3161d4066bb8e86458709d53dae2def5326853b02ee1cd5ae8aa273c47ce2509",
+      "inline_png_sha256": "24449469702aa5f0428948c8b15fdcb21801faaed682a1dbc31e2d45c935e425",
+      "svg_file": "assets/math/6fb64adca9dbf90afabafee2.svg",
+      "png_file": "assets/math/6fb64adca9dbf90afabafee2.png"
+    },
+    {
+      "tex": "h\\in\\mathbb R^d",
+      "display": false,
+      "width_pt": 29.713,
+      "height_pt": 8.937,
+      "rendered_svg_sha256": "2096ba11928f2a5d86d68836a70c347c5105a518fc237fd3a789034f502c96db",
+      "inline_png_sha256": "5dbed9edc80ea828bfd483bf63c866a5b818f423cc1eb965c086767af34fd505",
+      "svg_file": "assets/math/f3d8fd6bf5b86cefc39bdec9.svg",
+      "png_file": "assets/math/f3d8fd6bf5b86cefc39bdec9.png"
+    },
+    {
+      "tex": "h_t",
+      "display": false,
+      "width_pt": 9.143,
+      "height_pt": 8.518,
+      "rendered_svg_sha256": "fc9fddf10534fcf271c9c9ea0a618813de58e74014d57d8305f57d944a10f7b6",
+      "inline_png_sha256": "a9bb688d702b7f03d485a38bba23d561955940150291bdd9c9288e6e7da73558",
+      "svg_file": "assets/math/fcea6e8e11f8bca520bc6dcf.svg",
+      "png_file": "assets/math/fcea6e8e11f8bca520bc6dcf.png"
+    },
+    {
+      "tex": "i",
+      "display": false,
+      "width_pt": 3.45,
+      "height_pt": 6.72,
+      "rendered_svg_sha256": "63562da2bf2aa9ae9ae482533f0740a7f24ff53a50fc346ce4affe698932a232",
+      "inline_png_sha256": "fe365c13230b0d00276561cb176de234a0c80490ccfd6443fc923b696b2191cc",
+      "svg_file": "assets/math/523300f593dcb1ccd1787ee7.svg",
+      "png_file": "assets/math/523300f593dcb1ccd1787ee7.png"
+    },
+    {
+      "tex": "i,j",
+      "display": false,
+      "width_pt": 12.017,
+      "height_pt": 8.65,
+      "rendered_svg_sha256": "f3766f705d3f8b9718db14e259d1bcbb14101620d894d4a40be38b8be406c1b1",
+      "inline_png_sha256": "465766d08a61c23964bf35d3a456917a268fce0f8e28ca078e2a4deb52c1f78a",
+      "svg_file": "assets/math/216a0def8a48621aec91f6a8.svg",
+      "png_file": "assets/math/216a0def8a48621aec91f6a8.png"
+    },
+    {
+      "tex": "j",
+      "display": false,
+      "width_pt": 4.12,
+      "height_pt": 8.65,
+      "rendered_svg_sha256": "cf25f238a5b86486c2d6ec0f5787c7241e7b331588f8fafe33a1a81c6adfb8c9",
+      "inline_png_sha256": "76535d41c764092b70884b8407424444746e49f88aadcaaba1963ebf96fa36a0",
+      "svg_file": "assets/math/a38a8b0eb59957309638958f.svg",
+      "png_file": "assets/math/a38a8b0eb59957309638958f.png"
+    },
+    {
+      "tex": "k",
+      "display": false,
+      "width_pt": 5.21,
+      "height_pt": 7.05,
+      "rendered_svg_sha256": "d598dd5a74ede18edce4dc188ae6598c08d25074167a544a7fd224dc2f7dbc11",
+      "inline_png_sha256": "119b6a75de07fb107ae8444f2fec99d9fddb5dddc47f77922fa6014a9763ff46",
+      "svg_file": "assets/math/240e38ea9d3fb6a401adc9ca.svg",
+      "png_file": "assets/math/240e38ea9d3fb6a401adc9ca.png"
+    },
+    {
+      "tex": "m",
+      "display": false,
+      "width_pt": 8.78,
+      "height_pt": 4.53,
+      "rendered_svg_sha256": "da3bec212b395b8cd426279f828e3dbb82fce09f9844ae21488173e61a120ea6",
+      "inline_png_sha256": "71bc73807f80516aa99f259767a3608822f307a81881d95a0d05bde02dde116b",
+      "svg_file": "assets/math/e2be219d5282c1548945fb61.svg",
+      "png_file": "assets/math/e2be219d5282c1548945fb61.png"
+    },
+    {
+      "tex": "n_t",
+      "display": false,
+      "width_pt": 9.383,
+      "height_pt": 5.998,
+      "rendered_svg_sha256": "2973e3cdc032a5e9ac40de720d38975714d14dd705ea6fabd1dc76a4bedf401d",
+      "inline_png_sha256": "88f0fc9490043c5d3fc4fb76a15a8e6034d463d2aa11d501d5eeef702c16698d",
+      "svg_file": "assets/math/95aa7eb85800d512502a502c.svg",
+      "png_file": "assets/math/95aa7eb85800d512502a502c.png"
+    },
+    {
+      "tex": "p(v)=\\pi_\\theta(v\\mid s)",
+      "display": false,
+      "width_pt": 66.497,
+      "height_pt": 10,
+      "rendered_svg_sha256": "b44794dcfabb5d48ff7abc600207164adffef0eb968e730e53d9d33fbce2c5c5",
+      "inline_png_sha256": "8eb7ebef63545ae918625e0f9da388813e0bfd3c29ebb18d0bf8bbfc547b0fcc",
+      "svg_file": "assets/math/913bd5baac43d3b1e35cf384.svg",
+      "png_file": "assets/math/913bd5baac43d3b1e35cf384.png"
+    },
+    {
+      "tex": "p_S(\\cdot\\mid s)",
+      "display": false,
+      "width_pt": 34.006,
+      "height_pt": 10,
+      "rendered_svg_sha256": "9fc1b830697e605aaea2406167fe07db0bb8230e0054c342211a6f25f60acff7",
+      "inline_png_sha256": "4035ed6621f1f9cfca151ffa501ac226e2cda9238e6111f4cc360116293b21bc",
+      "svg_file": "assets/math/fd50ef5e62189ba066681475.svg",
+      "png_file": "assets/math/fd50ef5e62189ba066681475.png"
+    },
+    {
+      "tex": "p_S(v)A(v)=\\min(p_S(v),q_\\alpha(v))",
+      "display": false,
+      "width_pt": 130.909,
+      "height_pt": 10,
+      "rendered_svg_sha256": "fe5455109cc6f4323bb07caa8e70b7d1f1e6f72280dd7e59d748f6eeaaf10d6f",
+      "inline_png_sha256": "896bdb43cb94c3a8a0708335edd8e699f167227fdfa37f7e1b58759944daabac",
+      "svg_file": "assets/math/c28700aa1c21ea647bb7b31e.svg",
+      "png_file": "assets/math/c28700aa1c21ea647bb7b31e.png"
+    },
+    {
+      "tex": "p_T",
+      "display": false,
+      "width_pt": 10.838,
+      "height_pt": 6.36,
+      "rendered_svg_sha256": "2709478dd8f6f6a5af55d9ea725ab9349afdde379075884d7fe95944ca093dc9",
+      "inline_png_sha256": "1c166f5223433a1830cc1e5d5a5d03ea4bd146981c24d8278bc703a7509fea7e",
+      "svg_file": "assets/math/d63d16a23b0429f4d2ff3a6e.svg",
+      "png_file": "assets/math/d63d16a23b0429f4d2ff3a6e.png"
+    },
+    {
+      "tex": "p_T(\\cdot\\mid s)",
+      "display": false,
+      "width_pt": 34.424,
+      "height_pt": 10,
+      "rendered_svg_sha256": "a6cd857429e933484bb47b18b7fff8d41d91efe0edb0c485ea4e69fc28870c6d",
+      "inline_png_sha256": "1d6b8deed62acbf3ece19444566556851734a645c1a5c90148dff275ded18f0f",
+      "svg_file": "assets/math/75718c204956551bacf99519.svg",
+      "png_file": "assets/math/75718c204956551bacf99519.png"
+    },
+    {
+      "tex": "q(v)",
+      "display": false,
+      "width_pt": 17.23,
+      "height_pt": 10,
+      "rendered_svg_sha256": "9da4503a403e87d21bfd649bcaa0a6909188af1fc1a6a285ba8aabdfbdb13813",
+      "inline_png_sha256": "45642f6a43e7c3709acdb00e3f2b1945045226f95075d6288821771a5413edcb",
+      "svg_file": "assets/math/4b5c7226cf19c96f90454d0a.svg",
+      "png_file": "assets/math/4b5c7226cf19c96f90454d0a.png"
+    },
+    {
+      "tex": "q_C,q_T",
+      "display": false,
+      "width_pt": 25.379,
+      "height_pt": 6.36,
+      "rendered_svg_sha256": "8043730db0c98ad5dc3ce5a00f21d3130ab1503a821ae5bd68dcde1c51d72a49",
+      "inline_png_sha256": "5bc0b6bf28238589c5647d21b9e7eeefe85b9db97870b54af30d4b2da1d2a4cd",
+      "svg_file": "assets/math/ceca260ea812d85d5ece61e0.svg",
+      "png_file": "assets/math/ceca260ea812d85d5ece61e0.png"
+    },
+    {
+      "tex": "q_\\alpha(v\\mid s)=\\frac{p_S(v\\mid s)^{1-\\alpha}p_T(v\\mid s)^\\alpha}{Z_\\alpha(s)},\\qquad\nZ_\\alpha(s)=\\sum_{u\\in\\mathcal V}p_S(u\\mid s)^{1-\\alpha}p_T(u\\mid s)^\\alpha.",
+      "display": true,
+      "width_pt": 385.08840000000004,
+      "height_pt": 33.368399999999994,
+      "rendered_svg_sha256": "1dfe3f43149ab03c993886f74f5875745952a4a2b6ffe341c4d570cb049f2241",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/6ab0fd4cb1aedb5746ea0064.svg"
+    },
+    {
+      "tex": "q_k,q_k^R",
+      "display": false,
+      "width_pt": 24.725,
+      "height_pt": 11.763,
+      "rendered_svg_sha256": "65ad6470273ccf2cda049323d586f014bbce0fcc869d0ad2abe77479dc94a783",
+      "inline_png_sha256": "f82993302e90d012d10e5dd34054203ddde6acfc9120db2d2fa12274ac932f7a",
+      "svg_file": "assets/math/5b20c8213493cbb50775d2a5.svg",
+      "png_file": "assets/math/5b20c8213493cbb50775d2a5.png"
+    },
+    {
+      "tex": "r",
+      "display": false,
+      "width_pt": 4.51,
+      "height_pt": 4.53,
+      "rendered_svg_sha256": "2e5c5bc393cc3d1e9085ca216f46366c921ee48a3ddbfcf3da351c566a00064c",
+      "inline_png_sha256": "3cb69dc7c135e8f14cddb428e3712961a29094d215cf0a388f99b521bf330dda",
+      "svg_file": "assets/math/02770b0e41e86ddb3dbad54b.svg",
+      "png_file": "assets/math/02770b0e41e86ddb3dbad54b.png"
+    },
+    {
+      "tex": "r(v)",
+      "display": false,
+      "width_pt": 17.14,
+      "height_pt": 10,
+      "rendered_svg_sha256": "ae3763301640e4b2bb79d159b4007f075c78c420ad888f99c2909344f4f6f6ad",
+      "inline_png_sha256": "3e742cb313186c13bb3722123bc57a734c1cd2d3833273ebeeb2686c38b4409f",
+      "svg_file": "assets/math/754b853e2266aed3f49a0925.svg",
+      "png_file": "assets/math/754b853e2266aed3f49a0925.png"
+    },
+    {
+      "tex": "r^+,r^-",
+      "display": false,
+      "width_pt": 26.129,
+      "height_pt": 9.692,
+      "rendered_svg_sha256": "dad876a3550d1f2b96da32d7777a1ef3482b4959a3c345bc058cd8fd25eb77d7",
+      "inline_png_sha256": "ac77bee4038e280d3ebae6ba4b5c8e6ed8f81af709716886b2d14c883a3e8a9e",
+      "svg_file": "assets/math/6eb1296e510d7a2a726b6804.svg",
+      "png_file": "assets/math/6eb1296e510d7a2a726b6804.png"
+    },
+    {
+      "tex": "s=(x,y_{\\lt t})",
+      "display": false,
+      "width_pt": 49.756,
+      "height_pt": 10,
+      "rendered_svg_sha256": "9785ddb0a7bdba0ffa6986f9e77c4b77665bfefd80151fa8c040cfc621b71f0d",
+      "inline_png_sha256": "5efde609611b5f9123139cc7620e684670d1a19fc1ea5861cf0c4a07d14105c3",
+      "svg_file": "assets/math/db897d71d83169502ea850f6.svg",
+      "png_file": "assets/math/db897d71d83169502ea850f6.png"
+    },
+    {
+      "tex": "s_{\\mathrm{LCS}}(\\tau^-,\\tau^+)\n=\\frac{\\ell_{\\mathrm{LCS}}(\\tau^-,\\tau^+)}{Z(T^-,T^+)}.",
+      "display": true,
+      "width_pt": 156.68040000000002,
+      "height_pt": 29.342399999999998,
+      "rendered_svg_sha256": "312864df537097f7007e844dbba387712b18992e484419bce2028bc4be9fbdd4",
+      "inline_png_sha256": null,
+      "svg_file": "assets/math/81de1fe0249760d65ad92d93.svg"
+    },
+    {
+      "tex": "u",
+      "display": false,
+      "width_pt": 5.72,
+      "height_pt": 4.53,
+      "rendered_svg_sha256": "0b733e9e4d3617845b876e7d738c2902f25bc9a0f011ca7eee923d2ff160b3fb",
+      "inline_png_sha256": "2e977dffd25b145c13bb19e667a833dd9d162fd5f3e7fe5188ea221ed64223b5",
+      "svg_file": "assets/math/3a44ff84e2adb28bd71bd1ec.svg",
+      "png_file": "assets/math/3a44ff84e2adb28bd71bd1ec.png"
+    },
+    {
+      "tex": "v",
+      "display": false,
+      "width_pt": 4.85,
+      "height_pt": 4.54,
+      "rendered_svg_sha256": "bce1888bfdda13e07723b32b3195f23905a4f1746e427f1be7cb90e9fe6285af",
+      "inline_png_sha256": "127a70fea73eeabf150be4832192e0abe546ef16e7c3e5073895131998d64e67",
+      "svg_file": "assets/math/eb25facc5c1d295e6cc897c5.svg",
+      "png_file": "assets/math/eb25facc5c1d295e6cc897c5.png"
+    },
+    {
+      "tex": "v\\in\\mathcal V",
+      "display": false,
+      "width_pt": 23.656,
+      "height_pt": 7.35,
+      "rendered_svg_sha256": "3cbae9690f8df0c1899cf1ca54dbbe662669ad9e7279d83fa885e59332f20aab",
+      "inline_png_sha256": "32b16d76fbc6821166bd9f2697d3350f27ac59d7fb8133494486b8162c5ccca2",
+      "svg_file": "assets/math/1888cfd9747eeb024f6c58c2.svg",
+      "png_file": "assets/math/1888cfd9747eeb024f6c58c2.png"
+    },
+    {
+      "tex": "w_i",
+      "display": false,
+      "width_pt": 10.43,
+      "height_pt": 6.008,
+      "rendered_svg_sha256": "b527719f24671a9283ed5747f5f04ddab48fbd0ed370f6388bd703a6cad96423",
+      "inline_png_sha256": "b2310806bd9d56f34d83914fc7da46061c89565114023c31a30e30ebadee4e3d",
+      "svg_file": "assets/math/7047ac60013a969dd8d96b22.svg",
+      "png_file": "assets/math/7047ac60013a969dd8d96b22.png"
+    },
+    {
+      "tex": "x^R",
+      "display": false,
+      "width_pt": 11.917,
+      "height_pt": 8.57,
+      "rendered_svg_sha256": "3a3058858fd7e415bbac8a6ced6bcfc2782814208f1161a9d3e9032381d1dc93",
+      "inline_png_sha256": "00ed797b05cb948e5e76a8a7df6ee6529162d0e612f88e1401f0d981f2922176",
+      "svg_file": "assets/math/4532636b353f4ee797e0bec4.svg",
+      "png_file": "assets/math/4532636b353f4ee797e0bec4.png"
+    },
+    {
+      "tex": "z=Wh",
+      "display": false,
+      "width_pt": 34.226,
+      "height_pt": 7.76,
+      "rendered_svg_sha256": "f49108179cccda6a8fcea1ee40e90a0e09b5a49e5e9413392221a64d2d606d19",
+      "inline_png_sha256": "7cf672f19b799ce68a48ec73886706f7013b4dc5473f735613bbce7c65965e75",
+      "svg_file": "assets/math/f5b847baf1808f9b41268439.svg",
+      "png_file": "assets/math/f5b847baf1808f9b41268439.png"
+    },
+    {
+      "tex": "z_v",
+      "display": false,
+      "width_pt": 8.909,
+      "height_pt": 5.998,
+      "rendered_svg_sha256": "77fa954a3add66887146ef125b8e1ac257ba626f2530a8c7c5453c718f848c52",
+      "inline_png_sha256": "e679e55b16cad4b1ad72bab8f98eb6604f4899641608120876e9477c70cd5d03",
+      "svg_file": "assets/math/698cc2908875ea5e8646c4ed.svg",
+      "png_file": "assets/math/698cc2908875ea5e8646c4ed.png"
+    }
+  ]
+}

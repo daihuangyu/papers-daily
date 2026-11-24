@@ -28,6 +28,7 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 | 2026-11-18 | VLM / 视觉证据对齐、视频信用分配、2B数据选择与持续后训练遗忘 | 5 | [Markdown](VLM/2026-11-18/report.md) · [PDF](VLM/2026-11-18/report.pdf) |
 | 2026-11-17 | VLM / 小型VLM蒸馏、约束GRPO与能力保留 | 5 | [Markdown](VLM/2026-11-17/report.md) · [PDF](VLM/2026-11-17/report.pdf) |
 | 2026-11-16 | VLM / vLLM推理系统 | 5 | [Markdown](VLM/2026-11-16/report.md) · [PDF](VLM/2026-11-16/report.pdf) |
+| 2026-11-24 | OPSD / 状态覆盖、无偏稀疏梯度与监督稳定性 | 5 | [Markdown](OPSD/2026-11-24/report.md) · [PDF](OPSD/2026-11-24/report.pdf) |
 | 2026-11-23 | OPSD / 前缀可靠性、知识注入与泛化边界 | 5 | [Markdown](OPSD/2026-11-23/report.md) · [PDF](OPSD/2026-11-23/report.pdf) |
 | 2026-11-22 | OPSD / 多教师预算、熵形状与决策对齐 | 5 | [Markdown](OPSD/2026-11-22/report.md) · [PDF](OPSD/2026-11-22/report.pdf) |
 | 2026-11-21 | OPSD / 监督位置、事件目标、持续回放与分支并行 | 5 | [Markdown](OPSD/2026-11-21/report.md) · [PDF](OPSD/2026-11-21/report.pdf) |
@@ -99,6 +100,13 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 3. [Migrating vLLM to the LibTorch Stable ABI](https://vllm.ai/blog/2026-11-06-stable-abi-cuda) · 2026-11-06 · [精读](VLM/2026-11-16/report.md)
 4. [Introducing Kinference](https://vllm.ai/blog/2026-11-04-introducing-kinference) · 2026-11-04 · [精读](VLM/2026-11-16/report.md)
 5. [vLLM v0.33.0 Release](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) · 2026-11-02 · [精读](VLM/2026-11-16/report.md)
+### 2026-11-24 · 状态覆盖、无偏稀疏梯度与监督稳定性
+
+1. [CoRD: Coupled Rollouts Fill the Blind Spot of On-Policy Distillation](https://arxiv.org/abs/2611.07959) · 2026-11-05 · [精读](OPSD/2026-11-24/report.md)
+2. [Distillation with Errors: Sparse Unbiased Backpropagation for Knowledge Distillation](https://arxiv.org/abs/2611.27131) · 2026-11-20 · [精读](OPSD/2026-11-24/report.md)
+3. [Which Successes Make Good References? Action-Sequence Alignment for Multi-Turn On-Policy Distillation](https://arxiv.org/abs/2611.13135) · 2026-11-09 · [精读](OPSD/2026-11-24/report.md)
+4. [Stabilizing On-Policy Targeted Guidance in Agentic Reinforcement Learning](https://arxiv.org/abs/2611.05266) · 2026-11-03 · [精读](OPSD/2026-11-24/report.md)
+5. [On-policy distillation as a Backdoor Propagation Channel](https://arxiv.org/abs/2611.19207) · 2026-11-14 · [精读](OPSD/2026-11-24/report.md)
 ### 2026-11-23 · 前缀可靠性、知识注入与泛化边界
 
 1. [O²PD: Overlap-Gated On-Policy Distillation on Reliable Prefix](https://arxiv.org/abs/2611.07731) · 2026-11-05 · [精读](OPSD/2026-11-23/report.md)

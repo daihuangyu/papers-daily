@@ -1,0 +1,66 @@
+{
+  "pages": 21,
+  "markdown_characters": 28741,
+  "prose_code_table_fragments_checked": 314,
+  "missing_fragments": [],
+  "original_figure_table_images": 19,
+  "source_image_pixels_matched": 19,
+  "embedded_fonts": {
+    "/AAAAAA+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAB+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAC+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/AAAAAD+STSongti-TC-Bold": {
+      "embedded": true,
+      "to_unicode": true
+    }
+  },
+  "mathematical_expressions": 115,
+  "rendered_math_occurrences": 120,
+  "display_formulae": 19,
+  "inline_formulae": 96,
+  "all_math_sources_rendered": true,
+  "all_math_assets_hash_verified": true,
+  "characters_per_page": [
+    1310,
+    804,
+    1190,
+    771,
+    995,
+    600,
+    1722,
+    593,
+    1138,
+    796,
+    1552,
+    1134,
+    1237,
+    1491,
+    807,
+    593,
+    467,
+    1294,
+    661,
+    1523,
+    680
+  ],
+  "out_of_page_text_and_images": [],
+  "all_pages_rendered": true,
+  "page_renderer": "Poppler pdftoppm -scale-to 1100 -png",
+  "markdown_sha256": "749a35777e3f12a11ba4dbccb4f00c6258b68356af3d6781c58d943aae4b29e8",
+  "pdf_sha256": "aefe1463d2e733e85ad001fddfff21f18ea36467a7bcffca57993455814610ce",
+  "status": "passed",
+  "visual_review": "All 21 final pages inspected in four Poppler-rendered contact sheets; full-resolution formula samples inspected. Corrected original figure/table crops checked. No clipping, overlap, blank pages or missing prose/figures observed.",
+  "shared_renderer_sha256": "9a61158f5c0c9ff6330e1a2989ac0ec402547791cd565bc813aa19e52ef17a9e",
+  "math_renderer_sha256": "2b2b570c33c983e35d4e9ea1341ea514fd514a272b88c4a6e8fb39d0564b7b12",
+  "renderer_adapter_sha256": "3f0065b462af45c1bdaa70d124cf7440f6fa5a9cf2f286088d22c41be2b162bb",
+  "font_sha256": "19d520cef1e3526ab10eef322a436a78cded57d0389682f9e21485c21c9a421c"
+}
