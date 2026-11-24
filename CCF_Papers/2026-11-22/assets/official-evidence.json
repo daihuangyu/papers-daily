@@ -1,0 +1,157 @@
+[
+  {
+    "paper": "mem",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10007826",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main conference entry and full regular proceedings manuscript; not workshop, Findings, short or demo.",
+      "page_title": "ICLR Oral MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent",
+      "snapshot": "assets/official-records/mem.html",
+      "snapshot_sha256": "3fa9fb72791aef4e0a56523c0de37f1521a0db2cffe3cc18be13efb7dd3994a4"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10007826",
+      "label": "oral",
+      "checked_on": "2026-11-22"
+    }
+  },
+  {
+    "paper": "decs",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10007766",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main conference entry and full regular proceedings manuscript; not workshop, Findings, short or demo.",
+      "page_title": "ICLR Oral Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling",
+      "snapshot": "assets/official-records/decs.html",
+      "snapshot_sha256": "f29f41f4dfc2bd409a46c6c26988389a3372bf707bee9cedaae1fa717026b475"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10007766",
+      "label": "oral",
+      "checked_on": "2026-11-22"
+    }
+  },
+  {
+    "paper": "spec",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009727",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main conference entry and full regular proceedings manuscript; not workshop, Findings, short or demo.",
+      "page_title": "ICLR Oral Speculative Actions: A Lossless Framework for Faster AI Agents",
+      "snapshot": "assets/official-records/spec.html",
+      "snapshot_sha256": "62ec18395a6222b0bfce4d09aaeb1604669a1704eedf78df18ef74953ccc73a3"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009727",
+      "label": "oral",
+      "checked_on": "2026-11-22"
+    }
+  },
+  {
+    "paper": "rzero",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10011147",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main conference entry and full regular proceedings manuscript; not workshop, Findings, short or demo.",
+      "page_title": "ICLR Poster R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+      "snapshot": "assets/official-records/rzero.html",
+      "snapshot_sha256": "c4c3372b07cf5e4cffb208c36021e9ce440bdff73e815a10cff31d1429b29a87"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10011147",
+      "label": "poster",
+      "checked_on": "2026-11-22"
+    }
+  },
+  {
+    "paper": "fisc",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31 revised2026-04-09",
+      "physical_pdf_page": 58,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://aclanthology.org/2026.emnlp-main.243/",
+      "venue": "EMNLP",
+      "year": 2026,
+      "basis": "Official main conference entry and full regular proceedings manuscript; not workshop, Findings, short or demo.",
+      "page_title": "Teaching LLMs to Abstain via Fine-Grained Semantic Confidence Reward - ACL Anthology",
+      "snapshot": "assets/official-records/fisc.html",
+      "snapshot_sha256": "d7bf33934937e8a9a6e8e4313e484442d51d9a30d7a433a0cb453d57d9f98443"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+      "label": "poster",
+      "checked_on": "2026-11-22",
+      "program_url": "https://2026.emnlp.org/program/",
+      "paper_id": "668-MAIN",
+      "mode": "In-Person",
+      "session": "Session4 / Poster Session B",
+      "date": "2026-10-25",
+      "time": "16:00-17:30",
+      "room": "Hall H",
+      "poster_number": "238",
+      "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350",
+      "matched_row_record": "assets/emnlp-schedule-evidence.json"
+    }
+  }
+]

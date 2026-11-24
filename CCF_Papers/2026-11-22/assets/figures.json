@@ -1,0 +1,486 @@
+[
+  {
+    "file": "mem-fig2-3.png",
+    "paper": "mem",
+    "figure": "fig2-3",
+    "physical_pdf_page": 3,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      463
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/4264ee4376776907c0b87ed70b959585-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "b4c9095c87943625e812dfd8ea7386c4fc98ddde133960d98d2d00ea877238a0",
+    "sha256": "92986d38329a60c72e407ecf9cc7a7a688ce4635df8e8ca69bfe775849f96075",
+    "pixels": [
+      1200,
+      1149
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 1：原文 Figure 2、3，正式 PDF 物理第 3 页。来源为上述会议 PDF，216 dpi 原图裁切。上图比较全窗口阅读和逐块记忆更新，下图比较普通 GRPO 与 Multi-Conv DAPO。读图时沿记忆箭头看信息如何被下一轮接收；训练图中的最终奖励会传回之前各次记忆输出，不能理解为每次摘要都有独立人工标签。"
+  },
+  {
+    "file": "mem-table1.png",
+    "paper": "mem",
+    "figure": "table1",
+    "physical_pdf_page": 5,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      248
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/4264ee4376776907c0b87ed70b959585-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "b4c9095c87943625e812dfd8ea7386c4fc98ddde133960d98d2d00ea877238a0",
+    "sha256": "b4c6aa3e2f4236ad21516a6e131d422e558562827e2c2be55b40f6e2a7b24b6c",
+    "pixels": [
+      1200,
+      504
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 2：原文 Table 1，正式 PDF 物理第 5 页，来源同上。RULER-HQA 的准确率百分数，长度 7K 至 3.5M；加粗是列内最高值，N/A 是未报告，不是零。128 条评测样本使准确率增量约为 0.78 个百分点。基线能接收的上下文上限不同，超过上限时存在截断条件；这是方法能力比较，不是等 GPU 时间、等读取 token 的实验。"
+  },
+  {
+    "file": "mem-table3.png",
+    "paper": "mem",
+    "figure": "table3",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      276,
+      375,
+      506,
+      489
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/4264ee4376776907c0b87ed70b959585-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "b4c9095c87943625e812dfd8ea7386c4fc98ddde133960d98d2d00ea877238a0",
+    "sha256": "ceedbf039aa12e3c5d5477238a67670086999725888813adb103d97eb4aa4b4d",
+    "pixels": [
+      690,
+      342
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 3：原文 Table 3，正式 PDF 物理第 6 页，LongBench-QA 五个数据集。来源同上。先横向读同一模型的五列，再比较平均；QwenLong-L1-32B 等不是同参数量的控制组。MemAgent-14B 的平均 51.0，高于其 14B 基座的 42.0，但并非每列都胜过所有长上下文模型。"
+  },
+  {
+    "file": "mem-fig6-7.png",
+    "paper": "mem",
+    "figure": "fig6-7",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      278
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/4264ee4376776907c0b87ed70b959585-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "b4c9095c87943625e812dfd8ea7386c4fc98ddde133960d98d2d00ea877238a0",
+    "sha256": "7fd2bfa3c7c3d257437d2703522011160067e66209a6e8124c4f871c60e10cb6",
+    "pixels": [
+      1200,
+      594
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 4：原文 Figure 6、7，正式 PDF 物理第 8 页。来源同上。左图固定长度横轴比较有/无 RL 的记忆方案；右图按 LongBench 数据集比较基础模型、无 RL 记忆代理、有 RL 代理。要验证的是训练记忆策略的贡献，而非只看是否加了摘要循环。"
+  },
+  {
+    "file": "mem-fig10.png",
+    "paper": "mem",
+    "figure": "fig10",
+    "physical_pdf_page": 19,
+    "crop_points_from_top_left": [
+      150,
+      505,
+      465,
+      698
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/4264ee4376776907c0b87ed70b959585-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "b4c9095c87943625e812dfd8ea7386c4fc98ddde133960d98d2d00ea877238a0",
+    "sha256": "5b5ae05e1257921d67c54e1f368174221c3d408036133a23585e1a123fe4b4b4",
+    "pixels": [
+      945,
+      579
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 5：原文 Figure 10，正式 PDF 物理第 19 页。来源同上。横轴上下文长度，纵轴 FLOPs；这是基于模型计算量的估计图，不是实测秒数、峰值显存或 GPU 费用。长文本时曲线差距支持复杂度分析，无法直接读出生产环境加速比。"
+  },
+  {
+    "file": "decs-fig2.png",
+    "paper": "decs",
+    "figure": "fig2",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      413
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/bb0fea29f7aa6ede17e906ac6a225f34-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "aff3c5f333399eebcac98a6b3a2d09392242913f400ceed2e43de60b194eaa62",
+    "sha256": "b0ac0a96969fff5911f126973ca6fa468815e6d7d75eb5200e0b9e5bc4642064",
+    "pixels": [
+      1200,
+      999
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 6：原文 Figure 2，正式 PDF 物理第 6 页。来源为上述会议 PDF。先从一题采样 G 个输出，再用 NRP detector 分段；蓝/绿区域表示必要推理与结论，红色区域表示不同位置的冗余惩罚；左下角是简单题比例调度。原图关于优势符号的简化说明需要结合组内归一化条件理解，不能当无条件定理。"
+  },
+  {
+    "file": "decs-table1.png",
+    "paper": "decs",
+    "figure": "table1",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      263
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/bb0fea29f7aa6ede17e906ac6a225f34-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "aff3c5f333399eebcac98a6b3a2d09392242913f400ceed2e43de60b194eaa62",
+    "sha256": "4495fa7ab85f47b4db3a6c9f9102755e7923014825dc5e2192231f76209c44b9",
+    "pixels": [
+      1200,
+      549
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 7：原文 Table 1，正式 PDF 物理第 8 页。来源同上。每个数据集并列准确率和 token 数，最右是七任务平均及 AES；比较同一底座内的 Base、GRPO、ThinkPrune、LC-R1 等。这里“短”不自动意味着更准，平均也不代表每个任务都改善。"
+  },
+  {
+    "file": "decs-fig3.png",
+    "paper": "decs",
+    "figure": "fig3",
+    "physical_pdf_page": 9,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      284
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/bb0fea29f7aa6ede17e906ac6a225f34-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "aff3c5f333399eebcac98a6b3a2d09392242913f400ceed2e43de60b194eaa62",
+    "sha256": "1bbeee59b5d49134799af9e9e5f924d6111107e6f88fa3fbf63aaafc1c7e0915",
+    "pixels": [
+      1200,
+      612
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 8：原文 Figure 3，正式 PDF 物理第 9 页。来源同上。(a) 在 DS-1.5B 上消融两部件；(b) AIME2024 的 NRP 比例与 token 成本；(c) 三个任务的 Pass@K，横轴 K 为采样次数。曲线接近说明这些设置下多次采样覆盖率接近，不足以证明任意任务的“创造力不变”。"
+  },
+  {
+    "file": "decs-table3.png",
+    "paper": "decs",
+    "figure": "table3",
+    "physical_pdf_page": 17,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      165
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/bb0fea29f7aa6ede17e906ac6a225f34-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "aff3c5f333399eebcac98a6b3a2d09392242913f400ceed2e43de60b194eaa62",
+    "sha256": "18654fa26fef1f70a6c64c3a4a43f56f2ac9b3867d97b5a6eb8c8da0af1a95c3",
+    "pixels": [
+      1200,
+      255
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 9：原文 Table 3，正式 PDF 物理第 17 页。来源同上。固定 DS-1.5B：完整方法 47.78 / 4,000，去课程调度为 46.31 / 4,095，去解耦奖励为 46.70 / 5,111。准确率和 token 一起读；部件贡献不能脱离此训练预算和数据设置外推。"
+  },
+  {
+    "file": "spec-fig1.png",
+    "paper": "spec",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      47,
+      506,
+      304
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/fb279d7a134ad6fead7953ac7fd77fc4-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "6c554db58c59b8b26e484e798f2e62f80a13586c81dce8bf6c7d0a76379d2374",
+    "sha256": "7475232221fcac6432198728a4951ac9e545e01548992ae16d6b2e27396bb55d",
+    "pixels": [
+      1200,
+      771
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 10：原文 Figure 1，正式 PDF 物理第 2 页。来源为上述会议 PDF。顶行为串行调用，下方在真实动作完成前并行预计算；红叉分支不匹配，蓝色分支通过核验。读图应区分“预测动作”与“采用动作”：只有真实动作返回且匹配后，缓存结果才可以生效。"
+  },
+  {
+    "file": "spec-fig2.png",
+    "paper": "spec",
+    "figure": "fig2",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      305,
+      548,
+      506,
+      728
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/fb279d7a134ad6fead7953ac7fd77fc4-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "6c554db58c59b8b26e484e798f2e62f80a13586c81dce8bf6c7d0a76379d2374",
+    "sha256": "59c6a67e9f554ab7a991963c7c611c44e009a443d942b7ecf573c6260cee3080",
+    "pixels": [
+      603,
+      540
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 11：原文 Figure 2，正式 PDF 物理第 6 页。来源同上。蓝柱是至少一个预测正确的比例，红柱是实际节省时间比例，误差条来自五次运行；二者不是同一指标。1/2/3 个预测分别命中 31.3%/41.3%/54.7%，节时 11.8%/15.0%/19.5%。"
+  },
+  {
+    "file": "spec-fig6.png",
+    "paper": "spec",
+    "figure": "fig6",
+    "physical_pdf_page": 10,
+    "crop_points_from_top_left": [
+      318,
+      80,
+      506,
+      257
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/fb279d7a134ad6fead7953ac7fd77fc4-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "6c554db58c59b8b26e484e798f2e62f80a13586c81dce8bf6c7d0a76379d2374",
+    "sha256": "32d50cd363ad9d3c7f839ed36af1b686d8baaa1e817d920772102d1fded6cea4",
+    "pixels": [
+      564,
+      531
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 12：原文 Figure 6，正式 PDF 物理第 10 页。来源同上。横轴为相对花费时间百分比，越左越快；纵轴为额外 token 百分比，越低越省。比较 1/2/3 分支和置信度阈值方法，点形对应 20–50 步目标。不能把纵轴“额外 token”误读为剩余总成本，也不能将这一象棋环境曲线泛化成所有 API 的最优边界。"
+  },
+  {
+    "file": "spec-fig9-table2.png",
+    "paper": "spec",
+    "figure": "fig9-table2",
+    "physical_pdf_page": 20,
+    "crop_points_from_top_left": [
+      106,
+      298,
+      506,
+      630
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/fb279d7a134ad6fead7953ac7fd77fc4-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "6c554db58c59b8b26e484e798f2e62f80a13586c81dce8bf6c7d0a76379d2374",
+    "sha256": "1012775e60f8e2d46f8872970971d27d8e0a4c956fac2e2020d5d0afa3847498",
+    "pixels": [
+      1200,
+      996
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 13：原文 Figure 9 及同页上方标为 Table 2 的费用表，正式 PDF 物理第 20 页；原表下方又印有 Table 3，保留这一编号不一致。来源同上。图的金额单位 USD，表的金额单位 cents（美分）；竖线为各方法收敛时间。必须比较相同终止条件，不能只选最便宜时间点。"
+  },
+  {
+    "file": "rzero-fig2.png",
+    "paper": "rzero",
+    "figure": "fig2",
+    "physical_pdf_page": 3,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      320
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d49b9aacebda61051166335af6fd3061-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "37e66b00db96dd7476ddcb05a3483b8a0c2d8ee54a3bd395fed8aecb83ba9f3c",
+    "sha256": "39afca1ddaf190bd9d18c0c2fdded7b3eee23699bd9f4a6806ee8077e0248de6",
+    "pixels": [
+      1200,
+      720
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 14：原文 Figure 2，正式 PDF 物理第 3 页。来源为上述会议 PDF。冰冻图标表示该阶段参数固定，火焰表示更新；右侧的多数投票产生伪标签，不是外部标准答案。应沿上下两个训练阶段读图，不能误认为两个角色共享同一套同时更新的权重。"
+  },
+  {
+    "file": "rzero-table1.png",
+    "paper": "rzero",
+    "figure": "table1",
+    "physical_pdf_page": 5,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      342
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d49b9aacebda61051166335af6fd3061-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "37e66b00db96dd7476ddcb05a3483b8a0c2d8ee54a3bd395fed8aecb83ba9f3c",
+    "sha256": "b2d9c81ce3a19a54dba3bd0a66887f91b106793c575d9a4aa15cb12065ea3dfc",
+    "pixels": [
+      1200,
+      786
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 15：原文 Table 1，正式 PDF 物理第 5 页。来源同上。每个底座分别比较 Base、Absolute Zero、冻结未训练 Challenger 和完整方法；Avg 是七个数学任务平均。AMC/AIME 使用 mean@32 的多次采样平均正确率，不是“32 次里只要一次正确”的 pass@32；其余任务的采样和判分条件另列于正文与附录。"
+  },
+  {
+    "file": "rzero-table2.png",
+    "paper": "rzero",
+    "figure": "table2",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      337
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d49b9aacebda61051166335af6fd3061-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "37e66b00db96dd7476ddcb05a3483b8a0c2d8ee54a3bd395fed8aecb83ba9f3c",
+    "sha256": "c7cc791f2bc500402673ef3404cf7f53304d9ac3f842109027d37de41af5fccb",
+    "pixels": [
+      1200,
+      771
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 16：原文 Table 2，正式 PDF 物理第 6 页。来源同上。三个通用任务为 SuperGPQA、MMLU-Pro、BBEH；用各自底座行比较。Qwen3-4B 平均 26.34→31.15，8B 31.98→34.50；OctoThinker-3B 的 11.12 低于 Absolute Zero 的 16.03，不能宣称所有模型都全面领先。"
+  },
+  {
+    "file": "rzero-fig3.png",
+    "paper": "rzero",
+    "figure": "fig3",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      305,
+      282,
+      506,
+      418
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d49b9aacebda61051166335af6fd3061-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "37e66b00db96dd7476ddcb05a3483b8a0c2d8ee54a3bd395fed8aecb83ba9f3c",
+    "sha256": "0682b8279797e5bfcac4af252b329fb0975376176be610317682ce9c09192339",
+    "pixels": [
+      603,
+      408
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 17：原文 Figure 3，正式 PDF 物理第 7 页。来源同上。横轴为 Solver step，星形表示各规模峰值；绿线 4B 在 step 45 达 49.07，step 60 降到 46.52；蓝线 0.6B 更早在 step 15 达峰。它展示改进后退化，不是持续增长的缩放定律。"
+  },
+  {
+    "file": "rzero-table5.png",
+    "paper": "rzero",
+    "figure": "table5",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      106,
+      486,
+      506,
+      587
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d49b9aacebda61051166335af6fd3061-Paper-Conference.pdf",
+    "pdf_version": "ICLR2026 official conference proceedings camera-ready",
+    "pdf_sha256": "37e66b00db96dd7476ddcb05a3483b8a0c2d8ee54a3bd395fed8aecb83ba9f3c",
+    "sha256": "b2d4d6625de8900cde5488bb337726031e81953f7882a452419781ec6d77583f",
+    "pixels": [
+      1200,
+      303
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 18：原文 Table 5，正式 PDF 物理第 8 页。来源同上。每轮抽样 200 题，用 GPT-4o 当假定无误的外部标注者；右列伪标签一致率从 79%→69%→63%。应读成对该 oracle 的一致率，不能认为人工已经证明每个答案真伪。附录另用 Gemini 与 500 题的结果是另一口径，不拼接成同一曲线。"
+  },
+  {
+    "file": "fisc-fig2.png",
+    "paper": "fisc",
+    "figure": "fig2",
+    "physical_pdf_page": 4,
+    "crop_points_from_top_left": [
+      68,
+      69,
+      530,
+      335
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.243.pdf",
+    "pdf_version": "EMNLP2026 official conference proceedings camera-ready",
+    "pdf_sha256": "dce16abd2258ebb0388ce65bb2aab89923a9542e4656a65cf2f5f2e1fcc6b6ff",
+    "sha256": "9cd57ded22c7440ab1c1b2b1a12468f97b41b7fd8ed5d244436e92279053c0e3",
+    "pixels": [
+      1386,
+      798
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 19：原文 Figure 2，正式 PDF 物理第 4 页。来源为上述会议 PDF。上方是 GRPO，下面把同一问题的 G 个答案按语义分簇，大簇期望 sure、小簇期望 unsure；红线是置信度奖励，蓝线是准确率奖励，绿色是格式奖励。应把答案真假与模型是否知道自己不确定分成两个维度读图。"
+  },
+  {
+    "file": "fisc-table2.png",
+    "paper": "fisc",
+    "figure": "table2",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      68,
+      69,
+      530,
+      371
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.243.pdf",
+    "pdf_version": "EMNLP2026 official conference proceedings camera-ready",
+    "pdf_sha256": "dce16abd2258ebb0388ce65bb2aab89923a9542e4656a65cf2f5f2e1fcc6b6ff",
+    "sha256": "8ce981aa81f3d566f63f98f7d1160a58e99a078847a110cd43e166343d187393",
+    "pixels": [
+      1386,
+      906
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 20：原文 Table 2，正式 PDF 物理第 6 页。来源同上。每个数据集有 $`F_{1,\\mathrm{ans}}`$、$`F_{1,\\mathrm{abs}}`$、$`F_{1,\\mathrm{rel}}`$、Acc，数值乘 100；各底座分开比较。对域外泛化应看三个 OOD 区块，不能用一项可靠性分数代替普通准确率，也不能忽略域内 R-Tuning 的优势。"
+  },
+  {
+    "file": "fisc-fig3.png",
+    "paper": "fisc",
+    "figure": "fig3",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      68,
+      69,
+      530,
+      288
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.243.pdf",
+    "pdf_version": "EMNLP2026 official conference proceedings camera-ready",
+    "pdf_sha256": "dce16abd2258ebb0388ce65bb2aab89923a9542e4656a65cf2f5f2e1fcc6b6ff",
+    "sha256": "e4b8ca0a403b4f44f99eabf243f84cc9d051d08b724f9858e3ee376c9ff29393",
+    "pixels": [
+      1386,
+      657
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 21：原文 Figure 3，正式 PDF 物理第 7 页。来源同上，Qwen2.5-7B-Instruct / TriviaQA。(a) 采样组大小 G 的变化，(b) 准确率奖励权重的变化；图中曲线与柱子代表不同指标。大约 G=10 后收益趋缓；没有准确率奖励时明显塌缩，说明方法依赖带答案的辅助信号。"
+  },
+  {
+    "file": "fisc-table10.png",
+    "paper": "fisc",
+    "figure": "table10",
+    "physical_pdf_page": 21,
+    "crop_points_from_top_left": [
+      68,
+      421,
+      530,
+      633
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.243.pdf",
+    "pdf_version": "EMNLP2026 official conference proceedings camera-ready",
+    "pdf_sha256": "dce16abd2258ebb0388ce65bb2aab89923a9542e4656a65cf2f5f2e1fcc6b6ff",
+    "sha256": "f2d564947d98510a8cc5eb42d8c6f1b13c831372a12851aac580163177410575",
+    "pixels": [
+      1386,
+      636
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 22：原文 Table 10，正式 PDF 物理第 21 页。来源同上。左侧是平均输出 token，右侧按原图注是 100 个随机问题的平均生成时间统计；论文未把计时聚合口径说明到足以直接当逐题在线延迟，本报告不自行除以 100。实验使用单张 L40，表内方法和数据集分别对照。"
+  }
+]

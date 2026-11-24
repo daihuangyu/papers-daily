@@ -1,0 +1,398 @@
+[
+  {
+    "file": "safe-fig1.png",
+    "paper": "safe",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      58,
+      506,
+      198
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+    "sha256": "4421609a8923e140fbf5848a177e6a24075c2b949dca3df4231fc529543bfbfe",
+    "pixels": [
+      1200,
+      420
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 1. 原文 Figure 1，正式 PDF 物理第 2 页，来源为本节正式 PDF，版本为 ICLR 2026 论文集。左侧 SafeRLHF 训练奖励／成本模型并做 RL，右侧 SafeDPO 使用带安全标记的比较数据直接优化。蓝色标记表示相对普通 DPO 新增的安全信息，红色组件是左侧额外需要的网络或流程；这是机制示意，不是速度实验。"
+  },
+  {
+    "file": "safe-fig2.png",
+    "paper": "safe",
+    "figure": "fig2",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      106,
+      75,
+      506,
+      285
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+    "sha256": "1ff2618c75b90a926686c6832f0b450c30848ea16bdcdfcda8ac32970e22f311",
+    "pixels": [
+      1200,
+      630
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 2. 原文 Figure 2，正式 PDF 物理第 7 页。左半是模型裁判，右半是 GPT-4 裁判；横轴 helpfulness，纵轴分别为 harmless ratio 和 harmlessness。基线包括 SFT、三种 DPO、SafeRLHF、SACPO 与 P-SACPO。先固定裁判与指标，再比较安全率和有用性位置；两种裁判刻度不同，不能混成一个排行榜。图源及版本同本节正式 PDF。"
+  },
+  {
+    "file": "safe-fig3.png",
+    "paper": "safe",
+    "figure": "fig3",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      106,
+      75,
+      506,
+      250
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+    "sha256": "331b15ea428703b6adbbdc33d268f9cbbb47a2894e111f07518bbbfd988a4e53",
+    "pixels": [
+      1200,
+      525
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 3. 原文 Figure 3，正式 PDF 物理第 8 页。横轴是安全间隔，实线为 SafeDPO，虚线为固定基线；左／右分别采用模型与 GPT-4 评价。安全率较早达到平台，而过大的间隔会降低有用性，特别是模型裁判下。该图不支持“间隔越大越好”。图源及版本同本节正式 PDF。"
+  },
+  {
+    "file": "safe-table3.png",
+    "paper": "safe",
+    "figure": "table3",
+    "physical_pdf_page": 10,
+    "crop_points_from_top_left": [
+      177,
+      351,
+      434,
+      459
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+    "sha256": "9348d45b5d9e0b0d8e12ccc096e79c12cdd88df0cdcaf313da986fba76eb01c6",
+    "pixels": [
+      771,
+      324
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 4. 原文 Table 3，正式 PDF 物理第 10 页。XSTest 包含 250 个安全问题与 200 个不安全问题，此表以 GPT-5.1 判定；前列是安全问题被错误拒绝的比例，后列是不安全问题上的安全率，二者来自不同子集。SafeDPO 为 12.4%／100%，SafeRLHF 为 3.2%／84.5%，P-SACPO 为 1.2%／84.5%。高安全率伴随更高过度拒答，不能只读最后一列。图源及版本同本节正式 PDF。"
+  },
+  {
+    "file": "coverage-fig1.png",
+    "paper": "coverage",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      83,
+      506,
+      290
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "fb5e4172a46fd967656b5333244055eec78bf54968fa3b46f7d48db14d2aafae",
+    "sha256": "486899328228e1bb26c97c89d9c610169eda90c21710a43c4e950e99b197c9f4",
+    "pixels": [
+      1200,
+      621
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 5. 原文 Figure 1，正式 PDF 物理第 2 页。左侧训练过程中 KL 可持续改善，而部分覆盖尾概率先改善后变差；右侧比较 KL／覆盖与 Pass@N，不同颜色对应不同采样预算。菱形为 tournament 选择，圆点为按最小 KL 选择。条件为合成图任务和相同检查点集合，不能直接外推为真实 LLM 的准确率增益。图源及版本为本节 ICLR 2026 正式 PDF。"
+  },
+  {
+    "file": "coverage-fig2.png",
+    "paper": "coverage",
+    "figure": "fig2",
+    "physical_pdf_page": 5,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      261
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "fb5e4172a46fd967656b5333244055eec78bf54968fa3b46f7d48db14d2aafae",
+    "sha256": "73158b1c85e034b0adae418b4af5f8dbc8b471c61fcc27cef3ede2030c6ba76e",
+    "pixels": [
+      1200,
+      543
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 6. 原文 Figure 2，正式 PDF 物理第 5 页。三条颜色对应中间层数 8、16、24，左图为 KL，中图为覆盖，右图为二者比值；覆盖曲线比 KL 更少受该实验中的长度影响。纵轴不是下游准确率，阴影来自多随机种子。原文未提供独立架构流程图，本期保留原有两张核心实验图，不补画伪架构或实验曲线。图源及版本同上。"
+  },
+  {
+    "file": "sspo-fig1.png",
+    "paper": "sspo",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      304
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+    "sha256": "cefbe159398cdf04bfe0c66bf9bf7b64321916008780876ff99792790dbe3066",
+    "pixels": [
+      1200,
+      672
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 7. 原文 Figure 1，正式 PDF 物理第 2 页。左侧绿色／橙色是已知偏好，蓝色是未成对回答；中间用学到的阈值产生伪优胜／伪落败标签，右侧联合优化。该图不意味着未标注回答都正确，也没有展示额外模型生成数据。图源及版本为本节 ICLR 2026 正式 PDF。"
+  },
+  {
+    "file": "sspo-table2.png",
+    "paper": "sspo",
+    "figure": "table2",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      106,
+      78,
+      506,
+      595
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+    "sha256": "7d72fdab7e4769832a3b17dc1000c029081cb9cb39aaa703178fd500d6e2b04e",
+    "pixels": [
+      1200,
+      1551
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 8. 原文 Table 2，正式 PDF 物理第 7 页。LC 为 AlpacaEval 2 的长度控制胜率，WR 为原始胜率，MT 为 MT-Bench；分别列通用、医学和商业数据的不同模型与标签比例。先固定模型、领域、标签比例，再比较列内指标。SSPO 额外利用未成对语料，不能把全部增益都归于损失函数。图源及版本同本节正式 PDF。"
+  },
+  {
+    "file": "sspo-fig3.png",
+    "paper": "sspo",
+    "figure": "fig3",
+    "physical_pdf_page": 9,
+    "crop_points_from_top_left": [
+      106,
+      540,
+      506,
+      725
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+    "sha256": "0bce1d684a0992e87b8686c5f98b29e5878a425c255874838990e542eaf54a38",
+    "pixels": [
+      1200,
+      555
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 10. 原文 Figure 3，正式 PDF 物理第 9 页。条件为 Mistral、DSP Business 10% 标签；蓝／橙分别为胜／败奖励密度，绿虚线是估计阈值，展示第 100、200、343 步。它支持该运行中两组奖励逐渐分离的描述，不能证明所有未标注回答的伪标签正确，也不是通用领域的完整校准实验。图源及版本同上。"
+  },
+  {
+    "file": "sspo-table10.png",
+    "paper": "sspo",
+    "figure": "table10",
+    "physical_pdf_page": 23,
+    "crop_points_from_top_left": [
+      332,
+      78,
+      507,
+      270
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+    "sha256": "1d89e34ea2ea107d208c65134d89052ad39d0f6fde9efb214b61513a914dce7d",
+    "pixels": [
+      525,
+      576
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 9. 原文 Table 10，正式 PDF 物理第 23 页。Mistral 7B、UltraFeedback 相同标签比例下，DPO+SFT 为 26.5／29.5 LC，SSPO 为 26.7／30.0；差距仅 0.2／0.5 个百分点。SimPO+SFT 为 25.1／27.3。表中没有给出这些差值的置信区间，不能据此断言很小差距具有统计显著性。图源及版本同上。"
+  },
+  {
+    "file": "draft-fig1.png",
+    "paper": "draft",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      355
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+    "sha256": "353b104acf04c7add3e4037808a90fd63bba7788f148b0ea297d518d57963391",
+    "pixels": [
+      1200,
+      825
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 11. 原文 Figure 1，正式 PDF 物理第 2 页。左侧深度策略决定继续扩展还是停止；中部大小策略选择待验证节点数；右侧目标模型通过 tree mask 验证，接受前缀并反馈“接受 token 数／总用时”。两策略是轻量网络，目标与草稿模型保持冻结。该图是机制图，不能据节点数量直接读出实际加速比。图源及版本为本节 ICLR 2026 正式 PDF。"
+  },
+  {
+    "file": "draft-fig2.png",
+    "paper": "draft",
+    "figure": "fig2",
+    "physical_pdf_page": 4,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      286
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+    "sha256": "0e190637f66a6bfe048b14e07ebaa75793e136a3f29b325b0c3ad722028ac012",
+    "pixels": [
+      1200,
+      618
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 12. 原文 Figure 2，正式 PDF 物理第 4 页。左图在 Vicuna-13B 上改变 D、V，粉色为草稿时间、紫色为验证时间，后者存在阶梯；右图按 EAGLE3 总时间归一化比较不同模型的两部分耗时。不要把右图各颜色的数字当成 tokens/s，也不能把一个模型的硬件曲线通用于另一个模型。图源及版本同本节正式 PDF。"
+  },
+  {
+    "file": "draft-table1.png",
+    "paper": "draft",
+    "figure": "table1",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      106,
+      78,
+      506,
+      425
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+    "sha256": "62854f7546e2c93ad9b8ef9a7531a81b3be0dc195981eb21b4fdd554568641ee",
+    "pixels": [
+      1200,
+      1041
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 13. 原文 Table 1，正式 PDF 物理第 8 页。温度 0，速度倍数均相对同目标模型自回归基线；tau 为平均接受长度。GS 是网格搜索调参的 EAGLE3，对 Qwen 只报告 GS 基线。每个模型块必须分别比较，不能将 Qwen32B 的倍数和 Vicuna13B 的倍数当作绝对速度比较。图源及版本同本节正式 PDF。"
+  },
+  {
+    "file": "draft-table2.png",
+    "paper": "draft",
+    "figure": "table2",
+    "physical_pdf_page": 10,
+    "crop_points_from_top_left": [
+      106,
+      80,
+      506,
+      178
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+    "sha256": "91f728b5f54157e00761916ea01010a366a649379c6e24fde53f47625eb973f5",
+    "pixels": [
+      1200,
+      294
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 14. 原文 Table 2，正式 PDF 物理第 10 页。在 Vicuna-13B 上单独训练大小策略，比较只奖励接受长度、只优化时间与吞吐率奖励。均值速度为 3.59／3.45／4.13 倍；接受长度奖励的 tau 6.89 略高于吞吐率奖励的 6.84，速度反而更低。它是同设置的目标消融，不能与完整版 4.32 倍直接混成同一算法。图源及版本同上。"
+  },
+  {
+    "file": "cluster-fig3.png",
+    "paper": "cluster",
+    "figure": "fig3",
+    "physical_pdf_page": 4,
+    "crop_points_from_top_left": [
+      69,
+      69,
+      528,
+      235
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+    "sha256": "c3bbdd8d1982fa7152c69d4cb9cb85f81bd8b61033f68fac05f4f39bfe2db1c8",
+    "pixels": [
+      1377,
+      498
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 15. 原文 Figure 3，正式 PDF 物理第 4 页（论文集页 7888）。左侧以前向计算的梯度代理聚类，中部以最小簇为基准均衡删选，右侧不同 GPU 处理簇样本并按原始簇大小加权。图中权重用于恢复原始分布占比，不是奖励函数。图源及版本为本节 EMNLP 2026 正式 PDF。"
+  },
+  {
+    "file": "cluster-table3.png",
+    "paper": "cluster",
+    "figure": "table3",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      305,
+      328,
+      530,
+      551
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+    "sha256": "601ed5c1533cb0a56af21b9749899b80a4ca7299a395b6a6ec501320e9a8dc66",
+    "pixels": [
+      675,
+      669
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 16. 原文 Table 3，正式 PDF 物理第 6 页（论文集页 7890）。Llama-2-7B 在 MedInstruct 上微调；固定实际数据比例后比较 Random、Uniform、IFD、LESS、S2L 与 CluSTER。Avg 为四项医学任务平均，Time 为训练小时，尚未含数据选择。均值旁的波动为三个种子结果。图源及版本同本节正式 PDF。"
+  },
+  {
+    "file": "cluster-table4.png",
+    "paper": "cluster",
+    "figure": "table4",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      305,
+      69,
+      530,
+      208
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+    "sha256": "b1e6333402f5f8195850932809b386d8915d0729a5a435555a3d3e5fe241922d",
+    "pixels": [
+      675,
+      417
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 17. 原文 Table 4，正式 PDF 物理第 7 页（论文集页 7891）。Sel 为选择时间、Train 为训练时间、Total 为两者相加。CluSTER 的选择阶段代码／医学分别约 0.19／0.13 小时；比较完整成本时应读 Total，不能只读 Train。表中 r=1 和 r=0.75 对应均衡后的实际数据比例，不是原数据的 100%／75%。图源及版本同上。"
+  },
+  {
+    "file": "cluster-fig6.png",
+    "paper": "cluster",
+    "figure": "fig6",
+    "physical_pdf_page": 9,
+    "crop_points_from_top_left": [
+      305,
+      69,
+      530,
+      261
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+    "sha256": "8966d6f237a5c956347fea4fd1536a63243ac1223345c5d502c819f998417ab8",
+    "pixels": [
+      675,
+      576
+    ],
+    "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+    "caption_conditions_and_reading_guide": "图 18. 原文 Figure 6，正式 PDF 物理第 9 页（论文集页 7893）。左图比较 worker 间梯度相似性，中图展示 5% Magicoder 子集的语义聚类，右图用实际梯度比较簇内／簇间相似性。右图纵轴从 0.2 附近开始，视觉差距不能直接按柱高倍数解读；中图是降维可视化，不是全数据语义标签证明。图源及版本同本节正式 PDF。"
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "paper": "open",
+    "repository": "https://github.com/open-thoughts/open-thoughts",
+    "commit": "e86cf2dbbe69ae178aec302be33a3454a7183457",
+    "availability": "data_and_training_components_available",
+    "archive_sha256": "5c8d50f11f1d8a7270f759b06584132d7ca2b2686f1d605972cc37da56c0fc0d",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/open-thoughts/open-thoughts/blob/e86cf2dbbe69ae178aec302be33a3454a7183457/README.md",
+        "sha256": "e4fb6b069425a0323866ff244065ad2477943a532ec365a68deba71c9fe2300a"
+      },
+      {
+        "path": "open_thoughts_3/README.md",
+        "url": "https://github.com/open-thoughts/open-thoughts/blob/e86cf2dbbe69ae178aec302be33a3454a7183457/open_thoughts_3/README.md",
+        "sha256": "493b79446cc810dfa5e7cb7ca8848ff98a21efd6806399174d1353bce8dfad2d"
+      },
+      {
+        "path": "open_thoughts_3/dcft/generate.py",
+        "url": "https://github.com/open-thoughts/open-thoughts/blob/e86cf2dbbe69ae178aec302be33a3454a7183457/open_thoughts_3/dcft/generate.py",
+        "sha256": "7913dee5cc596e505bc74bbef3bbdeb8ca75e743de1ea54433e61d2ca99c4b6b"
+      },
+      {
+        "path": "open_thoughts_3/engine/dag.py",
+        "url": "https://github.com/open-thoughts/open-thoughts/blob/e86cf2dbbe69ae178aec302be33a3454a7183457/open_thoughts_3/engine/dag.py",
+        "sha256": "4b0d27c3e0fffcd306733d5aecd4f59de13d636689ff99678ebf3733ffcc3183"
+      },
+      {
+        "path": "open_thoughts_3/dcft/train/hp_settings/paper/reasoning_large.yaml",
+        "url": "https://github.com/open-thoughts/open-thoughts/blob/e86cf2dbbe69ae178aec302be33a3454a7183457/open_thoughts_3/dcft/train/hp_settings/paper/reasoning_large.yaml",
+        "sha256": "034cf9baedebe500378aa1e772a4467e16d2dc1fb67eba924d7fa041bb41870a"
+      },
+      {
+        "path": "open_thoughts_3/dcft/data_strategies/_C1_Annotation/math/c1_math_qwq.yaml",
+        "url": "https://github.com/open-thoughts/open-thoughts/blob/e86cf2dbbe69ae178aec302be33a3454a7183457/open_thoughts_3/dcft/data_strategies/_C1_Annotation/math/c1_math_qwq.yaml",
+        "sha256": "94721433d2894d13cb9f6c01e6b63e29d59d5914e4e63ae5308b8aebd659479f"
+      },
+      {
+        "path": "open_thoughts_3/dcft/data_strategies/_C2_MSD/math/exact_dedup/c2_math_0d_16s.yaml",
+        "url": "https://github.com/open-thoughts/open-thoughts/blob/e86cf2dbbe69ae178aec302be33a3454a7183457/open_thoughts_3/dcft/data_strategies/_C2_MSD/math/exact_dedup/c2_math_0d_16s.yaml",
+        "sha256": "b41d48ed32e48274c1cdef1763f48db5797aee72e09fa36eb1fda09d083ffbc7"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Static named paths only; cloud resources and private training references limit turnkey replication.",
+      "Main/appendix math sampling and teacher-comparison numerical inconsistencies retained in report.",
+      "Code files are identified by hash and path, not republished wholesale."
+    ]
+  },
+  {
+    "paper": "long",
+    "repository": "https://github.com/THUDM/LongWriter",
+    "commit": "447539b356a8b09760b51eca876e19b6fc1f2dd7",
+    "availability": "weights_and_inference_available_zero_training_not_found",
+    "archive_sha256": "219bc9218e7f0ce7d096320b267ffbf00b721ee121e516c455d5560fdec32f7f",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/THUDM/LongWriter/blob/447539b356a8b09760b51eca876e19b6fc1f2dd7/README.md",
+        "sha256": "fecb392b54a9594d8d3010906ca98fae4764286ad739c71af9ddd01614aadc21"
+      },
+      {
+        "path": "train/README.md",
+        "url": "https://github.com/THUDM/LongWriter/blob/447539b356a8b09760b51eca876e19b6fc1f2dd7/train/README.md",
+        "sha256": "e61f48485a865579aebeebd3310231f3add78ec3d1eb5ff7d553855564fdc5d7"
+      },
+      {
+        "path": "train/main.py",
+        "url": "https://github.com/THUDM/LongWriter/blob/447539b356a8b09760b51eca876e19b6fc1f2dd7/train/main.py",
+        "sha256": "9d701ffac9b06d2fc8548ae85b50ddac4ea437066fb9e87de1df097b383a5b17"
+      },
+      {
+        "path": "evaluation/eval_length.py",
+        "url": "https://github.com/THUDM/LongWriter/blob/447539b356a8b09760b51eca876e19b6fc1f2dd7/evaluation/eval_length.py",
+        "sha256": "36b26116ff80ab1e1153503bbd764fb54c906dc93daeb83ffe1d3213ff9c4126"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Repository training directory is older LongWriter SFT, not a verified Zero RL implementation.",
+      "Zero model card inference examples read; complete Zero GRPO/WritingRM training implementation not found in bounded official sources."
+    ],
+    "model_card": {
+      "url": "https://huggingface.co/THU-KEG/LongWriter-Zero-32B",
+      "sha": "115a44b2356bab456cb7aa3b31f48fc15bef956e",
+      "snapshot": "assets/official-records/long-readme.md"
+    }
+  },
+  {
+    "paper": "thin",
+    "repository": null,
+    "commit": null,
+    "availability": "official_implementation_not_found",
+    "archive_sha256": null,
+    "files": [],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Official lab publication bundle has an unlinked Code label, no usable repository URL.",
+      "Read formal PDF Listing1 physical22-23 and implementation appendix, not executable public kernels.",
+      "No code availability or runtime reproduction claimed."
+    ],
+    "paper_pseudocode_pages": [
+      22,
+      23
+    ],
+    "official_lab_snapshot": "assets/official-records/thin-lab.html",
+    "official_lab_url": "https://gt-synergy-lab.github.io/assets/scripts/pub_list/papers.bundle.html?v=publications-20261118-pccl-noc"
+  },
+  {
+    "paper": "ace",
+    "repository": "https://huggingface.co/nvidia/AceReason-Nemotron-14B",
+    "commit": "b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5",
+    "availability": "weights_data_and_evaluation_available_training_not_found",
+    "archive_sha256": "1c1daadb3bfead2369b1ad8937369b85a4e550b4a2fadd6c9fac4b429c24e818",
+    "files": [
+      {
+        "path": "eval_release/README.md",
+        "url": "https://huggingface.co/nvidia/AceReason-Nemotron-14B/resolve/b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5/evaluation.tar.gz",
+        "sha256": "2ff70d9d162209fc7e94f95b1407deb2f833de277226695cb2f249a70208a7e2"
+      },
+      {
+        "path": "eval_release/inference.py",
+        "url": "https://huggingface.co/nvidia/AceReason-Nemotron-14B/resolve/b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5/evaluation.tar.gz",
+        "sha256": "86d300f5962922732271f7fca463535e0ab71b08a4efe2bfa38411003e99cf51"
+      },
+      {
+        "path": "eval_release/generate_aime.sh",
+        "url": "https://huggingface.co/nvidia/AceReason-Nemotron-14B/resolve/b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5/evaluation.tar.gz",
+        "sha256": "6191da4a8670eb69267ac2d34a63993540836ecbf80bb970782910f81dccfc88"
+      },
+      {
+        "path": "eval_release/generate_livecodebench.sh",
+        "url": "https://huggingface.co/nvidia/AceReason-Nemotron-14B/resolve/b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5/evaluation.tar.gz",
+        "sha256": "7b0a30a112c782342591e42a125251dbe08770f45dc9bcf8437565ccd64f7d1c"
+      },
+      {
+        "path": "eval_release/run_aime.sh",
+        "url": "https://huggingface.co/nvidia/AceReason-Nemotron-14B/resolve/b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5/evaluation.tar.gz",
+        "sha256": "e577f5c9bfb5a1755ef99cd0f510d2bd7376c21477d0d51c6ffa326aa7019e34"
+      },
+      {
+        "path": "eval_release/evaluate_aime.py",
+        "url": "https://huggingface.co/nvidia/AceReason-Nemotron-14B/resolve/b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5/evaluation.tar.gz",
+        "sha256": "4ae7379a40ce10e626acb7d24b9980894d02b61f425d8a28c79d0fdd2f36e19d"
+      },
+      {
+        "path": "eval_release/evaluate_livecodebench.py",
+        "url": "https://huggingface.co/nvidia/AceReason-Nemotron-14B/resolve/b244ed5578b03df25c49c7d1e7bc30fbcf8a63b5/evaluation.tar.gz",
+        "sha256": "7cbb5f28df1239e75fa036d4249efeb372b937bd9508bc23ebb50af375e583d9"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Official 14B repository evaluation archive explicitly supports AceReason-Nemotron-1.1-7B via qwen template.",
+      "generate_aime.sh has literal DIR=pwd; run_aime.sh passes --dataset instead of --test_data and shares output filenames between years.",
+      "Static path/argument inconsistencies; no author code or generated solution execution.",
+      "Training implementation not found; public weights/data/evaluation are not complete training reproduction."
+    ],
+    "model_card": {
+      "url": "https://huggingface.co/nvidia/AceReason-Nemotron-1.1-7B",
+      "sha": "2be9ed2fe532f39332ee47fd21899cab5fd6ec15",
+      "snapshot": "assets/official-records/ace-readme.md"
+    }
+  },
+  {
+    "paper": "sft",
+    "repository": "https://github.com/Shirley-Kokane/sft2rl",
+    "commit": "7276e4de09859d95893087805dcd5e38312e5067",
+    "availability": "implementation_available_with_documented_mismatches",
+    "archive_sha256": "e2a364ea4f6c981da8dde2f3b80b06b67850494d4959d3ff4d455e1c4e5fe276",
+    "files": [
+      {
+        "path": "scripts/train_sft.sh",
+        "url": "https://github.com/Shirley-Kokane/sft2rl/blob/7276e4de09859d95893087805dcd5e38312e5067/scripts/train_sft.sh",
+        "sha256": "d200118a8aa6d72829b0e0b35c6a8206b30dc86f7f7ce0539465837f3891d808"
+      },
+      {
+        "path": "scripts/train_grpo.sh",
+        "url": "https://github.com/Shirley-Kokane/sft2rl/blob/7276e4de09859d95893087805dcd5e38312e5067/scripts/train_grpo.sh",
+        "sha256": "db76d4ec0662ca7cc390b63b9ad5c877422fb43e4d67fd46270677ed6261a6cf"
+      },
+      {
+        "path": "verl/trainer/base_utils.py",
+        "url": "https://github.com/Shirley-Kokane/sft2rl/blob/7276e4de09859d95893087805dcd5e38312e5067/verl/trainer/base_utils.py",
+        "sha256": "1e53d0e89e7329785c96124b160962f7fc648895c2fb58080583f6aae6e5e5b4"
+      },
+      {
+        "path": "verl/trainer/rigidity_only.py",
+        "url": "https://github.com/Shirley-Kokane/sft2rl/blob/7276e4de09859d95893087805dcd5e38312e5067/verl/trainer/rigidity_only.py",
+        "sha256": "caa7368ee5e71f7d8380c61e4fe56c94ca19b76cbd8133d2736c889d435cb431"
+      },
+      {
+        "path": "verl/trainer/config/sft_trainer.yaml",
+        "url": "https://github.com/Shirley-Kokane/sft2rl/blob/7276e4de09859d95893087805dcd5e38312e5067/verl/trainer/config/sft_trainer.yaml",
+        "sha256": "0159f5f72458c1d76287e66e52debb7ed31349dcdf2149590e40db980a79e4a0"
+      },
+      {
+        "path": "verl/trainer/config/ppo_trainer.yaml",
+        "url": "https://github.com/Shirley-Kokane/sft2rl/blob/7276e4de09859d95893087805dcd5e38312e5067/verl/trainer/config/ppo_trainer.yaml",
+        "sha256": "91080f3eb1aadb97a1edccc86d83629b10965458116ea2407c03bfcb5a1dc43f"
+      },
+      {
+        "path": "verl/trainer/ppo/core_algos.py",
+        "url": "https://github.com/Shirley-Kokane/sft2rl/blob/7276e4de09859d95893087805dcd5e38312e5067/verl/trainer/ppo/core_algos.py",
+        "sha256": "32692646dc70018e33cc133919ae8c27858a7323d215b4fe43824afa2853791b"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Script enables KL loss0.001 while paper says no KL regularizer; entropy coefficient0.",
+      "Rigidity mask applied to entropy before 1-H/logk makes padding equal1; batch sum needs caller normalization.",
+      "top-k defaults differ (5 vs3); set-based preprocessing changes standard TTR/order-sensitive metrics.",
+      "Example test paths and save cadence differ from archive/README. Static findings, not runtime demonstrated bugs."
+    ]
+  }
+]

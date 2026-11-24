@@ -1,0 +1,1485 @@
+{
+  "pages": 27,
+  "original_images": 18,
+  "markdown_characters": 32153,
+  "text_lines_checked": 226,
+  "missing_lines": [],
+  "coverage_method": "Every non-math prose/table/code line checked against extracted full PDF text; every TeX occurrence and unique expression matched to renderer manifest and source/cache hashes; all inline formula images and original paper crops matched pixel identically; display math SVG path hashes checked and all pages visually inspected after rendering.",
+  "text_characters_per_page": [
+    1407,
+    1027,
+    1246,
+    867,
+    930,
+    1209,
+    788,
+    932,
+    740,
+    1136,
+    1017,
+    1020,
+    378,
+    492,
+    1224,
+    643,
+    1081,
+    676,
+    676,
+    1689,
+    1052,
+    897,
+    968,
+    702,
+    430,
+    875,
+    931
+  ],
+  "out_of_page_characters": [],
+  "out_of_bounds_images": [],
+  "out_of_bounds_vector_curves": [],
+  "markdown_sha256": "9102c57da98e5cb248b06f3cf287bd22d5d68c176091c0109f0e4e7f1d34a594",
+  "pdf_sha256": "9b6a276cbcee3b651216aaa441d3c4facedd0e3d716bdab640c8a8af707bd56b",
+  "math": {
+    "occurrences": 151,
+    "display": 21,
+    "inline": 130,
+    "unique_expressions": 141,
+    "render_errors": 0,
+    "manifest": "assets/math-manifest.json",
+    "checks": [
+      {
+        "tex": "(p_{t,y_t}-1)h_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "(y_w,y_l)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "-0.5\\log\\sigma(1)\\approx0.157",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "-\\log\\sigma(z)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "-\\sigma(-z)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "0.8\\times1+0.2\\times5=1.8",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "0.99^{100}\\approx0.366",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "0\\lt a\\lt1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "0\\lt\\delta\\lt1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "1/M",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "10^{-3}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "10^{-4}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "10^{-5}",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "10^{-6}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "2M\\log(1/\\varepsilon)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "2\\times10^{-5}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "3\\times10^{-4}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "5\\times10^{-5}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "5\\times10^{-6}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "6/0.03=200",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "B",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "C",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "C\\ge r_{\\max}-r_{\\min}\n+\\beta\\log\\frac{1-\\delta}{\\delta}\n+\\beta\\log\\frac{1-\\varepsilon}{\\varepsilon}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "H",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "HB^2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "K",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "L_A",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N\\ge1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N\\ge2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N\\ge8",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N^a",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N^{1+a}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_{\\mathrm{cand}}=1+W+(D-2)W^2.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "R=\\frac{L_A}{T_d+T_v}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "S_c^2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "T(x)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "T_d",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "T_v",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "Z(x)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "[\\mu_l+t_1,\\mu_w-t_2]",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\Delta",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\Delta=10",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\Delta=2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\Delta\\ge0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\Pi",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\asymp",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nC_{\\mathrm{fine}}&=\\inf_{\\epsilon>0}\n\\left\\{\\frac{\\log\\mathcal N_\\infty(\\Pi,\\epsilon)}{n}+\\epsilon\\right\\},\\\\\nC_{\\mathrm{coarse}}&\\asymp\n\\frac{\\log\\mathcal N_\\infty(\\Pi,c\\log N)+\\log(1/\\delta)}{n},\\\\\n\\mathrm{Cov}_N&\\lesssim C_{\\mathrm{fine}}/\\log N+C_{\\mathrm{coarse}}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nR(\\delta)&=p\\int_{-\\infty}^{\\delta}p_w(r)\\,dr\n+(1-p)\\int_{\\delta}^{\\infty}p_l(r)\\,dr,\\\\\nR'(\\delta)&=p\\,p_w(\\delta)-(1-p)\\,p_l(\\delta).\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\n\\rho_t(\\psi)&=\\frac{\\pi_\\psi(a_t\\mid s_t)}{\\pi_{\\mathrm{old}}(a_t\\mid s_t)},\\\\\nJ_{\\mathrm{clip}}(\\psi)&=\n\\mathbb E\\min\\left\\{\\rho_t A_t,\n\\mathrm{clip}(\\rho_t,1-\\epsilon,1+\\epsilon)A_t\\right\\}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\n\\widetilde s&=\\mathbf1[a>0],\\qquad\nw(\\widetilde s)=p\\widetilde s+(1-p)(1-\\widetilde s),\\\\\n\\ell_U&=-w(\\widetilde s)\n\\left[\\widetilde s\\log\\sigma(a)+(1-\\widetilde s)\\log\\sigma(-a)\\right],\\\\\n\\gamma_t&=\\max\\left\\{\\frac{n_L}{n_L+n_U},\\exp(-\\lambda t)\\right\\},\\\\\n\\mathcal L_t&=\\gamma_t\\,\\mathbb E\\ell_L+(1-\\gamma_t)\\,\\mathbb E\\ell_U.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\ng(x)&=\\frac{1}{|T(x)|}\\sum_{t\\in T(x)}(p_{t,y_t}-1)h_t,\\\\\ne(x)&=\\frac{g(x)}{\\|g(x)\\|_2}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nr_\\theta(x,y)&=\\frac{\\beta}{|y|}\\log\\pi_\\theta(y\\mid x),\\\\\n\\ell_L&=-\\log\\sigma\\bigl(r_\\theta(x,y_w)-r_\\theta(x,y_l)-\\Delta\\bigr).\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nr_c(x,y)&=\\begin{cases}r(x,y),&h(x,y)=0,\\\\-\\infty,&h(x,y)=1,\\end{cases}\\\\\n\\pi^*(y\\mid x)&=\\frac{\\pi_{\\mathrm{ref}}(y\\mid x)\\exp(r_c(x,y)/\\beta)}{Z(x)}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nz&=\\beta(u_w-u_l)-(h_l-h_w)\\Delta,\\\\\n\\mathcal L_{\\mathrm{SafeDPO}}&=-\\mathbb E\\log\\sigma(z),\\\\\n\\nabla_\\theta\\ell&=-\\beta\\sigma(-z)\n\\bigl(\\nabla_\\theta\\log\\pi_\\theta(y_w\\mid x)\n-\\nabla_\\theta\\log\\pi_\\theta(y_l\\mid x)\\bigr).\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\beta",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\beta=0.1",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\beta>0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\beta\\log(\\pi/\\pi_{\\mathrm{ref}})",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\delta",
+        "display": false,
+        "occurrences": 3,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\epsilon",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\frac12\\mathrm{Cov}_{2N}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\frac1T\\sum_{t=1}^{T}\\mathrm{Cov}_N(\\pi_D\\Vert\\pi_{\\theta_t})\n\\lesssim\n\\sqrt{\\frac{\\sigma_*^2}{T\\log N}}\n+\\frac{B^2}{T}+\\frac{B}{K\\log N}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\lambda",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\lesssim",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\lfloor r n_{\\min}\\rfloor",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathbb E\\widehat G-G_{\\mathrm{full}}\n=\\sum_c\\pi_c\\bigl(\\mu_c^{\\mathrm{selected}}-\\mu_c^{\\mathrm{full}}\\bigr).",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathcal D_L",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathcal D_U",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathcal N_\\infty(\\Pi,\\epsilon)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{Cov}_2=0.01",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{Cov}_M+\\varepsilon",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{Cov}_M\\le1/2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{Cov}_N(\\pi_D\\Vert\\widehat\\pi)\n=\\Pr_{x\\sim\\mu,\\,y\\sim\\pi_D(\\cdot\\mid x)}\n\\left[\\frac{\\pi_D(y\\mid x)}{\\widehat\\pi(y\\mid x)}\\ge N\\right].",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{Cov}_N(\\pi_D\\Vert\\widehat\\pi)\n\\le\n\\frac{D_{\\mathrm{KL}}(\\pi_D\\Vert\\widehat\\pi)}\n{\\log N-1+1/N}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{Cov}_N\\lesssim\n\\sqrt{\\frac{\\sigma_*^2}{n\\log N}}+\\frac{B^2}{n}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{Cov}_{N^{1+a}}(\\pi_D\\Vert\\widehat\\pi_{\\mathrm{sel}})\n\\lesssim\n\\min_{\\pi\\in\\Pi}\\mathrm{Cov}_{N^a}(\\pi_D\\Vert\\pi)\n+N^{-(1-a)}+\\frac{\\log(|\\Pi|/\\delta)}{n}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{Var}(\\widehat G_{\\mathrm{strat}})\n=\\sum_c\\pi_c^2\\frac{(1-f_c)S_c^2}{m_c}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mu(x)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mu_l",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mu_w",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\phi",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_D(y\\mid x)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_\\theta(y\\mid x)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_c=n_c/N",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_{\\mathrm{ref}}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\psi",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\rho_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\sigma(z)=1/(1+e^{-z})",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\sigma_*^2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\sigma_*^2=\n\\mathbb E\\sum_{t=1}^{H}\n\\left\\|\\phi(x,y_{\\lt t},y_t)\n-\\mathbb E[\\phi(x,y_{\\lt t},Y_t)\\mid x,y_{\\lt t}]\\right\\|^2.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\sum_i\\|g_i\\|^2/\\|\\sum_i g_i\\|^2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\varepsilon",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat G=\\frac1K\\sum_{c=1}^{K}w_c\\widehat\\mu_c\n=\\sum_{c=1}^{K}\\pi_c\\widehat\\mu_c.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat\\mu_c",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat\\pi(y\\mid x)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widetilde s",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "a",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "a=0.1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "a=1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "c",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "d",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "f_c=m_c/n_c",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "g_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "g_t/(\\lambda+\\|g_t\\|)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "h",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "h(x,y)\\in\\{0,1\\}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "h_l-h_w=0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "h_t\\in\\mathbb R^d",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "m_c",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "n",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "n_L",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "n_U",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "n_c",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "n_{\\min}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p=0.5",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p\\sigma(a)+(1-p)\\sigma(-a)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p_l(r)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p_w(r)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p_{t,y_t}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "q=\\frac{K\\lfloor r n_{\\min}\\rfloor}{N}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r(x,y)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r\\in\\{1,0.75,0.5\\}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r_{\\min},r_{\\max}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s_t,a_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "t_1,t_2>0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "u_j=\\log[\\pi_\\theta(y_j\\mid x)/\\pi_{\\mathrm{ref}}(y_j\\mid x)]",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "u_l=0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "u_w=2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "w",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "w(\\sigma(a)-\\widetilde s)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "w_c=K\\pi_c",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "x",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "y",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "y_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "z=-1.8",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "z=0.2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "|T(x)|",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "|y|",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      }
+    ],
+    "vector_path_operations_per_page": [
+      13,
+      2642,
+      4089,
+      0,
+      0,
+      2620,
+      7500,
+      1926,
+      0,
+      0,
+      7901,
+      0,
+      0,
+      0,
+      0,
+      1115,
+      2464,
+      0,
+      0,
+      0,
+      1662,
+      4073,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "font_check": {
+    "status": "passed",
+    "missing_glyphs": 0,
+    "embedded_text_fonts": {
+      "/F2+0": "/AAAAAA+STSongti-TC-Bold",
+      "/F2+1": "/AAAAAB+STSongti-TC-Bold",
+      "/F2+2": "/AAAAAC+STSongti-TC-Bold",
+      "/F2+3": "/AAAAAD+STSongti-TC-Bold"
+    },
+    "math": "MathJax vector display paths and576dpi inline PNG; no raw TeX fallback",
+    "fontconfig_recovery": "Initial pdffonts invocation lacked fontconfig, was stopped; rerun with explicit local configuration succeeded.",
+    "unused_standard_resources": "Helvetica and Times-Roman are listed as resources but are not used by any painted text operator; all actual text uses embedded TrueType with ToUnicode."
+  },
+  "image_integrity": {
+    "original_crops": [
+      {
+        "file": "safe-fig1.png",
+        "page": 2,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          420
+        ]
+      },
+      {
+        "file": "safe-fig2.png",
+        "page": 4,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          630
+        ]
+      },
+      {
+        "file": "safe-table3.png",
+        "page": 5,
+        "pixel_identical": true,
+        "dimensions": [
+          771,
+          324
+        ]
+      },
+      {
+        "file": "safe-fig3.png",
+        "page": 5,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          525
+        ]
+      },
+      {
+        "file": "coverage-fig1.png",
+        "page": 9,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          621
+        ]
+      },
+      {
+        "file": "coverage-fig2.png",
+        "page": 9,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          543
+        ]
+      },
+      {
+        "file": "sspo-fig1.png",
+        "page": 10,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          672
+        ]
+      },
+      {
+        "file": "sspo-table2.png",
+        "page": 13,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          1551
+        ]
+      },
+      {
+        "file": "sspo-table10.png",
+        "page": 14,
+        "pixel_identical": true,
+        "dimensions": [
+          525,
+          576
+        ]
+      },
+      {
+        "file": "sspo-fig3.png",
+        "page": 15,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          555
+        ]
+      },
+      {
+        "file": "draft-fig1.png",
+        "page": 16,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          825
+        ]
+      },
+      {
+        "file": "draft-fig2.png",
+        "page": 17,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          618
+        ]
+      },
+      {
+        "file": "draft-table1.png",
+        "page": 19,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          1041
+        ]
+      },
+      {
+        "file": "draft-table2.png",
+        "page": 20,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          294
+        ]
+      },
+      {
+        "file": "cluster-fig3.png",
+        "page": 21,
+        "pixel_identical": true,
+        "dimensions": [
+          1377,
+          498
+        ]
+      },
+      {
+        "file": "cluster-table3.png",
+        "page": 24,
+        "pixel_identical": true,
+        "dimensions": [
+          675,
+          669
+        ]
+      },
+      {
+        "file": "cluster-table4.png",
+        "page": 25,
+        "pixel_identical": true,
+        "dimensions": [
+          675,
+          417
+        ]
+      },
+      {
+        "file": "cluster-fig6.png",
+        "page": 26,
+        "pixel_identical": true,
+        "dimensions": [
+          675,
+          576
+        ]
+      }
+    ],
+    "all_originals_pixel_identical": true,
+    "all_inline_formula_images_pixel_identical": true
+  },
+  "rendered_pages": [
+    {
+      "page": 1,
+      "sha256": "8d41e173b81f77a26cdbd3b8969a88e5116c9bc2479d1e58fb5c983636e17dea"
+    },
+    {
+      "page": 2,
+      "sha256": "11d8905b6e86801e0aedfa82956c488c3516bcf6704216543182fd05d4c4695b"
+    },
+    {
+      "page": 3,
+      "sha256": "2edc8b960562190b1e566ada0583634ed15dde83320465373687d277215c9b84"
+    },
+    {
+      "page": 4,
+      "sha256": "bdd8a1acb95da988a8e68054496ea12d839791e57b099d0c79c81c15d099aeeb"
+    },
+    {
+      "page": 5,
+      "sha256": "323fade738b381b9766821623b0ef4bce03cd3a4e12be75b47374bcb9f50ef26"
+    },
+    {
+      "page": 6,
+      "sha256": "b7b6221a7681c6bcc410e56f8857cd072f5470df06e2f9dca18589e13f1902e5"
+    },
+    {
+      "page": 7,
+      "sha256": "ff2eea8814525857fd998bf1dbd8f378dc4fd877abbadd92f2c661c0d6432a6b"
+    },
+    {
+      "page": 8,
+      "sha256": "27b6bccb4fb249a9f07f60d2011c99b968c46d53ae44b988d4d669ea297dc3bb"
+    },
+    {
+      "page": 9,
+      "sha256": "b4bb176aa0a3531907327d40e8e6c02e03ef69b4b0d76d522edc4d1a2c5164a9"
+    },
+    {
+      "page": 10,
+      "sha256": "9735c0843926a663937f4f7c27222985019129e9098df52d2df4b76345a26eb9"
+    },
+    {
+      "page": 11,
+      "sha256": "f45e181ab0eb07ac33d43fdc097f27099272c7134775a19d619c189d5c2f51f8"
+    },
+    {
+      "page": 12,
+      "sha256": "10fd4e26fdef2781845a6a711f536a972f3aa97d6d466c4ba7fadc27f3cb597f"
+    },
+    {
+      "page": 13,
+      "sha256": "61f008e325850e716081e73aacb948cc1088521f735b4fd8a9b2703d4279f39c"
+    },
+    {
+      "page": 14,
+      "sha256": "f631a950f075055f752c4b6a1d2e0b11f10f957a88555480733c5a5c71621140"
+    },
+    {
+      "page": 15,
+      "sha256": "45a122a3a4876296a37f5a4dfd91445ebe7f56fd779890c63b82e3ce4a023d4a"
+    },
+    {
+      "page": 16,
+      "sha256": "6d4a93bd14920ac2818b19a2175dd3da0a2cf9bffbcc772eabd7bc0b0361e465"
+    },
+    {
+      "page": 17,
+      "sha256": "a58fa3450e3f66cfe561e9428c4e5979653536fcf9fe8e2565065d3d4a2dda1d"
+    },
+    {
+      "page": 18,
+      "sha256": "5582f17976eda62d128b029af65cc65907dbf7b5b3b94c90cb166ed55f9bcc98"
+    },
+    {
+      "page": 19,
+      "sha256": "c657bf191b09450b085af79a3a27c25db69e182da6f5067b53225d5f9c566993"
+    },
+    {
+      "page": 20,
+      "sha256": "3e03a1be2613edcbd300ac1a9c9d88c46e2520a6aef6f866fc93bc34c49b4d33"
+    },
+    {
+      "page": 21,
+      "sha256": "f1710cd2bb7fce4fb9409733e236e764770995d39271b432c26e9009c98dd910"
+    },
+    {
+      "page": 22,
+      "sha256": "28659fb7be6911bc47f92bfd03e4a7fb0ffc4793e805a431ce5d63db913e86c5"
+    },
+    {
+      "page": 23,
+      "sha256": "16ea8f85e91557846f88e70656c0db95e21950ecb29eee851246554c317a02fe"
+    },
+    {
+      "page": 24,
+      "sha256": "691d7babf90b0100d2b5de275bd65a1cdeb4d1beb2c0e4781a75fe9138a3fceb"
+    },
+    {
+      "page": 25,
+      "sha256": "91b1f83dc2faa6d457ad8539b690079cbcb7f2cc098bc9b55d5d4a4920f6bd48"
+    },
+    {
+      "page": 26,
+      "sha256": "3add7669437038b42129dda54863ff1ec12e0b9f2ca61bfd32a8abe259f46f7b"
+    },
+    {
+      "page": 27,
+      "sha256": "f9d2dcde4c1e990cb56c6f0b51143394c3765d9f410b2d09527dc662f38c540b"
+    }
+  ],
+  "visual_inspection_status": "passed",
+  "renderer": {
+    "build_report_sha256": "9a61158f5c0c9ff6330e1a2989ac0ec402547791cd565bc813aa19e52ef17a9e",
+    "math_render_sha256": "2b2b570c33c983e35d4e9ea1341ea514fd514a272b88c4a6e8fb39d0564b7b12",
+    "render_math_cjs_sha256": "1c767db4c1dac065b3872b9e91b0aa3b2344c192188210d3f56408e200984f5a",
+    "rendering": "pypdfium2 at122.4dpi, pypdf text/images, pdfplumber bounds"
+  },
+  "visual_inspection": {
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "method": "All27 final rendered pages reviewed in page-labelled contact sheets; formula-dense pages2,3,6,7,8,11,17,21,22 inspected at full page resolution; page3 additionally compared against independent Poppler rendering and zoomed vector equation. All18 original crops inspected against full source PDF pages before embedding.",
+    "findings": "No missing glyphs, visible raw TeX, clipped figure labels, formula overlap, page-edge overflow or missing content observed. Some whitespace results from keeping original image and caption together.",
+    "page_results": [
+      {
+        "page": 1,
+        "status": "passed"
+      },
+      {
+        "page": 2,
+        "status": "passed"
+      },
+      {
+        "page": 3,
+        "status": "passed"
+      },
+      {
+        "page": 4,
+        "status": "passed"
+      },
+      {
+        "page": 5,
+        "status": "passed"
+      },
+      {
+        "page": 6,
+        "status": "passed"
+      },
+      {
+        "page": 7,
+        "status": "passed"
+      },
+      {
+        "page": 8,
+        "status": "passed"
+      },
+      {
+        "page": 9,
+        "status": "passed"
+      },
+      {
+        "page": 10,
+        "status": "passed"
+      },
+      {
+        "page": 11,
+        "status": "passed"
+      },
+      {
+        "page": 12,
+        "status": "passed"
+      },
+      {
+        "page": 13,
+        "status": "passed"
+      },
+      {
+        "page": 14,
+        "status": "passed"
+      },
+      {
+        "page": 15,
+        "status": "passed"
+      },
+      {
+        "page": 16,
+        "status": "passed"
+      },
+      {
+        "page": 17,
+        "status": "passed"
+      },
+      {
+        "page": 18,
+        "status": "passed"
+      },
+      {
+        "page": 19,
+        "status": "passed"
+      },
+      {
+        "page": 20,
+        "status": "passed"
+      },
+      {
+        "page": 21,
+        "status": "passed"
+      },
+      {
+        "page": 22,
+        "status": "passed"
+      },
+      {
+        "page": 23,
+        "status": "passed"
+      },
+      {
+        "page": 24,
+        "status": "passed"
+      },
+      {
+        "page": 25,
+        "status": "passed"
+      },
+      {
+        "page": 26,
+        "status": "passed"
+      },
+      {
+        "page": 27,
+        "status": "passed"
+      }
+    ]
+  },
+  "independent_poppler_render": {
+    "status": "passed",
+    "pages": 27,
+    "dpi": 110,
+    "stderr": "",
+    "fontconfig": "Local temporary configuration with writable cache; no system font settings modified.",
+    "page_hashes": [
+      {
+        "page": 1,
+        "sha256": "e52351728a6a82e4b954f600960eaa140e915d176a2e72d7bbb23d0f5e58cab4"
+      },
+      {
+        "page": 2,
+        "sha256": "4c3be46f6a89368cf900f0140ee7598fe9fa5ed6471d4dad0f80935e49961ef1"
+      },
+      {
+        "page": 3,
+        "sha256": "7b1aaf38d6ad93d983ec5f93e410de5f21dda51210e797cfeb5aafabe39a9b3f"
+      },
+      {
+        "page": 4,
+        "sha256": "ecc71eed11fc559218352cc0ce81c5bb36cb1d29f2c647c58da9b4c01e9325cb"
+      },
+      {
+        "page": 5,
+        "sha256": "e15de557a9b596b0bac613ae2337b577d4a2bd3289fe72b29881c4529792dd75"
+      },
+      {
+        "page": 6,
+        "sha256": "e6d05dc0a194848c956fbca32729a9df195c2334ad77d0218ab3479aeb99b9f4"
+      },
+      {
+        "page": 7,
+        "sha256": "9245bf0e9c8f3bfacea4abe4aec31d9a6c070e6229ca5de4f451d0c9f90bddf7"
+      },
+      {
+        "page": 8,
+        "sha256": "11c1c17099de600f92b80904aa40ca4cca9174cda044b3c4f7797519ddeb9eef"
+      },
+      {
+        "page": 9,
+        "sha256": "2385e492ca587734727061d67a754d6fb118088282ba7b637b84f87d012f49cd"
+      },
+      {
+        "page": 10,
+        "sha256": "d7c546179bd996a98c3a4abef0ab3a1a8dff415f3126eaf6b2db0313c335b304"
+      },
+      {
+        "page": 11,
+        "sha256": "1add1a2f715728ebc4977d99a6fc6db96dd6c6d76ad13067dd37d6fec0fa14b8"
+      },
+      {
+        "page": 12,
+        "sha256": "f763d108bab792c2dbcdad92de0c0c0fd216033f530b2ff0a8fe1f2b96583740"
+      },
+      {
+        "page": 13,
+        "sha256": "2fc6bbc5c955a278f214c290afe6e286c688c77392307f8e196bb22aaaaba85b"
+      },
+      {
+        "page": 14,
+        "sha256": "34c23d00af05b419310692cb0e5bf7a173b09934178089a8e583b901a1b51af7"
+      },
+      {
+        "page": 15,
+        "sha256": "6c6f72e0fce4b8c32b5986985ceb33612ac3da3f8817c061cf8c5bda72a99001"
+      },
+      {
+        "page": 16,
+        "sha256": "656ac65727a70fdbb64016af9ad9cf2be371502508ecd482b41cf5e5dd679faa"
+      },
+      {
+        "page": 17,
+        "sha256": "461ca77737e57509d170308314f3d537845ed061294e66623d9f2bf07dfee609"
+      },
+      {
+        "page": 18,
+        "sha256": "bd9dbebe33ff8e221c8027fdb2609864f4aa2c1f906395bdea4ef9cbf53ce01e"
+      },
+      {
+        "page": 19,
+        "sha256": "234ba186f4e9d7234db43f1155a63e2b9a345dc5c9c4523dcc267780632e7bf4"
+      },
+      {
+        "page": 20,
+        "sha256": "1a5a3807847ff058d1fb01013ca4475372fbf5bc613b1516608e0bee81acf17c"
+      },
+      {
+        "page": 21,
+        "sha256": "6ff3060e1e6b7f972a882e6a4c3edd68652825169b321a75393c79bae8feb841"
+      },
+      {
+        "page": 22,
+        "sha256": "298f20feb6ec47b1e956a41ce35cc3d816d5d54f143bb98db1487eab8efd55bd"
+      },
+      {
+        "page": 23,
+        "sha256": "43918ad4b0dafe878739299522779ac538fd8578ca9105e0c5cc27fd368cb44f"
+      },
+      {
+        "page": 24,
+        "sha256": "a8e68ee4271cf00c6dc31a5f6736bfeaef3a2917e9e01d81a12ee6b598177a24"
+      },
+      {
+        "page": 25,
+        "sha256": "8215e87973b9029f7d65eddcb6a02558c27ccef323ed02b8e47ef96a79196bf0"
+      },
+      {
+        "page": 26,
+        "sha256": "8210166914f33e2a7af7894f83970426054190a12bec54a5e2b9bd17a83fc7df"
+      },
+      {
+        "page": 27,
+        "sha256": "ea06999ef58a7519545d208f00f5ae48cdc5d00458a841599130a4a7dadb53e8"
+      }
+    ]
+  }
+}

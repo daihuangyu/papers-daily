@@ -1,0 +1,1422 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-24",
+  "timezone": "Asia/Shanghai",
+  "direction": "CCF_Papers",
+  "topic": "安全偏好、预训练覆盖、半监督对齐与自适应计算预算",
+  "selection_year": 2026,
+  "selection_basis": "acceptance_year",
+  "window_start": "2026-01-01",
+  "window_end": "2026-12-31",
+  "window_semantics": "Acceptance year, no month limit on preprints; evidence public by run date.",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "composition": {
+    "CCF_A": 4,
+    "CCF_B": 1,
+    "oral": 3,
+    "poster": 2,
+    "spotlight": 0,
+    "unknown": 0
+  },
+  "composition_shortfall_reason": null,
+  "sources": [
+    {
+      "id": "arxiv:2505.20065",
+      "type": "paper",
+      "key": "safe",
+      "title": "SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety",
+      "title_aliases": [],
+      "authors": [
+        "Geon-Hyeong Kim",
+        "Yu Jin Kim",
+        "Byoungjip Kim",
+        "Honglak Lee",
+        "Kyunghoon Bae",
+        "Youngsoo Jang",
+        "Moontae Lee"
+      ],
+      "published": "2025-05-26",
+      "original_date": "2025-05-26",
+      "original_date_note": "Primary arXiv v1 submission date, UTC; acceptance year is separate.",
+      "url": "https://arxiv.org/abs/2505.20065",
+      "arxiv_id": "2505.20065",
+      "doi": "10.48550/arXiv.2505.20065",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2505.20065",
+        "https://doi.org/10.48550/arXiv.2505.20065",
+        "https://iclr.cc/virtual/2026/oral/10009693",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+        "https://openreview.net/forum?id=PJdw4VBsXD"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2505.20065",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+      "pdf_version": "ICLR2026 formal conference proceedings",
+      "latest_arxiv_version": "v2",
+      "latest_arxiv_version_date": "2026-03-04",
+      "latest_arxiv_is_not_assumed_identical_to_read_pdf": true,
+      "source_pdf_pages": 40,
+      "source_pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+      "code_url": null,
+      "code_availability": {
+        "status": "official_implementation_not_found",
+        "verified_on": "2026-11-24",
+        "commit": null,
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "No author implementation found in formal PDF/proceedings/first-author site and linked GitHub in this bounded search; no claim that none exists anywhere.",
+          "Formal algorithm and all appendices read; no executable implementation audited."
+        ]
+      },
+      "project_or_author_blog_url": "https://sites.google.com/view/ghkim",
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31, revised2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true,
+          "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10009693",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+          "snapshot": "assets/official-records/safe-oral.html",
+          "snapshot_sha256": "ebcf47d0c883401d03c9139c609262d41a6d747b0cc520ba07f83fc45e193b5c"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10009693",
+          "label": "oral",
+          "checked_on": "2026-11-24",
+          "snapshot": "assets/official-records/safe-oral.html"
+        }
+      },
+      "citation_count": {
+        "value": 40,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4414588213",
+        "queried_at": "2026-11-24",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-23T12:01:36.302904",
+        "raw_record": "assets/citation-records/safe-citations.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "arXiv / official proceedings identities"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "safe-fig1.png",
+          "paper": "safe",
+          "figure": "fig1",
+          "physical_pdf_page": 2,
+          "crop_points_from_top_left": [
+            106,
+            58,
+            506,
+            198
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+          "sha256": "4421609a8923e140fbf5848a177e6a24075c2b949dca3df4231fc529543bfbfe",
+          "pixels": [
+            1200,
+            420
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 1. 原文 Figure 1，正式 PDF 物理第 2 页，来源为本节正式 PDF，版本为 ICLR 2026 论文集。左侧 SafeRLHF 训练奖励／成本模型并做 RL，右侧 SafeDPO 使用带安全标记的比较数据直接优化。蓝色标记表示相对普通 DPO 新增的安全信息，红色组件是左侧额外需要的网络或流程；这是机制示意，不是速度实验。"
+        },
+        {
+          "file": "safe-fig2.png",
+          "paper": "safe",
+          "figure": "fig2",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            75,
+            506,
+            285
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+          "sha256": "1ff2618c75b90a926686c6832f0b450c30848ea16bdcdfcda8ac32970e22f311",
+          "pixels": [
+            1200,
+            630
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 2. 原文 Figure 2，正式 PDF 物理第 7 页。左半是模型裁判，右半是 GPT-4 裁判；横轴 helpfulness，纵轴分别为 harmless ratio 和 harmlessness。基线包括 SFT、三种 DPO、SafeRLHF、SACPO 与 P-SACPO。先固定裁判与指标，再比较安全率和有用性位置；两种裁判刻度不同，不能混成一个排行榜。图源及版本同本节正式 PDF。"
+        },
+        {
+          "file": "safe-fig3.png",
+          "paper": "safe",
+          "figure": "fig3",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            106,
+            75,
+            506,
+            250
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+          "sha256": "331b15ea428703b6adbbdc33d268f9cbbb47a2894e111f07518bbbfd988a4e53",
+          "pixels": [
+            1200,
+            525
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 3. 原文 Figure 3，正式 PDF 物理第 8 页。横轴是安全间隔，实线为 SafeDPO，虚线为固定基线；左／右分别采用模型与 GPT-4 评价。安全率较早达到平台，而过大的间隔会降低有用性，特别是模型裁判下。该图不支持“间隔越大越好”。图源及版本同本节正式 PDF。"
+        },
+        {
+          "file": "safe-table3.png",
+          "paper": "safe",
+          "figure": "table3",
+          "physical_pdf_page": 10,
+          "crop_points_from_top_left": [
+            177,
+            351,
+            434,
+            459
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "79750f7c360fb735809151e234b403936fd7efad501a1639c6b90299209e636f",
+          "sha256": "9348d45b5d9e0b0d8e12ccc096e79c12cdd88df0cdcaf313da986fba76eb01c6",
+          "pixels": [
+            771,
+            324
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 4. 原文 Table 3，正式 PDF 物理第 10 页。XSTest 包含 250 个安全问题与 200 个不安全问题，此表以 GPT-5.1 判定；前列是安全问题被错误拒绝的比例，后列是不安全问题上的安全率，二者来自不同子集。SafeDPO 为 12.4%／100%，SafeRLHF 为 3.2%／84.5%，P-SACPO 为 1.2%／84.5%。高安全率伴随更高过度拒答，不能只读最后一列。图源及版本同本节正式 PDF。"
+        }
+      ],
+      "read_scope": "Entire 40-page formal PDF including appendices; original figures visually inspected; code scope separately documented.",
+      "reproduction_executed": false
+    },
+    {
+      "id": "arxiv:2510.15020",
+      "type": "paper",
+      "key": "coverage",
+      "title": "The Coverage Principle: How Pre-Training Enables Post-Training",
+      "title_aliases": [],
+      "authors": [
+        "Fan Chen",
+        "Audrey Huang",
+        "Noah Golowich",
+        "Sadhika Malladi",
+        "Adam Block",
+        "Jordan T. Ash",
+        "Akshay Krishnamurthy",
+        "Dylan J. Foster"
+      ],
+      "published": "2025-10-16",
+      "original_date": "2025-10-16",
+      "original_date_note": "Primary arXiv v1 submission date, UTC; acceptance year is separate.",
+      "url": "https://arxiv.org/abs/2510.15020",
+      "arxiv_id": "2510.15020",
+      "doi": "10.48550/arXiv.2510.15020",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2510.15020",
+        "https://doi.org/10.48550/arXiv.2510.15020",
+        "https://iclr.cc/virtual/2026/oral/10011030",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Paper-Conference.pdf",
+        "https://openreview.net/forum?id=AUXvYQlQLZ"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2510.15020",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Paper-Conference.pdf",
+      "pdf_version": "ICLR2026 formal conference proceedings",
+      "latest_arxiv_version": "v2",
+      "latest_arxiv_version_date": "2025-10-22",
+      "latest_arxiv_is_not_assumed_identical_to_read_pdf": true,
+      "source_pdf_pages": 69,
+      "source_pdf_sha256": "fb5e4172a46fd967656b5333244055eec78bf54968fa3b46f7d48db14d2aafae",
+      "code_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Supplemental-Conference.zip",
+      "code_availability": {
+        "status": "official_supplement_implementation_available_with_config_differences",
+        "verified_on": "2026-11-24",
+        "commit": null,
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Official supplemental ZIP, not a Git repository; archive SHA-256 is fixed version.",
+          "Defaults4layers6heads versus paper best6layers4heads; actual optimizerAdamW; README fig2 50ksteps versus paper40k.",
+          "Example finetune command needs explicit checkpoint loading; notebook quantile conventions differ."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31, revised2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true,
+          "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10011030",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+          "snapshot": "assets/official-records/coverage-oral.html",
+          "snapshot_sha256": "4ba58fb0c7fc1f34592471e691dc32a9a423212e5b1c81abe164c9d76482b0a3"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10011030",
+          "label": "oral",
+          "checked_on": "2026-11-24",
+          "snapshot": "assets/official-records/coverage-oral.html"
+        }
+      },
+      "citation_count": {
+        "value": 32,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4416245572",
+        "queried_at": "2026-11-24",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-23T12:01:36.302904",
+        "raw_record": "assets/citation-records/coverage-citations.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "arXiv / official proceedings identities"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "coverage-fig1.png",
+          "paper": "coverage",
+          "figure": "fig1",
+          "physical_pdf_page": 2,
+          "crop_points_from_top_left": [
+            106,
+            83,
+            506,
+            290
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "fb5e4172a46fd967656b5333244055eec78bf54968fa3b46f7d48db14d2aafae",
+          "sha256": "486899328228e1bb26c97c89d9c610169eda90c21710a43c4e950e99b197c9f4",
+          "pixels": [
+            1200,
+            621
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 5. 原文 Figure 1，正式 PDF 物理第 2 页。左侧训练过程中 KL 可持续改善，而部分覆盖尾概率先改善后变差；右侧比较 KL／覆盖与 Pass@N，不同颜色对应不同采样预算。菱形为 tournament 选择，圆点为按最小 KL 选择。条件为合成图任务和相同检查点集合，不能直接外推为真实 LLM 的准确率增益。图源及版本为本节 ICLR 2026 正式 PDF。"
+        },
+        {
+          "file": "coverage-fig2.png",
+          "paper": "coverage",
+          "figure": "fig2",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            261
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "fb5e4172a46fd967656b5333244055eec78bf54968fa3b46f7d48db14d2aafae",
+          "sha256": "73158b1c85e034b0adae418b4af5f8dbc8b471c61fcc27cef3ede2030c6ba76e",
+          "pixels": [
+            1200,
+            543
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 6. 原文 Figure 2，正式 PDF 物理第 5 页。三条颜色对应中间层数 8、16、24，左图为 KL，中图为覆盖，右图为二者比值；覆盖曲线比 KL 更少受该实验中的长度影响。纵轴不是下游准确率，阴影来自多随机种子。原文未提供独立架构流程图，本期保留原有两张核心实验图，不补画伪架构或实验曲线。图源及版本同上。"
+        }
+      ],
+      "read_scope": "Entire 69-page formal PDF including appendices; original figures visually inspected; code scope separately documented.",
+      "reproduction_executed": false
+    },
+    {
+      "id": "arxiv:2511.00040",
+      "type": "paper",
+      "key": "sspo",
+      "title": "Semi-Supervised Preference Optimization with Limited Feedback",
+      "title_aliases": [],
+      "authors": [
+        "Seonggyun Lee",
+        "Sungjun Lim",
+        "Seojin Park",
+        "Soeun Cheon",
+        "Kyungwoo Song"
+      ],
+      "published": "2025-10-28",
+      "original_date": "2025-10-28",
+      "original_date_note": "Primary arXiv v1 submission date, UTC; acceptance year is separate.",
+      "url": "https://arxiv.org/abs/2511.00040",
+      "arxiv_id": "2511.00040",
+      "doi": "10.48550/arXiv.2511.00040",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2511.00040",
+        "https://doi.org/10.48550/arXiv.2511.00040",
+        "https://iclr.cc/virtual/2026/oral/10008127",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+        "https://openreview.net/forum?id=ghwxbTx7do"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2511.00040",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+      "pdf_version": "ICLR2026 formal conference proceedings",
+      "latest_arxiv_version": "v3",
+      "latest_arxiv_version_date": "2026-02-19",
+      "latest_arxiv_is_not_assumed_identical_to_read_pdf": true,
+      "source_pdf_pages": 30,
+      "source_pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+      "code_url": "https://github.com/MLAI-Yonsei/SSPO",
+      "code_availability": {
+        "status": "implementation_available_final_paper_threshold_mismatch",
+        "verified_on": "2026-11-24",
+        "commit": "2df9e9a1d5fb9202a583cb66eb081e0cb60e873d",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Current source threshold is minimum normalized chosen reward (fallback unlabeled mean), not final-paper KDE risk minimization.",
+          "Sequential shared EMA statistics and clamp±5; threshold not explicitly detached.",
+          "Mistral10% example2epochs versus paper1epoch."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31, revised2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true,
+          "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008127",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+          "snapshot": "assets/official-records/sspo-oral.html",
+          "snapshot_sha256": "2b6935c9d3d54216d81a8a404404424f454b04d7e68f0429fbbb935a66838334"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008127",
+          "label": "oral",
+          "checked_on": "2026-11-24",
+          "snapshot": "assets/official-records/sspo-oral.html"
+        }
+      },
+      "citation_count": {
+        "value": 1,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4415934895",
+        "queried_at": "2026-11-24",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-23T12:01:36.302904",
+        "raw_record": "assets/citation-records/sspo-citations.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "arXiv / official proceedings identities"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "sspo-fig1.png",
+          "paper": "sspo",
+          "figure": "fig1",
+          "physical_pdf_page": 2,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            304
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+          "sha256": "cefbe159398cdf04bfe0c66bf9bf7b64321916008780876ff99792790dbe3066",
+          "pixels": [
+            1200,
+            672
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 7. 原文 Figure 1，正式 PDF 物理第 2 页。左侧绿色／橙色是已知偏好，蓝色是未成对回答；中间用学到的阈值产生伪优胜／伪落败标签，右侧联合优化。该图不意味着未标注回答都正确，也没有展示额外模型生成数据。图源及版本为本节 ICLR 2026 正式 PDF。"
+        },
+        {
+          "file": "sspo-table2.png",
+          "paper": "sspo",
+          "figure": "table2",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            78,
+            506,
+            595
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+          "sha256": "7d72fdab7e4769832a3b17dc1000c029081cb9cb39aaa703178fd500d6e2b04e",
+          "pixels": [
+            1200,
+            1551
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 8. 原文 Table 2，正式 PDF 物理第 7 页。LC 为 AlpacaEval 2 的长度控制胜率，WR 为原始胜率，MT 为 MT-Bench；分别列通用、医学和商业数据的不同模型与标签比例。先固定模型、领域、标签比例，再比较列内指标。SSPO 额外利用未成对语料，不能把全部增益都归于损失函数。图源及版本同本节正式 PDF。"
+        },
+        {
+          "file": "sspo-fig3.png",
+          "paper": "sspo",
+          "figure": "fig3",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            540,
+            506,
+            725
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+          "sha256": "0bce1d684a0992e87b8686c5f98b29e5878a425c255874838990e542eaf54a38",
+          "pixels": [
+            1200,
+            555
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 10. 原文 Figure 3，正式 PDF 物理第 9 页。条件为 Mistral、DSP Business 10% 标签；蓝／橙分别为胜／败奖励密度，绿虚线是估计阈值，展示第 100、200、343 步。它支持该运行中两组奖励逐渐分离的描述，不能证明所有未标注回答的伪标签正确，也不是通用领域的完整校准实验。图源及版本同上。"
+        },
+        {
+          "file": "sspo-table10.png",
+          "paper": "sspo",
+          "figure": "table10",
+          "physical_pdf_page": 23,
+          "crop_points_from_top_left": [
+            332,
+            78,
+            507,
+            270
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "209df46f2cb994a8da19fee06d7dd5cc5fc92bd4850b16479b725f3405684273",
+          "sha256": "1d89e34ea2ea107d208c65134d89052ad39d0f6fde9efb214b61513a914dce7d",
+          "pixels": [
+            525,
+            576
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 9. 原文 Table 10，正式 PDF 物理第 23 页。Mistral 7B、UltraFeedback 相同标签比例下，DPO+SFT 为 26.5／29.5 LC，SSPO 为 26.7／30.0；差距仅 0.2／0.5 个百分点。SimPO+SFT 为 25.1／27.3。表中没有给出这些差值的置信区间，不能据此断言很小差距具有统计显著性。图源及版本同上。"
+        }
+      ],
+      "read_scope": "Entire 30-page formal PDF including appendices; original figures visually inspected; code scope separately documented.",
+      "reproduction_executed": false
+    },
+    {
+      "id": "arxiv:2603.01639",
+      "type": "paper",
+      "key": "draft",
+      "title": "Learning To Draft: Adaptive Speculative Decoding with Reinforcement Learning",
+      "title_aliases": [],
+      "authors": [
+        "Jiebin Zhang",
+        "Zhenghan Yu",
+        "Liang Wang",
+        "Nan Yang",
+        "Eugene J. Yu",
+        "Zheng Li",
+        "Yifan Song",
+        "Dawei Zhu",
+        "Xingxing Zhang",
+        "Furu Wei",
+        "Sujian Li"
+      ],
+      "published": "2026-03-02",
+      "original_date": "2026-03-02",
+      "original_date_note": "Primary arXiv v1 submission date, UTC; acceptance year is separate.",
+      "url": "https://arxiv.org/abs/2603.01639",
+      "arxiv_id": "2603.01639",
+      "doi": "10.48550/arXiv.2603.01639",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2603.01639",
+        "https://doi.org/10.48550/arXiv.2603.01639",
+        "https://iclr.cc/virtual/2026/poster/10010314",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+        "https://openreview.net/forum?id=IK9cbzzXLt"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2603.01639",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+      "pdf_version": "ICLR2026 formal conference proceedings",
+      "latest_arxiv_version": "v1",
+      "latest_arxiv_version_date": "2026-03-02",
+      "latest_arxiv_is_not_assumed_identical_to_read_pdf": true,
+      "source_pdf_pages": 22,
+      "source_pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+      "code_url": "https://github.com/zhzihao/Learning-to-Draft",
+      "code_availability": {
+        "status": "implementation_available_missing_imported_variants_and_configuration_mismatches",
+        "verified_on": "2026-11-24",
+        "commit": "c061196216a7b77918ff0033e5f3bef5fba76852",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "EAGLE model/evaluation/data directories are present. Unconditionally imported cnets_ddd/c2t/svip/disco/gamma/spec_plus files missing; Qwen3 import commented but name referenced.",
+          "train_size.sh passes undefined --rl_token_model_path to rl_total parser.",
+          "24actions10..240 rather than paper12actions20..240; random depth overwritten12; depth policy checked each3rounds.",
+          "RL defaults differ from paper. RL reward timer and synchronized warmed evaluation timer must be distinguished.",
+          "Llama3 evaluation subtracts pre_len_time containing size-controller prediction time; report full end-to-end timing too.",
+          "Stochastic posterior verification is implemented; example uses temperature0; no runtime correctness claim."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31, revised2026-04-09",
+          "physical_pdf_page": 57,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true,
+          "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10010314",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+          "snapshot": "assets/official-records/draft-official.html",
+          "snapshot_sha256": "2d0f6cb633ff9312bfc976d6179eda822879dcd653c52841956cf30ee23a7bd3"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10010314",
+          "label": "poster",
+          "checked_on": "2026-11-24",
+          "snapshot": "assets/official-records/draft-official.html"
+        }
+      },
+      "citation_count": {
+        "value": 12,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7133306977",
+        "queried_at": "2026-11-24",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-23T12:01:36.302904",
+        "raw_record": "assets/citation-records/draft-citations.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "arXiv / official proceedings identities"
+        ],
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "draft-fig1.png",
+          "paper": "draft",
+          "figure": "fig1",
+          "physical_pdf_page": 2,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            355
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+          "sha256": "353b104acf04c7add3e4037808a90fd63bba7788f148b0ea297d518d57963391",
+          "pixels": [
+            1200,
+            825
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 11. 原文 Figure 1，正式 PDF 物理第 2 页。左侧深度策略决定继续扩展还是停止；中部大小策略选择待验证节点数；右侧目标模型通过 tree mask 验证，接受前缀并反馈“接受 token 数／总用时”。两策略是轻量网络，目标与草稿模型保持冻结。该图是机制图，不能据节点数量直接读出实际加速比。图源及版本为本节 ICLR 2026 正式 PDF。"
+        },
+        {
+          "file": "draft-fig2.png",
+          "paper": "draft",
+          "figure": "fig2",
+          "physical_pdf_page": 4,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            286
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+          "sha256": "0e190637f66a6bfe048b14e07ebaa75793e136a3f29b325b0c3ad722028ac012",
+          "pixels": [
+            1200,
+            618
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 12. 原文 Figure 2，正式 PDF 物理第 4 页。左图在 Vicuna-13B 上改变 D、V，粉色为草稿时间、紫色为验证时间，后者存在阶梯；右图按 EAGLE3 总时间归一化比较不同模型的两部分耗时。不要把右图各颜色的数字当成 tokens/s，也不能把一个模型的硬件曲线通用于另一个模型。图源及版本同本节正式 PDF。"
+        },
+        {
+          "file": "draft-table1.png",
+          "paper": "draft",
+          "figure": "table1",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            106,
+            78,
+            506,
+            425
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+          "sha256": "62854f7546e2c93ad9b8ef9a7531a81b3be0dc195981eb21b4fdd554568641ee",
+          "pixels": [
+            1200,
+            1041
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 13. 原文 Table 1，正式 PDF 物理第 8 页。温度 0，速度倍数均相对同目标模型自回归基线；tau 为平均接受长度。GS 是网格搜索调参的 EAGLE3，对 Qwen 只报告 GS 基线。每个模型块必须分别比较，不能将 Qwen32B 的倍数和 Vicuna13B 的倍数当作绝对速度比较。图源及版本同本节正式 PDF。"
+        },
+        {
+          "file": "draft-table2.png",
+          "paper": "draft",
+          "figure": "table2",
+          "physical_pdf_page": 10,
+          "crop_points_from_top_left": [
+            106,
+            80,
+            506,
+            178
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "b6c2d6ac9b26819adbbba3b6d191f4947c224b6a9db898d0ca58b86c4e01d930",
+          "sha256": "91f728b5f54157e00761916ea01010a366a649379c6e24fde53f47625eb973f5",
+          "pixels": [
+            1200,
+            294
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 14. 原文 Table 2，正式 PDF 物理第 10 页。在 Vicuna-13B 上单独训练大小策略，比较只奖励接受长度、只优化时间与吞吐率奖励。均值速度为 3.59／3.45／4.13 倍；接受长度奖励的 tau 6.89 略高于吞吐率奖励的 6.84，速度反而更低。它是同设置的目标消融，不能与完整版 4.32 倍直接混成同一算法。图源及版本同上。"
+        }
+      ],
+      "read_scope": "Entire 22-page formal PDF including appendices; original figures visually inspected; code scope separately documented.",
+      "reproduction_executed": false
+    },
+    {
+      "id": "arxiv:2609.12584",
+      "type": "paper",
+      "key": "cluster",
+      "title": "Clustering-Based Balanced Sampling and Allocation with Data Parallelism for High-Performance Fine-Tuning",
+      "title_aliases": [],
+      "authors": [
+        "Hyunjin Kim",
+        "Youngeun Nam",
+        "Jaemin Han",
+        "Wonhyeok Choi",
+        "Jae-Gil Lee"
+      ],
+      "published": "2026-09-11",
+      "original_date": "2026-09-11",
+      "original_date_note": "Primary arXiv v1 submission date, UTC; acceptance year is separate.",
+      "url": "https://arxiv.org/abs/2609.12584",
+      "arxiv_id": "2609.12584",
+      "doi": "10.18653/2026.emnlp-main.342",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2609.12584",
+        "https://doi.org/10.18653/2026.emnlp-main.342",
+        "https://aclanthology.org/2026.emnlp-main.342/",
+        "https://aclanthology.org/2026.emnlp-main.342.pdf",
+        "https://doi.org/10.48550/arXiv.2609.12584"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2609.12584",
+      "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+      "pdf_version": "EMNLP2026 formal conference proceedings",
+      "latest_arxiv_version": "v1",
+      "latest_arxiv_version_date": "2026-09-11",
+      "latest_arxiv_is_not_assumed_identical_to_read_pdf": true,
+      "source_pdf_pages": 19,
+      "source_pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+      "code_url": "https://github.com/kaist-dmlab/CluSTER",
+      "code_availability": {
+        "status": "implementation_available_static_review_only",
+        "verified_on": "2026-11-24",
+        "commit": "59c9f1e312eec9e8b179f85c398506c8492fb7d8",
+        "static_reading_record": "assets/code-reading.json",
+        "notes": [
+          "Read proxy construction, one-time preprocessing, peripheral pruning, weights and distributed trainer entry points.",
+          "prune=close removes near-center samples; actual rank weights proportional to original cluster size.",
+          "Weights restore cluster proportions but cannot guarantee absence of within-cluster peripheral-selection bias.",
+          "README/formal maximum-time saving and main/appendix batch/hardware differ; retain formal per-experiment conditions."
+        ]
+      },
+      "project_or_author_blog_url": null,
+      "venue": "EMNLP",
+      "acceptance_year": 2026,
+      "ccf_rank": "B",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "edition": "2026 final; released2026-03-31, revised2026-04-09",
+          "physical_pdf_page": 58,
+          "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "snapshot": "assets/official-records/ccf-2026.pdf",
+          "visual_page_inspected": true,
+          "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://aclanthology.org/2026.emnlp-main.342/",
+          "venue": "EMNLP",
+          "year": 2026,
+          "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+          "snapshot": "assets/official-records/cluster-official.html",
+          "snapshot_sha256": "00da0e1c087cdb6f3c8be46b3ad894742a38a7950ea3131984a1be0988cdd22c"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+          "label": "poster",
+          "checked_on": "2026-11-24",
+          "snapshot": "assets/official-records/emnlp-schedule.csv",
+          "program_url": "https://2026.emnlp.org/program/",
+          "matched_row": "assets/emnlp-schedule-evidence.json",
+          "paper_id": "941-MAIN",
+          "poster_number": "250",
+          "date": "2026-10-26",
+          "time": "11:00-12:30",
+          "session": "Session6 / Poster Session D",
+          "room": "Hall H"
+        }
+      },
+      "citation_count": {
+        "value": 0,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7212904294",
+        "queried_at": "2026-11-24",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-23T12:01:36.302904",
+        "raw_record": "assets/citation-records/cluster-citations.json",
+        "identity_checked": [
+          "title",
+          "authors",
+          "arXiv / official proceedings identities"
+        ],
+        "unavailable_reason": null,
+        "identity_note": "arXiv and formal DOI resolve to same OpenAlex work; not added twice."
+      },
+      "figures": [
+        {
+          "file": "cluster-fig3.png",
+          "paper": "cluster",
+          "figure": "fig3",
+          "physical_pdf_page": 4,
+          "crop_points_from_top_left": [
+            69,
+            69,
+            528,
+            235
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+          "sha256": "c3bbdd8d1982fa7152c69d4cb9cb85f81bd8b61033f68fac05f4f39bfe2db1c8",
+          "pixels": [
+            1377,
+            498
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 15. 原文 Figure 3，正式 PDF 物理第 4 页（论文集页 7888）。左侧以前向计算的梯度代理聚类，中部以最小簇为基准均衡删选，右侧不同 GPU 处理簇样本并按原始簇大小加权。图中权重用于恢复原始分布占比，不是奖励函数。图源及版本为本节 EMNLP 2026 正式 PDF。"
+        },
+        {
+          "file": "cluster-table3.png",
+          "paper": "cluster",
+          "figure": "table3",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            305,
+            328,
+            530,
+            551
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+          "sha256": "601ed5c1533cb0a56af21b9749899b80a4ca7299a395b6a6ec501320e9a8dc66",
+          "pixels": [
+            675,
+            669
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 16. 原文 Table 3，正式 PDF 物理第 6 页（论文集页 7890）。Llama-2-7B 在 MedInstruct 上微调；固定实际数据比例后比较 Random、Uniform、IFD、LESS、S2L 与 CluSTER。Avg 为四项医学任务平均，Time 为训练小时，尚未含数据选择。均值旁的波动为三个种子结果。图源及版本同本节正式 PDF。"
+        },
+        {
+          "file": "cluster-table4.png",
+          "paper": "cluster",
+          "figure": "table4",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            305,
+            69,
+            530,
+            208
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+          "sha256": "b1e6333402f5f8195850932809b386d8915d0729a5a435555a3d3e5fe241922d",
+          "pixels": [
+            675,
+            417
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 17. 原文 Table 4，正式 PDF 物理第 7 页（论文集页 7891）。Sel 为选择时间、Train 为训练时间、Total 为两者相加。CluSTER 的选择阶段代码／医学分别约 0.19／0.13 小时；比较完整成本时应读 Total，不能只读 Train。表中 r=1 和 r=0.75 对应均衡后的实际数据比例，不是原数据的 100%／75%。图源及版本同上。"
+        },
+        {
+          "file": "cluster-fig6.png",
+          "paper": "cluster",
+          "figure": "fig6",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            305,
+            69,
+            530,
+            261
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.342.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "0c2b442d5a495fa8a571893b61f979ff09eb9b47660520a79714177343fbe06a",
+          "sha256": "8966d6f237a5c956347fea4fd1536a63243ac1223345c5d502c819f998417ab8",
+          "pixels": [
+            675,
+            576
+          ],
+          "modification": "Original PDF crop at 216 dpi; no redrawing or data modification.",
+          "caption_conditions_and_reading_guide": "图 18. 原文 Figure 6，正式 PDF 物理第 9 页（论文集页 7893）。左图比较 worker 间梯度相似性，中图展示 5% Magicoder 子集的语义聚类，右图用实际梯度比较簇内／簇间相似性。右图纵轴从 0.2 附近开始，视觉差距不能直接按柱高倍数解读；中图是降维可视化，不是全数据语义标签证明。图源及版本同本节正式 PDF。"
+        }
+      ],
+      "read_scope": "Entire 19-page formal PDF including appendices; original figures visually inspected; code scope separately documented.",
+      "reproduction_executed": false,
+      "proceedings_pages": "7885-7903"
+    }
+  ],
+  "auxiliary_sources": [
+    {
+      "title": "DPO",
+      "url": "https://arxiv.org/abs/2305.18290",
+      "role": "background, not counted as selected paper",
+      "accessed": "2026-11-24"
+    },
+    {
+      "title": "SimPO",
+      "url": "https://arxiv.org/abs/2405.14734",
+      "role": "background, not counted as selected paper",
+      "accessed": "2026-11-24"
+    },
+    {
+      "title": "Speculative Decoding",
+      "url": "https://arxiv.org/abs/2211.17192",
+      "role": "background, not counted as selected paper",
+      "accessed": "2026-11-24"
+    },
+    {
+      "title": "BADGE",
+      "url": "https://arxiv.org/abs/1906.03671",
+      "role": "background, not counted as selected paper",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "search_log": [
+    {
+      "scope": "CCF2026 final classification",
+      "result": "ICLR A p57 and EMNLP B p58 rechecked visually in verified cached72page catalogue; fresh binary WAF response rejected."
+    },
+    {
+      "scope": "ICLR2026 official individual oral/poster pages and formal proceedings",
+      "result": "SafeDPO, Coverage, SSPO oral; LTD poster; four main regular papers161physical PDF pages."
+    },
+    {
+      "scope": "EMNLP2026 main proceedings and official-linked schedule",
+      "result": "CluSTER main.342,19pages; official941-MAIN row Poster."
+    },
+    {
+      "scope": "Full PDF and code reading",
+      "result": "180pages total; four author code sources; SafeDPO code not found; specific implementation caveats recorded, no model executions."
+    },
+    {
+      "scope": "OpenAlex identity-matched snapshots",
+      "result": "40/32/1/12/0; dates from primary arXiv evidence; same CluSTER identity merged."
+    },
+    {
+      "scope": "All directions all dates",
+      "result": "110published+10pending source identities checked; no duplicates."
+    },
+    {
+      "scope": "Selection preferences",
+      "result": "Bounded topic-aligned search met4A1B3oral2poster; citation preference considers public age and topic; not claimed exhaustive ranking."
+    }
+  ],
+  "exclusion_log": [
+    {
+      "id": "arxiv:2610.02140",
+      "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
+      "reason": "Already archived first test2026-11-18; not repeated."
+    },
+    {
+      "scope": "120prior sources across all directions and pending dates",
+      "reason": "Previously covered identities excluded; updates not treated as new papers."
+    },
+    {
+      "scope": "Workshops, Findings, short/demo, unaccepted preprints and tutorials",
+      "reason": "Not eligible primary full regular main papers; no filler used."
+    },
+    {
+      "scope": "ICLR oral poster counterpart pages",
+      "reason": "Same papers, merged; separate official oral event determines presentation classification."
+    },
+    {
+      "scope": "CluSTER arXiv and formal DOI / OpenAlex duplicate lookup",
+      "reason": "Same paper and same index work; count once, no citation summation."
+    },
+    {
+      "scope": "OpenReview API and PDF direct access",
+      "reason": "403; did not claim formal decision or reviews read; official program and formal proceedings used."
+    },
+    {
+      "scope": "CCF fresh WAF HTML",
+      "reason": "Rejected as invalid PDF; verified same-edition cached catalogue used with explicit access caveat."
+    },
+    {
+      "scope": "SafeDPO code / independent author blogs",
+      "reason": "Not found in bounded official search; no fabricated URL or code-availability claim."
+    }
+  ],
+  "source_reading": {
+    "full_papers_read": 5,
+    "source_pdf_pages_read": 180,
+    "source_pdf_files_read": 5,
+    "original_figure_crops": 18,
+    "training_or_inference_experiments_run": false,
+    "code_reading": "assets/code-reading.json"
+  },
+  "publication_environment": {
+    "kind": "local_isolated_checkout",
+    "branch": "main",
+    "remote": "git@github.com:daihuangyu/papers-daily.git",
+    "schedule_modified": false,
+    "initial_base_commit": "adba3a8578c12b1781ba0c6b9ebae6e39ecabda7",
+    "publication_base_commit": "5e335a24bf5f003cdc596c962be912060c1add49",
+    "publication_batch": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+    ],
+    "publication_method": "normal fast-forward SSH Git push to main"
+  },
+  "pdf_quality_check": {
+    "status": "passed",
+    "pages": 27,
+    "markdown_visible_lines_checked": 226,
+    "missing_lines": 0,
+    "original_figures_embedded": 18,
+    "pixel_identical_original_images": 18,
+    "visual_review_pages": 27,
+    "font_missing_glyphs": 0,
+    "math_display": 21,
+    "math_inline": 130,
+    "math_render_errors": 0,
+    "details": "assets/pdf-check.json",
+    "markdown_sha256": "9102c57da98e5cb248b06f3cf287bd22d5d68c176091c0109f0e4e7f1d34a594",
+    "pdf_sha256": "9b6a276cbcee3b651216aaa441d3c4facedd0e3d716bdab640c8a8af707bd56b"
+  },
+  "validation": {
+    "unit_tests_passed": 20,
+    "index_script": "scripts/update_index.py",
+    "publication_scope": [
+      "CCF_Papers/2026-11-24/",
+      "CCF_Papers/README.md",
+      "README.md",
+      "sources.json"
+    ]
+  },
+  "artifact_inventory": [
+    {
+      "path": "assets/QA.md",
+      "bytes": 2217,
+      "sha256": "1eed53454371540ff62a40ec11fadf7cab0c61ff490935b730fe6a2c024b823d"
+    },
+    {
+      "path": "assets/SOURCES.md",
+      "bytes": 3284,
+      "sha256": "cd78b0ad21e3e09ea47a5f66c2462c6c401550bdd1176704bc872a1c09b0e2b1"
+    },
+    {
+      "path": "assets/citation-records/cluster-arxiv-citations.json",
+      "bytes": 20235,
+      "sha256": "6f0d5cb3c70672f455e6fd1307736953d02bfa705d43291de41b310f8d8196f2"
+    },
+    {
+      "path": "assets/citation-records/cluster-citations.json",
+      "bytes": 20235,
+      "sha256": "2f96e45c9ac4fa967d00cf4e3f25c9a7425444392f9ea357eb1db01ffb8ed3a8"
+    },
+    {
+      "path": "assets/citation-records/coverage-citations.json",
+      "bytes": 24038,
+      "sha256": "698e66495c52fa42f62e82797dd17bb4e84c0cefc971deedf5b2e168a93a9496"
+    },
+    {
+      "path": "assets/citation-records/draft-citations.json",
+      "bytes": 24047,
+      "sha256": "bbc9b73bd99cfb176d8e8580497c067b3da2c01dab4345ad87a5bc41ad5c6fd8"
+    },
+    {
+      "path": "assets/citation-records/safe-citations.json",
+      "bytes": 21046,
+      "sha256": "8bdb4a5f503b50635809895585c40f33e7522ab316bde4d8ebd7c7ec9bd253c6"
+    },
+    {
+      "path": "assets/citation-records/sspo-citations.json",
+      "bytes": 18156,
+      "sha256": "03cecb10e5c0c409ea33304bd63d659d45a5b6ef4a829a14b1bc59fc67b416c5"
+    },
+    {
+      "path": "assets/cluster-fig3.png",
+      "bytes": 204851,
+      "sha256": "c3bbdd8d1982fa7152c69d4cb9cb85f81bd8b61033f68fac05f4f39bfe2db1c8"
+    },
+    {
+      "path": "assets/cluster-fig6.png",
+      "bytes": 161312,
+      "sha256": "8966d6f237a5c956347fea4fd1536a63243ac1223345c5d502c819f998417ab8"
+    },
+    {
+      "path": "assets/cluster-table3.png",
+      "bytes": 205955,
+      "sha256": "601ed5c1533cb0a56af21b9749899b80a4ca7299a395b6a6ec501320e9a8dc66"
+    },
+    {
+      "path": "assets/cluster-table4.png",
+      "bytes": 88400,
+      "sha256": "b1e6333402f5f8195850932809b386d8915d0729a5a435555a3d3e5fe241922d"
+    },
+    {
+      "path": "assets/code-reading.json",
+      "bytes": 12720,
+      "sha256": "fb3b8c62289b3bd187bca6335356edcab4e92b717a36add1b00f980d4c08e0e1"
+    },
+    {
+      "path": "assets/coverage-fig1.png",
+      "bytes": 292684,
+      "sha256": "486899328228e1bb26c97c89d9c610169eda90c21710a43c4e950e99b197c9f4"
+    },
+    {
+      "path": "assets/coverage-fig2.png",
+      "bytes": 200875,
+      "sha256": "73158b1c85e034b0adae418b4af5f8dbc8b471c61fcc27cef3ede2030c6ba76e"
+    },
+    {
+      "path": "assets/dedup-check.json",
+      "bytes": 7138,
+      "sha256": "b818cb0c05f58d9d8587f11f0e7f25660e848533373fdcd787abf441b9952aba"
+    },
+    {
+      "path": "assets/draft-fig1.png",
+      "bytes": 209981,
+      "sha256": "353b104acf04c7add3e4037808a90fd63bba7788f148b0ea297d518d57963391"
+    },
+    {
+      "path": "assets/draft-fig2.png",
+      "bytes": 131195,
+      "sha256": "0e190637f66a6bfe048b14e07ebaa75793e136a3f29b325b0c3ad722028ac012"
+    },
+    {
+      "path": "assets/draft-table1.png",
+      "bytes": 382321,
+      "sha256": "62854f7546e2c93ad9b8ef9a7531a81b3be0dc195981eb21b4fdd554568641ee"
+    },
+    {
+      "path": "assets/draft-table2.png",
+      "bytes": 69386,
+      "sha256": "91f728b5f54157e00761916ea01010a366a649379c6e24fde53f47625eb973f5"
+    },
+    {
+      "path": "assets/emnlp-schedule-evidence.json",
+      "bytes": 610,
+      "sha256": "01e8bcba369e323dfced0d2fd56f62da7ed89d2a7082141140a96790ec60dbe4"
+    },
+    {
+      "path": "assets/figures.json",
+      "bytes": 19915,
+      "sha256": "516c32d44e52da9967b17f40f9d01adf854c5fc81f883ab2972f162b27c20ffb"
+    },
+    {
+      "path": "assets/math-manifest.json",
+      "bytes": 45501,
+      "sha256": "0992be8715deefed223f8e2b553a319b750aef467fca1708e61fdc3cd7d22a49"
+    },
+    {
+      "path": "assets/official-evidence.json",
+      "bytes": 7621,
+      "sha256": "00a7ae2519062b959856e656dcc24fce32c616bbf6bbf8f83fff6a59162f2c72"
+    },
+    {
+      "path": "assets/official-records/ccf-2026.pdf",
+      "bytes": 346777,
+      "sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3"
+    },
+    {
+      "path": "assets/official-records/cluster-abs.html",
+      "bytes": 41695,
+      "sha256": "06332985336bed0b2dae14d2db60e45e27c7ed3b891f78a776af103f4fee909d"
+    },
+    {
+      "path": "assets/official-records/cluster-commit.json",
+      "bytes": 3994,
+      "sha256": "7d20fd97046d518a70842beb801d908c6b16c20ba4f2f05307d74fb58e43ae1c"
+    },
+    {
+      "path": "assets/official-records/cluster-official.html",
+      "bytes": 44066,
+      "sha256": "00da0e1c087cdb6f3c8be46b3ad894742a38a7950ea3131984a1be0988cdd22c"
+    },
+    {
+      "path": "assets/official-records/cluster-schedule-row.json",
+      "bytes": 266,
+      "sha256": "ad7778aa4c378d2222b704b58acdbf45b80de47b964fa0219ce2f837b0f09c34"
+    },
+    {
+      "path": "assets/official-records/coverage-abs.html",
+      "bytes": 42556,
+      "sha256": "1cd91d9acaf2ff5add073d0709c02d29573e7d2c36464728ff5e9d8172300b92"
+    },
+    {
+      "path": "assets/official-records/coverage-official.html",
+      "bytes": 83063,
+      "sha256": "e77e6828a731a69731a5f65bdcf14c35e50d7fc19aa5fb87344f8bb4d2bb93f0"
+    },
+    {
+      "path": "assets/official-records/coverage-oral.html",
+      "bytes": 82566,
+      "sha256": "4ba58fb0c7fc1f34592471e691dc32a9a423212e5b1c81abe164c9d76482b0a3"
+    },
+    {
+      "path": "assets/official-records/coverage-proceedings.html",
+      "bytes": 9880,
+      "sha256": "681eb84e3f34504498fcf6b9d7611a9d1eb3079d61fe2d80e4cd386f5603d8f8"
+    },
+    {
+      "path": "assets/official-records/draft-abs.html",
+      "bytes": 41698,
+      "sha256": "b5c5925e56156caa325d90f1214a8ea16d179b75a399e00b30538794f66269ac"
+    },
+    {
+      "path": "assets/official-records/draft-commit.json",
+      "bytes": 1060607,
+      "sha256": "91c263701d2f22f0ffb5f29676e08b53439b8264f12d26a248816d8ecde1f7f8"
+    },
+    {
+      "path": "assets/official-records/draft-official.html",
+      "bytes": 84020,
+      "sha256": "2d0f6cb633ff9312bfc976d6179eda822879dcd653c52841956cf30ee23a7bd3"
+    },
+    {
+      "path": "assets/official-records/draft-proceedings.html",
+      "bytes": 9824,
+      "sha256": "33e9506b3ab50842a43cc857e4162779b92a591b9ddc221acab5055610188b7c"
+    },
+    {
+      "path": "assets/official-records/emnlp-program.html",
+      "bytes": 20811,
+      "sha256": "e49f3c65412534b126512d32cc808ad89fd272cb98ed3ce78af9795d48d0fa12"
+    },
+    {
+      "path": "assets/official-records/emnlp-schedule.csv",
+      "bytes": 1014140,
+      "sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+    },
+    {
+      "path": "assets/official-records/safe-abs.html",
+      "bytes": 44931,
+      "sha256": "256b5af6ebb49e6a08f605163a6df8c7fd536c16a943e1f5c5deccd2f950e793"
+    },
+    {
+      "path": "assets/official-records/safe-author.html",
+      "bytes": 178266,
+      "sha256": "d294ec998faa961b256e9751a69168a949dda968ad812191eb3b934da3c3b113"
+    },
+    {
+      "path": "assets/official-records/safe-official.html",
+      "bytes": 83812,
+      "sha256": "83d1bb885a4e3d5cf3a441a0d2c94fc480a1adac9dba830e4d0f9794c8d06e61"
+    },
+    {
+      "path": "assets/official-records/safe-oral.html",
+      "bytes": 83008,
+      "sha256": "ebcf47d0c883401d03c9139c609262d41a6d747b0cc520ba07f83fc45e193b5c"
+    },
+    {
+      "path": "assets/official-records/safe-proceedings.html",
+      "bytes": 10123,
+      "sha256": "91f4841b0b57419cf9ed0e275a92ab35d14e071312c393415c0fa1c513bc6ac8"
+    },
+    {
+      "path": "assets/official-records/sspo-abs.html",
+      "bytes": 42888,
+      "sha256": "9d772ae1a281a332a9005b6e3b471345b671065b1934591292323839b7a6777a"
+    },
+    {
+      "path": "assets/official-records/sspo-commit.json",
+      "bytes": 4221,
+      "sha256": "7e2f0a0f8123efe3996db298625e104859ed3de8cb52c8b05268b4b5e2f4cdf5"
+    },
+    {
+      "path": "assets/official-records/sspo-official.html",
+      "bytes": 83198,
+      "sha256": "289154e9c4769a4200f01174ce7707ad8d8a73c1cf9a5e934916aa7f424269b2"
+    },
+    {
+      "path": "assets/official-records/sspo-oral.html",
+      "bytes": 82946,
+      "sha256": "2b6935c9d3d54216d81a8a404404424f454b04d7e68f0429fbbb935a66838334"
+    },
+    {
+      "path": "assets/official-records/sspo-proceedings.html",
+      "bytes": 9321,
+      "sha256": "117157e5dd007b4b1ac9616de9e790693058b76fd53ffc658c97974f1e51411e"
+    },
+    {
+      "path": "assets/page-previews/contact-0.jpg",
+      "bytes": 553115,
+      "sha256": "f4323ee4e12eed546bac21351866c9156a96c6073c4cf987db65b6e99f92bdbe"
+    },
+    {
+      "path": "assets/page-previews/contact-1.jpg",
+      "bytes": 525465,
+      "sha256": "3172e7e4160d90595f12c1418c73dbe2b37896f5c6dddde70f4d5d4aad954802"
+    },
+    {
+      "path": "assets/page-previews/contact-2.jpg",
+      "bytes": 475749,
+      "sha256": "86cdd3ab155abfff835cab0255333f101304f8d31b855d12b6598bccaf875ef2"
+    },
+    {
+      "path": "assets/page-previews/contact-3.jpg",
+      "bytes": 546644,
+      "sha256": "e2935f323553bbb9994eaaf8668a4e4f5a96a9c129a94b71b1d730863cbf3f33"
+    },
+    {
+      "path": "assets/page-previews/contact-4.jpg",
+      "bytes": 248506,
+      "sha256": "736faddf105564399ef451685f66e39501a2e2ae1ac420d4ae7321d714a350c9"
+    },
+    {
+      "path": "assets/pdf-check.json",
+      "bytes": 38815,
+      "sha256": "a48f9a60b9e26c9fc70db6bab657a58f8d1c231e6853194332defa4e71acc247"
+    },
+    {
+      "path": "assets/pdffonts.txt",
+      "bytes": 752,
+      "sha256": "4bf259859040bdb5708fefba28a7a4809fb27cf8eaa49004e6a803acb817b20c"
+    },
+    {
+      "path": "assets/safe-fig1.png",
+      "bytes": 178650,
+      "sha256": "4421609a8923e140fbf5848a177e6a24075c2b949dca3df4231fc529543bfbfe"
+    },
+    {
+      "path": "assets/safe-fig2.png",
+      "bytes": 159400,
+      "sha256": "1ff2618c75b90a926686c6832f0b450c30848ea16bdcdfcda8ac32970e22f311"
+    },
+    {
+      "path": "assets/safe-fig3.png",
+      "bytes": 121913,
+      "sha256": "331b15ea428703b6adbbdc33d268f9cbbb47a2894e111f07518bbbfd988a4e53"
+    },
+    {
+      "path": "assets/safe-table3.png",
+      "bytes": 60078,
+      "sha256": "9348d45b5d9e0b0d8e12ccc096e79c12cdd88df0cdcaf313da986fba76eb01c6"
+    },
+    {
+      "path": "assets/sspo-fig1.png",
+      "bytes": 245240,
+      "sha256": "cefbe159398cdf04bfe0c66bf9bf7b64321916008780876ff99792790dbe3066"
+    },
+    {
+      "path": "assets/sspo-fig3.png",
+      "bytes": 171472,
+      "sha256": "0bce1d684a0992e87b8686c5f98b29e5878a425c255874838990e542eaf54a38"
+    },
+    {
+      "path": "assets/sspo-table10.png",
+      "bytes": 91675,
+      "sha256": "1d89e34ea2ea107d208c65134d89052ad39d0f6fde9efb214b61513a914dce7d"
+    },
+    {
+      "path": "assets/sspo-table2.png",
+      "bytes": 418744,
+      "sha256": "7d72fdab7e4769832a3b17dc1000c029081cb9cb39aaa703178fd500d6e2b04e"
+    },
+    {
+      "path": "report.md",
+      "bytes": 63121,
+      "sha256": "9102c57da98e5cb248b06f3cf287bd22d5d68c176091c0109f0e4e7f1d34a594"
+    },
+    {
+      "path": "report.pdf",
+      "bytes": 12327434,
+      "sha256": "9b6a276cbcee3b651216aaa441d3c4facedd0e3d716bdab640c8a8af707bd56b"
+    }
+  ]
+}

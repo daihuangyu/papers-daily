@@ -1,0 +1,157 @@
+[
+  {
+    "paper": "open",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final, March31 release, April9 correction",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10011247",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main conference paper page and full regular conference proceedings manuscript; not workshop, Findings, short, demo.",
+      "page_title": "ICLR Oral OpenThoughts: Data Recipes for Reasoning Models",
+      "snapshot": "assets/official-records/open-official.html",
+      "snapshot_sha256": "5f57d2371b33552572a344740145c0f15cb58a860942f624a82fc799a6dc2439"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10011247",
+      "label": "oral",
+      "checked_on": "2026-11-23"
+    }
+  },
+  {
+    "paper": "long",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final, March31 release, April9 correction",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10010192",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main conference paper page and full regular conference proceedings manuscript; not workshop, Findings, short, demo.",
+      "page_title": "ICLR Oral LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+      "snapshot": "assets/official-records/long-official.html",
+      "snapshot_sha256": "c9d7b97c3c7510dc2e915b4bc0e97bbf7e4e4ee3124a6b302493a75ed331c8f9"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10010192",
+      "label": "oral",
+      "checked_on": "2026-11-23"
+    }
+  },
+  {
+    "paper": "thin",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final, March31 release, April9 correction",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009981",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main conference paper page and full regular conference proceedings manuscript; not workshop, Findings, short, demo.",
+      "page_title": "ICLR Oral ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models",
+      "snapshot": "assets/official-records/thin-official.html",
+      "snapshot_sha256": "2e4822af64e8d7d5c327d3e80b32021d24729ca64bc36c661cac69ae912d382f"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009981",
+      "label": "oral",
+      "checked_on": "2026-11-23"
+    }
+  },
+  {
+    "paper": "ace",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final, March31 release, April9 correction",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10010287",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Official main conference paper page and full regular conference proceedings manuscript; not workshop, Findings, short, demo.",
+      "page_title": "ICLR Poster AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy",
+      "snapshot": "assets/official-records/ace-official.html",
+      "snapshot_sha256": "ec748d5cbc7b662a00317c4d755f2cc71f8f58af43640439a207065425a51c4c"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10010287",
+      "label": "poster",
+      "checked_on": "2026-11-23"
+    }
+  },
+  {
+    "paper": "sft",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final, March31 release, April9 correction",
+      "physical_pdf_page": 58,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://aclanthology.org/2026.emnlp-main.128/",
+      "venue": "EMNLP",
+      "year": 2026,
+      "basis": "Official main conference paper page and full regular conference proceedings manuscript; not workshop, Findings, short, demo.",
+      "page_title": "How Much Supervised Fine-Tuning Is Enough? Dissecting the Impact of SFT Extent on Downstream Reinforcement Learning Performance - ACL Anthology",
+      "snapshot": "assets/official-records/sft-official.html",
+      "snapshot_sha256": "f1c3b5879d3d60d79f6b527f4741ab5658da93fd4c51c9553a01abd1763f0539"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+      "label": "poster",
+      "checked_on": "2026-11-23",
+      "program_url": "https://2026.emnlp.org/program/",
+      "paper_id": "340-MAIN",
+      "mode": "In-Person",
+      "session": "Session2 / Poster Session A",
+      "date": "2026-10-25",
+      "time": "11:00-12:30",
+      "room": "Hall H",
+      "poster_number": "93",
+      "csv_snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350",
+      "matched_row_record": "assets/emnlp-schedule-evidence.json"
+    }
+  }
+]

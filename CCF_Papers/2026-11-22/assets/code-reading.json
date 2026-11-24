@@ -1,0 +1,224 @@
+[
+  {
+    "paper": "mem",
+    "repository": "https://github.com/BytedTsinghua-SIA/MemAgent",
+    "commit": "ef4219b23499a069cb00e5daff4c426d4c600851",
+    "archive_sha256": "8180c185f1caca6dc2a8e2d5f1e48f19f02469390e093285242e283787e17dad",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/BytedTsinghua-SIA/MemAgent/blob/ef4219b23499a069cb00e5daff4c426d4c600851/README.md",
+        "sha256": "3bfb16101bacfb059b7fa5ebeff565240399babebe8131c975b6fe977c256bc8"
+      },
+      {
+        "path": "recurrent/impls/memory.py",
+        "url": "https://github.com/BytedTsinghua-SIA/MemAgent/blob/ef4219b23499a069cb00e5daff4c426d4c600851/recurrent/impls/memory.py",
+        "sha256": "14dcd0514cd0fd3dd8080d3414b596e05c7f159fda699e6cecef7b7d3ff0c645"
+      },
+      {
+        "path": "run_memory_7B.sh",
+        "url": "https://github.com/BytedTsinghua-SIA/MemAgent/blob/ef4219b23499a069cb00e5daff4c426d4c600851/run_memory_7B.sh",
+        "sha256": "38032017faaf4ff30968ec33a4bf39aa2a4a0f8500941d88e3a816a2fda5baa5"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Multi-conversation terminal reward, overwritten token memory; no group-standard-deviation normalization in reported advantage.",
+      "7B script 32 GPUs, batch128 vs paper256; convergence3-4days is a script comment, not a measured hardware log.",
+      "No model execution; GPU-hours in report are explicitly conditional arithmetic."
+    ]
+  },
+  {
+    "paper": "decs",
+    "repository": "https://github.com/pixas/DECS",
+    "commit": "710031e2d8e143d461294c8023efd480927ad810",
+    "archive_sha256": "33118f6c154be95a2b11a4f009861bd8d60ec7137d27a6e68b7b70dedfbfbf1f",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/pixas/DECS/blob/710031e2d8e143d461294c8023efd480927ad810/README.md",
+        "sha256": "5882f6c6dbaab2939062deaf80538c8504c43010a210440991e34a3f22672091"
+      },
+      {
+        "path": "src_valid/reward_manager.py",
+        "url": "https://github.com/pixas/DECS/blob/710031e2d8e143d461294c8023efd480927ad810/src_valid/reward_manager.py",
+        "sha256": "61335dfbc7c3d00b957da55f0515676d758080787ffbd69d0c1e4797ef899487"
+      },
+      {
+        "path": "src_valid/valid_ray_trainer.py",
+        "url": "https://github.com/pixas/DECS/blob/710031e2d8e143d461294c8023efd480927ad810/src_valid/valid_ray_trainer.py",
+        "sha256": "72808a2ab62ef9fcf97aeb107f3b63b3c4ea23632c4cae36d233c21111c75539"
+      },
+      {
+        "path": "scripts/train/local/train_rl_chunk_local.sh",
+        "url": "https://github.com/pixas/DECS/blob/710031e2d8e143d461294c8023efd480927ad810/scripts/train/local/train_rl_chunk_local.sh",
+        "sha256": "fd97806129516dc7f7f448a48d2bd970d05253b834e1ca88086e18d9b83e7b22"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Code redundancy reward1.1-0.1L/Lmax differs from paper1.0-0.1L/Lmax.",
+      "Curriculum clip commented out; block-level ratio differs from token-level paper statistic.",
+      "Default batch/epochs/data/judge paths require reconciliation; README BibTeX authors differ from official paper.",
+      "Official supplement ZIP read as code, not misreported as supplemental PDF."
+    ]
+  },
+  {
+    "paper": "spec",
+    "repository": "https://github.com/naimengye/speculative-action",
+    "commit": "dc938b9ef7474caf07fe4ad16549c1fa8c7d268c",
+    "archive_sha256": "85284247d240841c5e8d6d3195056d724c444ae461701360938fdf1694920116",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/naimengye/speculative-action/blob/dc938b9ef7474caf07fe4ad16549c1fa8c7d268c/README.md",
+        "sha256": "4485042637a0e3a86dda9ce4f929053a30bdf612d823a8a47b7441009f9a620a"
+      },
+      {
+        "path": "chess-game/speculative_workflow/Speculative_Chess.py",
+        "url": "https://github.com/naimengye/speculative-action/blob/dc938b9ef7474caf07fe4ad16549c1fa8c7d268c/chess-game/speculative_workflow/Speculative_Chess.py",
+        "sha256": "9a78b982fb4ff51735b7e27e406c4da075c22736cf71d53beda0b7c59721aabd"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Static README and chess speculative workflow; board-copy, concurrency and exact prediction matching inspected.",
+      "Not an exhaustive audit of all application subprojects.",
+      "Cancellation/end-to-end lossless behavior not experimentally verified; OS extension is explicitly lossy."
+    ]
+  },
+  {
+    "paper": "rzero",
+    "repository": "https://github.com/Chengsong-Huang/R-Zero",
+    "commit": "5699329d018d79535b7910abdedf5a6eebf355fd",
+    "archive_sha256": "0fc9920efadf2219e33d3f236d764d449a320586dac90f27de25e64485beefb6",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/Chengsong-Huang/R-Zero/blob/5699329d018d79535b7910abdedf5a6eebf355fd/README.md",
+        "sha256": "6f2a2849a4273e7c6d66d463024f300efe339d3850ad5e6313478b63c8cfa0ea"
+      },
+      {
+        "path": "examples/reward_function/caller_penalty.py",
+        "url": "https://github.com/Chengsong-Huang/R-Zero/blob/5699329d018d79535b7910abdedf5a6eebf355fd/examples/reward_function/caller_penalty.py",
+        "sha256": "02af55588d583833e0674b3aaa00dde24b43e8a949051abc9eb28921bace5d42"
+      },
+      {
+        "path": "examples/reward_function/math.py",
+        "url": "https://github.com/Chengsong-Huang/R-Zero/blob/5699329d018d79535b7910abdedf5a6eebf355fd/examples/reward_function/math.py",
+        "sha256": "f086939a423c5cd93f5d30a226f03c702fffa3dfe7e8abe64a6a83909e807cc4"
+      },
+      {
+        "path": "scripts/questioner_train_penalty.sh",
+        "url": "https://github.com/Chengsong-Huang/R-Zero/blob/5699329d018d79535b7910abdedf5a6eebf355fd/scripts/questioner_train_penalty.sh",
+        "sha256": "108f606630e704a35d4771ec5a70815f654bacbe2a91fbb8e67c796c91f73dd2"
+      },
+      {
+        "path": "scripts/solver_train.sh",
+        "url": "https://github.com/Chengsong-Huang/R-Zero/blob/5699329d018d79535b7910abdedf5a6eebf355fd/scripts/solver_train.sh",
+        "sha256": "c2ee46295e7348fed5a17df275f60995b850c50a6dfd603c7c8432288a8b6fc4"
+      },
+      {
+        "path": "question_generate/question_generate.py",
+        "url": "https://github.com/Chengsong-Huang/R-Zero/blob/5699329d018d79535b7910abdedf5a6eebf355fd/question_generate/question_generate.py",
+        "sha256": "1eed7966408f4299a6884d8e2df3ee4e9700abb544e5976c31ba5cbf547c2c79"
+      },
+      {
+        "path": "question_generate/question_generate.bash",
+        "url": "https://github.com/Chengsong-Huang/R-Zero/blob/5699329d018d79535b7910abdedf5a6eebf355fd/question_generate/question_generate.bash",
+        "sha256": "60f1cf315d78746b5ae2d973a087fe528d70a6601e6a6319ee46361403b31880"
+      },
+      {
+        "path": "question_evaluate/upload.py",
+        "url": "https://github.com/Chengsong-Huang/R-Zero/blob/5699329d018d79535b7910abdedf5a6eebf355fd/question_evaluate/upload.py",
+        "sha256": "6db07cba9f7104e41cad7a0e15259f0ee99b4906207812a55148eac2e76207fe"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Public uncertainty min(p,1-p) lacks paper factor2 and final zero clipping.",
+      "Script batch and6/20training-step vs5/15selected-checkpoint settings differ from textual summary.",
+      "Official manuscript has internal table/prose numerical inconsistencies; report keeps each condition distinct."
+    ]
+  },
+  {
+    "paper": "fisc",
+    "repository": "https://github.com/Notbesidemoon/FiSCoRe",
+    "commit": "03818779434cf9cb05c63b00a44cfafe66691b5f",
+    "archive_sha256": "d0112c53c52d600675bfb2949bfcb6efb7e18e7627b6ef075e2d0dfba8f0249a",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/Notbesidemoon/FiSCoRe/blob/03818779434cf9cb05c63b00a44cfafe66691b5f/README.md",
+        "sha256": "a375bb3ae6f8645d22d3a2ca1f14d107117a3bdb93dc2bac6f8804da6e1b4815"
+      },
+      {
+        "path": "src/rewards.py",
+        "url": "https://github.com/Notbesidemoon/FiSCoRe/blob/03818779434cf9cb05c63b00a44cfafe66691b5f/src/rewards.py",
+        "sha256": "5fde5eec776203a8d462d459ca273ac1c40fea498ece0decc3c35e23e97955e7"
+      },
+      {
+        "path": "src/grpo.py",
+        "url": "https://github.com/Notbesidemoon/FiSCoRe/blob/03818779434cf9cb05c63b00a44cfafe66691b5f/src/grpo.py",
+        "sha256": "efcc09e4340efbeabca5be14be6cf88900d374c593d5d6241c21fe01e321e10d"
+      },
+      {
+        "path": "recipes/qwen2.5_7b_it.yaml",
+        "url": "https://github.com/Notbesidemoon/FiSCoRe/blob/03818779434cf9cb05c63b00a44cfafe66691b5f/recipes/qwen2.5_7b_it.yaml",
+        "sha256": "c0ed80816559d0d8e0ccf738f3809f1951daf04c5337b1303c1d7204934b7679"
+      },
+      {
+        "path": "recipes/accelerate_configs/zero3.yaml",
+        "url": "https://github.com/Notbesidemoon/FiSCoRe/blob/03818779434cf9cb05c63b00a44cfafe66691b5f/recipes/accelerate_configs/zero3.yaml",
+        "sha256": "c854ee2e4a40b7f9cc9050e9749ced5a4e75d7645421c354a9cea83fdb4202bf"
+      },
+      {
+        "path": "script/train_model.sh",
+        "url": "https://github.com/Notbesidemoon/FiSCoRe/blob/03818779434cf9cb05c63b00a44cfafe66691b5f/script/train_model.sh",
+        "sha256": "87c7b5eb4b0a2402568857f08d58c30125408558a72e803643ff1b4e7a08c45f"
+      },
+      {
+        "path": "data/README.md",
+        "url": "https://github.com/Notbesidemoon/FiSCoRe/blob/03818779434cf9cb05c63b00a44cfafe66691b5f/data/README.md",
+        "sha256": "3cd8e7ebaf018d5b8389f5ac842323e77eb803c1520fd628b3e46b16af59d51a"
+      }
+    ],
+    "scope": "Static reading of named paths and relevant sections; not execution or exhaustive repository audit.",
+    "experiments_executed": false,
+    "notes": [
+      "Public max_prompt_length128 vs paper256.",
+      "Confidence reward clusters incoming completions without explicit per-question grouping; runtime batch grouping must be verified. Static risk, not an executed bug demonstration.",
+      "Accuracy reward uses reference answers; no-label confidence signal is not a fully unsupervised training pipeline."
+    ]
+  },
+  {
+    "paper": "decs",
+    "type": "official_supplement_code",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/bb0fea29f7aa6ede17e906ac6a225f34-Supplemental-Conference.zip",
+    "archive_sha256": "7afcf1e99de233f8879fb8ed733e643542659069184d731b199636c3b4460b77",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "31c900054a78871d2d4a2a6216a6873ab178f7e0c27dd2fed760ab1be8763e5e"
+      },
+      {
+        "path": "reward_manager.py",
+        "sha256": "5be78410db67c4d3169118525d675efe0cb9716061f132a46263f5115159d73a"
+      },
+      {
+        "path": "valid_ray_trainer.py",
+        "sha256": "58b867ee2476cac27bdaae7f4cf1b489f3ccd8a0d0ab573dd462fd0ab30c0949"
+      },
+      {
+        "path": "train_rl_chunk.sh",
+        "sha256": "8157242d14622b2c590f68277f0d83a7b80156f58693d59dda0336ed3f1023d7"
+      }
+    ],
+    "scope": "Static README and relevant sections; no execution.",
+    "experiments_executed": false
+  }
+]

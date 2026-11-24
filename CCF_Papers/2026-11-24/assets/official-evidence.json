@@ -1,0 +1,160 @@
+[
+  {
+    "paper": "safe",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31, revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true,
+      "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009693",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+      "snapshot": "assets/official-records/safe-oral.html",
+      "snapshot_sha256": "ebcf47d0c883401d03c9139c609262d41a6d747b0cc520ba07f83fc45e193b5c"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10009693",
+      "label": "oral",
+      "checked_on": "2026-11-24",
+      "snapshot": "assets/official-records/safe-oral.html"
+    }
+  },
+  {
+    "paper": "coverage",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31, revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true,
+      "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10011030",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+      "snapshot": "assets/official-records/coverage-oral.html",
+      "snapshot_sha256": "4ba58fb0c7fc1f34592471e691dc32a9a423212e5b1c81abe164c9d76482b0a3"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10011030",
+      "label": "oral",
+      "checked_on": "2026-11-24",
+      "snapshot": "assets/official-records/coverage-oral.html"
+    }
+  },
+  {
+    "paper": "sspo",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31, revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true,
+      "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10008127",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+      "snapshot": "assets/official-records/sspo-oral.html",
+      "snapshot_sha256": "2b6935c9d3d54216d81a8a404404424f454b04d7e68f0429fbbb935a66838334"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/oral/10008127",
+      "label": "oral",
+      "checked_on": "2026-11-24",
+      "snapshot": "assets/official-records/sspo-oral.html"
+    }
+  },
+  {
+    "paper": "draft",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31, revised2026-04-09",
+      "physical_pdf_page": 57,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true,
+      "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10010314",
+      "venue": "ICLR",
+      "year": 2026,
+      "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+      "snapshot": "assets/official-records/draft-official.html",
+      "snapshot_sha256": "2d0f6cb633ff9312bfc976d6179eda822879dcd653c52841956cf30ee23a7bd3"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://iclr.cc/virtual/2026/poster/10010314",
+      "label": "poster",
+      "checked_on": "2026-11-24",
+      "snapshot": "assets/official-records/draft-official.html"
+    }
+  },
+  {
+    "paper": "cluster",
+    "ccf_classification": {
+      "verified": true,
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+      "edition": "2026 final; released2026-03-31, revised2026-04-09",
+      "physical_pdf_page": 58,
+      "catalogue_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+      "snapshot": "assets/official-records/ccf-2026.pdf",
+      "visual_page_inspected": true,
+      "access_note": "Fresh binary fetch returned WAF HTML; reused verified same-edition cached PDF, visually rechecked classification pages today."
+    },
+    "acceptance": {
+      "verified": true,
+      "url": "https://aclanthology.org/2026.emnlp-main.342/",
+      "venue": "EMNLP",
+      "year": 2026,
+      "basis": "Formal main full/regular proceedings plus official conference program; not workshop, Findings, short or demo.",
+      "snapshot": "assets/official-records/cluster-official.html",
+      "snapshot_sha256": "00da0e1c087cdb6f3c8be46b3ad894742a38a7950ea3131984a1be0988cdd22c"
+    },
+    "presentation": {
+      "verified": true,
+      "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+      "label": "poster",
+      "checked_on": "2026-11-24",
+      "snapshot": "assets/official-records/emnlp-schedule.csv",
+      "program_url": "https://2026.emnlp.org/program/",
+      "matched_row": "assets/emnlp-schedule-evidence.json",
+      "paper_id": "941-MAIN",
+      "poster_number": "250",
+      "date": "2026-10-26",
+      "time": "11:00-12:30",
+      "session": "Session6 / Poster Session D",
+      "room": "Hall H"
+    }
+  }
+]

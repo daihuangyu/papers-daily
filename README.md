@@ -38,6 +38,9 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 | 2026-11-18 | OPSD / 教师进化、逐token选择与参考视图边缘化 | 5 | [Markdown](OPSD/2026-11-18/report.md) · [PDF](OPSD/2026-11-18/report.pdf) |
 | 2026-11-17 | OPSD / 监督选择、环境校准与异步加速 | 5 | [Markdown](OPSD/2026-11-17/report.md) · [PDF](OPSD/2026-11-17/report.pdf) |
 | 2026-11-16 | OPSD / 特权信息、token级 credit 与应用扩展 | 5 | [Markdown](OPSD/2026-11-16/report.md) · [PDF](OPSD/2026-11-16/report.pdf) |
+| 2026-11-24 | CCF_Papers / 安全偏好、预训练覆盖、半监督对齐与自适应计算预算 | 5 | [Markdown](CCF_Papers/2026-11-24/report.md) · [PDF](CCF_Papers/2026-11-24/report.pdf) |
+| 2026-11-23 | CCF_Papers / 推理数据配方、长写作RL、思考感知KV压缩与SFT转RL时机 | 5 | [Markdown](CCF_Papers/2026-11-23/report.md) · [PDF](CCF_Papers/2026-11-23/report.pdf) |
+| 2026-11-22 | CCF_Papers / 长上下文记忆、过度思考压缩、Agent异步预测、自进化课程与可靠拒答 | 5 | [Markdown](CCF_Papers/2026-11-22/report.md) · [PDF](CCF_Papers/2026-11-22/report.pdf) |
 | 2026-11-21 | CCF_Papers / 偏好错设、长上下文强化学习、熵保持、置信度校准与代码共识奖励 | 5 | [Markdown](CCF_Papers/2026-11-21/report.md) · [PDF](CCF_Papers/2026-11-21/report.pdf) |
 | 2026-11-20 | CCF_Papers / RL计算扩展、自适应采样、凸优化投机解码、正确推理与检索奖励训练 | 5 | [Markdown](CCF_Papers/2026-11-20/report.md) · [PDF](CCF_Papers/2026-11-20/report.pdf) |
 | 2026-11-19 | CCF_Papers / 提示词进化、无训练采样、可信域RL、连续语言流与SFT–RL动态混合 | 5 | [Markdown](CCF_Papers/2026-11-19/report.md) · [PDF](CCF_Papers/2026-11-19/report.pdf) |
@@ -171,6 +174,27 @@ VLM与OPSD按最近一个日历月筛选；CCF_Papers按当年录用年度筛选
 3. [Prior-as-Skill: Remember Outside and Read Inside with On-Policy Self-Distillation for Self-Evolving VLM Agents](https://arxiv.org/abs/2611.15766) · 2026-11-11 · [精读](OPSD/2026-11-16/report.md)
 4. [Bootstrapped On-Policy Distillation](https://arxiv.org/abs/2611.13680) · 2026-11-10 · [精读](OPSD/2026-11-16/report.md)
 5. [PhysOPSD: Code as Privilege for Physically Plausible Video Generation](https://arxiv.org/abs/2611.12411) · 2026-11-09 · [精读](OPSD/2026-11-16/report.md)
+### 2026-11-24 · 安全偏好、预训练覆盖、半监督对齐与自适应计算预算
+
+1. [SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety](https://arxiv.org/abs/2505.20065) · 2025-05-26 · [精读](CCF_Papers/2026-11-24/report.md)
+2. [The Coverage Principle: How Pre-Training Enables Post-Training](https://arxiv.org/abs/2510.15020) · 2025-10-16 · [精读](CCF_Papers/2026-11-24/report.md)
+3. [Semi-Supervised Preference Optimization with Limited Feedback](https://arxiv.org/abs/2511.00040) · 2025-10-28 · [精读](CCF_Papers/2026-11-24/report.md)
+4. [Learning To Draft: Adaptive Speculative Decoding with Reinforcement Learning](https://arxiv.org/abs/2603.01639) · 2026-03-02 · [精读](CCF_Papers/2026-11-24/report.md)
+5. [Clustering-Based Balanced Sampling and Allocation with Data Parallelism for High-Performance Fine-Tuning](https://arxiv.org/abs/2609.12584) · 2026-09-11 · [精读](CCF_Papers/2026-11-24/report.md)
+### 2026-11-23 · 推理数据配方、长写作RL、思考感知KV压缩与SFT转RL时机
+
+1. [OpenThoughts: Data Recipes for Reasoning Models](https://arxiv.org/abs/2506.04178) · 2025-06-04 · [精读](CCF_Papers/2026-11-23/report.md)
+2. [LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning](https://arxiv.org/abs/2506.18841) · 2025-06-23 · [精读](CCF_Papers/2026-11-23/report.md)
+3. [ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models](https://arxiv.org/abs/2510.01290) · 2025-10-01 · [精读](CCF_Papers/2026-11-23/report.md)
+4. [AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy](https://arxiv.org/abs/2506.13284) · 2025-06-16 · [精读](CCF_Papers/2026-11-23/report.md)
+5. [How Much Supervised Fine-Tuning Is Enough? Dissecting the Impact of SFT Extent on Downstream Reinforcement Learning Performance](https://aclanthology.org/2026.emnlp-main.128/) · 2026-10 · [精读](CCF_Papers/2026-11-23/report.md)
+### 2026-11-22 · 长上下文记忆、过度思考压缩、Agent异步预测、自进化课程与可靠拒答
+
+1. [MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent](https://arxiv.org/abs/2507.02259) · 2025-07-03 · [精读](CCF_Papers/2026-11-22/report.md)
+2. [Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling](https://arxiv.org/abs/2509.25827) · 2025-09-30 · [精读](CCF_Papers/2026-11-22/report.md)
+3. [Speculative Actions: A Lossless Framework for Faster AI Agents](https://arxiv.org/abs/2510.04371) · 2025-10-05 · [精读](CCF_Papers/2026-11-22/report.md)
+4. [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) · 2025-08-07 · [精读](CCF_Papers/2026-11-22/report.md)
+5. [Teaching LLMs to Abstain via Fine-Grained Semantic Confidence Reward](https://arxiv.org/abs/2510.24020) · 2025-10-28 · [精读](CCF_Papers/2026-11-22/report.md)
 ### 2026-11-21 · 偏好错设、长上下文强化学习、熵保持、置信度校准与代码共识奖励
 
 1. [Why DPO is a Misspecified Estimator and How to Fix It](https://arxiv.org/abs/2510.20413) · 2025-10-23 · [精读](CCF_Papers/2026-11-21/report.md)

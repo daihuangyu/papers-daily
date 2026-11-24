@@ -1,0 +1,244 @@
+[
+  {
+    "paper": "safe",
+    "repository_or_official_archive": null,
+    "commit": null,
+    "availability": "official_implementation_not_found",
+    "archive_sha256": null,
+    "files": [],
+    "experiments_executed": false,
+    "notes": [
+      "No author implementation found in formal PDF/proceedings/first-author site and linked GitHub in this bounded search; no claim that none exists anywhere.",
+      "Formal algorithm and all appendices read; no executable implementation audited."
+    ]
+  },
+  {
+    "paper": "coverage",
+    "repository_or_official_archive": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Supplemental-Conference.zip",
+    "commit": null,
+    "availability": "official_supplement_implementation_available_with_config_differences",
+    "archive_sha256": "cd87e4f67ba1dde2c1a657bea4264507379fc5949ef48dbe6e8aa7d945d1cced",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "cc937609f73d32bc03bf692520d67cf678f07d034f61252a8f32bd14f2f1befd",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/train_star.py",
+        "sha256": "bb27d72689179a7b4e52a0a27f2aa4ca0fd0259cf2c07f8786fe02843c491b79",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/models.py",
+        "sha256": "3cc2dc1e68899b41f9d47e9e15816ffd158645bb2f6182348f94161b13fb9e9f",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/callbacks/metrics.py",
+        "sha256": "244fd0c84a77be68cb8e1feff0f43e5deab2dd22442ad119c32d31d19f427ba1",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/graphs/combo_graph.py",
+        "sha256": "14e0cd7d9972d17978a7d7622e000a02b77ac529149ff2ea13f77d2b044ebb3d",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/data/graph_dataset.py",
+        "sha256": "191b5ae077af89db9489900edb64a0b50133acf589b7e0829f59f552a3c6532e",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "figures/fig1.ipynb",
+        "sha256": "67fac87629f8868421f6395fe9500f6ebf326747b098c509179d012cc479fb63",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "figures/fig2.ipynb",
+        "sha256": "163a10f3bf6c7038e82e50a0c9900528a36892d638c385b1f512ee3d37a5bb30",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "configs/train.yaml",
+        "sha256": "402eba4db76c951c707454f5c7a6ccc4f21e298d7c7e6dc74bebb6c1dc830ad5",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "configs/dataset/pretrain.yaml",
+        "sha256": "06c16718d980e852d4cfae12a233154c4ac17cdce2fa2080d2510fd95136f92c",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "configs/dataset/horizon.yaml",
+        "sha256": "d699d49cf541620b4a5578b60444a477d9034d34d18f353f0a9f81b187bb4dc7",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "configs/dataset/finetune.yaml",
+        "sha256": "4ced989939719b944e040399426453cfb0bc82b2fdcf0f33b084c17d28a967b3",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "configs/training/online.yaml",
+        "sha256": "fd69f340b7ee5279b2cc591a2d9356333e7176568a27d24d78c7fd56321e3b75",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "configs/training/offline.yaml",
+        "sha256": "f2af5cad18ae4b01f90df1a17bd6417ba1449582d6b67ed6e331ad39fdff2f55",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      }
+    ],
+    "experiments_executed": false,
+    "notes": [
+      "Official supplemental ZIP, not a Git repository; archive SHA-256 is fixed version.",
+      "Defaults4layers6heads versus paper best6layers4heads; actual optimizerAdamW; README fig2 50ksteps versus paper40k.",
+      "Example finetune command needs explicit checkpoint loading; notebook quantile conventions differ."
+    ]
+  },
+  {
+    "paper": "sspo",
+    "repository_or_official_archive": "https://github.com/MLAI-Yonsei/SSPO",
+    "commit": "2df9e9a1d5fb9202a583cb66eb081e0cb60e873d",
+    "availability": "implementation_available_final_paper_threshold_mismatch",
+    "archive_sha256": "37ccacd570aee1934d2f6cbea2feaf4df2eddace037136b2631e6e2a0a7a5214",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "f04c641de4a0c14a3ae98b32f2937065f98947371bb090ae4e9025302ca207d9",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src_sspo/llamafactory/train/dpo/trainer.py",
+        "sha256": "39cf15298068d91bc3f6fce076d03797e92dc0ce15541573c1ada8eaf91c640e",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "examples/train/make_yaml.py",
+        "sha256": "23bbd8b397b39901f8d27f9537437f334bee7956bd77250798b6f029609a1368",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "preprocessing_data/preprocessing_ultrachat.py",
+        "sha256": "f128b1a38aa4bc3de745736931bf3a33d432dcade9725c1f0d5f310dbfb78ddc",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      }
+    ],
+    "experiments_executed": false,
+    "notes": [
+      "Current source threshold is minimum normalized chosen reward (fallback unlabeled mean), not final-paper KDE risk minimization.",
+      "Sequential shared EMA statistics and clamp±5; threshold not explicitly detached.",
+      "Mistral10% example2epochs versus paper1epoch."
+    ]
+  },
+  {
+    "paper": "draft",
+    "repository_or_official_archive": "https://github.com/zhzihao/Learning-to-Draft",
+    "commit": "c061196216a7b77918ff0033e5f3bef5fba76852",
+    "availability": "implementation_available_missing_imported_variants_and_configuration_mismatches",
+    "archive_sha256": "d9226c48c8b7d2b6049cb84ac6974ee01a4180145a256c219ba37fceafcc02a8",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "76a11b381729d90d9afe53222254ef79015164fa536ecabd75c86bf8ceec67ae",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "train_depth.sh",
+        "sha256": "c6485fa61c438e94982bd9083dad048537e27905ebe4adf9eb56a46a1a41a452",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "train_size.sh",
+        "sha256": "b9163d47ad7915ef0c40e8829b5d0967a37ee9e039b5fad51a071fe4b0540b5e",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "eval.sh",
+        "sha256": "dbcb5a1358d254ad98b7fb1443676e7e7a25544785e12be511501f4c11f6e141",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "rl/rl_depth.py",
+        "sha256": "7a9a130fb0dd1185651c80223e3f72c778979b8efebe3e7a0d4dd663ebbf3da1",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "rl/rl_total.py",
+        "sha256": "aeeb830591e9f6030513d143ded4828b18dc45b6a874601080b6bd59af2d50a2",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "eagle/model/ea_model.py",
+        "sha256": "614967be9ec431fa5af3fd1e70cd4dfd538805f7ab5f4640cb176c2fbef967ea",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "eagle/model/utils.py",
+        "sha256": "194d1cca39a56eba98666a279eee1c7635053879fcc348fe857a93e1a274dac1",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "eagle/model/cnets.py",
+        "sha256": "f4b922588c39e70560c7163fa6b5959dd7ed683c69d7a4379c74c1f339e705ea",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "eagle/evaluation/gen_ea_answer_llama3chat.py",
+        "sha256": "207db1279b1d15e2827de37de0f7d2da6211adc0d3f2e647fe49a6a871506dac",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      }
+    ],
+    "experiments_executed": false,
+    "notes": [
+      "EAGLE model/evaluation/data directories are present. Unconditionally imported cnets_ddd/c2t/svip/disco/gamma/spec_plus files missing; Qwen3 import commented but name referenced.",
+      "train_size.sh passes undefined --rl_token_model_path to rl_total parser.",
+      "24actions10..240 rather than paper12actions20..240; random depth overwritten12; depth policy checked each3rounds.",
+      "RL defaults differ from paper. RL reward timer and synchronized warmed evaluation timer must be distinguished.",
+      "Llama3 evaluation subtracts pre_len_time containing size-controller prediction time; report full end-to-end timing too.",
+      "Stochastic posterior verification is implemented; example uses temperature0; no runtime correctness claim."
+    ]
+  },
+  {
+    "paper": "cluster",
+    "repository_or_official_archive": "https://github.com/kaist-dmlab/CluSTER",
+    "commit": "59c9f1e312eec9e8b179f85c398506c8492fb7d8",
+    "availability": "implementation_available_static_review_only",
+    "archive_sha256": "ded32d4c0bac51bd3f09f5d2852f2aaa6d3c489533b004684c9ede190f4386b9",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "2ee3370c0037a16c1e40ce5b90f67fd7bb4f472ade0430e971601f80c894343f",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/CluSTER/custom_sampler.py",
+        "sha256": "45113b960ebc6cc15e9495418df2461fcacf2af2a18baa22daa11d12ba51055d",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/CluSTER/train_grad.py",
+        "sha256": "90003b63b558a6f0860b231117f7851b7f23dbf778e2e2f77eadfe0e3fbdea7c",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/CluSTER/call_back.py",
+        "sha256": "2eff9d45f896d5c5c85c3fd988051bc72c6d31b76b91ae0f677a984a3fe82f7f",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      },
+      {
+        "path": "src/CluSTER/coreset_trainer.py",
+        "sha256": "78ac58dbc95673ee4f6a8e072f6936e4803d255241e00286a2ec5fbb549abbc1",
+        "scope": "Relevant methods/configuration/call paths read statically; not exhaustive whole-repository audit."
+      }
+    ],
+    "experiments_executed": false,
+    "notes": [
+      "Read proxy construction, one-time preprocessing, peripheral pruning, weights and distributed trainer entry points.",
+      "prune=close removes near-center samples; actual rank weights proportional to original cluster size.",
+      "Weights restore cluster proportions but cannot guarantee absence of within-cluster peripheral-selection bias.",
+      "README/formal maximum-time saving and main/appendix batch/hardware differ; retain formal per-experiment conditions."
+    ]
+  }
+]

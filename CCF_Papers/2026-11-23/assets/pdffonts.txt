@@ -1,0 +1,8 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+Helvetica                            Type 1            WinAnsi          no  no  no       2  0
+AAAAAA+STSongti-TC-Bold              TrueType          WinAnsi          yes yes yes    273  0
+AAAAAB+STSongti-TC-Bold              TrueType          WinAnsi          yes yes yes    277  0
+AAAAAC+STSongti-TC-Bold              TrueType          WinAnsi          yes yes yes    281  0
+AAAAAD+STSongti-TC-Bold              TrueType          WinAnsi          yes yes yes    285  0
+Times-Roman                          Type 1            WinAnsi          no  no  no      15  0

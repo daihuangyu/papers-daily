@@ -1,0 +1,313 @@
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>OpenThoughts: Data Recipes for Reasoning Models</title>
+    <!-- Bootstrap CSS -->
+    <!-- https://codepen.io/surjithctly/pen/PJqKzQ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Custom CSS (after Bootstrap so it can override) -->
+    <link rel="stylesheet" href="/static/papers/css/papers.css">
+    <link rel="stylesheet" href="/static/papers/css/modern-theme.css?v=12">
+
+    
+
+    <meta name="citation_title" content="OpenThoughts: Data Recipes for Reasoning Models">
+    
+        <meta name="citation_author" content="Guha, Etash">
+    
+        <meta name="citation_author" content="Marten, Ryan">
+    
+        <meta name="citation_author" content="Keh, Sedrick">
+    
+        <meta name="citation_author" content="Raoof, Negin">
+    
+        <meta name="citation_author" content="Smyrnis, Georgios">
+    
+        <meta name="citation_author" content="Bansal, Hritik">
+    
+        <meta name="citation_author" content="Nezhurina, Marianna">
+    
+        <meta name="citation_author" content="Mercat, Jean">
+    
+        <meta name="citation_author" content="Vu, Trung">
+    
+        <meta name="citation_author" content="Sprague, Zayne">
+    
+        <meta name="citation_author" content="Suvarna, Ashima">
+    
+        <meta name="citation_author" content="Feuer, Benjamin">
+    
+        <meta name="citation_author" content="Chen, Leon Liangyu">
+    
+        <meta name="citation_author" content="Khan, Zaid">
+    
+        <meta name="citation_author" content="Frankel, Eric">
+    
+        <meta name="citation_author" content="Grover, Sachin">
+    
+        <meta name="citation_author" content="Choi, Caroline">
+    
+        <meta name="citation_author" content="Muennighoff, Niklas">
+    
+        <meta name="citation_author" content="Su, Shiye">
+    
+        <meta name="citation_author" content="Zhao, Wanjia">
+    
+        <meta name="citation_author" content="Yang, John">
+    
+        <meta name="citation_author" content="Pimpalgaonkar, Shreyas">
+    
+        <meta name="citation_author" content="sharma, Kartik">
+    
+        <meta name="citation_author" content="Ji, Charlie">
+    
+        <meta name="citation_author" content="Deng, Yichuan">
+    
+        <meta name="citation_author" content="Pratt, Sarah">
+    
+        <meta name="citation_author" content="Ramanujan, Vivek">
+    
+        <meta name="citation_author" content="Saad-Falcon, Jon">
+    
+        <meta name="citation_author" content="Acharya, Stutee">
+    
+        <meta name="citation_author" content="Li, Jeffrey">
+    
+        <meta name="citation_author" content="Dave, Achal">
+    
+        <meta name="citation_author" content="Albalak, Alon">
+    
+        <meta name="citation_author" content="Arora, Kushal">
+    
+        <meta name="citation_author" content="Wulfe, Blake">
+    
+        <meta name="citation_author" content="Hegde, Chinmay">
+    
+        <meta name="citation_author" content="Durrett, Greg">
+    
+        <meta name="citation_author" content="Oh, Sewoong">
+    
+        <meta name="citation_author" content="Bansal, Mohit">
+    
+        <meta name="citation_author" content="Gabriel, Saadia">
+    
+        <meta name="citation_author" content="Grover, Aditya">
+    
+        <meta name="citation_author" content="Chang, Kai-Wei">
+    
+        <meta name="citation_author" content="Shankar, Vaishaal">
+    
+        <meta name="citation_author" content="Gokaslan, Aaron">
+    
+        <meta name="citation_author" content="Merrill, Mike">
+    
+        <meta name="citation_author" content="Hashimoto, Tatsunori">
+    
+        <meta name="citation_author" content="Choi, Yejin">
+    
+        <meta name="citation_author" content="Jitsev, Jenia">
+    
+        <meta name="citation_author" content="Heckel, Reinhard">
+    
+        <meta name="citation_author" content="Sathiamoorthy, Maheswaran">
+    
+        <meta name="citation_author" content="Dimakis, Alex">
+    
+        <meta name="citation_author" content="Schmidt, Ludwig">
+    
+    <meta name="citation_journal_title" content="International Conference on Learning Representations">
+    <meta name="citation_volume" content="2026">
+    
+    
+        <meta name="citation_firstpage" content="108059">
+        <meta name="citation_lastpage" content="108130">
+    
+    
+    <meta name="citation_pdf_url" content="https://proceedings.iclr.cc/paper_files/paper/2026/file/b010241b9f1cdfc7d4c392db899cef86-Paper-Conference.pdf">
+    <meta name="citation_publication_date" content="2026-04-20">
+
+
+
+
+
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+      "tex2jax": {
+        "inlineMath": [["$","$"], ["\\(","\\)"]],
+        "displayMath": [["\\[","\\]"]],
+        "processEscapes": true
+      }
+    }
+    );
+
+    </script>
+
+    <style>
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333;
+                color: #eee;
+            }
+        }
+
+        .btn-spacer {
+            margin: 2px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #eee;
+            color: black;
+        }
+
+
+    </style>
+
+</head>
+
+
+<body class="modern-theme">
+
+
+<nav class="navbar navbar-expand-md bg-body-tertiary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">ICLR Proceedings</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                <a class="nav-link" href="/admin/login/?next=/admin/"><i class="fas fa-sign-in-alt" title="Login"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin/logout/?nextp=/admin"><i class="fas fa-sign-out-alt" title="Logout"></i></a>
+            </li>
+
+            </ul>
+            <form class="d-flex" role="search" method="get" role="search" action="/papers/search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div class="container-fluid">
+    <div class="col p-3 paper-detail">
+
+    
+        <header class="paper-header">
+            <h1 class="paper-title">OpenThoughts: Data Recipes for Reasoning Models</h1>
+            <p class="paper-authors">Etash Guha, Ryan Marten, Sedrick Keh, Negin Raoof, Georgios Smyrnis, Hritik Bansal, Marianna Nezhurina, Jean Mercat, Trung Vu, Zayne Sprague, Ashima Suvarna, Benjamin Feuer, Leon Liangyu Chen, Zaid Khan, Eric Frankel, Sachin Grover, Caroline Choi, Niklas Muennighoff, Shiye Su, Wanjia Zhao, John Yang, Shreyas Pimpalgaonkar, Kartik sharma, Charlie Ji, Yichuan Deng, Sarah Pratt, Vivek Ramanujan, Jon Saad-Falcon, Stutee Acharya, Jeffrey Li, Achal Dave, Alon Albalak, Kushal Arora, Blake Wulfe, Chinmay Hegde, Greg Durrett, Sewoong Oh, Mohit Bansal, Saadia Gabriel, Aditya Grover, Kai-Wei Chang, Vaishaal Shankar, Aaron Gokaslan, Mike Merrill, Tatsunori Hashimoto, Yejin Choi, Jenia Jitsev, Reinhard Heckel, Maheswaran Sathiamoorthy, Alex Dimakis, Ludwig Schmidt</p>
+            <p class="paper-meta">
+                <a href="/paper_files/paper/2026">International Conference on Learning Representations 2026  (ICLR 2026)</a>
+                <span class="paper-track">Conference</span>
+            </p>
+        </header>
+
+        <div class="paper-actions"><a href="/paper_files/paper/11150-/bibtex" class="btn btn-light btn-spacer">Bibtex</a> <a class='btn btn-primary btn-spacer' href='/paper_files/paper/2026/file/b010241b9f1cdfc7d4c392db899cef86-Paper-Conference.pdf'>Paper</a> <a class='btn btn-light btn-spacer' href='/paper_files/paper/2026/file/b010241b9f1cdfc7d4c392db899cef86-Supplemental-Conference.zip'>Supplemental</a></div>
+
+        
+
+        <section class="paper-section">
+            <h2 class="section-label">Abstract</h2>
+            <p class="paper-abstract"><p>Reasoning models have made rapid progress on many benchmarks involving math, code, and science. Yet, there are still many open questions about the best train- ing recipes for reasoning since state-of-the-art models often rely on proprietary datasets with little to no public information available. To address this, the goal of the OpenThoughts project is to create open-source datasets for training reasoning models. Our OpenThoughts2-1M dataset led to OpenThinker2-32B, the first model trained on public reasoning data to match DeepSeek-R1-Distill-32B on standard reasoning benchmarks such as AIME and LiveCodeBench. We then improve our dataset further by systematically investigating each step of our data genera- tion pipeline with 1,000+ controlled experiments, which led to OpenThoughts3. Scaling the pipeline to 1.2M examples and using QwQ-32B as teacher yields our OpenThinker3-7B model, which achieves state-of-the-art results: 53% on AIME 2025, 51% on LiveCodeBench 06/24-01/25, and 54% on GPQA Dia- mond – improvements of 15.3, 17.2, and 20.5 percentage points compared to the DeepSeek-R1-Distill-Qwen-7B. All of our datasets and models are available on openthoughts.ai.</p>
+</p>
+        </section>
+
+        
+
+    
+
+    </div>
+</div>
+
+
+<script   src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="   crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script>
+    $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+        if (!$(this).next().hasClass('show')) {
+            $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+        }
+        var $subMenu = $(this).next(".dropdown-menu");
+        $subMenu.toggleClass('show');
+
+
+        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+            $('.dropdown-submenu .show').removeClass("show");
+        });
+
+
+        return false;
+    });
+</script>
+
+
+
+
+<br> 
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Name Change Policy</h4>
+                <button type="button pull-right" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p>Requests for name changes in the electronic proceedings will be accepted with no questions asked.  However name changes may cause bibliographic tracking issues.  Authors are asked to consider this carefully and discuss it with their co-authors prior to requesting a name change in the electronic proceedings.</p>
+
+<p>Use the "Report an Issue" link to request a name change.</p>
+
+              </div> 
+              <div class="modal-footer">
+
+
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+
+<footer class="footer">
+    <div class="btn-spacer">
+        <a href="https://iclr.cc/Help/Contact?select=Conference">Report an Issue</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;        <a href="#" class="modal-link" data-toggle="modal" data-target="#myModal">Name Change Policy</a>
+    </div>
+
+</footer>
+<div class='hidden'>Do not remove: This comment is monitored to verify that the site is working properly</div>
+<!-- Do not remove: This comment is monitored to verify that the site is working properly -->
+
+</body>
+</html>

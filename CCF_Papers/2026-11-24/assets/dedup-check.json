@@ -1,0 +1,186 @@
+{
+  "checked_on": "2026-11-24",
+  "published_sources": 110,
+  "published_manifests": 22,
+  "additional_pending_sources": 10,
+  "total_prior_sources": 120,
+  "pending_dates": [
+    "2026-11-22",
+    "2026-11-23"
+  ],
+  "pending_commits": [
+    "f743c5c10a158f3d913c874119afb9034d9a78f3",
+    "abaae54fb9f06cd10954596d93f1332fdf8b92ab"
+  ],
+  "manifest_paths_and_hashes": [
+    {
+      "path": "OPSD/2026-11-17/manifest.json",
+      "sha256": "5f1d4aad2d3206ec467ce2e8a1a8e193dc18d67e233b1eef84e4b6814bea6ceb"
+    },
+    {
+      "path": "OPSD/2026-11-21/manifest.json",
+      "sha256": "a13ceb9d610c9147f6a643bbfaecf6b832fa6e6c6782ffcaeecbc1752adc70cf"
+    },
+    {
+      "path": "OPSD/2026-11-19/manifest.json",
+      "sha256": "e0ea5730d7eb6a3b7b2106e8f8cd1a07b5ac60b2e5e91d3781c8a2ec1e44ef64"
+    },
+    {
+      "path": "OPSD/2026-11-18/manifest.json",
+      "sha256": "a20431cbe402acc04c0d3153f90286e31cb79b67fd6d078002b0b187bb3c25df"
+    },
+    {
+      "path": "OPSD/2026-11-20/manifest.json",
+      "sha256": "e457390eb34e3844c242ac69605a8239cef99781f620e2ae65989508010b1504"
+    },
+    {
+      "path": "OPSD/2026-11-16/manifest.json",
+      "sha256": "16aeb54365296ced086a569c97bb3cc047e1d92f8860ab4877d7749a0a9bcd2c"
+    },
+    {
+      "path": "OPSD/2026-11-22/manifest.json",
+      "sha256": "463cabe884b7c2f165f6c54840dc6fb40786b4fa37e2d91cd94fb16397ae8749"
+    },
+    {
+      "path": "OPSD/2026-11-23/manifest.json",
+      "sha256": "4b6b7d040f6805b6f1b047f71f46ada95354e4613cbe29300c969e68346bf972"
+    },
+    {
+      "path": "OPSD/2026-11-24/manifest.json",
+      "sha256": "a26b74bfd77a3b1b87cd3afac32da94fd35ac211426cc156a720cee371208f36"
+    },
+    {
+      "path": "CCF_Papers/2026-11-21/manifest.json",
+      "sha256": "1a767edaefec767d08952e555b6363e5ddc0efa4048df61512ac436568cb1daa"
+    },
+    {
+      "path": "CCF_Papers/2026-11-19/manifest.json",
+      "sha256": "065dacbc3b8eb1dcf50605da6b40ca9eee0a21b73ab599412234d404ee1c88d2"
+    },
+    {
+      "path": "CCF_Papers/2026-11-18/manifest.json",
+      "sha256": "d005666148cdf872bd949a8f9cea31af5eed6344c46987008d1c28945b837b8f"
+    },
+    {
+      "path": "CCF_Papers/2026-11-20/manifest.json",
+      "sha256": "43915302794eb5a8711d3bcf39d78b6ea2ecc585ad26fd339774ca04b54b1231"
+    },
+    {
+      "path": "VLM/2026-11-17/manifest.json",
+      "sha256": "1d3e7aa12484defcc23ece9cebb7a2ff3bc1c02e4714208b079daf191dc7ea9b"
+    },
+    {
+      "path": "VLM/2026-11-21/manifest.json",
+      "sha256": "5638e39db19d347adc2cc5caf2668fe591ce82415ab4b4b05a3cf6cf59b51ec6"
+    },
+    {
+      "path": "VLM/2026-11-19/manifest.json",
+      "sha256": "3100d83434dabdb0667ddf6873bf8452f562aba1a2d510273f7a2c0f42e772ac"
+    },
+    {
+      "path": "VLM/2026-11-18/manifest.json",
+      "sha256": "522f953f655a7be42a70beeb5782ee38857cbbe50f085318f031694461ee95ac"
+    },
+    {
+      "path": "VLM/2026-11-20/manifest.json",
+      "sha256": "e674775b7eb2797f6751cd605cc1bf6193e61b512a7e548c65ffa4e41364faed"
+    },
+    {
+      "path": "VLM/2026-11-16/manifest.json",
+      "sha256": "86793e4f9e90ddf637558b3c6579324bfb440a8c1f81255d30792d9500688eb2"
+    },
+    {
+      "path": "VLM/2026-11-22/manifest.json",
+      "sha256": "5da416e433c8b688d775ef8c1cca98c38b7e25fe7e101f555b61a4346d995de0"
+    },
+    {
+      "path": "VLM/2026-11-23/manifest.json",
+      "sha256": "91a2b0a2b9ded9786ccc6955dfcd733d612542c95c48e1b70645797fbd4f7e3c"
+    },
+    {
+      "path": "VLM/2026-11-24/manifest.json",
+      "sha256": "d65d563cdb734d3ba16f99b9b789c98cd7f055461b6725acf6ded071a153b8b3"
+    }
+  ],
+  "sources_json_sha256": "84b68506bc9b065c01caf9ab4bea0a55e5bb3b7f4f98d096510a0cbd266580bb",
+  "normalization": "arXiv versions removed; DOI; canonical URL; Unicode NFKC/case/punctuation normalized title and explicit title aliases.",
+  "manual_identity_review": "CluSTER formal DOI and newly found2609.12584 are one paper. All five title/author/venue identities checked; prior first-test Finetuning with Sampling excluded.",
+  "selected": [
+    {
+      "id": "arxiv:2505.20065",
+      "aliases": [
+        "arxiv:2505.20065",
+        "doi:10.48550/arxiv.2505.20065",
+        "id:arxiv:2505.20065",
+        "title:safedpoasimpleapproachtodirectpreferenceoptimizationwithenhancedsafety",
+        "url:https://arxiv.org/abs/2505.20065",
+        "url:https://doi.org/10.48550/arxiv.2505.20065",
+        "url:https://iclr.cc/virtual/2026/oral/10009693",
+        "url:https://openreview.net/forum?id=PJdw4VBsXD",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/447494b03345309e0ce196c78c7e5c83-Paper-Conference.pdf"
+      ],
+      "history_conflicts": {}
+    },
+    {
+      "id": "arxiv:2510.15020",
+      "aliases": [
+        "arxiv:2510.15020",
+        "doi:10.48550/arxiv.2510.15020",
+        "id:arxiv:2510.15020",
+        "title:thecoverageprinciplehowpretrainingenablesposttraining",
+        "url:https://arxiv.org/abs/2510.15020",
+        "url:https://doi.org/10.48550/arxiv.2510.15020",
+        "url:https://iclr.cc/virtual/2026/oral/10011030",
+        "url:https://openreview.net/forum?id=AUXvYQlQLZ",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/b6494b9e8d16b789526c7a69ad807870-Paper-Conference.pdf"
+      ],
+      "history_conflicts": {}
+    },
+    {
+      "id": "arxiv:2511.00040",
+      "aliases": [
+        "arxiv:2511.00040",
+        "doi:10.48550/arxiv.2511.00040",
+        "id:arxiv:2511.00040",
+        "title:semisupervisedpreferenceoptimizationwithlimitedfeedback",
+        "url:https://arxiv.org/abs/2511.00040",
+        "url:https://doi.org/10.48550/arxiv.2511.00040",
+        "url:https://iclr.cc/virtual/2026/oral/10008127",
+        "url:https://openreview.net/forum?id=ghwxbTx7do",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/543ec10715d964122ab7cb15f648772b-Paper-Conference.pdf"
+      ],
+      "history_conflicts": {}
+    },
+    {
+      "id": "arxiv:2603.01639",
+      "aliases": [
+        "arxiv:2603.01639",
+        "doi:10.48550/arxiv.2603.01639",
+        "id:arxiv:2603.01639",
+        "title:learningtodraftadaptivespeculativedecodingwithreinforcementlearning",
+        "url:https://arxiv.org/abs/2603.01639",
+        "url:https://doi.org/10.48550/arxiv.2603.01639",
+        "url:https://iclr.cc/virtual/2026/poster/10010314",
+        "url:https://openreview.net/forum?id=IK9cbzzXLt",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/34345e243156da67605d4b63d71c8d98-Paper-Conference.pdf"
+      ],
+      "history_conflicts": {}
+    },
+    {
+      "id": "arxiv:2609.12584",
+      "aliases": [
+        "arxiv:2609.12584",
+        "doi:10.18653/2026.emnlp-main.342",
+        "doi:10.48550/arxiv.2609.12584",
+        "id:arxiv:2609.12584",
+        "title:clusteringbasedbalancedsamplingandallocationwithdataparallelismforhighperformancefinetuning",
+        "url:https://aclanthology.org/2026.emnlp-main.342",
+        "url:https://aclanthology.org/2026.emnlp-main.342.pdf",
+        "url:https://arxiv.org/abs/2609.12584",
+        "url:https://doi.org/10.18653/2026.emnlp-main.342",
+        "url:https://doi.org/10.48550/arxiv.2609.12584"
+      ],
+      "history_conflicts": {}
+    }
+  ]
+}

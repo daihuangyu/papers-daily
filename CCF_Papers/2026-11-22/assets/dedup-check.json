@@ -1,0 +1,166 @@
+{
+  "checked_on": "2026-11-22",
+  "history_sources": 90,
+  "history_manifest_source_records": 90,
+  "history_manifests": 18,
+  "initial_scan": {
+    "indexed_sources": 90,
+    "manifests": 18
+  },
+  "manifest_paths_and_hashes": [
+    {
+      "path": "CCF_Papers/2026-11-18/manifest.json",
+      "sha256": "d005666148cdf872bd949a8f9cea31af5eed6344c46987008d1c28945b837b8f"
+    },
+    {
+      "path": "CCF_Papers/2026-11-19/manifest.json",
+      "sha256": "065dacbc3b8eb1dcf50605da6b40ca9eee0a21b73ab599412234d404ee1c88d2"
+    },
+    {
+      "path": "CCF_Papers/2026-11-20/manifest.json",
+      "sha256": "43915302794eb5a8711d3bcf39d78b6ea2ecc585ad26fd339774ca04b54b1231"
+    },
+    {
+      "path": "CCF_Papers/2026-11-21/manifest.json",
+      "sha256": "1a767edaefec767d08952e555b6363e5ddc0efa4048df61512ac436568cb1daa"
+    },
+    {
+      "path": "OPSD/2026-11-16/manifest.json",
+      "sha256": "16aeb54365296ced086a569c97bb3cc047e1d92f8860ab4877d7749a0a9bcd2c"
+    },
+    {
+      "path": "OPSD/2026-11-17/manifest.json",
+      "sha256": "5f1d4aad2d3206ec467ce2e8a1a8e193dc18d67e233b1eef84e4b6814bea6ceb"
+    },
+    {
+      "path": "OPSD/2026-11-18/manifest.json",
+      "sha256": "a20431cbe402acc04c0d3153f90286e31cb79b67fd6d078002b0b187bb3c25df"
+    },
+    {
+      "path": "OPSD/2026-11-19/manifest.json",
+      "sha256": "e0ea5730d7eb6a3b7b2106e8f8cd1a07b5ac60b2e5e91d3781c8a2ec1e44ef64"
+    },
+    {
+      "path": "OPSD/2026-11-20/manifest.json",
+      "sha256": "e457390eb34e3844c242ac69605a8239cef99781f620e2ae65989508010b1504"
+    },
+    {
+      "path": "OPSD/2026-11-21/manifest.json",
+      "sha256": "a13ceb9d610c9147f6a643bbfaecf6b832fa6e6c6782ffcaeecbc1752adc70cf"
+    },
+    {
+      "path": "OPSD/2026-11-22/manifest.json",
+      "sha256": "463cabe884b7c2f165f6c54840dc6fb40786b4fa37e2d91cd94fb16397ae8749"
+    },
+    {
+      "path": "VLM/2026-11-16/manifest.json",
+      "sha256": "86793e4f9e90ddf637558b3c6579324bfb440a8c1f81255d30792d9500688eb2"
+    },
+    {
+      "path": "VLM/2026-11-17/manifest.json",
+      "sha256": "1d3e7aa12484defcc23ece9cebb7a2ff3bc1c02e4714208b079daf191dc7ea9b"
+    },
+    {
+      "path": "VLM/2026-11-18/manifest.json",
+      "sha256": "522f953f655a7be42a70beeb5782ee38857cbbe50f085318f031694461ee95ac"
+    },
+    {
+      "path": "VLM/2026-11-19/manifest.json",
+      "sha256": "3100d83434dabdb0667ddf6873bf8452f562aba1a2d510273f7a2c0f42e772ac"
+    },
+    {
+      "path": "VLM/2026-11-20/manifest.json",
+      "sha256": "e674775b7eb2797f6751cd605cc1bf6193e61b512a7e548c65ffa4e41364faed"
+    },
+    {
+      "path": "VLM/2026-11-21/manifest.json",
+      "sha256": "5638e39db19d347adc2cc5caf2668fe591ce82415ab4b4b05a3cf6cf59b51ec6"
+    },
+    {
+      "path": "VLM/2026-11-22/manifest.json",
+      "sha256": "5da416e433c8b688d775ef8c1cca98c38b7e25fe7e101f555b61a4346d995de0"
+    }
+  ],
+  "sources_json_sha256": "3f803ca4139e7b64fd013e3121dd68c62b899bfee390db8243a83d7809fad601",
+  "normalization": "arXiv version stripping; DOI; canonical URL; Unicode NFKC/case/punctuation title and explicit aliases.",
+  "manual_identity_review": "Speculative Actions title variants merged; distinct MemAgent2609.32521 excluded from identity. All five preprint/conference identities manually checked. Prior FWS excluded.",
+  "selected": [
+    {
+      "id": "arxiv:2507.02259",
+      "aliases": [
+        "arxiv:2507.02259",
+        "doi:10.48550/arxiv.2507.02259",
+        "id:arxiv:2507.02259",
+        "title:memagentreshapinglongcontextllmwithmulticonvrlbasedmemoryagent",
+        "url:https://arxiv.org/abs/2507.02259",
+        "url:https://doi.org/10.48550/arxiv.2507.02259",
+        "url:https://iclr.cc/virtual/2026/oral/10007826",
+        "url:https://openreview.net/forum?id=k5nIOvYGCL",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/4264ee4376776907c0b87ed70b959585-Paper-Conference.pdf"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2509.25827",
+      "aliases": [
+        "arxiv:2509.25827",
+        "doi:10.48550/arxiv.2509.25827",
+        "id:arxiv:2509.25827",
+        "title:overthinkingreductionwithdecoupledrewardsandcurriculumdatascheduling",
+        "url:https://arxiv.org/abs/2509.25827",
+        "url:https://doi.org/10.48550/arxiv.2509.25827",
+        "url:https://iclr.cc/virtual/2026/oral/10007766",
+        "url:https://openreview.net/forum?id=kdeiRledV6",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/bb0fea29f7aa6ede17e906ac6a225f34-Paper-Conference.pdf"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2510.04371",
+      "aliases": [
+        "arxiv:2510.04371",
+        "doi:10.48550/arxiv.2510.04371",
+        "id:arxiv:2510.04371",
+        "title:speculativeactionsalosslessframeworkforfasteragenticsystems",
+        "title:speculativeactionsalosslessframeworkforfasteraiagents",
+        "url:https://arxiv.org/abs/2510.04371",
+        "url:https://doi.org/10.48550/arxiv.2510.04371",
+        "url:https://iclr.cc/virtual/2026/oral/10009727",
+        "url:https://openreview.net/forum?id=P0GOk5wslg",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/fb279d7a134ad6fead7953ac7fd77fc4-Paper-Conference.pdf"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2508.05004",
+      "aliases": [
+        "arxiv:2508.05004",
+        "doi:10.48550/arxiv.2508.05004",
+        "id:arxiv:2508.05004",
+        "title:rzeroselfevolvingreasoningllmfromzerodata",
+        "url:https://arxiv.org/abs/2508.05004",
+        "url:https://doi.org/10.48550/arxiv.2508.05004",
+        "url:https://iclr.cc/virtual/2026/poster/10011147",
+        "url:https://openreview.net/forum?id=96apU6YzSO",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/d49b9aacebda61051166335af6fd3061-Paper-Conference.pdf"
+      ],
+      "conflicts": {}
+    },
+    {
+      "id": "arxiv:2510.24020",
+      "aliases": [
+        "arxiv:2510.24020",
+        "doi:10.18653/2026.emnlp-main.243",
+        "doi:10.48550/arxiv.2510.24020",
+        "id:arxiv:2510.24020",
+        "title:teachingllmstoabstainviafinegrainedsemanticconfidencereward",
+        "url:https://aclanthology.org/2026.emnlp-main.243",
+        "url:https://aclanthology.org/2026.emnlp-main.243.pdf",
+        "url:https://arxiv.org/abs/2510.24020",
+        "url:https://doi.org/10.18653/2026.emnlp-main.243",
+        "url:https://doi.org/10.48550/arxiv.2510.24020"
+      ],
+      "conflicts": {}
+    }
+  ]
+}

@@ -1,0 +1,1198 @@
+{
+  "pages": 28,
+  "original_images": 22,
+  "markdown_characters": 32487,
+  "text_lines_checked": 233,
+  "missing_lines": [],
+  "coverage_method": "All non-math lines matched to extracted PDF text. TeX source and render hashes verified. Each inline formula drawing and original crop matched by decoded pixels. Display math SVG path hashes checked. Page review recorded separately.",
+  "text_characters_per_page": [
+    1606,
+    547,
+    1038,
+    1084,
+    859,
+    783,
+    696,
+    1221,
+    961,
+    1100,
+    861,
+    905,
+    496,
+    648,
+    637,
+    747,
+    899,
+    1246,
+    654,
+    579,
+    807,
+    1018,
+    969,
+    835,
+    507,
+    872,
+    1246,
+    985
+  ],
+  "out_of_page_characters": [],
+  "out_of_bounds_images": [],
+  "out_of_bounds_vector_curves": [],
+  "markdown_sha256": "f02f3c8d78d1f84a542f96488612964b43d44643597d253490f5db325bc0aeb4",
+  "pdf_sha256": "6a4f452169179520e943e58562958fcfec10b9bec969bb40b2dbc3e2d54c0299",
+  "math": {
+    "occurrences": 120,
+    "display": 9,
+    "inline": 111,
+    "unique_expressions": 103,
+    "render_errors": 0,
+    "manifest": "assets/math-manifest.json",
+    "checks": [
+      {
+        "tex": "(N/C)f(C,M)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "0.2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "1/\\alpha",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "1/\\beta",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "2-(2+5/6)\\cdot\\frac{0.51}{1.51}\\approx1.043",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A\\sim\\mathrm{Exp}(\\alpha)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A_i=(R_i-\\mathrm{mean}(R))/(\\mathrm{std}(R)+\\varepsilon_{\\mathrm{num}})",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "B\\sim\\mathrm{Exp}(\\beta)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "C_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "E_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "F_{1,\\mathrm{abs}}",
+        "display": false,
+        "occurrences": 3,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "F_{1,\\mathrm{abs}}=60/85\\approx0.7059",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "F_{1,\\mathrm{ans}}",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "F_{1,\\mathrm{ans}}=80/115\\approx0.6957",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "F_{1,\\mathrm{rel}}",
+        "display": false,
+        "occurrences": 9,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "F_{1,\\mathrm{rel}}\\approx0.7007",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "G=10",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "L_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "L_i/L_{\\max}=0.5",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "L_{\\max}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_1=0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_1=40",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_2=5",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_3",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_3=15",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_4",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_4=10",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_5",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N_5=30",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "R_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "R_m",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "S_n",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\Delta_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha,\\beta",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha/(\\alpha+\\beta)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha/[\\beta(\\alpha+\\beta)]",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha=r_+-r_0=0.1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha>\\beta",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nA_i &= R_i-\\frac{1}{G}\\sum_{j=1}^G R_j,\\\\\n\\rho_{i,t,k}&=\\frac{\\pi_\\theta(o_{i,t,k}\\mid\\mathrm{prefix})}\n{\\pi_{\\mathrm{old}}(o_{i,t,k}\\mid\\mathrm{prefix})},\\\\\nJ&=\\mathrm{mean}_{i,t,k}\\!\\left[\\min\\left(\n\\rho_{i,t,k}A_i,\\;\n\\mathrm{clip}(\\rho_{i,t,k},1-\\varepsilon_{\\mathrm{low}},\n1+\\varepsilon_{\\mathrm{high}})A_i\\right)\\right]\\\\\n&\\quad-\\beta\\,\\mathrm{mean}(D_{\\mathrm{KL}}).\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nF_{1,\\mathrm{ans}}&=\\frac{2N_1}{2N_1+2N_2+N_3+N_4},\\\\\nF_{1,\\mathrm{abs}}&=\\frac{2N_5}{N_3+N_4+2N_5},\\\\\nF_{1,\\mathrm{rel}}&=\\frac{2F_{1,\\mathrm{ans}}F_{1,\\mathrm{abs}}}\n{F_{1,\\mathrm{ans}}+F_{1,\\mathrm{abs}}}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\n\\mathrm{target}_i&=\\begin{cases}\n\\text{sure}&\\lvert C_i\\rvert\\ge \\tau,\\\\\n\\text{unsure}&\\lvert C_i\\rvert\\lt\\tau,\n\\end{cases}\\\\\nr_{\\mathrm{conf},i}&=\\mathbf{1}[s_i=\\mathrm{target}_i],\\\\\nr_{\\mathrm{acc},i}&=\\mathbf{1}[E_i],\\\\\nr_i&=r_{\\mathrm{conf},i}+4r_{\\mathrm{acc},i}+2r_{\\mathrm{format},i},\\\\\nA_i&=\\frac{r_i-\\mathrm{mean}(r)}{\\mathrm{std}(r)+\\varepsilon_{\\mathrm{num}}}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nm_t&\\sim\\pi_\\theta(\\cdot\\mid q,c_t,m_{t-1}),\\qquad t=1,\\ldots,T,\\\\\ny&\\sim\\pi_\\theta(\\cdot\\mid q,m_T),\\\\\nP_\\theta(y\\mid q,c)&=\\sum_{m_{1:T}}\\pi_\\theta(y\\mid q,m_T)\n\\prod_{t=1}^T\\pi_\\theta(m_t\\mid q,c_t,m_{t-1}).\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nq&=1-(1-p)^k,\\\\\nS_n&=q(1+S_{n-2})+(1-q)S_{n-1},\\qquad n\\ge 2,\\\\\nS_0&=0,\\qquad S_1=q,\\\\\nS_n&=\\frac{qn}{1+q}+\\frac{q^2}{(1+q)^2}\\bigl[1-(-q)^n\\bigr].\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nr_{i,j}&=\\begin{cases}\n1.1&\\text{correct: NRP, conclusion, or padding},\\\\\n1.0-0.1L_i/L_{\\max}&\\text{correct: redundant token},\\\\\n0&\\text{incorrect response},\n\\end{cases}\\\\\nA_{i,j}&=\\frac{r_{i,j}-\\mathrm{mean}_i(r_{i,j})}\n{\\mathrm{std}_i(r_{i,j})+\\varepsilon_{\\mathrm{num}}},\\\\\nJ&=\\mathrm{mean}_{i,j}\\!\\left[\\min\\left(\\rho_{i,j}A_{i,j},\n\\mathrm{clip}(\\rho_{i,j},0.8,1.2)A_{i,j}\\right)\\right].\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\ns&\\approx \\frac{q}{1+q}\\frac{\\alpha}{\\alpha+\\beta},\\\\\n\\mathrm{speedup}&=\\frac{1}{1-s},\\\\\n\\mathrm{overhead}&\\le k-\\left[k+\\frac{\\alpha}{\\alpha+\\beta}\\right]\\frac{q}{1+q}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nu(x)&=1-2\\lvert\\widehat p-0.5\\rvert,\\\\\nd(x)&=\\lambda\\frac{\\mathrm{clusterSize}(x)}{B},\\\\\nr_Q(x)&=\\max\\bigl(0,u(x)-d(x)\\bigr),\\\\\n\\delta&\\le\\widehat p\\le1-\\delta,\\qquad\\delta=0.25,\\\\\nr_S(a,x)&=\\mathbf{1}\\bigl[\\mathrm{extract}(a)=\\widehat y\\bigr].\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\beta",
+        "display": false,
+        "occurrences": 3,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\beta D_{\\mathrm{KL}}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\beta=0.01",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\frac{0.51}{1.51}\\cdot\\frac56\\approx28.15\\%",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\kappa",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\kappa_m",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\kappa_m=\\mathrm{clip}\\bigl(\\kappa_{m-1}+\\beta(R_m-R_{m-1}),0,\\kappa_m^0\\bigr),\n\\qquad \\beta=0.2.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\kappa_m^0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\lambda=1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\lceil\\cdot\\rceil",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\lvert C_i\\rvert",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{clusterSize}(x)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{mean}_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{mean}_{i,t,k}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{overhead}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{std}_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\max(B-A,0)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_{\\mathrm{old}}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\prod_{t=1}^T",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\rho",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\sum_{m_{1:T}}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\tau=\\lceil G/2\\rceil=5",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\theta",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\varepsilon_{\\mathrm{num}}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat a_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat p",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat p=0.5",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat p=0.9",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat p=\\max_y\\mathrm{count}(y)/n",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat s_{t+1}=f(s_t,\\widehat a_t)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widehat y",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "a",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "a_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "a_t=h_t(q_t)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "c",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "c_1,\\ldots,c_T",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "d",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "h_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "i",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "j",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "m_0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p(1-p)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "q",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "q_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r_+=1.1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r_0=1.0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r_Q",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r_Q=0.75",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r_S",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "x",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "y",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      }
+    ],
+    "vector_path_operations_per_page": [
+      12,
+      0,
+      8333,
+      9,
+      0,
+      0,
+      0,
+      8886,
+      13,
+      0,
+      0,
+      2361,
+      1771,
+      0,
+      0,
+      9,
+      0,
+      3517,
+      0,
+      0,
+      0,
+      0,
+      8105,
+      0,
+      0,
+      0,
+      21,
+      0
+    ]
+  },
+  "font_check": {
+    "status": "passed",
+    "missing_glyphs": 0,
+    "embedded_text_fonts": {
+      "/F2+0": "/AAAAAA+STSongti-TC-Bold",
+      "/F2+1": "/AAAAAB+STSongti-TC-Bold",
+      "/F2+2": "/AAAAAC+STSongti-TC-Bold",
+      "/F2+3": "/AAAAAD+STSongti-TC-Bold"
+    },
+    "math": "MathJax vector display paths and576dpi inline PNG; no raw TeX fallback"
+  },
+  "image_integrity": {
+    "original_crops": [
+      {
+        "file": "mem-fig2-3.png",
+        "page": 2,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          1149
+        ]
+      },
+      {
+        "file": "mem-table1.png",
+        "page": 4,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          504
+        ]
+      },
+      {
+        "file": "mem-table3.png",
+        "page": 5,
+        "pixel_identical": true,
+        "dimensions": [
+          690,
+          342
+        ]
+      },
+      {
+        "file": "mem-fig6-7.png",
+        "page": 5,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          594
+        ]
+      },
+      {
+        "file": "mem-fig10.png",
+        "page": 6,
+        "pixel_identical": true,
+        "dimensions": [
+          945,
+          579
+        ]
+      },
+      {
+        "file": "decs-fig2.png",
+        "page": 7,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          999
+        ]
+      },
+      {
+        "file": "decs-table1.png",
+        "page": 9,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          549
+        ]
+      },
+      {
+        "file": "decs-fig3.png",
+        "page": 10,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          612
+        ]
+      },
+      {
+        "file": "decs-table3.png",
+        "page": 10,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          255
+        ]
+      },
+      {
+        "file": "spec-fig1.png",
+        "page": 11,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          771
+        ]
+      },
+      {
+        "file": "spec-fig2.png",
+        "page": 14,
+        "pixel_identical": true,
+        "dimensions": [
+          603,
+          540
+        ]
+      },
+      {
+        "file": "spec-fig6.png",
+        "page": 15,
+        "pixel_identical": true,
+        "dimensions": [
+          564,
+          531
+        ]
+      },
+      {
+        "file": "spec-fig9-table2.png",
+        "page": 16,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          996
+        ]
+      },
+      {
+        "file": "rzero-fig2.png",
+        "page": 17,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          720
+        ]
+      },
+      {
+        "file": "rzero-table1.png",
+        "page": 19,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          786
+        ]
+      },
+      {
+        "file": "rzero-table2.png",
+        "page": 20,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          771
+        ]
+      },
+      {
+        "file": "rzero-table5.png",
+        "page": 21,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          303
+        ]
+      },
+      {
+        "file": "rzero-fig3.png",
+        "page": 21,
+        "pixel_identical": true,
+        "dimensions": [
+          603,
+          408
+        ]
+      },
+      {
+        "file": "fisc-fig2.png",
+        "page": 22,
+        "pixel_identical": true,
+        "dimensions": [
+          1386,
+          798
+        ]
+      },
+      {
+        "file": "fisc-table2.png",
+        "page": 25,
+        "pixel_identical": true,
+        "dimensions": [
+          1386,
+          906
+        ]
+      },
+      {
+        "file": "fisc-table10.png",
+        "page": 26,
+        "pixel_identical": true,
+        "dimensions": [
+          1386,
+          636
+        ]
+      },
+      {
+        "file": "fisc-fig3.png",
+        "page": 26,
+        "pixel_identical": true,
+        "dimensions": [
+          1386,
+          657
+        ]
+      }
+    ],
+    "all_originals_pixel_identical": true,
+    "all_inline_formula_images_pixel_identical": true,
+    "inline_draw_occurrences": 111
+  },
+  "rendered_pages": [
+    {
+      "page": 1,
+      "sha256": "d59b85ac60fac978cb82e619b8d9123d108f0cedc875015b472ae3bd86653ad7"
+    },
+    {
+      "page": 2,
+      "sha256": "726f2f2d7012a5c2929cb83ab2b6d34bb16f866b60b22d3df0c2812c84efc91c"
+    },
+    {
+      "page": 3,
+      "sha256": "5cf80ae58f85bf94d674d91b43c7aa3de1ec7ec10cc9a6ec04385652b5a86ee3"
+    },
+    {
+      "page": 4,
+      "sha256": "c7f346ce6f0566e74c527c44c069d639bd4eb6b0f6a4f59106b9393d4b9e59bc"
+    },
+    {
+      "page": 5,
+      "sha256": "1dc42a93e322e87183940017037c074ae0cf4b49bb8550b1dcf9e662e4763774"
+    },
+    {
+      "page": 6,
+      "sha256": "27fee248ab88522c2a192d3946878667c2bd97c2da06761b901c0faec87bb0a3"
+    },
+    {
+      "page": 7,
+      "sha256": "b51176a5ac094ee3417c40796d8fe829b4229e19836e87ecd4cefa0a2e42ed71"
+    },
+    {
+      "page": 8,
+      "sha256": "18bf358c04d2c654f540abc737744005d52e8f05579cfc81d213d282ae56e43d"
+    },
+    {
+      "page": 9,
+      "sha256": "91eba11bd67a5180b6417cbad33246eef4d3c37af03960886780463391b2c8b9"
+    },
+    {
+      "page": 10,
+      "sha256": "8d44c01b1ba8dc86330b6e20592ac43bd003ddf48c366c27673aaf48ca7900a5"
+    },
+    {
+      "page": 11,
+      "sha256": "2f215e6322262f631479e3280b0941379a24a0a252f2b549242df373cbc54898"
+    },
+    {
+      "page": 12,
+      "sha256": "f0368b80d19aafe5073000d6a63f18b84f070d07b9c28cc12b5d34c8cd031bb7"
+    },
+    {
+      "page": 13,
+      "sha256": "6e9cfa6deddc28ea5ee22ab293be189e201dc1b7a8fb40a2350f9f1abe0b5f61"
+    },
+    {
+      "page": 14,
+      "sha256": "2502942f626667adac50434efe65bba2c7c4383aeef7147ee97cf28701baae7a"
+    },
+    {
+      "page": 15,
+      "sha256": "43862681ee763dff64a8b27fada069f473dbaa37223594ae88647da481e9a306"
+    },
+    {
+      "page": 16,
+      "sha256": "8070c248d7137f74690531f167b26fbec99c760e216716726787f9846ce16f1a"
+    },
+    {
+      "page": 17,
+      "sha256": "260ff153f7e500466659b923405a9ee4276dee9c4c29d04eda4dc45f3ec59d27"
+    },
+    {
+      "page": 18,
+      "sha256": "22a7664ba9b019e4d7cfac88e702ad69f11f575e7dc5c0ce40325c4d87a60b6b"
+    },
+    {
+      "page": 19,
+      "sha256": "afd9aece864787961815a9defe29ec58c9aa67a081208bfb495ce5f4c048762c"
+    },
+    {
+      "page": 20,
+      "sha256": "850ad26a769ffd10fe860c34e67fb65611b601a6b75605f79f4a931c7353eb44"
+    },
+    {
+      "page": 21,
+      "sha256": "8ee90e1edb9459984852c30476010caf1d6c30427de406ef5a908ade8c59b9e8"
+    },
+    {
+      "page": 22,
+      "sha256": "4fd1ed076479f74536e764d7c4cf4bd7716499f95d3c692c488d091d335af5a9"
+    },
+    {
+      "page": 23,
+      "sha256": "3084938accd6c094c107322776d6c18d96e5975c1e4da382c95f54ef531b9348"
+    },
+    {
+      "page": 24,
+      "sha256": "72fed36ac7ca763732a5e0112d563184bb13ecdbcb49b827b2fdc68d0c8ed0bf"
+    },
+    {
+      "page": 25,
+      "sha256": "db49429eb551501dbfaf1d50c9d4209a340ec7499b089e3593bf13b62448b7d0"
+    },
+    {
+      "page": 26,
+      "sha256": "690d4f5f20107a791c89e5a0a4239bbc8763311c32c5b94af64ea1c867fbcc43"
+    },
+    {
+      "page": 27,
+      "sha256": "6d6991b93b072b77815fdc7c29ff006bb43e94218f37b053b91ee86e0f5bba14"
+    },
+    {
+      "page": 28,
+      "sha256": "b9dbe51e58b418337c9e312be708c52df5341d920b4452f79dc2c9a29b05d501"
+    }
+  ],
+  "visual_inspection_status": "passed",
+  "renderer": {
+    "build_report_sha256": "9a61158f5c0c9ff6330e1a2989ac0ec402547791cd565bc813aa19e52ef17a9e",
+    "math_render_sha256": "2b2b570c33c983e35d4e9ea1341ea514fd514a272b88c4a6e8fb39d0564b7b12",
+    "render_math_cjs_sha256": "1c767db4c1dac065b3872b9e91b0aa3b2344c192188210d3f56408e200984f5a",
+    "rendering": "pypdfium2 at122.4dpi, pypdf text/images, pdfplumber bounds"
+  },
+  "visual_inspection": {
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "method": "Every final page visually reviewed in labelled contact sheets. Formula-dense pages also reviewed at full resolution from independent Poppler rendering.",
+    "full_resolution_pages": [
+      3,
+      8,
+      12,
+      13,
+      18,
+      23
+    ],
+    "findings": "Formulas, original images, captions, code, tables and page numbers readable. No observed missing glyphs, overflow, overlap or blank pages."
+  },
+  "independent_poppler_render": {
+    "pages": 28,
+    "dpi": 110,
+    "page_hashes": [
+      {
+        "page": 1,
+        "sha256": "437d3fc37a0ac5c695ce949ed89745d4b3e50dad52134716ab848d1f0f0ef84a"
+      },
+      {
+        "page": 2,
+        "sha256": "cf67c98aa645779e30d6b68e9a1e74e76a3dfc4b568409cc52f439ec3cf08b6d"
+      },
+      {
+        "page": 3,
+        "sha256": "e0b367d91b3f6454743845645361008aaadc1895d4edf7aaa8714bfa8c1f5fad"
+      },
+      {
+        "page": 4,
+        "sha256": "36cdf3136c2e20e00735aa23513102f22ee6add9724d1b6bad1f598f95d07cc3"
+      },
+      {
+        "page": 5,
+        "sha256": "fad0170f7dcd7f9849282490b9ae78a5f6b2f3678b543dbd76720ad557190410"
+      },
+      {
+        "page": 6,
+        "sha256": "81104737f3b13b4ddfb8fceb2031be31a6e12ad4b289fc1c324e1de881a0acb5"
+      },
+      {
+        "page": 7,
+        "sha256": "335af6d7aa6a24e49ab9b1ebe135db9deaf82d93846bc6a52a2f3d541b622e2e"
+      },
+      {
+        "page": 8,
+        "sha256": "9f47caab60afcaa01491256b88b5c64b4ddeb6de2576ef5056c06aa816103254"
+      },
+      {
+        "page": 9,
+        "sha256": "a28e4a1e212ad322313bec10b94a301e6f300ddf9886aca7cc825a1e10236fc6"
+      },
+      {
+        "page": 10,
+        "sha256": "a315e3efba4250aee2e8bdaf685c16470c66d5dc20c717d1841ece2f040e9db3"
+      },
+      {
+        "page": 11,
+        "sha256": "5d72c1e205100c09976a562a4684824b686dd391f632966d2ce5807026816ab4"
+      },
+      {
+        "page": 12,
+        "sha256": "c9cfdc6b2af71c61ff9d2d5fa5124fa3cb3fc24639f209a418860741e07072d6"
+      },
+      {
+        "page": 13,
+        "sha256": "e0eb4162643d0653da466ab31e16cf9af8a0a1e3bb5f02e9dddd54c18f19e6d5"
+      },
+      {
+        "page": 14,
+        "sha256": "8d7cb40fcbf1ee83f7ba1872226882cb2d50b4b4151f43e3bda642052dfb13ac"
+      },
+      {
+        "page": 15,
+        "sha256": "7f774ce17910eeef6729da2c8410f4052908bcb9b689a3ceda77a0cfd6b18042"
+      },
+      {
+        "page": 16,
+        "sha256": "d98a8277ad37312f103661009bb19241b5cf9109dfd35103c61026a150f21960"
+      },
+      {
+        "page": 17,
+        "sha256": "bb0543540e7a9587c11f977dc7e6a22254442766cb719fa0ce9dbb6b969dbcd3"
+      },
+      {
+        "page": 18,
+        "sha256": "1d66462ab1a3db9d1d0a92903586648d3191884f6008bdfb27cf1f22fb331c38"
+      },
+      {
+        "page": 19,
+        "sha256": "edd1020a47a0ae0c7ad448cbdcbfdedf1e549dfeb9fdccf6a838280c7dd33431"
+      },
+      {
+        "page": 20,
+        "sha256": "1530bd8de6c4fd1d26315cc6c38589a92450171ae22e2863c3cfa2aca5d027f8"
+      },
+      {
+        "page": 21,
+        "sha256": "88a467b595dca1518271d5ce9a823a7d0accfd381513b067e90a43b31545722b"
+      },
+      {
+        "page": 22,
+        "sha256": "17e0e2e3f2d97b5c1f31fb21390009476c14efc9c65d2a23f99b937ac4775462"
+      },
+      {
+        "page": 23,
+        "sha256": "c849d9228aaebfe163a8e86f2b397741d7047d5b02a86375c7e445ca93e98c21"
+      },
+      {
+        "page": 24,
+        "sha256": "060d1ee31359bbf97894b9f7493cecc4069515b739ae67a755a99ab381daf081"
+      },
+      {
+        "page": 25,
+        "sha256": "f136aabcfc412a97178f04157422128a94d0895ec0e5c9ac75f0cb4e011c1475"
+      },
+      {
+        "page": 26,
+        "sha256": "9747f36037e47e5717923c038f075eaeebbbb36a7e381f0c6b35e8d0d540640b"
+      },
+      {
+        "page": 27,
+        "sha256": "ef40296b00e0c7ca5c8f1ac3ac3da7c098620c6b611e784f9de92a8df9895a8f"
+      },
+      {
+        "page": 28,
+        "sha256": "52438b85473c10cb96bcfe210ba3754701cfeaf13d3c18b9a9af9faa691e35e5"
+      }
+    ]
+  }
+}
