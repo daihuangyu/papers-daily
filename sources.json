@@ -3483,6 +3483,452 @@
       ]
     },
     {
+      "id": "arxiv:2611.30325",
+      "type": "paper",
+      "title": "Verifiable On-Policy Distillation",
+      "published": "2026-11-23",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.30325",
+      "doi": "10.48550/arXiv.2611.30325",
+      "url": "https://arxiv.org/abs/2611.30325",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.30325",
+        "https://doi.org/10.48550/arXiv.2611.30325"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.30325",
+      "submission_history": "Submission history From: Juntong Shi [ view email ] [v1] Mon, 23 Nov 2026 09:04:36 UTC (244 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.30325v1",
+      "read_version": "v1",
+      "source_pdf_pages": 15,
+      "source_pdf_sha256": "323b1b70c3b477b9d3024bb85ace5fbd0616a766c531f6bb01d189262014ffd3",
+      "publication_evidence_snapshot_sha256": "b9b90ad32001d9f3e54d0066c23e408b7f466f3930ad8327b5d3a02f805ef550",
+      "code_url": "https://github.com/juntongshi48/VOPD",
+      "code_commit": "21c6c15b4c07cd433387b14956679a0f79b21c03",
+      "code_status": "Official repository checked; README only, no implementation files at this commit",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/vopd-fig1.png",
+          "arxiv_id": "2611.30325",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.168,
+            0.099,
+            0.842,
+            0.277
+          ],
+          "sha256": "e6f3f8d7396de008569c6bbdaa25a34e95788ace2f00e646cfad0c98a695abe4",
+          "source_url": "https://arxiv.org/pdf/2611.30325v1"
+        },
+        {
+          "file": "assets/vopd-tables12.png",
+          "arxiv_id": "2611.30325",
+          "page": 8,
+          "paper_figure": "Tables 1 and 2",
+          "crop_box_normalized": [
+            0.17,
+            0.098,
+            0.843,
+            0.356
+          ],
+          "sha256": "85ef938031ea7cdc76d925b1f48b0b4316dc7581a7d3803a74a081012048b3de",
+          "source_url": "https://arxiv.org/pdf/2611.30325v1"
+        },
+        {
+          "file": "assets/vopd-fig2.png",
+          "arxiv_id": "2611.30325",
+          "page": 9,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.171,
+            0.095,
+            0.602,
+            0.215
+          ],
+          "sha256": "deb3c7073e45d4f581250641e7bd2d90c8ea51e242e459265c6e217ee5b1933c",
+          "source_url": "https://arxiv.org/pdf/2611.30325v1"
+        },
+        {
+          "file": "assets/vopd-fig3.png",
+          "arxiv_id": "2611.30325",
+          "page": 10,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.171,
+            0.096,
+            0.832,
+            0.248
+          ],
+          "sha256": "08fa1d31c4cc41e9f4e43f6c5a40cb2d1f9bb6c46896611701d553eaa9cc1d16",
+          "source_url": "https://arxiv.org/pdf/2611.30325v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-25",
+      "aliases": [
+        "arxiv:2611.30325",
+        "doi:10.48550/arxiv.2611.30325",
+        "id:arxiv:2611.30325",
+        "title:verifiableonpolicydistillation",
+        "url:https://arxiv.org/abs/2611.30325",
+        "url:https://doi.org/10.48550/arxiv.2611.30325"
+      ]
+    },
+    {
+      "id": "arxiv:2611.28359",
+      "type": "paper",
+      "title": "Contrastive On-Policy Distillation via Dual-Branch Supervision",
+      "published": "2026-11-20",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.28359",
+      "doi": "10.48550/arXiv.2611.28359",
+      "url": "https://arxiv.org/abs/2611.28359",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.28359",
+        "https://doi.org/10.48550/arXiv.2611.28359"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.28359",
+      "submission_history": "Submission history From: Zhibo Hou [ view email ] [v1] Fri, 20 Nov 2026 22:16:32 UTC (284 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.28359v1",
+      "read_version": "v1",
+      "source_pdf_pages": 14,
+      "source_pdf_sha256": "3e69e2e8e30738fa2eb6c470c23f4cd49d9c205de5c86e6672ac6177b12dd525",
+      "publication_evidence_snapshot_sha256": "5843b11da2d9452c9f1d0ec3ec8afdac3e84e0a5a8c81a6612db8b1b972b2a79",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Paper states code will be released; no official implementation verified in the paper, author page or exact-title searches",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/copd-fig1.png",
+          "arxiv_id": "2611.28359",
+          "page": 3,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.165,
+            0.096,
+            0.833,
+            0.344
+          ],
+          "sha256": "14df7675f0e1af7a90ef5b3f8133841b8e9498dd1f630926dca508f173eba9d9",
+          "source_url": "https://arxiv.org/pdf/2611.28359v1"
+        },
+        {
+          "file": "assets/copd-table1.png",
+          "arxiv_id": "2611.28359",
+          "page": 5,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.17,
+            0.11,
+            0.83,
+            0.475
+          ],
+          "sha256": "7bef02f734108b134e34c459b1ee7c5d52ca85316178623b9f3c6ceee0245f47",
+          "source_url": "https://arxiv.org/pdf/2611.28359v1"
+        },
+        {
+          "file": "assets/copd-fig3.png",
+          "arxiv_id": "2611.28359",
+          "page": 8,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.174,
+            0.094,
+            0.829,
+            0.335
+          ],
+          "sha256": "a4e671a7f1637b801136b6bac57a878811ae23cfcd6d70156ef749b85015ab63",
+          "source_url": "https://arxiv.org/pdf/2611.28359v1"
+        },
+        {
+          "file": "assets/copd-table4.png",
+          "arxiv_id": "2611.28359",
+          "page": 13,
+          "paper_figure": "Table 4",
+          "crop_box_normalized": [
+            0.17,
+            0.341,
+            0.83,
+            0.652
+          ],
+          "sha256": "06b25bae4c01c88d080c22c687e55cd36cff8fe6db1181b4e89519649f87bddd",
+          "source_url": "https://arxiv.org/pdf/2611.28359v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-25",
+      "aliases": [
+        "arxiv:2611.28359",
+        "doi:10.48550/arxiv.2611.28359",
+        "id:arxiv:2611.28359",
+        "title:contrastiveonpolicydistillationviadualbranchsupervision",
+        "url:https://arxiv.org/abs/2611.28359",
+        "url:https://doi.org/10.48550/arxiv.2611.28359"
+      ]
+    },
+    {
+      "id": "arxiv:2611.28445",
+      "type": "paper",
+      "title": "Muted Distillation: Sealing Reasoning from Teacher Unlocks Token-Efficient Agents",
+      "published": "2026-11-21",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.28445",
+      "doi": "10.48550/arXiv.2611.28445",
+      "url": "https://arxiv.org/abs/2611.28445",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.28445",
+        "https://doi.org/10.48550/arXiv.2611.28445"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.28445",
+      "submission_history": "Submission history From: Yuwei Zhang [ view email ] [v1] Sat, 21 Nov 2026 00:50:35 UTC (3,594 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.28445v1",
+      "read_version": "v1",
+      "source_pdf_pages": 19,
+      "source_pdf_sha256": "0dcb3e1f6d5b9e2c9abeec77815bbd38967800a1266d828780935f358dae5f75",
+      "publication_evidence_snapshot_sha256": "0992b65a3f645f4d7a982efa0932c2f358920d0ea852cb322cabc53ce745ba2a",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Paper identifies the Slime and SGLang infrastructure; no dedicated method implementation verified",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/muted-fig3.png",
+          "arxiv_id": "2611.28445",
+          "page": 4,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.084,
+            0.075,
+            0.893,
+            0.295
+          ],
+          "sha256": "7b81f8387b819b3d7c27f0339298667f6fc867604675e0439e08cc83e42841ed",
+          "source_url": "https://arxiv.org/pdf/2611.28445v1"
+        },
+        {
+          "file": "assets/muted-fig6.png",
+          "arxiv_id": "2611.28445",
+          "page": 6,
+          "paper_figure": "Figure 6",
+          "crop_box_normalized": [
+            0.086,
+            0.083,
+            0.891,
+            0.27
+          ],
+          "sha256": "7fcb528b28d014dce7e400d5becadca04d43061d72a90a150eccf8b4be82b305",
+          "source_url": "https://arxiv.org/pdf/2611.28445v1"
+        },
+        {
+          "file": "assets/muted-table1.png",
+          "arxiv_id": "2611.28445",
+          "page": 5,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.496,
+            0.205,
+            0.892,
+            0.415
+          ],
+          "sha256": "79f8524f4affb94ebbc7156eaa7b66ff064190bbee97c2c9a1f5052d238273f6",
+          "source_url": "https://arxiv.org/pdf/2611.28445v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-25",
+      "aliases": [
+        "arxiv:2611.28445",
+        "doi:10.48550/arxiv.2611.28445",
+        "id:arxiv:2611.28445",
+        "title:muteddistillationsealingreasoningfromteacherunlockstokenefficientagents",
+        "url:https://arxiv.org/abs/2611.28445",
+        "url:https://doi.org/10.48550/arxiv.2611.28445"
+      ]
+    },
+    {
+      "id": "arxiv:2611.23397",
+      "type": "paper",
+      "title": "Which Tokens, in What Order, and How Fast? A Theoretical Analysis of On-Policy Distillation Objectives",
+      "published": "2026-11-17",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.23397",
+      "doi": "10.48550/arXiv.2611.23397",
+      "url": "https://arxiv.org/abs/2611.23397",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.23397",
+        "https://doi.org/10.48550/arXiv.2611.23397"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.23397",
+      "submission_history": "Submission history From: Noam Razin [ view email ] [v1] Tue, 17 Nov 2026 19:01:02 UTC (379 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.23397v1",
+      "read_version": "v1",
+      "source_pdf_pages": 58,
+      "source_pdf_sha256": "246d0ae47fe48768b76f585b7fc47788f8695198f84dfd08c344cfaa9df231f4",
+      "publication_evidence_snapshot_sha256": "99b4f279255ec2cb2acee5c0da561bce462740a15cd2ece891a38691fb0a1ba0",
+      "code_url": "https://github.com/princeton-pli/opd-objectives-analysis",
+      "code_commit": "e0f3713d48c572680915a88a5cff3e9e399a3837",
+      "code_status": "Verified author repository with experiment scripts, data and configurations; code inspected, experiments not rerun",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/theory-fig1.png",
+          "arxiv_id": "2611.23397",
+          "page": 6,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.171,
+            0.075,
+            0.839,
+            0.193
+          ],
+          "sha256": "ef6aff4ed74b7f859b5f4394b6093f065f7c96f0a28d8c0ae7810fd6fca5c750",
+          "source_url": "https://arxiv.org/pdf/2611.23397v1"
+        },
+        {
+          "file": "assets/theory-fig2.png",
+          "arxiv_id": "2611.23397",
+          "page": 6,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.171,
+            0.261,
+            0.838,
+            0.414
+          ],
+          "sha256": "43630c07eefd7d52cc4dcdc4f0b5463652b689d733ef5ffa93a2681de285e850",
+          "source_url": "https://arxiv.org/pdf/2611.23397v1"
+        },
+        {
+          "file": "assets/theory-fig3.png",
+          "arxiv_id": "2611.23397",
+          "page": 7,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.171,
+            0.098,
+            0.837,
+            0.222
+          ],
+          "sha256": "9abecf7e02458ab83733da9b5628c8f6e8275c4cd6faafeb0eebe01bca758d9b",
+          "source_url": "https://arxiv.org/pdf/2611.23397v1"
+        },
+        {
+          "file": "assets/theory-fig4.png",
+          "arxiv_id": "2611.23397",
+          "page": 10,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.171,
+            0.076,
+            0.836,
+            0.221
+          ],
+          "sha256": "95e93a4ae0006295c60723c0e3e979826b9d859feca06218205282da9f1f5015",
+          "source_url": "https://arxiv.org/pdf/2611.23397v1"
+        },
+        {
+          "file": "assets/theory-fig5.png",
+          "arxiv_id": "2611.23397",
+          "page": 11,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.171,
+            0.095,
+            0.837,
+            0.248
+          ],
+          "sha256": "20aa17e670c21bf688db3bedad76535e2dce124b5b53987881261bb808128c28",
+          "source_url": "https://arxiv.org/pdf/2611.23397v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-25",
+      "aliases": [
+        "arxiv:2611.23397",
+        "doi:10.48550/arxiv.2611.23397",
+        "id:arxiv:2611.23397",
+        "title:whichtokensinwhatorderandhowfastatheoreticalanalysisofonpolicydistillationobjectives",
+        "url:https://arxiv.org/abs/2611.23397",
+        "url:https://doi.org/10.48550/arxiv.2611.23397"
+      ]
+    },
+    {
+      "id": "arxiv:2610.36082",
+      "type": "paper",
+      "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
+      "published": "2026-10-26",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2610.36082",
+      "doi": "10.48550/arXiv.2610.36082",
+      "url": "https://arxiv.org/abs/2610.36082",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.36082",
+        "https://doi.org/10.48550/arXiv.2610.36082"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.36082",
+      "submission_history": "Submission history From: Cyril Gorlla [ view email ] [v1] Mon, 26 Oct 2026 18:07:20 UTC (110 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2610.36082v1",
+      "read_version": "v1",
+      "source_pdf_pages": 8,
+      "source_pdf_sha256": "7abe901ce495772b42cc61a91b1ea4b020da2bda9448b14fef3ea4db75ff88d3",
+      "publication_evidence_snapshot_sha256": "64c88254208a064e969bf40c434fc6ad63c4849a29cd83216f24f9a5b554e795",
+      "code_url": "https://github.com/johnnyhyu/fin-sd",
+      "code_commit": "f6f268f33af9162a04b0374cada20eaa09b07fd1",
+      "code_status": "Verified author repository with training code, ablation configurations, corpus and paper-to-code map; code inspected, experiments not rerun",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/finsd-fig1.png",
+          "arxiv_id": "2610.36082",
+          "page": 3,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.08,
+            0.1,
+            0.919,
+            0.343
+          ],
+          "sha256": "9676e47b9df3424904bd94ae3bd308435b289495989e943e59aa4961c34256cb",
+          "source_url": "https://arxiv.org/pdf/2610.36082v1"
+        },
+        {
+          "file": "assets/finsd-fig3.png",
+          "arxiv_id": "2610.36082",
+          "page": 6,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.514,
+            0.101,
+            0.918,
+            0.306
+          ],
+          "sha256": "7cfae08a86f877e1ea7f254951b0690414507b510d36a3bb28b538fea1248b9e",
+          "source_url": "https://arxiv.org/pdf/2610.36082v1"
+        },
+        {
+          "file": "assets/finsd-table2.png",
+          "arxiv_id": "2610.36082",
+          "page": 7,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.167,
+            0.101,
+            0.832,
+            0.217
+          ],
+          "sha256": "85c5efb90b13947ebd5dba4508eab4672c5db4eed7897090720fa8d3a81262cb",
+          "source_url": "https://arxiv.org/pdf/2610.36082v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-25",
+      "aliases": [
+        "arxiv:2610.36082",
+        "doi:10.48550/arxiv.2610.36082",
+        "id:arxiv:2610.36082",
+        "title:howmuchdoesthehintmatterscopeconditionsforhindsightselfdistillationinfinancialreasoning",
+        "url:https://arxiv.org/abs/2610.36082",
+        "url:https://doi.org/10.48550/arxiv.2610.36082"
+      ]
+    },
+    {
       "id": "arxiv:2611.07959",
       "type": "paper",
       "title": "CoRD: Coupled Rollouts Fill the Blind Spot of On-Policy Distillation",
@@ -14269,6 +14715,36 @@
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
     "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2611.30325": "OPSD/2026-11-25",
+    "doi:10.48550/arxiv.2611.30325": "OPSD/2026-11-25",
+    "id:arxiv:2611.30325": "OPSD/2026-11-25",
+    "title:verifiableonpolicydistillation": "OPSD/2026-11-25",
+    "url:https://arxiv.org/abs/2611.30325": "OPSD/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.30325": "OPSD/2026-11-25",
+    "arxiv:2611.28359": "OPSD/2026-11-25",
+    "doi:10.48550/arxiv.2611.28359": "OPSD/2026-11-25",
+    "id:arxiv:2611.28359": "OPSD/2026-11-25",
+    "title:contrastiveonpolicydistillationviadualbranchsupervision": "OPSD/2026-11-25",
+    "url:https://arxiv.org/abs/2611.28359": "OPSD/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.28359": "OPSD/2026-11-25",
+    "arxiv:2611.28445": "OPSD/2026-11-25",
+    "doi:10.48550/arxiv.2611.28445": "OPSD/2026-11-25",
+    "id:arxiv:2611.28445": "OPSD/2026-11-25",
+    "title:muteddistillationsealingreasoningfromteacherunlockstokenefficientagents": "OPSD/2026-11-25",
+    "url:https://arxiv.org/abs/2611.28445": "OPSD/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.28445": "OPSD/2026-11-25",
+    "arxiv:2611.23397": "OPSD/2026-11-25",
+    "doi:10.48550/arxiv.2611.23397": "OPSD/2026-11-25",
+    "id:arxiv:2611.23397": "OPSD/2026-11-25",
+    "title:whichtokensinwhatorderandhowfastatheoreticalanalysisofonpolicydistillationobjectives": "OPSD/2026-11-25",
+    "url:https://arxiv.org/abs/2611.23397": "OPSD/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.23397": "OPSD/2026-11-25",
+    "arxiv:2610.36082": "OPSD/2026-11-25",
+    "doi:10.48550/arxiv.2610.36082": "OPSD/2026-11-25",
+    "id:arxiv:2610.36082": "OPSD/2026-11-25",
+    "title:howmuchdoesthehintmatterscopeconditionsforhindsightselfdistillationinfinancialreasoning": "OPSD/2026-11-25",
+    "url:https://arxiv.org/abs/2610.36082": "OPSD/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2610.36082": "OPSD/2026-11-25",
     "arxiv:2611.07959": "OPSD/2026-11-24",
     "doi:10.48550/arxiv.2611.07959": "OPSD/2026-11-24",
     "id:arxiv:2611.07959": "OPSD/2026-11-24",
