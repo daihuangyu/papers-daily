@@ -1,0 +1,132 @@
+[
+  {
+    "paper": "t3",
+    "repository": "https://github.com/unimpor/T3",
+    "notes": [
+      "The author repository now hosts T3 and the separate AREW paper. Configurations and update counts for the later shared tasks are not the original T3 experimental settings."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "492f31fa05d2065c750a72d5e798385af282fa5d",
+    "archive_sha256": "610f2e31383caff0f0478b78da3911de10ac564c1f68f5ebc36051cb41f292af",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "0cc77022db47adfc7aa55c2965f05c3410f3a6733e87974a540e092343120dee"
+      },
+      {
+        "path": "verl/verl/experimental/agent_loop/agent_loop.py",
+        "sha256": "a4ecd6b828553008aea279aebc429bc8eaed121a4673217a22221c163debdfe4"
+      },
+      {
+        "path": "verl/verl/trainer/main_ppo.py",
+        "sha256": "68fdd13d6a0a3b1abe90e6f1b189a7b55e45eea937a38d3963d47404aaea9c17"
+      }
+    ]
+  },
+  {
+    "paper": "hier",
+    "repository": "https://github.com/ZhouYuxuanYX/Hierarchical-Speculative-Decoding",
+    "notes": [
+      "Pinned author README corrects the older implementation: single-draft lossless HSD is equivalent to block verification. Original single-draft HSD measurements used an uncapped full-draft acceptance test. Corrected multi-draft not benchmarked in that table. Original EAGLE-3H removed.",
+      "Direct arXiv v3 PDF returned HTTP 404 while the README describes the correction as v3; report reads the published conference PDF and pinned code correction separately."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "8f8e88bb77a155e022b29df7ad6586b6515866a7",
+    "archive_sha256": "e0a4a961029d27bf2bbebd03f459dd31f11cd2225d7cff4c3f410e1a699ab914",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "f89b2d06f44e31e67e6b8de17bdff2f83cebda350a11fbd712caab85f4463e5c"
+      },
+      {
+        "path": "chain-of-thought-hub/gsm8k/eval_speculative_decoding_llm.py",
+        "sha256": "d74d5e6862e233b07d9887a9447317f9df51906dad74e42051a51c78db113d73"
+      },
+      {
+        "path": "tree-hsd/verify_alg3_exact.py",
+        "sha256": "886979de556d94ab80a8823e4a18ebd0e509dba0d254216aa82a8947c93eb7f1"
+      },
+      {
+        "path": "tree-hsd/verify_hsd_exact.py",
+        "sha256": "511fcd697316c95b375b1129178410ecf008aacf4e2ae09685d2b5613605fc36"
+      },
+      {
+        "path": "tree-hsd/sampled_tree.py",
+        "sha256": "407562079afba44ad5180825cffbf0658d1633ab1e757af0156d7c41d06d5955"
+      }
+    ]
+  },
+  {
+    "paper": "prophet",
+    "repository": "https://github.com/pixeli99/Prophet",
+    "notes": [
+      "Code computes the gap from the first batch item in the LLaDA path and checks a short answer window. Conference supplemental ZIP contains generation and evaluation code."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "460afe41c7063a29a9893675aca07b985997bb83",
+    "archive_sha256": "5361094bb9f96fcdc5aea6168a8eb3e27fd299bf3687eafb9128dfdffd5f3116",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "b8cd17b4217cb754db7f0dc1b74f7f011710b1449a6922c1978b30392991f194"
+      },
+      {
+        "path": "generate_earlyexit.py",
+        "sha256": "70218c733266e2e47f9e3d52c8ef9c5dcccb5bf7ab8c0b76a1346ed5aeb5091b"
+      },
+      {
+        "path": "eval_llada.py",
+        "sha256": "b710300f9860fca0237aaad87bbe06141a181df680e295608889f90f45545feb"
+      }
+    ],
+    "official_supplement": {
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/daadbff4d4ea884ca3d9d389a1dfc61c-Supplemental-Conference.zip",
+      "sha256": "11d46f57a76085493e3ad39e584947997209e1c55a9335aaeca4ea714b3c86d7"
+    }
+  },
+  {
+    "paper": "rmt",
+    "repository": "https://github.com/Mid-Training/RMT",
+    "notes": [
+      "Released reward uses tokenized prefix match after answer extraction, while paper Eq. 5 summarizes exact next-token match."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "ce4fa9cc9857b365d7eb02f04fbb6911cc8da707",
+    "archive_sha256": "79846d73db15d5a7ecac461f3407811ffcc9206bda61aa719b1f798ce1469744",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "c5ea3621385446d8e35fa1a750642d720dcb346870337cd0c57a5d33f3dd9a4b"
+      },
+      {
+        "path": "runs/rmt.sh",
+        "sha256": "573bc0fc6e9aeac8911120b45e50d77df7bcb4e9b922b8d4119af32d9efe9006"
+      },
+      {
+        "path": "verl/trainer/ppo/rmt_trainer.py",
+        "sha256": "b79fd06c2d76eb39783fc0d1bc973326465a42ad21bb85938ffd53e801e84101"
+      },
+      {
+        "path": "verl/utils/dataset/rmt_dataset.py",
+        "sha256": "4590a5f685cc3510dac1265a50eccf60e67d4ba60cfa0be708db14e0e5318c9e"
+      },
+      {
+        "path": "verl/utils/reward_score/ntp_reward.py",
+        "sha256": "40ec33f7646f0884a783a1da77aa7ca3aa2a2a566158c17fd87f6c67a0750008"
+      }
+    ]
+  },
+  {
+    "paper": "order",
+    "repository": null,
+    "notes": [
+      "No verified author implementation in official paper and appendix, Anthology/arXiv records, or exact-title/method searches with GitHub. Appendix A.1 pseudocode inspected."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies."
+  }
+]

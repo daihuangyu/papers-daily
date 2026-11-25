@@ -1,0 +1,332 @@
+[
+  {
+    "file": "t3-fig1.png",
+    "paper": "t3",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      68,
+      505,
+      315
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2468f84a13ff8bb6767a67518fb596eb-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "32601403be358e56dda818ccfad5358aface393f91f8fb3e7ebf20b5ec350be2",
+    "sha256": "f42efb930eb5bd1dab23326523059452385dd32986061950ee590b19c64c5f3c",
+    "pixels": [
+      1197,
+      741
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 论文集 PDF 物理页 2。左侧是普通训练中逐步陷入无效追问的轨迹，右侧是在训练采样时终止该轨迹。对话旁的候选框表示信念在演化，图为机制示意。"
+  },
+  {
+    "file": "t3-table1.png",
+    "paper": "t3",
+    "figure": "table1",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      106,
+      62,
+      505,
+      249
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2468f84a13ff8bb6767a67518fb596eb-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "32601403be358e56dda818ccfad5358aface393f91f8fb3e7ebf20b5ec350be2",
+    "sha256": "c26f2437b95dea2487a7ea5b72db5037296fbad5a5baec31f635189a6b030bb8",
+    "pixels": [
+      1197,
+      561
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 6。按同一优化器比较两行。同样的 7B 起点下，GN 的 GRPO 精确匹配 61.26→91.36，CD 的 PPO 61.67→77.83，MR 的 GSPO 14.67→55.67。SP 的 GSPO 字符 F1 82.17→82.08。闭源直接推理行的训练与推理预算各异。"
+  },
+  {
+    "file": "t3-fig3-4.png",
+    "paper": "t3",
+    "figure": "fig3-4",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      106,
+      63,
+      505,
+      287
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2468f84a13ff8bb6767a67518fb596eb-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "32601403be358e56dda818ccfad5358aface393f91f8fb3e7ebf20b5ec350be2",
+    "sha256": "ebdd072b410851147d25db20047fe034541a9b0691105fd446b27c0a28c7eb80",
+    "pixels": [
+      1197,
+      672
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figures 3–4，物理页 7。相同任务和优化器内读蓝色基线与红色 T³。横轴训练步，纵轴分别为奖励、应答长度。某些任务前段涨得更慢，后段奖励更稳、回答更短。Table 3 中 CD 的 PPO 窗口 2/3/4 得 69.17/77.83/79.33，随机每步以 0.5 截断得 13.17。"
+  },
+  {
+    "file": "hier-fig1.png",
+    "paper": "hier",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      70,
+      505,
+      266
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b06dbe97e29ba06bdfdb6949191d2591-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "44cc797335750b50f4494a043b225d0b007003b629d76f20e217b4dbc924dd7f",
+    "sha256": "a1c280f80e52793f7073a230a8fe1150760ed5262a9dd0e45b9a49aad0def233",
+    "pixels": [
+      1197,
+      588
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 论文集 PDF 物理页 2。从最长草稿向左找接受长度。若停在中间，沿接受前缀的分支抽一个补偿词。图为机制示意。"
+  },
+  {
+    "file": "hier-table1.png",
+    "paper": "hier",
+    "figure": "table1",
+    "physical_pdf_page": 9,
+    "crop_points_from_top_left": [
+      106,
+      554,
+      506,
+      740
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b06dbe97e29ba06bdfdb6949191d2591-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "44cc797335750b50f4494a043b225d0b007003b629d76f20e217b4dbc924dd7f",
+    "sha256": "51ab1218107626bc04feb7fb658176fa42dba1a0580d79a2f68bb9b465ba337b",
+    "pixels": [
+      1200,
+      558
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 9，**历史结果**。横读目标模型大小，在三行看每次目标调用的生成词数（BE）及词/秒（DS）。稿件用 Qwen2.5-0.5B 草稿配 14B/32B/72B 目标，8-bit GPTQ，温度 1，单张 96 GB H20。GSM8K 32B 的逐词/分块/旧 HSD 为 53.87/54.91/57.12 token/s。HumanEval、GSM8K、CNN/DailyMail 分别评估代码、数学和摘要。"
+  },
+  {
+    "file": "prophet-fig3.png",
+    "paper": "prophet",
+    "figure": "fig3",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      106,
+      400,
+      506,
+      631
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/daadbff4d4ea884ca3d9d389a1dfc61c-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "7bedcb1f7763af2475e63210b8ad31bb56f969540d9027819464642c642794af",
+    "sha256": "f346c9a2c36429380feb84a63b310d4f5b233c296b2c22f3c7613090c291dfe3",
+    "pixels": [
+      1200,
+      693
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 3，物理页 6。上方跑完固定轮数，下方在差距过阈值后填满剩余位置。图中算术和省步比例用于讲解操作，实测看 Table 1。"
+  },
+  {
+    "file": "prophet-fig1.png",
+    "paper": "prophet",
+    "figure": "fig1",
+    "physical_pdf_page": 5,
+    "crop_points_from_top_left": [
+      106,
+      69,
+      506,
+      442
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/daadbff4d4ea884ca3d9d389a1dfc61c-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "7bedcb1f7763af2475e63210b8ad31bb56f969540d9027819464642c642794af",
+    "sha256": "47c9dbf49ead458a8f9212d6a62e96d157a43d2bf4a747aa044da9c5c5cb093f",
+    "pixels": [
+      1200,
+      1119
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 论文集物理页 5。LLaDA-8B 在 GSM8K 上，四格分别是低置信度重掩或随机重掩，以及有无答案后缀。柱状为首次出现正确答案的进度分布，红橙标记给不同进度阈值，读图时留意它们并非同一停止条件。这里用已知答案做事后诊断，部署早退时没有答案标签。"
+  },
+  {
+    "file": "prophet-table1.png",
+    "paper": "prophet",
+    "figure": "table1",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      106,
+      75,
+      506,
+      383
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/daadbff4d4ea884ca3d9d389a1dfc61c-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "7bedcb1f7763af2475e63210b8ad31bb56f969540d9027819464642c642794af",
+    "sha256": "9eb901f8770b9898e6086901f868a0e5be7b1c1785e3e1fa945cd16c4e89c1bf",
+    "pixels": [
+      1200,
+      924
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 8。固定 LLaDA-8B-Instruct 或 Dream-7B-Instruct，比较 full-step 及早退的准确率和步数比。LLaDA 的 GSM8K 是 77.1→77.9，1.63 倍步数比。Dream 的 Sudoku 为 89.0→89.0，3.40 倍。Dream 的 MMLU 67.6→66.1，LLaDA 的 WinoGrande 73.8→70.5。读表时应保留损失案例。1.20 倍的 LLaDA HumanEval 表明任务形态显著影响收益。"
+  },
+  {
+    "file": "rmt-fig2.png",
+    "paper": "rmt",
+    "figure": "fig2",
+    "physical_pdf_page": 4,
+    "crop_points_from_top_left": [
+      106,
+      72,
+      506,
+      342
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/36f7c3d80c1ba329ab8cf7b96e63a0fa-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "a5776aaa8d4bf879a3ab7df94a6680cff31ce2fb719d1e08eca6c1f4e48b0949",
+    "sha256": "83a26daf31e6beead4374e43ebede671991a77ed480a0c1ed5181054efa64615",
+    "pixels": [
+      1200,
+      810
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 2，ICLR 2026 论文集物理页 4。左半部是长度调度和按难度抽词，右半部上分支为生成多个推理回答并算强化奖励，下分支在未选位置算下一词损失。该图是训练流程。"
+  },
+  {
+    "file": "rmt-table1.png",
+    "paper": "rmt",
+    "figure": "table1",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      106,
+      290,
+      506,
+      456
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/36f7c3d80c1ba329ab8cf7b96e63a0fa-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "a5776aaa8d4bf879a3ab7df94a6680cff31ce2fb719d1e08eca6c1f4e48b0949",
+    "sha256": "7668937d314e9bcb549fb34d81d0ebcec4506b2ef699e851a613f741bc29e4c7",
+    "pixels": [
+      1200,
+      498
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 7。列为易、中、难 token 及平均准确率。OmniMATH 按 RPT 设置加工，论文报告 4051 训练和 200 评测数据。RPT 35.85%，RMT-R1 46.87%，RMT-Q3 59.12%。Q3 使用 Qwen3-14B，R1 使用 DeepSeek-R1-Distill-Qwen-14B。Qwen3 的 NTP 为 35.84%，直接要求它做 NTR 为 6.02%。跨底座的结果包含起点影响。"
+  },
+  {
+    "file": "rmt-fig3.png",
+    "paper": "rmt",
+    "figure": "fig3",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      106,
+      308,
+      506,
+      458
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/36f7c3d80c1ba329ab8cf7b96e63a0fa-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "a5776aaa8d4bf879a3ab7df94a6680cff31ce2fb719d1e08eca6c1f4e48b0949",
+    "sha256": "ba91e6d1095b6b5258d2d4fcb9c098a76e1f03699944d059e18774eb3be32f2b",
+    "pixels": [
+      1200,
+      450
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 3，物理页 8。横轴训练步，分别看语言建模和后续训练中的长度、批生成时间，注意两条纵轴。原 Table 3 给 RMT-Q3 平均 186 token、RPT 872。Table 4 的 Q3 消融为 59.12% 降到移除动态预算后的 48.68%、移除课程后的 47.83%、移除 NTP 后的 42.40%。"
+  },
+  {
+    "file": "order-fig3.png",
+    "paper": "order",
+    "figure": "fig3",
+    "physical_pdf_page": 5,
+    "crop_points_from_top_left": [
+      69,
+      67,
+      527,
+      256
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.24.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "8ee4dacc56d8d85fe26e46d2ef17b2bf0dac3728a710d4d2fa8d991fcdd5a7f4",
+    "sha256": "07acc883fe65bbc2376aea3300470c5c7ef817a234daa683ac4a6ca8399c7daf",
+    "pixels": [
+      1374,
+      567
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 3，EMNLP 2026 论文集物理页 5，论文印刷页 517。左右两条候选遮住当块，用同一个扩散模型重新打分，图示 0.8 与 0.5 指向保留和淘汰。读图时分清黄/蓝两色所代表的已写词和提供上下文的词。这些是流程示例数。"
+  },
+  {
+    "file": "order-table1.png",
+    "paper": "order",
+    "figure": "table1",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      69,
+      67,
+      527,
+      299
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.24.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "8ee4dacc56d8d85fe26e46d2ef17b2bf0dac3728a710d4d2fa8d991fcdd5a7f4",
+    "sha256": "ab9e6daf406de1a65e531ffcc95649b7059f01e97cfa1066248033f9a470058c",
+    "pixels": [
+      1374,
+      696
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 6，印刷页 518。每组固定基础模型与长度 64/128/256/512，再比较低置信度重掩、随机、两者的投票、自回归顺序解码、AR beam 及 OTS。LLaDA-8B-Instruct 上平均 39.7%，最佳基线 AR beam 37.1%；LLaDA-1.5 的结果是 40.4%，最佳基线 37.2%。GSM8K 有长度条件下投票或 AR beam 更强。另列 diffu-GRPO 是后训练对照，表中长度不齐，不能用空格补均值。"
+  },
+  {
+    "file": "order-fig4.png",
+    "paper": "order",
+    "figure": "fig4",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      304,
+      67,
+      526,
+      218
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.24.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "8ee4dacc56d8d85fe26e46d2ef17b2bf0dac3728a710d4d2fa8d991fcdd5a7f4",
+    "sha256": "244a4aff5b3fc82de7220c0ed6bfaee10c131fec4c2ff102b15c727c518d5b65",
+    "pixels": [
+      666,
+      453
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 4，物理页 7，印刷页 519。固定展开过程，比当块重评分、全部已见块评分及遮住未来块的评分。蓝/橙对应两个底座，按同一种颜色看柱高。Table S6 给逐长度读数；LLaDA 的当块 OTS 平均 39.7%，全块 32.6%，遮未来 33.9%。对比分数器时保持同一搜索框架。"
+  },
+  {
+    "file": "order-fig5.png",
+    "paper": "order",
+    "figure": "fig5",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      69,
+      67,
+      290,
+      228
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.24.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "8ee4dacc56d8d85fe26e46d2ef17b2bf0dac3728a710d4d2fa8d991fcdd5a7f4",
+    "sha256": "b79d58363d0026cc0b580fc763950f4d83f9728783707efde3ce3a64311610cf",
+    "pixels": [
+      663,
+      483
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 5，物理页 8，印刷页 520。Countdown 横轴为前向次数 NFE，读相近预算处的红色 OTS、黄色 AR 投票、灰色随机投票。论文在束宽 6 处报 29.3%，匹配预算的 AR 投票与随机投票分别 19.9%、18.4%。附录 Table S1 给实际时间，长度 256、束宽 4 时单路径 6.60 秒、OTS 16.64 秒、五样本投票 32.99 秒，均为该评测设置下的每题平均。束宽 4 的计时和束宽 6 的准确率来自不同设置。"
+  }
+]

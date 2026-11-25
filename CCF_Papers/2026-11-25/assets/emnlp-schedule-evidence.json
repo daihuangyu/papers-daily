@@ -1,0 +1,20 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+  "linked_by": "https://2026.emnlp.org/program/",
+  "checked_on": "2026-11-25",
+  "match": {
+    "Paper ID #-track)": "66-MAIN",
+    "Title": "Improving Diffusion Language Model Decoding through Joint Search in Generation Order and Token Space",
+    "Assigned \nPres Type": "Poster",
+    "Presentation Mode": "In-Person",
+    "Presenters Name": "Yangyi Shen",
+    "Room Location": "Hall H",
+    "Session": "Session 11",
+    "Sub-session ": "Poster Session G",
+    "Session Date": "2026-10-27",
+    "Session Start Time": "11:00",
+    "Session End Time": "12:30",
+    "Board #": "301"
+  },
+  "csv_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+}
