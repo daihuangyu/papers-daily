@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- |
 | [CCF-A/B 论文](CCF_Papers/README.md) | 2026-11-24 | 安全偏好、预训练覆盖、半监督对齐与自适应计算预算 | [Markdown](CCF_Papers/2026-11-24/report.md) · [PDF](CCF_Papers/2026-11-24/report.pdf) | [按月浏览](CCF_Papers/archive/README.md) |
 | [OPD / OPSD](OPSD/README.md) | 2026-11-24 | 状态覆盖、无偏稀疏梯度与监督稳定性 | [Markdown](OPSD/2026-11-24/report.md) · [PDF](OPSD/2026-11-24/report.pdf) | [按月浏览](OPSD/archive/README.md) |
-| [VLM 后训练](VLM/README.md) | 2026-11-24 | 低比特潜在推理蒸馏、熵引导对齐、搜索世界自改进、双向自教学与数字载体偏好传递 | [Markdown](VLM/2026-11-24/report.md) · [PDF](VLM/2026-11-24/report.pdf) | [按月浏览](VLM/archive/README.md) |
+| [VLM 后训练](VLM/README.md) | 2026-11-25 | 导航反事实回退、视觉注意力强化学习、多图监督合成、检索难例蒸馏与证据解释 | [Markdown](VLM/2026-11-25/report.md) · [PDF](VLM/2026-11-25/report.pdf) | [按月浏览](VLM/archive/README.md) |
 
 点方向名称查看最近 7 期。历年日报和每篇论文的标题都可在对应方向的历史月份中找到。
 

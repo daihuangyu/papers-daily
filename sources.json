@@ -2,6 +2,436 @@
   "schema_version": 2,
   "sources": [
     {
+      "id": "arxiv:2611.30900",
+      "type": "paper",
+      "arxiv_id": "2611.30900",
+      "doi": "10.48550/arXiv.2611.30900",
+      "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.30900",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.30900",
+        "https://doi.org/10.48550/arXiv.2611.30900"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.30900v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.30900v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/GlanceNav/GlanceNav",
+      "project_url": "https://glancenav.github.io/",
+      "code_verification": "Official repository README blob 7a4783fe4a7cb0579173afc7aef2e6628b194eef verified. Evaluation code released; checklists still mark training code, data and checkpoints pending.",
+      "pdf_sha256": "c76f355c9706fb2d80523f534a4fe282070f86cd4b284809662e91169ea64666",
+      "figures": [
+        {
+          "file": "assets/glance-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.097,
+            0.081,
+            0.902,
+            0.277
+          ],
+          "size": [
+            1493,
+            471
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.30900v1",
+          "png_sha256": "b13c03792fab3e2d75a398cef657b983bd82b668cbe76d9bab927efe730a1515"
+        },
+        {
+          "file": "assets/glance-results.png",
+          "paper_figure": "Table 1",
+          "page": 7,
+          "crop_normalized": [
+            0.094,
+            0.082,
+            0.905,
+            0.594
+          ],
+          "size": [
+            1505,
+            1229
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.30900v1",
+          "png_sha256": "7cca13cf8e2ad1ea3e6073a1ebf5b1c8ea7c9cc78a7ee70b66d30cc371462d79"
+        },
+        {
+          "file": "assets/glance-core.png",
+          "paper_figure": "Tables 9-10 and Figures 5-6",
+          "page": 11,
+          "crop_normalized": [
+            0.096,
+            0.082,
+            0.904,
+            0.581
+          ],
+          "size": [
+            1499,
+            1197
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.30900v1",
+          "png_sha256": "d9967d5d80dd22c6c475509fbc21389f9f810b98831235bbbb0325f12971b5b1"
+        }
+      ],
+      "folder": "VLM/2026-11-25",
+      "aliases": [
+        "arxiv:2611.30900",
+        "doi:10.48550/arxiv.2611.30900",
+        "id:arxiv:2611.30900",
+        "title:glancenavefficientvisionandlanguagenavigationwithstreamingmemoryandcounterfactualrewind",
+        "url:https://arxiv.org/abs/2611.30900",
+        "url:https://doi.org/10.48550/arxiv.2611.30900"
+      ]
+    },
+    {
+      "id": "arxiv:2611.02008",
+      "type": "paper",
+      "arxiv_id": "2611.02008",
+      "doi": "10.48550/arXiv.2611.02008",
+      "title": "NAS-PO: Native Attention-Strategy Policy Optimization for Vision-Language Models",
+      "published": "2026-11-01",
+      "url": "https://arxiv.org/abs/2611.02008",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.02008",
+        "https://doi.org/10.48550/arXiv.2611.02008"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.02008v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.02008v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No complete official method code, dedicated project page or independent author blog verified in the original and exact title/author searches. Qwen3-VL and TRL are supporting components and tutorials.",
+      "pdf_sha256": "dc2c10c28c43c4a37e66e597bde79c1bcebcd21e0a77b04094fa528b3927e805",
+      "figures": [
+        {
+          "file": "assets/nas-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.081,
+            0.063,
+            0.917,
+            0.296
+          ],
+          "size": [
+            1551,
+            559
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.02008v1",
+          "png_sha256": "9aaa1dbf1004110153f57a56477bf8cd468ea8ded8a2f492bbb409c4990a7fb3"
+        },
+        {
+          "file": "assets/nas-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.081,
+            0.065,
+            0.92,
+            0.418
+          ],
+          "size": [
+            1557,
+            847
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.02008v1",
+          "png_sha256": "42cf12f9eb1a8c80bda3de8a1f68f574e1bd98c47cb6ff0c170ae314af5db31b"
+        },
+        {
+          "file": "assets/nas-ablation.png",
+          "paper_figure": "Table 2 and Figure 4",
+          "page": 7,
+          "crop_normalized": [
+            0.082,
+            0.063,
+            0.917,
+            0.54
+          ],
+          "size": [
+            1549,
+            1145
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.02008v1",
+          "png_sha256": "dc5f5b1c9c3cb4f7bf8f09662c66971240bd88f29c57f6b1be76d4f10639711b"
+        }
+      ],
+      "folder": "VLM/2026-11-25",
+      "aliases": [
+        "arxiv:2611.02008",
+        "doi:10.48550/arxiv.2611.02008",
+        "id:arxiv:2611.02008",
+        "title:nasponativeattentionstrategypolicyoptimizationforvisionlanguagemodels",
+        "url:https://arxiv.org/abs/2611.02008",
+        "url:https://doi.org/10.48550/arxiv.2611.02008"
+      ]
+    },
+    {
+      "id": "arxiv:2611.23996",
+      "type": "paper",
+      "arxiv_id": "2611.23996",
+      "doi": "10.48550/arXiv.2611.23996",
+      "title": "ReSynth: Constructing Synthetic Supervision for Multi-Image Understanding",
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.23996",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.23996",
+        "https://doi.org/10.48550/arXiv.2611.23996"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.23996v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23996v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "v1 promises construction code. No released official full data builder, training implementation, project page or separate author blog verified. The multi-view LoRA is an upstream component.",
+      "pdf_sha256": "f6f3e64c278548b227dcd89688e456571b6188efaca2b655104271cec44dee60",
+      "figures": [
+        {
+          "file": "assets/resynth-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.173,
+            0.106,
+            0.826,
+            0.421
+          ],
+          "size": [
+            1211,
+            756
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.23996v1",
+          "png_sha256": "ebc721a351ab926bd9e5ccb7c993701098f956f1080e0a96929ca7e43f2e6874"
+        },
+        {
+          "file": "assets/resynth-results.png",
+          "paper_figure": "Table 2",
+          "page": 7,
+          "crop_normalized": [
+            0.171,
+            0.101,
+            0.831,
+            0.335
+          ],
+          "size": [
+            1225,
+            562
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.23996v1",
+          "png_sha256": "9f60c789280110e9309876271cc0db2c174d17530d1fa86093b6f555b0e451a0"
+        },
+        {
+          "file": "assets/resynth-scale.png",
+          "paper_figure": "Figure 5",
+          "page": 9,
+          "crop_normalized": [
+            0.173,
+            0.098,
+            0.83,
+            0.306
+          ],
+          "size": [
+            1219,
+            499
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.23996v1",
+          "png_sha256": "b1bff7ec625e46cb2ac9deaf6c098b64191aa106ee0e557b336f41bf97a222da"
+        },
+        {
+          "file": "assets/resynth-sft.png",
+          "paper_figure": "Table 4",
+          "page": 10,
+          "crop_normalized": [
+            0.173,
+            0.102,
+            0.831,
+            0.256
+          ],
+          "size": [
+            1221,
+            369
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.23996v1",
+          "png_sha256": "64906b5d033950510ed992d79c5cdb58b4476ecb2f598b80585af4b57355ffd4"
+        }
+      ],
+      "folder": "VLM/2026-11-25",
+      "aliases": [
+        "arxiv:2611.23996",
+        "doi:10.48550/arxiv.2611.23996",
+        "id:arxiv:2611.23996",
+        "title:resynthconstructingsyntheticsupervisionformultiimageunderstanding",
+        "url:https://arxiv.org/abs/2611.23996",
+        "url:https://doi.org/10.48550/arxiv.2611.23996"
+      ]
+    },
+    {
+      "id": "arxiv:2611.25419",
+      "type": "paper",
+      "arxiv_id": "2611.25419",
+      "doi": "10.48550/arXiv.2611.25419",
+      "title": "DiLE: Discrimination-Aware Latent-Space Learning for Universal Multimodal Embeddings",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25419",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.25419",
+        "https://doi.org/10.48550/arXiv.2611.25419"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.25419v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25419v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No complete official method code, dedicated project page or separate author blog verified. Official Qwen teacher card is a component reference.",
+      "pdf_sha256": "4029a1ce6a9d08baf412933e6898fb4d539dee514a6dc23bb430f2076e1cddd4",
+      "figures": [
+        {
+          "file": "assets/dile-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.092,
+            0.09,
+            0.907,
+            0.343
+          ],
+          "size": [
+            1511,
+            607
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25419v1",
+          "png_sha256": "85a0815eeb862a2bdac6487df6e4533be9916ec1b42616065a135e09a736296a"
+        },
+        {
+          "file": "assets/dile-results.png",
+          "paper_figure": "Table 1",
+          "page": 5,
+          "crop_normalized": [
+            0.092,
+            0.089,
+            0.91,
+            0.485
+          ],
+          "size": [
+            1517,
+            950
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25419v1",
+          "png_sha256": "a76f0ed1764f1bc39b53bd779790766cf4ec5c88527d78c1c1431f77b4568d56"
+        },
+        {
+          "file": "assets/dile-ablation.png",
+          "paper_figure": "Tables 4-5",
+          "page": 7,
+          "crop_normalized": [
+            0.092,
+            0.089,
+            0.485,
+            0.389
+          ],
+          "size": [
+            729,
+            720
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.25419v1",
+          "png_sha256": "3e8de7b6c5354504092ae388fba9fc9a577dce811747bf3fe4892452c4d04a3e"
+        }
+      ],
+      "folder": "VLM/2026-11-25",
+      "aliases": [
+        "arxiv:2611.25419",
+        "doi:10.48550/arxiv.2611.25419",
+        "id:arxiv:2611.25419",
+        "title:dilediscriminationawarelatentspacelearningforuniversalmultimodalembeddings",
+        "url:https://arxiv.org/abs/2611.25419",
+        "url:https://doi.org/10.48550/arxiv.2611.25419"
+      ]
+    },
+    {
+      "id": "arxiv:2611.14436",
+      "type": "paper",
+      "arxiv_id": "2611.14436",
+      "doi": "10.1145/3840474.3840547",
+      "title": "Metric-Aligned Group Relative Policy Optimization for Explainable Deepfake Detection",
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14436",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.14436",
+        "https://doi.org/10.48550/arXiv.2611.14436",
+        "https://doi.org/10.1145/3840474.3840547"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.14436v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14436v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "The organizer evaluation repository and website and upstream detector card were verified. These are auxiliary sources. No complete team training pipeline, released adapters, dedicated project page or separate author blog verified.",
+      "pdf_sha256": "f75ce91e778823a65e8f2343c8e622f3ba8b8e8e312aea84139e568cf4513d92",
+      "figures": [
+        {
+          "file": "assets/metric-method.png",
+          "paper_figure": "Figure 1",
+          "page": 1,
+          "crop_normalized": [
+            0.09,
+            0.32,
+            0.905,
+            0.6
+          ],
+          "size": [
+            1512,
+            672
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.14436v1",
+          "png_sha256": "185cbd0ffa0e3798bb465dd871c6de08cd30e6b304a77b2c90819e93dbafe584"
+        },
+        {
+          "file": "assets/metric-rank.png",
+          "paper_figure": "Table 2",
+          "page": 4,
+          "crop_normalized": [
+            0.084,
+            0.103,
+            0.485,
+            0.249
+          ],
+          "size": [
+            744,
+            351
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.14436v1",
+          "png_sha256": "f71edf9c011c9d5b30b263b1800816f79707976585f65f6e6207e5e19742294f"
+        },
+        {
+          "file": "assets/metric-results.png",
+          "paper_figure": "Tables 3-4",
+          "page": 4,
+          "crop_normalized": [
+            0.515,
+            0.102,
+            0.946,
+            0.418
+          ],
+          "size": [
+            800,
+            758
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.14436v1",
+          "png_sha256": "d030e21097ff13b564a699bbf36bf447385edf52ab3b9d894d0d601f7e9e000a"
+        }
+      ],
+      "folder": "VLM/2026-11-25",
+      "aliases": [
+        "arxiv:2611.14436",
+        "doi:10.1145/3840474.3840547",
+        "doi:10.48550/arxiv.2611.14436",
+        "id:arxiv:2611.14436",
+        "title:metricalignedgrouprelativepolicyoptimizationforexplainabledeepfakedetection",
+        "url:https://arxiv.org/abs/2611.14436",
+        "url:https://doi.org/10.1145/3840474.3840547",
+        "url:https://doi.org/10.48550/arxiv.2611.14436"
+      ]
+    },
+    {
       "id": "arxiv:2611.25670",
       "type": "paper",
       "arxiv_id": "2611.25670",
@@ -13592,6 +14022,38 @@
     }
   ],
   "aliases": {
+    "arxiv:2611.30900": "VLM/2026-11-25",
+    "doi:10.48550/arxiv.2611.30900": "VLM/2026-11-25",
+    "id:arxiv:2611.30900": "VLM/2026-11-25",
+    "title:glancenavefficientvisionandlanguagenavigationwithstreamingmemoryandcounterfactualrewind": "VLM/2026-11-25",
+    "url:https://arxiv.org/abs/2611.30900": "VLM/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.30900": "VLM/2026-11-25",
+    "arxiv:2611.02008": "VLM/2026-11-25",
+    "doi:10.48550/arxiv.2611.02008": "VLM/2026-11-25",
+    "id:arxiv:2611.02008": "VLM/2026-11-25",
+    "title:nasponativeattentionstrategypolicyoptimizationforvisionlanguagemodels": "VLM/2026-11-25",
+    "url:https://arxiv.org/abs/2611.02008": "VLM/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.02008": "VLM/2026-11-25",
+    "arxiv:2611.23996": "VLM/2026-11-25",
+    "doi:10.48550/arxiv.2611.23996": "VLM/2026-11-25",
+    "id:arxiv:2611.23996": "VLM/2026-11-25",
+    "title:resynthconstructingsyntheticsupervisionformultiimageunderstanding": "VLM/2026-11-25",
+    "url:https://arxiv.org/abs/2611.23996": "VLM/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.23996": "VLM/2026-11-25",
+    "arxiv:2611.25419": "VLM/2026-11-25",
+    "doi:10.48550/arxiv.2611.25419": "VLM/2026-11-25",
+    "id:arxiv:2611.25419": "VLM/2026-11-25",
+    "title:dilediscriminationawarelatentspacelearningforuniversalmultimodalembeddings": "VLM/2026-11-25",
+    "url:https://arxiv.org/abs/2611.25419": "VLM/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.25419": "VLM/2026-11-25",
+    "arxiv:2611.14436": "VLM/2026-11-25",
+    "doi:10.1145/3840474.3840547": "VLM/2026-11-25",
+    "doi:10.48550/arxiv.2611.14436": "VLM/2026-11-25",
+    "id:arxiv:2611.14436": "VLM/2026-11-25",
+    "title:metricalignedgrouprelativepolicyoptimizationforexplainabledeepfakedetection": "VLM/2026-11-25",
+    "url:https://arxiv.org/abs/2611.14436": "VLM/2026-11-25",
+    "url:https://doi.org/10.1145/3840474.3840547": "VLM/2026-11-25",
+    "url:https://doi.org/10.48550/arxiv.2611.14436": "VLM/2026-11-25",
     "arxiv:2611.25670": "VLM/2026-11-24",
     "doi:10.48550/arxiv.2611.25670": "VLM/2026-11-24",
     "id:arxiv:2611.25670": "VLM/2026-11-24",
