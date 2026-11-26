@@ -1,0 +1,20 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+  "linked_by": "https://2026.emnlp.org/program/",
+  "checked_on": "2026-11-26",
+  "match": {
+    "Paper ID #-track)": "47-MAIN",
+    "Title": "Survival-Guided Length Control for Efficient Diffusion Language Models",
+    "Assigned \nPres Type": "Poster",
+    "Presentation Mode": "In-Person",
+    "Presenters Name": "Yufei Cui",
+    "Room Location": "Hall H",
+    "Session": "Session 5",
+    "Sub-session ": "Poster Session C",
+    "Session Date": "2026-10-26",
+    "Session Start Time": "09:00",
+    "Session End Time": "10:30",
+    "Board #": "166"
+  },
+  "csv_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350"
+}

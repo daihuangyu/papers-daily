@@ -1,0 +1,740 @@
+{
+  "pages": 15,
+  "original_images": 15,
+  "markdown_characters": 15435,
+  "text_lines_checked": 131,
+  "missing_lines": [],
+  "coverage_method": "All non-math lines matched to extracted PDF text. TeX source and render hashes verified. Each inline formula drawing and original crop matched by decoded pixels. Display math SVG path hashes checked. Page review recorded separately.",
+  "text_characters_per_page": [
+    885,
+    897,
+    786,
+    363,
+    812,
+    439,
+    1109,
+    1039,
+    805,
+    828,
+    907,
+    819,
+    956,
+    630,
+    670
+  ],
+  "out_of_page_characters": [],
+  "out_of_bounds_images": [],
+  "out_of_bounds_vector_curves": [],
+  "markdown_sha256": "64d88e785cc17bfc720ffda978f3ed0ba2bd6706bfd689540910c33f1ef1fe0c",
+  "pdf_sha256": "274cbe6f0244703444ee39839217d712b79737d0bd5fcb5afc787d788c2337b5",
+  "math": {
+    "occurrences": 84,
+    "display": 7,
+    "inline": 77,
+    "unique_expressions": 68,
+    "render_errors": 0,
+    "manifest": "assets/math-manifest.json",
+    "checks": [
+      {
+        "tex": "0.2+0.8\\cdot0.5=0.60",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "1-0.8^2=0.36",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "3\\cdot 0.2=0.6",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "B_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "K",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "L",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "N=10",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "P",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "Q_p",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "R",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "S(k)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "S_i",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "T",
+        "display": false,
+        "occurrences": 4,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "T S(T)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "U",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\Vert",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha=0.2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\bar\\theta=\\frac{\\sum_{i=0}^{K-1}\\alpha^i\\theta_{T-is}}{\\sum_{i=0}^{K-1}\\alpha^i}.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nS_i &=\\max_j s_{ij},\\qquad P=\\frac1N\\sum_{i=1}^N S_i,\\\\\nA&=Q_{0.90}(\\mathcal S),\\qquad\nU=Q_{0.90}(\\mathcal S)-Q_{0.10}(\\mathcal S),\\qquad R=100-U .\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\n\\widehat\\theta &=\\sum_{j=0}^{k}c_j\\theta_j\n = \\theta_0-\\sum_{i=1}^{k}w_i g_i, \\qquad\n w_i=\\sum_{j=i}^{k}c_j,\\\\\nc_0&=1-w_1,\\qquad c_j=w_j-w_{j+1}\\ (1\\le j\\lt k),\n\\qquad c_k=w_k .\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nh_k&\\approx\\mathrm{softmax}(z^{(0)}_{P+k})_{\\mathrm{EOS}},\\\\\nS(0)&=1,\\qquad S(k)=S(k-1)(1-h_k),\\qquad\n\\pi_k=h_k S(k-1).\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\ns_0^{(k)}&=B_k\\Vert x\\Vert m_k,\\qquad a_t\\sim p_\\theta(\\cdot\\mid s_t),\\\\\ns_{t+1}&=s_t\\Vert a_t\\Vert o_{t+1},\\qquad r_{t+1}=r(s_{t+1}),\\\\\nB_{k+1}&=\\mathrm{fit}(B_k\\Vert \\tau_k).\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\eta_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathbb E[\\min(L,T)]\n =\\sum_{k=1}^{T}S(k-1)\n =\\sum_{k=1}^{T}k\\pi_k+T S(T).",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathcal S",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\mathrm{fit}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\min(L,T)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_T",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\tau_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\theta",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\theta_0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\theta_j=\\theta_0-\\sum_{i=1}^j g_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\theta_{T-is}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\varepsilon_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "a_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "c_j",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "g_i",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "g_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "g_t=m_t+\\varepsilon_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "h_k",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "i",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "i-1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "i=0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "is",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "j",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "j\\ge i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "k",
+        "display": false,
+        "occurrences": 5,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "m_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "m_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "o_{t+1}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p_\\theta",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r_{t+1}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s_0^{(k)}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s_{ij}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "t",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "w_T=w_0-\\sum_{t=1}^{T}\\eta_t(m_t+\\varepsilon_t),\n\\qquad\n\\mathbb E[w_T]=w_0-\\sum_{t=1}^{T}\\eta_t m_t.",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "w_i",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "w_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "x",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "z^{(0)}_{P+k}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      }
+    ],
+    "vector_path_operations_per_page": [
+      0,
+      14,
+      2531,
+      0,
+      0,
+      2505,
+      0,
+      2241,
+      0,
+      0,
+      2531,
+      0,
+      3967,
+      0,
+      0
+    ]
+  },
+  "font_check": {
+    "status": "passed",
+    "missing_glyphs": 0,
+    "embedded_text_fonts": {
+      "/F2+0": "/AAAAAA+STSongti-TC-Bold",
+      "/F2+1": "/AAAAAB+STSongti-TC-Bold",
+      "/F2+2": "/AAAAAC+STSongti-TC-Bold",
+      "/F2+3": "/AAAAAD+STSongti-TC-Bold"
+    },
+    "math": "MathJax vector display paths and576dpi inline PNG; no raw TeX fallback"
+  },
+  "image_integrity": {
+    "original_crops": [
+      {
+        "file": "wsm-fig1.png",
+        "page": 2,
+        "pixel_identical": true,
+        "dimensions": [
+          1197,
+          471
+        ]
+      },
+      {
+        "file": "wsm-tables1-2.png",
+        "page": 4,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          681
+        ]
+      },
+      {
+        "file": "wsm-fig3.png",
+        "page": 4,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          852
+        ]
+      },
+      {
+        "file": "decay-fig1.png",
+        "page": 6,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          984
+        ]
+      },
+      {
+        "file": "decay-fig5.png",
+        "page": 7,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          342
+        ]
+      },
+      {
+        "file": "decay-table2.png",
+        "page": 7,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          510
+        ]
+      },
+      {
+        "file": "lost-fig2.png",
+        "page": 8,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          372
+        ]
+      },
+      {
+        "file": "lost-table1.png",
+        "page": 9,
+        "pixel_identical": true,
+        "dimensions": [
+          1473,
+          702
+        ]
+      },
+      {
+        "file": "lost-fig5.png",
+        "page": 10,
+        "pixel_identical": true,
+        "dimensions": [
+          1473,
+          849
+        ]
+      },
+      {
+        "file": "reward-fig1.png",
+        "page": 11,
+        "pixel_identical": true,
+        "dimensions": [
+          603,
+          807
+        ]
+      },
+      {
+        "file": "reward-fig3.png",
+        "page": 12,
+        "pixel_identical": true,
+        "dimensions": [
+          1206,
+          567
+        ]
+      },
+      {
+        "file": "reward-fig2.png",
+        "page": 12,
+        "pixel_identical": true,
+        "dimensions": [
+          1206,
+          633
+        ]
+      },
+      {
+        "file": "survival-alg1.png",
+        "page": 14,
+        "pixel_identical": true,
+        "dimensions": [
+          1389,
+          1446
+        ]
+      },
+      {
+        "file": "survival-table2.png",
+        "page": 15,
+        "pixel_identical": true,
+        "dimensions": [
+          669,
+          399
+        ]
+      },
+      {
+        "file": "survival-table1.png",
+        "page": 15,
+        "pixel_identical": true,
+        "dimensions": [
+          660,
+          504
+        ]
+      }
+    ],
+    "all_originals_pixel_identical": true,
+    "all_inline_formula_images_pixel_identical": true,
+    "inline_draw_occurrences": 77
+  },
+  "rendered_pages": [
+    {
+      "page": 1,
+      "sha256": "2ba1f172508c18c0dc20a02490cffb9beff3b7b5280608bb3b44dabfdbbb0cb3"
+    },
+    {
+      "page": 2,
+      "sha256": "8b9cfc4c3e31e7952ea8f9bdc81f0882f1fe7b106f39f48b7b61126272f7ce97"
+    },
+    {
+      "page": 3,
+      "sha256": "b32c2ffc7d4104b4ca598c16be1bc565c6f04fcc06f339af64e4dcbc8f60af71"
+    },
+    {
+      "page": 4,
+      "sha256": "32817c6e83924572b07dd9f9808f954eb016438fc7a2b7f5901e314f6b0646de"
+    },
+    {
+      "page": 5,
+      "sha256": "b50951d17c1eca7da11d767307653a669a0c183d8d47cc8be682252820b77c00"
+    },
+    {
+      "page": 6,
+      "sha256": "2ac3a793db83f67db89b71d2b390d0c2258d7137a58f9996266dd106d6f09931"
+    },
+    {
+      "page": 7,
+      "sha256": "7c4067701bff0ede9feb0411e734b7d94da780d47a411d0f68ce4d10cc4ebfeb"
+    },
+    {
+      "page": 8,
+      "sha256": "cbe139eb6bef39d26cc711775f3c88b4b2ab4678390ed98a865b950daf5b892f"
+    },
+    {
+      "page": 9,
+      "sha256": "7cae40afb57fe6c9085f9563a17cd6e661a071c21bc0e0c3e74a99602733bbb3"
+    },
+    {
+      "page": 10,
+      "sha256": "2b2f041c9d2f72433928696eaa9f68a1013335ecd76e51c2dc97ea4e6370d38f"
+    },
+    {
+      "page": 11,
+      "sha256": "567aef41b875a55bdff220449ed558dc059d01c380b6fe194aadfeaa2bacf7ca"
+    },
+    {
+      "page": 12,
+      "sha256": "e3aeebe280799023ba7e47784e3db9dfd2325e50d62e6e5802beba9201da63ac"
+    },
+    {
+      "page": 13,
+      "sha256": "7d7a41e4655b1a80ec3b0a50ecfbea77360c270d22af33187135282e99606f76"
+    },
+    {
+      "page": 14,
+      "sha256": "1323152154c7b2460eda04e8803223e8bb356229dd383c8a6802c6ada1a55554"
+    },
+    {
+      "page": 15,
+      "sha256": "b13f526ba7fba77a662c58e629bdf90296102f81dd3e9715a8d14b577f6ebefc"
+    }
+  ],
+  "visual_inspection_status": "passed",
+  "renderer": {
+    "build_report_sha256": "6427204ed19b8273d28ba419915784d269dd06d468582462d71c5366cdc80a06",
+    "math_render_sha256": "2b2b570c33c983e35d4e9ea1341ea514fd514a272b88c4a6e8fb39d0564b7b12",
+    "render_math_cjs_sha256": "1c767db4c1dac065b3872b9e91b0aa3b2344c192188210d3f56408e200984f5a",
+    "rendering": "pypdfium2 at122.4dpi, pypdf text/images, pdfplumber bounds",
+    "display_height_caps_pt": {
+      "reward-fig1.png": 285,
+      "survival-alg1.png": 310,
+      "survival-table1.png": 212,
+      "survival-table2.png": 198
+    }
+  },
+  "visual_review": {
+    "rendered_page_count": 15,
+    "method": "Inspected all final-page images in order and checked figure captions, tables, TeX glyphs, code blocks, bounds and footers.",
+    "checked_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "quick_read": {
+    "page": 1,
+    "entries": 5,
+    "internal_links": [
+      {
+        "anchor": "paper-wsm",
+        "target_page": 2
+      },
+      {
+        "anchor": "paper-decay",
+        "target_page": 5
+      },
+      {
+        "anchor": "paper-lost",
+        "target_page": 8
+      },
+      {
+        "anchor": "paper-reward",
+        "target_page": 10
+      },
+      {
+        "anchor": "paper-survival",
+        "target_page": 13
+      }
+    ]
+  }
+}

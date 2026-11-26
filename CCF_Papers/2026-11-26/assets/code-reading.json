@@ -1,0 +1,75 @@
+[
+  {
+    "paper": "wsm",
+    "repository": null,
+    "notes": [
+      "No verified author training/merge implementation in paper, proceedings, or title/arXiv/GitHub search. Formal Algorithm 1 read. Section 4.1 and Appendix A report different peak LR values."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies."
+  },
+  {
+    "paper": "decay",
+    "repository": null,
+    "notes": [
+      "No verified author implementation found in paper, venue page, first-author publication page, or exact-title GitHub search. Algorithm 1 and appendix configuration checked."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies."
+  },
+  {
+    "paper": "lost",
+    "repository": "https://github.com/microsoft/lost_in_conversation",
+    "notes": [
+      "Pinned simulation dispatch, single/multi-turn simulator, user-agent and evaluator/extraction paths read statically. No API simulations executed."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "c865793fe34a929d316119b0451d01bd9183bcfd",
+    "archive_sha256": "032e4f263630768d2faba5102324e44f5ec354beb5d79dcb9d613b48007ccae6",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "be2b808dbad104e280e56f1f45448f50f324f27e6fe77a44af5ba7f79f2589ed"
+      },
+      {
+        "path": "run_simulations.py",
+        "sha256": "9f1f81c31edf3057644e380d8fcbb8f6ebc65cd1b3a6dd0ff07dc96fcd0f9498"
+      },
+      {
+        "path": "simulator_full.py",
+        "sha256": "261ee834476e4372982d06dc8661a3ca52b0d6e33a7b8ca82edefb9e830f0143"
+      },
+      {
+        "path": "simulator_sharded.py",
+        "sha256": "3b6e1ea222c7e2c4d7fa411a3ae7b2fae09a4e45ca6f7196dacb65e6abda82d6"
+      },
+      {
+        "path": "user_agent.py",
+        "sha256": "9c584f616b70e76df77d656d55972c7885d5b42ef69b8b5b9290c780c3f761b3"
+      },
+      {
+        "path": "system_agent.py",
+        "sha256": "71d7636dea69797c0b27736c51fa37921a3c2944ae0c3adfd9bb6fefbbf720aa"
+      }
+    ]
+  },
+  {
+    "paper": "reward",
+    "repository": null,
+    "notes": [
+      "No verified author repository in formal PDF, paper records and title/arXiv search. Third-party implementations not attributed to authors. Prompts in Appendix A and Algorithm 1."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies."
+  },
+  {
+    "paper": "survival",
+    "repository": null,
+    "notes": [
+      "Official link to Dream is the base-model repository. No paper-specific official plugin found in formal article, arXiv or title/code searches. Complete Algorithm 1 available in Appendix B."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies."
+  }
+]
