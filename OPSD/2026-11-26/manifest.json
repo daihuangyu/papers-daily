@@ -1,0 +1,459 @@
+{
+  "date": "2026-11-26",
+  "direction": "OPSD",
+  "topic": "经验筛选、推理档位与停止纠偏",
+  "timezone": "Asia/Shanghai",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-26",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "search": {
+    "primary_index": "arXiv API / primary abs and PDF",
+    "arxiv_query_count": 169,
+    "terms": [
+      "on-policy distillation",
+      "on-policy self-distillation",
+      "self-distillation"
+    ],
+    "exclusions": [
+      "Previously indexed ID/title/DOI/URL",
+      "Out-of-window first release without a verified substantial revision",
+      "Unrelated or offline-only work"
+    ]
+  },
+  "sources": [
+    {
+      "id": "arxiv:2611.32390",
+      "type": "paper",
+      "title": "Evolve to Learn: Gradient-aligned experience evolution for model self-improvement",
+      "published": "2026-11-24",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.32390",
+      "doi": "10.48550/arXiv.2611.32390",
+      "url": "https://arxiv.org/abs/2611.32390",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32390",
+        "https://doi.org/10.48550/arXiv.2611.32390"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32390",
+      "submission_history": "Submission history From: Haoyuan Li [ view email ] [v1] Tue, 24 Nov 2026 10:54:17 UTC (3,433 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.32390v1",
+      "read_version": "v1",
+      "source_pdf_pages": 22,
+      "source_pdf_sha256": "4570a09e6c11d5686b2ac9ef0c296199898e48c3d16b626534c691b97471394f",
+      "publication_evidence_snapshot_sha256": "cec1cb82a03adcaa60f2e2eb947da4b6c9608fc8a1746fdf27b0b5f276ccf996",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Paper specifies veRL/GEPA settings, no official method repository confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/e2l-fig2.png",
+          "arxiv_id": "2611.32390",
+          "page": 5,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.168,
+            0.097,
+            0.833,
+            0.398
+          ],
+          "sha256": "8e0689bc5e329e678181af5e5c557d5172ccb7a02298459d55cb294a67e263b9",
+          "source_url": "https://arxiv.org/pdf/2611.32390v1"
+        },
+        {
+          "file": "assets/e2l-table1.png",
+          "arxiv_id": "2611.32390",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.167,
+            0.11,
+            0.833,
+            0.272
+          ],
+          "sha256": "1adf62e462bbf8f31c83358ae082d1809203f2e3796524713ffff056f9762cf9",
+          "source_url": "https://arxiv.org/pdf/2611.32390v1"
+        },
+        {
+          "file": "assets/e2l-fig4.png",
+          "arxiv_id": "2611.32390",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.171,
+            0.099,
+            0.83,
+            0.259
+          ],
+          "sha256": "283f7faa602315b8ad4bfb6020b5ff960a4a4c6a884bda083b934ddf242170f3",
+          "source_url": "https://arxiv.org/pdf/2611.32390v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.32131",
+      "type": "paper",
+      "title": "Rethinking Reasoning Effort Training in Large Language Models: On-Policy Distillation or Reinforcement Learning?",
+      "published": "2026-11-24",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.32131",
+      "doi": "10.48550/arXiv.2611.32131",
+      "url": "https://arxiv.org/abs/2611.32131",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32131",
+        "https://doi.org/10.48550/arXiv.2611.32131"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32131",
+      "submission_history": "Submission history From: Hao Li [ view email ] [v1] Tue, 24 Nov 2026 07:45:23 UTC (1,079 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.32131v1",
+      "read_version": "v1",
+      "source_pdf_pages": 42,
+      "source_pdf_sha256": "9140176cf3c76564110b557be771708c9d955053be6ce6e2c73e85205302d873",
+      "publication_evidence_snapshot_sha256": "e40dd2b4e44ff40a4343e85dce52e0da324356b17d73d7b187b5c5c7de2db172",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "No official training implementation found; paper discloses templates and experiments",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/effort-fig1.png",
+          "arxiv_id": "2611.32131",
+          "page": 4,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.116,
+            0.078,
+            0.883,
+            0.249
+          ],
+          "sha256": "64d4b80fadd49e8f1b51d35c5eb11b0a3c54c2aefc30de7dd45cb4db6e69a675",
+          "source_url": "https://arxiv.org/pdf/2611.32131v1"
+        },
+        {
+          "file": "assets/effort-fig3.png",
+          "arxiv_id": "2611.32131",
+          "page": 7,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.116,
+            0.253,
+            0.883,
+            0.437
+          ],
+          "sha256": "d34ae57946dbdb3d624d7ea56379ad80be8a8f695cd03ee3bb350c71162ac2cf",
+          "source_url": "https://arxiv.org/pdf/2611.32131v1"
+        },
+        {
+          "file": "assets/effort-fig4.png",
+          "arxiv_id": "2611.32131",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.116,
+            0.075,
+            0.883,
+            0.222
+          ],
+          "sha256": "5da4c99d513ee5a07bb31705fe83c05a46bc76496ac3164735e61e6ea836a7a3",
+          "source_url": "https://arxiv.org/pdf/2611.32131v1"
+        },
+        {
+          "file": "assets/effort-fig9.png",
+          "arxiv_id": "2611.32131",
+          "page": 17,
+          "paper_figure": "Figure 9",
+          "crop_box_normalized": [
+            0.116,
+            0.078,
+            0.883,
+            0.234
+          ],
+          "sha256": "ce87c77ab6ca6321cbbb846d7ffd58d88b666665d4f322e2343b29c978b9f341",
+          "source_url": "https://arxiv.org/pdf/2611.32131v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.31932",
+      "type": "paper",
+      "title": "Contrastive On-Policy Self-Distillation for LLM Unlearning",
+      "published": "2026-11-24",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.31932",
+      "doi": "10.48550/arXiv.2611.31932",
+      "url": "https://arxiv.org/abs/2611.31932",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.31932",
+        "https://doi.org/10.48550/arXiv.2611.31932"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.31932",
+      "submission_history": "Submission history From: Fangzhou Lin [ view email ] [v1] Tue, 24 Nov 2026 04:35:05 UTC (218 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.31932v1",
+      "read_version": "v1",
+      "source_pdf_pages": 12,
+      "source_pdf_sha256": "ec533b97634bab184a834ae1f4af16569828b32d8d3de6f3c148b382931998d7",
+      "publication_evidence_snapshot_sha256": "c936c962170a0640c12c038e729ce37a91e0f6dee7fd041a18c52c0f80673767",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "OpenUnlearning is the available evaluation framework; no official CPSD method repository confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/cpsd-fig1.png",
+          "arxiv_id": "2611.31932",
+          "page": 1,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.509,
+            0.267,
+            0.918,
+            0.449
+          ],
+          "sha256": "e2c567d0ff473374c0e2e5cd64975bb16d199fa84c11f2dbb63dcfb301202731",
+          "source_url": "https://arxiv.org/pdf/2611.31932v1"
+        },
+        {
+          "file": "assets/cpsd-fig2.png",
+          "arxiv_id": "2611.31932",
+          "page": 6,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.082,
+            0.076,
+            0.92,
+            0.263
+          ],
+          "sha256": "860561174fac6851be6c5ad33e11af5f069b488bde8e2813ffcbe553441f2b22",
+          "source_url": "https://arxiv.org/pdf/2611.31932v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.27125",
+      "type": "paper",
+      "title": "When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation",
+      "published": "2026-11-20",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.27125",
+      "doi": "10.48550/arXiv.2611.27125",
+      "url": "https://arxiv.org/abs/2611.27125",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.27125",
+        "https://doi.org/10.48550/arXiv.2611.27125"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.27125",
+      "submission_history": "Submission history From: Xinnan Zhang [ view email ] [v1] Fri, 20 Nov 2026 04:50:20 UTC (5,075 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.27125v1",
+      "read_version": "v1",
+      "source_pdf_pages": 29,
+      "source_pdf_sha256": "68fe81855f50f59273c3fe517aca8fda35d67b4244adf55cc18be411d83db48c",
+      "publication_evidence_snapshot_sha256": "8639323ba71fc93d7065d97ab5dba97a03582d2791a7c4b39ff71b500e2b2fc9",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Paper uses open-source veRL; no official routing implementation confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/dynamics-fig1.png",
+          "arxiv_id": "2611.27125",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.166,
+            0.095,
+            0.834,
+            0.335
+          ],
+          "sha256": "a7d5625bccf6ed20755b5a072a1a5d9a852db6dc5fde569989e6180fa85e891e",
+          "source_url": "https://arxiv.org/pdf/2611.27125v1"
+        },
+        {
+          "file": "assets/dynamics-fig2.png",
+          "arxiv_id": "2611.27125",
+          "page": 5,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.17,
+            0.095,
+            0.83,
+            0.251
+          ],
+          "sha256": "dfe8e9ff777ab27e8fbd0fa9ab8c8958a5235aa44284b95b0cb8fad45338acec",
+          "source_url": "https://arxiv.org/pdf/2611.27125v1"
+        },
+        {
+          "file": "assets/dynamics-table1.png",
+          "arxiv_id": "2611.27125",
+          "page": 9,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.188,
+            0.095,
+            0.812,
+            0.343
+          ],
+          "sha256": "1bb66dafd30a51a123817d427385c93daa1f24de51db1384afeec8077d7fde68",
+          "source_url": "https://arxiv.org/pdf/2611.27125v1"
+        },
+        {
+          "file": "assets/dynamics-fig7.png",
+          "arxiv_id": "2611.27125",
+          "page": 10,
+          "paper_figure": "Figure 7",
+          "crop_box_normalized": [
+            0.194,
+            0.502,
+            0.807,
+            0.599
+          ],
+          "sha256": "50ab74f33df95ec86d5bb707141d6e5a1ccb5ab63409cf36b461c85ef1627d59",
+          "source_url": "https://arxiv.org/pdf/2611.27125v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.19925",
+      "type": "paper",
+      "title": "Learning When to Continue and When to Stop: Termination-Aware OPSD",
+      "published": "2026-11-15",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.19925",
+      "doi": "10.48550/arXiv.2611.19925",
+      "url": "https://arxiv.org/abs/2611.19925",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.19925",
+        "https://doi.org/10.48550/arXiv.2611.19925"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.19925",
+      "submission_history": "Submission history From: Chaoqun He [ view email ] [v1] Sun, 15 Nov 2026 10:34:30 UTC (752 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.19925v1",
+      "read_version": "v1",
+      "source_pdf_pages": 15,
+      "source_pdf_sha256": "67e56766244adefd6fb6972c198ff6da4819c2316732b5208149a2299547ae4a",
+      "publication_evidence_snapshot_sha256": "e410428258e05e0118152cc0bc3cff441e1dc73679d1e99e23b8ba91d30e9117",
+      "code_url": "https://github.com/gtbxdf4/TA-OPSD",
+      "code_commit": "aa75c4cf6d3af6afb42ccb461d3dfb67b4f26529",
+      "code_status": "Verified training launcher, source, configurations and diagnostics at the stated commit; no experiment rerun",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/ta-fig1.png",
+          "arxiv_id": "2611.19925",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.168,
+            0.425,
+            0.832,
+            0.697
+          ],
+          "sha256": "afcc438715dc4730618aadcc9bda9ccb1f424d4baf33265067410f0478d4dafb",
+          "source_url": "https://arxiv.org/pdf/2611.19925v1"
+        },
+        {
+          "file": "assets/ta-table1.png",
+          "arxiv_id": "2611.19925",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.168,
+            0.1,
+            0.828,
+            0.519
+          ],
+          "sha256": "0952b1d82632dd77b011421116ec246e5be8523ce047617a9cc0dab6626ff9cc",
+          "source_url": "https://arxiv.org/pdf/2611.19925v1"
+        },
+        {
+          "file": "assets/ta-fig3.png",
+          "arxiv_id": "2611.19925",
+          "page": 8,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.168,
+            0.092,
+            0.832,
+            0.257
+          ],
+          "sha256": "70cf8a04bd9fc6b1c25d800bfc1157876c48c3cf7f56aa9857b741fb9d63be3a",
+          "source_url": "https://arxiv.org/pdf/2611.19925v1"
+        },
+        {
+          "file": "assets/ta-fig4.png",
+          "arxiv_id": "2611.19925",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.168,
+            0.346,
+            0.832,
+            0.636
+          ],
+          "sha256": "e9c41f377b3f2d8ceb9f8fd803d2acc0faf7ef2e063c99237fbe00c36e5106fb",
+          "source_url": "https://arxiv.org/pdf/2611.19925v1"
+        }
+      ]
+    }
+  ],
+  "auxiliary_sources": [
+    "https://arxiv.org/abs/2306.13649",
+    "https://thinkingmachines.ai/blog/on-policy-distillation/",
+    "https://huggingface.co/docs/trl/distillation_trainer",
+    "https://huggingface.co/docs/trl/grpo_trainer",
+    "https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html"
+  ],
+  "review": {
+    "pages": 15,
+    "prose_code_table_fragments_checked": 284,
+    "original_figures_and_tables": 17,
+    "original_image_pixels_matched": 17,
+    "unique_formulas": 132,
+    "math_occurrences": 157,
+    "display_formula_occurrences": 13,
+    "embedded_cjk_fonts": [
+      "/AAAAAA+STSongti-TC-Bold",
+      "/AAAAAB+STSongti-TC-Bold",
+      "/AAAAAC+STSongti-TC-Bold",
+      "/AAAAAD+STSongti-TC-Bold"
+    ],
+    "quick_read_link_destination_pages": [
+      2,
+      4,
+      7,
+      9,
+      12
+    ],
+    "page_bounds_checked": true,
+    "all_pages_rendered": true,
+    "page_renderer": "PDFium",
+    "markdown_sha256": "26eb00fd4e8fe9bffcd8f642f033efecf8e3e00e055130c33321530af100d950",
+    "pdf_sha256": "dcb8346407569daec0bd3125d971242d9184b359556d57d75e93f7609a8c5825"
+  },
+  "artifact_sha256": {
+    "assets/QA.md": "135072c306409ff173001b74c5a8b44e23c91db81d29ae2a3b8aaf9d5e15afb2",
+    "assets/SOURCES.md": "b808131bd6a08726762ba310a98ae12490189fea864cb6e02d7cececff6d1e4b",
+    "assets/cpsd-fig1.png": "e2c567d0ff473374c0e2e5cd64975bb16d199fa84c11f2dbb63dcfb301202731",
+    "assets/cpsd-fig2.png": "860561174fac6851be6c5ad33e11af5f069b488bde8e2813ffcbe553441f2b22",
+    "assets/dynamics-fig1.png": "a7d5625bccf6ed20755b5a072a1a5d9a852db6dc5fde569989e6180fa85e891e",
+    "assets/dynamics-fig2.png": "dfe8e9ff777ab27e8fbd0fa9ab8c8958a5235aa44284b95b0cb8fad45338acec",
+    "assets/dynamics-fig7.png": "50ab74f33df95ec86d5bb707141d6e5a1ccb5ab63409cf36b461c85ef1627d59",
+    "assets/dynamics-table1.png": "1bb66dafd30a51a123817d427385c93daa1f24de51db1384afeec8077d7fde68",
+    "assets/e2l-fig2.png": "8e0689bc5e329e678181af5e5c557d5172ccb7a02298459d55cb294a67e263b9",
+    "assets/e2l-fig4.png": "283f7faa602315b8ad4bfb6020b5ff960a4a4c6a884bda083b934ddf242170f3",
+    "assets/e2l-table1.png": "1adf62e462bbf8f31c83358ae082d1809203f2e3796524713ffff056f9762cf9",
+    "assets/effort-fig1.png": "64d4b80fadd49e8f1b51d35c5eb11b0a3c54c2aefc30de7dd45cb4db6e69a675",
+    "assets/effort-fig3.png": "d34ae57946dbdb3d624d7ea56379ad80be8a8f695cd03ee3bb350c71162ac2cf",
+    "assets/effort-fig4.png": "5da4c99d513ee5a07bb31705fe83c05a46bc76496ac3164735e61e6ea836a7a3",
+    "assets/effort-fig9.png": "ce87c77ab6ca6321cbbb846d7ffd58d88b666665d4f322e2343b29c978b9f341",
+    "assets/math-manifest.json": "b129e5c92622201b3880e4a224e2676529a341849ab8878f36b8acf763339372",
+    "assets/render_report.py": "444fc1f1b8f014d98f35dc276036e35ec85882c8f6d179e78ff374645ea45ba8",
+    "assets/ta-fig1.png": "afcc438715dc4730618aadcc9bda9ccb1f424d4baf33265067410f0478d4dafb",
+    "assets/ta-fig3.png": "70cf8a04bd9fc6b1c25d800bfc1157876c48c3cf7f56aa9857b741fb9d63be3a",
+    "assets/ta-fig4.png": "e9c41f377b3f2d8ceb9f8fd803d2acc0faf7ef2e063c99237fbe00c36e5106fb",
+    "assets/ta-table1.png": "0952b1d82632dd77b011421116ec246e5be8523ce047617a9cc0dab6626ff9cc",
+    "report.md": "26eb00fd4e8fe9bffcd8f642f033efecf8e3e00e055130c33321530af100d950",
+    "report.pdf": "dcb8346407569daec0bd3125d971242d9184b359556d57d75e93f7609a8c5825"
+  }
+}

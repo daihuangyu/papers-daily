@@ -9,7 +9,7 @@
 | 方向 | 最新日期 | 主题 | 阅读 | 历史 |
 | --- | --- | --- | --- | --- |
 | [CCF-A/B 论文](CCF_Papers/README.md) | 2026-11-26 | 学习率调度与推理时适应 | [Markdown](CCF_Papers/2026-11-26/report.md) · [PDF](CCF_Papers/2026-11-26/report.pdf) | [按月浏览](CCF_Papers/archive/README.md) |
-| [OPD / OPSD](OPSD/README.md) | 2026-11-25 | 教师信号、推理长度与错误定位 | [Markdown](OPSD/2026-11-25/report.md) · [PDF](OPSD/2026-11-25/report.pdf) | [按月浏览](OPSD/archive/README.md) |
+| [OPD / OPSD](OPSD/README.md) | 2026-11-26 | 经验筛选、推理档位与停止纠偏 | [Markdown](OPSD/2026-11-26/report.md) · [PDF](OPSD/2026-11-26/report.pdf) | [按月浏览](OPSD/archive/README.md) |
 | [VLM 后训练](VLM/README.md) | 2026-11-25 | 导航反事实回退、视觉注意力强化学习、多图监督合成、检索难例蒸馏与证据解释 | [Markdown](VLM/2026-11-25/report.md) · [PDF](VLM/2026-11-25/report.pdf) | [按月浏览](VLM/archive/README.md) |
 
 点方向名称查看最近 7 期。历年日报和每篇论文的标题都可在对应方向的历史月份中找到。

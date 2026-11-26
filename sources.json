@@ -3483,6 +3483,424 @@
       ]
     },
     {
+      "id": "arxiv:2611.32390",
+      "type": "paper",
+      "title": "Evolve to Learn: Gradient-aligned experience evolution for model self-improvement",
+      "published": "2026-11-24",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.32390",
+      "doi": "10.48550/arXiv.2611.32390",
+      "url": "https://arxiv.org/abs/2611.32390",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32390",
+        "https://doi.org/10.48550/arXiv.2611.32390"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32390",
+      "submission_history": "Submission history From: Haoyuan Li [ view email ] [v1] Tue, 24 Nov 2026 10:54:17 UTC (3,433 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.32390v1",
+      "read_version": "v1",
+      "source_pdf_pages": 22,
+      "source_pdf_sha256": "4570a09e6c11d5686b2ac9ef0c296199898e48c3d16b626534c691b97471394f",
+      "publication_evidence_snapshot_sha256": "cec1cb82a03adcaa60f2e2eb947da4b6c9608fc8a1746fdf27b0b5f276ccf996",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Paper specifies veRL/GEPA settings, no official method repository confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/e2l-fig2.png",
+          "arxiv_id": "2611.32390",
+          "page": 5,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.168,
+            0.097,
+            0.833,
+            0.398
+          ],
+          "sha256": "8e0689bc5e329e678181af5e5c557d5172ccb7a02298459d55cb294a67e263b9",
+          "source_url": "https://arxiv.org/pdf/2611.32390v1"
+        },
+        {
+          "file": "assets/e2l-table1.png",
+          "arxiv_id": "2611.32390",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.167,
+            0.11,
+            0.833,
+            0.272
+          ],
+          "sha256": "1adf62e462bbf8f31c83358ae082d1809203f2e3796524713ffff056f9762cf9",
+          "source_url": "https://arxiv.org/pdf/2611.32390v1"
+        },
+        {
+          "file": "assets/e2l-fig4.png",
+          "arxiv_id": "2611.32390",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.171,
+            0.099,
+            0.83,
+            0.259
+          ],
+          "sha256": "283f7faa602315b8ad4bfb6020b5ff960a4a4c6a884bda083b934ddf242170f3",
+          "source_url": "https://arxiv.org/pdf/2611.32390v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-26",
+      "aliases": [
+        "arxiv:2611.32390",
+        "doi:10.48550/arxiv.2611.32390",
+        "id:arxiv:2611.32390",
+        "title:evolvetolearngradientalignedexperienceevolutionformodelselfimprovement",
+        "url:https://arxiv.org/abs/2611.32390",
+        "url:https://doi.org/10.48550/arxiv.2611.32390"
+      ]
+    },
+    {
+      "id": "arxiv:2611.32131",
+      "type": "paper",
+      "title": "Rethinking Reasoning Effort Training in Large Language Models: On-Policy Distillation or Reinforcement Learning?",
+      "published": "2026-11-24",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.32131",
+      "doi": "10.48550/arXiv.2611.32131",
+      "url": "https://arxiv.org/abs/2611.32131",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32131",
+        "https://doi.org/10.48550/arXiv.2611.32131"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32131",
+      "submission_history": "Submission history From: Hao Li [ view email ] [v1] Tue, 24 Nov 2026 07:45:23 UTC (1,079 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.32131v1",
+      "read_version": "v1",
+      "source_pdf_pages": 42,
+      "source_pdf_sha256": "9140176cf3c76564110b557be771708c9d955053be6ce6e2c73e85205302d873",
+      "publication_evidence_snapshot_sha256": "e40dd2b4e44ff40a4343e85dce52e0da324356b17d73d7b187b5c5c7de2db172",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "No official training implementation found; paper discloses templates and experiments",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/effort-fig1.png",
+          "arxiv_id": "2611.32131",
+          "page": 4,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.116,
+            0.078,
+            0.883,
+            0.249
+          ],
+          "sha256": "64d4b80fadd49e8f1b51d35c5eb11b0a3c54c2aefc30de7dd45cb4db6e69a675",
+          "source_url": "https://arxiv.org/pdf/2611.32131v1"
+        },
+        {
+          "file": "assets/effort-fig3.png",
+          "arxiv_id": "2611.32131",
+          "page": 7,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.116,
+            0.253,
+            0.883,
+            0.437
+          ],
+          "sha256": "d34ae57946dbdb3d624d7ea56379ad80be8a8f695cd03ee3bb350c71162ac2cf",
+          "source_url": "https://arxiv.org/pdf/2611.32131v1"
+        },
+        {
+          "file": "assets/effort-fig4.png",
+          "arxiv_id": "2611.32131",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.116,
+            0.075,
+            0.883,
+            0.222
+          ],
+          "sha256": "5da4c99d513ee5a07bb31705fe83c05a46bc76496ac3164735e61e6ea836a7a3",
+          "source_url": "https://arxiv.org/pdf/2611.32131v1"
+        },
+        {
+          "file": "assets/effort-fig9.png",
+          "arxiv_id": "2611.32131",
+          "page": 17,
+          "paper_figure": "Figure 9",
+          "crop_box_normalized": [
+            0.116,
+            0.078,
+            0.883,
+            0.234
+          ],
+          "sha256": "ce87c77ab6ca6321cbbb846d7ffd58d88b666665d4f322e2343b29c978b9f341",
+          "source_url": "https://arxiv.org/pdf/2611.32131v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-26",
+      "aliases": [
+        "arxiv:2611.32131",
+        "doi:10.48550/arxiv.2611.32131",
+        "id:arxiv:2611.32131",
+        "title:rethinkingreasoningefforttraininginlargelanguagemodelsonpolicydistillationorreinforcementlearning",
+        "url:https://arxiv.org/abs/2611.32131",
+        "url:https://doi.org/10.48550/arxiv.2611.32131"
+      ]
+    },
+    {
+      "id": "arxiv:2611.31932",
+      "type": "paper",
+      "title": "Contrastive On-Policy Self-Distillation for LLM Unlearning",
+      "published": "2026-11-24",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.31932",
+      "doi": "10.48550/arXiv.2611.31932",
+      "url": "https://arxiv.org/abs/2611.31932",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.31932",
+        "https://doi.org/10.48550/arXiv.2611.31932"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.31932",
+      "submission_history": "Submission history From: Fangzhou Lin [ view email ] [v1] Tue, 24 Nov 2026 04:35:05 UTC (218 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.31932v1",
+      "read_version": "v1",
+      "source_pdf_pages": 12,
+      "source_pdf_sha256": "ec533b97634bab184a834ae1f4af16569828b32d8d3de6f3c148b382931998d7",
+      "publication_evidence_snapshot_sha256": "c936c962170a0640c12c038e729ce37a91e0f6dee7fd041a18c52c0f80673767",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "OpenUnlearning is the available evaluation framework; no official CPSD method repository confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/cpsd-fig1.png",
+          "arxiv_id": "2611.31932",
+          "page": 1,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.509,
+            0.267,
+            0.918,
+            0.449
+          ],
+          "sha256": "e2c567d0ff473374c0e2e5cd64975bb16d199fa84c11f2dbb63dcfb301202731",
+          "source_url": "https://arxiv.org/pdf/2611.31932v1"
+        },
+        {
+          "file": "assets/cpsd-fig2.png",
+          "arxiv_id": "2611.31932",
+          "page": 6,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.082,
+            0.076,
+            0.92,
+            0.263
+          ],
+          "sha256": "860561174fac6851be6c5ad33e11af5f069b488bde8e2813ffcbe553441f2b22",
+          "source_url": "https://arxiv.org/pdf/2611.31932v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-26",
+      "aliases": [
+        "arxiv:2611.31932",
+        "doi:10.48550/arxiv.2611.31932",
+        "id:arxiv:2611.31932",
+        "title:contrastiveonpolicyselfdistillationforllmunlearning",
+        "url:https://arxiv.org/abs/2611.31932",
+        "url:https://doi.org/10.48550/arxiv.2611.31932"
+      ]
+    },
+    {
+      "id": "arxiv:2611.27125",
+      "type": "paper",
+      "title": "When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation",
+      "published": "2026-11-20",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.27125",
+      "doi": "10.48550/arXiv.2611.27125",
+      "url": "https://arxiv.org/abs/2611.27125",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.27125",
+        "https://doi.org/10.48550/arXiv.2611.27125"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.27125",
+      "submission_history": "Submission history From: Xinnan Zhang [ view email ] [v1] Fri, 20 Nov 2026 04:50:20 UTC (5,075 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.27125v1",
+      "read_version": "v1",
+      "source_pdf_pages": 29,
+      "source_pdf_sha256": "68fe81855f50f59273c3fe517aca8fda35d67b4244adf55cc18be411d83db48c",
+      "publication_evidence_snapshot_sha256": "8639323ba71fc93d7065d97ab5dba97a03582d2791a7c4b39ff71b500e2b2fc9",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Paper uses open-source veRL; no official routing implementation confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/dynamics-fig1.png",
+          "arxiv_id": "2611.27125",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.166,
+            0.095,
+            0.834,
+            0.335
+          ],
+          "sha256": "a7d5625bccf6ed20755b5a072a1a5d9a852db6dc5fde569989e6180fa85e891e",
+          "source_url": "https://arxiv.org/pdf/2611.27125v1"
+        },
+        {
+          "file": "assets/dynamics-fig2.png",
+          "arxiv_id": "2611.27125",
+          "page": 5,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.17,
+            0.095,
+            0.83,
+            0.251
+          ],
+          "sha256": "dfe8e9ff777ab27e8fbd0fa9ab8c8958a5235aa44284b95b0cb8fad45338acec",
+          "source_url": "https://arxiv.org/pdf/2611.27125v1"
+        },
+        {
+          "file": "assets/dynamics-table1.png",
+          "arxiv_id": "2611.27125",
+          "page": 9,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.188,
+            0.095,
+            0.812,
+            0.343
+          ],
+          "sha256": "1bb66dafd30a51a123817d427385c93daa1f24de51db1384afeec8077d7fde68",
+          "source_url": "https://arxiv.org/pdf/2611.27125v1"
+        },
+        {
+          "file": "assets/dynamics-fig7.png",
+          "arxiv_id": "2611.27125",
+          "page": 10,
+          "paper_figure": "Figure 7",
+          "crop_box_normalized": [
+            0.194,
+            0.502,
+            0.807,
+            0.599
+          ],
+          "sha256": "50ab74f33df95ec86d5bb707141d6e5a1ccb5ab63409cf36b461c85ef1627d59",
+          "source_url": "https://arxiv.org/pdf/2611.27125v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-26",
+      "aliases": [
+        "arxiv:2611.27125",
+        "doi:10.48550/arxiv.2611.27125",
+        "id:arxiv:2611.27125",
+        "title:whenstudentsfailtolearnfromteacherslearningdynamicsofonpolicydistillation",
+        "url:https://arxiv.org/abs/2611.27125",
+        "url:https://doi.org/10.48550/arxiv.2611.27125"
+      ]
+    },
+    {
+      "id": "arxiv:2611.19925",
+      "type": "paper",
+      "title": "Learning When to Continue and When to Stop: Termination-Aware OPSD",
+      "published": "2026-11-15",
+      "publication_date_timezone": "UTC",
+      "arxiv_id": "2611.19925",
+      "doi": "10.48550/arXiv.2611.19925",
+      "url": "https://arxiv.org/abs/2611.19925",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.19925",
+        "https://doi.org/10.48550/arXiv.2611.19925"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.19925",
+      "submission_history": "Submission history From: Chaoqun He [ view email ] [v1] Sun, 15 Nov 2026 10:34:30 UTC (752 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.19925v1",
+      "read_version": "v1",
+      "source_pdf_pages": 15,
+      "source_pdf_sha256": "67e56766244adefd6fb6972c198ff6da4819c2316732b5208149a2299547ae4a",
+      "publication_evidence_snapshot_sha256": "e410428258e05e0118152cc0bc3cff441e1dc73679d1e99e23b8ba91d30e9117",
+      "code_url": "https://github.com/gtbxdf4/TA-OPSD",
+      "code_commit": "aa75c4cf6d3af6afb42ccb461d3dfb67b4f26529",
+      "code_status": "Verified training launcher, source, configurations and diagnostics at the stated commit; no experiment rerun",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/ta-fig1.png",
+          "arxiv_id": "2611.19925",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.168,
+            0.425,
+            0.832,
+            0.697
+          ],
+          "sha256": "afcc438715dc4730618aadcc9bda9ccb1f424d4baf33265067410f0478d4dafb",
+          "source_url": "https://arxiv.org/pdf/2611.19925v1"
+        },
+        {
+          "file": "assets/ta-table1.png",
+          "arxiv_id": "2611.19925",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.168,
+            0.1,
+            0.828,
+            0.519
+          ],
+          "sha256": "0952b1d82632dd77b011421116ec246e5be8523ce047617a9cc0dab6626ff9cc",
+          "source_url": "https://arxiv.org/pdf/2611.19925v1"
+        },
+        {
+          "file": "assets/ta-fig3.png",
+          "arxiv_id": "2611.19925",
+          "page": 8,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.168,
+            0.092,
+            0.832,
+            0.257
+          ],
+          "sha256": "70cf8a04bd9fc6b1c25d800bfc1157876c48c3cf7f56aa9857b741fb9d63be3a",
+          "source_url": "https://arxiv.org/pdf/2611.19925v1"
+        },
+        {
+          "file": "assets/ta-fig4.png",
+          "arxiv_id": "2611.19925",
+          "page": 8,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.168,
+            0.346,
+            0.832,
+            0.636
+          ],
+          "sha256": "e9c41f377b3f2d8ceb9f8fd803d2acc0faf7ef2e063c99237fbe00c36e5106fb",
+          "source_url": "https://arxiv.org/pdf/2611.19925v1"
+        }
+      ],
+      "folder": "OPSD/2026-11-26",
+      "aliases": [
+        "arxiv:2611.19925",
+        "doi:10.48550/arxiv.2611.19925",
+        "id:arxiv:2611.19925",
+        "title:learningwhentocontinueandwhentostopterminationawareopsd",
+        "url:https://arxiv.org/abs/2611.19925",
+        "url:https://doi.org/10.48550/arxiv.2611.19925"
+      ]
+    },
+    {
       "id": "arxiv:2611.30325",
       "type": "paper",
       "title": "Verifiable On-Policy Distillation",
@@ -16455,6 +16873,36 @@
     "id:vllm-release:0.33.0": "VLM/2026-11-16",
     "title:vllmv0330release": "VLM/2026-11-16",
     "url:https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": "VLM/2026-11-16",
+    "arxiv:2611.32390": "OPSD/2026-11-26",
+    "doi:10.48550/arxiv.2611.32390": "OPSD/2026-11-26",
+    "id:arxiv:2611.32390": "OPSD/2026-11-26",
+    "title:evolvetolearngradientalignedexperienceevolutionformodelselfimprovement": "OPSD/2026-11-26",
+    "url:https://arxiv.org/abs/2611.32390": "OPSD/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.32390": "OPSD/2026-11-26",
+    "arxiv:2611.32131": "OPSD/2026-11-26",
+    "doi:10.48550/arxiv.2611.32131": "OPSD/2026-11-26",
+    "id:arxiv:2611.32131": "OPSD/2026-11-26",
+    "title:rethinkingreasoningefforttraininginlargelanguagemodelsonpolicydistillationorreinforcementlearning": "OPSD/2026-11-26",
+    "url:https://arxiv.org/abs/2611.32131": "OPSD/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.32131": "OPSD/2026-11-26",
+    "arxiv:2611.31932": "OPSD/2026-11-26",
+    "doi:10.48550/arxiv.2611.31932": "OPSD/2026-11-26",
+    "id:arxiv:2611.31932": "OPSD/2026-11-26",
+    "title:contrastiveonpolicyselfdistillationforllmunlearning": "OPSD/2026-11-26",
+    "url:https://arxiv.org/abs/2611.31932": "OPSD/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.31932": "OPSD/2026-11-26",
+    "arxiv:2611.27125": "OPSD/2026-11-26",
+    "doi:10.48550/arxiv.2611.27125": "OPSD/2026-11-26",
+    "id:arxiv:2611.27125": "OPSD/2026-11-26",
+    "title:whenstudentsfailtolearnfromteacherslearningdynamicsofonpolicydistillation": "OPSD/2026-11-26",
+    "url:https://arxiv.org/abs/2611.27125": "OPSD/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.27125": "OPSD/2026-11-26",
+    "arxiv:2611.19925": "OPSD/2026-11-26",
+    "doi:10.48550/arxiv.2611.19925": "OPSD/2026-11-26",
+    "id:arxiv:2611.19925": "OPSD/2026-11-26",
+    "title:learningwhentocontinueandwhentostopterminationawareopsd": "OPSD/2026-11-26",
+    "url:https://arxiv.org/abs/2611.19925": "OPSD/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.19925": "OPSD/2026-11-26",
     "arxiv:2611.30325": "OPSD/2026-11-25",
     "doi:10.48550/arxiv.2611.30325": "OPSD/2026-11-25",
     "id:arxiv:2611.30325": "OPSD/2026-11-25",
