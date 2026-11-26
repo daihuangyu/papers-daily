@@ -2,6 +2,484 @@
   "schema_version": 2,
   "sources": [
     {
+      "id": "arxiv:2611.32292",
+      "type": "paper",
+      "arxiv_id": "2611.32292",
+      "doi": "10.48550/arXiv.2611.32292",
+      "title": "VC-OPD: Learning to See What Matters via Visual Cue On-Policy Self-Distillation",
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.32292",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32292",
+        "https://doi.org/10.48550/arXiv.2611.32292"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32292",
+      "pdf_url": "https://arxiv.org/pdf/2611.32292v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "Checked original, exact title and authors for code. No official training repository, final visual-cue library, or standalone author blog verified. The judge model is distinct from the unspecified external cue generator.",
+      "pdf_sha256": "57db6b033d4388a3eacb970be8928b4f8f3bb08d74185e13f151ee14269f5cad",
+      "figures": [
+        {
+          "file": "assets/vc-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.172,
+            0.535,
+            0.829,
+            0.914
+          ],
+          "size": [
+            1219,
+            910
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32292v1",
+          "png_sha256": "1af86d687462f938e400cd8d57e61e2bd8c425d7e2043c3f927fae500bce2a99"
+        },
+        {
+          "file": "assets/vc-results.png",
+          "paper_figure": "Table 1",
+          "page": 7,
+          "crop_normalized": [
+            0.17,
+            0.106,
+            0.83,
+            0.54
+          ],
+          "size": [
+            1225,
+            1042
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32292v1",
+          "png_sha256": "3972158ce4cef4e56cd4bf956faa05f1afd26cddcb5f8a5867b72af775498502"
+        },
+        {
+          "file": "assets/vc-ablation.png",
+          "paper_figure": "Table 2",
+          "page": 9,
+          "crop_normalized": [
+            0.17,
+            0.489,
+            0.829,
+            0.778
+          ],
+          "size": [
+            1223,
+            693
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32292v1",
+          "png_sha256": "820ae333b2e48e2a09ac857d86480ce03927e0383ad4b72bf09f7ee70fa7f639"
+        },
+        {
+          "file": "assets/vc-warm.png",
+          "paper_figure": "Table 3",
+          "page": 14,
+          "crop_normalized": [
+            0.17,
+            0.227,
+            0.829,
+            0.455
+          ],
+          "size": [
+            1223,
+            547
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32292v1",
+          "png_sha256": "6047b13a0c399033d3ecd0aacd5086239ce08e6087c7593ea5e5b1bd4560642f"
+        }
+      ],
+      "folder": "VLM/2026-11-26",
+      "aliases": [
+        "arxiv:2611.32292",
+        "doi:10.48550/arxiv.2611.32292",
+        "id:arxiv:2611.32292",
+        "title:vcopdlearningtoseewhatmattersviavisualcueonpolicyselfdistillation",
+        "url:https://arxiv.org/abs/2611.32292",
+        "url:https://doi.org/10.48550/arxiv.2611.32292"
+      ]
+    },
+    {
+      "id": "arxiv:2611.32147",
+      "type": "paper",
+      "arxiv_id": "2611.32147",
+      "doi": "10.48550/arXiv.2611.32147",
+      "title": "ARS-VLM: Visually Aligned Augmented Random Search for Vision-Language Models",
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.32147",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32147",
+        "https://doi.org/10.48550/arXiv.2611.32147"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32147",
+      "pdf_url": "https://arxiv.org/pdf/2611.32147v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "Checked original, exact title and authors for code. No official method implementation or standalone author blog verified. Appendix provides hardware and integration details.",
+      "pdf_sha256": "2ff8ccfff78ab950decbece54d30e2aad5e27917e59cb432845cb76c439e5a36",
+      "figures": [
+        {
+          "file": "assets/ars-method.png",
+          "paper_figure": "Figure 1",
+          "page": 2,
+          "crop_normalized": [
+            0.111,
+            0.077,
+            0.895,
+            0.401
+          ],
+          "size": [
+            1454,
+            777
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32147v1",
+          "png_sha256": "b0c1e323dd7c6c13fde5b74c40bcd640ed82391abd7cdcf53479a5132012b3cb"
+        },
+        {
+          "file": "assets/ars-8b.png",
+          "paper_figure": "Table 1",
+          "page": 7,
+          "crop_normalized": [
+            0.112,
+            0.078,
+            0.889,
+            0.424
+          ],
+          "size": [
+            1441,
+            831
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32147v1",
+          "png_sha256": "99f90249988945a7ba1e3ac87859fc4e96fbcf35c31ec021a65d84386ce3b7a2"
+        },
+        {
+          "file": "assets/ars-4b.png",
+          "paper_figure": "Table 2",
+          "page": 7,
+          "crop_normalized": [
+            0.111,
+            0.429,
+            0.889,
+            0.7
+          ],
+          "size": [
+            1443,
+            650
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32147v1",
+          "png_sha256": "a16eb2bb0eac856168246d7b47e4fe1d63b752f89a0ed5adb3bf3b9353ad8bc8"
+        },
+        {
+          "file": "assets/ars-memory.png",
+          "paper_figure": "Figure 2",
+          "page": 8,
+          "crop_normalized": [
+            0.111,
+            0.077,
+            0.89,
+            0.337
+          ],
+          "size": [
+            1445,
+            624
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32147v1",
+          "png_sha256": "97766f76c21a65995076a7de74829e769f2b65470814fdd72ed77231189c02de"
+        }
+      ],
+      "folder": "VLM/2026-11-26",
+      "aliases": [
+        "arxiv:2611.32147",
+        "doi:10.48550/arxiv.2611.32147",
+        "id:arxiv:2611.32147",
+        "title:arsvlmvisuallyalignedaugmentedrandomsearchforvisionlanguagemodels",
+        "url:https://arxiv.org/abs/2611.32147",
+        "url:https://doi.org/10.48550/arxiv.2611.32147"
+      ]
+    },
+    {
+      "id": "arxiv:2611.32687",
+      "type": "paper",
+      "arxiv_id": "2611.32687",
+      "doi": "10.48550/arXiv.2611.32687",
+      "title": "Are We Rewarding the Wrong Module? Module-Specific Policy Optimization for Multimodal Reinforcement Learning",
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.32687",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32687",
+        "https://doi.org/10.48550/arXiv.2611.32687"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32687",
+      "pdf_url": "https://arxiv.org/pdf/2611.32687v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "Checked original, exact title and authors for code. No official method repository or standalone author blog verified. Appendix gives checklist prompts and training details.",
+      "pdf_sha256": "3e89520e3becae37822448a71c3bb5c32c06c99717d7f2e50eec3c8cf166cd4c",
+      "figures": [
+        {
+          "file": "assets/mspo-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.097,
+            0.077,
+            0.913,
+            0.382
+          ],
+          "size": [
+            1514,
+            732
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32687v1",
+          "png_sha256": "88de0414dd8d258e9a20a05b5b0dfb6bc81e33cf55edebe2abdc4bf17aaa09a6"
+        },
+        {
+          "file": "assets/mspo-results.png",
+          "paper_figure": "Table 1",
+          "page": 5,
+          "crop_normalized": [
+            0.091,
+            0.083,
+            0.917,
+            0.51
+          ],
+          "size": [
+            1532,
+            1025
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32687v1",
+          "png_sha256": "6a8f101fc00d8152294c71daabf43f62fd54e953d84098044db8646ee7434df7"
+        },
+        {
+          "file": "assets/mspo-ablation.png",
+          "paper_figure": "Table 2",
+          "page": 6,
+          "crop_normalized": [
+            0.091,
+            0.084,
+            0.918,
+            0.405
+          ],
+          "size": [
+            1534,
+            770
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32687v1",
+          "png_sha256": "51257eb6ae69bc4419d22c48a514a664d33792b271fadc3789db3bdb40820b1b"
+        }
+      ],
+      "folder": "VLM/2026-11-26",
+      "aliases": [
+        "arxiv:2611.32687",
+        "doi:10.48550/arxiv.2611.32687",
+        "id:arxiv:2611.32687",
+        "title:arewerewardingthewrongmodulemodulespecificpolicyoptimizationformultimodalreinforcementlearning",
+        "url:https://arxiv.org/abs/2611.32687",
+        "url:https://doi.org/10.48550/arxiv.2611.32687"
+      ]
+    },
+    {
+      "id": "arxiv:2611.29969",
+      "type": "paper",
+      "arxiv_id": "2611.29969",
+      "doi": "10.48550/arXiv.2611.29969",
+      "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.29969",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.29969",
+        "https://doi.org/10.48550/arXiv.2611.29969"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.29969",
+      "pdf_url": "https://arxiv.org/pdf/2611.29969v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/xiaoqian-UQ/CARE-3D",
+      "project_url": null,
+      "code_verification": "Verified README eedce5886636e9e1ef0606223f66030bcb291ff9 and RL launch script b5dfec43221888723a633b41fb7c3ba499472700. Default script anneals coverage from 2 to 1 after step 200; the paper reports 6+2 batching. No full rerun or standalone author blog.",
+      "pdf_sha256": "b791b2bfcff1f9b7f991b95054ca6355de9ac28e7d69c9ca3a00d268a6df7d17",
+      "figures": [
+        {
+          "file": "assets/care-method.png",
+          "paper_figure": "Figure 3",
+          "page": 3,
+          "crop_normalized": [
+            0.113,
+            0.081,
+            0.89,
+            0.369
+          ],
+          "size": [
+            1318,
+            692
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.29969v1",
+          "png_sha256": "cf88ba20454f70311b4bdff80123bf21a7e36fda61c1e1a4674727d29b77bf38"
+        },
+        {
+          "file": "assets/care-results.png",
+          "paper_figure": "Table 1",
+          "page": 7,
+          "crop_normalized": [
+            0.113,
+            0.081,
+            0.89,
+            0.516
+          ],
+          "size": [
+            1318,
+            1044
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.29969v1",
+          "png_sha256": "3f06b7bea9b23a6760e0a1287e643f59dd9c155868dbf0799b5c986d274a2b9a"
+        },
+        {
+          "file": "assets/care-ablation.png",
+          "paper_figure": "Table 2",
+          "page": 8,
+          "crop_normalized": [
+            0.113,
+            0.081,
+            0.89,
+            0.264
+          ],
+          "size": [
+            1318,
+            440
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.29969v1",
+          "png_sha256": "0400aac9b24fdb8f8bb662adca08e11b4790de092e152bf7e81a0f3a44ad4a38"
+        },
+        {
+          "file": "assets/care-tools.png",
+          "paper_figure": "Figure 5",
+          "page": 8,
+          "crop_normalized": [
+            0.513,
+            0.265,
+            0.892,
+            0.51
+          ],
+          "size": [
+            643,
+            588
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.29969v1",
+          "png_sha256": "ed75920e358b543621667c2bc6d297cd693a30430a03dfcd8b269633dde28422"
+        }
+      ],
+      "folder": "VLM/2026-11-26",
+      "aliases": [
+        "arxiv:2611.29969",
+        "doi:10.48550/arxiv.2611.29969",
+        "id:arxiv:2611.29969",
+        "title:care3dreinforcementlearningforevidencegroundedagenticreasoninginsituated3dscenes",
+        "url:https://arxiv.org/abs/2611.29969",
+        "url:https://doi.org/10.48550/arxiv.2611.29969"
+      ]
+    },
+    {
+      "id": "arxiv:2611.32183",
+      "type": "paper",
+      "arxiv_id": "2611.32183",
+      "doi": "10.48550/arXiv.2611.32183",
+      "title": "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.32183",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32183",
+        "https://doi.org/10.48550/arXiv.2611.32183"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32183",
+      "pdf_url": "https://arxiv.org/pdf/2611.32183v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/ThinkMorph/ThinkMorph-SSL",
+      "project_url": "https://thinkmorph.github.io/ssl/",
+      "code_verification": "Verified author project, README 117a02c1f2ccd2b4ea300b41489412185ecda13f, stage-1 YAML 53d37a598cdd1000611795faa6e58560c15bdf5b and stage-2 YAML 18199643424cabc4d78cde77e3064215e2fa1606. Both data cards and model cards linked. Restricted image rows require separate access. No full rerun.",
+      "pdf_sha256": "5cb98aa6d88f17efc266d2ffb9b8015933eecd672ec220e7008a7693b2e5e23d",
+      "figures": [
+        {
+          "file": "assets/think-method.png",
+          "paper_figure": "Figure 1",
+          "page": 2,
+          "crop_normalized": [
+            0.172,
+            0.553,
+            0.83,
+            0.907
+          ],
+          "size": [
+            1221,
+            850
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32183v1",
+          "png_sha256": "5985c5e99dc6bf021ec5d27ec962c564230b5eec60d7ddad764977543dfa683a"
+        },
+        {
+          "file": "assets/think-l1.png",
+          "paper_figure": "Table 3",
+          "page": 6,
+          "crop_normalized": [
+            0.171,
+            0.55,
+            0.829,
+            0.897
+          ],
+          "size": [
+            1221,
+            833
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32183v1",
+          "png_sha256": "ab6159e0d413ccb9c0a498bc30fb49b78cd1dc0f9a35d46e46336c8a5006bb68"
+        },
+        {
+          "file": "assets/think-l23.png",
+          "paper_figure": "Table 4",
+          "page": 7,
+          "crop_normalized": [
+            0.171,
+            0.097,
+            0.829,
+            0.438
+          ],
+          "size": [
+            1221,
+            818
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32183v1",
+          "png_sha256": "c89747aa10d56052c90695da93ffb8c80d3933301c16a287b9043a2985a72cbd"
+        },
+        {
+          "file": "assets/think-ablation.png",
+          "paper_figure": "Figure 6",
+          "page": 9,
+          "crop_normalized": [
+            0.17,
+            0.094,
+            0.83,
+            0.292
+          ],
+          "size": [
+            1225,
+            475
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32183v1",
+          "png_sha256": "230d6837fcb67fc95632f8aeb59975dea754763e4b43eeeb5e28442d853f85a1"
+        }
+      ],
+      "folder": "VLM/2026-11-26",
+      "aliases": [
+        "arxiv:2611.32183",
+        "doi:10.48550/arxiv.2611.32183",
+        "id:arxiv:2611.32183",
+        "title:thinkmorphsslscalinginterleavedmultimodalreasoningwithpretexttasks",
+        "url:https://arxiv.org/abs/2611.32183",
+        "url:https://doi.org/10.48550/arxiv.2611.32183"
+      ]
+    },
+    {
       "id": "arxiv:2611.30900",
       "type": "paper",
       "arxiv_id": "2611.30900",
@@ -16626,6 +17104,36 @@
     }
   ],
   "aliases": {
+    "arxiv:2611.32292": "VLM/2026-11-26",
+    "doi:10.48550/arxiv.2611.32292": "VLM/2026-11-26",
+    "id:arxiv:2611.32292": "VLM/2026-11-26",
+    "title:vcopdlearningtoseewhatmattersviavisualcueonpolicyselfdistillation": "VLM/2026-11-26",
+    "url:https://arxiv.org/abs/2611.32292": "VLM/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.32292": "VLM/2026-11-26",
+    "arxiv:2611.32147": "VLM/2026-11-26",
+    "doi:10.48550/arxiv.2611.32147": "VLM/2026-11-26",
+    "id:arxiv:2611.32147": "VLM/2026-11-26",
+    "title:arsvlmvisuallyalignedaugmentedrandomsearchforvisionlanguagemodels": "VLM/2026-11-26",
+    "url:https://arxiv.org/abs/2611.32147": "VLM/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.32147": "VLM/2026-11-26",
+    "arxiv:2611.32687": "VLM/2026-11-26",
+    "doi:10.48550/arxiv.2611.32687": "VLM/2026-11-26",
+    "id:arxiv:2611.32687": "VLM/2026-11-26",
+    "title:arewerewardingthewrongmodulemodulespecificpolicyoptimizationformultimodalreinforcementlearning": "VLM/2026-11-26",
+    "url:https://arxiv.org/abs/2611.32687": "VLM/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.32687": "VLM/2026-11-26",
+    "arxiv:2611.29969": "VLM/2026-11-26",
+    "doi:10.48550/arxiv.2611.29969": "VLM/2026-11-26",
+    "id:arxiv:2611.29969": "VLM/2026-11-26",
+    "title:care3dreinforcementlearningforevidencegroundedagenticreasoninginsituated3dscenes": "VLM/2026-11-26",
+    "url:https://arxiv.org/abs/2611.29969": "VLM/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.29969": "VLM/2026-11-26",
+    "arxiv:2611.32183": "VLM/2026-11-26",
+    "doi:10.48550/arxiv.2611.32183": "VLM/2026-11-26",
+    "id:arxiv:2611.32183": "VLM/2026-11-26",
+    "title:thinkmorphsslscalinginterleavedmultimodalreasoningwithpretexttasks": "VLM/2026-11-26",
+    "url:https://arxiv.org/abs/2611.32183": "VLM/2026-11-26",
+    "url:https://doi.org/10.48550/arxiv.2611.32183": "VLM/2026-11-26",
     "arxiv:2611.30900": "VLM/2026-11-25",
     "doi:10.48550/arxiv.2611.30900": "VLM/2026-11-25",
     "id:arxiv:2611.30900": "VLM/2026-11-25",
