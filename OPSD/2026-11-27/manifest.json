@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-27",
+  "direction": "OPSD",
+  "topic": "证据回放、循环自蒸馏与教师适配",
+  "timezone": "Asia/Shanghai",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-27",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "search": {
+    "primary_index": "arXiv API / primary abs and PDF",
+    "arxiv_query_count": 176,
+    "terms": [
+      "on-policy distillation",
+      "on-policy self-distillation",
+      "self-distillation"
+    ],
+    "exclusions": [
+      "Previously indexed ID/title/DOI/URL",
+      "Out-of-window first release without a verified substantial revision",
+      "Unrelated or offline-only work"
+    ]
+  },
+  "sources": [
+    {
+      "id": "arxiv:2611.34756",
+      "type": "paper",
+      "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
+      "published": "2026-11-25",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-11-25T17:27:31+00:00",
+      "published_at_beijing": "2026-11-26T01:27:31+08:00",
+      "arxiv_id": "2611.34756",
+      "doi": "10.48550/arXiv.2611.34756",
+      "url": "https://arxiv.org/abs/2611.34756",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.34756",
+        "https://doi.org/10.48550/arXiv.2611.34756"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.34756",
+      "submission_history": "Submission history From: Zhen Huang [ view email ] [v1] Wed, 25 Nov 2026 17:27:31 UTC (10,417 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.34756v1",
+      "read_version": "v1",
+      "source_pdf_pages": 15,
+      "source_pdf_sha256": "c6bb329fd6fcf1843baf63a71f7dcc45c13e3e6c3d842569a9abbb44a321db86",
+      "publication_evidence_snapshot_sha256": "c850918dc7380a077a9d3a1759d41c1a31d6ad95e8887fc881b171981e620eaa",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Paper gives Algorithm 1, training settings and selector prompt; no dedicated author implementation confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/care-fig1.png",
+          "arxiv_id": "2611.34756",
+          "page": 3,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.116,
+            0.55,
+            0.888,
+            0.836
+          ],
+          "sha256": "a878425e1046df2e9824c8cefacfcf09fa8ca005e62bf29de6a5288e44751fe7",
+          "source_url": "https://arxiv.org/pdf/2611.34756v1"
+        },
+        {
+          "file": "assets/care-table1.png",
+          "arxiv_id": "2611.34756",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.115,
+            0.12,
+            0.887,
+            0.434
+          ],
+          "sha256": "a6bc691b2c031ddcbb30c26dc9aed739a9aa6d7cf8bb0ba05e96999c75c02266",
+          "source_url": "https://arxiv.org/pdf/2611.34756v1"
+        },
+        {
+          "file": "assets/care-table2.png",
+          "arxiv_id": "2611.34756",
+          "page": 8,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.115,
+            0.342,
+            0.887,
+            0.483
+          ],
+          "sha256": "f8a8172f5c1d3ea600dd803227d753b00b2af9c12eeb6713cf9704d9ca3f918c",
+          "source_url": "https://arxiv.org/pdf/2611.34756v1"
+        },
+        {
+          "file": "assets/care-fig2.png",
+          "arxiv_id": "2611.34756",
+          "page": 8,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.321,
+            0.69,
+            0.684,
+            0.902
+          ],
+          "sha256": "033a42712763dad3d92624647bd3b133b825958f850cdbe62f9f6c8ba47cac3c",
+          "source_url": "https://arxiv.org/pdf/2611.34756v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.32452",
+      "type": "paper",
+      "title": "The Teacher Is Already Inside: Self-Distilling Looped Language Models Beyond Their Last Loop",
+      "published": "2026-11-24",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-11-24T11:48:41+00:00",
+      "published_at_beijing": "2026-11-24T19:48:41+08:00",
+      "arxiv_id": "2611.32452",
+      "doi": "10.48550/arXiv.2611.32452",
+      "url": "https://arxiv.org/abs/2611.32452",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32452",
+        "https://doi.org/10.48550/arXiv.2611.32452"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32452",
+      "submission_history": "Submission history From: Linghua Zhang [ view email ] [v1] Tue, 24 Nov 2026 11:48:41 UTC (15 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.32452v1",
+      "read_version": "v1",
+      "source_pdf_pages": 11,
+      "source_pdf_sha256": "6a8d3a3cfd04db299a30079baadd062f016e10efff2126cd1badbff18ba73948",
+      "publication_evidence_snapshot_sha256": "3ad5b869d28a6dc934cd4330d458b7144ecbe36b4dd0415086f589e090476a87",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Public base model and Appendix B settings; no dedicated author implementation confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/elpsd-table1.png",
+          "arxiv_id": "2611.32452",
+          "page": 4,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.118,
+            0.098,
+            0.883,
+            0.321
+          ],
+          "sha256": "afb3d1ee38732d61555cfcbd7ed449de7161ea27716321bd3bacf83f9254c129",
+          "source_url": "https://arxiv.org/pdf/2611.32452v1"
+        },
+        {
+          "file": "assets/elpsd-table2.png",
+          "arxiv_id": "2611.32452",
+          "page": 7,
+          "paper_figure": "Table 2",
+          "crop_box_normalized": [
+            0.118,
+            0.098,
+            0.883,
+            0.253
+          ],
+          "sha256": "e894be334d42648ff765111673d14b84cc4105df463454b6f3abd257522c29ae",
+          "source_url": "https://arxiv.org/pdf/2611.32452v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.11450",
+      "type": "paper",
+      "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
+      "published": "2026-11-08",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-11-08T15:22:47+00:00",
+      "published_at_beijing": "2026-11-08T23:22:47+08:00",
+      "arxiv_id": "2611.11450",
+      "doi": "10.48550/arXiv.2611.11450",
+      "url": "https://arxiv.org/abs/2611.11450",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.11450",
+        "https://doi.org/10.48550/arXiv.2611.11450"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.11450",
+      "submission_history": "Submission history From: Cong Yu [ view email ] [v1] Sun, 8 Nov 2026 15:22:47 UTC (306 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.11450v1",
+      "read_version": "v1",
+      "source_pdf_pages": 28,
+      "source_pdf_sha256": "fd63c1c5b1d8a0f173e978485e78424a86eb5ed927c0f29060f7b256b03b76c1",
+      "publication_evidence_snapshot_sha256": "10c714fbac6adf009c63bbe2b4f60efd1b6df857417e309a0aeadea0bc374478",
+      "code_url": "https://github.com/benyucong/train-inference-mismatch-opd",
+      "code_commit": "1fc4571cc5cb07173193fec546827956ae647fe5",
+      "code_status": "Verified author training, reward, benchmark and diagnostic code, and logs at this commit; no experiment rerun",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/mismatch-fig2.png",
+          "arxiv_id": "2611.11450",
+          "page": 3,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.499,
+            0.077,
+            0.889,
+            0.308
+          ],
+          "sha256": "637dbee047cf0063d2847e0d5ba16bdd25d3118bfc4b6e8884fe1f682851e6fb",
+          "source_url": "https://arxiv.org/pdf/2611.11450v1"
+        },
+        {
+          "file": "assets/mismatch-fig3.png",
+          "arxiv_id": "2611.11450",
+          "page": 7,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.087,
+            0.074,
+            0.887,
+            0.261
+          ],
+          "sha256": "97fa74803d6f6356bdeaf82f60fcdedc8e7e26e66bbacbdab6bd7738c7ce9bb6",
+          "source_url": "https://arxiv.org/pdf/2611.11450v1"
+        },
+        {
+          "file": "assets/mismatch-fig4.png",
+          "arxiv_id": "2611.11450",
+          "page": 7,
+          "paper_figure": "Figure 4",
+          "crop_box_normalized": [
+            0.088,
+            0.331,
+            0.475,
+            0.523
+          ],
+          "sha256": "32395d87f0a2a936f501c070e8615d03b66cff99ee056baeb16a1135e529916e",
+          "source_url": "https://arxiv.org/pdf/2611.11450v1"
+        },
+        {
+          "file": "assets/mismatch-fig6.png",
+          "arxiv_id": "2611.11450",
+          "page": 8,
+          "paper_figure": "Figure 6",
+          "crop_box_normalized": [
+            0.088,
+            0.073,
+            0.476,
+            0.23
+          ],
+          "sha256": "5fa29b8b61b21e18abd9253bfe2769125868a94faad3563a6b9a7d9edffc99e5",
+          "source_url": "https://arxiv.org/pdf/2611.11450v1"
+        },
+        {
+          "file": "assets/mismatch-fig7.png",
+          "arxiv_id": "2611.11450",
+          "page": 8,
+          "paper_figure": "Figure 7",
+          "crop_box_normalized": [
+            0.088,
+            0.309,
+            0.475,
+            0.46
+          ],
+          "sha256": "554f36914e3c29b10fd504668386e98d3718601d28563f6bb02c82148a978c7d",
+          "source_url": "https://arxiv.org/pdf/2611.11450v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.07241",
+      "type": "paper",
+      "title": "$D^2$-OPD: Separating Direction and Distance in Extrapolative On-Policy Distillation",
+      "published": "2026-11-04",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-11-04T23:45:46+00:00",
+      "published_at_beijing": "2026-11-05T07:45:46+08:00",
+      "arxiv_id": "2611.07241",
+      "doi": "10.48550/arXiv.2611.07241",
+      "url": "https://arxiv.org/abs/2611.07241",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.07241",
+        "https://doi.org/10.48550/arXiv.2611.07241"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.07241",
+      "submission_history": "Submission history From: Bowen Fang [ view email ] [v1] Wed, 4 Nov 2026 23:45:46 UTC (341 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.07241v1",
+      "read_version": "v1",
+      "source_pdf_pages": 17,
+      "source_pdf_sha256": "46074b439a08ce25bd26ee938e4dd6c8578f82a628fbb7f840d7b402438be51e",
+      "publication_evidence_snapshot_sha256": "64d0e03addd4595e9378335643519c0cbc0d318da5e4af4a21d4b25a2b2ffda3",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Algorithm and training details in paper; no dedicated author implementation confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/d2-fig1.png",
+          "arxiv_id": "2611.07241",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.117,
+            0.077,
+            0.884,
+            0.27
+          ],
+          "sha256": "2a6701760b67b97ce9db96fcce6d2a70fb3b58012e2a5860588619414df12493",
+          "source_url": "https://arxiv.org/pdf/2611.07241v1"
+        },
+        {
+          "file": "assets/d2-fig2.png",
+          "arxiv_id": "2611.07241",
+          "page": 4,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.117,
+            0.079,
+            0.884,
+            0.259
+          ],
+          "sha256": "3d965a9f331181288fe37d7ec563b4837938a9d2c9523507967cc2b43167c54c",
+          "source_url": "https://arxiv.org/pdf/2611.07241v1"
+        },
+        {
+          "file": "assets/d2-table5.png",
+          "arxiv_id": "2611.07241",
+          "page": 8,
+          "paper_figure": "Table 5",
+          "crop_box_normalized": [
+            0.51,
+            0.29,
+            0.885,
+            0.512
+          ],
+          "sha256": "e43da6985eff64e39ec0179e3e5e0ee5646ed1bfcef313d75a408674dafdb3d7",
+          "source_url": "https://arxiv.org/pdf/2611.07241v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.03133",
+      "type": "paper",
+      "title": "Meet Students Where They Are: Student-Prefix Teacher Adaptation for On-Policy Distillation",
+      "published": "2026-11-02",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-11-02T13:45:23+00:00",
+      "published_at_beijing": "2026-11-02T21:45:23+08:00",
+      "arxiv_id": "2611.03133",
+      "doi": "10.48550/arXiv.2611.03133",
+      "url": "https://arxiv.org/abs/2611.03133",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.03133",
+        "https://doi.org/10.48550/arXiv.2611.03133"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.03133",
+      "submission_history": "Submission history From: Xue Zhang [ view email ] [v1] Mon, 2 Nov 2026 13:45:23 UTC (311 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.03133v1",
+      "read_version": "v1",
+      "source_pdf_pages": 15,
+      "source_pdf_sha256": "de559179adefd924e0882942218139121ccc4d564abda0c3b88369a0714b6fbc",
+      "publication_evidence_snapshot_sha256": "8086b2f36da4dc270abcb6363f6e87c57798a2f88d15b09d885b89f5fe734775",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Prefix data and two-stage training specified in the paper; no dedicated author implementation confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/spta-fig1.png",
+          "arxiv_id": "2611.03133",
+          "page": 2,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.172,
+            0.085,
+            0.828,
+            0.356
+          ],
+          "sha256": "a8d4482adc3bffae3a8e578590e04608dbd7c0bd0b471f012258abae923feb7b",
+          "source_url": "https://arxiv.org/pdf/2611.03133v1"
+        },
+        {
+          "file": "assets/spta-fig2.png",
+          "arxiv_id": "2611.03133",
+          "page": 4,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.172,
+            0.087,
+            0.828,
+            0.323
+          ],
+          "sha256": "a3c1b508fb1fbdd3e3dcdf663982f66efecadbc605207e2477613b4a4ee32159",
+          "source_url": "https://arxiv.org/pdf/2611.03133v1"
+        },
+        {
+          "file": "assets/spta-table1.png",
+          "arxiv_id": "2611.03133",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.172,
+            0.11,
+            0.828,
+            0.443
+          ],
+          "sha256": "f96b4ba01570d50e3e5c649ac554694fc2ae38127d8c8bf296d5cc5f4f69e0d9",
+          "source_url": "https://arxiv.org/pdf/2611.03133v1"
+        }
+      ]
+    }
+  ],
+  "auxiliary_sources": [
+    "https://arxiv.org/abs/2306.13649",
+    "https://thinkingmachines.ai/blog/on-policy-distillation/",
+    "https://huggingface.co/docs/trl/distillation_trainer",
+    "https://huggingface.co/docs/trl/grpo_trainer",
+    "https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html"
+  ],
+  "review": {
+    "pages": 15,
+    "prose_code_table_fragments_checked": 284,
+    "original_figures_and_tables": 17,
+    "original_image_pixels_matched": 17,
+    "unique_formulas": 145,
+    "math_occurrences": 172,
+    "display_formula_occurrences": 14,
+    "embedded_cjk_fonts": [
+      "/AAAAAA+STSongti-TC-Bold",
+      "/AAAAAB+STSongti-TC-Bold",
+      "/AAAAAC+STSongti-TC-Bold",
+      "/AAAAAD+STSongti-TC-Bold"
+    ],
+    "quick_read_link_destination_pages": [
+      1,
+      5,
+      6,
+      10,
+      12
+    ],
+    "page_bounds_checked": true,
+    "all_pages_rendered": true,
+    "page_renderer": "PDFium",
+    "markdown_sha256": "18dfe666a17baf90c2bf08167accdfff39639cffcd7dde3d772f59c224603d6f",
+    "pdf_sha256": "0789900193b698ef9dd4b53306bbd57351d575ab4e8decdb40890de050bdf4d2"
+  },
+  "artifact_sha256": {
+    "assets/QA.md": "3465ab433da032b9bf7237c34172bcd767d22f1c451b7b0c7abab39db32719cf",
+    "assets/SOURCES.md": "2ec1bf660a1e2a0ef459661bd95802028dec41a797a210b5e98d0e5e41e983fb",
+    "assets/care-fig1.png": "a878425e1046df2e9824c8cefacfcf09fa8ca005e62bf29de6a5288e44751fe7",
+    "assets/care-fig2.png": "033a42712763dad3d92624647bd3b133b825958f850cdbe62f9f6c8ba47cac3c",
+    "assets/care-table1.png": "a6bc691b2c031ddcbb30c26dc9aed739a9aa6d7cf8bb0ba05e96999c75c02266",
+    "assets/care-table2.png": "f8a8172f5c1d3ea600dd803227d753b00b2af9c12eeb6713cf9704d9ca3f918c",
+    "assets/d2-fig1.png": "2a6701760b67b97ce9db96fcce6d2a70fb3b58012e2a5860588619414df12493",
+    "assets/d2-fig2.png": "3d965a9f331181288fe37d7ec563b4837938a9d2c9523507967cc2b43167c54c",
+    "assets/d2-table5.png": "e43da6985eff64e39ec0179e3e5e0ee5646ed1bfcef313d75a408674dafdb3d7",
+    "assets/elpsd-table1.png": "afb3d1ee38732d61555cfcbd7ed449de7161ea27716321bd3bacf83f9254c129",
+    "assets/elpsd-table2.png": "e894be334d42648ff765111673d14b84cc4105df463454b6f3abd257522c29ae",
+    "assets/math-manifest.json": "22f22d07a9c80773b8fecb00f0602fcfd5420bf1d62e474b2054af36d237617b",
+    "assets/mismatch-fig2.png": "637dbee047cf0063d2847e0d5ba16bdd25d3118bfc4b6e8884fe1f682851e6fb",
+    "assets/mismatch-fig3.png": "97fa74803d6f6356bdeaf82f60fcdedc8e7e26e66bbacbdab6bd7738c7ce9bb6",
+    "assets/mismatch-fig4.png": "32395d87f0a2a936f501c070e8615d03b66cff99ee056baeb16a1135e529916e",
+    "assets/mismatch-fig6.png": "5fa29b8b61b21e18abd9253bfe2769125868a94faad3563a6b9a7d9edffc99e5",
+    "assets/mismatch-fig7.png": "554f36914e3c29b10fd504668386e98d3718601d28563f6bb02c82148a978c7d",
+    "assets/render_report.py": "c98741536a22747af45dbbcf00a610c3111a87d14a596339621df14ad52a90d4",
+    "assets/spta-fig1.png": "a8d4482adc3bffae3a8e578590e04608dbd7c0bd0b471f012258abae923feb7b",
+    "assets/spta-fig2.png": "a3c1b508fb1fbdd3e3dcdf663982f66efecadbc605207e2477613b4a4ee32159",
+    "assets/spta-table1.png": "f96b4ba01570d50e3e5c649ac554694fc2ae38127d8c8bf296d5cc5f4f69e0d9",
+    "report.md": "18dfe666a17baf90c2bf08167accdfff39639cffcd7dde3d772f59c224603d6f",
+    "report.pdf": "0789900193b698ef9dd4b53306bbd57351d575ab4e8decdb40890de050bdf4d2"
+  }
+}
