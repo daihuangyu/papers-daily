@@ -9497,6 +9497,833 @@
       ]
     },
     {
+      "id": "arxiv:2510.09312",
+      "type": "paper",
+      "key": "crv",
+      "title": "Verifying Chain-of-Thought Reasoning via Its Computational Graph",
+      "title_aliases": [
+        "CRV: Verifying Chain-of-Thought Reasoning via Its Computational Graph"
+      ],
+      "authors": [
+        "Zheng Zhao",
+        "Yeskendir Koishekenov",
+        "Xianjun Yang",
+        "Naila Murray",
+        "Nicola Cancedda"
+      ],
+      "published": "2025-10-10",
+      "original_date": "2025-10-10",
+      "original_date_note": "arXiv v1 submission date (UTC)",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c7b5a35ea98b62512a869c19ea7b03cb-Abstract-Conference.html",
+      "arxiv_id": "2510.09312",
+      "doi": "10.48550/arXiv.2510.09312",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2510.09312",
+        "https://arxiv.org/abs/2510.09312v1",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c7b5a35ea98b62512a869c19ea7b03cb-Abstract-Conference.html",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/c7b5a35ea98b62512a869c19ea7b03cb-Paper-Conference.pdf",
+        "https://doi.org/10.48550/arXiv.2510.09312",
+        "https://iclr.cc/virtual/2026/oral/10010814",
+        "https://openreview.net/forum?id=CxiNICq0Rr"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2510.09312v1",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/c7b5a35ea98b62512a869c19ea7b03cb-Paper-Conference.pdf",
+      "pdf_version": "ICLR 2026 conference proceedings",
+      "source_pdf_sha256": "1e1d82c8d0e67c39608d9c4c0c6da827ebd0bbc21b8b3e0f6cbaf2f9b570c310",
+      "source_pdf_pages": 28,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "catalogue_pdf_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "edition": "2026 final, seventh edition",
+          "physical_pdf_page": 57,
+          "snapshot": "assets/official-records/ccf-2026.pdf"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c7b5a35ea98b62512a869c19ea7b03cb-Abstract-Conference.html",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Formal conference main proceedings",
+          "snapshot": "assets/official-records/crv-proceedings.html",
+          "snapshot_sha256": "c96a0bba6072157f0d08455c48dbe91453d4bb57d32806761456095df54b8957"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10010814",
+          "label": "oral",
+          "checked_on": "2026-11-27",
+          "program_url": "https://iclr.cc/virtual/2026/events/oral",
+          "snapshot": "assets/official-records/crv-oral.html",
+          "snapshot_sha256": "db22d7d2c2a7fa226a54ee41ac630ac9ae1e7bd6282e86a3ae1a5f10a89ebaf2"
+        }
+      },
+      "code_url": "https://github.com/facebookresearch/CRV",
+      "project_or_author_blog_url": null,
+      "code_availability": {
+        "status": "available_static_review",
+        "commit": "805a0f7bb6132702f82f2213cce0c63ea7f9d5e9",
+        "checked_on": "2026-11-27",
+        "notes": [
+          "Static review of default attribution and graph feature extraction, stepwise processing and CPU classifier inputs."
+        ],
+        "record": "assets/code-reading.json"
+      },
+      "citation_count": {
+        "value": 34,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4417129364",
+        "queried_at": "2026-11-27",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-25T09:40:18.809321",
+        "snapshot": "assets/citation-records/crv-citations.json",
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "crv-fig1.png",
+          "paper": "crv",
+          "figure": "fig1",
+          "physical_pdf_page": 3,
+          "crop_points_from_top_left": [
+            106,
+            69,
+            506,
+            296
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/c7b5a35ea98b62512a869c19ea7b03cb-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "1e1d82c8d0e67c39608d9c4c0c6da827ebd0bbc21b8b3e0f6cbaf2f9b570c310",
+          "sha256": "0756be81e590aa405895452c1048dd98bd486286a604055c9de192dde5dac1d9",
+          "pixels": [
+            1200,
+            681
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 论文集 PDF 物理页 3。自左向右是模型替换、从输出 logit 向前追溯高影响路径、提取结构特征、用梯度提升分类器预测。归因边是近似追踪量，图为方法示意。"
+        },
+        {
+          "file": "crv-table1.png",
+          "paper": "crv",
+          "figure": "table1",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            106,
+            76,
+            506,
+            246
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/c7b5a35ea98b62512a869c19ea7b03cb-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "1e1d82c8d0e67c39608d9c4c0c6da827ebd0bbc21b8b3e0f6cbaf2f9b570c310",
+          "sha256": "7002b299dce962aefce5a55a82757154b99766aa85ce30ae46edc8fe5c26ef34",
+          "pixels": [
+            1200,
+            510
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 6。按同一数据集比较概率、能量、激活探针和 CRV。合成算术的 AUROC 为 92.47，Energy 为 76.45；GSM8K 是 70.17 与 62.55。布尔错步仅 0.2%，CRV 虽有 75.87 AUROC，AUPR 只有 0.97（按表中百分刻度）。FPR@95 是在 95% 召回下的误报率，GSM8K 仍有 79.61。"
+        },
+        {
+          "file": "crv-fig2.png",
+          "paper": "crv",
+          "figure": "fig2",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            69,
+            506,
+            237
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/c7b5a35ea98b62512a869c19ea7b03cb-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "1e1d82c8d0e67c39608d9c4c0c6da827ebd0bbc21b8b3e0f6cbaf2f9b570c310",
+          "sha256": "3513ce51e79acea41696a5854b039c7b5b5962e49bfca6be2f7fb11a7951fd51",
+          "pixels": [
+            1200,
+            504
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Figure 2，物理页 7。横轴是合成算术操作数，纵轴为 AUROC、AUPR 和 FPR@95，后者越低越好。对比难度变化下的探针、输出分数和 CRV。不同列不可当作同一指标。"
+        }
+      ],
+      "reproduction_executed": false,
+      "folder": "CCF_Papers/2026-11-27",
+      "aliases": [
+        "arxiv:2510.09312",
+        "doi:10.48550/arxiv.2510.09312",
+        "id:arxiv:2510.09312",
+        "title:crvverifyingchainofthoughtreasoningviaitscomputationalgraph",
+        "title:verifyingchainofthoughtreasoningviaitscomputationalgraph",
+        "url:https://arxiv.org/abs/2510.09312",
+        "url:https://doi.org/10.48550/arxiv.2510.09312",
+        "url:https://iclr.cc/virtual/2026/oral/10010814",
+        "url:https://openreview.net/forum?id=CxiNICq0Rr",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/c7b5a35ea98b62512a869c19ea7b03cb-Paper-Conference.pdf",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/c7b5a35ea98b62512a869c19ea7b03cb-Abstract-Conference.html"
+      ]
+    },
+    {
+      "id": "arxiv:2602.22538",
+      "type": "paper",
+      "key": "rain",
+      "title": "RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format",
+      "title_aliases": [],
+      "authors": [
+        "Zhehao Huang",
+        "Yuhang Liu",
+        "Baijiong Lin",
+        "Yixin Lou",
+        "Zhengbao He",
+        "Hanling Tian",
+        "Tao Li",
+        "Xiaolin Huang"
+      ],
+      "published": "2026-02-26",
+      "original_date": "2026-02-26",
+      "original_date_note": "arXiv v1 submission date (UTC)",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/687dbd7c53fcc832aef19cbd4ad3fcc6-Abstract-Conference.html",
+      "arxiv_id": "2602.22538",
+      "doi": "10.48550/arXiv.2602.22538",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2602.22538",
+        "https://arxiv.org/abs/2602.22538v1",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/687dbd7c53fcc832aef19cbd4ad3fcc6-Abstract-Conference.html",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/687dbd7c53fcc832aef19cbd4ad3fcc6-Paper-Conference.pdf",
+        "https://doi.org/10.48550/arXiv.2602.22538",
+        "https://iclr.cc/virtual/2026/oral/10009682",
+        "https://openreview.net/forum?id=PO2iULmu5e"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2602.22538v1",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/687dbd7c53fcc832aef19cbd4ad3fcc6-Paper-Conference.pdf",
+      "pdf_version": "ICLR 2026 conference proceedings",
+      "source_pdf_sha256": "296c97b67913a7dc321c67431767d4c2487949f402d243f7565b69b44e947b0b",
+      "source_pdf_pages": 41,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "catalogue_pdf_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "edition": "2026 final, seventh edition",
+          "physical_pdf_page": 57,
+          "snapshot": "assets/official-records/ccf-2026.pdf"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/687dbd7c53fcc832aef19cbd4ad3fcc6-Abstract-Conference.html",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Formal conference main proceedings",
+          "snapshot": "assets/official-records/rain-proceedings.html",
+          "snapshot_sha256": "f3dda42baee38e3150b25a7b9d45158963b01833f6ada5b5b428f1135b648b95"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10009682",
+          "label": "oral",
+          "checked_on": "2026-11-27",
+          "program_url": "https://iclr.cc/virtual/2026/events/oral",
+          "snapshot": "assets/official-records/rain-oral.html",
+          "snapshot_sha256": "47a7d7ce64a9ffa020fcf5a5a763bf8297f1f745b4827c87150b954112198d42"
+        }
+      },
+      "code_url": "https://github.com/K1nght/RAIN-Merging",
+      "project_or_author_blog_url": null,
+      "code_availability": {
+        "status": "available_static_review",
+        "commit": "05003cc1afd594d4a00026222ce79fbe1c08c5f1",
+        "checked_on": "2026-11-27",
+        "notes": [
+          "Reviewed pipeline, null-space projection, true forward QP with regularizers and coupled weights, and final merge."
+        ],
+        "record": "assets/code-reading.json"
+      },
+      "citation_count": {
+        "value": 10,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7131901203",
+        "queried_at": "2026-11-27",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-25T09:40:18.809321",
+        "snapshot": "assets/citation-records/rain-citations.json",
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "rain-fig3.png",
+          "paper": "rain",
+          "figure": "fig3",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            106,
+            68,
+            506,
+            220
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/687dbd7c53fcc832aef19cbd4ad3fcc6-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "296c97b67913a7dc321c67431767d4c2487949f402d243f7565b69b44e947b0b",
+          "sha256": "18d8bd49c614b3167c3fc882c0a790e053d7137cf828cf7af86711c1c6f43b7c",
+          "pixels": [
+            1200,
+            456
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Figure 3，ICLR 2026 论文集 PDF 物理页 5。左为投影，在思考标记的输入方向上压掉改变量。右为从指令校准样本的相关与无关位置收集注意力，再给不同头分配合并权重。示意图中的箭头是步骤顺序。"
+        },
+        {
+          "file": "rain-table1.png",
+          "paper": "rain",
+          "figure": "table1",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            77,
+            506,
+            313
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/687dbd7c53fcc832aef19cbd4ad3fcc6-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "296c97b67913a7dc321c67431767d4c2487949f402d243f7565b69b44e947b0b",
+          "sha256": "ff00d5e79eff7dfd15eeb8bebf95dd66f9f2086f7119bdaba2146a7eb9246561",
+          "pixels": [
+            1200,
+            708
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 7。以 DeepSeek-R1-Distill-Qwen-7B 为锚点，合并 7B Qwen2.5-Instruct 的变化。比较原模型、SFT、任务算术、SLERP、TIES、AIM-TIES 和 RAIN。对比 AIM-TIES 的指令均值 47.02 与 RAIN 48.11，推理与通用均值 53.10→55.59，运行 18.51→20.96 分钟。原指令模型的指令均值 52.92 更高，RAIN 主要保留两类能力。"
+        }
+      ],
+      "reproduction_executed": false,
+      "folder": "CCF_Papers/2026-11-27",
+      "aliases": [
+        "arxiv:2602.22538",
+        "doi:10.48550/arxiv.2602.22538",
+        "id:arxiv:2602.22538",
+        "title:rainmergingagradientfreemethodtoenhanceinstructionfollowinginlargereasoningmodelswithpreservedthinkingformat",
+        "url:https://arxiv.org/abs/2602.22538",
+        "url:https://doi.org/10.48550/arxiv.2602.22538",
+        "url:https://iclr.cc/virtual/2026/oral/10009682",
+        "url:https://openreview.net/forum?id=PO2iULmu5e",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/687dbd7c53fcc832aef19cbd4ad3fcc6-Paper-Conference.pdf",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/687dbd7c53fcc832aef19cbd4ad3fcc6-Abstract-Conference.html"
+      ]
+    },
+    {
+      "id": "arxiv:2508.18672",
+      "type": "paper",
+      "key": "moe",
+      "title": "Optimal Sparsity of Mixture-of-Experts Language Models for Reasoning Tasks",
+      "title_aliases": [],
+      "authors": [
+        "Taishi Nakamura",
+        "Satoki Ishikawa",
+        "Masaki Kawamura",
+        "Okamoto",
+        "Daisuke Nohara",
+        "Jun Suzuki",
+        "Rio Yokota"
+      ],
+      "published": "2025-08-26",
+      "original_date": "2025-08-26",
+      "original_date_note": "arXiv v1 submission date (UTC)",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ab5492f57995409351cbf1a1cdf5f1a4-Abstract-Conference.html",
+      "arxiv_id": "2508.18672",
+      "doi": "10.48550/arXiv.2508.18672",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2508.18672",
+        "https://arxiv.org/abs/2508.18672v1",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ab5492f57995409351cbf1a1cdf5f1a4-Abstract-Conference.html",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/ab5492f57995409351cbf1a1cdf5f1a4-Paper-Conference.pdf",
+        "https://doi.org/10.48550/arXiv.2508.18672",
+        "https://iclr.cc/virtual/2026/oral/10008991",
+        "https://openreview.net/forum?id=XFw2EPRUUR"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2508.18672v1",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/ab5492f57995409351cbf1a1cdf5f1a4-Paper-Conference.pdf",
+      "pdf_version": "ICLR 2026 conference proceedings",
+      "source_pdf_sha256": "ff92147d7c48427c1af60c5376604a941811f6120d38647310b307379d13194e",
+      "source_pdf_pages": 25,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "oral",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "catalogue_pdf_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "edition": "2026 final, seventh edition",
+          "physical_pdf_page": 57,
+          "snapshot": "assets/official-records/ccf-2026.pdf"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ab5492f57995409351cbf1a1cdf5f1a4-Abstract-Conference.html",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Formal conference main proceedings",
+          "snapshot": "assets/official-records/moe-proceedings.html",
+          "snapshot_sha256": "46311a5a83e9447ee380239dc295de3f18edbd55cfa0aa354d3031825c7a8f15"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/oral/10008991",
+          "label": "oral",
+          "checked_on": "2026-11-27",
+          "program_url": "https://iclr.cc/virtual/2026/events/oral",
+          "snapshot": "assets/official-records/moe-oral.html",
+          "snapshot_sha256": "3656b4abe6cb5f9861a9a7e803b320ef1ffe86905b53ebabdad07ba2794cc49b"
+        }
+      },
+      "code_url": "https://github.com/rioyokotalab/optimal-sparsity",
+      "project_or_author_blog_url": null,
+      "code_availability": {
+        "status": "available_static_review",
+        "commit": "a39f45056e1e5be20fb407d9e4076a8b4bcded43",
+        "checked_on": "2026-11-27",
+        "notes": [
+          "Reviewed pretraining configuration, Megatron entry point and posttraining job instructions."
+        ],
+        "record": "assets/code-reading.json"
+      },
+      "citation_count": {
+        "value": 5,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7077882561",
+        "queried_at": "2026-11-27",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-25T09:40:18.809321",
+        "snapshot": "assets/citation-records/moe-citations.json",
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "moe-fig1.png",
+          "paper": "moe",
+          "figure": "fig1",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            106,
+            74,
+            506,
+            296
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/ab5492f57995409351cbf1a1cdf5f1a4-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "ff92147d7c48427c1af60c5376604a941811f6120d38647310b307379d13194e",
+          "sha256": "1103db8da6d84151dfb66a3f62df4737d21ab33a444d0abd41d885a279abaf2f",
+          "pixels": [
+            1200,
+            666
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 PDF 物理页 5。横轴总参数量。一条线固定宽度和 top-k，向右只是加专家。通用验证 loss 和 HellaSwag 多数下降，GSM8K 的任务 loss 在部分线右侧回升。论文没单绘架构图，保留这里的实验原图。"
+        },
+        {
+          "file": "moe-fig5.png",
+          "paper": "moe",
+          "figure": "fig5",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            69,
+            506,
+            417
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/ab5492f57995409351cbf1a1cdf5f1a4-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "ff92147d7c48427c1af60c5376604a941811f6120d38647310b307379d13194e",
+          "sha256": "68aed23fd81e7846719e01ea8f9a21341c1852d2380bd7103bdff737fa499605",
+          "pixels": [
+            1200,
+            1044
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Figure 5，物理页 7。横轴密度，左侧更稀疏，上排是任务 loss，下排是准确率。先选同一颜色的固定激活参数组再比较不同密度。TriviaQA 和 HellaSwag 在所试范围多受益于更稀疏；两套算术题的最优点随激活量上升向更稠移动。虚线是超过该组最优范围后出现的反向趋势。"
+        }
+      ],
+      "reproduction_executed": false,
+      "folder": "CCF_Papers/2026-11-27",
+      "aliases": [
+        "arxiv:2508.18672",
+        "doi:10.48550/arxiv.2508.18672",
+        "id:arxiv:2508.18672",
+        "title:optimalsparsityofmixtureofexpertslanguagemodelsforreasoningtasks",
+        "url:https://arxiv.org/abs/2508.18672",
+        "url:https://doi.org/10.48550/arxiv.2508.18672",
+        "url:https://iclr.cc/virtual/2026/oral/10008991",
+        "url:https://openreview.net/forum?id=XFw2EPRUUR",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/ab5492f57995409351cbf1a1cdf5f1a4-Paper-Conference.pdf",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/ab5492f57995409351cbf1a1cdf5f1a4-Abstract-Conference.html"
+      ]
+    },
+    {
+      "id": "arxiv:2510.02245",
+      "type": "paper",
+      "key": "exgrpo",
+      "title": "ExGRPO: Learning to Reason from Experience",
+      "title_aliases": [
+        "ExGRPO: Experiential Group Relative Policy Optimization"
+      ],
+      "authors": [
+        "Runzhe Zhan",
+        "Yafu Li",
+        "Zhi Wang",
+        "Xiaoye Qu",
+        "Dongrui Liu",
+        "Jing Shao",
+        "Derek Wong",
+        "Yu Cheng"
+      ],
+      "published": "2025-10-02",
+      "original_date": "2025-10-02",
+      "original_date_note": "arXiv v1 submission date (UTC)",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/15a296dc96baa12aaef4facdd391161f-Abstract-Conference.html",
+      "arxiv_id": "2510.02245",
+      "doi": "10.48550/arXiv.2510.02245",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2510.02245",
+        "https://arxiv.org/abs/2510.02245v1",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/15a296dc96baa12aaef4facdd391161f-Abstract-Conference.html",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/15a296dc96baa12aaef4facdd391161f-Paper-Conference.pdf",
+        "https://doi.org/10.48550/arXiv.2510.02245",
+        "https://iclr.cc/virtual/2026/poster/10011339",
+        "https://openreview.net/forum?id=701tjQXWVk"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2510.02245v1",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/15a296dc96baa12aaef4facdd391161f-Paper-Conference.pdf",
+      "pdf_version": "ICLR 2026 conference proceedings",
+      "source_pdf_sha256": "3e2285e1224f0c0fa8f8360973b0e34a05113901e45f6ba44248ad79a846f20e",
+      "source_pdf_pages": 37,
+      "venue": "ICLR",
+      "acceptance_year": 2026,
+      "ccf_rank": "A",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "catalogue_pdf_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "edition": "2026 final, seventh edition",
+          "physical_pdf_page": 57,
+          "snapshot": "assets/official-records/ccf-2026.pdf"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/15a296dc96baa12aaef4facdd391161f-Abstract-Conference.html",
+          "venue": "ICLR",
+          "year": 2026,
+          "basis": "Formal conference main proceedings",
+          "snapshot": "assets/official-records/exgrpo-proceedings.html",
+          "snapshot_sha256": "37cd7d52f18806bd4a6b48c284b759554be30e97e66e5142d248b10058ec6055"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://iclr.cc/virtual/2026/poster/10011339",
+          "label": "poster",
+          "checked_on": "2026-11-27",
+          "program_url": "https://iclr.cc/virtual/2026/poster/10011339",
+          "snapshot": "assets/official-records/exgrpo-official.html",
+          "snapshot_sha256": "bdddab4abc5ff53b669f1bc1fb5a2f9613a756219749ef7d779ecd0eceb75d05"
+        }
+      },
+      "code_url": "https://github.com/ElliottYan/LUFFY/tree/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO",
+      "project_or_author_blog_url": "https://huggingface.co/rzzhan/ExGRPO-Qwen2.5-7B-Instruct",
+      "code_availability": {
+        "status": "available_static_review",
+        "commit": "01f4ae066249e6965ce0d5512ccdf99a12895c74",
+        "checked_on": "2026-11-27",
+        "notes": [
+          "Pinned replay launcher disables clipping. Reviewed shared replay, entropy selection, shaping and input processing."
+        ],
+        "record": "assets/code-reading.json"
+      },
+      "citation_count": {
+        "value": 73,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W4414927335",
+        "queried_at": "2026-11-27",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-25T09:40:18.809321",
+        "snapshot": "assets/citation-records/exgrpo-citations.json",
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "exgrpo-fig2.png",
+          "paper": "exgrpo",
+          "figure": "fig2",
+          "physical_pdf_page": 5,
+          "crop_points_from_top_left": [
+            106,
+            68,
+            506,
+            307
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/15a296dc96baa12aaef4facdd391161f-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "3e2285e1224f0c0fa8f8360973b0e34a05113901e45f6ba44248ad79a846f20e",
+          "sha256": "45a019064716b3ddf252f480838af809676842c947009d5f0f0fdd0b1d0626ed",
+          "pixels": [
+            1200,
+            717
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Figure 2，ICLR 2026 PDF 物理页 5。上半部从保存成功样本到分桶、退休、挑一条；下半部把旧样本与同题新样本拼成一组，经奖励、优势和重要性加权后更新。"
+        },
+        {
+          "file": "exgrpo-table1.png",
+          "paper": "exgrpo",
+          "figure": "table1",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            106,
+            75,
+            506,
+            390
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/15a296dc96baa12aaef4facdd391161f-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "3e2285e1224f0c0fa8f8360973b0e34a05113901e45f6ba44248ad79a846f20e",
+          "sha256": "f44c86a9c4d0b3ce074d5e30f6530073191f8ddac3d2ab80942b0b84eb6feafa",
+          "pixels": [
+            1200,
+            945
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 7。看同一训练分组。Qwen2.5-Math-7B 的 zero RLVR 对照，在线数学均值 45.3→48.3，跨域 56.4→58.3，Minerva 38.2→36.0。LUFFY 继续训练组里，ExGRPO 数学均值 51.4，但跨域 60.2 低于继续 LUFFY 的 61.8。AIME 和 AMC 用 Avg@32，其他任务用 Pass@1。"
+        },
+        {
+          "file": "exgrpo-fig4.png",
+          "paper": "exgrpo",
+          "figure": "fig4",
+          "physical_pdf_page": 9,
+          "crop_points_from_top_left": [
+            106,
+            214,
+            506,
+            340
+          ],
+          "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/15a296dc96baa12aaef4facdd391161f-Paper-Conference.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "3e2285e1224f0c0fa8f8360973b0e34a05113901e45f6ba44248ad79a846f20e",
+          "sha256": "eeb73ed4374926cb36166a06f6c113ee10e677c912147da486931d3dcbb456b6",
+          "pixels": [
+            1200,
+            378
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Figure 4，物理页 9。背景是 Llama-3.1 8B 训练中的平均奖励、策略熵与回答长度，横轴是训练步。保持底座和任务对照，曲线是指定配置的演变。Llama 例外没有用 batch 的 35% 启动阈值。原文消融显示直接回放低熵旧解可能压低探索，去掉 shaping 时这一风险更显著。"
+        }
+      ],
+      "reproduction_executed": false,
+      "folder": "CCF_Papers/2026-11-27",
+      "aliases": [
+        "arxiv:2510.02245",
+        "doi:10.48550/arxiv.2510.02245",
+        "id:arxiv:2510.02245",
+        "title:exgrpoexperientialgrouprelativepolicyoptimization",
+        "title:exgrpolearningtoreasonfromexperience",
+        "url:https://arxiv.org/abs/2510.02245",
+        "url:https://doi.org/10.48550/arxiv.2510.02245",
+        "url:https://iclr.cc/virtual/2026/poster/10011339",
+        "url:https://openreview.net/forum?id=701tjQXWVk",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/15a296dc96baa12aaef4facdd391161f-Paper-Conference.pdf",
+        "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/15a296dc96baa12aaef4facdd391161f-Abstract-Conference.html"
+      ]
+    },
+    {
+      "id": "arxiv:2609.17241",
+      "type": "paper",
+      "key": "echo",
+      "title": "ECHO: Early-layer Collaborative Hierarchical Orchestration with Bonus Logits in Speculative Decoding",
+      "title_aliases": [],
+      "authors": [
+        "Ziyang Ma",
+        "Zihong Zhang",
+        "Zuchao Li",
+        "Lefei Zhang",
+        "Baoyuan Qi",
+        "Siqi Li",
+        "Simin Yu"
+      ],
+      "published": "2026-09-15",
+      "original_date": "2026-09-15",
+      "original_date_note": "arXiv v1 submission date (UTC)",
+      "url": "https://aclanthology.org/2026.emnlp-main.177/",
+      "arxiv_id": "2609.17241",
+      "doi": "10.18653/2026.emnlp-main.177",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2609.17241",
+        "https://arxiv.org/abs/2609.17241v1",
+        "https://aclanthology.org/2026.emnlp-main.177/",
+        "https://aclanthology.org/2026.emnlp-main.177.pdf",
+        "https://doi.org/10.48550/arXiv.2609.17241",
+        "https://doi.org/10.18653/2026.emnlp-main.177"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2609.17241v1",
+      "pdf_url": "https://aclanthology.org/2026.emnlp-main.177.pdf",
+      "pdf_version": "EMNLP 2026 conference proceedings",
+      "source_pdf_sha256": "1df8bab351246a9ffb737fbc3b8905f9bf4100fc0dc84f65674177467a9677e3",
+      "source_pdf_pages": 21,
+      "venue": "EMNLP",
+      "acceptance_year": 2026,
+      "ccf_rank": "B",
+      "paper_type": "main_conference_full_regular",
+      "presentation_type": "poster",
+      "official_evidence": {
+        "ccf_classification": {
+          "verified": true,
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+          "catalogue_pdf_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "catalogue_pdf_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+          "edition": "2026 final, seventh edition",
+          "physical_pdf_page": 58,
+          "snapshot": "assets/official-records/ccf-2026.pdf"
+        },
+        "acceptance": {
+          "verified": true,
+          "url": "https://aclanthology.org/2026.emnlp-main.177/",
+          "venue": "EMNLP",
+          "year": 2026,
+          "basis": "Formal conference main proceedings",
+          "snapshot": "assets/official-records/echo-official.html",
+          "snapshot_sha256": "3032ca8860f85623067a94f9191f7228183c51bc0400c2fa9e23d1ca49c9e200"
+        },
+        "presentation": {
+          "verified": true,
+          "url": "https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490",
+          "label": "poster",
+          "checked_on": "2026-11-27",
+          "program_url": "https://2026.emnlp.org/program/",
+          "snapshot": "assets/official-records/emnlp-schedule.csv",
+          "snapshot_sha256": "968a4c637f2499ecaaff75f1cd2cab2911750bdd02aacf2eb3fc61cdc612f350",
+          "row": "484-MAIN / Poster Session A / Board 57"
+        }
+      },
+      "code_url": "https://github.com/whucs21Mzy/ECHO",
+      "project_or_author_blog_url": null,
+      "code_availability": {
+        "status": "available_static_review",
+        "commit": "5d5640fe1517334fa82da4c9f58a5055fe4d8cb0",
+        "checked_on": "2026-11-27",
+        "notes": [
+          "Reviewed the hierarchical decoding and latency path. Default verifier uses greedy decoding in the checked path."
+        ],
+        "record": "assets/code-reading.json"
+      },
+      "citation_count": {
+        "value": 0,
+        "source": "OpenAlex cited_by_count",
+        "source_url": "https://api.openalex.org/works/W7213416499",
+        "queried_at": "2026-11-27",
+        "timezone": "Asia/Shanghai",
+        "record_updated_at": "2026-11-25T09:40:18.809321",
+        "snapshot": "assets/citation-records/echo-citations.json",
+        "unavailable_reason": null
+      },
+      "figures": [
+        {
+          "file": "echo-fig3.png",
+          "paper": "echo",
+          "figure": "fig3",
+          "physical_pdf_page": 6,
+          "crop_points_from_top_left": [
+            68,
+            67,
+            530,
+            415
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.177.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "1df8bab351246a9ffb737fbc3b8905f9bf4100fc0dc84f65674177467a9677e3",
+          "sha256": "4410554238176dba7996b45721d00c2583ef577778ca805f5a9450afd6ffb37d",
+          "pixels": [
+            1386,
+            1044
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Figure 3，EMNLP 2026 论文集 PDF 物理页 6，印刷页 4052。左侧自动机检索与额外候选合流。右侧循着 Tree Attention、浅层缓存、满缓冲外循环、深层核验的箭头读。绿色五边形与黄色星形分别表示浅层和深层给出的额外候选，最终接受数取深层。"
+        },
+        {
+          "file": "echo-table1.png",
+          "paper": "echo",
+          "figure": "table1",
+          "physical_pdf_page": 7,
+          "crop_points_from_top_left": [
+            68,
+            65,
+            530,
+            400
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.177.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "1df8bab351246a9ffb737fbc3b8905f9bf4100fc0dc84f65674177467a9677e3",
+          "sha256": "3da2a0c4324f4763ff27ed6d6422f8e484ec245d09b79dca8131f3cf3fad2c78",
+          "pixels": [
+            1386,
+            1005
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 7，印刷页 4053。同一底座比较 PLD、LayerSkip、Self-Speculative、LogitSpec、TokenRecycling 和 ECHO，相对标准自回归报告 speedup，MAT 是平均接受 token 数。Llama-2-7B 总体 2.71 倍、MAT 5.07，TokenRecycling 2.24 倍、3.27。正文另称 2.75 倍，以原表分项为准。13B 的 3.01 倍是 Spec-Bench 单项，总体为 2.90 倍。"
+        },
+        {
+          "file": "echo-table2.png",
+          "paper": "echo",
+          "figure": "table2",
+          "physical_pdf_page": 8,
+          "crop_points_from_top_left": [
+            68,
+            64,
+            530,
+            201
+          ],
+          "pdf_url": "https://aclanthology.org/2026.emnlp-main.177.pdf",
+          "pdf_version": "2026 official conference proceedings",
+          "pdf_sha256": "1df8bab351246a9ffb737fbc3b8905f9bf4100fc0dc84f65674177467a9677e3",
+          "sha256": "1bdefbf26a6029751e2ce27c46ceee1f537ad80dc738c2ddb7c950c0224736f4",
+          "pixels": [
+            1386,
+            411
+          ],
+          "modification": "Original PDF crop at 216 dpi.",
+          "caption_conditions_and_reading_guide": "图 原文 Table 2，物理页 8，印刷页 4054。固定 7B 设定，去掉浅层自动机更新、最终自动机更新、bonus 候选或检索树。完整总体 2.70 倍，移除 bonus 为 2.16 倍；GSM8K 的 MAT 却从 5.54 增到 5.99，接受量和延迟不能相互替代。"
+        }
+      ],
+      "reproduction_executed": false,
+      "folder": "CCF_Papers/2026-11-27",
+      "aliases": [
+        "arxiv:2609.17241",
+        "doi:10.18653/2026.emnlp-main.177",
+        "doi:10.48550/arxiv.2609.17241",
+        "id:arxiv:2609.17241",
+        "title:echoearlylayercollaborativehierarchicalorchestrationwithbonuslogitsinspeculativedecoding",
+        "url:https://aclanthology.org/2026.emnlp-main.177",
+        "url:https://aclanthology.org/2026.emnlp-main.177.pdf",
+        "url:https://arxiv.org/abs/2609.17241",
+        "url:https://doi.org/10.18653/2026.emnlp-main.177",
+        "url:https://doi.org/10.48550/arxiv.2609.17241"
+      ]
+    },
+    {
       "id": "arxiv:2507.17634",
       "type": "paper",
       "key": "wsm",
@@ -18667,6 +19494,58 @@
     "id:arxiv:2611.12411": "OPSD/2026-11-16",
     "title:physopsdcodeasprivilegeforphysicallyplausiblevideogeneration": "OPSD/2026-11-16",
     "url:https://arxiv.org/abs/2611.12411": "OPSD/2026-11-16",
+    "arxiv:2510.09312": "CCF_Papers/2026-11-27",
+    "doi:10.48550/arxiv.2510.09312": "CCF_Papers/2026-11-27",
+    "id:arxiv:2510.09312": "CCF_Papers/2026-11-27",
+    "title:crvverifyingchainofthoughtreasoningviaitscomputationalgraph": "CCF_Papers/2026-11-27",
+    "title:verifyingchainofthoughtreasoningviaitscomputationalgraph": "CCF_Papers/2026-11-27",
+    "url:https://arxiv.org/abs/2510.09312": "CCF_Papers/2026-11-27",
+    "url:https://doi.org/10.48550/arxiv.2510.09312": "CCF_Papers/2026-11-27",
+    "url:https://iclr.cc/virtual/2026/oral/10010814": "CCF_Papers/2026-11-27",
+    "url:https://openreview.net/forum?id=CxiNICq0Rr": "CCF_Papers/2026-11-27",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/c7b5a35ea98b62512a869c19ea7b03cb-Paper-Conference.pdf": "CCF_Papers/2026-11-27",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/c7b5a35ea98b62512a869c19ea7b03cb-Abstract-Conference.html": "CCF_Papers/2026-11-27",
+    "arxiv:2602.22538": "CCF_Papers/2026-11-27",
+    "doi:10.48550/arxiv.2602.22538": "CCF_Papers/2026-11-27",
+    "id:arxiv:2602.22538": "CCF_Papers/2026-11-27",
+    "title:rainmergingagradientfreemethodtoenhanceinstructionfollowinginlargereasoningmodelswithpreservedthinkingformat": "CCF_Papers/2026-11-27",
+    "url:https://arxiv.org/abs/2602.22538": "CCF_Papers/2026-11-27",
+    "url:https://doi.org/10.48550/arxiv.2602.22538": "CCF_Papers/2026-11-27",
+    "url:https://iclr.cc/virtual/2026/oral/10009682": "CCF_Papers/2026-11-27",
+    "url:https://openreview.net/forum?id=PO2iULmu5e": "CCF_Papers/2026-11-27",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/687dbd7c53fcc832aef19cbd4ad3fcc6-Paper-Conference.pdf": "CCF_Papers/2026-11-27",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/687dbd7c53fcc832aef19cbd4ad3fcc6-Abstract-Conference.html": "CCF_Papers/2026-11-27",
+    "arxiv:2508.18672": "CCF_Papers/2026-11-27",
+    "doi:10.48550/arxiv.2508.18672": "CCF_Papers/2026-11-27",
+    "id:arxiv:2508.18672": "CCF_Papers/2026-11-27",
+    "title:optimalsparsityofmixtureofexpertslanguagemodelsforreasoningtasks": "CCF_Papers/2026-11-27",
+    "url:https://arxiv.org/abs/2508.18672": "CCF_Papers/2026-11-27",
+    "url:https://doi.org/10.48550/arxiv.2508.18672": "CCF_Papers/2026-11-27",
+    "url:https://iclr.cc/virtual/2026/oral/10008991": "CCF_Papers/2026-11-27",
+    "url:https://openreview.net/forum?id=XFw2EPRUUR": "CCF_Papers/2026-11-27",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/ab5492f57995409351cbf1a1cdf5f1a4-Paper-Conference.pdf": "CCF_Papers/2026-11-27",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/ab5492f57995409351cbf1a1cdf5f1a4-Abstract-Conference.html": "CCF_Papers/2026-11-27",
+    "arxiv:2510.02245": "CCF_Papers/2026-11-27",
+    "doi:10.48550/arxiv.2510.02245": "CCF_Papers/2026-11-27",
+    "id:arxiv:2510.02245": "CCF_Papers/2026-11-27",
+    "title:exgrpoexperientialgrouprelativepolicyoptimization": "CCF_Papers/2026-11-27",
+    "title:exgrpolearningtoreasonfromexperience": "CCF_Papers/2026-11-27",
+    "url:https://arxiv.org/abs/2510.02245": "CCF_Papers/2026-11-27",
+    "url:https://doi.org/10.48550/arxiv.2510.02245": "CCF_Papers/2026-11-27",
+    "url:https://iclr.cc/virtual/2026/poster/10011339": "CCF_Papers/2026-11-27",
+    "url:https://openreview.net/forum?id=701tjQXWVk": "CCF_Papers/2026-11-27",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/file/15a296dc96baa12aaef4facdd391161f-Paper-Conference.pdf": "CCF_Papers/2026-11-27",
+    "url:https://proceedings.iclr.cc/paper_files/paper/2026/hash/15a296dc96baa12aaef4facdd391161f-Abstract-Conference.html": "CCF_Papers/2026-11-27",
+    "arxiv:2609.17241": "CCF_Papers/2026-11-27",
+    "doi:10.18653/2026.emnlp-main.177": "CCF_Papers/2026-11-27",
+    "doi:10.48550/arxiv.2609.17241": "CCF_Papers/2026-11-27",
+    "id:arxiv:2609.17241": "CCF_Papers/2026-11-27",
+    "title:echoearlylayercollaborativehierarchicalorchestrationwithbonuslogitsinspeculativedecoding": "CCF_Papers/2026-11-27",
+    "url:https://aclanthology.org/2026.emnlp-main.177": "CCF_Papers/2026-11-27",
+    "url:https://aclanthology.org/2026.emnlp-main.177.pdf": "CCF_Papers/2026-11-27",
+    "url:https://arxiv.org/abs/2609.17241": "CCF_Papers/2026-11-27",
+    "url:https://doi.org/10.18653/2026.emnlp-main.177": "CCF_Papers/2026-11-27",
+    "url:https://doi.org/10.48550/arxiv.2609.17241": "CCF_Papers/2026-11-27",
     "arxiv:2507.17634": "CCF_Papers/2026-11-26",
     "doi:10.48550/arxiv.2507.17634": "CCF_Papers/2026-11-26",
     "id:arxiv:2507.17634": "CCF_Papers/2026-11-26",

@@ -1,0 +1,184 @@
+[
+  {
+    "paper": "crv",
+    "repository": "https://github.com/facebookresearch/CRV",
+    "notes": [
+      "Static review of default attribution and graph feature extraction, stepwise processing and CPU classifier inputs."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "805a0f7bb6132702f82f2213cce0c63ea7f9d5e9",
+    "archive_url": "https://codeload.github.com/facebookresearch/CRV/tar.gz/805a0f7bb6132702f82f2213cce0c63ea7f9d5e9",
+    "archive_sha256": "edfd23564a17d9fd06bb007af8d8f53d5ca5f98a33def3a187cc0efa4c23a249",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "bb43cde6aa22a0b8d5d843e1191a74ab8c236fae0ee253a0526e8523c76beea5"
+      },
+      {
+        "path": "attribution/circuit_tracing.py",
+        "sha256": "d4483812c477ab8b44917e94de2cf4b801241dba46685a4af5c3a2a9b9b6e75c"
+      },
+      {
+        "path": "features/feature_extraction.py",
+        "sha256": "10e443dfa703eb028ff65b4a96a74859ea098716c095bab34133db94817b4fee"
+      },
+      {
+        "path": "data/processing/process_cot_steps.py",
+        "sha256": "59f2d250853a513a196cc5bfc03a5ddfdd1964df58cbd958337fe6b40d314c20"
+      }
+    ]
+  },
+  {
+    "paper": "rain",
+    "repository": "https://github.com/K1nght/RAIN-Merging",
+    "notes": [
+      "Reviewed pipeline, null-space projection, true forward QP with regularizers and coupled weights, and final merge."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "05003cc1afd594d4a00026222ce79fbe1c08c5f1",
+    "archive_url": "https://codeload.github.com/K1nght/RAIN-Merging/tar.gz/05003cc1afd594d4a00026222ce79fbe1c08c5f1",
+    "archive_sha256": "ece4c289d697fcc132bbb91758c44c1687ef9890f0932fcef7ddfec31fc70623",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "d31bde35fc8d6edd715b19dd119bda81c5f5e8a6a233118209cdfe02e7026b86"
+      },
+      {
+        "path": "pipeline.py",
+        "sha256": "11984df6161978bed91471275505951aa197d849ddd60a44b7c41157ef3f9c6a"
+      },
+      {
+        "path": "nullspace_projection_compute.py",
+        "sha256": "3237744270dd17df0e25494e27b6662d399415b30a4852646d8b883b9f18d698"
+      },
+      {
+        "path": "qp_true_forward_fast.py",
+        "sha256": "af403c53a9ebb482a210afe3d3e0a686b9afea8cea0b9b88b7f9588870f3ef03"
+      },
+      {
+        "path": "unified_model_merge.py",
+        "sha256": "f4d1c094d33688b6f759df6a77548b5e5b59a06499a7d0a89733030444b432eb"
+      }
+    ]
+  },
+  {
+    "paper": "moe",
+    "repository": "https://github.com/rioyokotalab/optimal-sparsity",
+    "notes": [
+      "Reviewed pretraining configuration, Megatron entry point and posttraining job instructions."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "a39f45056e1e5be20fb407d9e4076a8b4bcded43",
+    "archive_url": "https://codeload.github.com/rioyokotalab/optimal-sparsity/tar.gz/a39f45056e1e5be20fb407d9e4076a8b4bcded43",
+    "archive_sha256": "4db5ffef61ef480614e2b2cc275b091d7489a6d6fe7834f4126bea5e6203abd2",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "7e5d6d9d5370fc77409a789cd0cfe5d7398b6dfa908a1dcd2459c430cf471f92"
+      },
+      {
+        "path": "pre-training/README.md",
+        "sha256": "991cbae7001733a0693b9d2d1304360f14d29844cfc2bbbecdc7f1993bc0e080"
+      },
+      {
+        "path": "pre-training/pretrain_gpt.py",
+        "sha256": "4e3c259cdac19e99373fa037895a8cf77d5196fcecc262b9c5a2ee05dd63a8a9"
+      },
+      {
+        "path": "post-training/README.md",
+        "sha256": "b3a1c4af9c6fb72091317c4a214fca65270655491e6d7d77fc392b12e90fe7bf"
+      }
+    ]
+  },
+  {
+    "paper": "exgrpo",
+    "repository": "https://github.com/ElliottYan/LUFFY/tree/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO",
+    "notes": [
+      "Pinned replay launcher disables clipping. Reviewed shared replay, entropy selection, shaping and input processing."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "01f4ae066249e6965ce0d5512ccdf99a12895c74",
+    "tree_sha": "7c6ed392cd90d1389fb328446bf22f2d77b551bb",
+    "tree_snapshot": "assets/official-records/exgrpo-tree.json",
+    "files": [
+      {
+        "path": "ExGRPO/README.md",
+        "url": "https://raw.githubusercontent.com/ElliottYan/LUFFY/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO/README.md",
+        "sha256": "830736e773d48e6b6b4695dda6c17ec2e3d8c4c55335a206af9947ffb9aa6146",
+        "git_blob_sha1": "c152beb1c22176e6699b0bbc1a002400fa3417a7"
+      },
+      {
+        "path": "ExGRPO/exp_scripts/run_exgrpo.sh",
+        "url": "https://raw.githubusercontent.com/ElliottYan/LUFFY/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO/exp_scripts/run_exgrpo.sh",
+        "sha256": "efadcd30ddc2b3e84b550e4d100846ed75c0332b4b8698a092e50e26500978c1",
+        "git_blob_sha1": "983c61902775f3fe2aaeb244178c6371e5ba1f00"
+      },
+      {
+        "path": "ExGRPO/data/prepare_train.py",
+        "url": "https://raw.githubusercontent.com/ElliottYan/LUFFY/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO/data/prepare_train.py",
+        "sha256": "16042e30859fbdd5d6f18bc18899b238f0795ce2e2b5708af12023784d04cc4e",
+        "git_blob_sha1": "8e2f490175e8d460d6a0b70299c3165d3999df18"
+      },
+      {
+        "path": "ExGRPO/exgrpo/verl/verl/mix_src/experience/weighted_bucket_sampler.py",
+        "url": "https://raw.githubusercontent.com/ElliottYan/LUFFY/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO/exgrpo/verl/verl/mix_src/experience/weighted_bucket_sampler.py",
+        "sha256": "0556807edbb21b2ba8d9f819a3b5a3d2b9e7c6d1484adbaedc2d96d208381fa0",
+        "git_blob_sha1": "f4f762e510411e263e191971f1fde465957ea59f"
+      },
+      {
+        "path": "ExGRPO/exgrpo/verl/verl/mix_src/experience/experience_bucket_manager.py",
+        "url": "https://raw.githubusercontent.com/ElliottYan/LUFFY/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO/exgrpo/verl/verl/mix_src/experience/experience_bucket_manager.py",
+        "sha256": "705755929badeb0f38b197a08a5f3b66fa159be40d047a6f19b0a11707c1b310",
+        "git_blob_sha1": "95bc1c04ef99e0b1007651961df31eb3a136dcff"
+      },
+      {
+        "path": "ExGRPO/exgrpo/verl/verl/mix_src/mix_core_alg.py",
+        "url": "https://raw.githubusercontent.com/ElliottYan/LUFFY/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO/exgrpo/verl/verl/mix_src/mix_core_alg.py",
+        "sha256": "59e9202cb52120a17a4973ba9bff849d375a01ce5a896360de7c5f63725d051e",
+        "git_blob_sha1": "a3b01c55261ffac017954b689db78c660a8fa6ee"
+      },
+      {
+        "path": "ExGRPO/exgrpo/verl/verl/mix_src/mix_actor.py",
+        "url": "https://raw.githubusercontent.com/ElliottYan/LUFFY/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO/exgrpo/verl/verl/mix_src/mix_actor.py",
+        "sha256": "54aa6ab5597f6f2f347afacf5e3d02a4ad7071f06c8179bf18d3a9baa77114bb",
+        "git_blob_sha1": "95a8f34e998944413206da81a602566145dafba6"
+      },
+      {
+        "path": "ExGRPO/exgrpo/verl/verl/mix_src/mix_trainer_experience.py",
+        "url": "https://raw.githubusercontent.com/ElliottYan/LUFFY/01f4ae066249e6965ce0d5512ccdf99a12895c74/ExGRPO/exgrpo/verl/verl/mix_src/mix_trainer_experience.py",
+        "sha256": "c67bcf66f82e27722af9921718f17bc2c91027701d5f93e07a23829a68fdb8a6",
+        "git_blob_sha1": "a14b85a30689516875afc2a2339673a7a9ff72b9"
+      }
+    ]
+  },
+  {
+    "paper": "echo",
+    "repository": "https://github.com/whucs21Mzy/ECHO",
+    "notes": [
+      "Reviewed the hierarchical decoding and latency path. Default verifier uses greedy decoding in the checked path."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "5d5640fe1517334fa82da4c9f58a5055fe4d8cb0",
+    "archive_url": "https://codeload.github.com/whucs21Mzy/ECHO/tar.gz/5d5640fe1517334fa82da4c9f58a5055fe4d8cb0",
+    "archive_sha256": "0330eef804ede16acaadaeb6c7bb5541d333b0736f14713c7256e73b5a2b771c",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "a85be1d331ab19a73f126b12655a16ee4b4dcb9d0882096b0e61c5e4ad7a72a1"
+      },
+      {
+        "path": "evaluation/inference_echo.py",
+        "sha256": "d3ae2b1499e022cf58b8c29419c030d87576d6a44224b38f8b8b58c2dda11ab5"
+      },
+      {
+        "path": "evaluation/echo_bottleneck.py",
+        "sha256": "8cbd26b4ba3361fbf264bb43c9e6f9e4315a466176786534180b9b3e2f0e91b9"
+      }
+    ]
+  }
+]
