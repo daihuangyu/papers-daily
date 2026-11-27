@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- |
 | [CCF-A/B 论文](CCF_Papers/README.md) | 2026-11-26 | 学习率调度与推理时适应 | [Markdown](CCF_Papers/2026-11-26/report.md) · [PDF](CCF_Papers/2026-11-26/report.pdf) | [按月浏览](CCF_Papers/archive/README.md) |
 | [OPD / OPSD](OPSD/README.md) | 2026-11-26 | 经验筛选、推理档位与停止纠偏 | [Markdown](OPSD/2026-11-26/report.md) · [PDF](OPSD/2026-11-26/report.pdf) | [按月浏览](OPSD/archive/README.md) |
-| [VLM 后训练](VLM/README.md) | 2026-11-26 | 视觉线索自蒸馏、零阶后训练、分模块奖励、三维证据归因与图文交替推理 | [Markdown](VLM/2026-11-26/report.md) · [PDF](VLM/2026-11-26/report.pdf) | [按月浏览](VLM/archive/README.md) |
+| [VLM 后训练](VLM/README.md) | 2026-11-27 | 反事实图像蒸馏、记忆读用训练、线索局部奖励、多教师合并与证据检索 | [Markdown](VLM/2026-11-27/report.md) · [PDF](VLM/2026-11-27/report.pdf) | [按月浏览](VLM/archive/README.md) |
 
 点方向名称查看最近 7 期。历年日报和每篇论文的标题都可在对应方向的历史月份中找到。
 

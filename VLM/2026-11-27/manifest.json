@@ -1,0 +1,524 @@
+{
+  "date": "2026-11-27",
+  "direction": "VLM",
+  "topic": "反事实图像蒸馏、记忆读用训练、线索局部奖励、多教师合并与证据检索",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-27",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "sources": [
+    {
+      "id": "arxiv:2611.32472",
+      "type": "paper",
+      "arxiv_id": "2611.32472",
+      "doi": "10.48550/arXiv.2611.32472",
+      "title": "STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction for Visual On-Policy Distillation",
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.32472",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32472",
+        "https://doi.org/10.48550/arXiv.2611.32472"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32472",
+      "pdf_url": "https://arxiv.org/pdf/2611.32472v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/xiaolingdudu/STAR",
+      "project_url": null,
+      "code_verification": "Official repository README blob 56d4c278783e3746511bfe4cb593fb4fdd38f89d. Verified linked STAR-6K data and listings of training recipes, bundled verl and evaluation scripts. No training rerun.",
+      "pdf_sha256": "d55c878e6cfc7424c55db164b2027b60a72fafba7dfcc520d65db82b3c986c6e",
+      "figures": [
+        {
+          "file": "assets/star-method.png",
+          "paper_figure": "Figure 2",
+          "page": 4,
+          "crop_normalized": [
+            0.09,
+            0.087,
+            0.91,
+            0.441
+          ],
+          "size": [
+            1521,
+            849
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32472v1",
+          "png_sha256": "6b8bea2394b29bc21d8c33dbb6a6d70ae57f3a46449290d20411423b4dc39bb5"
+        },
+        {
+          "file": "assets/star-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.091,
+            0.087,
+            0.91,
+            0.69
+          ],
+          "size": [
+            1519,
+            1447
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32472v1",
+          "png_sha256": "186699f65fe333716d18abb4c90cca7f27f3c446b580ca04eabe2674316ec235"
+        },
+        {
+          "file": "assets/star-cost.png",
+          "paper_figure": "Figure 3",
+          "page": 7,
+          "crop_normalized": [
+            0.09,
+            0.668,
+            0.492,
+            0.9
+          ],
+          "size": [
+            746,
+            557
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32472v1",
+          "png_sha256": "76d8ba4042e17a8363c59d38ead3ecb3575c95fdca9a87ebc3e233739e8b80dd"
+        },
+        {
+          "file": "assets/star-ablation.png",
+          "paper_figure": "Table 3",
+          "page": 8,
+          "crop_normalized": [
+            0.09,
+            0.087,
+            0.91,
+            0.268
+          ],
+          "size": [
+            1521,
+            434
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32472v1",
+          "png_sha256": "1d3f7d63f080572de7e7821b413ae16ce95730211f2e5f323e64342b3e793b9a"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.33687",
+      "type": "paper",
+      "arxiv_id": "2611.33687",
+      "doi": "10.48550/arXiv.2611.33687",
+      "title": "Read Before You Use: Improving Visual Memory Utilization in Vision-Language Models",
+      "published": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.33687",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.33687",
+        "https://doi.org/10.48550/arXiv.2611.33687"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.33687",
+      "pdf_url": "https://arxiv.org/pdf/2611.33687v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": "https://memru-proj.github.io/",
+      "code_verification": "Project URL linked by fixed paper, not readable via web at check time. No official training code or independent author blog verified in bounded exact title and author search.",
+      "pdf_sha256": "774d8d352abcb67af34631f72c349ca7f599fc931b37abe7c985b7d585a51e46",
+      "figures": [
+        {
+          "file": "assets/mem-method.png",
+          "paper_figure": "Figure 4",
+          "page": 5,
+          "crop_normalized": [
+            0.091,
+            0.087,
+            0.91,
+            0.415
+          ],
+          "size": [
+            1519,
+            787
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.33687v1",
+          "png_sha256": "251714552b00859feb2ea92ecfadfa3a399710606bd53121459802a3cdb2c569"
+        },
+        {
+          "file": "assets/mem-results.png",
+          "paper_figure": "Table 2",
+          "page": 6,
+          "crop_normalized": [
+            0.091,
+            0.087,
+            0.91,
+            0.463
+          ],
+          "size": [
+            1519,
+            902
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.33687v1",
+          "png_sha256": "75aa96ce7ca194b747f5eeda8a913cdfbe2081399d46088702b7d539ff17da51"
+        },
+        {
+          "file": "assets/mem-read.png",
+          "paper_figure": "Figure 5",
+          "page": 7,
+          "crop_normalized": [
+            0.091,
+            0.083,
+            0.91,
+            0.292
+          ],
+          "size": [
+            1519,
+            502
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.33687v1",
+          "png_sha256": "ba16a298ab9ae1bf0ca1fff17546b2c752af365555b8fc4bf9df18f660aac181"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.34681",
+      "type": "paper",
+      "arxiv_id": "2611.34681",
+      "doi": "10.48550/arXiv.2611.34681",
+      "title": "Find the Clue, Not the Scene: Rethinking Reasoning for Entity Recognition in Vision-Language Models",
+      "published": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.34681",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.34681",
+        "https://doi.org/10.48550/arXiv.2611.34681"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.34681",
+      "pdf_url": "https://arxiv.org/pdf/2611.34681v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "Fixed v1 includes judge and extraction prompts. No official training implementation, released weights or standalone author blog verified.",
+      "pdf_sha256": "57c24f5d5d5bb23923d40e0c0ff1be680ba3da9750c1d23ea788e182f6e0c630",
+      "figures": [
+        {
+          "file": "assets/clue-method.png",
+          "paper_figure": "Figure 5",
+          "page": 5,
+          "crop_normalized": [
+            0.091,
+            0.084,
+            0.91,
+            0.307
+          ],
+          "size": [
+            1519,
+            535
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34681v1",
+          "png_sha256": "98bbd614e02daaad5d20c6ad2a617b0e756f651f2607fa38859fe854aca4b88d"
+        },
+        {
+          "file": "assets/clue-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.091,
+            0.085,
+            0.49,
+            0.375
+          ],
+          "size": [
+            740,
+            696
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34681v1",
+          "png_sha256": "c1db94a7645d5515e8625bf84a0acc9577f04c0ec672c7080701d60be9c4b27c"
+        },
+        {
+          "file": "assets/clue-transfer.png",
+          "paper_figure": "Table 3",
+          "page": 7,
+          "crop_normalized": [
+            0.091,
+            0.085,
+            0.491,
+            0.324
+          ],
+          "size": [
+            742,
+            574
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34681v1",
+          "png_sha256": "2d31582ad2f825d89a97498ff2ae970541e2aaaf51b50f395c589ae5c5bcac20"
+        },
+        {
+          "file": "assets/clue-ablation.png",
+          "paper_figure": "Table 5",
+          "page": 12,
+          "crop_normalized": [
+            0.508,
+            0.173,
+            0.911,
+            0.292
+          ],
+          "size": [
+            748,
+            286
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34681v1",
+          "png_sha256": "ebc2c0ffe04fb9f2699024aa6657bbb91c26415e6317a9970be1ce0343fc011a"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.34397",
+      "type": "paper",
+      "arxiv_id": "2611.34397",
+      "doi": "10.48550/arXiv.2611.34397",
+      "title": "Strong Starts, Simple Recipes: Unified Multi-Teacher On-Policy Distillation from Multimodal Specialists",
+      "published": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.34397",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.34397",
+        "https://doi.org/10.48550/arXiv.2611.34397"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.34397",
+      "pdf_url": "https://arxiv.org/pdf/2611.34397v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/AmberHeart/Uni-MOPD",
+      "project_url": "https://amberheart.github.io/Uni-MOPD/",
+      "code_verification": "Official repository README blob 3864591db630e0caff8ceb3955a88cd0a1573bb1, configs and author-published AmberHeart weights collection linked. Repository documents a distinct Nov13 code release and Nov26 announcement. Publication date comes from v1 submission.",
+      "pdf_sha256": "94cef1420a3f2f92caec595cc33cbfc4eefe9f88a1e5d6fb3cc2ffee60e55f73",
+      "figures": [
+        {
+          "file": "assets/uni-method.png",
+          "paper_figure": "Figure 1",
+          "page": 2,
+          "crop_normalized": [
+            0.111,
+            0.105,
+            0.89,
+            0.355
+          ],
+          "size": [
+            1445,
+            600
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34397v1",
+          "png_sha256": "32a8a476eef5b0f1f97daee5de60e48e289140748da792aae0e2a5ebd6c87735"
+        },
+        {
+          "file": "assets/uni-starts.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.111,
+            0.109,
+            0.89,
+            0.543
+          ],
+          "size": [
+            1445,
+            1041
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34397v1",
+          "png_sha256": "d4030cab6ebee63c9f6ce36f2e3c5abee36f5586dec20aed5d87d0aea9c1df9c"
+        },
+        {
+          "file": "assets/uni-curve.png",
+          "paper_figure": "Figure 2",
+          "page": 7,
+          "crop_normalized": [
+            0.111,
+            0.107,
+            0.89,
+            0.392
+          ],
+          "size": [
+            1445,
+            684
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34397v1",
+          "png_sha256": "86cf8d0a33bf9ca98061ef03ed93a9689cc9f22807fa0ca95b89a17334ff8ba0"
+        },
+        {
+          "file": "assets/uni-comparison.png",
+          "paper_figure": "Tables 3-5",
+          "page": 11,
+          "crop_normalized": [
+            0.111,
+            0.109,
+            0.889,
+            0.478
+          ],
+          "size": [
+            1443,
+            885
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34397v1",
+          "png_sha256": "09cb1f70c441929f4d6dce12286c4b1a94e1df2097383c2abcc4060cfc7fa1b4"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.32203",
+      "type": "paper",
+      "arxiv_id": "2611.32203",
+      "doi": "10.48550/arXiv.2611.32203",
+      "title": "OmniEVIE: Evidence-Vector-Informed Embedding for Multi-modal Retrieval",
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.32203",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32203",
+        "https://doi.org/10.48550/arXiv.2611.32203"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32203",
+      "pdf_url": "https://arxiv.org/pdf/2611.32203v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/Tencent/OmniEVIE",
+      "project_url": null,
+      "code_verification": "Official repo README blob c4e94524e77f223853c64dee52c971262f09ef91 and Tencent OmniEVIE-4B card verified. Inference, indexing and retrieval examples are available; full training pipeline not verified. CITATION.cff has earlier software date; arXiv v1 first-submission date used for the paper.",
+      "pdf_sha256": "ef2972e710177545ee1b053defe50985ebcf18e7404f3f84267b5a841dce5279",
+      "figures": [
+        {
+          "file": "assets/evie-method.png",
+          "paper_figure": "Figure 3",
+          "page": 8,
+          "crop_normalized": [
+            0.112,
+            0.105,
+            0.891,
+            0.574
+          ],
+          "size": [
+            1445,
+            1126
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32203v1",
+          "png_sha256": "8f31f7e5125aa88c8fc63bd45acd1f9441a14d2e851a79454354b39e1c6718cc"
+        },
+        {
+          "file": "assets/evie-search.png",
+          "paper_figure": "Figure 6",
+          "page": 16,
+          "crop_normalized": [
+            0.112,
+            0.275,
+            0.891,
+            0.552
+          ],
+          "size": [
+            1445,
+            665
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32203v1",
+          "png_sha256": "b9a5d0bbeba86f45fb4c9e5d4009ffc0e3d0c172f6dfb786ef39deb832cacd79"
+        },
+        {
+          "file": "assets/evie-results.png",
+          "paper_figure": "Tables 8-10",
+          "page": 17,
+          "crop_normalized": [
+            0.111,
+            0.107,
+            0.891,
+            0.632
+          ],
+          "size": [
+            1447,
+            1260
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32203v1",
+          "png_sha256": "bbc9e7f873f42d8608c23e767795c0fe699d8786c3101a59e3c6e5e844ca5cf0"
+        },
+        {
+          "file": "assets/evie-ablation.png",
+          "paper_figure": "Table 12",
+          "page": 18,
+          "crop_normalized": [
+            0.111,
+            0.24,
+            0.891,
+            0.389
+          ],
+          "size": [
+            1447,
+            358
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32203v1",
+          "png_sha256": "14a06a31156aa6d26c5089f9938b783e035b57bab30fdfe56417c63b24347116"
+        }
+      ]
+    }
+  ],
+  "auxiliary_sources": [
+    "https://amberheart.github.io/Uni-MOPD/",
+    "https://arxiv.org/abs/2212.04089",
+    "https://arxiv.org/abs/2311.03099",
+    "https://arxiv.org/abs/2503.14476",
+    "https://arxiv.org/abs/2605.18740",
+    "https://faiss.ai/",
+    "https://github.com/AmberHeart/Uni-MOPD",
+    "https://github.com/PaulLerner/ViQuAE",
+    "https://github.com/QwenLM/Qwen3-VL",
+    "https://github.com/TIGER-AI-Lab/VLM2Vec",
+    "https://github.com/Tencent/OmniEVIE",
+    "https://github.com/illuin-tech/colpali",
+    "https://github.com/xiaolingdudu/STAR",
+    "https://huggingface.co/Qwen/Qwen3.5-4B",
+    "https://huggingface.co/collections/AmberHeart/uni-mopd",
+    "https://huggingface.co/datasets/Yizou/STAR-6K",
+    "https://huggingface.co/docs/trl/grpo_trainer",
+    "https://huggingface.co/docs/trl/sft_trainer",
+    "https://huggingface.co/tencent/OmniEVIE-4B",
+    "https://memru-proj.github.io/",
+    "https://swift.readthedocs.io/en/latest/",
+    "https://verl.readthedocs.io/en/latest/"
+  ],
+  "execution_environment": {
+    "actual": "local macOS fallback, existing authorized SSH",
+    "cloud_schedule": "remote runbook records paused, pending environment binding verification",
+    "cloud_migration_thread_access": "Located ChatGPT thread 6afaf053-3b64-83ec-9e22-28f2cc04d0a2; readable turns contain no evidence of independent execution",
+    "cloud_same_day_report_verified": false,
+    "credentials_copied": false
+  },
+  "search_log": [
+    {
+      "date": "2026-11-27",
+      "queries": [
+        "arXiv November 26 2026 vision language model post training GRPO reinforcement VLM",
+        "counterfactual dual world visual on-policy distillation STAR",
+        "visual memory utilization Read Before You Use MemRU",
+        "Find the Clue Not the Scene ClueRL",
+        "multimodal specialists Uni-MOPD official and OmniEVIE 4B retrieval distillation"
+      ],
+      "verification": "Candidate discovery through targeted web search, official arXiv metadata and cross-list digests. Primary arXiv v1 records and PDFs determine first-public UTC day and technical claims; official GitHub and HF inputs used for code/weights."
+    },
+    {
+      "candidate": "EVA 2611.33706 and Keep the Image in Mind 2611.23872",
+      "decision": "Training-free approaches, excluded as daily main entries."
+    },
+    {
+      "candidate": "Seeing the Right Context 2611.34700",
+      "decision": "Eligible backup examined; not counted to diversify the five training topics."
+    },
+    {
+      "candidate": "Tiny Evidence Region Localization 2611.10734 and ARS-VLM 2611.32147",
+      "decision": "Prior VLM reports; excluded by versionless arXiv aliases."
+    },
+    {
+      "candidate": "Third-party digest issue dates and query comments",
+      "decision": "Announcements on 25 or 26 Nov may be a day after arXiv submission; never substituted for v1 metadata."
+    },
+    {
+      "candidate": "History across all directions",
+      "decision": "Checked source aliases, title normalization, DOI and URL indexing against full committed manifests."
+    }
+  ],
+  "checks": {
+    "original_figure_crops": 19,
+    "primary_pdfs_downloaded": 5,
+    "primary_pdf_physical_pages": 112,
+    "trained_models": false,
+    "dedup": "All directions; existing sources.json, committed manifests and new manifest checked via update_index.py.",
+    "pdf": "See assets/QA.md for same-source PDF text, math, crop, navigation and visual checks.",
+    "evidence_caveats": [
+      "STAR wall time ratio is threshold-specific and excludes data preparation. Same-step curve scores are distinct from main table scores.",
+      "MemRU sufficiency-controlled diagnosis, complete test cases, and Pass@k are different denominators.",
+      "ClueRL localized credit has external judge dependence. It does not eliminate fabricated visual clues.",
+      "Uni-MOPD 30B total/3B active; distillation GPU-hours exclude specialist training. Hardware match does not imply identical backend or rollout reuse.",
+      "OmniEVIE compressed-versus-full-vector scores, official 8-frame conditions, and CPU index-only timings are shown separately."
+    ]
+  }
+}
