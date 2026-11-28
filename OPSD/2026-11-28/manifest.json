@@ -1,0 +1,501 @@
+{
+  "date": "2026-11-28",
+  "direction": "OPSD",
+  "topic": "教师接管、遮罩自蒸馏与算力对照",
+  "timezone": "Asia/Shanghai",
+  "window_start": "2026-10-28",
+  "window_end": "2026-11-28",
+  "target_count": 5,
+  "actual_count": 5,
+  "shortfall_reason": null,
+  "search": {
+    "primary_index": "arXiv API / primary abs and PDF",
+    "arxiv_query_count": 166,
+    "terms": [
+      "on-policy distillation",
+      "on-policy self-distillation",
+      "self-distillation"
+    ],
+    "exclusions": [
+      "Previously indexed ID/title/DOI/URL",
+      "Out-of-window first release without a verified substantial revision",
+      "Unrelated or offline-only work",
+      "Workshop listing predating the window without independently confirmed in-window substantive update for SSD (2611.12016)"
+    ]
+  },
+  "sources": [
+    {
+      "id": "arxiv:2610.38160",
+      "type": "paper",
+      "title": "ATI-OPD: Adaptive Teacher Intervention for Stable Long-Sequence On-Policy Distillation",
+      "published": "2026-10-28",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-10-28T02:00:26+00:00",
+      "published_at_beijing": "2026-10-28T10:00:26+08:00",
+      "arxiv_id": "2610.38160",
+      "doi": "10.48550/arXiv.2610.38160",
+      "url": "https://arxiv.org/abs/2610.38160",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.38160",
+        "https://doi.org/10.48550/arXiv.2610.38160"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.38160",
+      "submission_history": "Submission history From: Jiannan Guan [ view email ] [v1] Wed, 28 Oct 2026 02:00:26 UTC (2,318 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2610.38160v1",
+      "read_version": "v1",
+      "source_pdf_pages": 26,
+      "source_pdf_sha256": "4cc27b154f590f0ec08bc43fdb2cf901b23ebc4dde85e89693c254f29c09f7dc",
+      "publication_evidence_snapshot_sha256": "5c9c09d58a11a2d742680b5d0b0085e94c460b3cca0a2d14fbbf15e7f2ff8afa",
+      "code_url": "https://github.com/jubgjf/ATI-OPD",
+      "code_commit": "db347f69ae737e48f71b4648a8c4762c9a1d3fea",
+      "code_status": "Verified author implementation, training launchers and diagnostics; no experiment rerun",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/ati-fig2.png",
+          "arxiv_id": "2610.38160",
+          "page": 5,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.08,
+            0.099,
+            0.902,
+            0.447
+          ],
+          "sha256": "3bca50a4c67c320de5789cfc07cd7da181e2a52725a992235891c9da7b53539f",
+          "source_url": "https://arxiv.org/pdf/2610.38160v1"
+        },
+        {
+          "file": "assets/ati-table1.png",
+          "arxiv_id": "2610.38160",
+          "page": 6,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.075,
+            0.098,
+            0.916,
+            0.401
+          ],
+          "sha256": "cb6f13a71cd10a83cffe735c0a02e337d5c4bf97e7f9365f09b0e90ac441fe7b",
+          "source_url": "https://arxiv.org/pdf/2610.38160v1"
+        },
+        {
+          "file": "assets/ati-fig7.png",
+          "arxiv_id": "2610.38160",
+          "page": 10,
+          "paper_figure": "Figure 7",
+          "crop_box_normalized": [
+            0.075,
+            0.098,
+            0.924,
+            0.36
+          ],
+          "sha256": "cb9f4ce53e13f252ca8471071c7f534303b41e5a491cdc42a739f8803c625240",
+          "source_url": "https://arxiv.org/pdf/2610.38160v1"
+        },
+        {
+          "file": "assets/ati-fig3.png",
+          "arxiv_id": "2610.38160",
+          "page": 7,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.077,
+            0.095,
+            0.922,
+            0.553
+          ],
+          "sha256": "01d7a8017303b52f78ac9b013605601d5c1d48274bfda03d6c6b4c7ec3c3c677",
+          "source_url": "https://arxiv.org/pdf/2610.38160v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2610.38154",
+      "type": "paper",
+      "title": "MASS: Multi-mask Selective Self-Distillation for Leakage-Resilient Reasoning",
+      "published": "2026-10-28",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-10-28T01:41:15+00:00",
+      "published_at_beijing": "2026-10-28T09:41:15+08:00",
+      "arxiv_id": "2610.38154",
+      "doi": "10.48550/arXiv.2610.38154",
+      "url": "https://arxiv.org/abs/2610.38154",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2610.38154",
+        "https://doi.org/10.48550/arXiv.2610.38154"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2610.38154",
+      "submission_history": "Submission history From: Oveys Delafrooz Noroozi [ view email ] [v1] Wed, 28 Oct 2026 01:41:15 UTC (1,358 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2610.38154v1",
+      "read_version": "v1",
+      "source_pdf_pages": 15,
+      "source_pdf_sha256": "95380702b8a9b1e8b922685839fec6ce643944e33c90a862dc659d95668e58ec",
+      "publication_evidence_snapshot_sha256": "077c7e9b31f668be4072bc614f5b9e53b73ac9ce30ecca3c210d9e35526d81b5",
+      "code_url": "https://github.com/researcheranoymous-oss/MASS_2027",
+      "code_commit": "32bcedf580799d34fe0bc79bd414f130dad2ba86",
+      "code_status": "Verified partial implementation. Uniform masking and selective weighting available; Shapley regression and mask-probability updater explicitly withheld",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/mass-fig2.png",
+          "arxiv_id": "2610.38154",
+          "page": 3,
+          "paper_figure": "Figure 2",
+          "crop_box_normalized": [
+            0.08,
+            0.064,
+            0.922,
+            0.288
+          ],
+          "sha256": "df68358dc022c0392d2e44ec82fe408bbb3601e1539916618b54a8cafd26efc1",
+          "source_url": "https://arxiv.org/pdf/2610.38154v1"
+        },
+        {
+          "file": "assets/mass-table1.png",
+          "arxiv_id": "2610.38154",
+          "page": 4,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.507,
+            0.062,
+            0.92,
+            0.496
+          ],
+          "sha256": "f151264baad07b3f610ee6d6b5c46df5e216e5b0f64e8c5c087505252244f588",
+          "source_url": "https://arxiv.org/pdf/2610.38154v1"
+        },
+        {
+          "file": "assets/mass-fig3.png",
+          "arxiv_id": "2610.38154",
+          "page": 5,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.084,
+            0.066,
+            0.92,
+            0.259
+          ],
+          "sha256": "93870c13ff7ba168e59cd9ae716f4f38eda929c94b1384bef82fda705f6d3d61",
+          "source_url": "https://arxiv.org/pdf/2610.38154v1"
+        },
+        {
+          "file": "assets/mass-table3.png",
+          "arxiv_id": "2610.38154",
+          "page": 6,
+          "paper_figure": "Table 3",
+          "crop_box_normalized": [
+            0.507,
+            0.381,
+            0.925,
+            0.554
+          ],
+          "sha256": "2fbbf95110711f3e0136ae3ab732e4a430e49bfc0c59a45fc7df0f86015dd9d9",
+          "source_url": "https://arxiv.org/pdf/2610.38154v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.01987",
+      "type": "paper",
+      "title": "Same Trajectory, Different Knowledge: Information-State-Aware On-Policy Distillation for Search Agents",
+      "published": "2026-11-01",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-11-01T15:24:16+00:00",
+      "published_at_beijing": "2026-11-01T23:24:16+08:00",
+      "arxiv_id": "2611.01987",
+      "doi": "10.48550/arXiv.2611.01987",
+      "url": "https://arxiv.org/abs/2611.01987",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.01987",
+        "https://doi.org/10.48550/arXiv.2611.01987"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.01987",
+      "submission_history": "Submission history From: Minhao Sun [ view email ] [v1] Sun, 1 Nov 2026 15:24:16 UTC (1,437 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.01987v1",
+      "read_version": "v1",
+      "source_pdf_pages": 12,
+      "source_pdf_sha256": "d5a1e6299598cdcb231d1119b46ef27bd71442be96508bd9b4291062efb37a52",
+      "publication_evidence_snapshot_sha256": "ed9ee49a59c0429b0cd8d227e122019915a18e5ee8a99e10a7e6e8cd8afeea09",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "Author plans to release code and checkpoints; no public dedicated implementation confirmed",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/isa-fig3.png",
+          "arxiv_id": "2611.01987",
+          "page": 3,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.075,
+            0.092,
+            0.928,
+            0.368
+          ],
+          "sha256": "bb7b0a867e1ef1a9282e10c1f1c4f3257169d3660c49c3760d0603e9018a6f92",
+          "source_url": "https://arxiv.org/pdf/2611.01987v1"
+        },
+        {
+          "file": "assets/isa-table1.png",
+          "arxiv_id": "2611.01987",
+          "page": 4,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.08,
+            0.1,
+            0.925,
+            0.45
+          ],
+          "sha256": "45fbdff7a4cb0f5e186be37a7cdcbc5e2746b843e609b70ca30e9bf386fe55ac",
+          "source_url": "https://arxiv.org/pdf/2611.01987v1"
+        },
+        {
+          "file": "assets/isa-fig9.png",
+          "arxiv_id": "2611.01987",
+          "page": 7,
+          "paper_figure": "Figure 9",
+          "crop_box_normalized": [
+            0.081,
+            0.588,
+            0.493,
+            0.754
+          ],
+          "sha256": "8884f561a178088d92bc655c754f66f10fa6258f3d1cf5b36678f4a1b531a88c",
+          "source_url": "https://arxiv.org/pdf/2611.01987v1"
+        },
+        {
+          "file": "assets/isa-fig7.png",
+          "arxiv_id": "2611.01987",
+          "page": 7,
+          "paper_figure": "Figure 7",
+          "crop_box_normalized": [
+            0.08,
+            0.099,
+            0.926,
+            0.278
+          ],
+          "sha256": "d6acf95f7cc48e9f01681b5153145a477ba3cfb6d40102db9e6ca79f2a247520",
+          "source_url": "https://arxiv.org/pdf/2611.01987v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.01965",
+      "type": "paper",
+      "title": "OC-OPD: Observation-coordinated Supervision for On-Policy Distillation",
+      "published": "2026-11-01",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-11-01T15:02:05+00:00",
+      "published_at_beijing": "2026-11-01T23:02:05+08:00",
+      "arxiv_id": "2611.01965",
+      "doi": "10.48550/arXiv.2611.01965",
+      "url": "https://arxiv.org/abs/2611.01965",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.01965",
+        "https://doi.org/10.48550/arXiv.2611.01965"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.01965",
+      "submission_history": "Submission history From: Ruoran Xu [ view email ] [v1] Sun, 1 Nov 2026 15:02:05 UTC (1,063 KB) [v2] Sat, 21 Nov 2026 15:37:26 UTC (275 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.01965v2",
+      "read_version": "v2",
+      "source_pdf_pages": 26,
+      "source_pdf_sha256": "5a8c94bd98d4ef966043bbd15a4cea00272f9f54ecb77f3d77a854b00bbaf0e8",
+      "publication_evidence_snapshot_sha256": "38637bd0100bf2de76f724e4ef727e8564843d7eb4fe6c2a87ce7a09e9b9d393",
+      "code_url": "https://github.com/RuoranXu/OC-OPD",
+      "code_commit": "2105b38b35e9452ef498ee89383782991ebbf239",
+      "code_status": "Verified author training, preprocessing, evaluation and comparison launchers; no experiment rerun",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/oc-fig1.png",
+          "arxiv_id": "2611.01965",
+          "page": 1,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.118,
+            0.435,
+            0.886,
+            0.704
+          ],
+          "sha256": "2d9ea27697cb4d05199617c9c74c233fa4fa8fb9dfe468a3ba727a939bf458e6",
+          "source_url": "https://arxiv.org/pdf/2611.01965v2"
+        },
+        {
+          "file": "assets/oc-table1.png",
+          "arxiv_id": "2611.01965",
+          "page": 7,
+          "paper_figure": "Table 1",
+          "crop_box_normalized": [
+            0.116,
+            0.073,
+            0.89,
+            0.342
+          ],
+          "sha256": "cf8ae426bb0bf8d01f72756bbdca9ba699aeb971b54576d9684ea81dfab96384",
+          "source_url": "https://arxiv.org/pdf/2611.01965v2"
+        },
+        {
+          "file": "assets/oc-fig2-3.png",
+          "arxiv_id": "2611.01965",
+          "page": 8,
+          "paper_figure": "Figures 2–3",
+          "crop_box_normalized": [
+            0.116,
+            0.068,
+            0.892,
+            0.23
+          ],
+          "sha256": "580588ad8d76dd69cd222763428b8fd32b1b27a2c6485c51df9d75b491e5100d",
+          "source_url": "https://arxiv.org/pdf/2611.01965v2"
+        },
+        {
+          "file": "assets/oc-table4.png",
+          "arxiv_id": "2611.01965",
+          "page": 8,
+          "paper_figure": "Table 4",
+          "crop_box_normalized": [
+            0.115,
+            0.675,
+            0.893,
+            0.842
+          ],
+          "sha256": "689a7529a86707fa8d02b0ecb7070dbd411a577e4cd48df7688fa24015786c99",
+          "source_url": "https://arxiv.org/pdf/2611.01965v2"
+        }
+      ]
+    },
+    {
+      "id": "arxiv:2611.08453",
+      "type": "paper",
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "published": "2026-11-05",
+      "publication_date_timezone": "UTC",
+      "published_at_utc": "2026-11-05T18:47:05+00:00",
+      "published_at_beijing": "2026-11-06T02:47:05+08:00",
+      "arxiv_id": "2611.08453",
+      "doi": "10.48550/arXiv.2611.08453",
+      "url": "https://arxiv.org/abs/2611.08453",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.08453",
+        "https://doi.org/10.48550/arXiv.2611.08453"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.08453",
+      "submission_history": "Submission history From: Zeyu Liu [ view email ] [v1] Thu, 5 Nov 2026 18:47:05 UTC (1,463 KB)",
+      "pdf_url": "https://arxiv.org/pdf/2611.08453v1",
+      "read_version": "v1",
+      "source_pdf_pages": 44,
+      "source_pdf_sha256": "ef82c64cffa8a3bcd4d1d174f813e686347943b5019c94b56570f6477e19ddf9",
+      "publication_evidence_snapshot_sha256": "6472204c650a8e769806fc6d755ba17bc6e9aae4d68c44e10eb5afc64582a458",
+      "code_url": null,
+      "code_commit": null,
+      "code_status": "veRL and SGLang public; dedicated experimental fork not confirmed public",
+      "author_blog_url": null,
+      "figures": [
+        {
+          "file": "assets/compute-fig1.png",
+          "arxiv_id": "2611.08453",
+          "page": 1,
+          "paper_figure": "Figure 1",
+          "crop_box_normalized": [
+            0.116,
+            0.515,
+            0.88,
+            0.658
+          ],
+          "sha256": "51534d8fd1ba8688dd36fe07d39a358c9b86290ca09f6c256fd60db17d7a4129",
+          "source_url": "https://arxiv.org/pdf/2611.08453v1"
+        },
+        {
+          "file": "assets/compute-fig3.png",
+          "arxiv_id": "2611.08453",
+          "page": 6,
+          "paper_figure": "Figure 3",
+          "crop_box_normalized": [
+            0.115,
+            0.092,
+            0.884,
+            0.242
+          ],
+          "sha256": "75cc02360a271a1d13a97b7bb392af7f5e4c0270770659d15f7e5d9fc0f99d2e",
+          "source_url": "https://arxiv.org/pdf/2611.08453v1"
+        },
+        {
+          "file": "assets/compute-fig5.png",
+          "arxiv_id": "2611.08453",
+          "page": 8,
+          "paper_figure": "Figure 5",
+          "crop_box_normalized": [
+            0.115,
+            0.089,
+            0.886,
+            0.28
+          ],
+          "sha256": "1a10c94194425db12379831f12a48ed958fb49731702d5c7183a29974dba741b",
+          "source_url": "https://arxiv.org/pdf/2611.08453v1"
+        }
+      ]
+    }
+  ],
+  "auxiliary_sources": [
+    "https://arxiv.org/abs/2306.13649",
+    "https://thinkingmachines.ai/blog/on-policy-distillation/",
+    "https://huggingface.co/docs/trl/distillation_trainer",
+    "https://huggingface.co/docs/trl/grpo_trainer",
+    "https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html",
+    "https://ai.stanford.edu/blog/colm-2026/"
+  ],
+  "review": {
+    "pages": 16,
+    "prose_code_table_fragments_checked": 311,
+    "original_figures_and_tables": 19,
+    "original_image_pixels_matched": 19,
+    "unique_formulas": 185,
+    "math_occurrences": 206,
+    "display_formula_occurrences": 20,
+    "embedded_cjk_fonts": [
+      "/AAAAAA+STSongti-TC-Bold",
+      "/AAAAAB+STSongti-TC-Bold",
+      "/AAAAAC+STSongti-TC-Bold",
+      "/AAAAAD+STSongti-TC-Bold"
+    ],
+    "quick_read_link_destination_pages": [
+      1,
+      5,
+      8,
+      11,
+      14
+    ],
+    "page_bounds_checked": true,
+    "all_pages_rendered": true,
+    "page_renderer": "PDFium",
+    "markdown_sha256": "e7c6ba3324e15af68d6f819659136c90f7cfc12413926add1035364e8ab80971",
+    "pdf_sha256": "654c61a3d6508168cc10939153093891094ac999fca9d86691af938e1749bea8"
+  },
+  "artifact_sha256": {
+    "assets/QA.md": "49431f93eeaffca3f674be146b3ede652870911b063a56422b113af889552804",
+    "assets/SOURCES.md": "eedb075d72dd2cfd575de6fcead9e45cab49d4e9ed59a5a47df746107ed0a3da",
+    "assets/ati-fig2.png": "3bca50a4c67c320de5789cfc07cd7da181e2a52725a992235891c9da7b53539f",
+    "assets/ati-fig3.png": "01d7a8017303b52f78ac9b013605601d5c1d48274bfda03d6c6b4c7ec3c3c677",
+    "assets/ati-fig7.png": "cb9f4ce53e13f252ca8471071c7f534303b41e5a491cdc42a739f8803c625240",
+    "assets/ati-table1.png": "cb6f13a71cd10a83cffe735c0a02e337d5c4bf97e7f9365f09b0e90ac441fe7b",
+    "assets/compute-fig1.png": "51534d8fd1ba8688dd36fe07d39a358c9b86290ca09f6c256fd60db17d7a4129",
+    "assets/compute-fig3.png": "75cc02360a271a1d13a97b7bb392af7f5e4c0270770659d15f7e5d9fc0f99d2e",
+    "assets/compute-fig5.png": "1a10c94194425db12379831f12a48ed958fb49731702d5c7183a29974dba741b",
+    "assets/isa-fig3.png": "bb7b0a867e1ef1a9282e10c1f1c4f3257169d3660c49c3760d0603e9018a6f92",
+    "assets/isa-fig7.png": "d6acf95f7cc48e9f01681b5153145a477ba3cfb6d40102db9e6ca79f2a247520",
+    "assets/isa-fig9.png": "8884f561a178088d92bc655c754f66f10fa6258f3d1cf5b36678f4a1b531a88c",
+    "assets/isa-table1.png": "45fbdff7a4cb0f5e186be37a7cdcbc5e2746b843e609b70ca30e9bf386fe55ac",
+    "assets/mass-fig2.png": "df68358dc022c0392d2e44ec82fe408bbb3601e1539916618b54a8cafd26efc1",
+    "assets/mass-fig3.png": "93870c13ff7ba168e59cd9ae716f4f38eda929c94b1384bef82fda705f6d3d61",
+    "assets/mass-table1.png": "f151264baad07b3f610ee6d6b5c46df5e216e5b0f64e8c5c087505252244f588",
+    "assets/mass-table3.png": "2fbbf95110711f3e0136ae3ab732e4a430e49bfc0c59a45fc7df0f86015dd9d9",
+    "assets/math-manifest.json": "b222d1234a1bc6bc5a2722726ab2c1b4223d878efb69a2a4e14f05c4f4f2631a",
+    "assets/oc-fig1.png": "2d9ea27697cb4d05199617c9c74c233fa4fa8fb9dfe468a3ba727a939bf458e6",
+    "assets/oc-fig2-3.png": "580588ad8d76dd69cd222763428b8fd32b1b27a2c6485c51df9d75b491e5100d",
+    "assets/oc-table1.png": "cf8ae426bb0bf8d01f72756bbdca9ba699aeb971b54576d9684ea81dfab96384",
+    "assets/oc-table4.png": "689a7529a86707fa8d02b0ecb7070dbd411a577e4cd48df7688fa24015786c99",
+    "assets/render_report.py": "e8f2b180dd0d728aacd378e24e569755026314f14718bada0892c4745198d075",
+    "report.md": "e7c6ba3324e15af68d6f819659136c90f7cfc12413926add1035364e8ab80971",
+    "report.pdf": "654c61a3d6508168cc10939153093891094ac999fca9d86691af938e1749bea8"
+  }
+}
