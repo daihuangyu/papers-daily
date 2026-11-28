@@ -2,6 +2,518 @@
   "schema_version": 2,
   "sources": [
     {
+      "id": "arxiv:2611.34700",
+      "type": "paper",
+      "arxiv_id": "2611.34700",
+      "doi": "10.48550/arXiv.2611.34700",
+      "title": "Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing",
+      "published": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.34700",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.34700",
+        "https://doi.org/10.48550/arXiv.2611.34700"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.34700",
+      "pdf_url": "https://arxiv.org/pdf/2611.34700v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/YeeCharm/GeOPD",
+      "project_url": null,
+      "code_verification": "Official README blob 696175a3511bbfdca332bbb53e453c127d9f4dc7. Evaluation and inference entries listed. Core training framework, full GeoContext-5K and weights marked pending.",
+      "pdf_sha256": "7843f36703d082c4397e9db1eaded3208b505e6e588030fc4aaf1eb03febdd1d",
+      "figures": [
+        {
+          "file": "assets/geo-data.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.092,
+            0.087,
+            0.909,
+            0.486
+          ],
+          "size": [
+            1515,
+            957
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34700v1",
+          "png_sha256": "8524f714a3ac2c6af0599bd134df19d1336a6b846b4e4c752565154ac58da1d3"
+        },
+        {
+          "file": "assets/geo-method.png",
+          "paper_figure": "Figure 3",
+          "page": 4,
+          "crop_normalized": [
+            0.092,
+            0.087,
+            0.909,
+            0.488
+          ],
+          "size": [
+            1515,
+            962
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34700v1",
+          "png_sha256": "e6a70172e4bfdfc6ba43eb5317bd27bda36f92ba369922dd31056fa13b84228c"
+        },
+        {
+          "file": "assets/geo-results.png",
+          "paper_figure": "Table 2",
+          "page": 7,
+          "crop_normalized": [
+            0.091,
+            0.086,
+            0.911,
+            0.338
+          ],
+          "size": [
+            1521,
+            605
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34700v1",
+          "png_sha256": "5a9320a35d0108d0552167f5f1d9514838854d9051353f4efd8cc5d385c85e12"
+        },
+        {
+          "file": "assets/geo-ablations.png",
+          "paper_figure": "Tables 3–4",
+          "page": 7,
+          "crop_normalized": [
+            0.091,
+            0.35,
+            0.909,
+            0.492
+          ],
+          "size": [
+            1517,
+            341
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34700v1",
+          "png_sha256": "904db61fc8b783dd88de45ef9607ce11cd45451d484efd242905aa5a659117d0"
+        },
+        {
+          "file": "assets/geo-mask.png",
+          "paper_figure": "Figures 4–5",
+          "page": 8,
+          "crop_normalized": [
+            0.091,
+            0.089,
+            0.91,
+            0.344
+          ],
+          "size": [
+            1519,
+            612
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.34700v1",
+          "png_sha256": "b75d29e8207783695b1aa2d71cbad4093e823e472c01ab312cddb5a018f65624"
+        }
+      ],
+      "folder": "VLM/2026-11-28",
+      "aliases": [
+        "arxiv:2611.34700",
+        "doi:10.48550/arxiv.2611.34700",
+        "id:arxiv:2611.34700",
+        "title:seeingtherightcontextgroundedonpolicydistillationforremotesensing",
+        "url:https://arxiv.org/abs/2611.34700",
+        "url:https://doi.org/10.48550/arxiv.2611.34700"
+      ]
+    },
+    {
+      "id": "arxiv:2611.32316",
+      "type": "paper",
+      "arxiv_id": "2611.32316",
+      "doi": "10.48550/arXiv.2611.32316",
+      "title": "ASTERISM: Do Multimodal LLMs Actually Look at All the Images?",
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.32316",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.32316",
+        "https://doi.org/10.48550/arXiv.2611.32316"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.32316",
+      "pdf_url": "https://arxiv.org/pdf/2611.32316v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/chanseul01/ASTERISM",
+      "project_url": null,
+      "code_verification": "Official README blob a072f55f759cec8ed2e32d6d7a1da4d809798ea6. Datasets, model weights, evaluation and build scripts linked. CICA training marked pending. v2 released 2026-11-25; report and crops refer to v1.",
+      "pdf_sha256": "7bdf514c94facc2df8a3edcebf7986d481e6452a0f2d88b4ba147045a46c93bf",
+      "figures": [
+        {
+          "file": "assets/asterism-data.png",
+          "paper_figure": "Figure 4",
+          "page": 5,
+          "crop_normalized": [
+            0.092,
+            0.084,
+            0.91,
+            0.365
+          ],
+          "size": [
+            1517,
+            674
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32316v1",
+          "png_sha256": "afd990fd20be44d663e2d568759417556239c56bf82cce7eed7a44f99a443fd7"
+        },
+        {
+          "file": "assets/asterism-method.png",
+          "paper_figure": "Figure 6",
+          "page": 6,
+          "crop_normalized": [
+            0.091,
+            0.084,
+            0.91,
+            0.399
+          ],
+          "size": [
+            1519,
+            756
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32316v1",
+          "png_sha256": "d5b652e3934f6eceb248f6f840f5fd1094d403bb9aaab21b83519c8da5b75404"
+        },
+        {
+          "file": "assets/asterism-results.png",
+          "paper_figure": "Table 4",
+          "page": 7,
+          "crop_normalized": [
+            0.504,
+            0.348,
+            0.912,
+            0.497
+          ],
+          "size": [
+            757,
+            358
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32316v1",
+          "png_sha256": "67f5ee784fbf73e77766259dcbe0a74b2da4534790820c796dc2c8a8d5c2fbf3"
+        },
+        {
+          "file": "assets/asterism-conditions.png",
+          "paper_figure": "Figure 7",
+          "page": 8,
+          "crop_normalized": [
+            0.091,
+            0.087,
+            0.911,
+            0.289
+          ],
+          "size": [
+            1521,
+            485
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.32316v1",
+          "png_sha256": "a26a1a9dd44f68ea09f8e83ca2051f6210f16228b21472d3baaf44fb48dabe79"
+        }
+      ],
+      "folder": "VLM/2026-11-28",
+      "aliases": [
+        "arxiv:2611.32316",
+        "doi:10.48550/arxiv.2611.32316",
+        "id:arxiv:2611.32316",
+        "title:asterismdomultimodalllmsactuallylookatalltheimages",
+        "url:https://arxiv.org/abs/2611.32316",
+        "url:https://doi.org/10.48550/arxiv.2611.32316"
+      ]
+    },
+    {
+      "id": "arxiv:2611.20006",
+      "type": "paper",
+      "arxiv_id": "2611.20006",
+      "doi": "10.48550/arXiv.2611.20006",
+      "title": "Glance, then Select: Evidence-Tempered Visual Token Selection for Extremely Compressed Multimodal LLMs",
+      "published": "2026-11-15",
+      "url": "https://arxiv.org/abs/2611.20006",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.20006",
+        "https://doi.org/10.48550/arXiv.2611.20006"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.20006",
+      "pdf_url": "https://arxiv.org/pdf/2611.20006v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No official implementation or published weights verified in paper and bounded title/author/source search.",
+      "pdf_sha256": "c6e77de7ae255fc7d99f233cf8e25e9553e3dcb0a7c27fec6c4154faed3814fe",
+      "figures": [
+        {
+          "file": "assets/glance-method.png",
+          "paper_figure": "Figure 3",
+          "page": 4,
+          "crop_normalized": [
+            0.091,
+            0.086,
+            0.91,
+            0.575
+          ],
+          "size": [
+            1519,
+            1174
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20006v1",
+          "png_sha256": "ba796de021f70d5876039de73c067ec4648ccad9c2fb9f676f48c2bca0986755"
+        },
+        {
+          "file": "assets/glance-results.png",
+          "paper_figure": "Table 1",
+          "page": 6,
+          "crop_normalized": [
+            0.09,
+            0.086,
+            0.91,
+            0.697
+          ],
+          "size": [
+            1521,
+            1467
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20006v1",
+          "png_sha256": "c12d46d1779dc11d4dd8512153b5d51e5bfbd8854fcdf3f8fb670d505077c579"
+        },
+        {
+          "file": "assets/glance-ablation.png",
+          "paper_figure": "Table 3",
+          "page": 7,
+          "crop_normalized": [
+            0.09,
+            0.086,
+            0.91,
+            0.377
+          ],
+          "size": [
+            1521,
+            699
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20006v1",
+          "png_sha256": "0674e0a957db8d8d2d8276f5dd0496b48326448c975a5b626eab34df6f541b83"
+        },
+        {
+          "file": "assets/glance-efficiency.png",
+          "paper_figure": "Figure 4",
+          "page": 8,
+          "crop_normalized": [
+            0.09,
+            0.086,
+            0.91,
+            0.293
+          ],
+          "size": [
+            1521,
+            497
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20006v1",
+          "png_sha256": "a416b4cb706fb3f4544cec0368a94a325b9df46a73d67a880847095e39307367"
+        }
+      ],
+      "folder": "VLM/2026-11-28",
+      "aliases": [
+        "arxiv:2611.20006",
+        "doi:10.48550/arxiv.2611.20006",
+        "id:arxiv:2611.20006",
+        "title:glancethenselectevidencetemperedvisualtokenselectionforextremelycompressedmultimodalllms",
+        "url:https://arxiv.org/abs/2611.20006",
+        "url:https://doi.org/10.48550/arxiv.2611.20006"
+      ]
+    },
+    {
+      "id": "arxiv:2611.20676",
+      "type": "paper",
+      "arxiv_id": "2611.20676",
+      "doi": "10.48550/arXiv.2611.20676",
+      "title": "Learning and Verifying Progress: Closed-Loop Agentic Planning with Progress-Enhanced Execution for Long-Horizon Vision-Language Navigation",
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.20676",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.20676",
+        "https://doi.org/10.48550/arXiv.2611.20676"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.20676",
+      "pdf_url": "https://arxiv.org/pdf/2611.20676v1",
+      "read_version": "v1",
+      "code_url": null,
+      "project_url": null,
+      "code_verification": "No official implementation or weights verified in paper and bounded title/author/source search. VLN-CE implementation is an environment resource, not LeaP-VLN code.",
+      "pdf_sha256": "979b38070e7a5b3b19368cee5cd8df6118963ab7e980fdecca509068a6a5e5a7",
+      "figures": [
+        {
+          "file": "assets/leap-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.091,
+            0.06,
+            0.912,
+            0.344
+          ],
+          "size": [
+            1523,
+            682
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20676v1",
+          "png_sha256": "e91d7b85171387a17710be725494ad89dd8c10357aaf988fa45607551ab980bc"
+        },
+        {
+          "file": "assets/leap-curriculum.png",
+          "paper_figure": "Figure 3",
+          "page": 4,
+          "crop_normalized": [
+            0.088,
+            0.06,
+            0.495,
+            0.384
+          ],
+          "size": [
+            755,
+            778
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20676v1",
+          "png_sha256": "7768a06e43943423df5592fe840ed002721ecb3baa860ec6c1b726439eadce08"
+        },
+        {
+          "file": "assets/leap-hard.png",
+          "paper_figure": "Figure 4",
+          "page": 5,
+          "crop_normalized": [
+            0.506,
+            0.061,
+            0.914,
+            0.274
+          ],
+          "size": [
+            756,
+            512
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20676v1",
+          "png_sha256": "ae7ad69875b72fca1218ca04b0d3fdacc28fdcc177e6a9ecf7e54cc56d12e8fb"
+        },
+        {
+          "file": "assets/leap-results.png",
+          "paper_figure": "Table I",
+          "page": 6,
+          "crop_normalized": [
+            0.085,
+            0.057,
+            0.917,
+            0.393
+          ],
+          "size": [
+            1543,
+            806
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20676v1",
+          "png_sha256": "c005accc5b845c17709b4233f9e479b6045938f17e9363a1798ebe8e75c67d95"
+        },
+        {
+          "file": "assets/leap-ablation.png",
+          "paper_figure": "Table II",
+          "page": 6,
+          "crop_normalized": [
+            0.506,
+            0.403,
+            0.919,
+            0.591
+          ],
+          "size": [
+            766,
+            451
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.20676v1",
+          "png_sha256": "2cff90d99a1a39f906ce55c5e058ce031942448e5d3f8633c379a85506496510"
+        }
+      ],
+      "folder": "VLM/2026-11-28",
+      "aliases": [
+        "arxiv:2611.20676",
+        "doi:10.48550/arxiv.2611.20676",
+        "id:arxiv:2611.20676",
+        "title:learningandverifyingprogressclosedloopagenticplanningwithprogressenhancedexecutionforlonghorizonvisionlanguagenavigation",
+        "url:https://arxiv.org/abs/2611.20676",
+        "url:https://doi.org/10.48550/arxiv.2611.20676"
+      ]
+    },
+    {
+      "id": "arxiv:2611.26409",
+      "type": "paper",
+      "arxiv_id": "2611.26409",
+      "doi": "10.48550/arXiv.2611.26409",
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26409",
+      "canonical_urls": [
+        "https://arxiv.org/abs/2611.26409",
+        "https://doi.org/10.48550/arXiv.2611.26409"
+      ],
+      "publication_evidence_url": "https://arxiv.org/abs/2611.26409",
+      "pdf_url": "https://arxiv.org/pdf/2611.26409v1",
+      "read_version": "v1",
+      "code_url": "https://github.com/Tencent/WeMM-Video",
+      "project_url": "https://tencent.github.io/WeMM-Video/",
+      "code_verification": "Official README blob fd52252b7889e7aeb89988cbe6fdbf5b3971c2c7. Project, inference instructions and Tencent weights card verified. Full OPD, preference and RL training pipeline not verified.",
+      "pdf_sha256": "ddb0c10f5255adc8e3c0556f6f7c411ad6caf3e5c42813ce9ac24479a37e1a87",
+      "figures": [
+        {
+          "file": "assets/wemm-method.png",
+          "paper_figure": "Figure 2",
+          "page": 3,
+          "crop_normalized": [
+            0.106,
+            0.087,
+            0.892,
+            0.418
+          ],
+          "size": [
+            1458,
+            794
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26409v1",
+          "png_sha256": "1bf63dc1c802d1bcb62697a5db2296d281f12c9ede1b99c56d1e6ebd9046c1df"
+        },
+        {
+          "file": "assets/wemm-data.png",
+          "paper_figure": "Figure 3",
+          "page": 4,
+          "crop_normalized": [
+            0.18,
+            0.093,
+            0.823,
+            0.38
+          ],
+          "size": [
+            1193,
+            689
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26409v1",
+          "png_sha256": "13d44e729f8ef99bb8544b4e3082d5a9ee5dbf44ae2756748c34f0b9e207bbe0"
+        },
+        {
+          "file": "assets/wemm-results.png",
+          "paper_figure": "Table 2",
+          "page": 8,
+          "crop_normalized": [
+            0.109,
+            0.118,
+            0.894,
+            0.885
+          ],
+          "size": [
+            1456,
+            1841
+          ],
+          "source_url": "https://arxiv.org/pdf/2611.26409v1",
+          "png_sha256": "566d2bbbd14a02adb15e3882c2d2b33777ff9868cc5fc876a9e4839563bea252"
+        }
+      ],
+      "folder": "VLM/2026-11-28",
+      "aliases": [
+        "arxiv:2611.26409",
+        "doi:10.48550/arxiv.2611.26409",
+        "id:arxiv:2611.26409",
+        "title:wemmvideopushingthefrontiersofopensourceomnimodalvideounderstanding",
+        "url:https://arxiv.org/abs/2611.26409",
+        "url:https://doi.org/10.48550/arxiv.2611.26409"
+      ]
+    },
+    {
       "id": "arxiv:2611.32472",
       "type": "paper",
       "arxiv_id": "2611.32472",
@@ -18837,6 +19349,36 @@
     }
   ],
   "aliases": {
+    "arxiv:2611.34700": "VLM/2026-11-28",
+    "doi:10.48550/arxiv.2611.34700": "VLM/2026-11-28",
+    "id:arxiv:2611.34700": "VLM/2026-11-28",
+    "title:seeingtherightcontextgroundedonpolicydistillationforremotesensing": "VLM/2026-11-28",
+    "url:https://arxiv.org/abs/2611.34700": "VLM/2026-11-28",
+    "url:https://doi.org/10.48550/arxiv.2611.34700": "VLM/2026-11-28",
+    "arxiv:2611.32316": "VLM/2026-11-28",
+    "doi:10.48550/arxiv.2611.32316": "VLM/2026-11-28",
+    "id:arxiv:2611.32316": "VLM/2026-11-28",
+    "title:asterismdomultimodalllmsactuallylookatalltheimages": "VLM/2026-11-28",
+    "url:https://arxiv.org/abs/2611.32316": "VLM/2026-11-28",
+    "url:https://doi.org/10.48550/arxiv.2611.32316": "VLM/2026-11-28",
+    "arxiv:2611.20006": "VLM/2026-11-28",
+    "doi:10.48550/arxiv.2611.20006": "VLM/2026-11-28",
+    "id:arxiv:2611.20006": "VLM/2026-11-28",
+    "title:glancethenselectevidencetemperedvisualtokenselectionforextremelycompressedmultimodalllms": "VLM/2026-11-28",
+    "url:https://arxiv.org/abs/2611.20006": "VLM/2026-11-28",
+    "url:https://doi.org/10.48550/arxiv.2611.20006": "VLM/2026-11-28",
+    "arxiv:2611.20676": "VLM/2026-11-28",
+    "doi:10.48550/arxiv.2611.20676": "VLM/2026-11-28",
+    "id:arxiv:2611.20676": "VLM/2026-11-28",
+    "title:learningandverifyingprogressclosedloopagenticplanningwithprogressenhancedexecutionforlonghorizonvisionlanguagenavigation": "VLM/2026-11-28",
+    "url:https://arxiv.org/abs/2611.20676": "VLM/2026-11-28",
+    "url:https://doi.org/10.48550/arxiv.2611.20676": "VLM/2026-11-28",
+    "arxiv:2611.26409": "VLM/2026-11-28",
+    "doi:10.48550/arxiv.2611.26409": "VLM/2026-11-28",
+    "id:arxiv:2611.26409": "VLM/2026-11-28",
+    "title:wemmvideopushingthefrontiersofopensourceomnimodalvideounderstanding": "VLM/2026-11-28",
+    "url:https://arxiv.org/abs/2611.26409": "VLM/2026-11-28",
+    "url:https://doi.org/10.48550/arxiv.2611.26409": "VLM/2026-11-28",
     "arxiv:2611.32472": "VLM/2026-11-27",
     "doi:10.48550/arxiv.2611.32472": "VLM/2026-11-27",
     "id:arxiv:2611.32472": "VLM/2026-11-27",
