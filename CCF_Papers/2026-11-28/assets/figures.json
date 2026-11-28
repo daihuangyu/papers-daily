@@ -1,0 +1,332 @@
+[
+  {
+    "file": "mom-fig1.png",
+    "paper": "mom",
+    "figure": "fig1",
+    "physical_pdf_page": 4,
+    "crop_points_from_top_left": [
+      106,
+      77,
+      506,
+      338
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2f4b6febe0b70805c3be75e5d6a66918-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "9b51c265aeff920ebf46f997e0b4edbc4ba740e093fc15a91c794711ff23e9cd",
+    "sha256": "8158a6c89cff6b9932561afc003b456665330e040300f322815cdf9a91874c18",
+    "pixels": [
+      1200,
+      783
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 论文集 PDF 物理页 4。左侧把 EMA 写成线上平方拟合，右侧换成两个低秩因子并更新。示意图处理优化器状态，训练权重仍可保持稠密。"
+  },
+  {
+    "file": "mom-table1.png",
+    "paper": "mom",
+    "figure": "table1",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      106,
+      78,
+      506,
+      319
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2f4b6febe0b70805c3be75e5d6a66918-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "9b51c265aeff920ebf46f997e0b4edbc4ba740e093fc15a91c794711ff23e9cd",
+    "sha256": "88de51dda2d7e8eec55be5f2a523e71ad7b90add670cf4c573569c4d5177d827",
+    "pixels": [
+      1200,
+      723
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 7。每列是独立 Llama 规模及相同 C4 token 预算，比较验证困惑度，越低越好。1B 列 LoRA-Pre Adam 13.53、GaLore 15.64、完整 Adam 15.56、完整 Muon 13.41。350M 完整 Muon 16.17 也优于 LoRA-Pre Adam 16.36。星号标作者重跑项目。"
+  },
+  {
+    "file": "mom-fig2.png",
+    "paper": "mom",
+    "figure": "fig2",
+    "physical_pdf_page": 8,
+    "crop_points_from_top_left": [
+      106,
+      456,
+      506,
+      655
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2f4b6febe0b70805c3be75e5d6a66918-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "9b51c265aeff920ebf46f997e0b4edbc4ba740e093fc15a91c794711ff23e9cd",
+    "sha256": "de5d780a3113555bf28e761988d94f5f3b9d98ad14227fe237073dacdcb3aa54",
+    "pixels": [
+      1200,
+      597
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 2，物理页 8。两面板分别为 60M 和 130M，横轴为秩，纵轴为困惑度。60M 中作者比较 LoRA-Pre Adam 秩 16 与 GaLore 秩 128 的相近结果。「八分之一」描述此配置的秩比，图未测端到端显存。"
+  },
+  {
+    "file": "erc-fig1.png",
+    "paper": "erc",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      75,
+      506,
+      252
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/79ff18412c1a5816f071a796375abc3d-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "c7aed275ba8b80630bcc62365d8d3ded73a0510379db63e18af39672aa3276d6",
+    "sha256": "ca76f777dd2173d269ad5d8b1f4ee5f5a5d1aa72ddf5f853a0803d9681c8ed61",
+    "pixels": [
+      1200,
+      531
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 论文集 PDF 物理页 2。左侧为路由向量加噪，中央为用同一批代表向量扫描专家门控投影，右侧是对角匹配。两种箭头对应固定行和固定列的比较。"
+  },
+  {
+    "file": "erc-fig3.png",
+    "paper": "erc",
+    "figure": "fig3",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      106,
+      257,
+      506,
+      451
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/79ff18412c1a5816f071a796375abc3d-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "c7aed275ba8b80630bcc62365d8d3ded73a0510379db63e18af39672aa3276d6",
+    "sha256": "fae8a88c85a66f3381f16219de383e31d39684cb87ee0ab510f09be2e57c1a10",
+    "pixels": [
+      1200,
+      582
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 3，物理页 6。左边在 3B 的 300B 至 500B token 区段比较原 MoE、AoE、ERC 的十任务均值，右边比较负载均衡损失。ERC 与原 MoE 的负载损失相差约十万分之一，同时任务均值大多优于原 MoE。"
+  },
+  {
+    "file": "erc-table1.png",
+    "paper": "erc",
+    "figure": "table1",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      106,
+      652,
+      506,
+      725
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/79ff18412c1a5816f071a796375abc3d-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "c7aed275ba8b80630bcc62365d8d3ded73a0510379db63e18af39672aa3276d6",
+    "sha256": "b02480cca0a12c97b35d688a75bdf2db3b51dea09775564e35795b797c7ddc8a",
+    "pixels": [
+      1200,
+      219
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 1，物理页 6。15B、约 700M 激活时对照同架构原 MoE。MMLU 63.2→64.6、GSM8K 45.2→45.8、TriviaQA 47.2→49.1。15B 的 AoE 受资源限制未训练成功，跨尺度不能视为同一组比较。"
+  },
+  {
+    "file": "erc-fig6.png",
+    "paper": "erc",
+    "figure": "fig6",
+    "physical_pdf_page": 9,
+    "crop_points_from_top_left": [
+      106,
+      78,
+      506,
+      239
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/79ff18412c1a5816f071a796375abc3d-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "c7aed275ba8b80630bcc62365d8d3ded73a0510379db63e18af39672aa3276d6",
+    "sha256": "ebdf412389e289ca38ed7a632e138ab210b854dc09a044c6bb7a9bf35dccce50",
+    "pixels": [
+      1200,
+      483
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 6，物理页 9。横轴是已训练 token。左对照门控前、门控后及完整 FFN 激活作为代理，中央去掉噪声，右侧只对路由向量加正交损失。去噪后增益显著缩小，只正交化的收益也有限。"
+  },
+  {
+    "file": "rank-fig1.png",
+    "paper": "rank",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      78,
+      506,
+      330
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2af179e30c16f3a6d44311adbb5ec63f-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "58aa2267712561111f7f602c7bcc54f7fccfb04d7f4cb2091289c95c39ea0928",
+    "sha256": "b9b337f8681a03b9f1cc85f064e626ca958e8b5f6c7acb4d5f24fc42a2e369cf",
+    "pixels": [
+      1200,
+      756
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 论文集 PDF 物理页 2。左图横轴为秩、纵轴为近似 KL，按 OLMo-7B 的历史与未来子矩阵规模分线。右图是 OLMo-1B 对目标续写的逐位置 KL，对比只拟合首个 token、截短历史和更早检查点。它衡量分布的接近程度，不能当作人类质量评分或运行加速。"
+  },
+  {
+    "file": "rank-fig8.png",
+    "paper": "rank",
+    "figure": "fig8",
+    "physical_pdf_page": 19,
+    "crop_points_from_top_left": [
+      106,
+      167,
+      506,
+      631
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2af179e30c16f3a6d44311adbb5ec63f-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "58aa2267712561111f7f602c7bcc54f7fccfb04d7f4cb2091289c95c39ea0928",
+    "sha256": "5df77024d990058e40fb10fe4d79062f1c07f54a553279897110cf838398749a",
+    "pixels": [
+      1200,
+      1392
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 8，物理页 19。各小图在 $`k=50`$ 的子矩阵上看不同开源底座的 KL 随秩变化。固定模型和缩小倍数再比较。未训练的 OLMo-1B 面板对矩阵大小更敏感，说明低秩性随训练出现，不能从输出维度直接推出多步结果。"
+  },
+  {
+    "file": "tfpi-fig1.png",
+    "paper": "tfpi",
+    "figure": "fig1",
+    "physical_pdf_page": 2,
+    "crop_points_from_top_left": [
+      106,
+      75,
+      506,
+      307
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/29416b66c2149872b9d1415a3fd2c5e0-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "fd6f13e60d085f637210f2fe3c203e6301547799077696261101a70f41c634cd",
+    "sha256": "d439fbd3d9541de8508862ea4def9fe6b6794aef97460e8e94f5f8342e4b22a5",
+    "pixels": [
+      1200,
+      696
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 1，ICLR 2026 论文集 PDF 物理页 2。左图比较 Qwen3-4B，横轴为训练 H20 小时且拼接了不同的区段刻度，读数时不能把整图横距当等比例。右图看四任务平均准确率和每题输出词数，左上代表词数较少且准确度较高，红点表示阶段。"
+  },
+  {
+    "file": "tfpi-fig2.png",
+    "paper": "tfpi",
+    "figure": "fig2",
+    "physical_pdf_page": 4,
+    "crop_points_from_top_left": [
+      106,
+      75,
+      506,
+      235
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/29416b66c2149872b9d1415a3fd2c5e0-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "fd6f13e60d085f637210f2fe3c203e6301547799077696261101a70f41c634cd",
+    "sha256": "4cfce1377b61787ac0b2fbc652af7edaffba32f00673a6bd0ef9a61602cefb07",
+    "pixels": [
+      1200,
+      480
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 2，物理页 4。左侧 AIME25 的推理词数从 16.5K→4.4K 和 17.4K→5.1K。右侧图注标 AIME24，邻近正文写 AIME25，二者口径有冲突，按图注读右图。右侧比较同为 4K 的训练输出上限，测试仍走思考模板，附录 Table 13 另验证统一采样参数的左图压缩现象。"
+  },
+  {
+    "file": "tfpi-table2.png",
+    "paper": "tfpi",
+    "figure": "table2",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      106,
+      78,
+      506,
+      275
+    ],
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/29416b66c2149872b9d1415a3fd2c5e0-Paper-Conference.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "fd6f13e60d085f637210f2fe3c203e6301547799077696261101a70f41c634cd",
+    "sha256": "96c2313f6da8756fe85bfb85d0510486e18d8848850cf7f06800d3d3ec0019a6",
+    "pixels": [
+      1200,
+      591
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 2，物理页 6。同底座 Qwen3-4B，Direct RL 六项均值 62.0，TFPI+RL 65.7；另一个起点 Qwen3-4B-2507-Thinking 的 TFPI-only AIME24 89.0、LiveCodeBench 65.5，IFEval 68.0→66.7。带星号行引用其他论文，不能混成严格复算。"
+  },
+  {
+    "file": "ees-fig2.png",
+    "paper": "ees",
+    "figure": "fig2",
+    "physical_pdf_page": 3,
+    "crop_points_from_top_left": [
+      303,
+      68,
+      530,
+      301
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.2398.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "b9858231587d911ae528f0d2eb6cfe86aad09b6f2813b077b6ccd29afac85eab",
+    "sha256": "9b856aa07c5e014a7b8cfa20ae9cc32ca2f125c201691b21f5318d6f7889ff97",
+    "pixels": [
+      681,
+      699
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 2，EMNLP 2026 PDF 物理页 3，印刷页 54512。柱为单词概率，折线为累计质量与候选内归一化熵，首次触发后要回退一位。图是规则示意。"
+  },
+  {
+    "file": "ees-table2.png",
+    "paper": "ees",
+    "figure": "table2",
+    "physical_pdf_page": 6,
+    "crop_points_from_top_left": [
+      68,
+      272,
+      529,
+      463
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.2398.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "b9858231587d911ae528f0d2eb6cfe86aad09b6f2813b077b6ccd29afac85eab",
+    "sha256": "1252f3a7f6da3b867598f8682f386d2121bcd4754e35fa566dc8264a8ab78864",
+    "pixels": [
+      1383,
+      573
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Table 2，物理页 6，印刷页 54515。用同一 Qwen3-8B 与 GSM8K，分是否开启思考，两侧各测三种温度。免思考 EES 平均 62.53、Mirostat 62.64，思考 EES 66.72、Min-p 66.79。每格五次均值，标准差区间 0.14 至 0.85 个百分点，小差距需结合误差读。"
+  },
+  {
+    "file": "ees-fig4.png",
+    "paper": "ees",
+    "figure": "fig4",
+    "physical_pdf_page": 7,
+    "crop_points_from_top_left": [
+      303,
+      65,
+      530,
+      317
+    ],
+    "pdf_url": "https://aclanthology.org/2026.emnlp-main.2398.pdf",
+    "pdf_version": "2026 official conference proceedings",
+    "pdf_sha256": "b9858231587d911ae528f0d2eb6cfe86aad09b6f2813b077b6ccd29afac85eab",
+    "sha256": "7961d3c3e1fdfc90e6976237d5f25ae4ba90c90ee769984e9bf2ca31db7d0484",
+    "pixels": [
+      681,
+      756
+    ],
+    "modification": "Original PDF crop at 216 dpi.",
+    "caption_conditions_and_reading_guide": "图 原文 Figure 4，物理页 7，印刷页 54516。看 Qwen2.5-7B-Instruct 在 CommonsenseQA 的实际保留数分布，温度 0.5 时 89% 以上步骤保留一个词，升到 1.5 后分布出现长尾。它解释候选行为，不直接表明输出更正确。"
+  }
+]

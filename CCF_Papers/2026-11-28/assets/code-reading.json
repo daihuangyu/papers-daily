@@ -1,0 +1,106 @@
+[
+  {
+    "paper": "mom",
+    "repository": "https://github.com/mrflogs/LoRA-Pre",
+    "notes": [
+      "The proceedings claims a public release, but the pinned official archive only contains README and LICENSE. README says implementation to come. Reviewed paper Algorithms 1 and 2."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "29c53c675811e4fd1411f86fd22c86bd3ca911a9",
+    "archive_url": "https://codeload.github.com/mrflogs/LoRA-Pre/tar.gz/29c53c675811e4fd1411f86fd22c86bd3ca911a9",
+    "archive_sha256": "4be1a95aeed1a85a8362d39911afd7a60f21c93da467fa416b4f636916294900",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "c59bcb9ade04096b6ff1297c8c580d8efde69d745ccaeebdd7778cdbdd2ae1f7"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "cbcf4d5cebddeb0eb5d73cdf3ab67e4b343b499fbb09a6966d3c2369f498b315"
+      }
+    ]
+  },
+  {
+    "paper": "erc",
+    "repository": null,
+    "notes": [
+      "No verified separate author implementation found. Read the formal appendix PyTorch-style pseudocode in Figure 8."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies."
+  },
+  {
+    "paper": "rank",
+    "repository": null,
+    "notes": [
+      "Formal paper explicitly plans to release code. No verified author implementation found in the paper, proceedings and title/repository search."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies."
+  },
+  {
+    "paper": "tfpi",
+    "repository": "https://github.com/Tencent-Hunyuan/Thinking-Free_Policy_Initialization",
+    "notes": [
+      "Read the 4K Qwen3-4B launcher, dataset converter, DAPO reward manager and model README. Launcher uses an empty thinking prefix and group filtering."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "d9c8462a5269272a82d448dd125cba961b327716",
+    "archive_url": "https://codeload.github.com/Tencent-Hunyuan/Thinking-Free_Policy_Initialization/tar.gz/d9c8462a5269272a82d448dd125cba961b327716",
+    "archive_sha256": "df48fa3a28776daf3257f51ca375dbd703f093f3ad228e0104a49e85d99b4459",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "1803c78223e72eb0e88192c50f0bc45aecca718962577ed6cc81800a0eee7e12"
+      },
+      {
+        "path": "scripts/train/qwen3-4b-tfpi.sh",
+        "sha256": "5c536232e9679b7f7f73a818d05ce5fb4cb280575af63f137ac2cc025342e46c"
+      },
+      {
+        "path": "scripts/download_train.py",
+        "sha256": "0eaa320195fec6f7baee4cd631c4ef021764f3122c5f9874af10c7213701a210"
+      },
+      {
+        "path": "verl/workers/reward_manager/dapo.py",
+        "sha256": "d881bec0a30c118c48950ac6b8d7478cc7fa2f635b72a464658ea9165efd5969"
+      }
+    ]
+  },
+  {
+    "paper": "ees",
+    "repository": "https://github.com/shuanncai/Entropy-Equilibrium-Sampling",
+    "notes": [
+      "Read the proceedings repository generation path and EESWarper. Active method references probs_mass and indices_to_remove after their initialization has been commented out. Static finding, not executed."
+    ],
+    "experiments_executed": false,
+    "scope": "Static review of relevant modules and configuration, not all vendored dependencies.",
+    "commit": "03eccde61c92dafce9bc67572f1ff276206f9a39",
+    "archive_url": "https://codeload.github.com/shuanncai/Entropy-Equilibrium-Sampling/tar.gz/03eccde61c92dafce9bc67572f1ff276206f9a39",
+    "archive_sha256": "7b93cb00a2bd699688b4c6c4a53dc828d079c115ee17771ea1c8610274d456f6",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "efa929fca5bdab7ac0ff40c59681865d2a303a15044ab78b152d57984d5053e5"
+      },
+      {
+        "path": "generate.py",
+        "sha256": "a4a54f8d40d967dd804fedd20974caf83ed586897da391eee3afc1da9b9536ee"
+      },
+      {
+        "path": "generate/__init__.py",
+        "sha256": "1ab0dcd820158b8ab1351776da4548ac878ae773318bb16e0eaa1ea331c52a68"
+      },
+      {
+        "path": "generate/utils.py",
+        "sha256": "8964ae520046847fcd04bde8ea28e54bc81650f7a7849f5b3157bb259e7d07b5"
+      },
+      {
+        "path": "evaluation.py",
+        "sha256": "ddc5dac8c27f306b6d9532457804fa68c61ea2c49f1f8c57be7f1fbfa559aedd"
+      }
+    ]
+  }
+]

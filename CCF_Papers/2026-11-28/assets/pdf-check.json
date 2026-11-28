@@ -1,0 +1,913 @@
+{
+  "pages": 14,
+  "original_images": 15,
+  "markdown_characters": 16463,
+  "text_lines_checked": 120,
+  "missing_lines": [],
+  "coverage_method": "All non-math lines matched to extracted PDF text. TeX source and render hashes verified. Each inline formula drawing and original crop matched by decoded pixels. Display math SVG path hashes checked. Page review recorded separately.",
+  "text_characters_per_page": [
+    867,
+    694,
+    849,
+    552,
+    909,
+    773,
+    919,
+    590,
+    1066,
+    691,
+    872,
+    1162,
+    1018,
+    710
+  ],
+  "out_of_page_characters": [],
+  "out_of_bounds_images": [],
+  "out_of_bounds_vector_curves": [],
+  "markdown_sha256": "832a119bcd85da22a14c9566097a4d308f5ff92cb7ace556e4da037edf5e8554",
+  "pdf_sha256": "a5094604589e5e899ba4670fa2b6dbbbbdc020310d050c7bd8239238caba4989",
+  "math": {
+    "occurrences": 108,
+    "display": 7,
+    "inline": 101,
+    "unique_expressions": 98,
+    "render_errors": 0,
+    "manifest": "assets/math-manifest.json",
+    "checks": [
+      {
+        "tex": "A",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "AA^\\top",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A\\in\\mathbb R^{r\\times q}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A_r",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "A_{z_t,t}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "B",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "BAA^\\top=G_tA^\\top",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "B\\in\\mathbb R^{p\\times r}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "B^\\top BA=B^\\top G_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "B_t x_{t-1}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "D_{\\mathrm{avg}}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "F",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "G",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "G_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "G_t\\in\\mathbb R^{p\\times q}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "G_t^{\\circ2}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "H",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "H_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "H_k=\\log P_k-S_k/P_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "K",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "L_M",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "L_M(h,(f,z))=\\log p_M(z\\mid h\\circ f)\n-\\frac{1}{|\\Sigma|}\\sum_{u\\in\\Sigma}\\log p_M(u\\mid h\\circ f).",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "M",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "M-G_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "M=BA",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "M_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "M_{ij}=\\|\\widetilde R_iW_g^j\\|_2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "P_k",
+        "display": false,
+        "occurrences": 3,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "R_i",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "S_k=\\sum_{i\\le k}p_i\\log p_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "V=(B_vA_v)^{\\circ2}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "W_g^j",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "[1-\\epsilon_i,1+\\epsilon_i]",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "[x]_+=\\max(x,0)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\Sigma",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha M_{ii}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha=0.8",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\alpha=1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\bar r",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nA_i&=\\frac{r_i-\\bar r}{s_r},\\qquad\nw_{i,t}=\\frac{\\pi_\\theta(y_{i,t}\\mid x',y_{i,\\lt t})}\n{\\pi_{\\mathrm{old}}(y_{i,t}\\mid x',y_{i,\\lt t})},\\\\\n\\widetilde w_{i,t}&=\\mathrm{clip}(w_{i,t},1-0.2,1+0.28),\\\\\nJ(x')&=\\frac{\\sum_i\\sum_t\\min(w_{i,t}A_i,\\widetilde w_{i,t}A_i)}\n{\\sum_i |y_i|}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nB&\\leftarrow (1-\\gamma_1)B+\\gamma_1 G_t A^\\top(AA^\\top)^{-1},\\\\\nA&\\leftarrow (1-\\gamma_1)A+\\gamma_1 (B^\\top B)^{-1}B^\\top G_t .\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nL_t(M)&=\\tfrac12\\lVert M-G_t\\rVert_F^2,\\\\\nM_{t+1}&=M_t-(1-\\beta)\\nabla_M L_t(M_t)\n=\\beta M_t+(1-\\beta)G_t .\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nL_{\\mathrm{ERC}}&=\\frac{1}{n^2}\\sum_{i=1}^{n}\\sum_{j\\ne i}\n\\bigl([M_{ij}-\\alpha M_{ii}]_+ + [M_{ji}-\\alpha M_{ii}]_+\\bigr),\\\\\nL_{\\mathrm{train}}&=L_{\\mathrm{LM}}+0.01 L_{\\mathrm{balance}}+L_{\\mathrm{ERC}} .\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\nP_k&=\\sum_{i=1}^k p_i,\\qquad\nH_k=-\\sum_{i=1}^k q_{i,k}\\log q_{i,k},\\qquad\n\\overline H_k=\\frac{H_k}{\\log k}\\quad(k\\ge2),\\\\\n\\kappa&=\\min\\bigl(\\{k\\in\\{2,\\ldots,n\\}:\\overline H_k\\lt P_k\\}\\cup\\{n+1\\}\\bigr),\\\\\nk^\\star&=\\min(\\kappa-1,n).\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\begin{aligned}\n\\|L_M-A_r\\|_F^2\n&=\\sum_{i>r}\\sigma_i^2\n\\le C^2\\sum_{i>r}i^{-2\\alpha}\n\\le \\frac{C^2 r^{1-2\\alpha}}{2\\alpha-1},\\quad \\alpha>1/2,\\\\\nD_{\\mathrm{avg}}(L_M,A_r)\n&\\le \\frac{\\|L_M-A_r\\|_F^2}{|H||F|}.\n\\end{aligned}",
+        "display": true,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\beta",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\delta_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\ell_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\ell_i/\\tau",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\epsilon_i\\le d_i/(2\\|R_i\\|_2)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\epsilon_i\\|R_i\\|_2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\gamma_1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\gamma_2",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\kappa",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\log k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\log(p_i/P_k)=\\log p_i-\\log P_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\overline H_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_\\theta",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\pi_{\\mathrm{old}}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\sigma_i\\approx C i^{-\\alpha}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\tau",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\theta P_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\theta=1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widetilde R_i=R_i\\odot\\delta_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\widetilde w_{i,t}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "\\|\\cdot\\|_F",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "d_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "h\\circ f",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "i",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "j",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "k=1",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "k=50",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "n",
+        "display": false,
+        "occurrences": 2,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "n\\times n",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "p_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "q_{i,k}=p_i/P_k",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r",
+        "display": false,
+        "occurrences": 3,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "r_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s_r",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "s_r=0",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "u",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "w_{i,t}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "x",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "x'",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "x'=T(x)",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "x_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "y_i",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "y_{i,t}",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "z",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "z_t",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "|B_vA_v|",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "|G_t|",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "|H||F|",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      },
+      {
+        "tex": "|\\Sigma|",
+        "display": false,
+        "occurrences": 1,
+        "source_and_render_hash_checked": true
+      }
+    ],
+    "vector_path_operations_per_page": [
+      0,
+      2048,
+      1572,
+      0,
+      2914,
+      0,
+      1738,
+      2814,
+      0,
+      4310,
+      0,
+      0,
+      4093,
+      0
+    ]
+  },
+  "font_check": {
+    "status": "passed",
+    "missing_glyphs": 0,
+    "embedded_text_fonts": {
+      "/F2+0": "/AAAAAA+STSongti-TC-Bold",
+      "/F2+1": "/AAAAAB+STSongti-TC-Bold",
+      "/F2+2": "/AAAAAC+STSongti-TC-Bold",
+      "/F2+3": "/AAAAAD+STSongti-TC-Bold"
+    },
+    "math": "MathJax vector display paths and576dpi inline PNG; no raw TeX fallback"
+  },
+  "image_integrity": {
+    "original_crops": [
+      {
+        "file": "mom-fig1.png",
+        "page": 3,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          783
+        ]
+      },
+      {
+        "file": "mom-table1.png",
+        "page": 4,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          723
+        ]
+      },
+      {
+        "file": "mom-fig2.png",
+        "page": 4,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          597
+        ]
+      },
+      {
+        "file": "erc-fig1.png",
+        "page": 5,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          531
+        ]
+      },
+      {
+        "file": "erc-fig3.png",
+        "page": 6,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          582
+        ]
+      },
+      {
+        "file": "erc-table1.png",
+        "page": 6,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          219
+        ]
+      },
+      {
+        "file": "erc-fig6.png",
+        "page": 7,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          483
+        ]
+      },
+      {
+        "file": "rank-fig1.png",
+        "page": 8,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          756
+        ]
+      },
+      {
+        "file": "rank-fig8.png",
+        "page": 9,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          1392
+        ]
+      },
+      {
+        "file": "tfpi-fig1.png",
+        "page": 10,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          696
+        ]
+      },
+      {
+        "file": "tfpi-fig2.png",
+        "page": 11,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          480
+        ]
+      },
+      {
+        "file": "tfpi-table2.png",
+        "page": 12,
+        "pixel_identical": true,
+        "dimensions": [
+          1200,
+          591
+        ]
+      },
+      {
+        "file": "ees-fig2.png",
+        "page": 13,
+        "pixel_identical": true,
+        "dimensions": [
+          681,
+          699
+        ]
+      },
+      {
+        "file": "ees-table2.png",
+        "page": 14,
+        "pixel_identical": true,
+        "dimensions": [
+          1383,
+          573
+        ]
+      },
+      {
+        "file": "ees-fig4.png",
+        "page": 14,
+        "pixel_identical": true,
+        "dimensions": [
+          681,
+          756
+        ]
+      }
+    ],
+    "all_originals_pixel_identical": true,
+    "all_inline_formula_images_pixel_identical": true,
+    "inline_draw_occurrences": 101
+  },
+  "rendered_pages": [
+    {
+      "page": 1,
+      "sha256": "c891ce830baa8fcbbeef0409e796d94cf1cde6dea4e88ab92574a5f0d40d91b2"
+    },
+    {
+      "page": 2,
+      "sha256": "54609e89e769fcb9c865fb924fc3747b5e9c7e6ccdc25a9938bc3c5d80d8fb1b"
+    },
+    {
+      "page": 3,
+      "sha256": "27b93f703665c2ec2bde568d681d55d60051cf327df8476d57d7a2cfbc065b04"
+    },
+    {
+      "page": 4,
+      "sha256": "63088d10338769ce1b70a0903751113af81f09c3fa0f666a2fcfc42a040a6a00"
+    },
+    {
+      "page": 5,
+      "sha256": "4a4a2d1f2e44867f364245dfc4ffa1ebfc6caec359f6917f3abcb8f1bcadcf9f"
+    },
+    {
+      "page": 6,
+      "sha256": "1113d7ae05431d883a3db9d1ff47b7dc752cb1a74da0f9187acb947cf7a0d5ae"
+    },
+    {
+      "page": 7,
+      "sha256": "cd88049415cea2d8b72d9da66805b778c3d5a1a1403bea843820b13fc8739c6d"
+    },
+    {
+      "page": 8,
+      "sha256": "7d1e70ca09e456c500f8ee9713c780128b4d563c4ec4d01734af441d6f40d3f0"
+    },
+    {
+      "page": 9,
+      "sha256": "833c1a3512df83dc52b16c8be63e7c02efa67e8b1a8607fb4ee3553227af6178"
+    },
+    {
+      "page": 10,
+      "sha256": "a98917badaa3b1fc3ae2d6eba3f73fda69d0d43b7e3f0a6a04e4696e77227f82"
+    },
+    {
+      "page": 11,
+      "sha256": "192e411fdc2d722ca7b4ad9563f70a6289e606ba0491e5b27b1d2e423b62c4ad"
+    },
+    {
+      "page": 12,
+      "sha256": "934311e8609b9cbc3bcb0d7b64609b108ff8abad00a4ed859a74e9e2c25873e0"
+    },
+    {
+      "page": 13,
+      "sha256": "1ddf575807b2760d6a5b4f779c3422a419a582b50441758081db44f1832002b8"
+    },
+    {
+      "page": 14,
+      "sha256": "03841c91283f400e8a91449411ee49a152b10bcfc9f466a3f759684affa3c64d"
+    }
+  ],
+  "visual_inspection_status": "passed",
+  "renderer": {
+    "build_report_sha256": "6427204ed19b8273d28ba419915784d269dd06d468582462d71c5366cdc80a06",
+    "math_render_sha256": "2b2b570c33c983e35d4e9ea1341ea514fd514a272b88c4a6e8fb39d0564b7b12",
+    "render_math_cjs_sha256": "1c767db4c1dac065b3872b9e91b0aa3b2344c192188210d3f56408e200984f5a",
+    "rendering": "pypdfium2 at122.4dpi, pypdf text/images, pdfplumber bounds",
+    "display_height_caps_pt": {
+      "rank-fig8.png": 365,
+      "ees-fig2.png": 235,
+      "ees-fig4.png": 260,
+      "ees-table2.png": 188
+    }
+  },
+  "visual_review": {
+    "rendered_page_count": 14,
+    "method": "Inspected all final-page images in order and checked figure captions, tables, TeX glyphs, code blocks, bounds and footers.",
+    "checked_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "quick_read": {
+    "page": 1,
+    "entries": 5,
+    "internal_links": [
+      {
+        "anchor": "paper-mom",
+        "target_page": 2
+      },
+      {
+        "anchor": "paper-erc",
+        "target_page": 5
+      },
+      {
+        "anchor": "paper-rank",
+        "target_page": 7
+      },
+      {
+        "anchor": "paper-tfpi",
+        "target_page": 10
+      },
+      {
+        "anchor": "paper-ees",
+        "target_page": 12
+      }
+    ]
+  }
+}

@@ -8,7 +8,7 @@
 
 | 方向 | 最新日期 | 主题 | 阅读 | 历史 |
 | --- | --- | --- | --- | --- |
-| [CCF-A/B 论文](CCF_Papers/README.md) | 2026-11-27 | 推理核验与训练解码效率 | [Markdown](CCF_Papers/2026-11-27/report.md) · [PDF](CCF_Papers/2026-11-27/report.pdf) | [按月浏览](CCF_Papers/archive/README.md) |
+| [CCF-A/B 论文](CCF_Papers/README.md) | 2026-11-28 | 低秩训练、专家路由与动态采样 | [Markdown](CCF_Papers/2026-11-28/report.md) · [PDF](CCF_Papers/2026-11-28/report.pdf) | [按月浏览](CCF_Papers/archive/README.md) |
 | [OPD / OPSD](OPSD/README.md) | 2026-11-28 | 教师接管、遮罩自蒸馏与算力对照 | [Markdown](OPSD/2026-11-28/report.md) · [PDF](OPSD/2026-11-28/report.pdf) | [按月浏览](OPSD/archive/README.md) |
 | [VLM 后训练](VLM/README.md) | 2026-11-28 | 遥感证据蒸馏、多图强化学习、视觉词元压缩、进度感知导航与全模态视频后训练 | [Markdown](VLM/2026-11-28/report.md) · [PDF](VLM/2026-11-28/report.pdf) | [按月浏览](VLM/archive/README.md) |
 

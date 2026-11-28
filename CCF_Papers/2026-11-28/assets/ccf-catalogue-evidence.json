@@ -1,0 +1,20 @@
+{
+  "official_announcement": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+  "official_index": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+  "official_binary_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+  "published": "2026-03-31",
+  "erratum": "2026-04-09",
+  "retrieval_note": "Official index search verified final edition. Direct CCF binary returned an access challenge. Used a pinned mirror matching a previously verified final-edition file byte for byte.",
+  "byte_identical_mirror": "https://raw.githubusercontent.com/LovenSar/CCF_RANK/55ca5eae67c26d518c6a8b71ee5827a053086f20/%E7%AC%AC%E4%B8%83%E7%89%88%E4%B8%AD%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%BC%9A%E6%8E%A8%E8%8D%90%E5%9B%BD%E9%99%85%E5%AD%A6%E6%9C%AF%E4%BC%9A%E8%AE%AE%E5%92%8C%E6%9C%9F%E5%88%8A%E7%9B%AE%E5%BD%95%EF%BC%88%E6%AD%A3%E5%BC%8F%E7%89%88%EF%BC%89-CCF-ABC.pdf",
+  "sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+  "ranks": {
+    "ICLR": {
+      "rank": "A",
+      "physical_page": 57
+    },
+    "EMNLP": {
+      "rank": "B",
+      "physical_page": 58
+    }
+  }
+}
